@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑白翻译器</title>
+    <style>
+        /* 主题色定义 */
+        .dark-theme {
+            background: #000;
+            color: #fff;
+        }
+        .dark-theme .container,
+        .dark-theme header,
+        .dark-theme .card {
+            background: #111;
+            color: #fff;
+        }
+        .light-theme {
+            background: #fff;
+            color: #111;
+        }
+        .light-theme .container,
+        .light-theme header,
+        .light-theme .card {
+            background: #fff;
+            color: #111;
+        }
+
+        /* 只让文字相关元素继承主题色 */
+        a, button, .subtitle, .fas, h1, h2, h3, h4, h5, h6, p, span, label, .output {
+            color: inherit;
+        }
+
+        .theme-toggle-btn, .back-home-btn {
+            position: static;
+            border-radius: 5px;
+            color: inherit;
+            padding: 8px 12px;
+            font-size: 0.9rem;
+            background: transparent;
+            margin-left: 8px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .theme-toggle-btn:hover, .back-home-btn:hover {
+            background: #333;
+            color: #fff;
+        }
+        .light-theme .theme-toggle-btn:hover, .light-theme .back-home-btn:hover {
+            background: #f3f3f3;
+            color: #111;
+        }
+        .button-group-fixed {
+            position: static;
+            top: unset;
+            right: unset;
+            z-index: unset;
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        textarea, .output {
+            color: inherit;
+            border-color: #444;
+            background: transparent;
+        }
+
+        button:hover {
+            background: #333;
+            border-color: #666;
+            color: inherit;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 480px;
+            margin: 40px auto 0 auto;
+            padding: 0 16px 32px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        header {
+            text-align: center;
+            padding: 24px 0 12px 0;
+            border-radius: 12px;
+            margin-bottom: 0;
+        }
+        .button-group-fixed {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+            margin-bottom: 12px;
+        }
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+            padding: 24px 18px 18px 18px;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .card h2 {
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        textarea {
+            width: 100%;
+            min-height: 80px;
+            resize: vertical;
+            border-radius: 6px;
+            padding: 8px;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+        .controls {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .output {
+            min-height: 40px;
+            border-radius: 6px;
+            padding: 8px;
+            font-size: 1rem;
+            background: rgba(0,0,0,0.03);
+        }
+        @media (max-width: 600px) {
+            .container {
+                max-width: 100%;
+                padding: 0 4px 24px 4px;
+            }
+            .card {
+                padding: 16px 6px 12px 6px;
+            }
+            header {
+                padding: 16px 0 8px 0;
+            }
+        }
+    </style>
+</head>
+<body class="dark-theme">
+    <div class="container">
+        <div class="button-group-fixed">
+            <button class="theme-toggle-btn" onclick="toggleTheme()">黑白</button>
+            <button class="back-home-btn" onclick="location.href='index.html'">首页</button>
+        </div>
+        <header>
+            <h1><i class="fas fa-language"></i> 黑白翻译器</h1>
+            <p class="subtitle">经典像素风格翻译工具</p>
+        </header>
+        
+        <div class="card">
+            <h2>输入文本</h2>
+            <textarea placeholder="输入要翻译的文本..."></textarea>
+            <div class="controls">
+                <button onclick="translateText()">翻译</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>翻译结果</h2>
+            <div class="output" id="result">等待翻译...</div>
+        </div>
+    </div>
+
+    <script>
+        // 主题切换函数
+        function toggleTheme() {
+            const body = document.body;
+            const isDark = body.classList.contains('dark-theme');
+            
+            // 切换主题类
+            body.classList.toggle('dark-theme', !isDark);
+            body.classList.toggle('light-theme', isDark);
+            
+            // 保存主题状态到localStorage
+            localStorage.setItem('theme', isDark ? 'light' : 'dark');
+            
+            // 更新按钮文本
+            document.querySelector('.theme-toggle-btn').textContent = isDark ? '白黑' : '黑白';
+        }
+
+        // 页面加载时初始化主题
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const body = document.body;
+            
+            body.classList.remove('dark-theme', 'light-theme');
+            body.classList.add(savedTheme === 'dark' ? 'dark-theme' : 'light-theme');
+            
+            document.querySelector('.theme-toggle-btn').textContent = 
+                savedTheme === 'dark' ? '黑白' : '白黑';
+        });
+
+        function translateText() {
+            const input = document.querySelector('textarea').value;
+            const result = document.getElementById('result');
+            
+            // 简单的字符反转作为示例翻译
+            result.textContent = input.split('').reverse().join('');
+        }
+    </script>
+</body>
+</html>

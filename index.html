@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>口袋工具集</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', monospace;
+        }
+    
+        body {
+            min-height: 100vh;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .container {
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    
+        header {
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #444;
+        }
+    
+        .nav-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+    
+        .nav-card {
+            flex: 1 1 calc(50% - 10px);
+            border: 2px solid #444;
+            border-radius: 5px;
+            padding: 20px;
+            transition: all 0.2s ease;
+            text-align: center;
+            cursor: pointer;
+            min-height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-decoration: none;
+        }
+    
+        .nav-card:hover {
+            border-color: #666;
+        }
+    
+        .nav-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    
+        @media (max-width: 768px) {
+            .nav-card {
+                flex: 1 1 100%;
+            }
+        }
+    
+    /* 主题切换样式 */
+    .dark-theme {
+        background: #000;
+        color: white;
+    }
+    .dark-theme header,
+    .dark-theme .nav-card {
+        background: #111;
+        color: white;
+    }
+    .dark-theme .nav-card:hover {
+        background: #222;
+    }
+    
+    .light-theme {
+        background: #fff;
+        color: #111;
+    }
+    .light-theme header,
+    .light-theme .nav-card {
+        background: #fff;
+        color: #111;
+    }
+    .light-theme .nav-card:hover {
+        background: #f3f3f3;
+    }
+
+    /* 只让文字相关元素继承主题色 */
+    a, button, .nav-title, .nav-desc, .stat-card, .map-overlay, .nav-icon, .subtitle, h1, h2, h3, h4, h5, h6, p, span, label {
+        color: inherit;
+    }
+
+    .theme-toggle-btn, .back-home-btn {
+        position: static;
+        border-radius: 5px;
+        color: inherit;
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        background: transparent;
+        margin-left: 8px;
+        transition: background 0.2s, color 0.2s;
+    }
+    .theme-toggle-btn:hover, .back-home-btn:hover {
+        background: #333;
+        color: #fff;
+    }
+    .light-theme .theme-toggle-btn:hover, .light-theme .back-home-btn:hover {
+        background: #f3f3f3;
+        color: #111;
+    }
+    .button-group-fixed {
+        position: static;
+        top: unset;
+        right: unset;
+        z-index: unset;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+</style>
+</head>
+<body class="dark-theme">
+    <div class="container">
+        <div class="button-group-fixed">
+            <button class="theme-toggle-btn" onclick="toggleTheme()">黑白</button>
+            <button class="back-home-btn" onclick="location.href='index.html'">首页</button>
+        </div>
+        <header>
+            <h1><i class="fas fa-toolbox"></i> 口袋工具集</h1>
+            <p class="subtitle">轻量级实用工具集合</p>
+        </header>
+        
+        <div class="nav-grid">
+            <a href="speed-per-hour.html" class="nav-card">
+                <div class="nav-icon"><i class="fas fa-tachometer-alt"></i></div>
+                <div class="nav-title">运动时速检测</div>
+                <div class="nav-desc">实时定位速度监测</div>
+            </a>
+            
+            <a href="translate.html" class="nav-card">
+                <div class="nav-icon"><i class="fas fa-language"></i></div>
+                <div class="nav-title">即时翻译</div>
+                <div class="nav-desc">多语言互译工具</div>
+            </a>
+            
+            <!-- 未来扩展入口 -->
+            <div class="nav-card" style="visibility: hidden;">
+                <div class="nav-icon"><i class="fas fa-plus"></i></div>
+                <div class="nav-title">更多功能</div>
+                <div class="nav-desc">即将上线</div>
+            </div>
+        </div>
+    </div>
+<script>
+    // 主题切换函数
+    function toggleTheme() {
+        const body = document.body;
+        const isDark = body.classList.contains('dark-theme');
+        
+        // 切换主题类
+        body.classList.toggle('dark-theme', !isDark);
+        body.classList.toggle('light-theme', isDark);
+        
+        // 保存主题状态到localStorage
+        localStorage.setItem('theme', isDark ? 'light' : 'dark');
+        
+        // 更新按钮文本
+        document.querySelector('.theme-toggle-btn').textContent = isDark ? '白黑' : '黑白';
+    }
+
+    // 页面加载时初始化主题
+    document.addEventListener('DOMContentLoaded', () => {
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const body = document.body;
+        
+        body.classList.remove('dark-theme', 'light-theme');
+        body.classList.add(savedTheme === 'dark' ? 'dark-theme' : 'light-theme');
+        
+        document.querySelector('.theme-toggle-btn').textContent = 
+            savedTheme === 'dark' ? '黑白' : '白黑';
+    });
+</script>
+</body>
+</html>
+
+
+

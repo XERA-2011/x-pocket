@@ -1,140 +1,47 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Sponsors } from '@/components/Sponsors';
+'use client';
+// 需要安装 react-icons: npm install react-icons
+import Link from 'next/link';
+import { FaLanguage, FaPlus, FaTachometerAlt, FaToolbox } from 'react-icons/fa';
 
-type IIndexProps = {
-  params: Promise<{ locale: string }>;
-};
-
-export async function generateMetadata(props: IIndexProps) {
-  const { locale } = await props.params;
-  const t = await getTranslations({
-    locale,
-    namespace: 'Index',
-  });
-
-  return {
-    title: t('meta_title'),
-    description: t('meta_description'),
-  };
-}
-
-export default async function Index(props: IIndexProps) {
-  const { locale } = await props.params;
-  setRequestLocale(locale);
-  const t = await getTranslations({
-    locale,
-    namespace: 'Index',
-  });
-
+export default function Index() {
   return (
-    <>
-      <p>
-        {`Follow `}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://x.com"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          𝕏
-        </a>
-        {` for updates and more information about the boilerplate.`}
-      </p>
-      <h2 className="mt-5 text-2xl font-bold">
-        Boilerplate Code for Your Next.js Project with Tailwind CSS
-      </h2>
-      <p className="text-base">
-        Next.js Boilerplate is a developer-friendly starter code for Next.js projects, built with Tailwind CSS and TypeScript.
-        {' '}
-        <span role="img" aria-label="zap">
-          ⚡️
-        </span>
-        {' '}
-        Designed with developer experience in mind, it includes:
-      </p>
-      <ul className="mt-3 text-base">
-        <li>🚀 Next.js with App Router support</li>
-        <li>🔥 TypeScript for type checking</li>
-        <li>💎 Tailwind CSS integration</li>
-        <li>
-          🔒 Authentication with
-          {' '}
-          <a
-            className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
-            href="https://clerk.com?utm_source=github&amp;utm_medium=sponsorship&amp;utm_campaign=nextjs-boilerplate"
+    <div className="min-h-screen flex flex-col items-center px-2 py-4 bg-white transition-colors duration-200">
+      <div className="w-full max-w-2xl flex flex-col gap-4">
+        {/* 头部 */}
+        <header className="text-center p-4 rounded border border-gray-400 bg-white">
+          <h1 className="text-2xl font-bold flex items-center justify-center gap-2 text-black">
+            <FaToolbox className="inline-block text-2xl" />
+            {' '}
+            口袋工具集
+          </h1>
+          <p className="subtitle text-gray-600 mt-2">轻量级实用工具集合</p>
+        </header>
+        {/* 卡片导航 */}
+        <div className="nav-grid flex flex-wrap gap-4">
+          <Link
+            href="/speed-per-hour"
+            className="nav-card flex-1 min-w-[45%] border-2 border-gray-400 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-gray-600 bg-white hover:bg-gray-100 min-h-[130px] no-underline"
           >
-            Clerk
-          </a>
-          {' '}
-          (includes passwordless, social, and multi-factor auth)
-        </li>
-        <li>📦 ORM with DrizzleORM (PostgreSQL, SQLite, MySQL support)</li>
-        <li>
-          💽 Dev database with PGlite and production with
-          {' '}
-          <a
-            className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
-            href="https://www.prisma.io/?via=nextjsindex"
+            <div className="nav-icon text-3xl mb-2"><FaTachometerAlt /></div>
+            <div className="nav-title font-semibold">运动时速检测</div>
+            <div className="nav-desc text-gray-500">实时定位速度监测</div>
+          </Link>
+          <Link
+            href="/translate"
+            className="nav-card flex-1 min-w-[45%] border-2 border-gray-400 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-gray-600 bg-white hover:bg-gray-100 min-h-[130px] no-underline"
           >
-            Prisma PostgreSQL
-          </a>
-        </li>
-        <li>
-          🌐 Multi-language support (i18n) with next-intl and
-          {' '}
-          <a
-            className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
-            href="https://l.crowdin.com/next-js"
-          >
-            Crowdin
-          </a>
-        </li>
-        <li>🔴 Form handling (React Hook Form) and validation (Zod)</li>
-        <li>📏 Linting and formatting (ESLint, Prettier)</li>
-        <li>🦊 Git hooks and commit linting (Husky, Commitlint)</li>
-        <li>🦺 Testing suite (Vitest, React Testing Library, Playwright)</li>
-        <li>🎉 Storybook for UI development</li>
-        <li>
-          🐰 AI-powered code reviews with
-          {' '}
-          <a
-            className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
-            href="https://www.coderabbit.ai?utm_source=next_js_starter&utm_medium=github&utm_campaign=next_js_starter_oss_2025"
-          >
-            CodeRabbit
-          </a>
-        </li>
-        <li>
-          🚨 Error monitoring (
-          <a
-            className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
-            href="https://sentry.io/for/nextjs/?utm_source=github&amp;utm_medium=paid-community&amp;utm_campaign=general-fy25q1-nextjs&amp;utm_content=github-banner-nextjsboilerplate-logo"
-          >
-            Sentry
-          </a>
-          ) and logging (Pino.js)
-        </li>
-        <li>🖥️ Monitoring as Code (Checkly)</li>
-        <li>
-          🔐 Security and bot protection (
-          <a
-            className="font-bold text-blue-700 hover:border-b-2 hover:border-blue-700"
-            href="https://launch.arcjet.com/Q6eLbRE"
-          >
-            Arcjet
-          </a>
-          )
-        </li>
-        <li>🤖 SEO optimization (metadata, JSON-LD, Open Graph tags)</li>
-        <li>⚙️ Development tools (VSCode config, bundler analyzer, changelog generation)</li>
-      </ul>
-      <p className="text-base">
-        Our sponsors&apos; exceptional support has made this project possible.
-        Their services integrate seamlessly with the boilerplate, and we
-        recommend trying them out.
-      </p>
-      <h2 className="mt-5 text-2xl font-bold">{t('sponsors_title')}</h2>
-      <Sponsors />
-    </>
+            <div className="nav-icon text-3xl mb-2"><FaLanguage /></div>
+            <div className="nav-title font-semibold">即时翻译</div>
+            <div className="nav-desc text-gray-500">多语言互译工具</div>
+          </Link>
+          {/* 预留卡片，隐藏 */}
+          <div className="nav-card flex-1 min-w-[45%] border-2 border-gray-400 rounded p-5 text-center flex flex-col items-center justify-center min-h-[130px] invisible">
+            <div className="nav-icon text-3xl mb-2"><FaPlus /></div>
+            <div className="nav-title font-semibold">更多功能</div>
+            <div className="nav-desc text-gray-500">即将上线</div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
-};
+}

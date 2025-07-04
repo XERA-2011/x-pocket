@@ -8,7 +8,7 @@ const localePrefix: LocalePrefixMode = 'as-needed';
 export const AppConfig = {
   name: 'XERA-2011',
   locales: ['zh', 'en', 'fr'],
-  defaultLocale: 'en',
+  defaultLocale: 'zh',
   localePrefix,
 };
 

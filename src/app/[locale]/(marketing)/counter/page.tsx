@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import Image from 'next/image';
 import { Suspense } from 'react';
 import { CounterForm } from '@/components/CounterForm';
 import { CurrentCount } from '@/components/CurrentCount';
@@ -33,7 +32,7 @@ export default function Counter() {
         </Suspense>
       </div>
 
-      <div className="mt-5 text-center text-sm">
+      {/* <div className="mt-5 text-center text-sm">
         {`${t('security_powered_by')} `}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
@@ -41,9 +40,9 @@ export default function Counter() {
         >
           Arcjet
         </a>
-      </div>
+      </div> */}
 
-      <a
+      {/* <a
         href="https://launch.arcjet.com/Q6eLbRE"
       >
         <Image
@@ -53,7 +52,7 @@ export default function Counter() {
           width={128}
           height={38}
         />
-      </a>
+      </a> */}
     </>
   );
 };

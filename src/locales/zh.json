@@ -8,12 +8,12 @@
     "sign_up_link": "注册"
   },
   "BaseTemplate": {
-    "description": "Next.js 启动代码，使用 Tailwind CSS",
+    "description": "口袋宇宙",
     "made_with": "使用 <author></author> 创建。"
   },
   "Index": {
-    "meta_title": "Next.js 启动代码",
-    "meta_description": "Next.js 启动代码，使用 Tailwind CSS",
+    "meta_title": "x-pocket",
+    "meta_description": "x-pocket，口袋宇宙",
     "sponsors_title": "赞助商"
   },
   "Counter": {

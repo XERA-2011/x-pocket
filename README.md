@@ -1,4 +1,4 @@
-# x-pocket
+# X-POCKET
 
 > [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)
 

@@ -29,8 +29,6 @@ export default async function Portfolio(props: IPortfolioProps) {
 
   return (
     <>
-      <p>{t('presentation')}</p>
-
       <div className="grid grid-cols-1 justify-items-start gap-3 md:grid-cols-2 xl:grid-cols-3">
         {Array.from(Array.from({ length: 6 }).keys()).map(elt => (
           <Link

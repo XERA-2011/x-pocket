@@ -6,7 +6,7 @@ const localePrefix: LocalePrefixMode = 'as-needed';
 
 // FIXME: Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'XERA-2011',
+  name: 'X-POCKET',
   locales: ['zh', 'en', 'fr'],
   defaultLocale: 'zh',
   localePrefix,

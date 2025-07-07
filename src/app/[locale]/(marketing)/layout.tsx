@@ -1,7 +1,8 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
+import { FaGithub, FaHome, FaInfoCircle, FaSignInAlt, FaUserPlus } from 'react-icons/fa';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
-import { BaseTemplate } from '@/templates/BaseTemplate';
+import { HomeTemplate } from '@/templates/HomeTemplate';
 
 export default async function Layout(props: {
   children: React.ReactNode;
@@ -16,71 +17,37 @@ export default async function Layout(props: {
 
   return (
     <>
-      <BaseTemplate
-        leftNav={(
-          <>
-            <li>
-              <Link
-                href="/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('home_link')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('about_link')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/counter/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('counter_link')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/portfolio/"
-                className="border-none text-gray-700 hover:text-gray-900"
-              >
-                {t('portfolio_link')}
-              </Link>
-            </li>
-            <li>
-              <a
-                className="border-none text-gray-700 hover:text-gray-900"
-                href="https://github.com/XERA-2011/x-pocket"
-              >
-                GitHub
-              </a>
-            </li>
-          </>
-        )}
+      <HomeTemplate
         rightNav={(
           <>
             <li>
+              <Link href="/" className="border-none hover:text-neutral-400" title="首页"><FaHome className="text-white" /></Link>
+            </li>
+            <li>
+              <Link href="/about/" className="border-none hover:text-neutral-400" title="关于"><FaInfoCircle className="text-white" /></Link>
+            </li>
+            <li>
               <Link
                 href="/sign-in/"
-                className="border-none text-gray-700 hover:text-gray-900"
+                className="border-none hover:text-neutral-400"
+                title={t('sign_in_link')}
               >
-                {t('sign_in_link')}
+                <FaSignInAlt className="text-white" />
               </Link>
             </li>
 
             <li>
               <Link
                 href="/sign-up/"
-                className="border-none text-gray-700 hover:text-gray-900"
+                className="border-none hover:text-neutral-400"
+                title={t('sign_up_link')}
               >
-                {t('sign_up_link')}
+                <FaUserPlus className="text-white" />
               </Link>
             </li>
-
+            <li>
+              <a className="border-none hover:text-neutral-400" href="https://github.com/XERA-2011/x-pocket" title="GitHub"><FaGithub className="text-white" /></a>
+            </li>
             <li>
               <LocaleSwitcher />
             </li>
@@ -88,7 +55,7 @@ export default async function Layout(props: {
         )}
       >
         <div className="py-5 text-xl [&_p]:my-6">{props.children}</div>
-      </BaseTemplate>
+      </HomeTemplate>
     </>
   );
 }

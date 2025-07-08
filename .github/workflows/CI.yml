@@ -133,7 +133,6 @@ jobs:
     strategy:
       matrix:
         node-version: [22.x]
-    continue-on-error: true
     name: Run E2E tests
     runs-on: ubuntu-latest
     needs: [build]

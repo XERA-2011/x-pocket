@@ -16,11 +16,11 @@ export default function TranslatePage() {
       <div className="container max-w-md w-full flex flex-col gap-6">
         {/* 标题 */}
         <header className="text-center py-6 rounded mb-0">
-          <h1 className="text-2xl font-bold flex items-center justify-center gap-2">
+          <h2 className="text-2xl font-bold flex items-center justify-center gap-2">
             <FaLanguage />
             {' '}
             翻译器
-          </h1>
+          </h2>
         </header>
         {/* 输入卡片 */}
         <div className="card rounded-xl shadow p-6 flex flex-col gap-3 bg-neutral-900">

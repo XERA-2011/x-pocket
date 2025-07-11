@@ -1,6 +1,6 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+// import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
-import { FaGithub, FaHome, FaInfoCircle, FaSignInAlt, FaUserPlus } from 'react-icons/fa';
+import { FaGithub, FaHome } from 'react-icons/fa';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { HomeTemplate } from '@/templates/HomeTemplate';
 
@@ -8,12 +8,12 @@ export default async function Layout(props: {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await props.params;
-  setRequestLocale(locale);
-  const t = await getTranslations({
-    locale,
-    namespace: 'RootLayout',
-  });
+  // const { locale } = await props.params;
+  // setRequestLocale(locale);
+  // const t = await getTranslations({
+  //   locale,
+  //   namespace: 'RootLayout',
+  // });
 
   return (
     <>
@@ -23,10 +23,7 @@ export default async function Layout(props: {
             <li>
               <Link href="/" className="border-none hover:text-neutral-400" title="首页"><FaHome className="text-white" /></Link>
             </li>
-            <li>
-              <Link href="/about/" className="border-none hover:text-neutral-400" title="关于"><FaInfoCircle className="text-white" /></Link>
-            </li>
-            <li>
+            {/* <li>
               <Link
                 href="/sign-in/"
                 className="border-none hover:text-neutral-400"
@@ -44,7 +41,7 @@ export default async function Layout(props: {
               >
                 <FaUserPlus className="text-white" />
               </Link>
-            </li>
+            </li> */}
             <li>
               <a className="border-none hover:text-neutral-400" href="https://github.com/XERA-2011/x-pocket" title="GitHub"><FaGithub className="text-white" /></a>
             </li>

@@ -78,7 +78,7 @@ export default function Home() {
 
   return (
     <div className="max-w-xl mx-auto my-10 p-4">
-      <h1 className="text-2xl font-semibold mb-6">Google Gemini 模型测试</h1>
+      <h2 className="text-2xl font-semibold mb-6">Google Gemini 模型测试</h2>
 
       <label htmlFor="api-key-input" className="block mb-1">API Key：</label>
       <input
@@ -101,7 +101,7 @@ export default function Home() {
                 id="model-select"
                 value={selectedModel}
                 onChange={e => setSelectedModel(e.target.value)}
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border rounded bg-black"
               >
                 {models.map(m => (
                   <option key={m.name} value={m.name}>

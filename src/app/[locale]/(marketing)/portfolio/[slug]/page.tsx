@@ -40,7 +40,7 @@ export default async function PortfolioDetail(props: IPortfolioDetailProps) {
 
   return (
     <>
-      <h1 className="capitalize">{t('header', { slug })}</h1>
+      <h2 className="capitalize">{t('header', { slug })}</h2>
       <p>{t('content')}</p>
 
       <div className="mt-5 text-center text-sm">

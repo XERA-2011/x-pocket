@@ -169,11 +169,11 @@ export default function SpeedPage() {
       <div className="w-full max-w-3xl flex flex-col gap-4">
         {/* 标题 */}
         <header className="text-center p-4 border rounded mb-2">
-          <h1 className="text-2xl font-bold flex items-center justify-center gap-2">
+          <h2 className="text-2xl font-bold flex items-center justify-center gap-2">
             <FaTachometerAlt />
             {' '}
             时速检测
-          </h1>
+          </h2>
           <p className="subtitle text-neutral-400 mt-1">利用浏览器定位功能实时检测您的运动速度 - 适用于跑步、骑行、驾车等场景</p>
         </header>
         {/* 主体仪表盘 */}

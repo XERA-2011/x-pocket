@@ -10,21 +10,18 @@ export const HomeTemplate = (props: {
   return (
     <div className="w-full px-1 antialiased">
       <div className="mx-auto max-w-screen-md relative">
-        {/* 右上角按钮 */}
-        {props.rightNav && (
-          <div className="absolute top-6 right-0 z-10">
-            <nav>
-              <ul className="flex flex-wrap gap-x-5 text-xl">
-                {props.rightNav}
-              </ul>
-            </nav>
-          </div>
-        )}
         <header className="border-b border-neutral-800">
-          <div className="pb-8 pt-16">
+          <div className="flex items-center justify-between pb-8 pt-8">
             <h1 className="text-3xl font-bold">
               {AppConfig.name}
             </h1>
+            {props.rightNav && (
+              <nav>
+                <ul className="flex flex-wrap items-center gap-x-5 text-xl">
+                  {props.rightNav}
+                </ul>
+              </nav>
+            )}
           </div>
         </header>
 

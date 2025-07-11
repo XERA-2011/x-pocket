@@ -51,18 +51,24 @@ export async function POST(request: Request) {
   }
 
   try {
-    // 3. 调用 Google Gemini REST 接口
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
-    const resp = await fetch(endpoint, {
+    logger.info('准备发起 fetch 请求');
+    // 3. 调用 Google Gemini REST 接口（fetch 方式）
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
+    const fetchOptions: any = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        prompt: { text: prompt },
-        temperature,
-        maxOutputTokens,
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: {
+          temperature,
+          maxOutputTokens,
+        },
       }),
-    });
+    };
+    const resp = await fetch(endpoint, fetchOptions);
+    logger.info('fetch 请求已完成');
 
+    let fetchResult = '';
     if (!resp.ok) {
       const text = await resp.text();
       logger.error('调用 Google API 失败', {
@@ -70,28 +76,45 @@ export async function POST(request: Request) {
         statusText: resp.statusText,
         body: text,
       });
-      return NextResponse.json(
-        {
-          error: `第三方 API 返回错误 ${resp.status}`,
-          details: text,
-        },
-        { status: 502 },
-      );
+      fetchResult = `第三方 API 返回错误 ${resp.status}: ${text}`;
+    } else {
+      const data = await resp.json();
+      fetchResult = data.candidates?.[0]?.content?.parts?.[0]?.text ?? '';
+      logger.info('成功获取 Google 文本', { promptLength: prompt.length });
     }
 
-    const data = await resp.json();
-    const generated = data.candidates?.[0]?.content ?? '';
-    logger.info('成功获取 Google 文本', { promptLength: prompt.length });
-    return NextResponse.json({ text: generated });
+    logger.info('API 返回结果', { fetchResult });
+    return NextResponse.json({
+      fetchResult,
+    });
   } catch (e: any) {
+    logger.error('主流程异常', { message: e?.message, stack: e?.stack, error: e });
+    console.error('主流程异常', e);
+    // 提取所有属性
+    let extraErrorProps: Record<string, unknown> = {};
+    if (typeof e === 'object' && e !== null) {
+      extraErrorProps = Object.entries(e).reduce((acc: Record<string, unknown>, [k, v]) => {
+        acc[`err_${k}`] = v;
+        return acc;
+      }, {});
+    }
     logger.error('处理 /api/google 时抛出异常', {
-      message: e.message,
-      stack: e.stack,
+      message: e?.message,
+      stack: e?.stack,
+      name: e?.name,
+      error: e,
+      toString: e?.toString?.(),
+      ...extraErrorProps,
     });
     return NextResponse.json(
       {
         error: '处理请求时发生异常',
-        message: e.message,
+        message: e?.message,
+        stack: e?.stack,
+        name: e?.name,
+        errorObj: e,
+        toString: e?.toString?.(),
+        ...extraErrorProps,
       },
       { status: 500 },
     );

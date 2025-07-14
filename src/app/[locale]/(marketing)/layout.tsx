@@ -1,6 +1,6 @@
 // import { getTranslations, setRequestLocale } from 'next-intl/server';
-import Link from 'next/link';
-import { FaGithub, FaHome } from 'react-icons/fa';
+// import Link from 'next/link';
+import { FaGithub } from 'react-icons/fa';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { HomeTemplate } from '@/templates/HomeTemplate';
 
@@ -20,9 +20,9 @@ export default async function Layout(props: {
       <HomeTemplate
         rightNav={(
           <>
-            <li>
+            {/* <li>
               <Link href="/" className="border-none hover:text-neutral-400" title="首页"><FaHome className="text-white" /></Link>
-            </li>
+            </li> */}
             {/* <li>
               <Link
                 href="/sign-in/"

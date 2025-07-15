@@ -21,9 +21,6 @@ export default async function Layout(props: {
         rightNav={(
           <>
             {/* <li>
-              <Link href="/" className="border-none hover:text-neutral-400" title="首页"><FaHome className="text-white" /></Link>
-            </li> */}
-            {/* <li>
               <Link
                 href="/sign-in/"
                 className="border-none hover:text-neutral-400"

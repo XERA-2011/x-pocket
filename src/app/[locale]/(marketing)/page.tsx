@@ -1,7 +1,7 @@
 'use client';
 // 需要安装 react-icons: npm install react-icons
 import Link from 'next/link';
-import { FaCalculator, FaComment, FaFolderOpen, FaLanguage, FaPlus, FaRobot, FaTachometerAlt } from 'react-icons/fa';
+import { FaLanguage, FaPlus, FaRobot, FaTachometerAlt } from 'react-icons/fa';
 
 export default function Index() {
   return (
@@ -9,13 +9,6 @@ export default function Index() {
       <div className="w-full max-w-2xl flex flex-col gap-4">
         {/* 卡片导航 */}
         <div className="nav-grid flex flex-wrap gap-4">
-          <Link
-            href="/chat"
-            className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
-          >
-            <div className="nav-icon text-3xl mb-2"><FaComment /></div>
-            <div className="nav-title font-semibold">AI对话</div>
-          </Link>
           <Link
             href="/ai"
             className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
@@ -37,22 +30,7 @@ export default function Index() {
             <div className="nav-icon text-3xl mb-2"><FaLanguage /></div>
             <div className="nav-title font-semibold">即时翻译</div>
           </Link>
-          <Link
-            href="/counter"
-            className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
-          >
-            <div className="nav-icon text-3xl mb-2"><FaCalculator /></div>
-            <div className="nav-title font-semibold">计数器</div>
-          </Link>
-          <Link
-            href="/portfolio"
-            className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
-          >
-            <div className="nav-icon text-3xl mb-2"><FaFolderOpen /></div>
-            <div className="nav-title font-semibold">作品集</div>
-          </Link>
-          {/* 预留卡片，隐藏 */}
-          <div className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center flex flex-col items-center justify-center min-h-[130px] invisible bg-neutral-900">
+          <div className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center flex flex-col items-center justify-center min-h-[130px] bg-neutral-900">
             <div className="nav-icon text-3xl mb-2"><FaPlus /></div>
             <div className="nav-title font-semibold">更多功能</div>
           </div>

@@ -1,5 +1,6 @@
 'use client';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { FiSend } from 'react-icons/fi';
 
 export default function Home() {
   const [apiKey, setApiKey] = useState('');
@@ -8,6 +9,8 @@ export default function Home() {
   const [selectedModel, setSelectedModel] = useState('');
   const [prompt, setPrompt] = useState('');
   const [result, setResult] = useState('等待调用...');
+  const [displayedResult, setDisplayedResult] = useState('等待调用...');
+  const typingIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   // Fetch models function extracted to avoid direct state setting in useEffect
   const fetchModels = useCallback(async (key: string) => {
@@ -30,16 +33,50 @@ export default function Home() {
 
   // Load available models when apiKey changes
   useEffect(() => {
-    const key = apiKey || process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
-    if (!key) {
+    if (!apiKey) {
       return;
     }
-    fetchModels(key);
+    fetchModels(apiKey);
   }, [apiKey, fetchModels]);
 
+  // 打字机效果：逐字显示 result
+  useEffect(() => {
+    if (typeof result !== 'string') {
+      return;
+    }
+    if (typingIntervalRef.current) {
+      clearInterval(typingIntervalRef.current);
+    }
+    let i = 0;
+    // 先清空再开始打字机效果，避免直接setState
+    const timeoutId = setTimeout(() => {
+      setDisplayedResult('');
+      typingIntervalRef.current = setInterval(() => {
+        setDisplayedResult((_) => {
+          if (i >= result.length) {
+            if (typingIntervalRef.current) {
+              clearInterval(typingIntervalRef.current);
+            }
+            return result;
+          }
+          const next = result.slice(0, i + 1);
+          i++;
+          return next;
+        });
+      }, 18);
+    }, 0);
+
+    // 清理定时器和timeout
+    return () => {
+      if (typingIntervalRef.current) {
+        clearInterval(typingIntervalRef.current);
+      }
+      clearTimeout(timeoutId);
+    };
+  }, [result]);
+
   const handleGenerate = async () => {
-    const key = apiKey || process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
-    if (!key || !prompt || !selectedModel) {
+    if (!apiKey || !prompt || !selectedModel) {
       setResult('请填写 API Key，选择模型并输入 Prompt');
       return;
     }
@@ -47,7 +84,7 @@ export default function Home() {
 
     try {
       const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/${selectedModel}:generateContent?key=${key}`,
+        `https://generativelanguage.googleapis.com/v1beta/${selectedModel}:generateContent?key=${apiKey}`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -66,7 +103,16 @@ export default function Home() {
       }
 
       const json = await res.json();
-      setResult(JSON.stringify(json, null, 2));
+      // 只显示AI返回的内容
+      let aiText = '';
+      if (json.candidates && Array.isArray(json.candidates) && json.candidates[0]?.content?.parts?.[0]?.text) {
+        aiText = json.candidates[0].content.parts[0].text;
+      } else if (json.candidates && Array.isArray(json.candidates) && json.candidates[0]?.content?.parts?.[0]) {
+        aiText = json.candidates[0].content.parts[0];
+      } else {
+        aiText = JSON.stringify(json, null, 2);
+      }
+      setResult(aiText);
     } catch (err) {
       if (err instanceof Error) {
         setResult(`调用失败：\n${err.message}`);
@@ -86,7 +132,7 @@ export default function Home() {
         type="text"
         value={apiKey}
         onChange={e => setApiKey(e.target.value)}
-        placeholder="输入 API Key 或设置 NEXT_PUBLIC_GOOGLE_API_KEY"
+        placeholder="请输入 Google API Key"
         className="w-full p-2 border rounded mb-4"
       />
 
@@ -125,13 +171,16 @@ export default function Home() {
       <button
         type="button"
         onClick={handleGenerate}
-        className="px-4 py-2 rounded shadow hover:shadow-md transition"
+        className="flex items-center justify-center gap-2 w-full px-4 py-2 rounded shadow hover:shadow-md transition bg-white text-black font-semibold"
       >
-        发送请求
+        <span className="flex items-center">
+          <FiSend className="h-5 w-5 mr-1" />
+          发送请求
+        </span>
       </button>
 
       <h2 className="mt-6 mb-2">Response:</h2>
-      <pre className="p-4 rounded overflow-x-auto mb-4">{result}</pre>
+      <pre className="p-4 rounded overflow-x-auto mb-4 whitespace-pre-wrap">{displayedResult}</pre>
     </div>
   );
 }

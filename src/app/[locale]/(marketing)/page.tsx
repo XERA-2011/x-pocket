@@ -1,7 +1,8 @@
 'use client';
 // 需要安装 react-icons: npm install react-icons
 import Link from 'next/link';
-import { FaLanguage, FaPlus, FaRobot, FaTachometerAlt } from 'react-icons/fa';
+import { FaLanguage, FaPlus, FaTachometerAlt } from 'react-icons/fa';
+import { SiBytedance, SiGoogle } from 'react-icons/si';
 
 export default function Index() {
   return (
@@ -10,11 +11,18 @@ export default function Index() {
         {/* 卡片导航 */}
         <div className="nav-grid flex flex-wrap gap-4">
           <Link
-            href="/ai"
+            href="/coze"
             className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
           >
-            <div className="nav-icon text-3xl mb-2"><FaRobot /></div>
-            <div className="nav-title font-semibold">AI工具</div>
+            <div className="nav-icon text-3xl mb-2"><SiBytedance /></div>
+            <div className="nav-title font-semibold">COZE AI</div>
+          </Link>
+          <Link
+            href="/google"
+            className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
+          >
+            <div className="nav-icon text-3xl mb-2"><SiGoogle /></div>
+            <div className="nav-title font-semibold">Google AI</div>
           </Link>
           <Link
             href="/speed"

@@ -15,17 +15,19 @@ export const HomeTemplate = (props: {
           <Link href="/" className="text-3xl font-bold text-center block hover:opacity-80 transition">
             {AppConfig.name}
           </Link>
-          {props.rightNav && (
-            <nav className="absolute right-4 bottom-2">
-              <ul className="flex flex-wrap items-center gap-x-5 text-xl">
-                {props.rightNav}
-              </ul>
-            </nav>
-          )}
         </header>
         <main>{props.children}</main>
         <footer className="border-t border-neutral-800 py-8 text-center text-sm text-neutral-400">
-          {`© Copyright ${new Date().getFullYear()} ${AppConfig.name} `}
+          <div className="flex flex-col items-center gap-2">
+            <span>{`© Copyright ${new Date().getFullYear()} ${AppConfig.name} `}</span>
+            {props.rightNav && (
+              <nav>
+                <ul className="flex flex-wrap items-center gap-x-5 text-xl">
+                  {props.rightNav}
+                </ul>
+              </nav>
+            )}
+          </div>
         </footer>
       </div>
     </div>

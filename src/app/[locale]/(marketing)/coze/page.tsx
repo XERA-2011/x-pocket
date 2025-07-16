@@ -1,25 +1,64 @@
 'use client';
-import { useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 
 export default function CozeApiPage() {
   // 状态管理
   const [formData, setFormData] = useState({
     token: '',
     botId: '',
-    message: '你好，请介绍一下自己',
+    message: '你是谁?',
   });
+
+  // 页面挂载后再读取 localStorage，避免 SSR/首次渲染报错
+  const didInitRef = useRef(false);
+  useLayoutEffect(() => {
+    if (didInitRef.current) {
+      return;
+    }
+    didInitRef.current = true;
+    if (typeof window === 'undefined') {
+      return;
+    }
+    const stored = localStorage.getItem('coze_form_data');
+    let token = '';
+    let botId = '';
+    if (stored) {
+      try {
+        const obj = JSON.parse(stored);
+        const now = Date.now();
+        const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
+        if (obj && typeof obj === 'object' && obj.timestamp && now - obj.timestamp < THIRTY_DAYS) {
+          token = obj.token || '';
+          botId = obj.botId || '';
+        } else if (obj && typeof obj === 'object' && obj.timestamp && now - obj.timestamp >= THIRTY_DAYS) {
+          localStorage.removeItem('coze_form_data');
+        }
+      } catch {}
+    }
+    setFormData(prev => ({ ...prev, token, botId }));
+  }, []);
   // 已移除 response 状态
   const [aiReply, setAiReply] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [pollingStatus, setPollingStatus] = useState('');
 
-  // 已不再需要轮询配置，移除 POLL_CONFIG
-
   // 处理表单输入变化
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => {
+      const next = { ...prev, [name]: value };
+      // 只保存 token 和 botId，并加时间戳
+      localStorage.setItem(
+        'coze_form_data',
+        JSON.stringify({
+          token: name === 'token' ? value : next.token,
+          botId: name === 'botId' ? value : next.botId,
+          timestamp: Date.now(),
+        }),
+      );
+      return next;
+    });
   };
 
   // 流式处理AI回复

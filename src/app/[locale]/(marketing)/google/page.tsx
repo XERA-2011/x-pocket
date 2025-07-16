@@ -1,12 +1,12 @@
 'use client';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 export default function Home() {
   const [apiKey, setApiKey] = useState('');
   const [models, setModels] = useState<Array<{ name: string }>>([]);
   const [loadingModels, setLoadingModels] = useState(false);
   const [selectedModel, setSelectedModel] = useState('');
-  const [prompt, setPrompt] = useState('');
+  const [prompt, setPrompt] = useState('你是谁?');
   const [result, setResult] = useState('等待调用...');
   const [displayedResult, setDisplayedResult] = useState('等待调用...');
   const [modelStatus, setModelStatus] = useState('');
@@ -45,9 +45,23 @@ export default function Home() {
     }
   }, []);
 
-  // Load available models when apiKey changes
-  useEffect(() => {
-    // 移除自动加载模型逻辑，改为点击按钮加载
+  // 初始化时从localStorage读取apiKey（带30天有效期）
+  useLayoutEffect(() => {
+    const stored = localStorage.getItem('google_api_key_obj');
+    if (stored) {
+      try {
+        const obj = JSON.parse(stored);
+        if (obj.value && obj.timestamp) {
+          const now = Date.now();
+          const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
+          if (now - obj.timestamp < THIRTY_DAYS) {
+            setApiKey(obj.value);
+          } else {
+            localStorage.removeItem('google_api_key_obj');
+          }
+        }
+      } catch {}
+    }
   }, []);
 
   // 打字机效果：逐字显示 result
@@ -152,7 +166,11 @@ export default function Home() {
                   id="api-key-input"
                   type="text"
                   value={apiKey}
-                  onChange={e => setApiKey(e.target.value)}
+                  onChange={(e) => {
+                    const val = e.target.value;
+                    setApiKey(val);
+                    localStorage.setItem('google_api_key_obj', JSON.stringify({ value: val, timestamp: Date.now() }));
+                  }}
                   placeholder="请输入 Google API Key"
                   className="flex-1 px-3 py-2 rounded border border-neutral-700 bg-neutral-800 text-neutral-100 focus:outline-none focus:border-white mb-2"
                   autoComplete="off"

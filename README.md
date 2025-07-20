@@ -4,7 +4,18 @@
 
 - Node.js 22+
 
-## Getting Started
+## Installation
+
+```bash
+npm install
+# or
+pnpm config set registry https://registry.npmmirror.com # ignorable
+pnpm install
+# or
+yarn
+```
+
+## Run
 
 ```bash
 npm run dev
@@ -12,6 +23,4 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```

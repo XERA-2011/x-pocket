@@ -3,24 +3,37 @@
 ## Requirements
 
 - Node.js 22+
+- pnpm
 
 ## Installation
 
 ```bash
-npm install
-# or
 pnpm config set registry https://registry.npmmirror.com # ignorable
 pnpm install
-# or
-yarn
 ```
 
 ## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
+```
+
+## Vercel
+
+```bash
+# 安装 Vercel CLI
+pnpm install -g vercel
+
+# 登录
+vercel login
+
+# 链接项目
+vercel link
+
+# 列出环境变量
+vercel env ls
+
+# 下载环境变量
+vercel env pull .env.local
+
 ```

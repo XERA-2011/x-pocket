@@ -57,10 +57,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: 'pnpm'
-          cache-dependency-path: pnpm-lock.yaml
-      - name: Install pnpm
-        run: npm install -g pnpm
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+          run_install: false
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
@@ -82,14 +85,7 @@ jobs:
       - name: Check pnpm version
         run: pnpm --version
       - name: Install dependencies
-        run: |
-          if [ -f pnpm-lock.yaml ]; then
-            pnpm install
-          elif [ -f yarn.lock ]; then
-            yarn install
-          else
-            npm ci
-          fi
+        run: pnpm install
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact

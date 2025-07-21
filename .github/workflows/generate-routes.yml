@@ -5,7 +5,7 @@ on:
     branches:
       - main
 
-# 授予写权限，以便 Action 可以将新文件推送回仓库
+# Grant write permissions to commit the file back to the repo
 permissions:
   contents: write
 
@@ -13,31 +13,31 @@ jobs:
   build-routes-json:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出您的 Next.js 项目代码
+      # 1. Check out your Next.js project code
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2. 使用 Gemini CLI 查找页面文件并生成 JSON (已更新版本号)
+      # 2. Use Gemini CLI to find page files and generate JSON
       - name: Generate routes.json from /app directory
-        uses: google-gemini/gemini-cli-action@v0 # <-- 这里是修正后的版本
+        uses: google-gemini/gemini-cli-action@main # <-- Corrected version tag
         with:
-          # 确保已在仓库的 Secrets 中设置 GEMINI_API_KEY
+          # Make sure GEMINI_API_KEY is set in your repo's secrets
           api-key: ${{ secrets.GEMINI_API_KEY }}
           exec: |
-            find ./app -name "page.tsx" -o -name "page.jsx" | gemini "根据下面的文件路径列表，生成一个JSON文件。JSON应包含一个'routes'键，其值是一个数组，数组中每个元素是一个代表URL路径的字符串（例如，'./app/about/page.tsx' 应该变成 '/about'，'./app/page.tsx' 应该变成 '/'）。请务必只输出纯净、格式正确的JSON，不要带任何markdown代码块标记。" > public/data/routes.json
+            find ./app -name "page.tsx" -o -name "page.jsx" | gemini "Based on the file paths below, create a JSON object. It should have a 'routes' key with an array of URL path strings (e.g., './app/about/page.tsx' becomes '/about', './app/page.tsx' becomes '/'). Output only the clean, raw JSON, with no markdown formatting." > public/data/routes.json
 
-      # 3. 验证文件是否已创建并查看内容
+      # 3. Verify the file was created
       - name: Verify file content
         run: |
           echo "Verifying routes.json..."
           mkdir -p public/data
           cat public/data/routes.json
 
-      # 4. 将新生成或覆盖的 routes.json 文件提交回仓库
+      # 4. Commit and push the generated file
       - name: Commit and push the generated file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs(routes): 自动更新路由JSON文件"
+          commit_message: "docs(routes): Auto-update routes JSON file"
           file_pattern: "public/data/routes.json"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions-bot@users.noreply.github.com"

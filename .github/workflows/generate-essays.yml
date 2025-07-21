@@ -1,7 +1,6 @@
 name: Generate English Essay Examples
 
 on:
-  # 您可以设置成每天定时运行，或者每次推送到 main 分支时运行
   # schedule:
   #   - cron: '0 0 * * *' # 每天午夜 UTC 时间运行
   push:
@@ -15,7 +14,7 @@ jobs:
   generate-essay-json:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出代码，确保可以访问到项目目录
+      # 1. 检出代码
       - name: Checkout Repository
         uses: actions/checkout@v4
 
@@ -33,10 +32,11 @@ jobs:
       - name: Create output directory
         run: mkdir -p public/data
 
-      # 5. 核心步骤：使用 Gemini 生成作文并保存为 JSON
+      # 5. 核心步骤：生成作文并保存为 JSON
       - name: Generate and save essay examples
         run: |
-          gemini "请为我生成一个JSON文件内容，其中包含两个英语作文案例。这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。JSON的结构应该如下：根对象是一个包含'essays'键的数组，数组中的每个对象都应包含 'title' (作文题目), 'english_text' (英语原文), 和 'chinese_translation' (中文翻译) 这三个键。请确保只输出纯净、格式完全正确的JSON，不要包含任何额外的解释或markdown代码块标记。" > public/data/pet-essays.json
+          # 在 gemini 命令前加上 echo "" | 来解决 "No input" 错误
+          echo "" | gemini "请为我生成一个JSON文件内容，其中包含两个英语作文案例。这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。JSON的结构应该如下：根对象是一个包含'essays'键的数组，数组中的每个对象都应包含 'title' (作文题目), 'english_text' (英语原文), 和 'chinese_translation' (中文翻译) 这三个键。请确保只输出纯净、格式完全正确的JSON，不要包含任何额外的解释或markdown代码块标记。" > public/data/pet-essays.json
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 

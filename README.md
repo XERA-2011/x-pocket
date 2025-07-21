@@ -8,6 +8,7 @@
 ## Installation
 
 ```bash
+npm install pnpm -g
 pnpm config set registry https://registry.npmmirror.com # ignorable
 pnpm install
 ```

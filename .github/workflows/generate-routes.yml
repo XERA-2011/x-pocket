@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
-# Grant write permissions to commit the file back to the repo
 permissions:
   contents: write
 
@@ -13,27 +12,37 @@ jobs:
   build-routes-json:
     runs-on: ubuntu-latest
     steps:
-      # 1. Check out your Next.js project code
+      # 1. 检出代码
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 2. Use Gemini CLI to find page files and generate JSON
-      - name: Generate routes.json from /app directory
-        uses: google-gemini/gemini-cli-action@main # <-- Corrected version tag
+      # 2. 设置 Node.js 环境，这是运行 npm 的前提
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          # Make sure GEMINI_API_KEY is set in your repo's secrets
-          api-key: ${{ secrets.GEMINI_API_KEY }}
-          exec: |
-            find ./app -name "page.tsx" -o -name "page.jsx" | gemini "Based on the file paths below, create a JSON object. It should have a 'routes' key with an array of URL path strings (e.g., './app/about/page.tsx' becomes '/about', './app/page.tsx' becomes '/'). Output only the clean, raw JSON, with no markdown formatting." > public/data/routes.json
+          node-version: '20' # 使用一个较新的 Node.js 版本
 
-      # 3. Verify the file was created
+      # 3. 使用 npm 全局安装 Gemini CLI
+      - name: Install Gemini CLI
+        run: npm install -g @google/gemini-cli
+
+      # 4. 运行命令生成 JSON 文件
+      - name: Generate routes.json file
+        # 在这个 'run' 步骤中执行我们想要的完整命令
+        # 注意：我们在 'env' 中设置了 API 密钥
+        run: |
+          find ./app -name "page.tsx" -o -name "page.jsx" | gemini "Based on the file paths below, create a JSON object. It should have a 'routes' key with an array of URL path strings (e.g., './app/about/page.tsx' becomes '/about', './app/page.tsx' becomes '/'). Output only the clean, raw JSON, with no markdown formatting." > public/data/routes.json
+        env:
+          # 正确的传递 API 密钥的方式
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      # 5. 验证文件内容
       - name: Verify file content
         run: |
           echo "Verifying routes.json..."
-          mkdir -p public/data
           cat public/data/routes.json
 
-      # 4. Commit and push the generated file
+      # 6. 提交生成的文件
       - name: Commit and push the generated file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

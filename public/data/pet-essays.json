@@ -1,14 +1,12 @@
-```json
 [
   {
-    "title": "My Favourite Hobby",
-    "english_text": "My favourite hobby is photography. I got my first camera from my parents as a birthday gift last year, and I have loved it ever since. I enjoy taking photos of nature, especially flowers and animals in the park near my home. It's a very creative and relaxing activity. Last weekend, I took a beautiful picture of a sunset. My dream is to travel the world and take photos of different places. I think it's a wonderful way to capture memories and see the world from a new perspective. It has taught me to be patient and to look for beauty everywhere.",
-    "chinese_translation": "我最喜欢的爱好是摄影。去年，我收到了父母送给我的第一台相机作为生日礼物，从那时起我就爱上了它。我喜欢拍摄大自然，尤其是我家附近公园里的花草和动物。这是一项非常有创意和放松的活动。上个周末，我拍下了一张美丽的日落照片。我的梦想是环游世界，为不同的地方拍照。我认为这是捕捉记忆、用新视角看世界的一个绝佳方式。摄影教会了我耐心，并去发现无处不在的美。"
+    "title": "An Email to a Friend",
+    "english_text": "Hi Alex,\n\nThanks so much for your invitation to go to the cinema next weekend. It sounds great!\n\nI'm really sorry, but I don't think I can make it. My cousins are visiting from another city, and we have a big family get-together planned for Saturday. I haven't seen them for ages, so I really can't miss it.\n\nHow about the following weekend? I'm free then. We could catch that new sci-fi film everyone is talking about. Let me know if that works for you.\n\nBest wishes,\n\nChris",
+    "chinese_translation": "嗨，亚历克斯，\n\n非常感谢你下周末邀请我去看电影。这听起来太棒了！\n\n我真的很抱歉，但我想我可能去不了。我的堂兄弟们要从另一个城市过来玩，我们计划在周六举行一个大型的家庭聚会。我已经很久没见到他们了，所以我真的不能错过。\n\n下下个周末怎么样？我那时有空。我们可以去看那部大家都在讨论的新科幻电影。如果时间可以的话，请告诉我。\n\n最好的祝愿，\n\n克里斯"
   },
   {
-    "title": "A Film I Enjoyed",
-    "english_text": "I'd like to tell you about a film I really enjoyed called 'The Lion King'. It's an animated film about a young lion cub named Simba who is destined to rule the African savanna. The story is very emotional, and the music is fantastic. My favourite character is Timon because he is very funny and always makes me laugh. I watched it with my family at home last month, and we all loved it. I would recommend this film to anyone who enjoys adventure stories with great songs. It's a classic movie that is perfect for all ages.",
-    "chinese_translation": "我想告诉你一部我非常喜欢的电影，叫做《狮子王》。这是一部动画电影，讲述了一只名叫辛巴的小狮子注定要统治非洲大草原的故事。故事情节非常感人，音乐也很棒。我最喜欢的角色是丁满，因为他非常有趣，总能让我发笑。上个月我和家人一起在家看了这部电影，我们都非常喜欢它。我会向所有喜欢带有动听歌曲的冒险故事的人推荐这部电影。这是一部适合所有年龄段的经典影片。"
+    "title": "My Favourite Hobby",
+    "english_text": "Do you have a hobby that you love? For me, it's photography. I started about two years ago when my dad gave me his old camera.\n\nI love taking photos of nature, especially animals and flowers. It makes me look at the world more carefully. I spend most of my weekends outdoors, trying to find the perfect shot. Sometimes my friends come with me, and we have a lot of fun together.\n\nPhotography is a wonderful hobby because it's creative and relaxing. It has taught me to be patient and to see the beauty in small things.",
+    "chinese_translation": "你有什么你热爱的爱好吗？对‍我来说，是摄影。我大约是两年前开始的，当时我爸爸把他‍的旧相机给了我。\n\n我喜欢拍摄大自然的照片，特别是动物和花朵。它让我更仔细地观察这个世界。我大部分的周末都在户外度过，试图找到完美的拍摄瞬间。有时我的朋友会和我一起，我们一起玩得很开心。\n\n摄影是一个很棒的爱好，因为它既有创造性又令人放松。它教会了我耐心，也让我看到了微小事物中的美。"
   }
 ]
-```

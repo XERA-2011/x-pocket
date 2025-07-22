@@ -1,12 +1,14 @@
+```json
 [
   {
-    "title": "My Favorite Holiday",
-    "english_text": "My favorite holiday is Christmas. I love the festive atmosphere, the beautiful decorations, and spending time with my family. We always have a big dinner together and exchange gifts. It's a time of joy and happiness, and I always look forward to it every year. The city is decorated with lights and it feels magical.",
-    "chinese_translation": "我最喜欢的节日是圣诞节。我喜欢节日的氛围、美丽的装饰，以及和家人在一起的时光。我们总是一起吃一顿丰盛的晚餐并交换礼物。这是一个充满欢乐和幸福的时刻，我每年都盼望着它的到来。整个城市都装饰着彩灯，感觉就像魔法一样。"
+    "title": "An Article: My Favourite Hobby",
+    "english_text": "My favourite hobby is playing the guitar. I started learning about a year ago, and I practise every day. I find it very relaxing after a busy day at school. My music teacher is very patient and has taught me a lot of cool songs. I especially enjoy playing pop music and sometimes I try to write my own songs. Next month, I’m going to play in a small concert at my school. I feel a little nervous, but also very excited! It’s a wonderful skill to have and a great way to express myself.",
+    "chinese_translation": "一篇文章：我最喜欢的爱好\n\n我最喜欢的爱好是弹吉他。我大约一年前开始学习，每天都会练习。我发现在学校忙碌一天后弹吉他非常放松。我的音乐老师很耐心，教了我很多很酷的歌曲。我特别喜欢弹奏流行音乐，有时我也会尝试写自己的歌。下个月，我将在我们学校的一个小型音乐会上表演。我感到有点紧张，但也很兴奋！这是一项很棒的技能，也是一种很好的自我表达方式。"
   },
   {
-    "title": "A Place I Would Like to Visit",
-    "english_text": "I would love to visit Japan one day. I am fascinated by its unique culture, from traditional temples to modern cities like Tokyo. I want to try authentic sushi, see the cherry blossoms in spring, and experience a traditional tea ceremony. I think it would be an unforgettable trip and a great way to learn about a different way of life.",
-    "chinese_translation": "我希望有一天能去日本旅游。我被其独特的文化所吸引，从传统的寺庙到像东京这样的现代化都市。我想品尝地道的寿司，观赏春天的樱花，并体验传统的茶道。我认为这将是一次难忘的旅行，也是了解不同生活方式的好机会。"
+    "title": "An Email to a Friend",
+    "english_text": "Hi Jamie, \n\nThanks for your email. I'm so happy to hear you're coming to visit my city next month! \n\nRegarding your question about what to do, I think you should definitely visit the old castle. It's fascinating and the view from the top is amazing. We could also spend a day at the beach if the weather is nice. In the evenings, we can explore the city centre and try some local restaurants. \n\nLet me know when your train arrives, and I can meet you at the station. \n\nCan't wait to see you! \n\nBest, \n\nChris",
+    "chinese_translation": "给朋友的一封邮件\n\n嗨，杰米，\n\n谢谢你的邮件。很高兴听到你下个月要来我的城市玩！\n\n关于你问的可以做什么，我觉得你一定要去参观那座古老的城堡。它非常迷人，而且从顶上看到的景色非常棒。如果天气好的话，我们还可以在海滩上待一天。晚上，我们可以逛逛市中心，尝尝当地的餐馆。\n\n告诉我你的火车什么时候到，我可以在车站接你。\n\n等不及要见你了！\n\n最好的祝愿，\n\n克里斯"
   }
 ]
+```

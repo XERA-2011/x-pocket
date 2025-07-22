@@ -28,7 +28,7 @@ jobs:
           echo "使用默认的 PET 主题生成作文"
           PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。"
 
-          echo "$PROMPT" | gemini > public/data/pet-essays.json
+          echo "$PROMPT" | gemini | sed '/^```json/d' | sed '/^```/d' > public/data/pet-essays.json
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 

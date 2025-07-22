@@ -1,16 +1,12 @@
-```json
-{
-  "essays": [
-    {
-      "title": "An Unforgettable Holiday",
-      "english_text": "My most unforgettable holiday was a trip to the mountains last summer. I went with my family, and we stayed in a small wooden cabin. Every day, we went hiking on different trails. The views from the top were absolutely breathtaking! In the evenings, we cooked dinner together and played card games. It was so peaceful and a wonderful break from the city. I felt so refreshed afterwards and we made some truly special memories. I hope we can go back again next year. It was the best trip ever.",
-      "chinese_translation": "我最难忘的假期是去年夏天去山区的一次旅行。我和家人一起去的，住在一个小木屋里。每天我们都在不同的小径上徒步。从山顶看下去的景色真是美得令人窒息！晚上，我们一起做饭、玩纸牌游戏。那里非常宁静，是远离城市喧嚣的绝佳休憩。回来后我感觉神清气爽，我们创造了一些非常特别的回忆。我希望我们明年能再去一次。那是最棒的旅行。"
-    },
-    {
-      "title": "My Favourite Hobby",
-      "english_text": "My favourite hobby is photography. I got my first camera as a birthday gift two years ago and I've loved it ever since. I enjoy taking pictures of everything, but my favourite subjects are nature and animals. It makes me look at the world more carefully, noticing small details I would usually miss. I've joined a photography club at school, and we often go on trips together. It's a great way to learn new skills and share ideas with others who love photography too. It's a creative and relaxing activity.",
-      "chinese_translation": "我最喜欢的爱好是摄影。两年前，我收到了我的第一台相机作为生日礼物，从那时起我就爱上了它。我喜欢拍各种各样的照片，但我最喜欢的主题是自然和动物。它让我更仔细地观察世界，注意到我通常会忽略的小细节。我参加了学校的摄影俱乐部，我们经常一起出去旅行。这是一个学习新技能并与同样热爱摄影的其他人分享想法的好方法。这是一项既有创意又放松的活动。"
-    }
-  ]
-}
-```
+[
+  {
+    "title": "My Favorite Holiday",
+    "english_text": "My favorite holiday is Christmas. I love the festive atmosphere, the beautiful decorations, and spending time with my family. We always have a big dinner together and exchange gifts. It's a time of joy and happiness, and I always look forward to it every year. The city is decorated with lights and it feels magical.",
+    "chinese_translation": "我最喜欢的节日是圣诞节。我喜欢节日的氛围、美丽的装饰，以及和家人在一起的时光。我们总是一起吃一顿丰盛的晚餐并交换礼物。这是一个充满欢乐和幸福的时刻，我每年都盼望着它的到来。整个城市都装饰着彩灯，感觉就像魔法一样。"
+  },
+  {
+    "title": "A Place I Would Like to Visit",
+    "english_text": "I would love to visit Japan one day. I am fascinated by its unique culture, from traditional temples to modern cities like Tokyo. I want to try authentic sushi, see the cherry blossoms in spring, and experience a traditional tea ceremony. I think it would be an unforgettable trip and a great way to learn about a different way of life.",
+    "chinese_translation": "我希望有一天能去日本旅游。我被其独特的文化所吸引，从传统的寺庙到像东京这样的现代化都市。我想品尝地道的寿司，观赏春天的樱花，并体验传统的茶道。我认为这将是一次难忘的旅行，也是了解不同生活方式的好机会。"
+  }
+]

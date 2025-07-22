@@ -38,3 +38,24 @@ vercel env ls
 vercel env pull .env.local
 
 ```
+
+## Gemini cli
+
+```bash
+npx https://github.com/google-gemini/gemini-cli
+
+or
+
+npm install -g @google/gemini-cli
+
+or
+
+brew install gemini-cli
+
+# win
+set GOOGLE_API_KEY=YOUR_API_KEY
+# mac
+export GOOGLE_API_KEY=YOUR_API_KEY
+
+gemini
+```

@@ -15,6 +15,12 @@ export default function Home() {
             <div className="nav-title font-semibold">COZE AI</div>
           </Link>
           <Link
+            href="/essays"
+            className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
+          >
+            <div className="nav-title font-semibold">每日英语作文</div>
+          </Link>
+          <Link
             href="/google"
             className="nav-card flex-1 min-w-[45%] border-2 border-neutral-700 rounded p-5 text-center cursor-pointer flex flex-col items-center justify-center transition hover:border-neutral-500 bg-neutral-900 hover:bg-neutral-800 min-h-[130px] no-underline"
           >

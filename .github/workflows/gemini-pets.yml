@@ -1,0 +1,43 @@
+name: Generate English Essay Examples (Scheduled)
+
+on:
+  schedule:
+    - cron: '0 18 * * *' # Runs at 18:00 UTC, which is 2:00 AM Beijing time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-essay-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Gemini CLI
+        run: npm install -g @google/gemini-cli
+      - name: Create output directory
+        run: mkdir -p public/data
+
+      - name: Generate and save essay examples
+        run: |
+          echo "使用默认的 PET 主题生成作文"
+          PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组。"
+          
+          echo "$PROMPT" | gemini > public/data/pet-essays.json
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
+      - name: Verify file content
+        run: cat public/data/pet-essays.json
+      - name: Commit and push the generated file
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(content): 每日定时生成英语作文范文"
+          file_pattern: "public/data/pet-essays.json"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "github-actions-bot@users.noreply.github.com"

@@ -53,9 +53,9 @@ or
 brew install gemini-cli
 
 # win
-set GOOGLE_API_KEY=YOUR_API_KEY
+set GEMINI_API_KEY=YOUR_API_KEY
 # mac
-export GOOGLE_API_KEY=YOUR_API_KEY
+export GEMINI_API_KEY=YOUR_API_KEY
 
 gemini
 ```

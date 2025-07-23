@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from 'next/link';
 import { Geist, Geist_Mono } from "next/font/google";
 import '../styles/globals.css';
+import Particles from "@/components/Particles";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,7 +29,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="border-b border-neutral-800 relative pb-8 pt-8 flex flex-col items-center">
+        <Particles quantity={100} />
+        <header className="relative pb-8 pt-8 flex flex-col items-center">
           <span className="relative inline-block">
             <Link href="/" className="text-3xl font-bold text-center block hover:opacity-80 transition">
               X-POCKET

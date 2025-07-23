@@ -37,7 +37,7 @@ jobs:
       - name: Commit and push the generated file
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs(content): 每日定时生成英语作文范文"
+          commit_message: "AI Generate Content"
           file_pattern: "public/data/pet-essays.json"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions-bot@users.noreply.github.com"

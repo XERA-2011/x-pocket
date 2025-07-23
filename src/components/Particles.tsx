@@ -4,7 +4,7 @@ import React, { useRef, useEffect } from "react";
 import { useMousePosition } from "@/utils/mouse";
 
 interface ParticlesProps {
-  className?: string;
+  // className?: string;
   quantity?: number;
   staticity?: number;
   ease?: number;
@@ -12,7 +12,7 @@ interface ParticlesProps {
 }
 
 export default function Particles({
-  className = "",
+  // className = "",
   quantity = 30,
   staticity = 50,
   ease = 50,

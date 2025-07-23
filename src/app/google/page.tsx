@@ -77,7 +77,7 @@ export default function Home() {
     const timeoutId = setTimeout(() => {
       setDisplayedResult('');
       typingIntervalRef.current = setInterval(() => {
-        setDisplayedResult((_) => {
+        setDisplayedResult(() => {
           if (i >= result.length) {
             if (typingIntervalRef.current) {
               clearInterval(typingIntervalRef.current);

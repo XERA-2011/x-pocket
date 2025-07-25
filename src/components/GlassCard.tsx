@@ -19,7 +19,7 @@ export default function GlassCard({ href, title, isDisabled = false }: GlassCard
 
   if (isDisabled) {
     return (
-      <div className="nav-card flex-1 min-w-[45%] border-0 rounded-[24px] p-6 text-center flex flex-col items-center justify-center min-h-[130px] bg-gradient-to-br from-white/8 to-white/2 backdrop-blur-2xl shadow-[0_8px_32px_rgba(0,0,0,0.15)] relative overflow-hidden">
+      <div className="nav-card flex-1 min-w-[45%] border-0 rounded-[24px] p-6 text-center flex flex-col items-center justify-center min-h-[130px] bg-gradient-to-br from-white/5 to-white/1 backdrop-blur-2xl shadow-[0_8px_32px_rgba(0,0,0,0.15)] relative overflow-hidden">
         <CardContent />
       </div>
     );
@@ -28,7 +28,7 @@ export default function GlassCard({ href, title, isDisabled = false }: GlassCard
   return (
     <Link
       href={href || "#"}
-      className="nav-card flex-1 min-w-[45%] border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 bg-gradient-to-br from-white/8 to-white/2 backdrop-blur-2xl hover:backdrop-blur-3xl min-h-[130px] no-underline shadow-[0_8px_32px_rgba(0,0,0,0.15)] hover:shadow-[0_10px_40px_rgba(255,255,255,0.1)] hover:scale-[1.02] relative overflow-hidden group"
+      className="nav-card flex-1 min-w-[45%] border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 bg-gradient-to-br from-white/5 to-white/1 backdrop-blur-2xl hover:backdrop-blur-3xl min-h-[130px] no-underline shadow-[0_8px_32px_rgba(0,0,0,0.15)] hover:shadow-[0_10px_40px_rgba(255,255,255,0.1)] hover:scale-[1.02] relative overflow-hidden group"
     >
       <CardContent />
     </Link>

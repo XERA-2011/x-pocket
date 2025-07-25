@@ -150,8 +150,8 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center px-2 py-4 transition-colors duration-200">
       <div className="w-full max-w-2xl flex flex-col gap-4">
-        <div className="border-2 border-neutral-700 rounded p-6 bg-neutral-900 shadow flex flex-col gap-6">
-          <h1 className="text-2xl font-bold text-center text-neutral-100 mb-2">Gemini</h1>
+        <div className="p-6 flex flex-col gap-6">
+          <h1 className="text-2xl font-bold text-neutral-100 mb-2">Gemini</h1>
           <form
             className="flex flex-col gap-4"
             onSubmit={(e) => {
@@ -235,7 +235,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-4 text-sm text-neutral-400 bg-neutral-900 border border-neutral-700 rounded p-4">
+        <div className="mt-4 text-sm text-neutral-400 p-4">
           <h3 className="font-bold text-neutral-300 mb-2">使用说明</h3>
           <ul className="list-disc pl-5 mb-0">
             <li>API Key 可在 Google Cloud Console 获取</li>

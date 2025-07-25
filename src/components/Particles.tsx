@@ -4,12 +4,18 @@ import React, { useRef, useEffect, useMemo } from "react";
 import { useMousePosition } from "@/utils/mouse";
 
 interface ParticlesProps {
+  /** 粒子/星星的数量，默认值为100 */
   quantity?: number;
+  /** 控制粒子对鼠标移动的反应灵敏度，值越大反应越小，默认值为50 */
   staticity?: number;
+  /** 控制粒子移动的平滑度，值越大移动越平滑但反应越慢，默认值为50 */
   ease?: number;
+  /** 是否刷新/重绘粒子，当值变化时会触发重新初始化画布 */
   refresh?: boolean;
-  starMode?: boolean; // 星空模式选项
-  colorful?: boolean; // 彩色选项
+  /** 是否启用星空模式，启用后会模拟真实星空效果，包括闪烁和光晕，默认为true */
+  starMode?: boolean;
+  /** 是否启用彩色模式，启用后星星会有多种颜色，否则全为白色，默认为true */
+  colorful?: boolean;
 }
 
 type Circle = {
@@ -30,9 +36,9 @@ type Circle = {
 };
 
 export default function Particles({
-  quantity = 150, // 增加默认粒子数量，更密集的星空
-  staticity = 50,
-  ease = 50,
+  quantity = 100,
+  staticity = 20,
+  ease = 20,
   refresh = false,
   starMode = true, // 默认启用星空模式
   colorful = true, // 默认启用彩色模式
@@ -44,7 +50,8 @@ export default function Particles({
   const mousePosition = useMousePosition();
   const mouse = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
   const canvasSize = useRef<{ w: number; h: number }>({ w: 0, h: 0 });
-  const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
+  // 确保服务器端和客户端使用相同的 dpr 值
+  const dpr = 1;
 
   useEffect(() => {
     if (canvasRef.current) {
@@ -119,19 +126,19 @@ export default function Particles({
     const translateX = 0;
     const translateY = 0;
 
-    // 真实星空大小分布 - 绝大多数星星非常小
+    // 星空大小分布 - 调整星星比例，保持适当的大小分布
     const sizeDistribution = Math.random();
     let size;
 
-    if (sizeDistribution < 0.85) {
-      // 85% 的星星极小 (0.1-0.4)
+    if (sizeDistribution < 0.50) {
+      // 50% 的星星较小 (0.1-0.4)
       size = Math.random() * 0.3 + 0.1;
-    } else if (sizeDistribution < 0.98) {
-      // 13% 的星星小 (0.4-0.7)
+    } else if (sizeDistribution < 0.95) {
+      // 45% 的星星中等 (0.4-0.7)
       size = Math.random() * 0.3 + 0.4;
     } else {
-      // 2% 的星星中等 (0.7-1.0)
-      size = Math.random() * 0.3 + 0.7;
+      // 5% 的星星较大 (0.7-1.2)
+      size = Math.random() * 0.5 + 0.7;
     }
 
     const alpha = 0;
@@ -372,7 +379,7 @@ export default function Particles({
 
   return (
     <div
-      className={"dark:bg-gradient-to-tl from-black via-zinc-900/20 to-black fixed inset-0 -z-10 animate-fade-in"}
+      className={"dark:bg-gradient-to-tl from-black via-zinc-600/20 to-black fixed inset-0 -z-10 animate-fade-in"}
       ref={canvasContainerRef}
       aria-hidden="true"
     >

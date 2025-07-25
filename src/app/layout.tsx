@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Particles quantity={100} />
+        <Particles />
         <header className="relative pb-8 pt-8 flex flex-col items-center">
           <span className="relative inline-block">
             <Link href="/" className="text-3xl font-bold text-center block hover:opacity-80 transition">

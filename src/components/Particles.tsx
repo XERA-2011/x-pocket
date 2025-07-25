@@ -126,15 +126,15 @@ export default function Particles({
     const translateX = 0;
     const translateY = 0;
 
-    // 星空大小分布 - 调整星星比例，保持适当的大小分布
+    // 星空大小分布 - 大幅增加中等星星的比例，创造更丰富的星空效果
     const sizeDistribution = Math.random();
     let size;
 
-    if (sizeDistribution < 0.50) {
-      // 50% 的星星较小 (0.1-0.4)
+    if (sizeDistribution < 0.25) {
+      // 25% 的星星较小 (0.1-0.4)
       size = Math.random() * 0.3 + 0.1;
     } else if (sizeDistribution < 0.95) {
-      // 45% 的星星中等 (0.4-0.7)
+      // 70% 的星星中等 (0.4-0.7)
       size = Math.random() * 0.3 + 0.4;
     } else {
       // 5% 的星星较大 (0.7-1.2)

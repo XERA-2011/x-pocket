@@ -40,7 +40,13 @@ export default function RootLayout({
         {children}
         <footer className="border-t border-neutral-800 py-8 text-center text-sm text-neutral-400">
           <div className="flex flex-col items-center gap-2">
-            <span>{`© Copyright ${new Date().getFullYear()} X-POCKET `}</span>
+            <Link
+              href="https://github.com/XERA-2011/x-pocket"
+              target="_blank"
+              className="hover:text-neutral-100"
+            >
+              {`© Copyright ${new Date().getFullYear()} `}  XERA-2011
+            </Link>
           </div>
         </footer>
       </body>

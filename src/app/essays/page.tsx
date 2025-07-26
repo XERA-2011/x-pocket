@@ -25,18 +25,30 @@ export default function EssaysPage() {
   }, []);
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">English Essay Examples</h1>
+    <div className="container mx-auto p-4 min-h-[75vh]">
+
       {loading ? (
-        <p>Loading essays...</p>
+        <div className="flex justify-center items-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
+        </div>
+      ) : essays.length === 0 ? (
+        <div className="flex flex-col justify-center items-center">
+          <p className="text-xl text-gray-500">No essays available at the moment.</p>
+          <p className="mt-2">Please check back later for updates.</p>
+        </div>
       ) : (
-        <div className="grid gap-4">
+        <div className="grid gap-6">
           {essays.map((essay, index) => (
-            <div key={index} className="card bg-base-100 shadow-xl">
+            <div key={index} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <div className="card-body">
-                <h2 className="card-title">{essay.title}</h2>
-                <p className="text-base mt-2">{essay.english_text}</p>
-                <p className="text-sm text-gray-500 mt-4">{essay.chinese_translation}</p>
+                <h2 className="card-title text-xl font-bold text-primary">{essay.title}</h2>
+                <div className="divider my-2"></div>
+                <div className="mb-4">
+                  <p className="text-base leading-relaxed">{essay.english_text}</p>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600">{essay.chinese_translation}</p>
+                </div>
               </div>
             </div>
           ))}

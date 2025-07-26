@@ -27,14 +27,63 @@ jobs:
         run: |
           echo "使用默认的 PET 主题生成作文"
           PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。"
-
-          echo "$PROMPT" | gemini | sed '/^```json/d' | sed '/^```/d' > public/data/pet-essays.json
+          
+          # 重试机制
+          MAX_RETRIES=2
+          RETRY_COUNT=0
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            echo "尝试第 $((RETRY_COUNT + 1)) 次生成..."
+            
+            # 生成内容并检查错误
+            OUTPUT=$(echo "$PROMPT" | gemini 2>&1)
+            EXIT_CODE=$?
+            
+            # 检查是否包含错误信息
+            if echo "$OUTPUT" | grep -q "API Error\|UNAVAILABLE\|503"; then
+              echo "API 错误，等待重试..."
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                sleep 30  # 等待30秒后重试
+                continue
+              else
+                echo "达到最大重试次数，任务失败"
+                exit 1
+              fi
+            fi
+            
+            # 如果没有错误，处理输出
+            echo "$OUTPUT" | sed '/^```json/d' | sed '/^```/d' > public/data/pet-essays.json
+            
+            # 验证JSON格式
+            if node -e "JSON.parse(require('fs').readFileSync('public/data/pet-essays.json', 'utf8')); console.log('JSON格式验证通过');" 2>/dev/null; then
+              echo "内容生成成功"
+              break
+            else
+              echo "生成的JSON格式无效，重试..."
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                sleep 10
+                continue
+              else
+                echo "无法生成有效的JSON，任务失败"
+                exit 1
+              fi
+            fi
+          done
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Verify file content
-        run: cat public/data/pet-essays.json
+        run: |
+          echo "验证生成的文件内容："
+          cat public/data/pet-essays.json
+          echo ""
+          echo "验证JSON格式："
+          node -e "const data = JSON.parse(require('fs').readFileSync('public/data/pet-essays.json', 'utf8')); console.log('JSON格式正确，包含', data.length, '个条目');"
+
       - name: Commit and push the generated file
+        if: success()  # 只有在前面的步骤都成功时才执行
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "AI Generate Content"

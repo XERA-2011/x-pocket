@@ -60,7 +60,7 @@ export default function Home() {
             localStorage.removeItem('google_api_key_obj');
           }
         }
-      } catch {}
+      } catch { }
     }
   }, []);
 
@@ -148,7 +148,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-2 py-4 transition-colors duration-200">
+    <div className="min-h-screen flex flex-col items-center px-2 py-4 transition-colors duration-200 mt-[100px]">
       <div className="w-full max-w-2xl flex flex-col gap-4">
         <div className="p-6 flex flex-col gap-6">
           <h1 className="text-2xl font-bold text-neutral-100 mb-2">Gemini</h1>
@@ -196,19 +196,19 @@ export default function Home() {
               {loadingModels
                 ? <p className="mb-2">正在加载模型列表…</p>
                 : (
-                    <select
-                      id="model-select"
-                      value={selectedModel}
-                      onChange={e => setSelectedModel(e.target.value)}
-                      className="w-full px-3 py-2 rounded border border-neutral-700 bg-neutral-800 text-neutral-100 focus:outline-none focus:border-white mb-2"
-                    >
-                      {models.map(m => (
-                        <option key={m.name} value={m.name}>
-                          {m.name.replace(/^models\//, '')}
-                        </option>
-                      ))}
-                    </select>
-                  )}
+                  <select
+                    id="model-select"
+                    value={selectedModel}
+                    onChange={e => setSelectedModel(e.target.value)}
+                    className="w-full px-3 py-2 rounded border border-neutral-700 bg-neutral-800 text-neutral-100 focus:outline-none focus:border-white mb-2"
+                  >
+                    {models.map(m => (
+                      <option key={m.name} value={m.name}>
+                        {m.name.replace(/^models\//, '')}
+                      </option>
+                    ))}
+                  </select>
+                )}
             </div>
             <div className="flex flex-col gap-1">
               <label htmlFor="prompt-textarea" className="font-semibold text-neutral-300">Prompt</label>

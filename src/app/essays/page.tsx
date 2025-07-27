@@ -25,7 +25,7 @@ export default function EssaysPage() {
   }, []);
 
   return (
-    <div className="container mx-auto p-4 min-h-[75vh]">
+    <div className="mx-auto p-4 min-h-[75vh] mt-[100px]">
 
       {loading ? (
         <div className="flex justify-center items-center">

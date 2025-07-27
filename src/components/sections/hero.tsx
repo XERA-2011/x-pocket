@@ -1,0 +1,113 @@
+"use client";
+
+import { useEffect, useRef, useState } from 'react';
+import { motion } from 'framer-motion';
+import gsap from 'gsap';
+
+// Register GSAP plugins if available
+if (typeof window !== 'undefined') {
+  try {
+    // TextPlugin is part of the GSAP core
+    const { TextPlugin } = require('gsap/TextPlugin');
+    gsap.registerPlugin(TextPlugin);
+  } catch (error) {
+    console.warn('GSAP TextPlugin not available:', error);
+  }
+}
+
+export default function Hero() {
+  const logoRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [isHovering, setIsHovering] = useState(false);
+
+  useEffect(() => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+
+    // Animate the logo
+    tl.fromTo(
+      logoRef.current,
+      { scale: 0, rotation: -45 },
+      { scale: 1, rotation: 0, duration: 1.2, ease: "elastic.out(1, 0.5)" }
+    );
+
+  }, []);
+
+  return (
+    <section
+      ref={containerRef}
+      className="h-screen w-full flex flex-col items-center justify-center text-center p-8 rounded-3xl relative"
+    >
+      {/* Background glow effect */}
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-900/10 via-purple-900/5 to-pink-900/10 rounded-3xl blur-xl opacity-50" />
+
+      <motion.div
+        ref={logoRef}
+        className="relative w-[30vmin] h-[30vmin] rounded-full"
+        onMouseEnter={() => setIsHovering(true)}
+        onMouseLeave={() => setIsHovering(false)}
+      >
+        {/* Black hole effect using Tailwind CSS */}
+        <div className="w-full h-full relative black-hole transition-transform duration-400 ease-in-out hover:scale-[1.05]">
+          {/* Accretion disk (outer ring) - using the style from the example */}
+          <div
+            className={`absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 rounded-full 
+              ${isHovering ?
+                'shadow-[inset_0_0_2vmin_#6366f1,inset_0_0_5vmin_#6366f1,inset_0_0_10vmin_#6366f1,0_0_12vmin_#ec4899]' :
+                'shadow-[inset_0_0_1vmin_#6366f1,inset_0_0_3vmin_#6366f1,inset_0_0_6vmin_#6366f1,0_0_7vmin_#ec4899]'
+              } transition-shadow duration-400 ease-in-out`}
+            style={{
+              transition: 'box-shadow 0.4s ease-in-out'
+            }}
+          />
+
+          {/* Event horizon (black center) */}
+          <div className="absolute top-1/2 left-1/2 w-3/4 h-3/4 -translate-x-1/2 -translate-y-1/2 bg-black rounded-full shadow-[0_0_2vmin_#000] z-[1]" />
+
+          {/* X text */}
+          <div className="absolute inset-0 flex items-center justify-center z-10">
+            <span className="text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-pink-500 select-none">X</span>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* <h1
+        className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-indigo-200 min-h-[3.5rem] mt-20"
+      >
+        Pocket Universe
+      </h1> */}
+
+      {/* Animated underline */}
+      {/* <motion.div
+        initial={{ width: 0 }}
+        animate={{ width: "200px" }}
+        transition={{ delay: 0.5, duration: 0.5, ease: "easeInOut" }}
+        className="h-[2px] bg-gradient-to-r from-transparent via-purple-400 to-transparent"
+      /> */}
+
+      {/* Scroll indicator */}
+      <motion.div
+        className="absolute bottom-8 flex flex-col items-center"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 3, duration: 1 }}
+      >
+        <motion.div
+          className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center p-1"
+          initial={{ y: 0 }}
+          animate={{ y: [0, 8, 0] }}
+          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+        >
+          <motion.div className="w-1.5 h-3 bg-gray-400 rounded-full" />
+        </motion.div>
+      </motion.div>
+    </section>
+  );
+}
+
+// Add this inline style
+<style jsx global>{`
+  /* Ensure the black hole container has proper cursor */
+  .black-hole {
+    cursor: default;
+  }
+`}</style>

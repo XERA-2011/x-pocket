@@ -33,7 +33,7 @@ export default function CozeApiPage() {
         } else if (obj && typeof obj === 'object' && obj.timestamp && now - obj.timestamp >= THIRTY_DAYS) {
           localStorage.removeItem('coze_form_data');
         }
-      } catch {}
+      } catch { }
     }
     setFormData(prev => ({ ...prev, token, botId }));
   }, []);
@@ -130,7 +130,7 @@ export default function CozeApiPage() {
             if (dataObj.role === 'assistant' && dataObj.type === 'answer' && dataObj.content) {
               setAiReply(prev => prev + dataObj.content);
             }
-          } catch {}
+          } catch { }
         }
       }
       setPollingStatus('AI响应已完成');
@@ -146,7 +146,7 @@ export default function CozeApiPage() {
   const callCozeApi = streamCozeReply;
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-2 py-4 transition-colors duration-200">
+    <div className="min-h-screen flex flex-col items-center px-2 py-4 transition-colors duration-200 mt-[100px]">
       <div className="w-full max-w-2xl flex flex-col gap-4">
         <div className="p-6 shadow flex flex-col gap-6">
           <h1 className="text-2xl font-bold text-neutral-100 mb-2">COZE</h1>

@@ -26,7 +26,12 @@ jobs:
       - name: Generate and save essay examples
         run: |
           echo "使用默认的 PET 主题生成作文"
-          PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。"
+          
+          # 添加时间戳和随机元素来避免缓存
+          TIMESTAMP=$(date +%s)
+          RANDOM_ID=$(echo $RANDOM)
+          
+          PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID。请确保生成的内容是独特的，不要重复之前的内容。"
           
           # 重试机制
           MAX_RETRIES=2
@@ -74,6 +79,31 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
+      - name: Check if content has changed
+        run: |
+          # 检查是否有现有文件
+          if [ -f "public/data/pet-essays.json" ]; then
+            # 计算新生成文件的哈希值
+            NEW_HASH=$(sha256sum public/data/pet-essays.json | cut -d' ' -f1)
+            
+            # 获取当前仓库中文件的哈希值
+            CURRENT_HASH=$(git show HEAD:public/data/pet-essays.json 2>/dev/null | sha256sum | cut -d' ' -f1 || echo "no_previous_file")
+            
+            echo "新生成文件哈希: $NEW_HASH"
+            echo "当前文件哈希: $CURRENT_HASH"
+            
+            if [ "$NEW_HASH" = "$CURRENT_HASH" ]; then
+              echo "内容没有变化，跳过提交"
+              echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
+            else
+              echo "内容已更新，继续提交"
+              echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
+            fi
+          else
+            echo "新文件，继续提交"
+            echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
+          fi
+
       - name: Verify file content
         run: |
           echo "验证生成的文件内容："
@@ -83,10 +113,10 @@ jobs:
           node -e "const data = JSON.parse(require('fs').readFileSync('public/data/pet-essays.json', 'utf8')); console.log('JSON格式正确，包含', data.length, '个条目');"
 
       - name: Commit and push the generated file
-        if: success()  # 只有在前面的步骤都成功时才执行
+        if: success() && env.CONTENT_CHANGED == 'true'  # 只有在前面的步骤都成功且内容有变化时才执行
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "AI Generate Content"
+          commit_message: "AI Generate Content - $(date +%Y-%m-%d_%H:%M:%S)"
           file_pattern: "public/data/pet-essays.json"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions-bot@users.noreply.github.com"

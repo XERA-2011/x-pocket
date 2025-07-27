@@ -7,9 +7,13 @@ import gsap from 'gsap';
 // Register GSAP plugins if available
 if (typeof window !== 'undefined') {
   try {
-    // TextPlugin is part of the GSAP core
-    const { TextPlugin } = require('gsap/TextPlugin');
-    gsap.registerPlugin(TextPlugin);
+    // Dynamic import for TextPlugin
+    import('gsap/TextPlugin').then(module => {
+      const { TextPlugin } = module;
+      gsap.registerPlugin(TextPlugin);
+    }).catch(error => {
+      console.warn('GSAP TextPlugin not available:', error);
+    });
   } catch (error) {
     console.warn('GSAP TextPlugin not available:', error);
   }

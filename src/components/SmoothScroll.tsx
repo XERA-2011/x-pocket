@@ -20,7 +20,7 @@ interface LenisOptions {
   smoothTouch?: boolean;
   touchMultiplier?: number;
   // Add any other options as needed
-  [key: string]: any; // Allow any other properties
+  [key: string]: unknown; // Allow any other properties with unknown type
 }
 
 export default function SmoothScroll({ children }: SmoothScrollProps) {
@@ -31,14 +31,14 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
     const initSmoothScroll = async () => {
       try {
         // Try to import Lenis dynamically
-        const module = await import('@studio-freight/lenis').catch(() => null);
+        const lenisModule = await import('@studio-freight/lenis').catch(() => null);
 
-        if (!module) {
+        if (!lenisModule) {
           console.warn('Lenis module could not be loaded');
           return;
         }
 
-        const Lenis = module.default;
+        const Lenis = lenisModule.default;
 
         // Create Lenis instance with options
         const options: LenisOptions = {

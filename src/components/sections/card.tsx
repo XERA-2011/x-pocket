@@ -13,6 +13,9 @@ export default function GlassNavigation() {
   useEffect(() => {
     if (!containerRef.current) return;
 
+    // Store a reference to the current container element
+    const container = containerRef.current;
+
     // Intersection Observer for scroll-based animations
     const observer = new IntersectionObserver(
       (entries) => {
@@ -22,7 +25,7 @@ export default function GlassNavigation() {
 
             // Add GSAP animation for the container when it comes into view
             gsap.fromTo(
-              containerRef.current,
+              container,
               {
                 y: 30,
                 opacity: 0.5,
@@ -42,13 +45,13 @@ export default function GlassNavigation() {
       { threshold: 0.1 }
     );
 
-    observer.observe(containerRef.current);
+    observer.observe(container);
 
     // Add hover effect for the entire grid
     const handleMouseMove = (e: MouseEvent) => {
-      if (!containerRef.current) return;
+      if (!container) return;
 
-      const { left, top, width, height } = containerRef.current.getBoundingClientRect();
+      const { left, top, width, height } = container.getBoundingClientRect();
       const x = e.clientX - left;
       const y = e.clientY - top;
 
@@ -61,7 +64,7 @@ export default function GlassNavigation() {
       const distanceY = (y - centerY) / centerY;
 
       // Apply subtle tilt effect to the container
-      gsap.to(containerRef.current, {
+      gsap.to(container, {
         rotateX: -distanceY * 2, // Invert for natural feel
         rotateY: distanceX * 2,
         duration: 0.5,
@@ -70,9 +73,9 @@ export default function GlassNavigation() {
     };
 
     const handleMouseLeave = () => {
-      if (!containerRef.current) return;
+      if (!container) return;
 
-      gsap.to(containerRef.current, {
+      gsap.to(container, {
         rotateX: 0,
         rotateY: 0,
         duration: 0.5,
@@ -80,15 +83,13 @@ export default function GlassNavigation() {
       });
     };
 
-    containerRef.current.addEventListener('mousemove', handleMouseMove);
-    containerRef.current.addEventListener('mouseleave', handleMouseLeave);
+    container.addEventListener('mousemove', handleMouseMove);
+    container.addEventListener('mouseleave', handleMouseLeave);
 
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-        containerRef.current.removeEventListener('mousemove', handleMouseMove);
-        containerRef.current.removeEventListener('mouseleave', handleMouseLeave);
-      }
+      observer.unobserve(container);
+      container.removeEventListener('mousemove', handleMouseMove);
+      container.removeEventListener('mouseleave', handleMouseLeave);
     };
   }, []);
 

@@ -20,9 +20,24 @@ const FallbackSection = () => (
 export default function Home() {
   // Reset scroll position to top on page refresh
   useEffect(() => {
+    // 立即重置滚动位置
     window.scrollTo(0, 0);
+
+    // 使用 requestAnimationFrame 确保在下一帧执行
+    requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
+    });
+
+    // 延迟执行，确保所有组件都已加载
+    const timer = setTimeout(() => {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, []);
-  
+
   return (
     <SmoothScroll>
       <PageTransition>
@@ -31,7 +46,7 @@ export default function Home() {
         </Suspense>
 
         <Suspense fallback={<FallbackSection />}>
-           <CardSection />
+          <CardSection />
         </Suspense>
       </PageTransition>
     </SmoothScroll>

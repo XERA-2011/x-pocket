@@ -10,6 +10,7 @@ interface SmoothScrollProps {
 type LenisType = {
   raf: (time: number) => void;
   destroy: () => void;
+  scrollTo: (target: number, options?: { immediate?: boolean }) => void;
 };
 
 // Define Lenis options type

@@ -116,7 +116,7 @@ jobs:
         if: success() && env.CONTENT_CHANGED == 'true'  # 只有在前面的步骤都成功且内容有变化时才执行
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "AI Generate Content - $(date +%Y-%m-%d_%H:%M:%S)"
+          commit_message: "AI Generate Content Update"
           file_pattern: "public/data/pet-essays.json"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions-bot@users.noreply.github.com"

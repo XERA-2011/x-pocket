@@ -19,6 +19,12 @@ pnpm install
 pnpm dev
 ```
 
+## Deploy
+
+```bash
+pnpm build
+```
+
 ## Vercel
 
 ```bash

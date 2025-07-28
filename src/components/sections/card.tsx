@@ -112,14 +112,6 @@ export default function GlassNavigation() {
               href="/coze"
               className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
             >
-              2011
-            </Link>
-          </div>
-          <div className="w-full">
-            <Link
-              href="/coze"
-              className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
-            >
               COZE AI
             </Link>
           </div>

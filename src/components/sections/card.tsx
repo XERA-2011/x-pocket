@@ -109,7 +109,7 @@ export default function GlassNavigation() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="w-full">
             <Link
-              href="/static/black-hole.html"
+              href="/page/black-hole"
               className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
             >
               黑洞

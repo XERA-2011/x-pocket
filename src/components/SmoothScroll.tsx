@@ -32,7 +32,7 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
     const initSmoothScroll = async () => {
       try {
         // Try to import Lenis dynamically
-        const lenisModule = await import('@studio-freight/lenis').catch(() => null);
+        const lenisModule = await import('lenis').catch(() => null);
 
         if (!lenisModule) {
           console.warn('Lenis module could not be loaded');

@@ -12,7 +12,13 @@ export default function EssaysPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/data/pet-essays.json')
+    let url = '/data/pet-essays.json'
+    // 当地址为 xera-2011.github.io 时，在 URL 前面拼接 /项目名
+    console.log(window.location.hostname);
+    if (typeof window !== 'undefined' && window.location.hostname === 'xera-2011.github.io') {
+      url = '/x-pocket' + url
+    }
+    fetch(url)
       .then((res) => res.json())
       .then((data) => {
         setEssays(data);

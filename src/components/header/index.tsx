@@ -25,13 +25,13 @@ export default function Header() {
         }`}
     >
       <motion.span
-        className="relative inline-block"
-        whileHover={{ scale: 1.05 }}
-        transition={{ type: "spring", stiffness: 300, damping: 10 }}
+        className="relative group inline-block transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-white hover:to-black"
+        whileHover={{ scale: 1.2 }}
+        transition={{ type: "tween", duration: 0.1 }}
       >
         <Link
           href="/"
-          className="text-3xl font-bold text-center block transition-all duration-300 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-indigo-400 hover:to-pink-400"
+          className="text-3xl font-bold text-center block"
         >
           <motion.span
             initial={{ opacity: 0 }}
@@ -41,12 +41,6 @@ export default function Header() {
             X-POCKET
           </motion.span>
         </Link>
-        <motion.div
-          className="absolute -bottom-2 left-0 h-[2px] bg-gradient-to-r from-indigo-500 to-pink-500"
-          initial={{ width: "0%" }}
-          animate={{ width: "100%" }}
-          transition={{ delay: 0.5, duration: 0.8, ease: "easeInOut" }}
-        />
       </motion.span>
     </motion.header>
   );

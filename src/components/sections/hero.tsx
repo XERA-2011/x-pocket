@@ -19,7 +19,7 @@ if (typeof window !== 'undefined') {
   }
 }
 
-export default function Hero() {
+export default function HeroSection() {
   const logoRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [isHovering, setIsHovering] = useState(false);
@@ -42,7 +42,7 @@ export default function Hero() {
       className="h-screen w-full flex flex-col items-center justify-center text-center p-8 rounded-3xl relative"
     >
       {/* Background glow effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-900/10 via-purple-900/5 to-pink-900/10 rounded-3xl blur-xl opacity-50" />
+      <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/10 via-white-900/5 to-yellow-900/10 rounded-3xl blur-xl opacity-50" />
 
       <motion.div
         ref={logoRef}
@@ -56,8 +56,8 @@ export default function Hero() {
           <div
             className={`absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 rounded-full 
               ${isHovering ?
-                'shadow-[inset_0_0_2vmin_#6366f1,inset_0_0_5vmin_#6366f1,inset_0_0_10vmin_#6366f1,0_0_12vmin_#ec4899]' :
-                'shadow-[inset_0_0_1vmin_#6366f1,inset_0_0_3vmin_#6366f1,inset_0_0_6vmin_#6366f1,0_0_7vmin_#ec4899]'
+                'shadow-[inset_0_0_2vmin_#fff,inset_0_0_5vmin_#fff,inset_0_0_10vmin_#fff,0_0_12vmin_#fff]' :
+                'shadow-[inset_0_0_1vmin_#fff,inset_0_0_3vmin_#fff,inset_0_0_6vmin_#fff,0_0_7vmin_#fff]'
               } transition-shadow duration-400 ease-in-out`}
             style={{
               transition: 'box-shadow 0.4s ease-in-out'
@@ -69,39 +69,31 @@ export default function Hero() {
 
           {/* X text */}
           <div className="absolute inset-0 flex items-center justify-center z-10">
-            <span className="text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-pink-500 select-none">X</span>
+            <span className="text-7xl font-bold bg-clip-text text-transparent bg-white select-none">X</span>
           </div>
         </div>
       </motion.div>
 
       {/* <h1
-        className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-200 to-indigo-200 min-h-[3.5rem] mt-20"
+        className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-white-200 to-black-200 min-h-[3.5rem] mt-20"
       >
         Pocket Universe
       </h1> */}
-
-      {/* Animated underline */}
-      {/* <motion.div
-        initial={{ width: 0 }}
-        animate={{ width: "200px" }}
-        transition={{ delay: 0.5, duration: 0.5, ease: "easeInOut" }}
-        className="h-[2px] bg-gradient-to-r from-transparent via-purple-400 to-transparent"
-      /> */}
 
       {/* Scroll indicator */}
       <motion.div
         className="absolute bottom-8 flex flex-col items-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 3, duration: 1 }}
+        transition={{ delay: 1, duration: 1 }}
       >
         <motion.div
-          className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center p-1"
+          className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center p-1"
           initial={{ y: 0 }}
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
         >
-          <motion.div className="w-1.5 h-3 bg-gray-400 rounded-full" />
+          <motion.div className="w-1.5 h-3 bg-white/50 rounded-full" />
         </motion.div>
       </motion.div>
     </section>

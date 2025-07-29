@@ -1,8 +1,8 @@
 "use client";
 
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 import Link from 'next/link';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 
 // 卡片数据
@@ -19,62 +19,27 @@ const cardData = [
 
 export default function CardSection() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
-
-  // 使用 framer-motion 的滚动钩子来跟踪滚动位置
-  const { scrollYProgress } = useScroll({
-    target: scrollContainerRef,
-    offset: ["start start", "end end"]
-  });
-
-  // 简化滚动效果，只保留透明度变化
-  const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 1, 0.95]);
-
-  useEffect(() => {
-    if (!containerRef.current) return;
-    const container = containerRef.current;
-
-    // 简化卡片动画，使用 CSS 类而不是 GSAP
-    const cards = container.querySelectorAll('.card-item');
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('card-visible');
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: "-50px" }
-    );
-
-    cards.forEach(card => observer.observe(card));
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
 
   return (
-    <section ref={scrollContainerRef} className="relative w-full min-h-screen">
+    <section className="relative w-full min-h-screen">
       <motion.div
         ref={containerRef}
         className="min-h-screen w-full py-20 px-6 md:px-8 relative transform-gpu"
         style={{
-          perspective: "1000px",
-          opacity
+          perspective: "1000px"
         }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-white/80">
           探索功能
         </h2>
 
-        <ScrollReveal delay={0.3}>
-          <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/5 to-purple-900/5 rounded-2xl blur-md opacity-30" />
+        <div className="relative">
+          <ScrollReveal delay={0.3}>
+            <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/5 to-white-900/5 rounded-2xl blur-md opacity-30" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-10">
-            {cardData.map((card, index) => (
-              <div key={index} className="w-full card-item">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-10">
+              {cardData.map((card, index) => (
+                <div key={index} className="w-full">
                 <Link
                   href={card.href}
                   className={`w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-300 min-h-[180px] no-underline relative overflow-hidden group bg-gradient-to-br bg-white/10 hover:shadow-lg`}
@@ -90,11 +55,12 @@ export default function CardSection() {
                 </Link>
               </div>
             ))}
-          </div>
-        </ScrollReveal>
+            </div>
+          </ScrollReveal>
+        </div>
 
         {/* 第二部分：滚动触发的内容 */}
-        <div className="mt-32 pt-16 border-t border-white/10">
+        <div className="mt-32 pt-16 border-t border-white/10 relative">
           <ScrollReveal delay={0.5}>
             <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">
               体验 SmoothScroll 的平滑滚动效果

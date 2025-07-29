@@ -32,9 +32,7 @@ export default function RootLayout({
       >
         <Particles />
         <Header />
-        <main>
-          {children}
-        </main>
+        {children}
         <Footer />
       </body>
     </html>

@@ -2,153 +2,125 @@
 
 import { useRef, useEffect } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
-import gsap from 'gsap';
-// 随着元素滚动进入视图时显示动画效果的组件
+import { motion, useScroll, useTransform } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 
-export default function GlassNavigation() {
+// 卡片数据
+const cardData = [
+  { title: "黑洞", href: "/pages/black-hole" },
+  { title: "COZE AI", href: "/coze" },
+  { title: "每日英语作文", href: "/essays" },
+  { title: "Google AI", href: "/google" },
+  { title: "更多功能", href: "#" },
+  { title: "AI 助手", href: "#" },
+  { title: "知识库", href: "#" },
+  { title: "工具箱", href: "#" },
+];
+
+export default function CardSection() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  // 使用 framer-motion 的滚动钩子来跟踪滚动位置
+  const { scrollYProgress } = useScroll({
+    target: scrollContainerRef,
+    offset: ["start start", "end end"]
+  });
+
+  // 简化滚动效果，只保留透明度变化
+  const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [1, 1, 0.95]);
 
   useEffect(() => {
     if (!containerRef.current) return;
-
-    // Store a reference to the current container element
     const container = containerRef.current;
 
-    // Intersection Observer for scroll-based animations
+    // 简化卡片动画，使用 CSS 类而不是 GSAP
+    const cards = container.querySelectorAll('.card-item');
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('animate-in');
-
-            // Add GSAP animation for the container when it comes into view
-            gsap.fromTo(
-              container,
-              {
-                y: 30,
-                opacity: 0.5,
-                scale: 0.98
-              },
-              {
-                y: 0,
-                opacity: 1,
-                scale: 1,
-                duration: 1,
-                ease: "power2.out"
-              }
-            );
+            entry.target.classList.add('card-visible');
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: "-50px" }
     );
 
-    observer.observe(container);
-
-    // Add hover effect for the entire grid
-    const handleMouseMove = (e: MouseEvent) => {
-      if (!container) return;
-
-      const { left, top, width, height } = container.getBoundingClientRect();
-      const x = e.clientX - left;
-      const y = e.clientY - top;
-
-      // Calculate position relative to the center
-      const centerX = width / 2;
-      const centerY = height / 2;
-
-      // Calculate distance from center (normalized)
-      const distanceX = (x - centerX) / centerX;
-      const distanceY = (y - centerY) / centerY;
-
-      // Apply subtle tilt effect to the container
-      gsap.to(container, {
-        rotateX: -distanceY * 2, // Invert for natural feel
-        rotateY: distanceX * 2,
-        duration: 0.5,
-        ease: "power1.out"
-      });
-    };
-
-    const handleMouseLeave = () => {
-      if (!container) return;
-
-      gsap.to(container, {
-        rotateX: 0,
-        rotateY: 0,
-        duration: 0.5,
-        ease: "power1.out"
-      });
-    };
-
-    container.addEventListener('mousemove', handleMouseMove);
-    container.addEventListener('mouseleave', handleMouseLeave);
+    cards.forEach(card => observer.observe(card));
 
     return () => {
-      observer.unobserve(container);
-      container.removeEventListener('mousemove', handleMouseMove);
-      container.removeEventListener('mouseleave', handleMouseLeave);
+      observer.disconnect();
     };
   }, []);
 
   return (
-    <motion.section
-      ref={containerRef}
-      className="h-screen w-full nav-grid p-6 md:p-8 rounded-2xl relative transform-gpu backdrop-filter backdrop-blur-[6px]"
-      style={{ perspective: "1000px" }}
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-100px" }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-    >
-      <ScrollReveal delay={0.3}>
-        <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/5 to-purple-900/5 rounded-2xl blur-md opacity-30" />
+    <section ref={scrollContainerRef} className="relative w-full min-h-screen">
+      <motion.div
+        ref={containerRef}
+        className="min-h-screen w-full py-20 px-6 md:px-8 relative transform-gpu"
+        style={{
+          perspective: "1000px",
+          opacity
+        }}
+      >
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+          探索功能
+        </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="w-full">
-            <Link
-              href="/pages/black-hole"
-              className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
-            >
-              黑洞
-            </Link>
+        <ScrollReveal delay={0.3}>
+          <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/5 to-purple-900/5 rounded-2xl blur-md opacity-30" />
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-10">
+            {cardData.map((card, index) => (
+              <div key={index} className="w-full card-item">
+                <Link
+                  href={card.href}
+                  className={`w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-300 min-h-[180px] no-underline relative overflow-hidden group bg-gradient-to-br bg-white/10 hover:shadow-lg`}
+                >
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                  <div className="relative z-10 flex flex-col items-center">
+                    <h3 className="text-xl font-medium">{card.title}</h3>
+                    <div className="mt-2 w-12 h-1 bg-white/20 rounded-full group-hover:w-20 transition-all duration-300" />
+                  </div>
+
+                  <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-purple-600 scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300" />
+                </Link>
+              </div>
+            ))}
           </div>
-          <div className="w-full">
-            <Link
-              href="/coze"
-              className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
-            >
-              COZE AI
-            </Link>
-          </div>
-          <div className="w-full">
-            <Link
-              href="/essays"
-              className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
-            >
-              每日英语作文
-            </Link>
-          </div>
-          <div className="w-full">
-            <Link
-              href="/google"
-              className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
-            >
-              Google AI
-            </Link>
-          </div>
-          <div className="w-full">
-            <Link
-              href="#"
-              className="w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-500 min-h-[130px] no-underline relative overflow-hidden group"
-            >
-              更多功能
-            </Link>
-          </div>
+        </ScrollReveal>
+
+        {/* 第二部分：滚动触发的内容 */}
+        <div className="mt-32 pt-16 border-t border-white/10">
+          <ScrollReveal delay={0.5}>
+            <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">
+              体验 SmoothScroll 的平滑滚动效果
+            </h3>
+
+            <div className="max-w-3xl mx-auto bg-white/5 backdrop-blur-sm p-8 rounded-2xl">
+              <p className="text-lg mb-6 leading-relaxed">
+                SmoothScroll 组件使用 Lenis 库实现了页面的平滑滚动效果，让页面滚动更加流畅自然。
+                当你滚动页面时，可以感受到动画和过渡效果的平滑变化，这种体验比原生滚动更加舒适。
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                {[1, 2].map((item) => (
+                  <div
+                    key={item}
+                    className="p-6 rounded-xl bg-gradient-to-br from-indigo-500/10 to-purple-600/10 hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+                  >
+                    <h4 className="text-xl font-medium mb-3">平滑滚动特性 {item}</h4>
+                    <p>体验更加自然的页面过渡和动画效果，让用户界面感觉更加流畅和专业。</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
         </div>
-      </ScrollReveal>
-    </motion.section>
+      </motion.div>
+    </section>
   );
 }

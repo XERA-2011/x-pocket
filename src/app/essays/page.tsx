@@ -31,7 +31,7 @@ export default function EssaysPage() {
   }, []);
 
   return (
-    <div className="mx-auto p-4 min-h-[75vh] mt-[100px]">
+    <div className="mx-auto p-4 min-h-[75vh] max-w-1/2 mt-[100px]">
 
       {loading ? (
         <div className="flex justify-center items-center">

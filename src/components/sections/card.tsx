@@ -21,7 +21,7 @@ export default function CardSection() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="relative w-full min-h-screen">
+    <section className="relative w-full min-h-screen" id="explore">
       <motion.div
         ref={containerRef}
         className="min-h-screen w-full py-20 px-6 md:px-8 relative transform-gpu"
@@ -29,7 +29,7 @@ export default function CardSection() {
           perspective: "1000px"
         }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-white/80">
+        <h2 className="text-3xl md:text-4xl font-bold text-center my-12 bg-clip-text text-transparent bg-white/80">
           探索功能
         </h2>
 
@@ -40,21 +40,21 @@ export default function CardSection() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-10">
               {cardData.map((card, index) => (
                 <div key={index} className="w-full">
-                <Link
-                  href={card.href}
-                  className={`w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-300 min-h-[180px] no-underline relative overflow-hidden group bg-gradient-to-br bg-white/10 hover:shadow-lg`}
-                >
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <Link
+                    href={card.href}
+                    className={`w-full border-0 rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center transition-all duration-300 min-h-[180px] no-underline relative overflow-hidden group bg-gradient-to-br bg-white/10 hover:shadow-lg`}
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                  <div className="relative z-10 flex flex-col items-center">
-                    <h3 className="text-xl font-medium">{card.title}</h3>
-                    <div className="mt-2 w-12 h-1 bg-white/20 rounded-full group-hover:w-20 transition-all duration-300" />
-                  </div>
+                    <div className="relative z-10 flex flex-col items-center">
+                      <h3 className="text-xl font-medium">{card.title}</h3>
+                      <div className="mt-2 w-12 h-1 bg-white/20 rounded-full group-hover:w-20 transition-all duration-300" />
+                    </div>
 
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-purple-600 scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300" />
-                </Link>
-              </div>
-            ))}
+                    <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 to-purple-600 scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300" />
+                  </Link>
+                </div>
+              ))}
             </div>
           </ScrollReveal>
         </div>

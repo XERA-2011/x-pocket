@@ -46,9 +46,13 @@ export default function HeroSection() {
 
       <motion.div
         ref={logoRef}
-        className="relative w-[30vmin] h-[30vmin] rounded-full"
+        className="relative w-[30vmin] h-[30vmin] rounded-full cursor-pointer"
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
+        onClick={() => {
+          // 使用标准的URL锚点方式跳转
+          window.location.href = '#explore';
+        }}
       >
         {/* Black hole effect using Tailwind CSS */}
         <div className="w-full h-full relative black-hole transition-transform duration-400 ease-in-out hover:scale-[1.05]">

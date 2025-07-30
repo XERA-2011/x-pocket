@@ -233,15 +233,15 @@ export default function Particles({
     const sizeDistribution = Math.random();
     let size;
 
-    if (sizeDistribution < 0.50) {
-      // 50% 的星星较小 (0.3-0.6) - 增加小星星比重
-      size = Math.random() * 0.3 + 0.3;
-    } else if (sizeDistribution < 0.95) {
-      // 45% 的星星中等 (0.6-0.9) - 相应减少
-      size = Math.random() * 0.3 + 0.6;
+    if (sizeDistribution < 0.70) {
+      // 70% 的星星较小 (0.6-0.8)
+      size = Math.random() * 0.2 + 0.6;
+    } else if (sizeDistribution < 0.98) {
+      // 28% 的星星中等 (0.8-1.0)
+      size = Math.random() * 0.2 + 0.8;
     } else {
-      // 5% 的星星较大 (0.9-1.4) - 保持不变
-      size = Math.random() * 0.5 + 0.9;
+      // 2% 的星星较大 (1.0-1.2)
+      size = Math.random() * 0.2 + 1.0;
     }
 
     const alpha = 0;

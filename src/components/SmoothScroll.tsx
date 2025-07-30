@@ -26,9 +26,9 @@ interface LenisOptions {
 
 export default function SmoothScroll({ children }: SmoothScrollProps) {
   const scrollRef = useRef<LenisType | null>(null);
+  const rafIdRef = useRef<number | null>(null); // Ref for the animation frame ID
 
   useEffect(() => {
-    // Dynamic import to avoid SSR issues
     const initSmoothScroll = async () => {
       try {
         // Try to import Lenis dynamically
@@ -54,12 +54,12 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
 
         scrollRef.current = new Lenis(options);
 
-        function raf(time: number) {
+        const raf = (time: number) => {
           scrollRef.current?.raf(time);
-          requestAnimationFrame(raf);
-        }
+          rafIdRef.current = requestAnimationFrame(raf);
+        };
 
-        requestAnimationFrame(raf);
+        rafIdRef.current = requestAnimationFrame(raf);
       } catch (error) {
         console.warn('Smooth scroll could not be initialized:', error);
         // Fallback to native scroll behavior
@@ -69,8 +69,12 @@ export default function SmoothScroll({ children }: SmoothScrollProps) {
     initSmoothScroll();
 
     return () => {
+      if (rafIdRef.current) {
+        cancelAnimationFrame(rafIdRef.current);
+      }
       if (scrollRef.current) {
         scrollRef.current.destroy();
+        scrollRef.current = null;
       }
     };
   }, []);

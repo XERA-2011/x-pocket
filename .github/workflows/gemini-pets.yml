@@ -25,13 +25,21 @@ jobs:
 
       - name: Generate and save essay examples
         run: |
-          echo "使用默认的 PET 主题生成作文"
+          echo "=== 开始生成 PET 作文 ==="
           
           # 添加时间戳和随机元素来避免缓存
           TIMESTAMP=$(date +%s)
           RANDOM_ID=$(echo $RANDOM)
           
-          PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID。请确保生成的内容是独特的，不要重复之前的内容。"
+          # 生成更具体的主题来确保内容多样性
+          TOPICS=("A Letter to a Friend" "My Daily Routine" "A Special Day" "My Hometown" "Learning English" "My Family" "A Holiday Trip" "My School" "My Pet" "My Future Plans" "My Best Friend" "A Birthday Party" "My Favorite Food" "A Shopping Trip" "My Weekend" "A Sports Event" "My Room" "A Restaurant Visit" "My Job" "A Movie Review" "A Concert Experience" "My Favorite Season" "A Technology Problem" "A Cultural Festival" "My Dream House" "A Health Issue" "A Book Review" "My Favorite Music" "A Travel Adventure" "A School Project" "A Weather Event")
+          SELECTED_TOPIC=${TOPICS[$((RANDOM % ${#TOPICS[@]}))]}
+          
+          echo "时间戳: $TIMESTAMP"
+          echo "随机ID: $RANDOM_ID"
+          echo "选定主题: $SELECTED_TOPIC"
+          
+          PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。第一个作文的主题必须是：$SELECTED_TOPIC。第二个作文的主题可以是任何PET考试常见主题。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID，选定主题：$SELECTED_TOPIC。请确保生成的内容是独特的，不要重复之前的内容。"
           
           # 重试机制
           MAX_RETRIES=2
@@ -81,36 +89,85 @@ jobs:
 
       - name: Check if content has changed
         run: |
+          echo "=== Content Change Detection ==="
+          
           # 检查是否有现有文件
           if [ -f "public/data/pet-essays.json" ]; then
-            # 计算新生成文件的哈希值
-            NEW_HASH=$(sha256sum public/data/pet-essays.json | cut -d' ' -f1)
+            # 保存新生成的文件到临时位置
+            cp public/data/pet-essays.json /tmp/new_pet_essays.json
             
-            # 获取当前仓库中文件的哈希值
-            CURRENT_HASH=$(git show HEAD:public/data/pet-essays.json 2>/dev/null | sha256sum | cut -d' ' -f1 || echo "no_previous_file")
+            # 获取当前仓库中的文件
+            if git show HEAD:public/data/pet-essays.json > /tmp/current_pet_essays.json 2>/dev/null; then
+              echo "✅ 成功获取当前仓库文件"
+            else
+              echo "⚠️  无法获取当前仓库文件，可能是新文件"
+              echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
+              exit 0
+            fi
+            
+            # 计算哈希值
+            NEW_HASH=$(sha256sum /tmp/new_pet_essays.json | cut -d' ' -f1)
+            CURRENT_HASH=$(sha256sum /tmp/current_pet_essays.json | cut -d' ' -f1)
             
             echo "新生成文件哈希: $NEW_HASH"
             echo "当前文件哈希: $CURRENT_HASH"
+            echo "新文件大小: $(wc -c < /tmp/new_pet_essays.json) bytes"
+            echo "当前文件大小: $(wc -c < /tmp/current_pet_essays.json) bytes"
+            echo "新文件行数: $(wc -l < /tmp/new_pet_essays.json) lines"
+            echo "当前文件行数: $(wc -l < /tmp/current_pet_essays.json) lines"
             
-            if [ "$NEW_HASH" = "$CURRENT_HASH" ]; then
-              echo "内容没有变化，跳过提交"
+            # 显示内容差异
+            echo ""
+            echo "=== 内容差异比较 ==="
+            if diff -q /tmp/new_pet_essays.json /tmp/current_pet_essays.json > /dev/null; then
+              echo "❌ 文件内容完全相同，跳过提交"
               echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
             else
-              echo "内容已更新，继续提交"
+              echo "✅ 文件内容有差异，继续提交"
+              echo "差异详情："
+              diff -u /tmp/current_pet_essays.json /tmp/new_pet_essays.json || true
               echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
             fi
+            
+            # 清理临时文件
+            rm -f /tmp/new_pet_essays.json /tmp/current_pet_essays.json
           else
-            echo "新文件，继续提交"
+            echo "✅ 新文件，继续提交"
             echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
           fi
 
       - name: Verify file content
         run: |
-          echo "验证生成的文件内容："
+          echo "=== 文件内容验证 ==="
+          echo "生成的文件内容："
           cat public/data/pet-essays.json
           echo ""
           echo "验证JSON格式："
-          node -e "const data = JSON.parse(require('fs').readFileSync('public/data/pet-essays.json', 'utf8')); console.log('JSON格式正确，包含', data.length, '个条目');"
+          node -e "
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('public/data/pet-essays.json', 'utf8'));
+            console.log('✅ JSON格式正确，包含', data.length, '个条目');
+            
+            // 验证每个条目的结构
+            data.forEach((item, index) => {
+              if (!item.title || !item.english_text || !item.chinese_translation) {
+                throw new Error(\`条目 \${index + 1} 缺少必要字段\`);
+              }
+              console.log(\`✅ 条目 \${index + 1}: '\${item.title}'\`);
+            });
+            
+            // 计算内容哈希用于调试
+            const contentHash = require('crypto').createHash('sha256').update(JSON.stringify(data)).digest('hex');
+            console.log('内容哈希:', contentHash);
+          "
+
+      - name: Show commit status
+        run: |
+          if [ "$CONTENT_CHANGED" = "true" ]; then
+            echo "✅ 准备提交更改..."
+          else
+            echo "⏭️  跳过提交 - 内容没有变化"
+          fi
 
       - name: Commit and push the generated file
         if: success() && env.CONTENT_CHANGED == 'true'  # 只有在前面的步骤都成功且内容有变化时才执行

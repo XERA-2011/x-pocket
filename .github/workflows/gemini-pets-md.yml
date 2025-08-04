@@ -43,7 +43,7 @@ jobs:
           echo "选定邮件/明信片主题: $SELECTED_TOPIC_EMAIL"
           echo "选定故事/文章主题: $SELECTED_TOPIC_STORY"
           
-          PROMPT="请为我生成一个Markdown格式的文件内容。该文件应包含两篇符合 PET (B1 Preliminary) 考试写作要求的英语作文，每篇大约100个单词。\n\n第一篇是应用文（例如电子邮件或明信片），主题是：'$SELECTED_TOPIC_EMAIL'。\n第二篇是记叙文或短文，主题是：'$SELECTED_TOPIC_STORY'。\n\n请遵循以下格式：\n\n# PET 作文示例\n\n## 作文一：应用文\n\n**主题**：$SELECTED_TOPIC_EMAIL\n\n**正文**：\n[此处为第一篇作文的英文内容]\n\n---\n\n## 作文二：记叙文/短文\n\n**主题**：$SELECTED_TOPIC_STORY\n\n**正文**：\n[此处为第二篇作文的英文内容]\n\n请确保只输出纯净的Markdown内容，不要包含任何额外的解释或代码块标记。当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID。请确保生成的内容是独特的。"
+          PROMPT="请为我生成一个Markdown格式的文件内容，该文件应包含两篇符合 PET (B1 Preliminary) 考试写作要求的英语作文（每篇约100词）及其翻译。\n\n第一篇是应用文，主题是：'$SELECTED_TOPIC_EMAIL'。\n第二篇是记叙文或短文，主题是：'$SELECTED_TOPIC_STORY'。\n\n请严格遵循以下格式，不要包含任何额外的解释或代码块标记。请直接输出 Markdown 内容。\n\n# 应用文\n\n## $SELECTED_TOPIC_EMAIL\n- [此处为主题 '$SELECTED_TOPIC_EMAIL' 的中文翻译]\n\n**正文**：\n\n[作文一的英文正文]\n\n- [作文一的中文翻译，翻译的每个段落都另起一行并以'- '开头]\n\n---\n\n# 记叙文/短文\n\n## $SELECTED_TOPIC_STORY\n- [此处为主题 '$SELECTED_TOPIC_STORY' 的中文翻译]\n\n**正文**：\n\n[作文二的英文正文]\n\n- [作文二的中文翻译，翻译的每个段落都另起一行并以'- '开头]\n\n请确保只输出纯净的Markdown内容。当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID。请确保生成的内容是独特的。"
           
           # 重试机制
           MAX_RETRIES=2

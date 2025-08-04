@@ -1,4 +1,4 @@
-name: Generate English Essay Examples (Scheduled)
+name: Generate English Essay
 
 on:
   schedule:
@@ -31,15 +31,19 @@ jobs:
           TIMESTAMP=$(date +%s)
           RANDOM_ID=$(echo $RANDOM)
           
-          # 生成更具体的主题来确保内容多样性
-          TOPICS=("A Letter to a Friend" "My Daily Routine" "A Special Day" "My Hometown" "Learning English" "My Family" "A Holiday Trip" "My School" "My Pet" "My Future Plans" "My Best Friend" "A Birthday Party" "My Favorite Food" "A Shopping Trip" "My Weekend" "A Sports Event" "My Room" "A Restaurant Visit" "My Job" "A Movie Review" "A Concert Experience" "My Favorite Season" "A Technology Problem" "A Cultural Festival" "My Dream House" "A Health Issue" "A Book Review" "My Favorite Music" "A Travel Adventure" "A School Project" "A Weather Event")
-          SELECTED_TOPIC=${TOPICS[$((RANDOM % ${#TOPICS[@]}))]}
+          # 为两种作文类型创建不同的主题列表
+          TOPICS_EMAIL=("An email to a friend about a party you are organizing" "A postcard from your holiday telling a friend what you are doing" "An email to a hotel asking for information about their rooms and prices" "A thank-you letter to a relative for a birthday present they sent you" "An email invitation to a school event you are helping with" "An email to your English teacher explaining why you missed a class" "A postcard to your family describing a place you are visiting" "An email to a shop to complain about a product you bought" "An email to a friend recommending a book you have just read" "A letter to a new penfriend introducing yourself" "An email to a sports club to ask about membership" "A postcard inviting your cousin to stay with you for a weekend" "An email to a friend apologizing for something you did" "A letter to a magazine giving your opinion on an article" "An email to a company applying for a part-time job" "A postcard from a city you've just moved to" "An email to a friend giving them directions to your house" "A thank-you email to a friend who helped you with a problem" "An email to a cinema to book tickets for a film" "A letter to the school principal suggesting an improvement")
+          TOPICS_STORY=("Write a story about a surprising event that happened at school" "An article for the school magazine about your favorite hobby" "Write a story that begins with the sentence: 'The door opened slowly and I couldn't believe who I saw.'" "An article for a website about the benefits of regular exercise" "A story about a memorable journey you took with your family" "Write a story about finding something mysterious in your garden" "An article about the importance of protecting the environment" "Write a story that ends with the sentence: 'It was the best day of my life.'" "An article describing your favorite festival and why you enjoy it" "A story about a time you learned an important lesson" "Write a story about a funny misunderstanding" "An article for young people about how to use social media safely" "A story about a pet that did something amazing" "Write a story that begins with: 'I knew it was a bad idea, but I did it anyway.'" "An article about your favorite film and why others should watch it" "A story about helping someone in need" "Write a story about an unexpected visitor" "An article about a famous person you admire" "A story about a dream that came true" "Write a story that ends with: 'I would never forget that day.'")
+          
+          SELECTED_TOPIC_EMAIL=${TOPICS_EMAIL[$((RANDOM % ${#TOPICS_EMAIL[@]}))]}
+          SELECTED_TOPIC_STORY=${TOPICS_STORY[$((RANDOM % ${#TOPICS_STORY[@]}))]}
           
           echo "时间戳: $TIMESTAMP"
           echo "随机ID: $RANDOM_ID"
-          echo "选定主题: $SELECTED_TOPIC"
+          echo "选定邮件/明信片主题: $SELECTED_TOPIC_EMAIL"
+          echo "选定故事/文章主题: $SELECTED_TOPIC_STORY"
           
-          PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。第一个作文的主题必须是：$SELECTED_TOPIC。第二个作文的主题可以是任何PET考试常见主题。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID，选定主题：$SELECTED_TOPIC。请确保生成的内容是独特的，不要重复之前的内容。"
+          PROMPT="请为我生成一个JSON文件内容，格式为一个JSON数组。数组中包含两个英语作文案例，这两个案例需要符合 PET (B1 Preliminary) 考试的写作要求，每篇作文大约100个单词。第一个作文是应用文（例如电子邮件或明信片），主题是：'$SELECTED_TOPIC_EMAIL'。第二个作文是记叙文或短文，主题是：'$SELECTED_TOPIC_STORY'。数组中的每个对象都应包含 'title', 'english_text', 和 'chinese_translation' 这三个键。请确保只输出纯净、格式正确的JSON数组，不要包含任何Markdown标记。当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID。请确保生成的内容是独特的，不要重复之前的内容。"
           
           # 重试机制
           MAX_RETRIES=2

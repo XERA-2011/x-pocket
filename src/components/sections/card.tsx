@@ -8,13 +8,11 @@ import ScrollReveal from '@/components/ScrollReveal';
 // 卡片数据
 const cardData = [
   { title: "黑洞", href: "/pages/black-hole" },
+  { title: "Essays Markdown", href: "/essays-md" },
+  { title: "Essays JSON", href: "/essays" },
   { title: "COZE AI", href: "/coze" },
-  { title: "每日英语作文", href: "/essays" },
   { title: "Google AI", href: "/google" },
   { title: "更多功能", href: "#" },
-  { title: "AI 助手", href: "#" },
-  { title: "知识库", href: "#" },
-  { title: "工具箱", href: "#" },
 ];
 
 export default function CardSection() {

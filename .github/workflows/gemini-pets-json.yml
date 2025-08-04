@@ -1,8 +1,8 @@
-name: Generate English Essay
+name: Generate Essay Json
 
 on:
-  schedule:
-    - cron: '0 18 * * *' # Runs at 18:00 UTC, which is 2:00 AM Beijing time
+  # schedule:
+  #   - cron: '0 18 * * *' # Runs at 18:00 UTC, which is 2:00 AM Beijing time
   workflow_dispatch:
 
 permissions:

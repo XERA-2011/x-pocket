@@ -10,6 +10,7 @@
 ```bash
 npm install pnpm -g
 pnpm config set registry https://registry.npmmirror.com # ignorable
+pnpm config set registry https://registry.npmjs.org # ignorable
 pnpm install
 ```
 

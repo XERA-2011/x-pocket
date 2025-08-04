@@ -96,12 +96,12 @@ jobs:
           echo "=== Content Change Detection ==="
           
           # 检查是否有现有文件
-          if [ -f "public/data/pet-essays.json" ]; then
+          if [ -f "public/data/pet-essays.md" ]; then
             # 保存新生成的文件到临时位置
-            cp public/data/pet-essays.json /tmp/new_pet_essays.json
+            cp public/data/pet-essays.md /tmp/new_pet_essays.md
             
             # 获取当前仓库中的文件
-            if git show HEAD:public/data/pet-essays.json > /tmp/current_pet_essays.json 2>/dev/null; then
+            if git show HEAD:public/data/pet-essays.md > /tmp/current_pet_essays.md 2>/dev/null; then
               echo "✅ 成功获取当前仓库文件"
             else
               echo "⚠️  无法获取当前仓库文件，可能是新文件"
@@ -110,31 +110,31 @@ jobs:
             fi
             
             # 计算哈希值
-            NEW_HASH=$(sha256sum /tmp/new_pet_essays.json | cut -d' ' -f1)
-            CURRENT_HASH=$(sha256sum /tmp/current_pet_essays.json | cut -d' ' -f1)
+            NEW_HASH=$(sha256sum /tmp/new_pet_essays.md | cut -d' ' -f1)
+            CURRENT_HASH=$(sha256sum /tmp/current_pet_essays.md | cut -d' ' -f1)
             
             echo "新生成文件哈希: $NEW_HASH"
             echo "当前文件哈希: $CURRENT_HASH"
-            echo "新文件大小: $(wc -c < /tmp/new_pet_essays.json) bytes"
-            echo "当前文件大小: $(wc -c < /tmp/current_pet_essays.json) bytes"
-            echo "新文件行数: $(wc -l < /tmp/new_pet_essays.json) lines"
-            echo "当前文件行数: $(wc -l < /tmp/current_pet_essays.json) lines"
+            echo "新文件大小: $(wc -c < /tmp/new_pet_essays.md) bytes"
+            echo "当前文件大小: $(wc -c < /tmp/current_pet_essays.md) bytes"
+            echo "新文件行数: $(wc -l < /tmp/new_pet_essays.md) lines"
+            echo "当前文件行数: $(wc -l < /tmp/current_pet_essays.md) lines"
             
             # 显示内容差异
             echo ""
             echo "=== 内容差异比较 ==="
-            if diff -q /tmp/new_pet_essays.json /tmp/current_pet_essays.json > /dev/null; then
+            if diff -q /tmp/new_pet_essays.md /tmp/current_pet_essays.md > /dev/null; then
               echo "❌ 文件内容完全相同，跳过提交"
               echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
             else
               echo "✅ 文件内容有差异，继续提交"
               echo "差异详情："
-              diff -u /tmp/current_pet_essays.json /tmp/new_pet_essays.json || true
+              diff -u /tmp/current_pet_essays.md /tmp/new_pet_essays.md || true
               echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
             fi
             
             # 清理临时文件
-            rm -f /tmp/new_pet_essays.json /tmp/current_pet_essays.json
+            rm -f /tmp/new_pet_essays.md /tmp/current_pet_essays.md
           else
             echo "✅ 新文件，继续提交"
             echo "CONTENT_CHANGED=true" >> $GITHUB_ENV

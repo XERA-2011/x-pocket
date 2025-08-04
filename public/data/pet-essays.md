@@ -1,37 +1,40 @@
 # 应用文
 
-A letter to the school principal suggesting an improvement
-- 给校长的一封建议改进的信
+## An email to a cinema to book tickets for a film
+- 给电影院写一封邮件预订电影票
 
 **正文**：
 
-Dear Principal Thompson,
+Dear Sir or Madam,
 
-My name is Alex, and I am a student in Class 10B. I am writing to suggest an improvement for our school. I think it would be a great idea to create a new student lounge.
+I am writing to book tickets for the film 'Mountain Echoes', which is showing at your cinema. I would like to reserve four tickets for the 7:30 PM screening on Saturday, 10th August. We would prefer seats in the central area of the cinema if possible.
 
-Currently, we don't have a comfortable place to relax during our breaks. A lounge with some sofas, tables, and maybe a few board games would be wonderful. It would give us a space to socialize, do homework, and unwind between classes. This could help improve student well-being and build a stronger school community.
+Could you please let me know if these tickets are available? Also, please inform me of the total cost and how I can make the payment. I would be grateful if you could confirm my booking via email.
 
-Thank you for considering my suggestion.
+Thank you for your assistance.
 
-Yours sincerely,
-Alex Johnson
+Best regards,
+Alex Chen
 
-- 尊敬的汤普森校长，
-- 我叫亚历克斯，是10B班的学生。我写信建议我们学校改进一下。我认为创建一个新的学生休息室是个好主意。
-- 目前，我们休息时没有一个舒适的地方放松。一个有沙发、桌子，也许还有一些棋盘游戏的休息室会很棒。这将给我们一个社交、做作业和课间放松的空间。这可能有助于提高学生的幸福感，并建立一个更强大的学校社区。
-- 谢谢你考虑我的建议。
-- 你真诚的，
-- 亚历克斯·约翰逊
+- 尊敬的先生或女士：
+- 我写信是为了预订在贵影院上映的电影《山谷回声》的电影票。我想预订8月10日（星期六）晚上7:30场的四张票。如果可能的话，我们希望座位在影院的中心区域。
+- 您能告诉我是否还有这些票吗？另外，也请告知我总费用以及如何付款。如果您能通过邮件确认我的预订，我将不胜感激。
+- 感谢您的帮助。
+- 此致，
+- Alex Chen
 
 ---
 
 # 记叙文/短文
 
-Write a story that begins with the sentence: 'The door opened slowly and I couldn't believe who I saw.'
-- 写一个故事，以这句话开头：“门慢慢打开，我简直不敢相信我看到了谁。”
+## Write a story about a surprising event that happened at school
+- 写一个在学校发生的惊喜事件的故事
 
 **正文**：
 
-The door opened slowly and I couldn't believe who I saw. It was my grandfather. He had been living in Australia for the past ten years, and we all missed him dearly. I thought he wasn't supposed to visit until next summer. I stood there, completely speechless, as he stepped inside with a huge smile on his face. "Aren't you going to give your old grandpa a hug?" he asked, opening his arms wide. I ran to him, tears of joy streaming down my face. It was the best surprise I had ever received.
+It was a normal Tuesday at school, and everyone was feeling bored during the morning assembly. Our headmaster, Mr. Harrison, was giving a long speech about school rules. Suddenly, the fire alarm went off. We all calmly walked out to the playground, thinking it was just another drill.
 
-- 门慢慢地开了，我简直不敢相信我看到了谁。是我爷爷。他在澳大利亚生活了十年，我们都非常想念他。我以为他要到明年夏天才能来。我站在那里，完全说不出话来，他脸上带着灿烂的笑容走了进去。“你不抱抱你的老爷爷吗？”他张开双臂问。我跑向他，喜悦的泪水顺着脸颊流下。这是我收到的最好的惊喜。
+However, when we got outside, we saw a huge hot air balloon landing on the football field! Mr. Harrison smiled and announced that our school had won a national science competition, and the prize was a ride for everyone. We were all speechless, then we started cheering. It was the most exciting day at school ever.
+
+- 那是学校里一个普通的星期二，在早会上每个人都感到很无聊。我们的校长哈里森先生正在就学校规定发表长篇大论。突然，火警响了。我们都平静地走到操场上，以为这又是一次演习。
+- 然而，当我们到达外面时，我们看到一个巨大的热气球正在足球场上降落！哈里森先生微笑着宣布，我们学校赢得了一项全国科学竞赛，奖品是让每个人都乘坐一次。我们都惊讶得说不出话来，然后开始欢呼。这是有史以来在学校里最激动人心的一天。

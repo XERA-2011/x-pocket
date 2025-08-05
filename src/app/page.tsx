@@ -18,8 +18,12 @@ const FallbackSection = () => (
 );
 
 export default function Home() {
-  // Reset scroll position to top on page refresh
+  // 刷新页面时，清空 url 参数，并初始化滚动条
   useEffect(() => {
+    // Clear URL parameters
+    const newUrl = `${window.location.protocol}//${window.location.host}${window.location.pathname}`;
+    window.history.replaceState({ path: newUrl }, '', newUrl);
+    
     // 立即重置滚动位置
     window.scrollTo(0, 0);
 

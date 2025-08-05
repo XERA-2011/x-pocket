@@ -1,43 +1,43 @@
 # 应用文
 
-## An email to a friend recommending a book you have just read
-- 给朋友写一封电子邮件，推荐一本你刚读过的书
+## An email to a hotel asking for information about their rooms and prices
+- 一封询问酒店房间和价格信息的邮件
 
 **正文**：
 
-Hi Sam,
+Dear Sir or Madam,
 
-How are you doing? I'm writing to you because I've just finished a fantastic book and I think you would absolutely love it. It's called "The Night Circus" by Erin Morgenstern.
+I am writing to ask for some information about your hotel. My family and I are planning to visit London from August 22nd to August 26th, and we are interested in staying at your hotel.
 
-It’s a fantasy novel about a magical competition between two young magicians. The story is incredibly imaginative and the descriptions are so beautiful that I felt like I was really there. It’s not just a fantasy story; it’s also a beautiful love story. If you're looking for something magical and captivating to read, you should definitely give this a try.
+Could you please tell me if you have any family rooms available for those dates? We are a family of four, with two adults and two children. I would also like to know the price of the room per night. Does the price include breakfast?
 
-Let me know what you think if you decide to read it!
+I look forward to hearing from you soon.
 
-Best,
-Alex
+Yours faithfully,
+Chris Green
 
-- 嗨，萨姆，
-- 你好吗？我写信给你是因为我刚读完一本很棒的书，我想你绝对会喜欢的。书名叫《夜间马戏团》，作者是艾琳·摩根斯坦。
-- 这是一本关于两个年轻魔术师之间进行魔法竞赛的奇幻小说。故事情节极富想象力，描写非常优美，让我感觉身临其境。它不仅仅是一个奇幻故事，也是一个美丽的爱情故事。如果你正在寻找一本富有魔力又引人入胜的书，你一定要试试这本。
-- 如果你决定读这本书，请告诉我你的想法！
-- 祝好，
-- 亚历克斯
+- 尊敬的先生或女士，
+- 我写信是为了询问一些关于贵酒店的信息。我和我的家人计划在8月22日至8月26日期间访问伦敦，并对入住贵酒店感兴趣。
+- 请问在此期间你们是否有可用的家庭房？我们是四口之家，有两个大人和两个孩子。我也想知道每晚的房价是多少。这个价格包含早餐吗？
+- 我期待尽快收到您的回复。
+- 此致，
+- 克里斯·格林
 
 ---
 
 # 记叙文/短文
 
 ## An article for the school magazine about your favorite hobby
-- 为校刊写一篇关于你最喜欢的爱好的文章
+- 一篇为校刊撰写的关于你最喜欢的爱好的文章
 
 **正文**：
 
-My World in Focus
+My Favorite Hobby
 
-What do you do to relax and be creative? For me, the answer is photography. I started this hobby about a year ago, and it has completely changed the way I see the world. It’s not just about pointing a camera and clicking a button.
+Do you have a hobby that makes you truly happy? For me, that’s photography. I got my first camera two years ago as a birthday gift, and I have loved taking pictures ever since.
 
-I love going for walks in the city or in the countryside, looking for interesting things to capture. It could be the beautiful light of a sunset, the smile on a stranger's face, or a colorful flower. This hobby has taught me to be more patient and to pay attention to small details. It’s a wonderful way to express myself and share the beauty I find with others. Photography is my passion, and it makes my life more exciting.
+I enjoy photography because it allows me to capture special moments, like a beautiful sunset or my friends laughing. It helps me see the world differently, paying more attention to details and colors around me. On weekends, I often go to the park or walk around the city to find interesting things to photograph. It’s a wonderful way to relax and be creative.
 
-- 我的焦点世界
-- 你会做什么来放松和发挥创造力？对我来说，答案是摄影。我大约一年前开始这个爱好，它完全改变了我看世界的方式。摄影不仅仅是拿起相机然后按下快门那么简单。
-- 我喜欢在城市或乡间散步，寻找有趣的东西来拍摄。它可能是一抹美丽的夕阳，一个陌生人脸上的微笑，或是一朵色彩鲜艳的花。这个爱好教会了我更有耐心，并注意到微小的细节。这是一种表达自我、与他人分享我所发现的美的绝佳方式。摄影是我的热情所在，它让我的生活更加精彩。
+- 我最喜欢的爱好
+- 你有什么能让你真正感到快乐的爱好吗？对我来说，那就是摄影。两年前，我收到了我的第一台相机作为生日礼物，从那时起我就爱上了拍照。
+- 我喜欢摄影，因为它让我能够捕捉特殊的瞬间，比如美丽的日落或朋友们的笑声。它帮助我以不同的方式看待世界，更加关注身边的细节和色彩。周末，我经常去公园或在城市里散步，寻找有趣的东西来拍摄。这是一种放松和发挥创造力的绝佳方式。

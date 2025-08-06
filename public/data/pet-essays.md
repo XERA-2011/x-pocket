@@ -1,43 +1,40 @@
 # 应用文
 
-## An email to a hotel asking for information about their rooms and prices
-- 一封询问酒店房间和价格信息的邮件
+## An email to a sports club to ask about membership
+- 一封向体育俱乐部咨询会员资格的邮件
 
 **正文**：
 
 Dear Sir or Madam,
 
-I am writing to ask for some information about your hotel. My family and I are planning to visit London from August 22nd to August 26th, and we are interested in staying at your hotel.
+I am writing to ask for information about joining your sports club. I am new to the area and very interested in playing tennis and swimming.
 
-Could you please tell me if you have any family rooms available for those dates? We are a family of four, with two adults and two children. I would also like to know the price of the room per night. Does the price include breakfast?
+Could you please tell me about the monthly membership fees? I would also like to know what facilities you have, especially the number of tennis courts and if there is an indoor swimming pool. Furthermore, could you let me know your opening hours during the week and at weekends? Finally, I was wondering if you have any special offers for new members.
 
 I look forward to hearing from you soon.
 
 Yours faithfully,
-Chris Green
+Alex Chen
 
 - 尊敬的先生或女士，
-- 我写信是为了询问一些关于贵酒店的信息。我和我的家人计划在8月22日至8月26日期间访问伦敦，并对入住贵酒店感兴趣。
-- 请问在此期间你们是否有可用的家庭房？我们是四口之家，有两个大人和两个孩子。我也想知道每晚的房价是多少。这个价格包含早餐吗？
+- 我写信是为了咨询关于加入贵体育俱乐部的信息。我刚搬来这个地区，对打网球和游泳非常感兴趣。
+- 您能告诉我每月的会员费是多少吗？我也想知道你们有哪些设施，特别是网球场的数量以及是否有室内游泳池。此外，您能告知我工作日和周末的开放时间吗？最后，我想了解一下是否有针对新会员的特别优惠。
 - 我期待尽快收到您的回复。
 - 此致，
-- 克里斯·格林
+- Alex Chen
 
 ---
 
 # 记叙文/短文
 
-## An article for the school magazine about your favorite hobby
-- 一篇为校刊撰写的关于你最喜欢的爱好的文章
+## A story about a dream that came true
+- 一个梦想成真的故事
 
 **正文**：
 
-My Favorite Hobby
+Ever since I was a little boy, my biggest dream was to see Paris. I had posters of the Eiffel Tower on my wall and read many books about the city. But my family never had enough money to travel abroad.
 
-Do you have a hobby that makes you truly happy? For me, that’s photography. I got my first camera two years ago as a birthday gift, and I have loved taking pictures ever since.
+Last year, I won a national art competition. The grand prize was a trip for two to any European capital. I couldn't believe it! Of course, I chose Paris. The moment I stood beneath the sparkling Eiffel Tower at night was magical. It felt unreal, even better than my dreams. That trip taught me that dreams can come true if you work hard and never give up.
 
-I enjoy photography because it allows me to capture special moments, like a beautiful sunset or my friends laughing. It helps me see the world differently, paying more attention to details and colors around me. On weekends, I often go to the park or walk around the city to find interesting things to photograph. It’s a wonderful way to relax and be creative.
-
-- 我最喜欢的爱好
-- 你有什么能让你真正感到快乐的爱好吗？对我来说，那就是摄影。两年前，我收到了我的第一台相机作为生日礼物，从那时起我就爱上了拍照。
-- 我喜欢摄影，因为它让我能够捕捉特殊的瞬间，比如美丽的日落或朋友们的笑声。它帮助我以不同的方式看待世界，更加关注身边的细节和色彩。周末，我经常去公园或在城市里散步，寻找有趣的东西来拍摄。这是一种放松和发挥创造力的绝佳方式。
+- 从我还是个小男孩起，我最大的梦想就是去看看巴黎。我的墙上贴着埃菲尔铁塔的海报，还读了很多关于这座城市的书。但我的家人一直没有足够的钱出国旅行。
+- 去年，我赢得了一个全国性的艺术比赛。最高奖项是双人欧洲任一首都游。我简直不敢相信！我当然选择了巴黎。当夜晚我站在闪闪发光的埃菲尔铁塔下时，那一刻真是太奇妙了。感觉很不真实，甚至比我的梦境还要美好。那次旅行教会了我，只要你努力并不放弃，梦想就能够实现。

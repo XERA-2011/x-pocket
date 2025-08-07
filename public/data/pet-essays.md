@@ -1,40 +1,41 @@
 # 应用文
 
-## An email to a sports club to ask about membership
-- 一封向体育俱乐部咨询会员资格的邮件
+## A postcard from a city you've just moved to
+- 一张来自你刚搬入城市的明信片
 
 **正文**：
 
-Dear Sir or Madam,
+Hi Sam,
 
-I am writing to ask for information about joining your sports club. I am new to the area and very interested in playing tennis and swimming.
+I'm finally here in Brighton! The city is amazing, full of life and right by the sea. The weather has been surprisingly sunny, so I've spent a lot of time walking along the beach.
 
-Could you please tell me about the monthly membership fees? I would also like to know what facilities you have, especially the number of tennis courts and if there is an indoor swimming pool. Furthermore, could you let me know your opening hours during the week and at weekends? Finally, I was wondering if you have any special offers for new members.
+I've already visited the Royal Pavilion, which was incredible. The architecture is so unique. I'm starting my new job next week, and I'm a bit nervous but also very excited. There are so many cool shops and cafes to explore.
 
-I look forward to hearing from you soon.
+Hope you can come and visit soon!
 
-Yours faithfully,
-Alex Chen
+Best,
+Alex
 
-- 尊敬的先生或女士，
-- 我写信是为了咨询关于加入贵体育俱乐部的信息。我刚搬来这个地区，对打网球和游泳非常感兴趣。
-- 您能告诉我每月的会员费是多少吗？我也想知道你们有哪些设施，特别是网球场的数量以及是否有室内游泳池。此外，您能告知我工作日和周末的开放时间吗？最后，我想了解一下是否有针对新会员的特别优惠。
-- 我期待尽快收到您的回复。
-- 此致，
-- Alex Chen
+- 嗨，萨姆，
+- 我终于到布莱顿了！这座城市太棒了，充满活力，而且就在海边。天气出奇地晴朗，所以我花了很多时间在海滩上散步。
+- 我已经参观了皇家穹顶宫，那里简直不可思议。建筑风格非常独特。我下周就要开始新工作了，有点紧张，但也很兴奋。这里还有很多很酷的商店和咖啡馆等着我去探索。
+- 希望你很快能来玩！
+- 祝好，
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## A story about a dream that came true
-- 一个梦想成真的故事
+## An article describing your favorite festival and why you enjoy it
+- 一篇描述你最喜欢的节日以及你为什么喜欢它的文章
 
 **正文**：
 
-Ever since I was a little boy, my biggest dream was to see Paris. I had posters of the Eiffel Tower on my wall and read many books about the city. But my family never had enough money to travel abroad.
+My favourite festival of the year is Christmas. For me, it's not just about the presents, but about the special atmosphere and spending time with family.
 
-Last year, I won a national art competition. The grand prize was a trip for two to any European capital. I couldn't believe it! Of course, I chose Paris. The moment I stood beneath the sparkling Eiffel Tower at night was magical. It felt unreal, even better than my dreams. That trip taught me that dreams can come true if you work hard and never give up.
+Every year, my family and I decorate a big Christmas tree together with colourful lights and shiny baubles. The whole house smells of pine and gingerbread. On Christmas Day, we have a huge dinner with roast turkey and lots of delicious side dishes. Afterwards, we play board games and watch classic Christmas films. It’s a time of warmth, laughter, and creating precious memories. I love it because it brings everyone closer.
 
-- 从我还是个小男孩起，我最大的梦想就是去看看巴黎。我的墙上贴着埃菲尔铁塔的海报，还读了很多关于这座城市的书。但我的家人一直没有足够的钱出国旅行。
-- 去年，我赢得了一个全国性的艺术比赛。最高奖项是双人欧洲任一首都游。我简直不敢相信！我当然选择了巴黎。当夜晚我站在闪闪发光的埃菲尔铁塔下时，那一刻真是太奇妙了。感觉很不真实，甚至比我的梦境还要美好。那次旅行教会了我，只要你努力并不放弃，梦想就能够实现。
+- 我一年中最喜欢的节日是圣诞节。对我来说，它不仅仅关乎礼物，更在于那独特的氛围和与家人共度的时光。
+- 每年，我和家人都会一起用五彩的灯和闪亮的装饰球来装点一棵大大的圣诞树。整个屋子都弥漫着松树和姜饼的香味。
+- 圣诞节当天，我们会享用一顿丰盛的晚餐，有烤火鸡和许多美味的配菜。晚饭后，我们玩棋盘游戏，看经典的圣诞电影。这是一段充满温暖、欢笑和创造珍贵回忆的时光。我喜欢它，因为它让每个人都更加亲近。

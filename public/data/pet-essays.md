@@ -1,41 +1,41 @@
 # 应用文
 
-## A postcard from a city you've just moved to
-- 一张来自你刚搬入城市的明信片
+## An email to a cinema to book tickets for a film
+- 一封给电影院预订电影票的邮件
 
 **正文**：
 
-Hi Sam,
+Dear Sir or Madam,
 
-I'm finally here in Brighton! The city is amazing, full of life and right by the sea. The weather has been surprisingly sunny, so I've spent a lot of time walking along the beach.
+I am writing to book tickets for the film 'Planet of Wonders', which is showing at your cinema next week. I would like to reserve four tickets for the 8 PM screening on Saturday, August 16th.
 
-I've already visited the Royal Pavilion, which was incredible. The architecture is so unique. I'm starting my new job next week, and I'm a bit nervous but also very excited. There are so many cool shops and cafes to explore.
+We would prefer seats in the central area of the cinema, if possible, as we want to have the best viewing experience. Could you please let me know if these seats are available and what the total cost will be? Please also inform me about how I can pay for the tickets.
 
-Hope you can come and visit soon!
+I look forward to hearing from you soon.
 
-Best,
-Alex
+Best regards,
 
-- 嗨，萨姆，
-- 我终于到布莱顿了！这座城市太棒了，充满活力，而且就在海边。天气出奇地晴朗，所以我花了很多时间在海滩上散步。
-- 我已经参观了皇家穹顶宫，那里简直不可思议。建筑风格非常独特。我下周就要开始新工作了，有点紧张，但也很兴奋。这里还有很多很酷的商店和咖啡馆等着我去探索。
-- 希望你很快能来玩！
-- 祝好，
-- 亚历克斯
+Chris
+
+- 亲爱的先生或女士，
+- 我写信是为了预订在您影院下周上映的电影《奇迹星球》的票。我想预订四张8月16日（星期六）晚上8点场次的电影票。
+- 如果可能的话，我们希望预订影院中间区域的座位，因为我们想获得最佳的观影体验。您能告诉我这些座位是否还有，以及总费用是多少吗？另外，也请告知我如何支付票款。
+- 我期待尽快收到您的回复。
+- 此致，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## An article describing your favorite festival and why you enjoy it
-- 一篇描述你最喜欢的节日以及你为什么喜欢它的文章
+## A story about a time you learned an important lesson
+- 一个关于你学到重要一课的故事
 
 **正文**：
 
-My favourite festival of the year is Christmas. For me, it's not just about the presents, but about the special atmosphere and spending time with family.
+Last summer, I decided to join a swimming competition even though I wasn't a strong swimmer. I thought winning would be easy. I didn't practice much, spending my time playing video games instead. On the day of the competition, I felt nervous when I saw the other swimmers, who all looked very professional and confident.
 
-Every year, my family and I decorate a big Christmas tree together with colourful lights and shiny baubles. The whole house smells of pine and gingerbread. On Christmas Day, we have a huge dinner with roast turkey and lots of delicious side dishes. Afterwards, we play board games and watch classic Christmas films. It’s a time of warmth, laughter, and creating precious memories. I love it because it brings everyone closer.
+As soon as the race started, I was quickly left behind. I struggled to finish, feeling exhausted and embarrassed. I came in last place. That day, I learned a very important lesson: success only comes with hard work and preparation. There are no shortcuts.
 
-- 我一年中最喜欢的节日是圣诞节。对我来说，它不仅仅关乎礼物，更在于那独特的氛围和与家人共度的时光。
-- 每年，我和家人都会一起用五彩的灯和闪亮的装饰球来装点一棵大大的圣诞树。整个屋子都弥漫着松树和姜饼的香味。
-- 圣诞节当天，我们会享用一顿丰盛的晚餐，有烤火鸡和许多美味的配菜。晚饭后，我们玩棋盘游戏，看经典的圣诞电影。这是一段充满温暖、欢笑和创造珍贵回忆的时光。我喜欢它，因为它让每个人都更加亲近。
+- 去年夏天，我决定参加一场游泳比赛，尽管我游得并不好。我以为赢会很容易。我没有怎么练习，而是把时间花在了玩电子游戏上。比赛那天，当我看到其他选手时，我感到很紧张，他们看起来都非常专业和自信。
+- 比赛一开始，我很快就落后了。我挣扎着游完全程，感到筋疲力尽和尴尬。我得了最后一名。那天，我学到了非常重要的一课：成功只来自于努力和准备。没有任何捷径可走。

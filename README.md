@@ -66,3 +66,26 @@ export GEMINI_API_KEY=YOUR_API_KEY
 
 gemini
 ```
+
+## Claude Code
+
+[AnyRouter](https://anyrouter.top/)
+
+
+```bash
+npm install -g @anthropic-ai/claude-code
+
+claude --version
+
+# win
+$env:ANTHROPIC_AUTH_TOKEN = "sk-..."
+$env:ANTHROPIC_BASE_URL = "https://anyrouter.top"
+echo $env:ANTHROPIC_AUTH_TOKEN
+echo $env:ANTHROPIC_BASE_URL
+
+# mac
+export ANTHROPIC_AUTH_TOKEN=sk-...
+export ANTHROPIC_BASE_URL=https://anyrouter.top
+
+claude
+```

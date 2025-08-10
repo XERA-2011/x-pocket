@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>纯CSS X Logo 与 SVG X Logo 对比（带粗细数值）</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .container {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  .x-logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .x-line {
+    position: absolute;
+    width: 100%;
+    height: var(--line-thickness, 20px);
+    background: black;
+    transform-origin: center;
+  }
+  .x-line:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  .x-line:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+  svg {
+    width: 100px;
+    height: 100px;
+  }
+  .controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 16px;
+  }
+  #thicknessValue {
+    min-width: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <h1>纯CSS X Logo 与 SVG X Logo 对比</h1>
+  <div class="controls">
+    <label for="thicknessSlider">线条粗细：</label>
+    <input type="range" id="thicknessSlider" min="5" max="40" value="20" />
+    <span id="thicknessValue">20</span> px
+    <button id="downloadBtn">下载 SVG 为 PNG</button>
+  </div>
+  <div class="container">
+    <!-- 左边 CSS 版本 -->
+    <div class="x-logo" id="cssLogo">
+      <div class="x-line"></div>
+      <div class="x-line"></div>
+    </div>
+    <!-- 右边 SVG 版本 -->
+    <div>
+      <svg id="xLogoSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="X logo">
+        <line x1="10" y1="10" x2="90" y2="90" stroke="#000" stroke-width="20" stroke-linecap="butt" />
+        <line x1="10" y1="90" x2="90" y2="10" stroke="#000" stroke-width="20" stroke-linecap="butt" />
+      </svg>
+    </div>
+  </div>
+
+<script>
+  const thicknessSlider = document.getElementById('thicknessSlider');
+  const thicknessValue = document.getElementById('thicknessValue');
+  const cssLogo = document.getElementById('cssLogo');
+  const svgLines = document.querySelectorAll('#xLogoSVG line');
+
+  thicknessSlider.addEventListener('input', (e) => {
+    const thickness = e.target.value;
+    thicknessValue.textContent = thickness;
+    cssLogo.style.setProperty('--line-thickness', thickness + 'px');
+    svgLines.forEach(line => {
+      line.setAttribute('stroke-width', thickness);
+    });
+  });
+
+  document.getElementById('downloadBtn').addEventListener('click', () => {
+    const svg = document.getElementById('xLogoSVG');
+    const serializer = new XMLSerializer();
+    const svgString = serializer.serializeToString(svg);
+
+    const canvas = document.createElement('canvas');
+    canvas.width = 100;
+    canvas.height = 100;
+    const ctx = canvas.getContext('2d');
+
+    const img = new Image();
+    img.onload = () => {
+      ctx.drawImage(img, 0, 0);
+      const link = document.createElement('a');
+      link.download = 'x-logo.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    };
+    img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svgString)));
+  });
+</script>
+</body>
+</html>

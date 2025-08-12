@@ -1,37 +1,41 @@
 # 应用文
 
-## An email to a friend giving them directions to your house
-- 给朋友写一封电子邮件，告诉他们去你家的路线
+## A letter to the school principal suggesting an improvement
+- 一封给校长的建议信
 
 **正文**：
 
-Hi Alex,
+Dear Principal Smith,
 
-I'm so excited for you to come over this Saturday! Here are the directions to my place.
+My name is Li Hua, and I am a student in Class 2, Grade 9. I am writing to suggest an improvement for our school library.
 
-Take the number 15 bus from the city centre and get off at the Oakwood stop, which is right opposite a large supermarket. Walk straight down Maple Street for about five minutes until you see a small park on your left. My house is the blue one right after the park, number 23. You can't miss it! If you get lost, just give me a call.
+Currently, the library's opening hours are quite limited, especially on weekends. Many students, including myself, would like to use the library for studying and research on Saturdays and Sundays. However, it is always closed. I believe that extending the library's hours to include weekends would provide us with a quiet and resourceful place to study, which would surely help improve our academic performance.
 
-Can't wait to see you!
+Thank you for considering my suggestion.
 
-Best,
-Chris
+Yours sincerely,
+Li Hua
 
-- 嗨，亚历克斯，
-- 你这周六能来我真的太激动了！这是来我家的路线。
-- 从市中心乘坐15路公交车，在奥克伍德站下车，车站正对着一个大型超市。沿着枫树街直走大约五分钟，直到你看到左边有一个小公园。我的房子是公园后面的那栋蓝色建筑，门牌号是23。你不会错过的！如果迷路了，就给我打电话。
-- 等不及要见你了！
-- 祝好，
-- 克里斯
+- 尊敬的史密斯校长：
+- 我是九年级二班的学生李华。我写信是为了对我们学校的图书馆提出一项改进建议。
+- 目前，图书馆的开放时间非常有限，尤其是在周末。包括我自己在内的许多同学都希望能在周六和周日使用图书馆学习和查阅资料，但它总是关闭的。我相信将图书馆的开放时间延长至周末，能为我们提供一个安静且资源丰富的学习场所，这无疑将有助于我们提升学业成绩。
+- 感谢您考虑我的建议。
+- 此致，
+- 李华
 
 ---
 
 # 记叙文/短文
 
-## Write a story about a funny misunderstanding
-- 写一个关于有趣误会的故事
+## An article about a famous person you admire
+- 一篇关于你敬佩的名人的文章
 
 **正文**：
 
-Last week, I went to a café to meet my friend, Sarah. I saw a woman with the same red coat and blonde hair as her, sitting at a table near the window. I walked up behind her and shouted, "Guess who!" She turned around, and it wasn't Sarah at all. It was a complete stranger who looked very surprised. I felt my face turn bright red and apologized immediately. Just then, the real Sarah walked in and saw the whole thing. We couldn't stop laughing about it for the rest of the day.
+The famous person I admire most is J.K. Rowling, the author of the Harry Potter series. Before she became a world-famous writer, she faced many difficulties in her life. She was a single mother and struggled with poverty. However, she never gave up on her dream of writing.
 
-- 上周，我去一家咖啡馆见我的朋友莎拉。我看到一位穿着和她一样的红色外套、留着金色头发的女士坐在靠窗的桌子旁。我走到她身后，大喊一声：“猜猜我是谁！”她转过身来，但根本不是莎拉。那是一个看起来非常惊讶的陌生人。我感觉自己的脸瞬间涨得通红，并立刻道了歉。就在那时，真正的莎拉走了进来，目睹了整个过程。那天剩下的时间里，我们俩一直为这件事笑个不停。
+Her stories have brought joy and imagination to millions of people around the world. What I admire most about her is her persistence and creativity. She taught me that no matter how difficult life gets, we should always hold on to our dreams and work hard to achieve them.
+
+- 我最敬佩的名人是《哈利·波特》系列的作者J.K.罗琳。
+- 在成为世界著名作家之前，她的生活面临诸多困境。她曾是一位单身母亲，在贫困中挣扎。然而，她从未放弃自己的写作梦想。
+- 她的故事为全世界数百万人带来了欢乐和想象力。我最敬佩的是她的坚持不懈和创造力。她教会我，无论生活变得多么艰难，我们都应该坚守梦想并为之努力奋斗。

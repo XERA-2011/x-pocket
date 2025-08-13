@@ -75,8 +75,8 @@ export default function HeroSection() {
           <div className="absolute inset-0 flex items-center justify-center z-10">
             {/* <span className="text-7xl font-bold bg-clip-text text-transparent bg-white select-none">X</span> */}
             <svg id="xLogoSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="X logo" className="w-[100px] h-[100px]">
-              <line x1="10" y1="10" x2="90" y2="90" stroke="#fff" stroke-width="20" stroke-linecap="butt" />
-              <line x1="10" y1="90" x2="90" y2="10" stroke="#fff" stroke-width="20" stroke-linecap="butt" />
+              <line x1="10" y1="10" x2="90" y2="90" stroke="#fff" strokeWidth="20" strokeLinecap="butt" />
+              <line x1="10" y1="90" x2="90" y2="10" stroke="#fff" strokeWidth="20" strokeLinecap="butt" />
             </svg>
           </div>
         </div>

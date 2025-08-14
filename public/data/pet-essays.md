@@ -1,40 +1,43 @@
 # 应用文
 
-## A postcard inviting your cousin to stay with you for a weekend
-- [一张邀请你表兄/妹与你共度周末的明信片]
+## An email to a friend giving them directions to your house
+- 给朋友写一封电子邮件，告诉他们去你家的路线
 
 **正文**：
 
-Hi Sam,
+Hi Alex,
 
-How are things going? I hope you're doing well.
+I'm so excited for you to come over this Saturday! Here are the directions to my place.
 
-I'm writing to ask if you'd like to come and stay with me for a weekend next month. It feels like ages since we last saw each other! There's a new science museum that has just opened here, and I thought we could go and check it out. We could also go cycling in the park on Sunday if the weather is nice.
+Take the number 10 bus from the city centre and get off at the Oakwood stop, which is right by a large supermarket. From there, walk straight down the main road for about five minutes until you see a small park on your left. My street, Pine Lane, is the first turning on the right after the park. My house is number 22, and it has a bright blue door. You can't miss it!
 
-My parents would be really happy to see you as well. Let me know if you think you can make it.
+Let me know if you have any trouble finding it.
 
-Best wishes,
-Alex
+Best,
+Sam
 
-- [嗨，萨姆，]
-- [一切都好吗？希望你一切顺利。]
-- [我写信是想问你下个月是否愿意来我这里住一个周末。感觉我们好久没见了！这里刚开了一家新的科学博物馆，我想我们可以一起去看看。如果周日天气好的话，我们还可以去公园骑自行车。]
-- [我父母见到你也会非常高兴的。告诉我你是否能来。]
-- [祝好，]
-- [亚历克斯]
+- 嗨，亚历克斯，
+- 很高兴你这周六能过来！这是来我家的路线。
+- 从市中心乘坐10路公交车，在奥克伍德站下车，车站旁边有一个大型超市。从那里沿着主路直走大约五分钟，直到你看到左边有一个小公园。我的街道，松树巷，是公园后的第一个右转弯。我家是22号，有一个亮蓝色的门。你不会错过的！
+- 如果你找不到路，请告诉我。
+- 祝好，
+- 山姆
 
 ---
 
 # 记叙文/短文
 
-## An article about the importance of protecting the environment
-- [一篇关于保护环境重要性的文章]
+## Write a story about a funny misunderstanding
+- 写一个关于有趣误会的故事
 
 **正文**：
 
-Our planet is facing serious environmental problems, and it is more important than ever to take action. Protecting our environment means ensuring we have clean air to breathe and fresh water to drink. Pollution from traffic and industry harms our health, while plastic waste is choking our oceans and killing marine animals.
+Last week, I went to a café to meet myfriend, Bill. I saw a man with the same red jacket and curly hair sitting by the window, so I walked over and tapped his shoulder. "Bill, you won't believe what happened to me this morning!" I exclaimed. The man turned around with a very confused look. He wasn't Bill at all. Just then, the real Bill walked in and started laughing. The man I had approached then smiled and said, "I'm also waiting for someone named Bill!" We all shared a good laugh about the coincidence.
 
-Everyone can contribute to making a positive change. Simple actions, such as recycling paper and plastic, saving electricity at home, and using public transport can make a huge difference. By working together, we can protect our world for ourselves and for future generations.
-
-- [我们的星球正面临着严重的环境问题，采取行动比以往任何时候都更加重要。保护我们的环境意味着确保我们有干净的空气来呼吸，有纯净的水来饮用。交通和工业造成的污染损害我们的健康，而塑料垃圾正使我们的海洋窒息，并杀死海洋动物。]
-- [每个人都可以为创造积极的改变做出贡献。一些简单的行动，例如回收纸张和塑料、在家节约用电以及使用公共交通工具，都能带来巨大的改变。通过共同努力，我们可以为我们自己以及子孙后代保护我们的世界。]
+- 上周，我去一家咖啡馆见我的朋友比尔。
+- 我看到一个穿着同样红色夹克、留着卷发的男人坐在窗边，于是我走过去拍了拍他的肩膀。
+- “比尔，你绝对想不到我今天早上发生了什么！”我大声说道。
+- 那个男人转过身来，一脸困惑。他根本不是比尔。
+- 就在那时，真正的比尔走了进来，开始大笑。
+- 我搭话的那个男人也笑了起来，说：“我也在等一个叫比尔的人！”
+- 我们都为这个巧合笑了起来。

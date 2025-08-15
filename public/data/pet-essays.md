@@ -1,43 +1,44 @@
 # 应用文
 
-## An email to a friend giving them directions to your house
-- 给朋友写一封电子邮件，告诉他们去你家的路线
+## An email to a sports club to ask about membership
+- 一封咨询体育俱乐部会员资格的邮件
 
 **正文**：
 
-Hi Alex,
+Dear Sir or Madam,
 
-I'm so excited for you to come over this Saturday! Here are the directions to my place.
+I am writing to inquire about membership at your sports club. I am interested in joining and would be grateful if you could provide me with some details.
 
-Take the number 10 bus from the city centre and get off at the Oakwood stop, which is right by a large supermarket. From there, walk straight down the main road for about five minutes until you see a small park on your left. My street, Pine Lane, is the first turning on the right after the park. My house is number 22, and it has a bright blue door. You can't miss it!
+Firstly, could you please tell me about the different types of membership available and their monthly fees? I would also like to know what facilities you offer. Do you have a swimming pool and tennis courts? Finally, could you let me know your opening hours, especially on weekends?
 
-Let me know if you have any trouble finding it.
+I would appreciate it if you could send me a membership application form.
 
-Best,
-Sam
+I look forward to hearing from you soon.
 
-- 嗨，亚历克斯，
-- 很高兴你这周六能过来！这是来我家的路线。
-- 从市中心乘坐10路公交车，在奥克伍德站下车，车站旁边有一个大型超市。从那里沿着主路直走大约五分钟，直到你看到左边有一个小公园。我的街道，松树巷，是公园后的第一个右转弯。我家是22号，有一个亮蓝色的门。你不会错过的！
-- 如果你找不到路，请告诉我。
-- 祝好，
-- 山姆
+Yours faithfully,
+
+Alex Green
+
+- 尊敬的先生/女士：
+- 我写信是为了咨询贵体育俱乐部的会员资格事宜。我有意加入，如果您能提供一些详细信息，我将不胜感激。
+- 首先，您能否告知我有哪些不同的会员类型及其月费？我也想了解俱乐部提供哪些设施，是否有游泳池和网球场？最后，您能否告诉我你们的营业时间，特别是周末的营业时间？
+- 如果您能寄给我一份会员申请表，我将非常感谢。
+- 期待您的尽快回复。
+- 诚挚的，
+- 亚历克斯·格林
 
 ---
 
 # 记叙文/短文
 
-## Write a story about a funny misunderstanding
-- 写一个关于有趣误会的故事
+## A story about a dream that came true
+- 一个梦想成真的故事
 
 **正文**：
 
-Last week, I went to a café to meet myfriend, Bill. I saw a man with the same red jacket and curly hair sitting by the window, so I walked over and tapped his shoulder. "Bill, you won't believe what happened to me this morning!" I exclaimed. The man turned around with a very confused look. He wasn't Bill at all. Just then, the real Bill walked in and started laughing. The man I had approached then smiled and said, "I'm also waiting for someone named Bill!" We all shared a good laugh about the coincidence.
+Ever since I was a child, I had dreamed of becoming a published writer. I wrote stories every day, filling countless notebooks with my imagination. I sent my work to many publishers, but I always received rejection letters. It was disappointing, but I never gave up on my dream.
 
-- 上周，我去一家咖啡馆见我的朋友比尔。
-- 我看到一个穿着同样红色夹克、留着卷发的男人坐在窗边，于是我走过去拍了拍他的肩膀。
-- “比尔，你绝对想不到我今天早上发生了什么！”我大声说道。
-- 那个男人转过身来，一脸困惑。他根本不是比尔。
-- 就在那时，真正的比尔走了进来，开始大笑。
-- 我搭话的那个男人也笑了起来，说：“我也在等一个叫比尔的人！”
-- 我们都为这个巧合笑了起来。
+One afternoon, an email arrived from a publisher I had contacted months ago. They loved my story and wanted to publish it! I was so happy that I screamed with excitement. Holding my published book in my hands for the first time felt unreal. It was a long journey, but it proved that perseverance is the key to making any dream come true.
+
+- 从孩提时代起，我就梦想成为一名出版作家。我每天都写故事，用我的想象力填满了无数个笔记本。我把我的作品寄给了许多出版商，但总是收到拒绝信。这虽然令人失望，但我从未放弃我的梦想。
+- 一天下午，我收到了一封几个月前联系过的出版商的电子邮件。他们非常喜欢我的故事，并希望出版它！我高兴得尖叫起来。第一次将自己出版的书捧在手中感觉是那么不真实。那是一段漫长的旅程，但它证明了坚持不懈是实现任何梦想的关键。

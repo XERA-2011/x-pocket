@@ -165,7 +165,12 @@ export default function Page() {
     const trySfx = (fn: () => void) => {
       if (muted) return;
       if (!acRef.current) {
-        try { acRef.current = new (window as any).AudioContext(); } catch { /* ignore */ }
+        try { 
+          const AudioContextClass = window.AudioContext || (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+          if (AudioContextClass) {
+            acRef.current = new AudioContextClass();
+          }
+        } catch { /* ignore */ }
       }
       if (acRef.current) fn();
     };
@@ -445,7 +450,7 @@ export default function Page() {
       window.removeEventListener("keydown", (e) => onKey(e, true));
       window.removeEventListener("keyup", (e) => onKey(e, false));
     };
-  }, [muted, gameOver]);
+  }, [muted, gameOver, lives, paused, score]);
 
   return (
     <div style={{height:"100svh", background:"#070a12", color:"#cfe", fontFamily:"ui-monospace, monospace"}}>

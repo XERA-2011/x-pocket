@@ -1,9 +1,10 @@
 "use client";
 
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
+import { div } from 'framer-motion/client';
 
 // 游戏数据
 const gamesData = [
@@ -49,7 +50,6 @@ const gamesData = [
 
 export default function GamesShowcaseSection() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [hoveredGame, setHoveredGame] = useState<string | null>(null);
 
   return (
     <section className="relative w-full min-h-screen py-20" id="games-showcase">
@@ -80,8 +80,7 @@ export default function GamesShowcaseSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.15, duration: 0.6 }}
                 viewport={{ once: true }}
-                onMouseEnter={() => setHoveredGame(game.id)}
-                onMouseLeave={() => setHoveredGame(null)}
+
               >
                 <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br backdrop-blur-sm transition-all duration-500 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 h-full">
                   {/* 背景渐变 */}

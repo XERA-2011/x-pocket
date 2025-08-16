@@ -31,7 +31,7 @@ const Constellation = () => {
   const dotIdCounter = useRef(0);
   const canvasSize = useRef({ width: 0, height: 0 });
   const mouse = useRef({ x: 0, y: 0, moving: false });
-  let mouseMoveChecker: NodeJS.Timeout;
+  const mouseMoveChecker = useRef<NodeJS.Timeout | null>(null);
 
   const setCanvasSize = useCallback(() => {
     if (canvasRef.current) {
@@ -226,8 +226,10 @@ const Constellation = () => {
       mouse.current.moving = true;
       mouse.current.x = e.clientX;
       mouse.current.y = e.clientY;
-      clearTimeout(mouseMoveChecker);
-      mouseMoveChecker = setTimeout(() => {
+      if (mouseMoveChecker.current) {
+        clearTimeout(mouseMoveChecker.current);
+      }
+      mouseMoveChecker.current = setTimeout(() => {
         mouse.current.moving = false;
       }, 100);
     };
@@ -243,7 +245,9 @@ const Constellation = () => {
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('resize', handleResize);
-      clearTimeout(mouseMoveChecker);
+      if (mouseMoveChecker.current) {
+        clearTimeout(mouseMoveChecker.current);
+      }
     };
   }, [init, setCanvasSize]);
 

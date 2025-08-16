@@ -6,6 +6,10 @@ import { Suspense, useEffect } from 'react';
 import HeroSection from '@/components/sections/hero';
 // 卡牌列表
 import CardSection from '@/components/sections/card';
+// 单页面展示区域
+import PagesShowcaseSection from '@/components/sections/pages-showcase';
+// 游戏展示区域
+import GamesShowcaseSection from '@/components/sections/games-showcase';
 // 提供页面平滑滚动行为的组件
 import SmoothScroll from '@/components/SmoothScroll';
 // 处理页面之间导航时的过渡动画组件
@@ -51,6 +55,14 @@ export default function Home() {
 
         <Suspense fallback={<FallbackSection />}>
           <CardSection />
+        </Suspense>
+
+        <Suspense fallback={<FallbackSection />}>
+          <PagesShowcaseSection />
+        </Suspense>
+
+        <Suspense fallback={<FallbackSection />}>
+          <GamesShowcaseSection />
         </Suspense>
       </PageTransition>
     </SmoothScroll>

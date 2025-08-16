@@ -1,44 +1,44 @@
 # 应用文
 
-## An email to a sports club to ask about membership
-- 一封咨询体育俱乐部会员资格的邮件
+## A thank-you email to a friend who helped you with a problem
+- 一封感谢信，致一位曾帮助你解决问题的朋友
 
 **正文**：
 
-Dear Sir or Madam,
+Hi Alex,
 
-I am writing to inquire about membership at your sports club. I am interested in joining and would be grateful if you could provide me with some details.
+I hope you're doing well. I'm just writing to say a huge thank you for your help last week. I was really struggling with my science project and feeling quite stressed, but you explained the difficult parts so clearly.
 
-Firstly, could you please tell me about the different types of membership available and their monthly fees? I would also like to know what facilities you offer. Do you have a swimming pool and tennis courts? Finally, could you let me know your opening hours, especially on weekends?
+Thanks to you, I understood everything much better and managed to finish the project on time. I even got a very good grade for it! I honestly couldn't have done it without your support.
 
-I would appreciate it if you could send me a membership application form.
+Let me know if you're free next weekend. I'd love to treat you to a coffee to say thanks properly.
 
-I look forward to hearing from you soon.
+Best,
 
-Yours faithfully,
+Chris
 
-Alex Green
-
-- 尊敬的先生/女士：
-- 我写信是为了咨询贵体育俱乐部的会员资格事宜。我有意加入，如果您能提供一些详细信息，我将不胜感激。
-- 首先，您能否告知我有哪些不同的会员类型及其月费？我也想了解俱乐部提供哪些设施，是否有游泳池和网球场？最后，您能否告诉我你们的营业时间，特别是周末的营业时间？
-- 如果您能寄给我一份会员申请表，我将非常感谢。
-- 期待您的尽快回复。
-- 诚挚的，
-- 亚历克斯·格林
+- 嗨，亚历克斯，
+- 希望你一切都好。我写这封邮件是为了对你上周的帮助表示衷心的感谢。我当时正为我的科学项目而苦恼，感到压力很大，但是你把困难的部分解释得非常清楚。
+- 多亏了你，我更好地理解了所有内容，并成功地按时完成了项目。我甚至还因此得了一个很高的分数！说实话，没有你的支持，我是不可能完成的。
+- 如果你下个周末有空，请告诉我。我想请你喝杯咖啡，以正式表达我的谢意。
+- 祝好，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## A story about a dream that came true
-- 一个梦想成真的故事
+## An article about your favorite film and why others should watch it
+- 一篇关于你最喜欢的电影以及为何他人也应观看的文章
 
 **正文**：
 
-Ever since I was a child, I had dreamed of becoming a published writer. I wrote stories every day, filling countless notebooks with my imagination. I sent my work to many publishers, but I always received rejection letters. It was disappointing, but I never gave up on my dream.
+My favorite film is "Spirited Away," a Japanese animated movie directed by Hayao Miyazaki. It tells the story of a young girl named Chihiro who enters a magical world. To save her parents, she must work in a bathhouse for gods and spirits.
 
-One afternoon, an email arrived from a publisher I had contacted months ago. They loved my story and wanted to publish it! I was so happy that I screamed with excitement. Holding my published book in my hands for the first time felt unreal. It was a long journey, but it proved that perseverance is the key to making any dream come true.
+I love this film because of its beautiful animation and imaginative story. The characters are unforgettable, and the world is full of wonder and strange creatures. It’s a story about courage, friendship, and growing up.
 
-- 从孩提时代起，我就梦想成为一名出版作家。我每天都写故事，用我的想象力填满了无数个笔记本。我把我的作品寄给了许多出版商，但总是收到拒绝信。这虽然令人失望，但我从未放弃我的梦想。
-- 一天下午，我收到了一封几个月前联系过的出版商的电子邮件。他们非常喜欢我的故事，并希望出版它！我高兴得尖叫起来。第一次将自己出版的书捧在手中感觉是那么不真实。那是一段漫长的旅程，但它证明了坚持不懈是实现任何梦想的关键。
+You should watch "Spirited Away" if you enjoy fantasy and adventure. It’s a masterpiece that is both visually stunning and emotionally touching. It will take you on an incredible journey you won’t forget.
+
+- 我最喜欢的电影是《千与千寻》，一部由宫崎骏执导的日本动画电影。它讲述了一个名叫千寻的小女孩进入一个魔法世界的故事。为了拯救她的父母，她必须在一个为神明和鬼怪服务的澡堂里工作。
+- 我喜爱这部电影，因为它拥有美丽的动画和富有想象力的故事情节。其中的角色令人难忘，那个世界充满了奇迹和奇异的生物。这是一个关于勇气、友谊和成长的故事。
+- 如果你喜欢奇幻和冒险题材，你应该观看《千与千寻》。它是一部视觉上令人惊叹、情感上又能触动人心的杰作。它将带你踏上一段你绝不会忘记的非凡旅程。

@@ -1,26 +1,26 @@
 # 应用文
 
-## A thank-you email to a friend who helped you with a problem
-- 一封感谢信，致一位曾帮助你解决问题的朋友
+## An email to a friend about a party you are organizing
+- 一封关于你正在组织的派对的邮件
 
 **正文**：
 
 Hi Alex,
 
-I hope you're doing well. I'm just writing to say a huge thank you for your help last week. I was really struggling with my science project and feeling quite stressed, but you explained the difficult parts so clearly.
+Hope you're doing well. I'm writing to let you know that I'm organizing a small party at my place next Saturday, August 23rd. It will start at around 6 p.m.
 
-Thanks to you, I understood everything much better and managed to finish the project on time. I even got a very good grade for it! I honestly couldn't have done it without your support.
+I'm planning a movie night theme. We'll have lots of popcorn, snacks, and drinks. I've got a few great comedies that I think everyone will enjoy. It will be a relaxed and fun evening, and a great chance for all of us to catch up.
 
-Let me know if you're free next weekend. I'd love to treat you to a coffee to say thanks properly.
+Please let me know if you can come by this Thursday so I can finalize the arrangements. I really hope you can make it!
 
 Best,
 
 Chris
 
 - 嗨，亚历克斯，
-- 希望你一切都好。我写这封邮件是为了对你上周的帮助表示衷心的感谢。我当时正为我的科学项目而苦恼，感到压力很大，但是你把困难的部分解释得非常清楚。
-- 多亏了你，我更好地理解了所有内容，并成功地按时完成了项目。我甚至还因此得了一个很高的分数！说实话，没有你的支持，我是不可能完成的。
-- 如果你下个周末有空，请告诉我。我想请你喝杯咖啡，以正式表达我的谢意。
+- 希望你一切都好。我写信是想告诉你，我将于下周六，也就是8月23日，在我的住处组织一个小派对。派对大约在下午6点开始。
+- 我计划了一个电影之夜主题。我们会准备很多爆米花、零食和饮料。我准备了几部很棒的喜剧片，我想大家都会喜欢的。这将是一个轻松有趣的夜晚，也是我们大家叙旧的好机会。
+- 请在本周四前告诉我你是否能来，以便我最终确定安排。我真心希望你能来！
 - 祝好，
 - 克里斯
 
@@ -28,17 +28,14 @@ Chris
 
 # 记叙文/短文
 
-## An article about your favorite film and why others should watch it
-- 一篇关于你最喜欢的电影以及为何他人也应观看的文章
+## A story about a memorable journey you took with your family
+- 一个关于你和家人的一次难忘旅行的故事
 
 **正文**：
 
-My favorite film is "Spirited Away," a Japanese animated movie directed by Hayao Miyazaki. It tells the story of a young girl named Chihiro who enters a magical world. To save her parents, she must work in a bathhouse for gods and spirits.
+One of my most memorable journeys was a trip to the mountains with my family last summer. We stayed in a small wooden cabin surrounded by tall pine trees. The air was so fresh and clean.
 
-I love this film because of its beautiful animation and imaginative story. The characters are unforgettable, and the world is full of wonder and strange creatures. It’s a story about courage, friendship, and growing up.
+During the day, we went hiking on the mountain trails. I remember the beautiful views from the top and the sound of birds singing everywhere. In the evenings, we sat around a campfire, telling stories and looking at the stars. The sky was so clear that we could see the Milky Way. It was a simple trip, but being close to nature and spending quality time with my family made it truly unforgettable.
 
-You should watch "Spirited Away" if you enjoy fantasy and adventure. It’s a masterpiece that is both visually stunning and emotionally touching. It will take you on an incredible journey you won’t forget.
-
-- 我最喜欢的电影是《千与千寻》，一部由宫崎骏执导的日本动画电影。它讲述了一个名叫千寻的小女孩进入一个魔法世界的故事。为了拯救她的父母，她必须在一个为神明和鬼怪服务的澡堂里工作。
-- 我喜爱这部电影，因为它拥有美丽的动画和富有想象力的故事情节。其中的角色令人难忘，那个世界充满了奇迹和奇异的生物。这是一个关于勇气、友谊和成长的故事。
-- 如果你喜欢奇幻和冒险题材，你应该观看《千与千寻》。它是一部视觉上令人惊叹、情感上又能触动人心的杰作。它将带你踏上一段你绝不会忘记的非凡旅程。
+- 我最难忘的旅行之一是去年夏天和家人一起去的山区之旅。我们住在一个被高大松树环绕的小木屋里。那里的空气是如此清新和洁净。
+- 白天，我们在山间小径上徒步。我记得从山顶看到的壮丽景色和随处可闻的鸟鸣声。到了晚上，我们围坐在篝火旁，讲着故事，仰望星空。天空是如此清澈，我们甚至能看到银河。那是一次简单的旅行，但亲近自然以及与家人共度的美好时光让它变得真正难以忘怀。

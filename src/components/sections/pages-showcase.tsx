@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
+import { getSmartHref } from '@/utils/href-helper';
 
 // 单页面数据
 const pagesData = [
@@ -75,7 +76,7 @@ export default function PagesShowcaseSection() {
                 viewport={{ once: true }}
               >
                 <Link
-                  href={page.href}
+                  href={getSmartHref(page.href)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br backdrop-blur-sm transition-all duration-500 hover:border-white/20 hover:shadow-2xl hover:shadow-white/10 no-underline"

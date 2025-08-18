@@ -1,37 +1,21 @@
-@import "tailwindcss/preflight";
+/* This file is deprecated - all styles moved to src/styles/globals.css */
+/* Keeping only essential card animations for backward compatibility */
 
-:root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-/* 卡片动画类 */
+/* Card animation classes - using theme colors */
 .card-item.card-visible {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-/* 确保卡片初始状态 */
 .card-item {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  color: var(--color-white, #ffffff);
+}
+
+/* Ensure card items follow theme */
+.card-item * {
+  color: inherit;
 }

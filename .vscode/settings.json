@@ -69,5 +69,8 @@
     "pcss",
     "postcss",
     "github-actions-workflow"
-  ]
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import '../styles/globals.css';
-import Constellation from "@/components/background/constellation";
+import Star from "@/components/background/star";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 
@@ -26,13 +26,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="theme-selection">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased theme-scrollbar`}
+        style={{
+          backgroundColor: 'var(--color-black)',
+          color: 'var(--color-white)',
+          fontFamily: 'var(--font-sans), Arial, Helvetica, sans-serif'
+        }}
       >
-        <Constellation />
+        <Star />
         <Header />
-        {children}
+        <main className="min-h-screen">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

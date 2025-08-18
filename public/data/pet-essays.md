@@ -1,41 +1,40 @@
 # 应用文
 
-## An email to a friend about a party you are organizing
-- 一封关于你正在组织的派对的邮件
+## A postcard to your family describing a place you are visiting
+- 写一张明信片向家人描述你正在游览的地方
 
 **正文**：
 
-Hi Alex,
+Hi everyone,
 
-Hope you're doing well. I'm writing to let you know that I'm organizing a small party at my place next Saturday, August 23rd. It will start at around 6 p.m.
+I'm having a fantastic time here in Rome! The weather is amazing – sunny and warm every day. I've been exploring the city and have already seen the Colosseum and the Roman Forum. They were absolutely incredible to see in person.
 
-I'm planning a movie night theme. We'll have lots of popcorn, snacks, and drinks. I've got a few great comedies that I think everyone will enjoy. It will be a relaxed and fun evening, and a great chance for all of us to catch up.
+The food is delicious, especially the pasta and gelato. I don't think I've ever eaten so much ice cream! Tomorrow, I'm planning to visit the Vatican City. I can't wait to see St. Peter's Basilica.
 
-Please let me know if you can come by this Thursday so I can finalize the arrangements. I really hope you can make it!
+Wish you were here!
 
-Best,
+Love,
+Alex
 
-Chris
-
-- 嗨，亚历克斯，
-- 希望你一切都好。我写信是想告诉你，我将于下周六，也就是8月23日，在我的住处组织一个小派对。派对大约在下午6点开始。
-- 我计划了一个电影之夜主题。我们会准备很多爆米花、零食和饮料。我准备了几部很棒的喜剧片，我想大家都会喜欢的。这将是一个轻松有趣的夜晚，也是我们大家叙旧的好机会。
-- 请在本周四前告诉我你是否能来，以便我最终确定安排。我真心希望你能来！
-- 祝好，
-- 克里斯
+- 大家好，
+- 我在罗马玩得非常开心！这里天气好极了——每天都是阳光明媚，非常暖和。我一直在探索这座城市，已经参观了罗马斗兽场和古罗马广场。亲眼看到这些古迹真是太不可思议了。
+- 这里的食物很美味，特别是意大利面和冰淇淋。我感觉自己从来没吃过这么多冰淇淋！明天，我计划去参观梵蒂冈城。我迫不及待想看看圣彼得大教堂。
+- 真希望你们也在这里！
+- 爱你们的，
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## A story about a memorable journey you took with your family
-- 一个关于你和家人的一次难忘旅行的故事
+## Write a story about finding something mysterious in your garden
+- 写一个关于在你的花园里发现神秘事物的故事
 
 **正文**：
 
-One of my most memorable journeys was a trip to the mountains with my family last summer. We stayed in a small wooden cabin surrounded by tall pine trees. The air was so fresh and clean.
+One sunny afternoon, I was helping my dad in the garden. While I was digging near an old oak tree, my shovel hit something hard. I thought it was just a rock, but I was curious and kept digging. Soon, I uncovered a small, wooden box. It was very old and had strange symbols carved on the lid.
 
-During the day, we went hiking on the mountain trails. I remember the beautiful views from the top and the sound of birds singing everywhere. In the evenings, we sat around a campfire, telling stories and looking at the stars. The sky was so clear that we could see the Milky Way. It was a simple trip, but being close to nature and spending quality time with my family made it truly unforgettable.
+I called my dad over to look. He had never seen it before. We tried to open it, but it was locked and there was no keyhole. I felt so excited and a little scared. What could be inside?
 
-- 我最难忘的旅行之一是去年夏天和家人一起去的山区之旅。我们住在一个被高大松树环绕的小木屋里。那里的空气是如此清新和洁净。
-- 白天，我们在山间小径上徒步。我记得从山顶看到的壮丽景色和随处可闻的鸟鸣声。到了晚上，我们围坐在篝火旁，讲着故事，仰望星空。天空是如此清澈，我们甚至能看到银河。那是一次简单的旅行，但亲近自然以及与家人共度的美好时光让它变得真正难以忘怀。
+- 一个阳光明媚的下午，我正在花园里帮爸爸干活。当我在一棵老橡树附近挖土时，我的铲子碰到了一个硬物。我以为只是一块石头，但出于好奇，我继续往下挖。很快，我挖出了一个小木盒子。它非常古老，盖子上还刻着奇怪的符号。
+- 我叫爸爸过来看。他以前也从未见过这个盒子。我们试着打开它，但它被锁住了，而且没有钥匙孔。我感到非常兴奋，又有点害怕。里面到底会是什么呢？

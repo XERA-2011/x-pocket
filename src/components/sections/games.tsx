@@ -4,7 +4,6 @@ import { useRef } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import { div } from 'framer-motion/client';
 
 // 游戏数据
 const gamesData = [

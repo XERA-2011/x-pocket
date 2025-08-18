@@ -46,6 +46,12 @@ vercel env pull .env.local
 
 ```
 
+# AI
+
+## Prompt
+
+- [README-AI](README-AI.md)
+
 ## Gemini cli
 
 ```bash

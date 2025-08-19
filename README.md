@@ -46,6 +46,13 @@ vercel env pull .env.local
 
 ```
 
+## Qwen Code
+
+```bash
+npm install -g @qwen-code/qwen-code@latest
+qwen --version
+```
+
 ## Gemini cli
 
 ```bash

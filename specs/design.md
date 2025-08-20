@@ -1,37 +1,37 @@
 ---
-description: 页面设计和UI规范，web 前端和小程序页面设计规则
+description: Design requirements and UI specifications for web frontend and mini-program pages
 globs: ["**/*.css", "**/*.scss", "**/*.less", "**/*.wxml", "**/*.vue", "**/*.jsx", "**/*.tsx"]
 alwaysApply: false
 ---
 
-# 页面设计规则
+# Design Requirements
 
-## 核心设计原则
+## Core Design Principles
 
-本项目采用严格的黑白主题系统，所有UI元素必须遵循以下设计标准：
+This project follows a strict black and white theme system with minimalist aesthetics. All UI elements must adhere to the following design standards:
 
-### 颜色系统
+### Color System
 
-#### 基础颜色
-- **纯黑色**: `#000000` - 主要背景色
-- **纯白色**: `#ffffff` - 主要前景色（文字、边框）
+#### Base Colors
+- **Pure Black**: `#000000` - Primary background color
+- **Pure White**: `#ffffff` - Primary foreground color (text, borders)
 
-#### 透明度变体
-**黑色透明度系列**:
-- `rgba(0, 0, 0, 0.9)` - 90% 黑色
-- `rgba(0, 0, 0, 0.75)` - 75% 黑色  
-- `rgba(0, 0, 0, 0.5)` - 50% 黑色
-- `rgba(0, 0, 0, 0.25)` - 25% 黑色
-- `rgba(0, 0, 0, 0.1)` - 10% 黑色
+#### Opacity Variants
+**Black Opacity Series**:
+- `rgba(0, 0, 0, 0.9)` - 90% Black
+- `rgba(0, 0, 0, 0.75)` - 75% Black  
+- `rgba(0, 0, 0, 0.5)` - 50% Black
+- `rgba(0, 0, 0, 0.25)` - 25% Black
+- `rgba(0, 0, 0, 0.1)` - 10% Black
 
-**白色透明度系列**:
-- `rgba(255, 255, 255, 0.9)` - 90% 白色
-- `rgba(255, 255, 255, 0.75)` - 75% 白色
-- `rgba(255, 255, 255, 0.5)` - 50% 白色
-- `rgba(255, 255, 255, 0.25)` - 25% 白色
-- `rgba(255, 255, 255, 0.1)` - 10% 白色
+**White Opacity Series**:
+- `rgba(255, 255, 255, 0.9)` - 90% White
+- `rgba(255, 255, 255, 0.75)` - 75% White
+- `rgba(255, 255, 255, 0.5)` - 50% White
+- `rgba(255, 255, 255, 0.25)` - 25% White
+- `rgba(255, 255, 255, 0.1)` - 10% White
 
-#### 语义化颜色映射
+#### Semantic Color Mapping
 ```css
 --color-background: #000000;
 --color-foreground: #ffffff;
@@ -40,71 +40,75 @@ alwaysApply: false
 --color-hover: rgba(255, 255, 255, 0.1);
 ```
 
-### 渐变系统
+### Animation and Transitions
 
-#### 允许的渐变类型
-1. **黑白渐变**: `linear-gradient(to right, #000000, #ffffff)`
-2. **黑色到透明**: `linear-gradient(to bottom, #000000, transparent)`
-3. **白色到透明**: `linear-gradient(to bottom, #ffffff, transparent)`
-4. **径向渐变**: 用于特殊效果，仅限黑白色系
+The project emphasizes smooth, seamless animations and transitions to enhance the minimalist content presentation. All interactions should feature fluid motion that feels natural and unobtrusive.
 
-### 组件样式规范
+### Typography
 
-#### 交互元素
-- **默认状态**: 黑色背景，白色文字/边框
-- **悬停状态**: 半透明白色叠加层
-- **激活状态**: 反转颜色或增加不透明度
-- **焦点状态**: 白色边框配合透明度
+Use clean, sans-serif fonts for optimal readability. Maintain consistent typography hierarchy with appropriate sizing and spacing to support the minimalist aesthetic.
 
-#### 卡片和表面
-- **背景**: 纯黑色或半透明黑色
-- **边框**: 半透明白色
-- **阴影**: 不同透明度的黑色
+### Layout
 
-### 实现要求
+Adopt a clean, uncluttered layout with ample whitespace. Use grids and alignment to create visual harmony while maintaining simplicity.
 
-#### CSS 自定义属性
-必须使用 CSS 自定义属性进行颜色管理，确保全局一致性：
+### Component Style Guidelines
+
+#### Interactive Elements
+- **Default State**: Black background, white text/borders
+- **Hover State**: Semi-transparent white overlay
+- **Active State**: Color inversion or increased opacity
+- **Focus State**: White border with opacity
+
+#### Cards and Surfaces
+- **Background**: Pure black or semi-transparent black
+- **Border**: Semi-transparent white
+- **Shadows**: Black with varying opacity
+
+### Implementation Requirements
+
+#### CSS Custom Properties
+Use CSS custom properties for color management to ensure global consistency:
 
 ```css
 :root {
   --color-black: #000000;
   --color-white: #ffffff;
-  /* 其他透明度变体... */
+  /* Other opacity variants... */
 }
 ```
 
-#### Tailwind CSS 集成
-使用扩展的 Tailwind 颜色调色板，确保与自定义属性保持一致。
+#### Tailwind CSS Integration
+Use an extended Tailwind color palette that aligns with custom properties.
 
-#### 浏览器兼容性
-- 为 CSS 自定义属性提供回退值
-- 渐进式增强高级功能
-- 确保在旧浏览器中优雅降级
+#### Browser Compatibility
+- Provide fallback values for CSS custom properties
+- Progressive enhancement for advanced features
+- Graceful degradation in older browsers
 
-### 禁止事项
+### Prohibited Items
 
-1. **严禁使用任何非黑白色调**
-2. **禁止使用灰色** - 使用透明度变体替代
-3. **禁止硬编码颜色值** - 必须使用 CSS 自定义属性
-4. **禁止使用彩色图标或装饰元素**
+1. **No non-black/white color schemes**
+2. **No gray colors** - Use opacity variants instead
+3. **No hardcoded color values** - Must use CSS custom properties
+4. **No colored icons or decorative elements**
 
-### 质量保证
+### Quality Assurance
 
-#### 开发时检查
-- 自动化颜色合规性检查
-- 对比度验证（无障碍性）
-- 视觉回归测试
+#### Development Checks
+- Automated color compliance checking
+- Contrast validation (accessibility)
+- Visual regression testing
 
-#### 手动验证
-- 逐页视觉检查
-- 交互状态测试
-- 跨浏览器兼容性验证
+#### Manual Validation
+- Page-by-page visual inspection
+- Interactive state testing
+- Cross-browser compatibility verification
 
-### 最佳实践
+### Best Practices
 
-1. **优先使用透明度而非灰色**
-2. **保持最大对比度**（纯黑配纯白）
-3. **统一使用 CSS 自定义属性**
-4. **渐变仅用于增强视觉效果**
-5. **确保所有交互状态的一致性**
+1. **Prefer opacity over gray colors**
+2. **Maintain maximum contrast** (pure black with pure white)
+3. **Use CSS custom properties consistently**
+4. **Use gradients only for visual enhancement**
+5. **Ensure consistency across all interactive states**

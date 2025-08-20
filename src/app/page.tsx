@@ -7,9 +7,11 @@ import HeroSection from '@/components/sections/hero';
 // 卡牌列表
 import CardSection from '@/components/sections/card';
 // 单页面展示区域
-import PagesShowcaseSection from '@/components/sections/pages';
+import PagesSection from '@/components/sections/pages';
 // 游戏展示区域
-import GamesShowcaseSection from '@/components/sections/games';
+import GamesSection from '@/components/sections/games';
+// 故事展示区域
+import StorySection from '@/components/sections/story';
 // 提供页面平滑滚动行为的组件
 import SmoothScroll from '@/components/SmoothScroll';
 // 处理页面之间导航时的过渡动画组件
@@ -27,7 +29,7 @@ export default function Home() {
     // Clear URL parameters
     const newUrl = `${window.location.protocol}//${window.location.host}${window.location.pathname}`;
     window.history.replaceState({ path: newUrl }, '', newUrl);
-    
+
     // 立即重置滚动位置
     window.scrollTo(0, 0);
 
@@ -58,11 +60,15 @@ export default function Home() {
         </Suspense>
 
         <Suspense fallback={<FallbackSection />}>
-          <PagesShowcaseSection />
+          <PagesSection />
         </Suspense>
 
         <Suspense fallback={<FallbackSection />}>
-          <GamesShowcaseSection />
+          <GamesSection />
+        </Suspense>
+
+        <Suspense fallback={<FallbackSection />}>
+          <StorySection />
         </Suspense>
       </PageTransition>
     </SmoothScroll>

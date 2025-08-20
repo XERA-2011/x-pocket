@@ -82,13 +82,6 @@ export default function HeroSection() {
         </div>
       </motion.div>
 
-      {/* <h1     
-        className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-white-200 to-black-200 min-h-[3.5rem] mt-20"
-      >
-        Pocket Universe
-      </h1> */}
-
-      {/* Scroll indicator */}
       <motion.div
         className="absolute bottom-8 flex flex-col items-center"
         initial={{ opacity: 0 }}
@@ -108,10 +101,3 @@ export default function HeroSection() {
   );
 }
 
-// Add this inline style
-<style jsx global>{`
-  /* Ensure the black hole container has proper cursor */
-  .black-hole {
-    cursor: default;
-  }
-`}</style>

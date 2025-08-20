@@ -4,6 +4,17 @@
 
 This feature aims to standardize the entire project's visual styling to a consistent black and white theme. The goal is to create a unified, elegant aesthetic that eliminates all non-black-white color variations while maintaining visual appeal through strategic use of gradients, transparency, and contrast. This will ensure a cohesive user experience across all pages and components.
 
+The project uses the following technology stack (as specified in `package.json`):
+- **Next.js 15.4.2** - React framework for production
+- **React 19.1.0** - JavaScript library for building user interfaces
+- **TypeScript 5** - Typed superset of JavaScript
+- **Tailwind CSS 4** - Utility-first CSS framework
+- **Framer Motion 12.23.9** - Production-ready motion library for React
+- **GSAP 3.13.0** - JavaScript animation library
+- **Lenis 1.3.8** - Smooth scrolling library
+- **React Markdown 10.1.0** - Markdown component for React
+- **Tailwindcss Animate 1.0.7** - Animation utilities for Tailwind CSS
+
 ## Requirements
 
 ### Requirement 1
@@ -60,3 +71,14 @@ This feature aims to standardize the entire project's visual styling to a consis
 2. WHEN images or icons are displayed THEN the system SHALL ensure they fit the monochrome aesthetic or apply appropriate filters
 3. WHEN animations or transitions occur THEN the system SHALL use only approved color values
 4. IF any non-conforming colors are detected THEN the system SHALL override them with appropriate black/white alternatives
+
+### Requirement 6
+
+**User Story:** As a developer, I want to leverage Tailwind CSS utilities appropriately to maintain the black and white theme, so that styling is consistent and maintainable.
+
+#### Acceptance Criteria
+
+1. WHEN applying text colors THEN the system SHALL use Tailwind's `text-white` or opacity variants like `text-white/75`
+2. WHEN applying background colors THEN the system SHALL use Tailwind's `bg-black` or opacity variants like `bg-black/90`
+3. WHEN applying border colors THEN the system SHALL use Tailwind's `border-white/25` or similar opacity variants
+4. WHEN creating gradients THEN the system SHALL use Tailwind's gradient utilities with black and white color stops

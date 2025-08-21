@@ -56,8 +56,8 @@ jobs:
             OUTPUT=$(echo "$PROMPT" | gemini 2>&1)
             EXIT_CODE=$?
             
-            # 检查是否包含错误信息
-            if echo "$OUTPUT" | grep -q "API Error\|UNAVAILABLE\|503"; then
+            # 检查是否包含错误信息或不需要的提示
+            if echo "$OUTPUT" | grep -q "API Error\|UNAVAILABLE\|503" || echo "$OUTPUT" | grep -q "I'm ready. What would you like me to do?"; then
               echo "API 错误，等待重试..."
               RETRY_COUNT=$((RETRY_COUNT + 1))
               if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then

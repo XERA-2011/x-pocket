@@ -5,10 +5,11 @@ import ScrollReveal from '@/components/ScrollReveal';
 import ItemCard, { ItemCardProps } from '@/components/ItemCard';
 
 const cardData: ItemCardProps[] = [
-  { id: "essays-md", title: "Essays Markdown", href: "/essays-md", description: "Markdown content rendering", tags: ['Content', 'Markdown'] },
-  { id: "essays-json", title: "Essays JSON", href: "/essays", description: "JSON data format rendering", tags: ['Content', 'JSON'] },
-  { id: "coze-ai", title: "COZE AI", href: "/coze", description: "AI assistant integration", tags: ['AI', 'Chat'] },
-  { id: "google-ai", title: "Google AI", href: "/google", description: "Google AI integration", tags: ['AI', 'Google'] },
+  { id: "essays-md", title: "Essays Markdown", href: "/english/essays-md", description: "Markdown content rendering", tags: ['Content', 'Markdown'] },
+  { id: "essays-json", title: "Essays JSON", href: "/english/essays", description: "JSON data format rendering", tags: ['Content', 'JSON'] },
+  { id: "coze-ai", title: "COZE AI", href: "/ai/coze", description: "AI assistant integration", tags: ['AI', 'Chat'] },
+  { id: "google-ai", title: "Google AI", href: "/ai/google", description: "Google AI integration", tags: ['AI', 'Google'] },
+  { id: "games", title: "Games", href: "/games", description: "Interactive games", tags: ['Game', 'Interactive'] },
 ];
 
 const containerVariants: Variants = {

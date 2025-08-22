@@ -54,9 +54,6 @@ export default function HeroSection() {
                 ? '0 0 60px rgba(255,255,255,0.3), inset 0 0 60px rgba(255,255,255,0.1)'
                 : '0 0 40px rgba(255,255,255,0.2), inset 0 0 40px rgba(255,255,255,0.05)'
             }}
-            animate={{
-              rotate: 360,
-            }}
             transition={{
               duration: 20,
               repeat: Infinity,
@@ -80,7 +77,6 @@ export default function HeroSection() {
                 x1="25" y1="25" x2="75" y2="75"
                 stroke="currentColor"
                 strokeWidth="8"
-                strokeLinecap="round"
                 initial={{ pathLength: 0 }}
                 animate={{ pathLength: 1 }}
                 transition={{ delay: 0.8, duration: 0.6 }}
@@ -89,7 +85,6 @@ export default function HeroSection() {
                 x1="25" y1="75" x2="75" y2="25"
                 stroke="currentColor"
                 strokeWidth="8"
-                strokeLinecap="round"
                 initial={{ pathLength: 0 }}
                 animate={{ pathLength: 1 }}
                 transition={{ delay: 1.0, duration: 0.6 }}

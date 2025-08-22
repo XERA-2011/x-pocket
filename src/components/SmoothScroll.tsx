@@ -1,83 +1,26 @@
 "use client";
 
-import { ReactNode, useEffect, useRef } from 'react';
+import { ReactNode, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
+import { initLenis, getLenis } from '@/utils/lenis';
 
 interface SmoothScrollProps {
   children: ReactNode;
 }
 
-// Define types for Lenis to avoid TypeScript errors
-type LenisType = {
-  raf: (time: number) => void;
-  destroy: () => void;
-  scrollTo: (target: number, options?: { immediate?: boolean }) => void;
-};
-
-// Define Lenis options type
-interface LenisOptions {
-  duration?: number;
-  easing?: (t: number) => number;
-  smooth?: boolean;
-  smoothTouch?: boolean;
-  touchMultiplier?: number;
-  // Add any other options as needed
-  [key: string]: unknown; // Allow any other properties with unknown type
-}
-
 export default function SmoothScroll({ children }: SmoothScrollProps) {
-  const scrollRef = useRef<LenisType | null>(null);
-  const rafIdRef = useRef<number | null>(null); // Ref for the animation frame ID
+  const pathname = usePathname();
 
   useEffect(() => {
-    const initSmoothScroll = async () => {
-      try {
-        // Try to import Lenis dynamically
-        const lenisModule = await import('lenis').catch(() => null);
-
-        if (!lenisModule) {
-          console.warn('Lenis module could not be loaded');
-          return;
-        }
-
-        const Lenis = lenisModule.default;
-
-        // Create Lenis instance with options
-        const options: LenisOptions = {
-          duration: 1.2,
-          easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-          smooth: true,
-          smoothTouch: false,
-          touchMultiplier: 2,
-          direction: 'vertical',
-          gestureDirection: 'vertical',
-        };
-
-        scrollRef.current = new Lenis(options);
-
-        const raf = (time: number) => {
-          scrollRef.current?.raf(time);
-          rafIdRef.current = requestAnimationFrame(raf);
-        };
-
-        rafIdRef.current = requestAnimationFrame(raf);
-      } catch (error) {
-        console.warn('Smooth scroll could not be initialized:', error);
-        // Fallback to native scroll behavior
-      }
-    };
-
-    initSmoothScroll();
-
-    return () => {
-      if (rafIdRef.current) {
-        cancelAnimationFrame(rafIdRef.current);
-      }
-      if (scrollRef.current) {
-        scrollRef.current.destroy();
-        scrollRef.current = null;
-      }
-    };
+    initLenis();
   }, []);
+
+  useEffect(() => {
+    const lenis = getLenis();
+    if (lenis) {
+      lenis.scrollTo(0, { immediate: true });
+    }
+  }, [pathname]);
 
   return <>{children}</>;
 }

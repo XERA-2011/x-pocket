@@ -36,11 +36,11 @@ export default function ItemCard({ item, index }: { item: ItemCardProps; index: 
       className="group h-full"
     >
       <motion.div
-        className="relative flex flex-col min-h-96 bg-black/20 backdrop-blur-sm border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:border-white/20 hover:bg-black/30 overflow-hidden"
+        className="relative flex flex-col h-full bg-black/20 backdrop-blur-sm border border-white/10 rounded-2xl p-4 sm:p-6 transition-all duration-300 hover:border-white/20 hover:bg-black/30 overflow-hidden"
         whileHover={{
           y: -8,
           scale: 1.01,
-          transition: { duration: 0 }
+          transition: { duration: 0.25 }
         }}
       >
         {/* Background gradient */}
@@ -48,7 +48,7 @@ export default function ItemCard({ item, index }: { item: ItemCardProps; index: 
 
         {/* Coming Soon badge */}
         {item.comingSoon && (
-          <div className="absolute top-4 right-4 z-10">
+          <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-10">
             <span className="text-xs px-3 py-1 rounded-full bg-black/40 border border-white/30 text-white/80 backdrop-blur-sm">
               Coming Soon
             </span>
@@ -60,7 +60,7 @@ export default function ItemCard({ item, index }: { item: ItemCardProps; index: 
           {/* Icon */}
           {item.icon && (
             <motion.div
-              className="text-5xl mb-5 transition-transform duration-300 group-hover:scale-105"
+              className="text-4xl sm:text-5xl mb-4 transition-transform duration-300 group-hover:scale-105"
             >
               {item.icon}
             </motion.div>
@@ -68,7 +68,7 @@ export default function ItemCard({ item, index }: { item: ItemCardProps; index: 
 
           {/* Title and difficulty */}
           <div className="mb-3">
-            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-white/90 transition-colors">
+            <h3 className="text-lg sm:text-xl font-semibold text-white mb-2 group-hover:text-white/90 transition-colors">
               {item.title}
             </h3>
             {item.difficulty && (
@@ -79,13 +79,13 @@ export default function ItemCard({ item, index }: { item: ItemCardProps; index: 
           </div>
 
           {/* Description */}
-          <p className="text-white/60 text-sm leading-relaxed mb-5 flex-grow group-hover:text-white/70 transition-colors">
+          <p className="text-white/60 text-sm leading-relaxed mb-4 flex-grow group-hover:text-white/70 transition-colors">
             {item.description}
           </p>
 
           {/* Tags */}
           {item.tags && (
-            <div className="flex flex-wrap gap-2 mb-5">
+            <div className="flex flex-wrap gap-2 mb-4">
               {item.tags.map((tag, i) => (
                 <span
                   key={i}

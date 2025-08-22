@@ -4,6 +4,7 @@ import '../styles/globals.css';
 import Star from "@/components/background/star";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import SmoothScroll from "@/components/SmoothScroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,21 +27,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="theme-selection">
+    <html lang="en" className="theme-selection" data-scroll-behavior="smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased theme-scrollbar`}
-        style={{
-          backgroundColor: 'var(--color-black)',
-          color: 'var(--color-white)',
-          fontFamily: 'var(--font-sans), Arial, Helvetica, sans-serif'
-        }}
       >
-        <Star />
-        <Header />
-        <main className="min-h-screen">
+        <SmoothScroll>
+          <Star />
+          <Header />
           {children}
-        </main>
-        <Footer />
+          <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );

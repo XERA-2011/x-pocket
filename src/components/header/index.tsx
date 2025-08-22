@@ -17,31 +17,40 @@ export default function Header() {
   }, []);
 
   return (
-    <motion.header
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className={`fixed top-0 left-0 right-0 z-50 pb-8 pt-8 flex flex-col items-center transition-all duration-300 backdrop-filter backdrop-blur-[12px] ${scrolled ? "pt-6 pb-6" : ""
+    <>
+      <motion.header
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-md bg-black/10 ${
+          scrolled ? "py-4" : "py-6"
         }`}
-    >
-      <motion.span
-        className="relative group inline-block bg-gradient-to-r from-white to-black bg-no-repeat bg-clip-text bg-[length:0%_100%] transition-all duration-300 hover:text-transparent hover:bg-[length:100%_100%]"
-        whileHover={{ scale: 1.2 }}
-        transition={{ type: "tween", duration: 0.1 }}
       >
-        <Link
-          href="/"
-          className="text-3xl font-bold text-center block"
-        >
-          <motion.span
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
+        <div className="container mx-auto px-4 flex justify-center">
+          <motion.div
+            className="relative group"
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 400, damping: 30 }}
           >
-            X-POCKET
-          </motion.span>
-        </Link>
-      </motion.span>
-    </motion.header>
+            <Link
+              href="/"
+              className="text-2xl md:text-3xl font-bold text-white hover:text-white/80 transition-colors duration-300 no-underline"
+            >
+              <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+                className="relative"
+              >
+                X-POCKET
+              </motion.span>
+            </Link>
+          </motion.div>
+        </div>
+      </motion.header>
+      
+      {/* Spacer to prevent content overlap */}
+      <div className={`${scrolled ? "h-16" : "h-20"} transition-all duration-300`} />
+    </>
   );
 }

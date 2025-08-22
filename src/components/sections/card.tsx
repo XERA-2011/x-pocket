@@ -1,80 +1,60 @@
 "use client";
 
-import { useRef } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
+import ItemCard, { ItemCardProps } from '@/components/ItemCard';
 
-// 卡片数据
-const cardData = [
-  { title: "Essays Markdown", href: "/essays-md" },
-  { title: "Essays JSON", href: "/essays" },
-  { title: "COZE AI", href: "/coze" },
-  { title: "Google AI", href: "/google" },
+const cardData: ItemCardProps[] = [
+  { id: "essays-md", title: "Essays Markdown", href: "/essays-md", description: "Markdown content rendering", tags: ['Content', 'Markdown'] },
+  { id: "essays-json", title: "Essays JSON", href: "/essays", description: "JSON data format rendering", tags: ['Content', 'JSON'] },
+  { id: "coze-ai", title: "COZE AI", href: "/coze", description: "AI assistant integration", tags: ['AI', 'Chat'] },
+  { id: "google-ai", title: "Google AI", href: "/google", description: "Google AI integration", tags: ['AI', 'Google'] },
 ];
 
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.2,
+    },
+  },
+};
+
 export default function CardSection() {
-  const containerRef = useRef<HTMLDivElement>(null);
-
   return (
-    <section className="relative w-full min-h-screen" id="explore">
-      <motion.div
-        ref={containerRef}
-        className="min-h-screen w-full py-20 px-6 md:px-8 relative transform-gpu"
-        style={{
-          perspective: "1000px"
-        }}
-      >
-        <h2 className="theme-heading text-center my-12">
-          功能
-        </h2>
+    <section className="relative w-full min-h-screen py-20" id="explore">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Title */}
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            Explore Features
+          </h2>
+          <div className="w-24 h-1 bg-white/30 mx-auto rounded-full" />
+        </motion.div>
 
-        <div className="relative">
-          <ScrollReveal delay={0.3}>
-            <div
-              className="absolute inset-0 rounded-2xl blur-md opacity-20"
-              style={{
-                background: 'radial-gradient(circle, var(--color-white-10), var(--color-black-90))'
-              }}
-            />
-
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-10">
-              {cardData.map((card, index) => (
-                <div key={index} className="w-full">
-                  <Link
-                    href={card.href}
-                    className="theme-card w-full rounded-[24px] p-6 text-center cursor-pointer flex flex-col items-center justify-center min-h-[180px] no-underline relative overflow-hidden group"
-                  >
-                    <div
-                      className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                      style={{
-                        background: 'linear-gradient(135deg, var(--color-white-10), var(--color-white-5))'
-                      }}
-                    />
-
-                    <div className="relative z-10 flex flex-col items-center">
-                      <h3 className="text-xl font-medium" style={{ color: 'var(--color-white)' }}>
-                        {card.title}
-                      </h3>
-                      <div
-                        className="mt-2 w-12 h-1 rounded-full group-hover:w-20 transition-all duration-300"
-                        style={{ backgroundColor: 'var(--color-white-25)' }}
-                      />
-                    </div>
-
-                    <div
-                      className="absolute bottom-0 left-0 w-full h-1 scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300"
-                      style={{
-                        background: 'linear-gradient(90deg, var(--color-white-50), var(--color-white-75))'
-                      }}
-                    />
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </ScrollReveal>
-        </div>
-      </motion.div>
+        {/* Cards Grid */}
+        <ScrollReveal delay={0.3}>
+          <motion.div
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+          >
+            {cardData.map((card, index) => (
+              <ItemCard key={card.id} item={card} index={index} />
+            ))}
+          </motion.div>
+        </ScrollReveal>
+      </div>
     </section>
   );
 }

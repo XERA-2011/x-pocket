@@ -1,154 +1,92 @@
 "use client";
 
-import { useRef } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
+import ItemCard, { ItemCardProps } from '@/components/ItemCard';
 
-// 故事数据
-const storiesData = [
+const storiesData: ItemCardProps[] = [
   {
     id: 'pocket-journey',
-    title: '口袋之旅',
-    description: '从一个简单的想法到功能丰富的平台，记录我们的成长足迹',
+    title: 'Pocket Journey',
+    description: 'Documenting our growth from a simple idea to a feature-rich platform.',
     icon: '🎒',
-    tags: ['历程', '成长', '回忆'],
-    date: '2024-01-15'
+    tags: ['Journey', 'Growth'],
+    difficulty: '2024-01-15', // Using difficulty to display date
+    href: '/story/pocket-journey'
   },
   {
     id: 'tech-evolution',
-    title: '技术演进',
-    description: '探索前端技术的发展历程，从传统到现代的转变',
+    title: 'Tech Evolution',
+    description: 'The development history of our frontend technology.',
     icon: '💻',
-    tags: ['技术', '发展', '创新'],
-    date: '2024-03-22'
+    tags: ['Technology', 'Innovation'],
+    difficulty: '2024-03-22', // Using difficulty to display date
+    href: '/story/tech-evolution'
   },
   {
     id: 'design-philosophy',
-    title: '设计理念',
-    description: '极简主义与功能性的完美平衡，创造纯粹的用户体验',
+    title: 'Design Philosophy',
+    description: 'Our philosophy on balancing minimalism and functionality.',
     icon: '🎨',
-    tags: ['设计', '美学', '哲学'],
-    date: '2024-05-10'
+    tags: ['Design', 'Philosophy'],
+    difficulty: '2024-05-10', // Using difficulty to display date
+    href: '/story/design-philosophy'
   },
   {
     id: 'community-impact',
-    title: '社区影响',
-    description: '开源社区的力量，以及我们如何回馈技术生态',
+    title: 'Community Impact',
+    description: 'How we give back to the open source community.',
     icon: '👥',
-    tags: ['社区', '开源', '贡献'],
-    date: '2024-07-08'
+    tags: ['Community', 'Open Source'],
+    difficulty: '2024-07-08', // Using difficulty to display date
+    href: '/story/community-impact'
   }
 ];
 
-export default function StorySection() {
-  const containerRef = useRef<HTMLDivElement>(null);
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.3,
+    },
+  },
+};
 
+export default function StorySection() {
   return (
     <section className="relative w-full min-h-screen py-20" id="story">
-      <motion.div
-        ref={containerRef}
-        className="min-h-screen w-full px-6 md:px-8 relative"
-      >
-        <ScrollReveal delay={0.2}>
-          <div className="text-center mb-16">
-            <h2 className="theme-heading mb-6">
-              故事
-            </h2>
-          </div>
-        </ScrollReveal>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Title */}
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            Stories
+          </h2>
+          <div className="w-24 h-1 bg-white/30 mx-auto rounded-full" />
+        </motion.div>
 
-        {/* 故事卡片网格 */}
+        {/* Stories Grid */}
         <ScrollReveal delay={0.4}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16">
+          <motion.div
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+          >
             {storiesData.map((story, index) => (
-              <motion.div
-                key={story.id}
-                className="group relative"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1, duration: 0.5, ease: "easeOut" }}
-                viewport={{ once: true }}
-              >
-                <div className="theme-card-elevated relative overflow-hidden h-full">
-                  {/* 主题背景渐变 */}
-                  <div
-                    className="absolute inset-0 transition-all duration-500 group-hover:opacity-0"
-                    style={{
-                      background: 'linear-gradient(135deg, var(--color-black-90), var(--color-black-75))'
-                    }}
-                  />
-                  <div
-                    className="absolute inset-0 opacity-0 transition-all duration-500 group-hover:opacity-100"
-                    style={{
-                      background: 'linear-gradient(135deg, var(--color-white-10), var(--color-black-50))'
-                    }}
-                  />
-
-                  {/* 内容 */}
-                  <div className="relative z-10 p-6 h-full flex flex-col">
-                    {/* 故事图标和标题 */}
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="text-4xl transform transition-transform duration-300 group-hover:scale-110">
-                        {story.icon}
-                      </div>
-                      <div className="flex-1">
-                        <h3
-                          className="text-xl font-bold transition-colors duration-300 text-[var(--color-white)]"
-                        >
-                          {story.title}
-                        </h3>
-                        <div className="flex items-center gap-2 mt-1">
-                          <span className="text-xs text-[var(--color-white-50)]">
-                            {story.date}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* 描述 */}
-                    <p className="theme-body text-sm leading-relaxed mb-4 flex-grow">
-                      {story.description}
-                    </p>
-
-                    {/* 标签 */}
-                    <div className="flex flex-wrap gap-2 mb-6">
-                      {story.tags.map((tag, i) => (
-                        <span
-                          key={i}
-                          className="text-xs px-2 py-1 rounded-full border border-[var(--color-white-25)] bg-[var(--color-white-10)] text-[var(--color-white-75)]"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-
-                    {/* 按钮 */}
-                    <div className="mt-auto">
-                      <Link
-                        href={`/story/${story.id}`}
-                        className="theme-button w-full text-center py-2 px-4 no-underline text-sm transform transition-all duration-300"
-                      >
-                        阅读故事
-                      </Link>
-                    </div>
-                  </div>
-
-                  {/* 悬停时的动画效果 */}
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-                    <div
-                      className="absolute top-0 left-0 w-full h-px"
-                      style={{
-                        background: 'linear-gradient(to right, transparent, var(--color-white-25), transparent)'
-                      }}
-                    />
-                  </div>
-                </div>
-              </motion.div>
+              <ItemCard key={story.id} item={story} index={index} />
             ))}
-          </div>
+          </motion.div>
         </ScrollReveal>
-      </motion.div>
+      </div>
     </section>
   );
 }

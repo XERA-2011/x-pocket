@@ -98,14 +98,12 @@ p {
 
 a {
   color: var(--color-white);
-  text-decoration: underline;
-  text-decoration-color: var(--color-white-25);
-  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
   color: var(--color-white-75);
-  text-decoration-color: var(--color-white-50);
 }
 
 /* Form elements base styling */

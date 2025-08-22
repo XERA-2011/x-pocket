@@ -1,160 +1,92 @@
 "use client";
 
-import { useRef } from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import { getSmartHref } from '@/utils/href-helper';
+import ItemCard, { ItemCardProps } from '@/components/ItemCard';
 
-// 单页面数据 - 使用主题颜色
-const pagesData = [
+const pagesData: ItemCardProps[] = [
   {
-    title: "黑洞模拟",
-    description: "交互式黑洞物理模拟，包含吸积盘和粒子效果",
+    id: "black-hole-sim",
+    title: "Black Hole Simulation",
+    description: "Interactive physics simulation of a black hole.",
     href: "/pages/black-hole.html",
     icon: "🕳️",
-    tags: ['物理', '模拟', '可视化'],
-    difficulty: '中等'
+    tags: ['Physics', 'Simulation'],
+    difficulty: 'Medium'
   },
   {
-    title: "星座图",
-    description: "动态星座生成器，展示美丽的星空效果",
+    id: "constellation-map",
+    title: "Constellation Map",
+    description: "Dynamic generator for starfield effects.",
     href: "/pages/constellation.html",
     icon: "✨",
-    tags: ['可视化', '生成器', '星空'],
-    difficulty: '简单'
+    tags: ['Visualization', 'Generator'],
+    difficulty: 'Easy'
   },
   {
-    title: "太阳系探索",
-    description: "交互式太阳系模型，探索行星轨道和特性",
+    id: "solar-system-explorer",
+    title: "Solar System Explorer",
+    description: "Explore a model of our solar system.",
     href: "/pages/solar.html",
     icon: "🌞",
-    tags: ['教育', '模型', '探索'],
-    difficulty: '中等'
+    tags: ['Education', 'Exploration'],
+    difficulty: 'Medium'
   },
   {
-    title: "X Logo 设计",
-    description: "CSS 和 SVG 实现的 X Logo 对比展示",
+    id: "x-logo-design",
+    title: "X Logo Design",
+    description: "X Logo implemented with CSS and SVG.",
     href: "/pages/x-logo.html",
     icon: "❌",
-    tags: ['设计', 'CSS', 'SVG'],
-    difficulty: '简单'
+    tags: ['Design', 'CSS', 'SVG'],
+    difficulty: 'Easy'
   }
 ];
 
-export default function PagesShowcaseSection() {
-  const containerRef = useRef<HTMLDivElement>(null);
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+      delayChildren: 0.3,
+    },
+  },
+};
 
+export default function PagesShowcaseSection() {
   return (
     <section className="relative w-full min-h-screen py-20" id="pages-showcase">
-      <motion.div
-        ref={containerRef}
-        className="min-h-screen w-full px-6 md:px-8 relative"
-      >
-        {/* 标题部分 */}
-        <ScrollReveal delay={0.2}>
-          <div className="text-center mb-16">
-            <h2 className="theme-heading mb-6">
-              创意单页
-            </h2>
-          </div>
-        </ScrollReveal>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Title */}
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            Creative Pages
+          </h2>
+          <div className="w-24 h-1 bg-white/30 mx-auto rounded-full" />
+        </motion.div>
 
-        {/* 页面卡片网格 */}
+        {/* Pages Grid */}
         <ScrollReveal delay={0.4}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16">
+          <motion.div
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+          >
             {pagesData.map((page, index) => (
-              <motion.div
-                key={index}
-                className="group relative"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1, duration: 0.5, ease: "easeOut" }}
-                viewport={{ once: true }}
-              >
-                <div className="theme-card-elevated relative overflow-hidden h-full">
-                  {/* 主题背景渐变 */}
-                  <div
-                    className="absolute inset-0 transition-all duration-500 group-hover:opacity-0"
-                    style={{
-                      background: 'linear-gradient(135deg, var(--color-black-90), var(--color-black-75))'
-                    }}
-                  />
-                  <div
-                    className="absolute inset-0 opacity-0 transition-all duration-500 group-hover:opacity-100"
-                    style={{
-                      background: 'linear-gradient(135deg, var(--color-white-10), var(--color-black-50))'
-                    }}
-                  />
-
-                  {/* 内容 */}
-                  <div className="relative z-10 p-6 h-full flex flex-col">
-                    {/* 页面图标和标题 */}
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="text-4xl transform transition-transform duration-300 group-hover:scale-110">
-                        {page.icon}
-                      </div>
-                      <div className="flex-1">
-                        <h3
-                          className="text-xl font-bold transition-colors duration-300 text-[var(--color-white)]"
-                        >
-                          {page.title}
-                        </h3>
-                        <div className="flex items-center gap-2 mt-1">
-                          <span
-                            className="text-xs px-2 py-1 rounded-full bg-[var(--color-white-10)] text-[var(--color-white-75)]"
-                          >
-                            {page.difficulty}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* 描述 */}
-                    <p className="theme-body text-sm leading-relaxed mb-4 flex-grow">
-                      {page.description}
-                    </p>
-
-                    {/* 标签 */}
-                    <div className="flex flex-wrap gap-2 mb-6">
-                      {page.tags.map((tag, i) => (
-                        <span
-                          key={i}
-                          className="text-xs px-2 py-1 rounded-full border border-[var(--color-white-25)] bg-[var(--color-white-10)] text-[var(--color-white-75)]"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-
-                    {/* 按钮 */}
-                    <div className="mt-auto">
-                      <Link
-                        href={getSmartHref(page.href)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="theme-button w-full text-center py-2 px-4 no-underline text-sm transform transition-all duration-300"
-                      >
-                        立即体验
-                      </Link>
-                    </div>
-                  </div>
-
-                  {/* 悬停时的动画效果 */}
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
-                    <div
-                      className="absolute top-0 left-0 w-full h-px"
-                      style={{
-                        background: 'linear-gradient(to right, transparent, var(--color-white-25), transparent)'
-                      }}
-                    />
-                  </div>
-                </div>
-              </motion.div>
+              <ItemCard key={page.id} item={page} index={index} />
             ))}
-          </div>
+          </motion.div>
         </ScrollReveal>
-      </motion.div>
+      </div>
     </section>
   );
 }

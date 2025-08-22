@@ -4,21 +4,6 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 
-// Register GSAP plugins if available
-if (typeof window !== 'undefined') {
-  try {
-    // Dynamic import for TextPlugin
-    import('gsap/TextPlugin').then(module => {
-      const { TextPlugin } = module;
-      gsap.registerPlugin(TextPlugin);
-    }).catch(error => {
-      console.warn('GSAP TextPlugin not available:', error);
-    });
-  } catch (error) {
-    console.warn('GSAP TextPlugin not available:', error);
-  }
-}
-
 export default function HeroSection() {
   const logoRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -27,77 +12,110 @@ export default function HeroSection() {
   useEffect(() => {
     const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
-    // Animate the logo
     tl.fromTo(
       logoRef.current,
       { scale: 0, rotation: -45 },
       { scale: 1, rotation: 0, duration: 1.2, ease: "elastic.out(1, 0.5)" }
     );
-
   }, []);
+
+  const scrollToExplore = () => {
+    const exploreElement = document.getElementById('explore');
+    if (exploreElement) {
+      exploreElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <section
       ref={containerRef}
-      className="h-screen w-full flex flex-col items-center justify-center text-center p-8 rounded-3xl relative"
+      className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-4 sm:px-6 lg:px-8"
     >
-      {/* Background glow effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-yellow-900/10 via-white-900/5 to-yellow-900/10 rounded-3xl blur-xl opacity-50" />
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/10 opacity-30" />
 
       <motion.div
         ref={logoRef}
-        className="relative w-[30vmin] h-[30vmin] rounded-full cursor-pointer"
+        className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 cursor-pointer group"
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
-        onClick={() => {
-          // 使用标准的URL锚点方式跳转
-          window.location.href = '#explore';
-        }}
+        onClick={scrollToExplore}
+        whileHover={{ scale: 1.05 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
-        {/* Black hole effect using Tailwind CSS */}
-        <div className="w-full h-full relative black-hole transition-transform duration-400 ease-in-out hover:scale-[1.05]">
-          {/* Accretion disk (outer ring) - using the style from the example */}
-          <div
-            className={`absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 rounded-full 
-              ${isHovering ?
-                'shadow-[inset_0_0_2vmin_#fff,inset_0_0_5vmin_#fff,inset_0_0_10vmin_#fff,0_0_12vmin_#fff]' :
-                'shadow-[inset_0_0_1vmin_#fff,inset_0_0_3vmin_#fff,inset_0_0_6vmin_#fff,0_0_7vmin_#fff]'
-              } transition-shadow duration-400 ease-in-out`}
+        {/* Black hole visualization */}
+        <div className="w-full h-full relative rounded-full overflow-hidden">
+          {/* Outer glow ring */}
+          <motion.div
+            className="absolute inset-0 rounded-full"
             style={{
-              transition: 'box-shadow 0.4s ease-in-out'
+              background: 'radial-gradient(circle, transparent 60%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0.3) 80%, transparent 90%)',
+              boxShadow: isHovering
+                ? '0 0 60px rgba(255,255,255,0.3), inset 0 0 60px rgba(255,255,255,0.1)'
+                : '0 0 40px rgba(255,255,255,0.2), inset 0 0 40px rgba(255,255,255,0.05)'
+            }}
+            animate={{
+              rotate: 360,
+            }}
+            transition={{
+              duration: 20,
+              repeat: Infinity,
+              ease: "linear"
             }}
           />
 
-          {/* Event horizon (black center) */}
-          <div className="absolute top-1/2 left-1/2 w-3/4 h-3/4 -translate-x-1/2 -translate-y-1/2 bg-black rounded-full shadow-[0_0_2vmin_#000] z-[1]" />
+          {/* Event horizon */}
+          <div className="absolute top-1/2 left-1/2 w-3/5 h-3/5 -translate-x-1/2 -translate-y-1/2 bg-black rounded-full shadow-2xl border border-white/10" />
 
-          {/* X text */}
+          {/* X logo */}
           <div className="absolute inset-0 flex items-center justify-center z-10">
-            {/* <span className="text-7xl font-bold bg-clip-text text-transparent bg-white select-none">X</span> */}
-            <svg id="xLogoSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="X logo" className="w-1/2 h-1/2">
-              <line x1="10" y1="10" x2="90" y2="90" stroke="#fff" strokeWidth="20" strokeLinecap="butt" />
-              <line x1="10" y1="90" x2="90" y2="10" stroke="#fff" strokeWidth="20" strokeLinecap="butt" />
-            </svg>
+            <motion.svg
+              viewBox="0 0 100 100"
+              className="w-1/3 h-1/3 text-white"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5, duration: 0.8 }}
+            >
+              <motion.line
+                x1="25" y1="25" x2="75" y2="75"
+                stroke="currentColor"
+                strokeWidth="8"
+                strokeLinecap="round"
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{ delay: 0.8, duration: 0.6 }}
+              />
+              <motion.line
+                x1="25" y1="75" x2="75" y2="25"
+                stroke="currentColor"
+                strokeWidth="8"
+                strokeLinecap="round"
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{ delay: 1.0, duration: 0.6 }}
+              />
+            </motion.svg>
           </div>
         </div>
       </motion.div>
 
+      {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-8 flex flex-col items-center"
+        className="absolute bottom-8 flex flex-col items-center cursor-pointer"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
+        transition={{ delay: 2, duration: 1 }}
+        onClick={scrollToExplore}
       >
         <motion.div
-          className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center p-1"
-          initial={{ y: 0 }}
+          className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center p-1 mb-2"
           animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
         >
           <motion.div className="w-1.5 h-3 bg-white/50 rounded-full" />
         </motion.div>
+        <span className="text-sm text-white/60 uppercase tracking-wider">Explore</span>
       </motion.div>
     </section>
   );
 }
-

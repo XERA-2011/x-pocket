@@ -1,44 +1,40 @@
 Data collection is disabled.
 # 应用文
 
-## An email to a friend about a party you are organizing
-- 一封关于你正在组织的派对的邮件
+## A postcard inviting your cousin to stay with you for a weekend
+- 一张邀请你表兄/妹与你共度周末的明信片
 
 **正文**：
 
 Hi Alex,
 
-Hope you're doing well!
+How are you doing? I hope you're having a great summer. I'm writing to ask if you'd like to come and stay with me for a weekend next month, perhaps from the 15th to the 17th.
 
-I'm writing to invite you to a party I'm organizing to celebrate the end of our exams. It's going to be at my place next Saturday, June 15th. I'm planning to start around 7 p.m.
+There's a new science museum that has just opened downtown, and I thought we could check it out. Also, my parents said we could have a barbecue in the garden on Saturday evening if the weather is nice. It would be a fantastic opportunity to catch up and have some fun.
 
-I'll prepare some pizzas and snacks, but it would be great if you could bring some drinks to share. We'll have some good music, and I've also got some fun board games we can play. I really hope you can make it, as it won't be the same without you!
-
-Let me know if you can come.
+Let me know if you are free.
 
 Best,
 Chris
 
 - 嗨，亚历克斯，
-- 希望你一切都好！
-- 我写信是想邀请你参加我为庆祝考试结束而组织的派对。派对将于下周六，也就是6月15日，在我的家里举行。我计划在晚上7点左右开始。
-- 我会准备一些披萨和零食，但如果你能带些饮料来分享就再好不过了。我们会有很棒的音乐，我还准备了一些有趣的桌游可以玩。我真的希望你能来，没有你派对会大不相同！
-- 如果你能来，请告诉我。
-- 祝好，
-- 克里斯
+- - 你最近怎么样？希望你暑假过得很愉快。我写信是想问你下个月是否愿意来我这里过一个周末，比如说从15号到17号。
+- - 市中心新开了一家科学博物馆，我想我们可以一起去看看。而且，我父母说如果周六晚上天气好的话，我们可以在花园里烧烤。这将是一个叙旧和玩乐的绝佳机会。
+- - 如果你有空的话，请告诉我。
+- - 祝好，
+- - 克里斯
 
 ---
 
 # 记叙文/短文
 
-## An article for young people about how to use social media safely
-- 一篇为年轻人写的关于如何安全使用社交媒体的文章
+## Write a story that ends with: 'I would never forget that day.'
+- 写一个以下列句子结尾的故事：“我永远不会忘记那一天。”
 
 **正文**：
 
-Social media is a great way to connect with friends, but it's important to stay safe. Firstly, always think about your privacy. Avoid sharing personal information like your full name, address, or phone number online. Use strong, unique passwords for your accounts to protect them.
+It was the day of the local talent show. My hands were trembling as I stood behind the stage curtain, listening to the applause for the previous performer. I had always been shy, and performing a song in front of hundreds of people felt impossible. When my name was called, I took a deep breath and walked to the microphone. The first few notes were shaky, but then I saw my family smiling in the audience. Their support gave me strength. I closed my eyes and sang from my heart. The final cheer from the crowd was overwhelming. I would never forget that day.
 
-Secondly, think before you post. Once something is online, it can be there forever. Only share photos and comments that you are happy for anyone to see. Finally, be careful about who you talk to. Don't accept friend requests from strangers. If anyone makes you feel uncomfortable, tell a trusted adult immediately.
-
-- 社交媒体是与朋友联系的好方法，但保持安全非常重要。首先，要时刻考虑你的隐私。避免在网上分享你的全名、地址或电话号码等个人信息。为你的账户使用强大且独特的密码来保护它们。
-- 其次，发布前请三思。一旦内容发布到网上，它可能就永远存在了。只分享那些你乐意让任何人看到的照片和评论。最后，要小心你交谈的对象。不要接受陌生人的好友请求。如果有人让你感到不舒服，立即告诉一位你信任的成年人。
+- 那是本地才艺表演的日子。我站在舞台幕后，听着前一位表演者获得的掌声，双手不停地颤抖。我一直都很害羞，在几百人面前演唱一首歌感觉像是不可能完成的任务。
+- - 当我的名字被叫到时，我深吸了一口气，走向麦克风。最初的几个音符有些颤抖，但随后我看到了观众席中微笑的家人。他们的支持给了我力量。我闭上眼睛，发自内心地歌唱。
+- - 最后，观众排山倒海般的欢呼声让我不知所措。我永远不会忘记那一天。

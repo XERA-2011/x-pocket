@@ -29,7 +29,7 @@ const cardVariants: Variants = {
   },
 };
 
-export default function ItemCard({ item, index }: { item: ItemCardProps; index: number }) {
+export default function ItemCard({ item }: { item: ItemCardProps; index: number }) {
   return (
     <motion.div
       variants={cardVariants}

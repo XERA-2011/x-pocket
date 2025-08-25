@@ -16,7 +16,7 @@ import { usePreloader } from "../preloader";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
 // Gsap Ticker Function
-function useTicker(callback: any, paused: boolean) {
+function useTicker(callback: () => void, paused: boolean) {
   useEffect(() => {
     if (!paused && callback) {
       gsap.ticker.add(callback);
@@ -27,21 +27,34 @@ function useTicker(callback: any, paused: boolean) {
   }, [callback, paused]);
 }
 
-const EMPTY = {} as {
-  x: Function;
-  y: Function;
-  r?: Function;
-  width?: Function;
-  rt?: Function;
-  sx?: Function;
-  sy?: Function;
-};
+interface GSAPSetters {
+  x?: (value: number) => void;
+  y?: (value: number) => void;
+  r?: (value: number) => void;
+  width?: (value: number) => void;
+  rt?: (value: number) => void;
+  sx?: (value: number) => void;
+  sy?: (value: number) => void;
+}
+
+const EMPTY = {} as GSAPSetters;
 function useInstance(value = {}) {
   const ref = useRef(EMPTY);
   if (ref.current === EMPTY) {
     ref.current = typeof value === "function" ? value() : value;
   }
   return ref.current;
+}
+
+// Position and velocity types
+interface Position {
+  x: number;
+  y: number;
+}
+
+interface Velocity {
+  x: number;
+  y: number;
 }
 
 // Function for Mouse Move Scale Change
@@ -79,39 +92,40 @@ function ElasticCursor() {
   const { x, y } = useMouse();
 
   // Save pos and velocity Objects
-  const pos = useInstance(() => ({ x: 0, y: 0 }));
-  const vel = useInstance(() => ({ x: 0, y: 0 }));
-  const set = useInstance();
+  const [pos] = useState<Position>({ x: 0, y: 0 });
+  const [vel] = useState<Velocity>({ x: 0, y: 0 });
+  const set = useInstance() as GSAPSetters;
 
   // Set GSAP quick setter Values on useLayoutEffect Update
   useLayoutEffect(() => {
-    set.x = gsap.quickSetter(jellyRef.current, "x", "px");
-    set.y = gsap.quickSetter(jellyRef.current, "y", "px");
-    set.r = gsap.quickSetter(jellyRef.current, "rotate", "deg");
-    set.sx = gsap.quickSetter(jellyRef.current, "scaleX");
-    set.sy = gsap.quickSetter(jellyRef.current, "scaleY");
-    set.width = gsap.quickSetter(jellyRef.current, "width", "px");
-  }, []);
+    set.x = gsap.quickSetter(jellyRef.current, "x", "px") as (value: number) => void;
+    set.y = gsap.quickSetter(jellyRef.current, "y", "px") as (value: number) => void;
+    set.r = gsap.quickSetter(jellyRef.current, "rotate", "deg") as (value: number) => void;
+    set.sx = gsap.quickSetter(jellyRef.current, "scaleX") as (value: number) => void;
+    set.sy = gsap.quickSetter(jellyRef.current, "scaleY") as (value: number) => void;
+    set.width = gsap.quickSetter(jellyRef.current, "width", "px") as (value: number) => void;
+  }, [set]);
 
   // Start Animation loop
   const loop = useCallback(() => {
     if (!set.width || !set.sx || !set.sy || !set.r) return;
+    
     // Calculate angle and scale based on velocity
-    var rotation = getAngle(+vel.x, +vel.y); // Mouse Move Angle
-    var scale = getScale(+vel.x, +vel.y); // Blob Squeeze Amount
+    const rotation = getAngle(vel.x, vel.y); // Mouse Move Angle
+    const scale = getScale(vel.x, vel.y); // Blob Squeeze Amount
 
     // Set GSAP quick setter Values on Loop Function
     if (!isHovering && !isLoading) {
-      set.x(pos.x);
-      set.y(pos.y);
-      set.width(50 + scale * 300);
-      set.r(rotation);
-      set.sx(1 + scale);
-      set.sy(1 - scale * 2);
+      set.x?.(pos.x);
+      set.y?.(pos.y);
+      set.width?.(50 + scale * 300);
+      set.r?.(rotation);
+      set.sx?.(1 + scale);
+      set.sy?.(1 - scale * 2);
     } else {
-      set.r(0);
+      set.r?.(0);
     }
-  }, [isHovering, isLoading]);
+  }, [isHovering, isLoading, pos.x, pos.y, set, vel.x, vel.y]);
 
   const [cursorMoved, setCursorMoved] = useState(false);
   // Run on Mouse Move
@@ -162,9 +176,7 @@ function ElasticCursor() {
         duration: 1.5,
         ease: "elastic.out(1, 0.5)",
         onUpdate: () => {
-          // @ts-ignore
           vel.x = (x - pos.x) * 1.2;
-          // @ts-ignore
           vel.y = (y - pos.y) * 1.2;
         },
       });
@@ -176,7 +188,7 @@ function ElasticCursor() {
     return () => {
       if (!isLoading) window.removeEventListener("mousemove", setFromEvent);
     };
-  }, [isLoading]);
+  }, [isLoading, cursorMoved, isMobile, loop, pos, vel]);
 
   useEffect(() => {
     if (!jellyRef.current) return;

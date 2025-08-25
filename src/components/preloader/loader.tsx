@@ -19,7 +19,7 @@ const steps = [
 ];
 
 export default function Index() {
-  const { isLoading, loadingPercent } = usePreloader();
+  const { loadingPercent } = usePreloader();
   const [index, setIndex] = useState(0);
   const [dimension, setDimension] = useState({ width: 0, height: 0 });
 

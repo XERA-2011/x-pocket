@@ -1,10 +1,12 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next/types";
 import { Geist, Geist_Mono } from "next/font/google";
 import '../styles/globals.css';
 import Star from "@/components/background/star";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import SmoothScroll from "@/components/SmoothScroll";
+import ElasticCursor from "@/components/ui/ElasticCursor";
+import Preloader from "@/components/preloader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,12 +33,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased theme-scrollbar`}
       >
-        <SmoothScroll>
-          <Star />
-          <Header />
-          {children}
-          <Footer />
-        </SmoothScroll>
+        <Preloader>
+          <SmoothScroll>
+            <Star />
+            <Header />
+            {children}
+            <Footer />
+            <ElasticCursor />
+          </SmoothScroll>
+        </Preloader>
       </body>
     </html>
   );

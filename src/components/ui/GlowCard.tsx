@@ -1,91 +1,104 @@
-"use client";
+'use client';
 
-import { useState, ReactNode } from "react";
-import { motion, useMotionTemplate, useMotionValue, MotionProps } from "framer-motion";
+import React, { useRef, useEffect, HTMLAttributes } from 'react';
+import { cn } from '@/utils/cn';
+import styles from './GlowCard.module.css';
 
-interface GlowCardProps {
-  children: ReactNode;
+interface GlowCardProps extends HTMLAttributes<HTMLDivElement> {
+  children: React.ReactNode;
   className?: string;
-  radius?: number;
-  style?: React.CSSProperties;
-  onMouseMove?: (event: React.MouseEvent<HTMLDivElement>) => void;
-  onMouseEnter?: () => void;
-  onMouseLeave?: () => void;
-  onClick?: () => void;
-  initial?: MotionProps['initial'];
-  whileInView?: MotionProps['whileInView'];
-  transition?: MotionProps['transition'];
-  viewport?: MotionProps['viewport'];
+  spread?: number;
+  borderWidth?: number;
 }
 
-export default function GlowCard({
+const GlowCard: React.FC<GlowCardProps> = ({
   children,
-  className = "",
-  radius = 100,
-  style = {},
-  onMouseMove,
-  onMouseEnter,
-  onMouseLeave,
-  onClick,
-  initial,
-  whileInView,
-  transition,
-  viewport,
-}: GlowCardProps) {
-  const [visible, setVisible] = useState(false);
-  const mouseX = useMotionValue(0);
-  const mouseY = useMotionValue(0);
+  className,
+  spread = 80,
+  borderWidth = 4,
+  ...props
+}) => {
+  const cardRef = useRef<HTMLDivElement>(null);
+  // A ref to track if the mouse is currently inside the proximity zone.
+  // This is the key to preventing the flicker.
+  const isNearbyRef = useRef(false);
+  // A ref to hold the requestAnimationFrame ID.
+  const animationFrameRef = useRef<number>(0);
 
-  function handleMouseMove(event: React.MouseEvent<HTMLDivElement>) {
-    const { currentTarget, clientX, clientY } = event;
-    const { left, top } = currentTarget.getBoundingClientRect();
-    mouseX.set(clientX - left);
-    mouseY.set(clientY - top);
-    
-    if (onMouseMove) {
-      onMouseMove(event);
-    }
-  }
+  useEffect(() => {
+    const cardNode = cardRef.current;
+    if (!cardNode) return;
 
-  function handleMouseEnter() {
-    setVisible(true);
-    if (onMouseEnter) {
-      onMouseEnter();
-    }
-  }
+    // Initialize CSS variables to prevent unexpected behavior.
+    cardNode.style.setProperty('--start', '0');
+    cardNode.style.setProperty('--active', '0');
 
-  function handleMouseLeave() {
-    setVisible(false);
-    if (onMouseLeave) {
-      onMouseLeave();
-    }
-  }
+    const handleMove = (e: MouseEvent | TouchEvent) => {
+      // Cancel any pending animation frame to avoid multiple updates.
+      cancelAnimationFrame(animationFrameRef.current);
 
-  const glowStyle = {
-    background: useMotionTemplate`
-      radial-gradient(
-        ${visible ? radius + "px" : "0px"} circle at ${mouseX}px ${mouseY}px,
-        rgba(255, 255, 255, 0.1),
-        transparent 80%
-      )
-    `,
-    ...style,
-  };
+      // Schedule a new animation frame.
+      animationFrameRef.current = requestAnimationFrame(() => {
+        if (!cardRef.current) return;
+        const rect = cardRef.current.getBoundingClientRect();
+        const clientX = 'clientX' in e ? e.clientX : e.touches[0].clientX;
+        const clientY = 'clientY' in e ? e.clientY : e.touches[0].clientY;
+
+        const proximity = 50;
+        const currentlyIsNearby =
+          clientX > rect.left - proximity &&
+          clientX < rect.right + proximity &&
+          clientY > rect.top - proximity &&
+          clientY < rect.bottom + proximity;
+
+        // Only update the --active property if the proximity state *changes*.
+        // This prevents the CSS transition from being interrupted and restarted.
+        if (currentlyIsNearby !== isNearbyRef.current) {
+          isNearbyRef.current = currentlyIsNearby;
+          cardRef.current.style.setProperty('--active', currentlyIsNearby ? '1' : '0');
+        }
+
+        // Always update the angle when the mouse is nearby.
+        if (currentlyIsNearby) {
+          const x = clientX - rect.left;
+          const y = clientY - rect.top;
+          const angle = (Math.atan2(y - rect.height / 2, x - rect.width / 2) * 180) / Math.PI + 90;
+          const startAngle = (angle + 360) % 360;
+          cardRef.current.style.setProperty('--start', `${startAngle}`);
+        }
+      });
+    };
+
+    document.addEventListener('mousemove', handleMove);
+    document.addEventListener('touchmove', handleMove, { passive: true });
+
+    // Cleanup function to remove listeners and cancel animation frames.
+    return () => {
+      cancelAnimationFrame(animationFrameRef.current);
+      document.removeEventListener('mousemove', handleMove);
+      document.removeEventListener('touchmove', handleMove);
+    };
+  }, []); // Empty dependency array ensures this effect runs only once on mount.
 
   return (
-    <motion.div
-      initial={initial}
-      whileInView={whileInView}
-      transition={transition}
-      viewport={viewport}
-      style={glowStyle}
-      onMouseMove={handleMouseMove}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      onClick={onClick}
-      className={className}
+    <div
+      ref={cardRef}
+      className={cn(styles.card, className)}
+      style={
+        {
+          ...props.style,
+          '--spread': spread,
+          '--glowingeffect-border-width': `${borderWidth}px`,
+        } as React.CSSProperties
+      }
+      {...props}
     >
-      {children}
-    </motion.div>
+      <div className={styles.glowingContainer}>
+        <div className={styles.glowingEffect}></div>
+      </div>
+      <div className={styles.content}>{children}</div>
+    </div>
   );
-}
+};
+
+export default GlowCard;

@@ -1,28 +1,29 @@
 Data collection is disabled.
 # 应用文
 
-## A postcard inviting your cousin to stay with you for a weekend
-- 一张邀请你的表兄/妹与你共度周末的明信片
+## An email to your English teacher explaining why you missed a class
+- 给你的英语老师写一封邮件，解释你为什么缺课
 
 **正文**：
 
-Hi Alex,
+Dear Mr. Smith,
 
-How are you doing? I hope you're having a great week.
+I am writing to apologize for missing your English class yesterday, August 25th. I had a sudden dental appointment that I could not reschedule. I felt very sorry to miss the lesson on narrative tenses as I know it is an important topic.
 
-I'm writing to invite you to come and stay with me for the weekend of September 12th. My parents and I are planning to have a barbecue in our garden on Saturday afternoon, and it would be fantastic if you could join us. We could also go to the new cinema to watch that action movie we were talking about. On Sunday, we can just relax at home or maybe go cycling if the weather is nice.
+Could you please let me know what was covered in the class and if there was any homework assigned? I have already borrowed the notes from my classmate, Jane, and I will make sure to catch up on all the material before our next lesson.
 
-It would be a great opportunity to catch up. Let me know if you can make it!
+Thank you for your understanding.
 
-Best,
-Chris
+Best regards,
 
-- 嗨，亚历克斯，
-- 你好吗？希望你这周过得愉快。
-- 我写信是想邀请你在9月12那个周末来我这里住。我父母和我计划周六下午在花园里烧烤，如果你能来就太棒了。我们还可以去新开的电影院看我们之前聊过的那部动作片。周日，我们可以在家放松，或者如果天气好的话，可以去骑自行车。
-- 这将是叙旧的好机会。告诉我你是否能来！
-- 祝好，
-- 克里斯
+[Your Name]
+
+- 尊敬的史密斯先生，
+- 我写这封信是为了对我昨天（8月25日）缺席您的英语课表示歉意。我有一个突然的牙医预约，无法改期。错过了关于叙事时态的那节课，我感到非常遗憾，因为我知道这是一个重要的话题。
+- 请问您能告诉我课上讲了哪些内容，以及是否布置了家庭作业吗？我已经向同学简借了笔记，并且我保证会在下节课前把所有错过的材料都补上。
+- 感谢您的理解。
+- 此致，
+- [你的名字]
 
 ---
 
@@ -33,6 +34,9 @@ Chris
 
 **正文**：
 
-I'll always remember the road trip my family and I took to the coast last year. We decided to drive instead of taking the train because we wanted to enjoy the scenery. We sang along to old songs in the car and stopped at a small village for lunch, which was lovely. When we finally arrived, the view of the ocean from our hotel room was breathtaking. The best part was building a huge sandcastle with my dad, which we decorated with shells. That evening, we watched the sunset together. It was a simple trip, but being together made it truly special.
+I will never forget the trip my family and I took to the mountains last summer. We rented a small wooden cabin by a beautiful, clear lake. Every morning, we woke up to the sound of birds singing. My father taught me how to fish, and although I didn't catch anything, I loved spending that quiet time with him.
 
-- 我将永远记得去年我和家人去海边的那次公路旅行。我们决定开车而不是乘火车，因为我们想欣赏沿途的风景。我们在车里跟着老歌一起唱歌，还在一个小村庄停下来吃午饭，感觉非常棒。当我们终于到达时，从酒店房间看出去的海景美得令人窒息。最棒的部分是和爸爸一起堆了一个巨大的沙堡，我们还用贝壳做了装饰。那天晚上，我们一起观看了日落。那是一次简单的旅行，但和家人在一起的时光让它变得无比特别。
+One afternoon, we went hiking and got caught in a light rain shower. Instead of being upset, we laughed and ran back to our cabin, feeling like adventurers. We spent the evening playing board games and drinking hot chocolate. It was a simple trip, but it was perfect because we were all together.
+
+- 我永远不会忘记去年夏天我和家人去山区的那次旅行。我们在一个美丽清澈的湖边租了一间小木屋。每天早上，我们都在鸟儿的歌声中醒来。我父亲教我如何钓鱼，虽然我什么也没钓到，但我很享受和他在一起的那段安静时光。
+- 一天下午，我们去远足，遇到了一场小阵雨。我们没有因此而沮-丧，反而大笑着跑回小屋，感觉自己就像探险家一样。那天晚上，我们玩着棋盘游戏，喝着热巧克力。那是一次简单的旅行，但却很完美，因为我们都在一起。

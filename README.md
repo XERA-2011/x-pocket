@@ -26,6 +26,18 @@ pnpm dev
 pnpm build
 ```
 
+## Audit
+
+```bash
+pnpm audit
+```
+
+## Eslint
+
+```bash
+pnpm up eslint
+```
+
 ## Vercel
 
 ```bash

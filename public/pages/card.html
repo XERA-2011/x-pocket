@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <style>
+      :root {
+        --ant-color-website-bg-base: #141414;
+        --ant-color-border-tertiary: #424242;
+        --ant-color-website-medium-crad-second-icon-bg: #222;
+        --ant-color-text-base: #FFFFFF;
+        --ant-color-text-tertiary: #AAAAAA;
+        --ant-font-family-montserrat-semi-bold: sans-serif;
+        --ant-font-family-montserrat-regular: sans-serif;
+        --ant-color-fill-tertiary: #333;
+        --ant-color-primary: #1677ff;
+        --ant-color-text: #fff;
+        --ant-color-text-secondary: #ccc;
+        --ant-color-border-secondary: #555;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: var(--ant-color-website-bg-base);
+      }
+      .cardWithGlowing--SrU_rlv {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-box-flex: 1;
+        background: var(--ant-color-website-medium-crad-second-icon-bg) !important;
+        border: 1px solid var(--ant-color-border-tertiary);
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 1;
+        -ms-flex: none;
+        flex: none;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 350px;
+        height: 250px;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        overflow: hidden;
+        position: relative;
+      }
+      .glowingContainer--ehwtJLP {
+        border-radius: inherit;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-property: opacity;
+        transition-property: opacity;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .glowingEffect--QGHXbgS {
+        border-radius: inherit;
+        height: 100%;
+        position: relative;
+        width: 100%;
+      }
+      .glowingEffect--QGHXbgS:after {
+          background: conic-gradient(at 50% 50%, #6e9cf7 0deg, #8090ff 51deg, #0df2aa 90deg, #0df24e 140deg, #13ec50 246deg, #0df2aa 280deg, #55a8f6 304deg, #6e9cf7 1turn, #8090ff 411deg);
+          border: 4px solid transparent;
+          border-radius: inherit;
+          content: "";
+          -webkit-filter: blur(1px);
+          filter: blur(1px);
+          inset: calc(var(--glowingeffect-border-width) * -.5);
+          -webkit-mask-clip: padding-box, border-box;
+          mask-clip: padding-box, border-box;
+          -webkit-mask-composite: source-in, xor;
+          mask-composite: intersect;
+          -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#0000), to(#0000)), conic-gradient(from calc((var(--start) - var(--spread)) * 1deg), #0000, #fff, #0000 calc(var(--spread) * 2deg));
+          -webkit-mask-image: linear-gradient(#0000, #0000), conic-gradient(from calc((var(--start) - var(--spread)) * 1deg), #0000, #fff, #0000 calc(var(--spread) * 2deg));
+          mask-image: -webkit-gradient(linear, left top, left bottom, from(#0000), to(#0000)), conic-gradient(from calc((var(--start) - var(--spread)) * 1deg), #0000, #fff, #0000 calc(var(--spread) * 2deg));
+          mask-image: linear-gradient(#0000, #0000), conic-gradient(from calc((var(--start) - var(--spread)) * 1deg), #0000, #fff, #0000 calc(var(--spread) * 2deg));
+          opacity: 0;
+          opacity: var(--active, 0);
+          position: absolute;
+          -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+          -webkit-transition-property: opacity;
+          transition-property: opacity;
+          -webkit-transition-timing-function: cubic-bezier(.4,0,.2,1);
+          transition-timing-function: cubic-bezier(.4,0,.2,1);
+      }
+      .cardGridContainer--Ksb1PxP .cardTitle--xKlp3DE {
+        color: var(--ant-color-text-base);
+        font-family: var(--ant-font-family-montserrat-semi-bold);
+        font-size: 22px;
+        letter-spacing: normal;
+        line-height: 32px;
+        margin-bottom: 10px;
+        padding: 30px 30px 0;
+      }
+      .cardGridContainer--Ksb1PxP .cardItemContent--hRVB3n3 {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+      }
+      .cardItemContent--hRVB3n3 {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+      }
+      .cardTitle--xKlp3DE {
+          color: var(--ant-color-text-base);
+          font-family: var(--ant-font-family-montserrat-semi-bold);
+          font-size: 22px;
+          letter-spacing: normal;
+          line-height: 32px;
+          margin-bottom: 10px;
+          padding: 30px 30px 0;
+      }
+      @media (max-width: 1325px) and (min-width: 800px) {
+        .secondCardRow--kPh4t2Z .cardTitle--xKlp3DE {
+          min-height: 104px !important;
+        }
+      }
+      @media (max-width: 800px) and (min-width: 700px) {
+        .cardGridContainer--Ksb1PxP .secondCardRow--kPh4t2Z .cardTitle--xKlp3DE {
+          min-height: 126px !important;
+        }
+      }
+      @media (max-width: 730px) and (min-width: 700px) {
+        .cardGridContainer--Ksb1PxP .firstCardRow--D0S_Dbv .cardTitle--xKlp3DE {
+          min-height: 94px !important;
+        }
+      }
+      @media (max-width: 700px) and (min-width: 550px) {
+        .cardGridContainer--Ksb1PxP .cardTitle--xKlp3DE {
+          font-size: 26px;
+        }
+        .card {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="card cardWithGlowing--SrU_rlv"
+      style="
+        --blur: 0px;
+        --spread: 80;
+        --start: 86.85799578399097;
+        --active: 1;
+        --glowingeffect-border-width: 4px;
+      "
+    >
+      <div class="glowingContainer--ehwtJLP"><div class="glowingEffect--QGHXbgS"></div></div>
+      <div class="cardItemContent--hRVB3n3">
+        <div><div class="cardTitle--xKlp3DE">Tab It, Get It</div></div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const card = document.querySelector('.cardWithGlowing--SrU_rlv');
+        if (card) {
+          const updateProperties = (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            const angle = (Math.atan2(y - rect.height / 2, x - rect.width / 2) * 180 / Math.PI + 90 + 360) % 360;
+            card.style.setProperty('--start', angle.toFixed(2));
+          };
+
+          const handleMove = (e) => {
+            const rect = card.getBoundingClientRect();
+            const proximity = 50;
+            const clientX = e.clientX ?? e.touches[0].clientX;
+            const clientY = e.clientY ?? e.touches[0].clientY;
+
+            const isNearby =
+              clientX > rect.left - proximity &&
+              clientX < rect.right + proximity &&
+              clientY > rect.top - proximity &&
+              clientY < rect.bottom + proximity;
+
+            if (isNearby) {
+              card.style.setProperty('--active', '1');
+              updateProperties(e.touches ? e.touches[0] : e);
+            } else {
+              card.style.setProperty('--active', '0');
+            }
+          };
+
+          document.addEventListener('mousemove', handleMove);
+          document.addEventListener('touchmove', handleMove);
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clock with HH:MM:SS Blocks</title>
+<style>
+  body{
+    margin:0; height:100vh; display:flex; flex-direction:column;
+    justify-content:center; align-items:center; background:#fafafa;
+    font-family:system-ui,sans-serif; color:#222;
+  }
+  .wrap{ display:flex; flex-direction:column; align-items:center; gap:16px; }
+
+  /* 模拟时钟 */
+  .clock{
+    width:220px; height:220px; border-radius:50%;
+    background:#fff; border:8px solid #222;
+    box-shadow:0 6px 18px rgba(0,0,0,.08); position:relative;
+  }
+  .hand{ position:absolute; left:50%; top:50%; transform-origin:50% 100%; }
+  .hour{ width:7px; height:60px; background:#222; border-radius:4px; z-index:2; }
+  .minute{ width:5px; height:85px; background:#555; border-radius:4px; z-index:2; }
+  .second{ width:2px; height:95px; background:#e63946; border-radius:2px; z-index:3; }
+  .center{ position:absolute; left:50%; top:50%; width:12px; height:12px;
+    background:#222; border-radius:50%; transform:translate(-50%,-50%); z-index:4;
+    box-shadow:0 2px 6px rgba(0,0,0,.12);
+  }
+
+  /* 年月日文本 */
+  .ymd{ font-size:1.1rem; color:#222; letter-spacing:1px; }
+
+  /* HH:MM:SS 格子 */
+  .hms{ display:flex; gap:6px; justify-content:center; }
+  .digit{
+    width:40px; height:50px; background:#fff; border:2px solid #ddd;
+    display:flex; justify-content:center; align-items:center;
+    font-size:1.3rem; font-weight:700; border-radius:6px;
+    box-shadow:0 2px 6px rgba(0,0,0,.1);
+  }
+  .sep{ width:auto; height:50px; display:flex; justify-content:center; align-items:center; font-size:1.3rem; font-weight:700; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="clock" id="clock">
+      <div class="hand hour" id="hourHand"></div>
+      <div class="hand minute" id="minuteHand"></div>
+      <div class="hand second" id="secondHand"></div>
+      <div class="center"></div>
+    </div>
+    <div class="ymd" id="ymd">--</div>
+    <div class="hms" id="hms"></div>
+  </div>
+
+<script>
+  const hourHand=document.getElementById('hourHand');
+  const minuteHand=document.getElementById('minuteHand');
+  const secondHand=document.getElementById('secondHand');
+  const ymdEl=document.getElementById('ymd');
+  const hmsEl=document.getElementById('hms');
+
+  function pad(n){ return String(n).padStart(2,'0'); }
+
+  function updateClock(){
+    const now=new Date();
+    const y = now.getFullYear();
+    const mo = pad(now.getMonth()+1);
+    const d = pad(now.getDate());
+    const h = pad(now.getHours());
+    const m = pad(now.getMinutes());
+    const s = pad(now.getSeconds());
+
+    // 指针旋转
+    hourHand.style.transform = `translate(-50%,-100%) rotate(${(now.getHours()%12)*30 + now.getMinutes()*0.5}deg)`;
+    minuteHand.style.transform = `translate(-50%,-100%) rotate(${now.getMinutes()*6 + s*0.1}deg)`;
+    secondHand.style.transform = `translate(-50%,-100%) rotate(${s*6}deg)`;
+
+    // 年月日显示
+    ymdEl.textContent = `${y}-${mo}-${d}`;
+
+    // HH:MM:SS 格子
+    const parts = [...h,':',...m,':',...s];
+    hmsEl.innerHTML = '';
+    parts.forEach(ch=>{
+      const div=document.createElement('div');
+      if(/\d/.test(ch)) div.className='digit';
+      else div.className='sep';
+      div.textContent=ch;
+      hmsEl.appendChild(div);
+    });
+  }
+
+  updateClock();
+  setInterval(updateClock,1000);
+</script>
+</body>
+</html>

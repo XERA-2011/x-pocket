@@ -2,7 +2,6 @@
 
 import React, { useRef, useEffect, HTMLAttributes } from 'react';
 import { cn } from '@/utils/cn';
-import styles from './style.module.scss';
 
 interface GlowCardProps extends HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
@@ -62,9 +61,11 @@ const GlowCard: React.FC<GlowCardProps> = ({
         if (currentlyIsNearby) {
           const x = clientX - rect.left;
           const y = clientY - rect.top;
-          const angle = (Math.atan2(y - rect.height / 2, x - rect.width / 2) * 180) / Math.PI + 90;
-          const startAngle = (angle + 360) % 360;
-          cardRef.current.style.setProperty('--start', `${startAngle}`);
+          
+          // Use the exact same angle calculation as the original HTML
+          const angle = (Math.atan2(y - rect.height / 2, x - rect.width / 2) * 180 / Math.PI + 90 + 360) % 360;
+          
+          cardRef.current.style.setProperty('--start', `${angle}`);
         }
       });
     };
@@ -83,7 +84,10 @@ const GlowCard: React.FC<GlowCardProps> = ({
   return (
     <div
       ref={cardRef}
-      className={cn(styles.card, className)}
+      className={cn(
+        'relative flex flex-col justify-between overflow-hidden rounded-xl bg-black border border-white/20 transition-all duration-300',
+        className
+      )}
       style={
         {
           ...props.style,
@@ -93,10 +97,12 @@ const GlowCard: React.FC<GlowCardProps> = ({
       }
       {...props}
     >
-      <div className={styles.glowingContainer}>
-        <div className={styles.glowingEffect}></div>
+      <div className="absolute inset-0 pointer-events-none transition-opacity duration-150 ease-out rounded-xl">
+        <div className="relative w-full h-full rounded-xl glow-effect"></div>
       </div>
-      <div className={styles.content}>{children}</div>
+      <div className="relative z-10 flex flex-col justify-between text-white">
+        {children}
+      </div>
     </div>
   );
 };

@@ -194,3 +194,33 @@ button:hover {
   outline: 2px solid var(--color-white-50);
   outline-offset: 2px;
 }
+
+/* GlowCard component styles - Black and white theme matching original effect */
+.glow-effect::after {
+  content: "";
+  position: absolute;
+  inset: calc(var(--glowingeffect-border-width, 4px) * -0.5);
+  background: conic-gradient(at 50% 50%,
+      #ffffff 0deg,
+      #e6e6e6 51deg,
+      #cccccc 90deg,
+      #b3b3b3 140deg,
+      #999999 180deg,
+      #b3b3b3 220deg,
+      #cccccc 280deg,
+      #e6e6e6 320deg,
+      #ffffff 360deg);
+  border: var(--glowingeffect-border-width, 4px) solid transparent;
+  border-radius: inherit;
+  filter: blur(1px);
+  mask-clip: padding-box, border-box;
+  mask-composite: intersect;
+  mask-image:
+    linear-gradient(transparent, transparent),
+    conic-gradient(from calc((var(--start, 0) - var(--spread, 80)) * 1deg),
+      transparent,
+      #ffffff,
+      transparent calc(var(--spread, 80) * 2deg));
+  opacity: var(--active, 0);
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

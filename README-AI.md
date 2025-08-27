@@ -2,16 +2,28 @@
 
 A minimalist web application featuring smooth animations and unified design standards.
 
+
 ## Tech Stack
 
 Modern React application built with **Next.js 15**:
 
 - **React 19** - UI Framework
+- **Next.js 15** - React application framework
 - **TypeScript 5** - Type Safety
 - **Tailwind CSS 4** - Styling Framework
 - **Framer Motion** - Animation Library
 - **GSAP** - High-performance Animation
 - **Lenis** - Smooth Scrolling
+- **clsx** - Conditional className utility
+- **react-markdown** - Markdown renderer
+- **tailwind-merge** - Tailwind class merging utility
+- **tailwindcss-animate** - Animation utility for Tailwind
+
+## Dev Dependencies
+
+- **ESLint & eslint-config-next** - Code linting and quality assurance
+- **Sass** - CSS preprocessor
+- **@types/node, @types/react, @types/react-dom** - TypeScript type definitions
 
 ## Design Philosophy
 

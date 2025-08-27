@@ -11,7 +11,6 @@ import React, {
   useState,
 } from "react";
 import { gsap } from "gsap";
-import { useMouse } from "@/hooks/use-mouse";
 import { usePreloader } from "../preloader";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
@@ -89,7 +88,6 @@ function ElasticCursor() {
   // React Refs for Jelly Blob and Text
   const jellyRef = useRef<HTMLDivElement>(null);
   const [isHovering, setIsHovering] = useState(false);
-  const { x, y } = useMouse();
 
   // Save pos and velocity Objects
   const [pos] = useState<Position>({ x: 0, y: 0 });

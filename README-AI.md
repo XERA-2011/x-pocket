@@ -57,3 +57,17 @@ Unified black and white color scheme:
 
 - **Component Naming**: Keep component names concise and descriptive.
 - **Section Components**: For page sections, use the format `[Name]Section`. For example, use `GamesSection` instead of `GamesShowcaseSection`.
+
+## Project Structure & Utilities
+
+### Utility Functions
+- **cn Function**: Located at `src/utils/cn.ts` - Use `@/utils/cn` for imports
+- Combines `clsx` for conditional class joining and `twMerge` for Tailwind class conflict resolution
+- **Important**: Always use `@/utils/cn` instead of creating duplicate utility files in other locations
+
+### Common Import Issues & Solutions
+- **TypeScript Module Resolution**: If encountering "Cannot find module '@/utils/cn'" errors:
+  1. Verify `tsconfig.json` has correct path mapping: `"@/*": ["./src/*"]`
+  2. Restart TypeScript server in IDE (Cmd+Shift+P → "TypeScript: Restart TS Server")
+  3. Use relative path as fallback: `../../utils/cn`
+- **Existing Utilities**: Check `src/utils/` directory before creating new utility functions to avoid duplication

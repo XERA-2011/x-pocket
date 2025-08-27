@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
+import Logo from '@/components/ui/Logo';
 
 export default function HeroSection() {
   const logoRef = useRef<HTMLDivElement>(null);
@@ -66,30 +67,13 @@ export default function HeroSection() {
 
           {/* X logo */}
           <div className="absolute inset-0 flex items-center justify-center z-10">
-            <motion.svg
-              viewBox="0 0 100 100"
-              className="w-1/3 h-1/3 text-white"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5, duration: 0.8 }}
-            >
-              <motion.line
-                x1="25" y1="25" x2="75" y2="75"
-                stroke="currentColor"
-                strokeWidth="8"
-                initial={{ pathLength: 0 }}
-                animate={{ pathLength: 1 }}
-                transition={{ delay: 0.8, duration: 0.6 }}
-              />
-              <motion.line
-                x1="25" y1="75" x2="75" y2="25"
-                stroke="currentColor"
-                strokeWidth="8"
-                initial={{ pathLength: 0 }}
-                animate={{ pathLength: 1 }}
-                transition={{ delay: 1.0, duration: 0.6 }}
-              />
-            </motion.svg>
+            <Logo
+              className="w-1/2 h-1/2 text-white"
+              variant="white"
+              animate={false}
+              animationDelay={0.5}
+              strokeWidth={12}
+            />
           </div>
         </div>
       </motion.div>

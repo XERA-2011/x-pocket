@@ -2,7 +2,7 @@
 
 import { motion, Variants } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import ItemCard, { ItemCardProps } from '@/components/ItemCard';
+import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
 
 const cardData: ItemCardProps[] = [
   { id: "essays-md", title: "Essays Markdown", href: "/english/essays-md", description: "Markdown content rendering", tags: ['Content', 'Markdown'] },

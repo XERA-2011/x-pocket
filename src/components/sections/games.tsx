@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import { motion, Variants } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import ItemCard, { ItemCardProps } from '@/components/ItemCard';
+import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
 
 const gamesData: ItemCardProps[] = [
   {

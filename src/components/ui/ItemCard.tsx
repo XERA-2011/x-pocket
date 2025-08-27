@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion, Variants } from 'framer-motion';
-import GlowCard from './ui/GlowCard';
+import GlowCard from './GlowCard';
 
 export interface ItemCardProps {
   id: string;

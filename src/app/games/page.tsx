@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import ItemCard, { ItemCardProps } from '@/components/ItemCard';
+import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
 
 const gamesData: ItemCardProps[] = [
   {

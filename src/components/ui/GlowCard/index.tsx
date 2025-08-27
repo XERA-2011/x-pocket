@@ -2,7 +2,7 @@
 
 import React, { useRef, useEffect, HTMLAttributes } from 'react';
 import { cn } from '@/utils/cn';
-import styles from './GlowCard.module.css';
+import styles from './style.module.scss';
 
 interface GlowCardProps extends HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;

@@ -106,9 +106,3 @@ export ANTHROPIC_BASE_URL=
 
 claude
 ```
-
-# Specs
-
-- [design](specs/design.md)
-- [requirements](specs/requirements.md)
-- [tasks](specs/tasks.md)

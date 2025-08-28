@@ -4,11 +4,29 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Logo from '@/components/ui/Logo';
+import ScrollIndicator from '@/components/ui/ScrollIndicator';
+
+interface CurrentTime {
+  year: number;
+  month: number;
+  day: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
 
 export default function HeroSection() {
   const logoRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [isHovering, setIsHovering] = useState(false);
+  const [currentTime, setCurrentTime] = useState<CurrentTime>({
+    year: 0,
+    month: 0,
+    day: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0
+  });
 
   useEffect(() => {
     const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
@@ -20,12 +38,34 @@ export default function HeroSection() {
     );
   }, []);
 
+  useEffect(() => {
+    const updateCurrentTime = () => {
+      const now = new Date();
+
+      setCurrentTime({
+        year: now.getFullYear(),
+        month: now.getMonth() + 1,
+        day: now.getDate(),
+        hours: now.getHours(),
+        minutes: now.getMinutes(),
+        seconds: now.getSeconds()
+      });
+    };
+
+    updateCurrentTime();
+    const timer = setInterval(updateCurrentTime, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   const scrollToExplore = () => {
     const exploreElement = document.getElementById('explore');
     if (exploreElement) {
       exploreElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  const formatNumber = (num: number) => num.toString().padStart(2, '0');
 
   return (
     <section
@@ -35,17 +75,18 @@ export default function HeroSection() {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/10 opacity-30" />
 
+      {/* Logo Section */}
       <motion.div
         ref={logoRef}
-        className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 cursor-pointer group"
+        className="relative mb-8 cursor-pointer group"
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
         onClick={scrollToExplore}
         whileHover={{ scale: 1.05 }}
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
-        {/* Black hole visualization */}
-        <div className="w-full h-full relative rounded-full overflow-hidden">
+        {/* Black hole visualization with logo */}
+        <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 relative rounded-full overflow-hidden">
           {/* Outer glow ring */}
           <motion.div
             className="absolute inset-0 rounded-full"
@@ -55,6 +96,7 @@ export default function HeroSection() {
                 ? '0 0 60px rgba(255,255,255,0.3), inset 0 0 60px rgba(255,255,255,0.1)'
                 : '0 0 40px rgba(255,255,255,0.2), inset 0 0 40px rgba(255,255,255,0.05)'
             }}
+            animate={{ rotate: 360 }}
             transition={{
               duration: 20,
               repeat: Infinity,
@@ -78,23 +120,85 @@ export default function HeroSection() {
         </div>
       </motion.div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 flex flex-col items-center cursor-pointer"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 1 }}
-        onClick={scrollToExplore}
-      >
+      {/* 时间显示 */}
+      <div className="space-y-8">
+        {/* 日期 */}
         <motion.div
-          className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center p-1 mb-2"
-          animate={{ y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
+          className="text-white/80 text-2xl sm:text-3xl lg:text-4xl font-light tracking-wider"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8, duration: 0.6 }}
         >
-          <motion.div className="w-1.5 h-3 bg-white/50 rounded-full" />
+          {currentTime.year}.{formatNumber(currentTime.month)}.{formatNumber(currentTime.day)}
         </motion.div>
-        <span className="text-sm text-white/60 uppercase tracking-wider">Explore</span>
-      </motion.div>
+
+        {/* 时间 - 重点显示 */}
+        <motion.div
+          className="flex justify-center items-center text-white"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.0, duration: 0.6 }}
+        >
+          <div className="flex items-center space-x-2 sm:space-x-4">
+            {/* 小时 */}
+            <div className="relative">
+              <motion.span
+                className="text-6xl sm:text-7xl lg:text-8xl font-bold bg-gradient-to-b from-white to-white/70 bg-clip-text text-transparent tabular-nums"
+                key={`hours-${currentTime.hours}`}
+                initial={{ scale: 1.1 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.2 }}
+              >
+                {formatNumber(currentTime.hours)}
+              </motion.span>
+            </div>
+
+            {/* 分隔符 */}
+            <motion.span
+              className="text-5xl sm:text-6xl lg:text-7xl text-white/60"
+            >
+              :
+            </motion.span>
+
+            {/* 分钟 */}
+            <div className="relative">
+              <motion.span
+                className="text-6xl sm:text-7xl lg:text-8xl font-bold bg-gradient-to-b from-white to-white/70 bg-clip-text text-transparent tabular-nums"
+                key={`minutes-${currentTime.minutes}`}
+                initial={{ scale: 1.1 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.2 }}
+              >
+                {formatNumber(currentTime.minutes)}
+              </motion.span>
+            </div>
+
+            {/* 分隔符 */}
+            <motion.span
+              className="text-5xl sm:text-6xl lg:text-7xl text-white/60"
+            >
+              :
+            </motion.span>
+
+            {/* 秒 */}
+            <div className="relative">
+              <motion.span
+                className="text-6xl sm:text-7xl lg:text-8xl font-bold bg-gradient-to-b from-white via-white/90 to-white/70 bg-clip-text text-transparent tabular-nums"
+                key={`seconds-${currentTime.seconds}`}
+                initial={{ scale: 1.2 }}
+                animate={{ scale: 1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                {formatNumber(currentTime.seconds)}
+              </motion.span>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+
+      <div className="mt-12">
+        <ScrollIndicator onClick={scrollToExplore} />
+      </div>
     </section>
   );
 }

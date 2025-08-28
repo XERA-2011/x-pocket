@@ -1,7 +1,7 @@
 import type { Metadata } from "next/types";
 import { Geist, Geist_Mono } from "next/font/google";
 import '../styles/globals.css';
-import Star from "@/components/background/star";
+import NeuralNetworkBackground from "@/components/background/neural-network";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import SmoothScroll from "@/components/SmoothScroll";
@@ -35,7 +35,7 @@ export default function RootLayout({
       >
         <Preloader>
           <SmoothScroll>
-            <Star />
+            <NeuralNetworkBackground />
             <Header />
             {children}
             <Footer />

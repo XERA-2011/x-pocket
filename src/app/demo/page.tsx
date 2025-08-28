@@ -119,34 +119,34 @@ export default function QoderDemo() {
     }
 
     let animationId: number;
-    
+
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      
+
       // Update and draw particles
       particles.forEach((particle, i) => {
         // Update position
         particle.x += particle.vx;
         particle.y += particle.vy;
-        
+
         // Wrap around edges
         if (particle.x < 0) particle.x = canvas.width / window.devicePixelRatio;
         if (particle.x > canvas.width / window.devicePixelRatio) particle.x = 0;
         if (particle.y < 0) particle.y = canvas.height / window.devicePixelRatio;
         if (particle.y > canvas.height / window.devicePixelRatio) particle.y = 0;
-        
+
         // Draw particle
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
         ctx.fillStyle = `rgba(255, 255, 255, ${particle.alpha})`;
         ctx.fill();
-        
+
         // Draw connections to nearby particles
         particles.slice(i + 1).forEach(otherParticle => {
           const dx = particle.x - otherParticle.x;
           const dy = particle.y - otherParticle.y;
           const distance = Math.sqrt(dx * dx + dy * dy);
-          
+
           if (distance < 100) {
             ctx.beginPath();
             ctx.moveTo(particle.x, particle.y);
@@ -157,12 +157,12 @@ export default function QoderDemo() {
           }
         });
       });
-      
+
       animationId = requestAnimationFrame(animate);
     };
-    
+
     animate();
-    
+
     return () => {
       window.removeEventListener('resize', resizeCanvas);
       if (animationId) {
@@ -175,11 +175,11 @@ export default function QoderDemo() {
     e.preventDefault();
     setIsTyping(true);
     setAgentStatus("thinking");
-    
+
     setTimeout(() => {
       setAgentStatus("coding");
     }, 1500);
-    
+
     setTimeout(() => {
       setAgentStatus("completed");
       setIsTyping(false);
@@ -204,7 +204,7 @@ export default function QoderDemo() {
       {/* Hero Section - Qoder Inspired */}
       <section ref={heroRef} className="relative min-h-screen flex items-center justify-center px-8">
         <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/10 opacity-30" />
-        
+
         <div className="max-w-6xl mx-auto text-center z-10">
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
@@ -238,16 +238,15 @@ export default function QoderDemo() {
             className="flex items-center justify-center space-x-4 mb-16"
           >
             <div className="flex items-center space-x-2 bg-white/5 rounded-full px-6 py-3 border border-white/10">
-              <div className={`w-3 h-3 rounded-full ${
-                agentStatus === "idle" ? "bg-white/40" :
+              <div className={`w-3 h-3 rounded-full ${agentStatus === "idle" ? "bg-white/40" :
                 agentStatus === "thinking" ? "bg-yellow-400 animate-pulse" :
-                agentStatus === "coding" ? "bg-blue-400 animate-pulse" :
-                "bg-green-400"
-              }`} />
+                  agentStatus === "coding" ? "bg-blue-400 animate-pulse" :
+                    "bg-green-400"
+                }`} />
               <span className={`text-sm font-medium ${getStatusColor(agentStatus)}`}>
-                Agent {agentStatus === "idle" ? "Ready" : 
-                       agentStatus === "thinking" ? "Thinking..." :
-                       agentStatus === "coding" ? "Coding..." : "Completed"}
+                Agent {agentStatus === "idle" ? "Ready" :
+                  agentStatus === "thinking" ? "Thinking..." :
+                    agentStatus === "coding" ? "Coding..." : "Completed"}
               </span>
             </div>
           </motion.div>
@@ -298,7 +297,7 @@ export default function QoderDemo() {
               >
                 <GlowCard
                   className="rounded-xl transition duration-300 group cursor-pointer"
-                  onClick={() => {}}
+                  onClick={() => { }}
                 >
                   <div className="bg-white/5 rounded-xl p-8 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 h-full">
                     <div className="text-4xl mb-6 group-hover:scale-110 transition-transform duration-300">{feature.icon}</div>
@@ -309,12 +308,11 @@ export default function QoderDemo() {
                       {feature.description}
                     </p>
                     <div className="flex items-center text-sm">
-                      <div className={`w-2 h-2 rounded-full mr-2 transition-all duration-300 ${
-                        feature.status === "active" ? "bg-green-400" :
+                      <div className={`w-2 h-2 rounded-full mr-2 transition-all duration-300 ${feature.status === "active" ? "bg-green-400" :
                         feature.status === "processing" ? "bg-yellow-400 animate-pulse" :
-                        feature.status === "ready" ? "bg-blue-400" :
-                        "bg-white/40 animate-pulse"
-                      }`} />
+                          feature.status === "ready" ? "bg-blue-400" :
+                            "bg-white/40 animate-pulse"
+                        }`} />
                       <span className="text-white/50 capitalize group-hover:text-white/70 transition-colors duration-300">{feature.status}</span>
                     </div>
                   </div>
@@ -362,7 +360,7 @@ export default function QoderDemo() {
                   <div className="p-6 h-96 overflow-y-auto font-mono text-sm">
                     <div className="text-green-400 mb-2">$ qoder init --project=demo</div>
                     <div className="text-white/60 mb-4">Initializing Qoder agent...</div>
-                    
+
                     <AnimatePresence mode="wait">
                       <motion.div
                         key={currentDemo}
@@ -377,7 +375,7 @@ export default function QoderDemo() {
                         </div>
                       </motion.div>
                     </AnimatePresence>
-                    
+
                     <div className="flex items-center mt-4">
                       <span className="text-green-400">$</span>
                       <motion.div
@@ -415,7 +413,7 @@ export default function QoderDemo() {
                         placeholder="e.g., Create a responsive navigation component with smooth animations..."
                       />
                     </div>
-                    
+
                     <div className="flex items-center space-x-4">
                       <button
                         type="submit"
@@ -431,7 +429,7 @@ export default function QoderDemo() {
                           <>🚀 Run Agent</>
                         )}
                       </button>
-                      
+
                       <button
                         type="button"
                         onClick={() => setCodeInput("")}
@@ -441,7 +439,7 @@ export default function QoderDemo() {
                       </button>
                     </div>
                   </form>
-                
+
                   {/* Agent Thinking Process */}
                   <AnimatePresence>
                     {isTyping && (
@@ -513,7 +511,7 @@ export default function QoderDemo() {
                   className="w-full h-96 block"
                   style={{ background: 'transparent' }}
                 />
-                
+
                 {/* Overlay UI Elements */}
                 <div className="absolute inset-0 pointer-events-none">
                   {/* Corner Labels */}
@@ -529,7 +527,7 @@ export default function QoderDemo() {
                   <div className="absolute bottom-4 right-4 text-sm text-white/60 font-mono group-hover:text-white/80 transition-colors duration-300">
                     Latency: <span className="text-green-400">12ms</span>
                   </div>
-                  
+
                   {/* Center Status */}
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <div className="bg-black/50 backdrop-blur-sm rounded-lg px-6 py-3 border border-white/20 group-hover:border-white/40 group-hover:bg-black/70 transition-all duration-300">
@@ -542,7 +540,7 @@ export default function QoderDemo() {
                 </div>
               </div>
             </GlowCard>
-            
+
             {/* Action Buttons */}
             <motion.div
               initial={{ y: 30, opacity: 0 }}
@@ -555,7 +553,7 @@ export default function QoderDemo() {
                 <span>📥</span>
                 <span>Download Qoder</span>
               </button>
-              
+
               <button className="border border-white/20 text-white font-medium py-3 px-8 rounded-lg hover:bg-white/5 hover:border-white/40 transition-all duration-200 flex items-center justify-center space-x-2 hover:scale-105 transform">
                 <span>📖</span>
                 <span>View Documentation</span>
@@ -563,7 +561,7 @@ export default function QoderDemo() {
             </motion.div>
           </motion.div>
         </div>
-        
+
         {/* Background Effects */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/5 to-transparent opacity-50" />
       </section>

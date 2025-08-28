@@ -7,23 +7,36 @@ A minimalist web application featuring smooth animations and unified design stan
 
 Modern React application built with **Next.js 15**:
 
-- **React 19** - UI Framework
-- **Next.js 15** - React application framework
+### Core Dependencies
+- **React 19.1.0** - UI Framework
+- **Next.js 15.4.2** - React application framework with Turbopack support
 - **TypeScript 5** - Type Safety
+
+### Styling & UI
 - **Tailwind CSS 4** - Styling Framework
-- **Framer Motion** - Animation Library
-- **GSAP** - High-performance Animation
-- **Lenis** - Smooth Scrolling
-- **clsx** - Conditional className utility
-- **react-markdown** - Markdown renderer
-- **tailwind-merge** - Tailwind class merging utility
-- **tailwindcss-animate** - Animation utility for Tailwind
+- **class-variance-authority ^0.7.1** - Component variant management
+- **clsx ^2.1.1** - Conditional className utility
+- **tailwind-merge ^3.3.1** - Tailwind class merging utility
+- **tailwindcss-animate ^1.0.7** - Animation utility for Tailwind
+
+### Animation Libraries
+- **Framer Motion ^12.23.9** - Declarative animations
+- **GSAP ^3.13.0** - High-performance animation engine
+- **Lenis ^1.3.8** - Smooth scrolling library
+
+### Content & Utilities
+- **react-markdown ^10.1.0** - Markdown renderer for React
 
 ## Dev Dependencies
 
-- **ESLint & eslint-config-next** - Code linting and quality assurance
-- **Sass** - CSS preprocessor
-- **@types/node, @types/react, @types/react-dom** - TypeScript type definitions
+- **ESLint ^9.34.0 & eslint-config-next 15.4.2** - Code linting and Next.js specific rules
+- **@eslint/eslintrc ^3** - ESLint configuration utilities
+- **Sass ^1.90.0** - CSS preprocessor
+- **@tailwindcss/postcss ^4** - Tailwind CSS PostCSS plugin
+- **TypeScript type definitions**:
+  - **@types/node ^20** - Node.js type definitions
+  - **@types/react ^19** - React type definitions
+  - **@types/react-dom ^19** - React DOM type definitions
 
 ## Design Philosophy
 
@@ -65,9 +78,21 @@ Unified black and white color scheme:
 - Combines `clsx` for conditional class joining and `twMerge` for Tailwind class conflict resolution
 - **Important**: Always use `@/utils/cn` instead of creating duplicate utility files in other locations
 
+### UI Components
+- **Button Component**: Custom implementation without external dependencies
+  - Supports `asChild` prop for polymorphic rendering
+  - Uses `class-variance-authority` for variant management
+
 ### Common Import Issues & Solutions
 - **TypeScript Module Resolution**: If encountering "Cannot find module '@/utils/cn'" errors:
   1. Verify `tsconfig.json` has correct path mapping: `"@/*": ["./src/*"]`
   2. Restart TypeScript server in IDE (Cmd+Shift+P → "TypeScript: Restart TS Server")
   3. Use relative path as fallback: `../../utils/cn`
 - **Existing Utilities**: Check `src/utils/` directory before creating new utility functions to avoid duplication
+
+## Scripts
+
+- **`npm run dev`** - Start development server with Turbopack
+- **`npm run build`** - Build production application
+- **`npm run start`** - Start production server
+- **`npm run lint`** - Run ESLint code quality checks

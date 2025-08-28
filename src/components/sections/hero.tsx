@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Logo from '@/components/ui/Logo';
 import ScrollIndicator from '@/components/ui/ScrollIndicator';
+import { Button } from '@/components/ui/button';
 
 interface CurrentTime {
   year: number;
@@ -18,7 +19,6 @@ interface CurrentTime {
 export default function HeroSection() {
   const logoRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [isHovering, setIsHovering] = useState(false);
   const [currentTime, setCurrentTime] = useState<CurrentTime>({
     year: 0,
     month: 0,
@@ -76,39 +76,22 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/10 opacity-30" />
 
       {/* Logo Section */}
-      <motion.div
-        ref={logoRef}
-        className="relative mb-8 cursor-pointer group"
-        onMouseEnter={() => setIsHovering(true)}
-        onMouseLeave={() => setIsHovering(false)}
+      <Button
+        asChild
         onClick={scrollToExplore}
-        whileHover={{ scale: 1.05 }}
-        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        variant="ghost"
+        className="mb-8 hover:scale-105 transition-transform duration-300"
       >
-        {/* Black hole visualization with logo */}
-        <div className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 relative rounded-full overflow-hidden">
-          {/* Outer glow ring */}
-          <motion.div
-            className="absolute inset-0 rounded-full"
-            style={{
-              background: 'radial-gradient(circle, transparent 60%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0.3) 80%, transparent 90%)',
-              boxShadow: isHovering
-                ? '0 0 60px rgba(255,255,255,0.3), inset 0 0 60px rgba(255,255,255,0.1)'
-                : '0 0 40px rgba(255,255,255,0.2), inset 0 0 40px rgba(255,255,255,0.05)'
-            }}
-            animate={{ rotate: 360 }}
-            transition={{
-              duration: 20,
-              repeat: Infinity,
-              ease: "linear"
-            }}
-          />
-
-          {/* Event horizon */}
-          <div className="absolute top-1/2 left-1/2 w-3/5 h-3/5 -translate-x-1/2 -translate-y-1/2 bg-black rounded-full shadow-2xl border border-white/10" />
-
+        <motion.div
+          ref={logoRef}
+          className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full cursor-pointer"
+          style={{
+            background: 'radial-gradient(circle, transparent 60%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0.3) 80%, transparent 90%)',
+            boxShadow: '0 0 40px rgba(255,255,255,0.2), inset 0 0 40px rgba(255,255,255,0.05)'
+          }}
+        >
           {/* X logo */}
-          <div className="absolute inset-0 flex items-center justify-center z-10">
+          <div className="absolute inset-0 flex items-center justify-center">
             <Logo
               className="w-1/2 h-1/2 text-white"
               variant="white"
@@ -117,8 +100,8 @@ export default function HeroSection() {
               strokeWidth={12}
             />
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </Button>
 
       {/* 时间显示 */}
       <div className="space-y-8">

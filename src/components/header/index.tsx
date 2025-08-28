@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
 export default function Header() {
   return (
     <motion.header
@@ -16,19 +17,15 @@ export default function Header() {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 400, damping: 30 }}
         >
-          <Link
-            href="/"
-            className="text-2xl md:text-3xl font-bold text-white hover:text-white/80 transition-colors duration-300 no-underline"
+          <Button
+            asChild
+            variant="link"
+            className="text-2xl md:text-3xl font-bold text-white no-underline h-auto px-6 py-3 transition-all duration-300"
           >
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
-              className="relative"
-            >
+            <Link href="/">
               X-POCKET
-            </motion.span>
-          </Link>
+            </Link>
+          </Button>
         </motion.div>
       </div>
     </motion.header>

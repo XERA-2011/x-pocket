@@ -177,7 +177,7 @@ export default function Home() {
                 />
                 <button
                   type="button"
-                  className="py-2 px-4 rounded bg-white text-neutral-900 font-semibold transition hover:bg-neutral-200 border border-neutral-300 mb-2"
+                  className="py-2 px-4 rounded text-neutral-900 font-semibold transition border border-neutral-300 mb-2"
                   onClick={() => fetchModels(apiKey)}
                   disabled={!apiKey || loadingModels}
                 >

@@ -197,7 +197,7 @@ export default function CozeApiPage() {
             <button
               type="submit"
               disabled={loading}
-              className={`w-full py-2 rounded bg-white text-neutral-900 font-semibold transition hover:bg-neutral-200 border border-neutral-300 ${loading ? 'opacity-70 cursor-not-allowed' : ''}`}
+              className={`w-full py-2 rounded text-neutral-900 font-semibold transition hover:bg-neutral-200 border border-neutral-300 ${loading ? 'opacity-70 cursor-not-allowed' : ''}`}
             >
               {loading ? '调用中...' : '发送请求'}
             </button>

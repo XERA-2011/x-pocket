@@ -51,8 +51,7 @@ export default function Index() {
 
             {/* 百分比 */}
             <p
-              className="text-6xl font-light text-white"
-              style={{ color: '#ffffff' }}
+              className="text-6xl md:text-8xl lg:text-9xl font-bold text-white"
             >
               {(loadingPercent - (loadingPercent % 5)).toFixed(0)}%
             </p>

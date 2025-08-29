@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Logo from '@/components/ui/Logo';
 import ScrollIndicator from '@/components/ui/ScrollIndicator';
-import { Button } from '@/components/ui/button';
 
 interface CurrentTime {
   year: number;
@@ -19,6 +18,7 @@ interface CurrentTime {
 export default function HeroSection() {
   const logoRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const [isHovered, setIsHovered] = useState(false);
   const [currentTime, setCurrentTime] = useState<CurrentTime>({
     year: 0,
     month: 0,
@@ -76,14 +76,14 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/10 opacity-30" />
 
       {/* Logo Section */}
-      <Button
-        asChild
+      <div
         onClick={scrollToExplore}
-        variant="ghost"
-        className="mb-8 hover:scale-105 transition-transform duration-300"
+        className="mb-8 hover:scale-105 transition-transform duration-300 transition-all duration-300 backdrop-blur-md"
       >
         <motion.div
           ref={logoRef}
+          onHoverStart={() => setIsHovered(true)}
+          onHoverEnd={() => setIsHovered(false)}
           className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full cursor-pointer"
           style={{
             background: 'radial-gradient(circle, transparent 60%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0.3) 80%, transparent 90%)',
@@ -95,13 +95,14 @@ export default function HeroSection() {
             <Logo
               className="w-1/2 h-1/2 text-white"
               variant="white"
-              animate={false}
+              animate={true}
               animationDelay={0.5}
               strokeWidth={12}
+              isHovered={isHovered}
             />
           </div>
         </motion.div>
-      </Button>
+      </div>
 
       {/* 时间显示 */}
       <div className="space-y-8">

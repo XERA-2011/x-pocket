@@ -38,13 +38,12 @@ export default function ItemCard({ item }: { item: ItemCardProps; index: number 
     >
       <motion.div
         whileHover={{
-          y: -8,
-          scale: 1.01,
+          scale: 1.05,
           transition: { duration: 0.25 }
         }}
         className="h-full"
       >
-        <GlowCard 
+        <GlowCard
           className="h-full p-4 sm:p-6 rounded-2xl"
           spread={60}
           borderWidth={3}

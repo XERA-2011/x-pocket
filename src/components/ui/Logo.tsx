@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { cn } from '@/utils/cn';
 
 interface LogoProps {
@@ -20,8 +20,8 @@ interface LogoProps {
   strokeWidth?: number;
   /** Click handler for interactive logos */
   onClick?: () => void;
-  /** Hover effects */
-  hover?: boolean;
+  /** Controlled hover state */
+  isHovered?: boolean;
 }
 
 const sizeClasses = {
@@ -47,15 +47,31 @@ export default function Logo({
   animationDelay = 0.5,
   strokeWidth = 8,
   onClick,
-  hover = false
+  isHovered = false,
 }: LogoProps) {
   const baseClasses = cn(
     sizeClasses[size],
     colorClasses[variant],
     onClick && 'cursor-pointer',
-    hover && 'transition-transform duration-300 hover:scale-110',
     className
   );
+
+  const hoverVariants: Variants = {
+    idle: {
+      rotate: 0,
+      scale: 1,
+      transition: { duration: 0.4, ease: 'easeOut' },
+    },
+    hovered: {
+      rotate: [0, -8, 8, -4, 0],
+      scale: [1, 1.05, 1],
+      transition: {
+        duration: 0.8,
+        repeat: Infinity,
+        ease: 'linear',
+      },
+    },
+  };
 
   return (
     <motion.svg
@@ -66,25 +82,43 @@ export default function Logo({
       animate={animate ? { opacity: 1 } : undefined}
       transition={animate ? { delay: animationDelay, duration: 0.8 } : undefined}
       onClick={onClick}
-      whileHover={hover ? { scale: 1.1 } : undefined}
       whileTap={onClick ? { scale: 0.95 } : undefined}
     >
-      <motion.line
-        x1="25" y1="25" x2="75" y2="75"
-        stroke="currentColor"
-        strokeWidth={strokeWidth}
-        initial={animate ? { pathLength: 0 } : undefined}
-        animate={animate ? { pathLength: 1 } : undefined}
-        transition={animate ? { delay: animationDelay + 0.3, duration: 0.6 } : undefined}
-      />
-      <motion.line
-        x1="25" y1="75" x2="75" y2="25"
-        stroke="currentColor"
-        strokeWidth={strokeWidth}
-        initial={animate ? { pathLength: 0 } : undefined}
-        animate={animate ? { pathLength: 1 } : undefined}
-        transition={animate ? { delay: animationDelay + 0.5, duration: 0.6 } : undefined}
-      />
+      <motion.g
+        variants={hoverVariants}
+        animate={isHovered ? 'hovered' : 'idle'}
+      >
+        <motion.line
+          x1="25"
+          y1="25"
+          x2="75"
+          y2="75"
+          stroke="currentColor"
+          strokeWidth={strokeWidth}
+          initial={animate ? { pathLength: 0 } : undefined}
+          animate={animate ? { pathLength: 1 } : undefined}
+          transition={
+            animate
+              ? { delay: animationDelay + 0.3, duration: 0.6 }
+              : undefined
+          }
+        />
+        <motion.line
+          x1="25"
+          y1="75"
+          x2="75"
+          y2="25"
+          stroke="currentColor"
+          strokeWidth={strokeWidth}
+          initial={animate ? { pathLength: 0 } : undefined}
+          animate={animate ? { pathLength: 1 } : undefined}
+          transition={
+            animate
+              ? { delay: animationDelay + 0.5, duration: 0.6 }
+              : undefined
+          }
+        />
+      </motion.g>
     </motion.svg>
   );
 }

@@ -67,9 +67,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         {...props}
       >
-        <span className="pointer-events-none">
-          {children}
-        </span>
+        {children}
       </button>
     );
   }

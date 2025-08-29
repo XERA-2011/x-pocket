@@ -19,10 +19,9 @@ export default function Header() {
         >
           <Button
             asChild
-            variant="link"
-            className="text-2xl md:text-3xl font-bold text-white no-underline h-auto px-6 py-3 transition-all duration-300"
+            variant="ghost"
           >
-            <Link href="/">
+            <Link href="/" className="text-2xl md:text-3xl font-bold text-white no-underline">
               X-POCKET
             </Link>
           </Button>

@@ -151,36 +151,36 @@ jobs:
             
             # 创建服务状态报告而不是让工作流失败
             cat > public/data/pet-essays.md << EOF
-        # PET 作文生成服务状态报告
+          # PET 作文生成服务状态报告
 
-        **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
-        **状态**: API 服务暂时不可用  
-        **时间戳**: $TIMESTAMP  
-        **随机ID**: $RANDOM_ID  
+          **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
+          **状态**: API 服务暂时不可用  
+          **时间戳**: $TIMESTAMP  
+          **随机ID**: $RANDOM_ID  
 
-        ## 服务信息
+          ## 服务信息
 
-        Gemini API 当前遇到内部服务器错误 (HTTP 500)，这通常是临时性问题。
+          Gemini API 当前遇到内部服务器错误 (HTTP 500)，这通常是临时性问题。
 
-        **预定主题**:
-        - 邮件/明信片: $SELECTED_TOPIC_EMAIL
-        - 故事/文章: $SELECTED_TOPIC_STORY
+          **预定主题**:
+          - 邮件/明信片: $SELECTED_TOPIC_EMAIL
+          - 故事/文章: $SELECTED_TOPIC_STORY
 
-        ## 错误详情
+          ## 错误详情
 
-        \`\`\`
-        重试次数: $MAX_RETRIES
-        最后错误: API 内部服务器错误
-        错误代码: 500
-        \`\`\`
+          \`\`\`
+          重试次数: $MAX_RETRIES
+          最后错误: API 内部服务器错误
+          错误代码: 500
+          \`\`\`
 
-        ## 下次生成
+          ## 下次生成
 
-        系统将在下次定时任务中自动重试生成内容。
+          系统将在下次定时任务中自动重试生成内容。
 
-        ---
-        *此报告由自动化系统生成*
-        EOF
+          ---
+          *此报告由自动化系统生成*
+          EOF
             
             echo "✅ 已创建服务状态报告"
             # 不要 exit 1，让工作流继续执行以提交状态报告

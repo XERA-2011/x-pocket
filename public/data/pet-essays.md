@@ -1,40 +1,55 @@
 # 应用文
 
-## An email giving directions to your new house
-- 一封指引前往你新家的邮件
+## An email to a local newspaper giving your opinion on recycling
+- 一封就回收利用话题向当地报社表达观点的邮件
 
-**正文**:
+**正文**：
 
-Hi Alex,
+Subject: We Need More Recycling Bins
 
-I'm so excited for you to visit my new house this Saturday! It's quite easy to find. From the city centre, take the number 15 bus and get off at the stop next to the public library on Maple Street.
+Dear Editor,
 
-Once you're off the bus, walk straight ahead and take the second right turn onto Oak Avenue. You'll see a small park on your left. My house is number 23, right opposite the park. It's the one with a bright red door. If you have any trouble finding it, just give me a call.
+I am writing to share my views on recycling in our town. I strongly believe that recycling is essential for protecting our environment, and while many people do it at home, it is not always easy to recycle when we are out.
 
-See you soon!
+I have noticed there are very few recycling bins in public areas, especially in the town centre and our local parks. This often results in recyclable items like plastic bottles and paper being thrown into general waste bins.
 
-Best,
-Chris
+To solve this problem, I think the council should install more recycling bins around the town. This would encourage more people to recycle correctly and help keep our community clean. It would be a simple but effective step for a greener town.
 
-- 嗨，亚历克斯，
-- 很高兴你这周六能来我的新家做客！这里很好找。从市中心乘坐15路公交车，在枫树街公共图书馆旁的车站下车。
-- 下车后，直走，在第二个路口右转进入橡树大道。你会看到左手边有一个小公园。我家是23号，就在公园的正对面，是那栋有着鲜红色大门的房子。如果找不到，随时给我打电话。
-- 期待很快见到你！
-- 此致，
-- 克里斯
+Yours faithfully,
+
+A Local Resident
+
+- 主题：我们需要更多的回收箱
+- 
+- 尊敬的编辑：
+- 
+- 我写信是为了分享我对我们城镇回收情况的看法。我坚信回收对于保护我们的环境至关重要，尽管许多人在家中进行回收，但当我们外出时，回收并不总是那么容易。
+- 
+- 我注意到在公共区域，特别是市中心和我们当地的公园里，回收箱非常少。这常常导致像塑料瓶和纸张这样的可回收物品被扔进普通垃圾箱。
+- 
+- 为了解决这个问题，我认为市政会应该在城镇各处安装更多的回收箱。这将鼓励更多的人正确回收，并帮助保持我们的社区清洁。对于一个更环保的城镇来说，这将是简单而有效的一步。
+- 
+- 您真诚的，
+- 
+- 一位当地居民
 
 ---
 
 # 记叙文/短文
 
-## Write a story about an unexpected message you received
-- 写一个关于你收到的意外消息的故事
+## An article about a traditional celebration in your country
+- 一篇关于你的国家一个传统节日的文章
 
-**正文**:
+**正文**：
 
-Last Friday, I was studying for my history exam when my phone suddenly lit up. It was a message from an unknown number. Normally, I would ignore it, but I decided to check it. The message said, "Look outside your window now."
+The Spring Festival
 
-Feeling a bit curious and nervous, I walked to the window and pulled back the curtain. To my complete surprise, my cousin, who lives in another country, was standing on the street below, waving at me with a huge smile. I hadn't seen him in over three years! It was the best surprise ever.
+The most important celebration in my country is the Spring Festival, or Chinese New Year. It is a time for families to get together and welcome the start of a new year according to the lunar calendar.
 
-- 上周五，我正在为历史考试复习，手机屏幕突然亮了。是一条来自陌生号码的消息。通常我会忽略它，但这次我决定看一看。消息上写着：“现在看看你的窗外。”
-- 我带着一丝好奇和紧张，走到窗前拉开窗帘。令我完全没想到的是，我住国外的表哥正站在楼下的街上，带着灿烂的笑容向我挥手。我已经三年多没见过他了！这是我有史以来收到的最棒的惊喜。
+Preparations begin weeks in advance, with people cleaning their homes to sweep away bad luck. On New Year's Eve, families have a huge dinner together. A popular tradition is for adults to give children money in red envelopes, which wishes them good fortune. People decorate their windows with red paper cuttings and hang lanterns. It’s a very happy and exciting time for everyone.
+
+- 春节
+- 
+- 在我的国家，最重要的节日是春节，也就是中国新年。这是一个家人团聚、迎接农历新年的时刻。
+- 
+- 准备工作提前几周就开始了，人们会打扫房屋以扫除坏运气。在除夕夜，家人会一起享用丰盛的晚宴。一个流行的传统是成年人会给孩子们装在红包里的钱，以祝愿他们好运。人们用红色的剪纸装饰窗户，并挂上灯笼。这对每个人来说都是一个非常快乐和激动的时刻。

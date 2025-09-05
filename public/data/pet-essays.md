@@ -1,55 +1,40 @@
 # 应用文
 
-## An email to a local newspaper giving your opinion on recycling
-- 一封就回收利用话题向当地报社表达观点的邮件
+## A postcard to your family from your first week at a new school
+- 从新学校第一周寄给家人的明信片
 
 **正文**：
 
-Subject: We Need More Recycling Bins
+Hi everyone,
 
-Dear Editor,
+I'm having a great time at my new school in London! The first week has been really exciting. My teachers are very friendly, and the lessons are interesting, especially science. I've already made a new friend called Tom. He's in my class, and we both love playing football.
 
-I am writing to share my views on recycling in our town. I strongly believe that recycling is essential for protecting our environment, and while many people do it at home, it is not always easy to recycle when we are out.
+The school building is huge, much bigger than my old one. The food in the canteen is surprisingly good too! I was a bit nervous at first, but everyone has been so welcoming. I'm really looking forward to joining the school's photography club next week.
 
-I have noticed there are very few recycling bins in public areas, especially in the town centre and our local parks. This often results in recyclable items like plastic bottles and paper being thrown into general waste bins.
+See you all soon!
 
-To solve this problem, I think the council should install more recycling bins around the town. This would encourage more people to recycle correctly and help keep our community clean. It would be a simple but effective step for a greener town.
+Love,
+Alex
 
-Yours faithfully,
-
-A Local Resident
-
-- 主题：我们需要更多的回收箱
-- 
-- 尊敬的编辑：
-- 
-- 我写信是为了分享我对我们城镇回收情况的看法。我坚信回收对于保护我们的环境至关重要，尽管许多人在家中进行回收，但当我们外出时，回收并不总是那么容易。
-- 
-- 我注意到在公共区域，特别是市中心和我们当地的公园里，回收箱非常少。这常常导致像塑料瓶和纸张这样的可回收物品被扔进普通垃圾箱。
-- 
-- 为了解决这个问题，我认为市政会应该在城镇各处安装更多的回收箱。这将鼓励更多的人正确回收，并帮助保持我们的社区清洁。对于一个更环保的城镇来说，这将是简单而有效的一步。
-- 
-- 您真诚的，
-- 
-- 一位当地居民
+- 大家好，
+- 我在伦敦的新学校过得很开心！第一周真的非常精彩。我的老师们都很友好，课程也很有趣，特别是科学课。我已经交了一个叫汤姆的新朋友。他和我同班，我们都喜欢踢足球。
+- 学校的教学楼很大，比我以前的学校大多了。食堂的饭菜也出乎意料地好吃！一开始我还有点紧张，但每个人都非常热情。我真的很期待下周加入学校的摄影俱乐部。
+- 希望很快能见到大家！
+- 爱你们的，
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## An article about a traditional celebration in your country
-- 一篇关于你的国家一个传统节日的文章
+## A story about overcoming a fear
+- 一个关于克服恐惧的故事
 
 **正文**：
 
-The Spring Festival
+I had always been terrified of deep water. The thought of not being able to touch the bottom made my heart race. Last summer, my family went on a trip to a beautiful lake. Everyone was excited about swimming, but I just watched nervously from the shore.
 
-The most important celebration in my country is the Spring Festival, or Chinese New Year. It is a time for families to get together and welcome the start of a new year according to the lunar calendar.
+My older sister, Chloe, noticed I was scared. She gently encouraged me to just put my feet in. Step by step, she helped me go a little deeper, always staying right beside me. She showed me how to float on my back. When I finally did it, I felt weightless and free. That day, I didn't become a perfect swimmer, but I overcame my biggest fear.
 
-Preparations begin weeks in advance, with people cleaning their homes to sweep away bad luck. On New Year's Eve, families have a huge dinner together. A popular tradition is for adults to give children money in red envelopes, which wishes them good fortune. People decorate their windows with red paper cuttings and hang lanterns. It’s a very happy and exciting time for everyone.
-
-- 春节
-- 
-- 在我的国家，最重要的节日是春节，也就是中国新年。这是一个家人团聚、迎接农历新年的时刻。
-- 
-- 准备工作提前几周就开始了，人们会打扫房屋以扫除坏运气。在除夕夜，家人会一起享用丰盛的晚宴。一个流行的传统是成年人会给孩子们装在红包里的钱，以祝愿他们好运。人们用红色的剪纸装饰窗户，并挂上灯笼。这对每个人来说都是一个非常快乐和激动的时刻。
+- 我一直非常害怕深水。一想到脚触不到底，我的心跳就会加速。去年夏天，我们全家去一个美丽的湖边旅行。每个人都对游泳感到兴奋，但我只是紧张地在岸上看着。
+- 我的姐姐克洛伊注意到了我的恐惧。她温柔地鼓励我先把脚放进水里。她一步一步地帮助我走得更深一点，始终陪在我身边。她教我如何仰泳。当我终于做到时，我感到失重般的轻松和自由。那天，我并没有成为一个完美的游泳健将，但我克服了自己最大的恐惧。

@@ -1,33 +1,35 @@
-name: Weekly Code Audit
+name: Weekly Security Audit
 
 on:
   schedule:
-    - cron: '0 9 * * 1' # 每周一上午9点执行 (UTC时间)
+    - cron: '0 16 * * 0' # 每周日 16:00 UTC (北京时间周一凌晨 00:00)
   workflow_dispatch: # 允许手动触发
 
 permissions:
   contents: write
   issues: write
-  pull-requests: write
 
 jobs:
-  code-audit:
+  security-audit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # 获取完整历史记录用于分析
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
       - name: Install Dependencies
         run: |
-          echo "安装项目依赖..."
-          npm install || pnpm install || yarn install
+          echo "使用 pnpm 安装项目依赖..."
+          pnpm install
 
       - name: Install Gemini CLI
         run: |
@@ -35,151 +37,185 @@ jobs:
           npm install -g @google/gemini-cli
           echo "验证安装..."
           gemini --version || echo "Gemini CLI 版本检查失败"
-          echo "测试 API 连接..."
-          echo "Hello" | timeout 30s gemini || echo "API 连接测试失败"
 
-      - name: Create audit output directories
+      - name: Create output directories
         run: |
           mkdir -p .audit-reports
           mkdir -p public/data
 
-      - name: Collect Code Statistics
-        run: |
-          echo "=== 收集代码统计信息 ==="
-          
-          # 统计代码行数
-          echo "代码行数统计:" > .audit-reports/code-stats.txt
-          find src -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" | xargs wc -l >> .audit-reports/code-stats.txt
-          
-          # 统计文件数量
-          echo "" >> .audit-reports/code-stats.txt
-          echo "文件类型统计:" >> .audit-reports/code-stats.txt
-          find src -type f | grep -E '\.(ts|tsx|js|jsx)$' | sed 's/.*\.//' | sort | uniq -c >> .audit-reports/code-stats.txt
-          
-          # Git 提交统计
-          echo "" >> .audit-reports/code-stats.txt
-          echo "最近一周提交统计:" >> .audit-reports/code-stats.txt
-          git log --since="1 week ago" --oneline >> .audit-reports/code-stats.txt
-
-      - name: Run ESLint Analysis
-        run: |
-          echo "=== 运行 ESLint 代码质量检查 ==="
-          npx eslint src --ext .ts,.tsx,.js,.jsx --format json > .audit-reports/eslint-report.json || true
-          npx eslint src --ext .ts,.tsx,.js,.jsx > .audit-reports/eslint-report.txt || true
-
-      - name: Run TypeScript Compiler Check
-        run: |
-          echo "=== 运行 TypeScript 编译检查 ==="
-          npx tsc --noEmit --pretty > .audit-reports/typescript-check.txt 2>&1 || true
-
-      - name: Security Audit
+      - name: Run Security Audit
         run: |
           echo "=== 运行安全审计 ==="
-          npm audit --json > .audit-reports/npm-audit.json 2>&1 || true
-          npm audit > .audit-reports/npm-audit.txt 2>&1 || true
+          pnpm audit --json > .audit-reports/pnpm-audit.json 2>&1 || true
+          pnpm audit > .audit-reports/pnpm-audit.txt 2>&1 || true
+          
+          # 获取可修复的漏洞信息
+          echo "=== 检查可自动修复的漏洞 ==="
+          pnpm audit --fix --dry-run > .audit-reports/pnpm-audit-fix-preview.txt 2>&1 || true
+          
+          # 生成漏洞摘要
+          echo "=== 生成漏洞摘要 ==="
+          if [ -f ".audit-reports/pnpm-audit.json" ]; then
+            echo "漏洞统计摘要:" > .audit-reports/security-summary.txt
+            grep -o '"severity":"[^"]*"' .audit-reports/pnpm-audit.json | sort | uniq -c >> .audit-reports/security-summary.txt 2>/dev/null || echo "无法解析漏洞统计" >> .audit-reports/security-summary.txt
+            echo "" >> .audit-reports/security-summary.txt
+            echo "受影响的包:" >> .audit-reports/security-summary.txt
+            grep -o '"name":"[^"]*"' .audit-reports/pnpm-audit.json | head -10 >> .audit-reports/security-summary.txt 2>/dev/null || echo "无受影响的包" >> .audit-reports/security-summary.txt
+          fi
 
-      - name: Check for TODO and FIXME
+      - name: AI Auto-Fix Security Issues
         run: |
-          echo "=== 检查 TODO 和 FIXME 标记 ==="
-          echo "TODO 和 FIXME 列表:" > .audit-reports/todos.txt
-          grep -r -n "TODO\|FIXME\|XXX\|HACK" src || echo "未发现 TODO/FIXME 标记" >> .audit-reports/todos.txt
+          echo "=== AI 自动修复安全问题 ==="
+          
+          # 检查是否有安全漏洞
+          if [ -f ".audit-reports/pnpm-audit.txt" ] && grep -q "vulnerabilities" .audit-reports/pnpm-audit.txt; then
+            echo "发现安全漏洞，开始 AI 自动修复流程..."
+            
+            # 备份当前的 package.json 和 pnpm-lock.yaml
+            cp package.json package.json.backup 2>/dev/null || echo "未找到 package.json"
+            cp pnpm-lock.yaml pnpm-lock.yaml.backup 2>/dev/null || echo "未找到 pnpm-lock.yaml"
+            
+            # 记录修复前的状态
+            echo "修复前的漏洞状态:" > .audit-reports/fix-log.txt
+            pnpm audit --json > .audit-reports/pre-fix-audit.json 2>&1 || true
+            
+            # 尝试自动修复
+            echo "🔧 尝试自动修复安全漏洞..."
+            pnpm audit --fix > .audit-reports/auto-fix-result.txt 2>&1
+            FIX_EXIT_CODE=$?
+            
+            # 检查修复结果
+            echo "修复命令退出码: $FIX_EXIT_CODE" >> .audit-reports/fix-log.txt
+            
+            if [ $FIX_EXIT_CODE -eq 0 ]; then
+              echo "✅ 自动修复成功" >> .audit-reports/fix-log.txt
+              
+              # 重新运行审计检查修复效果
+              pnpm audit --json > .audit-reports/post-fix-audit.json 2>&1 || true
+              pnpm audit > .audit-reports/post-fix-audit.txt 2>&1 || true
+              
+              # 检查是否还有漏洞
+              if grep -q "vulnerabilities" .audit-reports/post-fix-audit.txt 2>/dev/null; then
+                REMAINING_VULNS=$(grep -o "[0-9]* vulnerabilities" .audit-reports/post-fix-audit.txt | head -1)
+                echo "⚠️ 仍有未修复的漏洞: $REMAINING_VULNS" >> .audit-reports/fix-log.txt
+                echo "AUTO_FIX_STATUS=partial" >> $GITHUB_ENV
+              else
+                echo "🎉 所有漏洞已修复" >> .audit-reports/fix-log.txt
+                echo "AUTO_FIX_STATUS=complete" >> $GITHUB_ENV
+              fi
+              
+              # 检查依赖变更
+              echo "" >> .audit-reports/fix-log.txt
+              echo "依赖变更:" >> .audit-reports/fix-log.txt
+              if [ -f "package.json.backup" ]; then
+                diff package.json.backup package.json >> .audit-reports/fix-log.txt 2>&1 || echo "package.json 有变更" >> .audit-reports/fix-log.txt
+              fi
+              
+              echo "SECURITY_FIXED=true" >> $GITHUB_ENV
+              
+            else
+              echo "❌ 自动修复失败，退出码: $FIX_EXIT_CODE" >> .audit-reports/fix-log.txt
+              echo "错误详情:" >> .audit-reports/fix-log.txt
+              cat .audit-reports/auto-fix-result.txt >> .audit-reports/fix-log.txt
+              
+              # 恢复备份文件
+              mv package.json.backup package.json 2>/dev/null || true
+              mv pnpm-lock.yaml.backup pnpm-lock.yaml 2>/dev/null || true
+              
+              echo "AUTO_FIX_STATUS=failed" >> $GITHUB_ENV
+              echo "SECURITY_FIXED=false" >> $GITHUB_ENV
+            fi
+            
+          else
+            echo "未发现安全漏洞，跳过修复步骤"
+            echo "AUTO_FIX_STATUS=not_needed" >> $GITHUB_ENV
+            echo "SECURITY_FIXED=false" >> $GITHUB_ENV
+          fi
 
-      - name: Generate AI Code Audit Report
+      - name: Generate AI Security Report
         run: |
-          echo "=== 使用 AI 生成代码审计报告 ==="
+          echo "=== 使用 AI 生成安全审计报告 ==="
           
           TIMESTAMP=$(date +%s)
           CURRENT_DATE=$(date '+%Y-%m-%d')
           
           # 准备审计数据
-          CODE_STATS=$(cat .audit-reports/code-stats.txt 2>/dev/null || echo "无法获取代码统计")
-          ESLINT_ISSUES=$(cat .audit-reports/eslint-report.txt 2>/dev/null || echo "无 ESLint 问题")
-          TS_ISSUES=$(cat .audit-reports/typescript-check.txt 2>/dev/null || echo "无 TypeScript 问题")
-          SECURITY_ISSUES=$(cat .audit-reports/npm-audit.txt 2>/dev/null || echo "无安全问题")
-          TODO_LIST=$(cat .audit-reports/todos.txt 2>/dev/null || echo "无 TODO 标记")
+          SECURITY_ISSUES=$(cat .audit-reports/pnpm-audit.txt 2>/dev/null || echo "无安全问题")
+          SECURITY_SUMMARY=$(cat .audit-reports/security-summary.txt 2>/dev/null || echo "无安全摘要")
+          FIX_PREVIEW=$(cat .audit-reports/pnpm-audit-fix-preview.txt 2>/dev/null || echo "无修复预览")
+          FIX_LOG=$(cat .audit-reports/fix-log.txt 2>/dev/null || echo "无修复日志")
           
-          # 获取最近的代码变更
-          RECENT_CHANGES=$(git log --since="1 week ago" --pretty=format:"%h - %s (%an, %ar)" | head -10 || echo "无最近变更")
-          
-          PROMPT="请为我生成一个详细的代码审计报告，格式为 Markdown。报告日期：$CURRENT_DATE
+          PROMPT="请为我生成一个详细的安全审计报告，格式为 Markdown。报告日期：$CURRENT_DATE
 
           请基于以下信息进行分析：
 
-          ## 代码统计信息
-          \`\`\`
-          $CODE_STATS
-          \`\`\`
-
-          ## ESLint 检查结果
-          \`\`\`
-          $ESLINT_ISSUES
-          \`\`\`
-
-          ## TypeScript 编译检查
-          \`\`\`
-          $TS_ISSUES
-          \`\`\`
-
-          ## 安全审计结果
+          ## pnpm audit 结果
           \`\`\`
           $SECURITY_ISSUES
           \`\`\`
 
-          ## TODO/FIXME 标记
+          ## 安全漏洞摘要
           \`\`\`
-          $TODO_LIST
+          $SECURITY_SUMMARY
           \`\`\`
 
-          ## 最近代码变更
+          ## 自动修复预览
           \`\`\`
-          $RECENT_CHANGES
+          $FIX_PREVIEW
+          \`\`\`
+
+          ## AI 自动修复日志
+          \`\`\`
+          $FIX_LOG
           \`\`\`
 
           请生成一个包含以下部分的 Markdown 报告：
-          1. 执行摘要
-          2. 代码质量评估
-          3. 安全问题分析
-          4. 性能建议
-          5. 技术债务识别
-          6. 改进建议
-          7. 优先级排序的行动项
+          1. 执行摘要（包含 AI 自动修复状态）
+          2. 安全漏洞分析（重点分析 pnpm audit 结果）
+          3. AI 自动修复报告（如果执行了修复）
+          4. 剩余安全问题（如果有未修复的漏洞）
+          5. 修复建议和后续行动
+
+          特别注意：
+          - 如果发现 critical 或 high 级别的安全漏洞，请在报告开头突出显示
+          - 评估 AI 自动修复的成功率和风险
+          - 对于未修复的漏洞，提供具体的 pnpm 命令修复建议
+          - 分析依赖版本变更对项目的影响
 
           请确保报告专业、详细且具有可操作性。时间戳：$TIMESTAMP"
 
-                    # 生成 AI 审计报告
-                    MAX_RETRIES=3
-                    RETRY_COUNT=0
-                    SUCCESS=false
-                    
-                    while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
-                      echo "尝试第 $((RETRY_COUNT + 1)) 次生成审计报告..."
-                      
-                      timeout 180s bash -c "echo '$PROMPT' | gemini" > /tmp/audit_output.txt 2>&1
-                      EXIT_CODE=$?
-                      
-                      OUTPUT=$(cat /tmp/audit_output.txt 2>/dev/null || echo "")
-                      
-                      if [ $EXIT_CODE -eq 0 ] && [ ${#OUTPUT} -gt 1000 ]; then
-                        echo "✅ AI 审计报告生成成功"
-                        
-                        # 清理输出并保存
-                        echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > .audit-reports/ai-audit-report.md
-                        
-                        # 添加报告头部信息并保存到 public/data
-                        cat > public/data/weekly-audit-report.md << EOF
-          # 代码审计报告
-
-          **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
-          **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
-          **项目**: $(basename $(pwd))  
-
-          ---
-
-          EOF
-                        cat .audit-reports/ai-audit-report.md >> public/data/weekly-audit-report.md
+          # 生成 AI 审计报告
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          SUCCESS=false
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            echo "尝试第 $((RETRY_COUNT + 1)) 次生成安全审计报告..."
+            
+            timeout 180s bash -c "echo '$PROMPT' | gemini" > /tmp/audit_output.txt 2>&1
+            EXIT_CODE=$?
+            
+            OUTPUT=$(cat /tmp/audit_output.txt 2>/dev/null || echo "")
+            
+            if [ $EXIT_CODE -eq 0 ] && [ ${#OUTPUT} -gt 500 ]; then
+              echo "✅ AI 安全审计报告生成成功"
               
-              # 同时保留一份在 .audit-reports 目录用于内部处理
-              cp public/data/weekly-audit-report.md .audit-reports/weekly-audit-report.md
+              # 清理输出并保存到 public/data
+              echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > .audit-reports/ai-audit-report.md
+              
+              # 添加报告头部信息
+              cat > public/data/security-audit-report.md << EOF
+            # 安全审计报告
+
+            **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
+            **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
+            **项目**: $(basename $(pwd))  
+            **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}
+
+            ---
+
+            EOF
+              cat .audit-reports/ai-audit-report.md >> public/data/security-audit-report.md
               
               SUCCESS=true
             else
@@ -195,91 +231,75 @@ jobs:
           
           # 如果 AI 生成失败，创建基础报告
           if [ "$SUCCESS" = "false" ]; then
-            echo "⚠️ AI 生成失败，创建基础审计报告..."
-            cat > public/data/weekly-audit-report.md << EOF
-          # 代码审计报告
+            echo "⚠️ AI 生成失败，创建基础安全审计报告..."
+            cat > public/data/security-audit-report.md << EOF
+          # 安全审计报告
 
           **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
           **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
           **项目**: $(basename $(pwd))  
           **状态**: 基础报告 (AI 分析暂时不可用)
+          **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}
 
           ## 执行摘要
 
-          本周代码审计已完成基础检查，详细分析请查看各项检查结果。
+          本周安全审计已完成，详细分析请查看各项检查结果。
 
-          ## 代码统计
-
-          \`\`\`
-          $CODE_STATS
-          \`\`\`
-
-          ## ESLint 检查结果
-
-          \`\`\`
-          $ESLINT_ISSUES
-          \`\`\`
-
-          ## TypeScript 检查结果
-
-          \`\`\`
-          $TS_ISSUES
-          \`\`\`
-
-          ## 安全审计结果
+          ## pnpm audit 结果
 
           \`\`\`
           $SECURITY_ISSUES
           \`\`\`
 
-          ## TODO/FIXME 标记
+          ## 安全漏洞摘要
 
           \`\`\`
-          $TODO_LIST
+          $SECURITY_SUMMARY
           \`\`\`
 
-          ## 最近变更
+          ## 自动修复预览
 
           \`\`\`
-          $RECENT_CHANGES
+          $FIX_PREVIEW
+          \`\`\`
+
+          ## AI 自动修复日志
+
+          \`\`\`
+          $FIX_LOG
           \`\`\`
 
           ---
-          *报告由自动化系统生成*
+          *报告由自动化安全审计系统生成*
           EOF
-            # 同时保留一份在 .audit-reports 目录用于内部处理
-            cp public/data/weekly-audit-report.md .audit-reports/weekly-audit-report.md
           fi
           
           rm -f /tmp/audit_output.txt
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: Create GitHub Issue for Critical Issues
+      - name: Check for Critical Issues
         run: |
           echo "=== 检查是否需要创建 GitHub Issue ==="
           
-          # 检查是否有严重问题
           CRITICAL_ISSUES=false
           
           # 检查高危安全漏洞
-          if grep -q "high\|critical" .audit-reports/npm-audit.txt 2>/dev/null; then
+          if grep -q "high\|critical" .audit-reports/pnpm-audit.txt 2>/dev/null; then
             CRITICAL_ISSUES=true
             echo "发现高危安全漏洞"
           fi
           
-          # 检查 TypeScript 错误
-          if grep -q "error" .audit-reports/typescript-check.txt 2>/dev/null; then
-            CRITICAL_ISSUES=true
-            echo "发现 TypeScript 编译错误"
-          fi
-          
-          if [ "$CRITICAL_ISSUES" = "true" ]; then
+          # 如果自动修复成功，降低 Issue 创建的紧急程度
+          if [ "$CRITICAL_ISSUES" = "true" ] && [ "$AUTO_FIX_STATUS" != "complete" ]; then
             echo "NEED_ISSUE=true" >> $GITHUB_ENV
-            echo "发现严重问题，将创建 GitHub Issue"
+            echo "发现严重问题且未完全自动修复，将创建 GitHub Issue"
+          elif [ "$AUTO_FIX_STATUS" = "failed" ]; then
+            echo "NEED_ISSUE=true" >> $GITHUB_ENV
+            echo "自动修复失败，将创建 GitHub Issue"
           else
             echo "NEED_ISSUE=false" >> $GITHUB_ENV
-            echo "未发现严重问题"
+            echo "问题已自动修复或未发现严重问题"
           fi
 
       - name: Create Issue for Critical Problems
@@ -288,54 +308,80 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const auditReport = fs.readFileSync('public/data/weekly-audit-report.md', 'utf8');
+            const auditReport = fs.readFileSync('public/data/security-audit-report.md', 'utf8');
+            const autoFixStatus = process.env.AUTO_FIX_STATUS || 'unknown';
+            const securityFixed = process.env.SECURITY_FIXED === 'true';
             
+            let title = `🚨 安全审计发现问题 - ${new Date().toISOString().split('T')[0]}`;
+            let labels = ['security', 'audit', 'automated'];
+            
+            if (autoFixStatus === 'failed') {
+              title = `❌ 安全问题自动修复失败 - ${new Date().toISOString().split('T')[0]}`;
+              labels.push('fix-failed', 'critical');
+            } else if (autoFixStatus === 'partial') {
+              title = `⚠️ 部分安全问题未修复 - ${new Date().toISOString().split('T')[0]}`;
+              labels.push('partial-fix', 'medium');
+            } else {
+              labels.push('critical');
+            }
+
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `🚨 代码审计发现严重问题 - ${new Date().toISOString().split('T')[0]}`,
-              body: `## 自动代码审计警报
+              title: title,
+              body: `## 自动安全审计${securityFixed ? '和修复' : ''}报告
 
-            本次代码审计发现了需要立即关注的严重问题。
+            本次安全审计${securityFixed ? '已尝试自动修复安全问题，但' : ''}发现了需要关注的安全漏洞。
+
+            ### AI 自动修复状态
+            - **修复状态**: ${autoFixStatus}
+            - **安全问题**: ${securityFixed ? '已尝试修复' : '未修复'}
 
             ### 审计报告摘要
 
             ${auditReport.substring(0, 2000)}...
 
-            [查看完整报告](public/data/weekly-audit-report.md)
+            [查看完整报告](public/data/security-audit-report.md)
 
             ### 建议行动
 
-            1. 立即检查安全漏洞
-            2. 修复 TypeScript 编译错误
-            3. 审查代码质量问题
+            ${autoFixStatus === 'failed' ? 
+              '1. 检查自动修复失败的原因\\n2. 手动执行 \`pnpm audit --fix\`\\n3. 更新依赖版本' :
+              autoFixStatus === 'partial' ?
+              '1. 检查剩余的安全漏洞\\n2. 手动更新无法自动修复的依赖\\n3. 验证修复效果' :
+              '1. 立即检查安全漏洞\\n2. 手动执行 \`pnpm audit --fix\`\\n3. 更新依赖版本'
+            }
 
             ---
-            *此 Issue 由自动化代码审计系统创建*`,
-                          labels: ['audit', 'critical', 'automated']
+            *此 Issue 由自动化安全审计和修复系统创建*`,
+                          labels: labels
                         });
 
+      - name: Set commit message
+        run: |
+          CURRENT_DATE=$(date '+%Y-%m-%d')
+          if [ "$SECURITY_FIXED" = "true" ]; then
+            echo "COMMIT_MESSAGE=🔒 Security Audit + Auto-fix - $CURRENT_DATE" >> $GITHUB_ENV
+          else
+            echo "COMMIT_MESSAGE=🔍 Security Audit Report - $CURRENT_DATE" >> $GITHUB_ENV
+          fi
 
-
-      - name: Commit Audit Reports
+      - name: Commit Security Reports and Fixes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "📊 Weekly Code Audit Report - $(date '+%Y-%m-%d')"
-          file_pattern: "public/data/weekly-audit-report.md"
-          commit_user_name: "Code Audit Bot"
-          commit_user_email: "code-audit-bot@users.noreply.github.com"
+          commit_message: ${{ env.COMMIT_MESSAGE }}
+          file_pattern: "public/data/security-audit-report.md package.json pnpm-lock.yaml"
+          commit_user_name: "Security Audit Bot"
+          commit_user_email: "security-audit-bot@users.noreply.github.com"
 
       - name: Summary
         run: |
-          echo "=== 审计完成摘要 ==="
-          echo "✅ 代码统计分析完成"
-          echo "✅ ESLint 质量检查完成"
-          echo "✅ TypeScript 编译检查完成"
-          echo "✅ 安全漏洞扫描完成"
-          echo "✅ TODO/FIXME 标记检查完成"
-          echo "✅ AI 审计报告生成完成"
+          echo "=== 安全审计完成摘要 ==="
+          echo "✅ pnpm audit 安全扫描完成"
+          echo "✅ AI 自动修复尝试完成"
+          echo "✅ 安全审计报告生成完成"
           echo ""
-          echo "📊 报告文件:"
-          ls -la .audit-reports/
+          echo "📊 修复状态: ${AUTO_FIX_STATUS:-unknown}"
+          echo "🔒 安全修复: ${SECURITY_FIXED:-false}"
           echo ""
-          echo "🔍 查看详细报告: public/data/weekly-audit-report.md"
+          echo "🔍 查看详细报告: public/data/security-audit-report.md"

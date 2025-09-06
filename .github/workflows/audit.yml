@@ -205,16 +205,16 @@ jobs:
               
               # 添加报告头部信息
               cat > public/data/security-audit-report.md << EOF
-            # 安全审计报告
+          # 安全审计报告
 
-            **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
-            **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
-            **项目**: $(basename $(pwd))  
-            **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}
+          **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
+          **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
+          **项目**: $(basename $(pwd))  
+          **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}
 
-            ---
+          ---
 
-            EOF
+          EOF
               cat .audit-reports/ai-audit-report.md >> public/data/security-audit-report.md
               
               SUCCESS=true

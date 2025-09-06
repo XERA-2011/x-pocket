@@ -103,80 +103,80 @@ jobs:
           
           PROMPT="请为我生成一个详细的代码审计报告，格式为 Markdown。报告日期：$CURRENT_DATE
 
-请基于以下信息进行分析：
+          请基于以下信息进行分析：
 
-## 代码统计信息
-\`\`\`
-$CODE_STATS
-\`\`\`
+          ## 代码统计信息
+          \`\`\`
+          $CODE_STATS
+          \`\`\`
 
-## ESLint 检查结果
-\`\`\`
-$ESLINT_ISSUES
-\`\`\`
+          ## ESLint 检查结果
+          \`\`\`
+          $ESLINT_ISSUES
+          \`\`\`
 
-## TypeScript 编译检查
-\`\`\`
-$TS_ISSUES
-\`\`\`
+          ## TypeScript 编译检查
+          \`\`\`
+          $TS_ISSUES
+          \`\`\`
 
-## 安全审计结果
-\`\`\`
-$SECURITY_ISSUES
-\`\`\`
+          ## 安全审计结果
+          \`\`\`
+          $SECURITY_ISSUES
+          \`\`\`
 
-## TODO/FIXME 标记
-\`\`\`
-$TODO_LIST
-\`\`\`
+          ## TODO/FIXME 标记
+          \`\`\`
+          $TODO_LIST
+          \`\`\`
 
-## 最近代码变更
-\`\`\`
-$RECENT_CHANGES
-\`\`\`
+          ## 最近代码变更
+          \`\`\`
+          $RECENT_CHANGES
+          \`\`\`
 
-请生成一个包含以下部分的 Markdown 报告：
-1. 执行摘要
-2. 代码质量评估
-3. 安全问题分析
-4. 性能建议
-5. 技术债务识别
-6. 改进建议
-7. 优先级排序的行动项
+          请生成一个包含以下部分的 Markdown 报告：
+          1. 执行摘要
+          2. 代码质量评估
+          3. 安全问题分析
+          4. 性能建议
+          5. 技术债务识别
+          6. 改进建议
+          7. 优先级排序的行动项
 
-请确保报告专业、详细且具有可操作性。时间戳：$TIMESTAMP"
+          请确保报告专业、详细且具有可操作性。时间戳：$TIMESTAMP"
 
-          # 生成 AI 审计报告
-          MAX_RETRIES=3
-          RETRY_COUNT=0
-          SUCCESS=false
-          
-          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
-            echo "尝试第 $((RETRY_COUNT + 1)) 次生成审计报告..."
-            
-            timeout 180s bash -c "echo '$PROMPT' | gemini" > /tmp/audit_output.txt 2>&1
-            EXIT_CODE=$?
-            
-            OUTPUT=$(cat /tmp/audit_output.txt 2>/dev/null || echo "")
-            
-            if [ $EXIT_CODE -eq 0 ] && [ ${#OUTPUT} -gt 1000 ]; then
-              echo "✅ AI 审计报告生成成功"
-              
-              # 清理输出并保存
-              echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > .audit-reports/ai-audit-report.md
-              
-              # 添加报告头部信息并保存到 public/data
-              cat > public/data/weekly-audit-report.md << EOF
-# 代码审计报告
+                    # 生成 AI 审计报告
+                    MAX_RETRIES=3
+                    RETRY_COUNT=0
+                    SUCCESS=false
+                    
+                    while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+                      echo "尝试第 $((RETRY_COUNT + 1)) 次生成审计报告..."
+                      
+                      timeout 180s bash -c "echo '$PROMPT' | gemini" > /tmp/audit_output.txt 2>&1
+                      EXIT_CODE=$?
+                      
+                      OUTPUT=$(cat /tmp/audit_output.txt 2>/dev/null || echo "")
+                      
+                      if [ $EXIT_CODE -eq 0 ] && [ ${#OUTPUT} -gt 1000 ]; then
+                        echo "✅ AI 审计报告生成成功"
+                        
+                        # 清理输出并保存
+                        echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > .audit-reports/ai-audit-report.md
+                        
+                        # 添加报告头部信息并保存到 public/data
+                        cat > public/data/weekly-audit-report.md << EOF
+          # 代码审计报告
 
-**生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
-**审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
-**项目**: $(basename $(pwd))  
+          **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
+          **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
+          **项目**: $(basename $(pwd))  
 
----
+          ---
 
-EOF
-              cat .audit-reports/ai-audit-report.md >> public/data/weekly-audit-report.md
+          EOF
+                        cat .audit-reports/ai-audit-report.md >> public/data/weekly-audit-report.md
               
               # 同时保留一份在 .audit-reports 目录用于内部处理
               cp public/data/weekly-audit-report.md .audit-reports/weekly-audit-report.md
@@ -197,56 +197,56 @@ EOF
           if [ "$SUCCESS" = "false" ]; then
             echo "⚠️ AI 生成失败，创建基础审计报告..."
             cat > public/data/weekly-audit-report.md << EOF
-# 代码审计报告
+          # 代码审计报告
 
-**生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
-**审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
-**项目**: $(basename $(pwd))  
-**状态**: 基础报告 (AI 分析暂时不可用)
+          **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
+          **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
+          **项目**: $(basename $(pwd))  
+          **状态**: 基础报告 (AI 分析暂时不可用)
 
-## 执行摘要
+          ## 执行摘要
 
-本周代码审计已完成基础检查，详细分析请查看各项检查结果。
+          本周代码审计已完成基础检查，详细分析请查看各项检查结果。
 
-## 代码统计
+          ## 代码统计
 
-\`\`\`
-$CODE_STATS
-\`\`\`
+          \`\`\`
+          $CODE_STATS
+          \`\`\`
 
-## ESLint 检查结果
+          ## ESLint 检查结果
 
-\`\`\`
-$ESLINT_ISSUES
-\`\`\`
+          \`\`\`
+          $ESLINT_ISSUES
+          \`\`\`
 
-## TypeScript 检查结果
+          ## TypeScript 检查结果
 
-\`\`\`
-$TS_ISSUES
-\`\`\`
+          \`\`\`
+          $TS_ISSUES
+          \`\`\`
 
-## 安全审计结果
+          ## 安全审计结果
 
-\`\`\`
-$SECURITY_ISSUES
-\`\`\`
+          \`\`\`
+          $SECURITY_ISSUES
+          \`\`\`
 
-## TODO/FIXME 标记
+          ## TODO/FIXME 标记
 
-\`\`\`
-$TODO_LIST
-\`\`\`
+          \`\`\`
+          $TODO_LIST
+          \`\`\`
 
-## 最近变更
+          ## 最近变更
 
-\`\`\`
-$RECENT_CHANGES
-\`\`\`
+          \`\`\`
+          $RECENT_CHANGES
+          \`\`\`
 
----
-*报告由自动化系统生成*
-EOF
+          ---
+          *报告由自动化系统生成*
+          EOF
             # 同时保留一份在 .audit-reports 目录用于内部处理
             cp public/data/weekly-audit-report.md .audit-reports/weekly-audit-report.md
           fi
@@ -296,24 +296,24 @@ EOF
               title: `🚨 代码审计发现严重问题 - ${new Date().toISOString().split('T')[0]}`,
               body: `## 自动代码审计警报
 
-本次代码审计发现了需要立即关注的严重问题。
+            本次代码审计发现了需要立即关注的严重问题。
 
-### 审计报告摘要
+            ### 审计报告摘要
 
-${auditReport.substring(0, 2000)}...
+            ${auditReport.substring(0, 2000)}...
 
-[查看完整报告](public/data/weekly-audit-report.md)
+            [查看完整报告](public/data/weekly-audit-report.md)
 
-### 建议行动
+            ### 建议行动
 
-1. 立即检查安全漏洞
-2. 修复 TypeScript 编译错误
-3. 审查代码质量问题
+            1. 立即检查安全漏洞
+            2. 修复 TypeScript 编译错误
+            3. 审查代码质量问题
 
----
-*此 Issue 由自动化代码审计系统创建*`,
-              labels: ['audit', 'critical', 'automated']
-            });
+            ---
+            *此 Issue 由自动化代码审计系统创建*`,
+                          labels: ['audit', 'critical', 'automated']
+                        });
 
 
 

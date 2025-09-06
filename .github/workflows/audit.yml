@@ -26,10 +26,32 @@ jobs:
         with:
           version: latest
 
+      - name: Check and Fix Lockfile
+        run: |
+          echo "=== 检查项目锁文件状态 ==="
+          
+          # 检查是否存在 overrides 配置不匹配问题
+          if pnpm install --frozen-lockfile 2>&1 | grep -q "ERR_PNPM_LOCKFILE_CONFIG_MISMATCH"; then
+            echo "🔧 发现锁文件配置不匹配，正在修复..."
+            echo "执行: pnpm install --no-frozen-lockfile"
+            pnpm install --no-frozen-lockfile
+            echo "✅ 锁文件已更新并同步"
+            echo "LOCKFILE_FIXED=true" >> $GITHUB_ENV
+          else
+            echo "✅ 锁文件状态正常，使用标准安装"
+            pnpm install
+            echo "LOCKFILE_FIXED=false" >> $GITHUB_ENV
+          fi
+
       - name: Install Dependencies
         run: |
-          echo "使用 pnpm 安装项目依赖..."
-          pnpm install
+          echo "=== 安装项目依赖 ==="
+          if [ "$LOCKFILE_FIXED" = "true" ]; then
+            echo "锁文件已在上一步修复，依赖安装完成"
+          else
+            echo "执行标准依赖安装..."
+            pnpm install
+          fi
 
       - name: Install Gemini CLI
         run: |
@@ -255,6 +277,7 @@ jobs:
           AI_EXECUTION=$(cat .audit-reports/ai-fix-execution.txt 2>/dev/null || echo "无 AI 执行日志")
           LOCKFILE_SYNC=$(cat .audit-reports/final-lockfile-sync.txt 2>/dev/null || echo "无锁文件同步日志")
           BUILD_CHECK=$(cat .audit-reports/build-check.txt 2>/dev/null || echo "无构建检查日志")
+          INITIAL_LOCKFILE_STATUS=${LOCKFILE_FIXED:-false}
           
           PROMPT="请为我生成一个详细的安全审计报告，格式为 Markdown。报告日期：$CURRENT_DATE
 
@@ -300,8 +323,11 @@ jobs:
           $BUILD_CHECK
           \`\`\`
 
+          ## 初始锁文件状态
+          初始锁文件修复状态: $INITIAL_LOCKFILE_STATUS
+
           请生成一个包含以下部分的 Markdown 报告：
-          1. 执行摘要（包含多层 AI 自动修复状态）
+          1. 执行摘要（包含初始锁文件状态和多层 AI 自动修复状态）
           2. 安全漏洞分析（重点分析 pnpm audit 结果）
           3. 多策略自动修复报告（标准修复 + 依赖更新 + 强制修复 + AI 智能修复）
           4. AI 智能修复分析（AI 生成的修复命令和执行结果）
@@ -347,7 +373,8 @@ jobs:
           **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
           **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
           **项目**: $(basename $(pwd))  
-          **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}
+          **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}  
+          **初始锁文件状态**: ${INITIAL_LOCKFILE_STATUS}
 
           ---
 
@@ -376,7 +403,8 @@ jobs:
           **审计周期**: $(date -d '7 days ago' '+%Y-%m-%d') 至 $(date '+%Y-%m-%d')  
           **项目**: $(basename $(pwd))  
           **状态**: 基础报告 (AI 分析暂时不可用)
-          **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}
+          **AI 修复状态**: ${AUTO_FIX_STATUS:-unknown}  
+          **初始锁文件状态**: ${INITIAL_LOCKFILE_STATUS}
 
           ## 执行摘要
 
@@ -521,8 +549,12 @@ jobs:
       - name: Set commit message
         run: |
           CURRENT_DATE=$(date '+%Y-%m-%d')
-          if [ "$SECURITY_FIXED" = "true" ]; then
-            echo "COMMIT_MESSAGE=🔒 Security Audit + Auto-fix - $CURRENT_DATE" >> $GITHUB_ENV
+          if [ "$SECURITY_FIXED" = "true" ] && [ "$LOCKFILE_FIXED" = "true" ]; then
+            echo "COMMIT_MESSAGE=🔒 Security Audit + Auto-fix + Lockfile Sync - $CURRENT_DATE" >> $GITHUB_ENV
+          elif [ "$SECURITY_FIXED" = "true" ]; then
+            echo "COMMIT_MESSAGE=� SSecurity Audit + Auto-fix - $CURRENT_DATE" >> $GITHUB_ENV
+          elif [ "$LOCKFILE_FIXED" = "true" ]; then
+            echo "COMMIT_MESSAGE=🔧 Security Audit + Lockfile Sync - $CURRENT_DATE" >> $GITHUB_ENV
           else
             echo "COMMIT_MESSAGE=🔍 Security Audit Report - $CURRENT_DATE" >> $GITHUB_ENV
           fi

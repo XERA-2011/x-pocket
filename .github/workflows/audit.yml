@@ -79,10 +79,45 @@ jobs:
             echo "修复前的漏洞状态:" > .audit-reports/fix-log.txt
             pnpm audit --json > .audit-reports/pre-fix-audit.json 2>&1 || true
             
-            # 尝试自动修复
+            # 尝试多种修复策略
             echo "🔧 尝试自动修复安全漏洞..."
+            
+            # 策略1: 标准自动修复
+            echo "策略1: 执行 pnpm audit --fix" >> .audit-reports/fix-log.txt
             pnpm audit --fix > .audit-reports/auto-fix-result.txt 2>&1
             FIX_EXIT_CODE=$?
+            
+            # 检查是否还有漏洞
+            pnpm audit > .audit-reports/post-fix-check1.txt 2>&1 || true
+            if grep -q "vulnerabilities" .audit-reports/post-fix-check1.txt; then
+              echo "策略1未完全修复，尝试策略2" >> .audit-reports/fix-log.txt
+              
+              # 策略2: 更新所有依赖到最新版本
+              echo "策略2: 更新依赖到最新版本" >> .audit-reports/fix-log.txt
+              pnpm update > .audit-reports/update-result.txt 2>&1 || true
+              
+              # 再次检查
+              pnpm audit > .audit-reports/post-fix-check2.txt 2>&1 || true
+              if grep -q "vulnerabilities" .audit-reports/post-fix-check2.txt; then
+                echo "策略2未完全修复，尝试策略3" >> .audit-reports/fix-log.txt
+                
+                # 策略3: 强制修复
+                echo "策略3: 强制修复 pnpm audit --fix --force" >> .audit-reports/fix-log.txt
+                pnpm audit --fix --force > .audit-reports/force-fix-result.txt 2>&1 || true
+                
+                # 最终检查
+                pnpm audit > .audit-reports/post-fix-check3.txt 2>&1 || true
+                if ! grep -q "vulnerabilities" .audit-reports/post-fix-check3.txt; then
+                  FIX_EXIT_CODE=0
+                  echo "策略3修复成功" >> .audit-reports/fix-log.txt
+                fi
+              else
+                FIX_EXIT_CODE=0
+                echo "策略2修复成功" >> .audit-reports/fix-log.txt
+              fi
+            else
+              echo "策略1修复成功" >> .audit-reports/fix-log.txt
+            fi
             
             # 检查修复结果
             echo "修复命令退出码: $FIX_EXIT_CODE" >> .audit-reports/fix-log.txt
@@ -98,7 +133,57 @@ jobs:
               if grep -q "vulnerabilities" .audit-reports/post-fix-audit.txt 2>/dev/null; then
                 REMAINING_VULNS=$(grep -o "[0-9]* vulnerabilities" .audit-reports/post-fix-audit.txt | head -1)
                 echo "⚠️ 仍有未修复的漏洞: $REMAINING_VULNS" >> .audit-reports/fix-log.txt
-                echo "AUTO_FIX_STATUS=partial" >> $GITHUB_ENV
+                
+                # AI 智能修复尝试
+                echo "🤖 启动 AI 智能修复..." >> .audit-reports/fix-log.txt
+                
+                REMAINING_AUDIT=$(cat .audit-reports/post-fix-audit.txt 2>/dev/null || echo "无审计结果")
+                REMAINING_JSON=$(cat .audit-reports/post-fix-audit.json 2>/dev/null || echo "{}")
+                
+                AI_ANALYSIS_PROMPT="请分析以下 pnpm audit 结果，并提供具体的修复命令。只返回可执行的 pnpm 命令，每行一个命令：
+
+                ## 审计结果
+                \`\`\`
+                $REMAINING_AUDIT
+                \`\`\`
+
+                ## JSON 详情
+                \`\`\`
+                $REMAINING_JSON
+                \`\`\`
+
+                请分析漏洞并返回具体的修复命令，格式如下：
+                pnpm add package@version
+                pnpm update package
+
+                只返回命令，不要其他解释。"
+
+                # 获取 AI 建议的修复命令
+                timeout 60s bash -c "echo '$AI_ANALYSIS_PROMPT' | gemini" > .audit-reports/ai-fix-commands.txt 2>&1 || echo "AI 命令生成失败" > .audit-reports/ai-fix-commands.txt
+                
+                # 执行 AI 建议的命令
+                if [ -f ".audit-reports/ai-fix-commands.txt" ] && ! grep -q "失败" .audit-reports/ai-fix-commands.txt; then
+                  echo "🚀 执行 AI 建议的修复命令..." >> .audit-reports/fix-log.txt
+                  
+                  while IFS= read -r cmd; do
+                    # 过滤出有效的 pnpm 命令
+                    if echo "$cmd" | grep -q "^pnpm "; then
+                      echo "执行命令: $cmd" >> .audit-reports/fix-log.txt
+                      eval "$cmd" >> .audit-reports/ai-fix-execution.txt 2>&1 || echo "命令执行失败: $cmd" >> .audit-reports/fix-log.txt
+                    fi
+                  done < .audit-reports/ai-fix-commands.txt
+                  
+                  # 最终验证
+                  pnpm audit > .audit-reports/final-audit-check.txt 2>&1 || true
+                  if ! grep -q "vulnerabilities" .audit-reports/final-audit-check.txt; then
+                    echo "🎉 AI 智能修复成功！" >> .audit-reports/fix-log.txt
+                    echo "AUTO_FIX_STATUS=complete" >> $GITHUB_ENV
+                  else
+                    echo "AUTO_FIX_STATUS=partial" >> $GITHUB_ENV
+                  fi
+                else
+                  echo "AUTO_FIX_STATUS=partial" >> $GITHUB_ENV
+                fi
               else
                 echo "🎉 所有漏洞已修复" >> .audit-reports/fix-log.txt
                 echo "AUTO_FIX_STATUS=complete" >> $GITHUB_ENV
@@ -144,6 +229,8 @@ jobs:
           SECURITY_SUMMARY=$(cat .audit-reports/security-summary.txt 2>/dev/null || echo "无安全摘要")
           FIX_PREVIEW=$(cat .audit-reports/pnpm-audit-fix-preview.txt 2>/dev/null || echo "无修复预览")
           FIX_LOG=$(cat .audit-reports/fix-log.txt 2>/dev/null || echo "无修复日志")
+          AI_COMMANDS=$(cat .audit-reports/ai-fix-commands.txt 2>/dev/null || echo "无 AI 修复命令")
+          AI_EXECUTION=$(cat .audit-reports/ai-fix-execution.txt 2>/dev/null || echo "无 AI 执行日志")
           
           PROMPT="请为我生成一个详细的安全审计报告，格式为 Markdown。报告日期：$CURRENT_DATE
 
@@ -169,16 +256,28 @@ jobs:
           $FIX_LOG
           \`\`\`
 
+          ## AI 智能修复命令
+          \`\`\`
+          $AI_COMMANDS
+          \`\`\`
+
+          ## AI 修复执行结果
+          \`\`\`
+          $AI_EXECUTION
+          \`\`\`
+
           请生成一个包含以下部分的 Markdown 报告：
-          1. 执行摘要（包含 AI 自动修复状态）
+          1. 执行摘要（包含多层 AI 自动修复状态）
           2. 安全漏洞分析（重点分析 pnpm audit 结果）
-          3. AI 自动修复报告（如果执行了修复）
-          4. 剩余安全问题（如果有未修复的漏洞）
-          5. 修复建议和后续行动
+          3. 多策略自动修复报告（标准修复 + 依赖更新 + 强制修复 + AI 智能修复）
+          4. AI 智能修复分析（AI 生成的修复命令和执行结果）
+          5. 剩余安全问题（如果有未修复的漏洞）
+          6. 修复建议和后续行动
 
           特别注意：
+          - 系统使用了多层修复策略：标准修复 → 依赖更新 → 强制修复 → AI 智能分析修复
           - 如果发现 critical 或 high 级别的安全漏洞，请在报告开头突出显示
-          - 评估 AI 自动修复的成功率和风险
+          - 重点评估 AI 智能修复的效果和创新性
           - 对于未修复的漏洞，提供具体的 pnpm 命令修复建议
           - 分析依赖版本变更对项目的影响
 
@@ -267,6 +366,18 @@ jobs:
 
           \`\`\`
           $FIX_LOG
+          \`\`\`
+
+          ## AI 智能修复命令
+
+          \`\`\`
+          $AI_COMMANDS
+          \`\`\`
+
+          ## AI 修复执行结果
+
+          \`\`\`
+          $AI_EXECUTION
           \`\`\`
 
           ---

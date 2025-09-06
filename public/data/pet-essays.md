@@ -1,40 +1,42 @@
 # 应用文
 
-## A postcard to your family from your first week at a new school
-- 从新学校第一周寄给家人的明信片
+## An email booking tickets for a concert
+- 一封预订音乐会门票的邮件
 
 **正文**：
 
-Hi everyone,
+Dear Sir or Madam,
 
-I'm having a great time at my new school in London! The first week has been really exciting. My teachers are very friendly, and the lessons are interesting, especially science. I've already made a new friend called Tom. He's in my class, and we both love playing football.
+I am writing to book two tickets for the "Starlight Symphony" concert on Saturday, October 25th. My friend and I are very excited to attend this event.
 
-The school building is huge, much bigger than my old one. The food in the canteen is surprisingly good too! I was a bit nervous at first, but everyone has been so welcoming. I'm really looking forward to joining the school's photography club next week.
+Could we please have seats in the central area, preferably between rows 10 and 15? We would like a clear view of the stage.
 
-See you all soon!
+Please let me know the total cost and how I can make the payment. Could you also inform me if the tickets will be sent by email or if we need to collect them at the box office?
 
-Love,
-Alex
+Thank you for your assistance.
 
-- 大家好，
-- 我在伦敦的新学校过得很开心！第一周真的非常精彩。我的老师们都很友好，课程也很有趣，特别是科学课。我已经交了一个叫汤姆的新朋友。他和我同班，我们都喜欢踢足球。
-- 学校的教学楼很大，比我以前的学校大多了。食堂的饭菜也出乎意料地好吃！一开始我还有点紧张，但每个人都非常热情。我真的很期待下周加入学校的摄影俱乐部。
-- 希望很快能见到大家！
-- 爱你们的，
-- 亚历克斯
+Best regards,
+Chris Lee
+
+- 我写信是为了预订两张10月25日（星期六）“星光交响曲”音乐会的门票。我和我的朋友都非常期待参加这次活动。
+- 我们可以预订中间区域的座位吗？最好是在第10排到15排之间。我们希望能有清晰的舞台视野。
+- 请告知我总费用以及如何付款。另外，您能告诉我门票是通过电子邮件发送还是需要我们去售票处领取吗？
+- 感谢您的帮助。
+- 此致，
+- Chris Lee
 
 ---
 
 # 记叙文/短文
 
-## A story about overcoming a fear
-- 一个关于克服恐惧的故事
+## Write a story ending: That experience taught me never to judge people too quickly.
+- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过快地评价一个人。
 
 **正文**：
 
-I had always been terrified of deep water. The thought of not being able to touch the bottom made my heart race. Last summer, my family went on a trip to a beautiful lake. Everyone was excited about swimming, but I just watched nervously from the shore.
+I was nervous on my first day at the new school. I saw a boy in the corner of the classroom who looked very unfriendly. He wore dark clothes, never smiled, and didn't talk to anyone. I decided to stay away from him.
 
-My older sister, Chloe, noticed I was scared. She gently encouraged me to just put my feet in. Step by step, she helped me go a little deeper, always staying right beside me. She showed me how to float on my back. When I finally did it, I felt weightless and free. That day, I didn't become a perfect swimmer, but I overcame my biggest fear.
+Later, during the lunch break, I accidentally dropped my tray, and food went everywhere. While others just stared or laughed, the quiet boy immediately came over. He helped me clean up the mess and even shared his own lunch with me. He was actually very kind and shy. That experience taught me never to judge people too quickly.
 
-- 我一直非常害怕深水。一想到脚触不到底，我的心跳就会加速。去年夏天，我们全家去一个美丽的湖边旅行。每个人都对游泳感到兴奋，但我只是紧张地在岸上看着。
-- 我的姐姐克洛伊注意到了我的恐惧。她温柔地鼓励我先把脚放进水里。她一步一步地帮助我走得更深一点，始终陪在我身边。她教我如何仰泳。当我终于做到时，我感到失重般的轻松和自由。那天，我并没有成为一个完美的游泳健将，但我克服了自己最大的恐惧。
+- 在新学校的第一天，我感到很紧张。我看到教室角落里有一个看起来非常不友好的男孩。他穿着深色的衣服，从不微笑，也不和任何人说话。我决定离他远一点。
+- 后来午休时，我不小心打翻了餐盘，食物洒得到处都是。当其他人只是盯着看或嘲笑时，那个安静的男孩立刻走了过来。他帮我清理了残局，甚至把自己的午餐分给了我。他其实非常善良和害羞。那次经历教会了我永远不要过快地评价一个人。

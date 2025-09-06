@@ -1,43 +1,40 @@
 # 应用文
 
-## An email inviting a friend to your birthday celebration
-- 一封邀请朋友参加你的生日庆祝会的邮件
+## A postcard to your family from your first week at a new school
+- 从新学校第一周寄给家人的明信片
 
 **正文**：
 
-Hi Alex,
+Hi everyone,
 
-Hope you're doing well.
+I'm having a great time at my new school in London! The first week has been really exciting. My teachers are very friendly, and the lessons are interesting, especially science. I've already made a new friend called Tom. He's in my class, and we both love playing football.
 
-I'm so excited to tell you that my 16th birthday is coming up, and I'm planning a small party to celebrate. I would be really happy if you could come! The party will be at my house next Saturday, September 13th, starting at 6 p.m.
+The school building is huge, much bigger than my old one. The food in the canteen is surprisingly good too! I was a bit nervous at first, but everyone has been so welcoming. I'm really looking forward to joining the school's photography club next week.
 
-We're going to have a barbecue in the garden, and my dad will be grilling his famous burgers. There will also be music, games, and of course, a big birthday cake. It's going to be a lot of fun. Please let me know if you can make it by Wednesday.
+See you all soon!
 
-Hope to see you there!
+Love,
+Alex
 
-Best,
-Chris
-
-- 嗨，亚历克斯，
-- 希望你一切都好。
-- 我很高兴地告诉你，我16岁的生日快到了，我正计划举办一个小派对来庆祝。如果你能来，我会非常开心的！派对将于下周六，也就是9月13日，在我的家里举行，下午6点开始。
-- 我们准备在花园里烧烤，我爸爸会烤他拿手的汉堡。现场还会有音乐、游戏，当然，还有一个大大的生日蛋糕。一定会很有趣的。请在周三前回我你是否能来。
-- 希望到时能见到你！
-- 祝好，
-- 克里斯
+- 大家好，
+- 我在伦敦的新学校过得很开心！第一周真的非常精彩。我的老师们都很友好，课程也很有趣，特别是科学课。我已经交了一个叫汤姆的新朋友。他和我同班，我们都喜欢踢足球。
+- 学校的教学楼很大，比我以前的学校大多了。食堂的饭菜也出乎意料地好吃！一开始我还有点紧张，但每个人都非常热情。我真的很期待下周加入学校的摄影俱乐部。
+- 希望很快能见到大家！
+- 爱你们的，
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## A story about a wish that came true in an unexpected way
-- 一个关于愿望以意想不到的方式实现的故事
+## A story about overcoming a fear
+- 一个关于克服恐惧的故事
 
 **正文**：
 
-For years, my biggest wish was to travel abroad. I dreamed of seeing the Eiffel Tower in Paris, but my family couldn't afford such a big trip. One day, our school announced a national French-language competition. The grand prize was a two-week study tour in Lyon, France.
+I had always been terrified of deep water. The thought of not being able to touch the bottom made my heart race. Last summer, my family went on a trip to a beautiful lake. Everyone was excited about swimming, but I just watched nervously from the shore.
 
-Driven by my dream, I studied harder than ever before. I spent every spare moment practicing. On the day of the final, I was incredibly nervous but did my best. A week later, the results were announced—I had won! It wasn't Paris, but I was going to France. My wish came true in a way I never expected.
+My older sister, Chloe, noticed I was scared. She gently encouraged me to just put my feet in. Step by step, she helped me go a little deeper, always staying right beside me. She showed me how to float on my back. When I finally did it, I felt weightless and free. That day, I didn't become a perfect swimmer, but I overcame my biggest fear.
 
-- 多年以来，我最大的愿望就是出国旅行。我梦想着能亲眼看看巴黎的埃菲尔铁塔，但我的家庭无法负担如此昂贵的旅行。有一天，我们学校宣布将举办一场全国性的法语竞赛，特等奖是为期两周的法国里昂学习之旅。
-- 在梦想的驱动下，我比以往任何时候都更加努力地学习。我利用所有空闲时间进行练习。决赛那天，我紧张极了，但我尽了自己最大的努力。一周后，结果公布了——我赢了！虽然目的地不是巴黎，但我终究是要去法国了。我的愿望以一种我从未预料到的方式实现了。
+- 我一直非常害怕深水。一想到脚触不到底，我的心跳就会加速。去年夏天，我们全家去一个美丽的湖边旅行。每个人都对游泳感到兴奋，但我只是紧张地在岸上看着。
+- 我的姐姐克洛伊注意到了我的恐惧。她温柔地鼓励我先把脚放进水里。她一步一步地帮助我走得更深一点，始终陪在我身边。她教我如何仰泳。当我终于做到时，我感到失重般的轻松和自由。那天，我并没有成为一个完美的游泳健将，但我克服了自己最大的恐惧。

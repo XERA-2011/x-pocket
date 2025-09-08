@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
+import { getSmartHref } from '@/utils/href-helper';
 
 const gamesData: ItemCardProps[] = [
   {
@@ -11,7 +12,16 @@ const gamesData: ItemCardProps[] = [
     icon: '🚀',
     tags: ['Shooter', 'Space'],
     difficulty: 'Medium',
-    href: '/games/solar-skirmish'
+    href: getSmartHref('/pages/solar.html')
+  },
+  {
+    id: 'tetris',
+    title: 'Tetris',
+    description: 'Classic block-stacking puzzle game with modern controls.',
+    icon: '🧩',
+    tags: ['Puzzle', 'Classic'],
+    difficulty: 'Easy',
+    href: getSmartHref('/pages/tetris.html')
   },
   {
     id: 'coming-soon-1',

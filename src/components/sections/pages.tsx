@@ -3,13 +3,14 @@
 import { motion, Variants } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
+import { getSmartHref } from '@/utils/href-helper';
 
 const pagesData: ItemCardProps[] = [
   {
     id: "black-hole-sim",
     title: "Black Hole Simulation",
     description: "Interactive physics simulation of a black hole.",
-    href: "/pages/black-hole.html",
+    href: getSmartHref("/pages/black-hole.html"),
     icon: "🕳️",
     tags: ['Physics', 'Simulation'],
     difficulty: 'Medium'
@@ -18,7 +19,7 @@ const pagesData: ItemCardProps[] = [
     id: "constellation-map",
     title: "Constellation Map",
     description: "Dynamic generator for starfield effects.",
-    href: "/pages/constellation.html",
+    href: getSmartHref("/pages/constellation.html"),
     icon: "✨",
     tags: ['Visualization', 'Generator'],
     difficulty: 'Easy'
@@ -27,7 +28,7 @@ const pagesData: ItemCardProps[] = [
     id: "solar-system-explorer",
     title: "Solar System Explorer",
     description: "Explore a model of our solar system.",
-    href: "/pages/solar.html",
+    href: getSmartHref("/pages/solar.html"),
     icon: "🌞",
     tags: ['Education', 'Exploration'],
     difficulty: 'Medium'
@@ -36,7 +37,7 @@ const pagesData: ItemCardProps[] = [
     id: "x-logo-design",
     title: "X Logo Design",
     description: "X Logo implemented with CSS and SVG.",
-    href: "/pages/x-logo.html",
+    href: getSmartHref("/pages/x-logo.html"),
     icon: "❌",
     tags: ['Design', 'CSS', 'SVG'],
     difficulty: 'Easy'

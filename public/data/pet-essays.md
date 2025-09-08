@@ -1,40 +1,45 @@
 # 应用文
 
-## A thank-you email to a host family after staying with them
-- 给寄宿家庭的一封感谢信
+## An email inviting a friend to your birthday celebration
+- 一封邀请朋友参加你生日庆祝会的邮件
 
 **正文**：
 
-Dear Mr. and Mrs. Smith,
+Hi Alex,
 
-I am writing to express my sincere gratitude for your kindness during my stay in London. I have safely returned home, but I already miss our time together. Thank you so much for making me feel like a part of your family.
+Hope you're doing well.
 
-I especially enjoyed our trip to the British Museum and the delicious roast dinner you prepared last Sunday. Your hospitality was incredible, and my English has improved a lot thanks to our daily conversations.
+I'm writing to invite you to my birthday party! I'm turning 17, and I'm having a small celebration at my house on Saturday, September 27th. The party will start at 7 p.m.
 
-Please keep in touch, and I hope you will visit me in my country one day.
+There will be some great music, delicious snacks, and of course, a big birthday cake. I'm really hoping you can come, as it would be fantastic to celebrate together. It feels like ages since we last had a proper catch-up!
 
-Best wishes,
-Alex
+Please let me know if you can make it by this Wednesday. I can't wait to see you there!
 
-- 尊敬的史密斯先生和太太：
-- 我写这封信是为了对我住在伦敦期间您们的善意款待表示诚挚的感谢。我已经安全到家，但我已经开始想念我们在一起的时光。非常感谢您们让我感觉自己是您们家庭的一员。
-- 我尤其喜欢我们去大英博物馆的旅行，以及您上周日准备的美味烤肉晚餐。您的热情好客令人难忘，而且得益于我们的日常交流，我的英语水平提高了很多。
-- 请保持联系，我希望有一天您们能来我的国家看我。
-- 最好的祝愿，
-- 亚历克斯
+Best,
+Chris
+
+- 嗨，亚历克斯，
+- 希望你一切都好。
+- 我写信是想邀请你来参加我的生日派对！我马上就17岁了，我准备在9月27日（星期六）在我家办一个小小的庆祝会。派对将在晚上7点开始。
+- 派对上会有很棒的音乐、美味的点心，当然还有一个大大的生日蛋糕。我真的希望你能来，如果我们能一起庆祝就太棒了。感觉我们好久没有好好聚一聚了！
+- 请在这周三前回我你是否能来。期待在那里见到你！
+- 祝好，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## A story about a wish that came true in an unexpected way
-- 一个关于愿望以意想不到的方式实现的故事
+## An article for teenagers about the benefits of learning a second language
+- 一篇为青少年写的关于学习第二语言好处的文章
 
 **正文**：
 
-Last week, I had a huge history exam and I felt really stressed. "I just wish I had one more day to study," I sighed to my friend, Leo. The next morning, I woke up feeling ready for the test, but when I arrived at school, the building was strangely quiet.
+Unlock Your World: Learn a New Language!
 
-It turned out that the school's heating system had broken overnight. Because it was a cold winter day, the headteacher decided to cancel all classes and exams. We were all sent home. I couldn't believe it! I got my wish for an extra day, not because of magic, but because of a broken heater.
+Have you ever thought about learning another language? It’s a fantastic skill that offers so many benefits. Firstly, it opens up a whole new world of culture. You can enjoy foreign films, music, and books in their original form. Secondly, it’s great for your brain! Studies show that being bilingual can improve your memory and problem-solving abilities. Finally, it can create amazing opportunities for your future, whether for traveling, studying abroad, or getting a cool job. It’s a journey that’s both challenging and incredibly rewarding. Give it a try!
 
-- 上周，我有一个很重要的历史考试，我感到压力很大。“我真希望我能多一天时间来学习，”我向我的朋友里奥叹息道。第二天早上，我醒来时感觉已经为考试做好了准备，但当我到达学校时，教学楼里异常安静。
-- 原来，学校的供暖系统在一夜之间坏了。因为那是一个寒冷的冬日，校长决定取消所有的课程和考试。我们都被送回了家。我简直不敢相信！我多了一天时间的愿望实现了，不是因为魔法，而是因为一个坏掉的暖气片。
+- 解锁你的世界：学习一门新语言！
+- 你有没有想过学习另一门语言？这是一项能带来诸多益处的绝佳技能。首先，它开启了一个全新的文化世界。你可以欣赏原版的外国电影、音乐和书籍。
+- 其次，它对你的大脑很有好处！研究表明，掌握双语可以提升你的记忆力和解决问题的能力。
+- 最后，它能为你的未来创造绝佳的机会，无论是去旅行、出国留学，还是找到一份很酷的工作。这是一段充满挑战但回报丰厚的旅程。试一试吧！

@@ -548,15 +548,14 @@ jobs:
 
       - name: Set commit message
         run: |
-          CURRENT_DATE=$(date '+%Y-%m-%d')
           if [ "$SECURITY_FIXED" = "true" ] && [ "$LOCKFILE_FIXED" = "true" ]; then
-            echo "COMMIT_MESSAGE=🔒 Security Audit + Auto-fix + Lockfile Sync - $CURRENT_DATE" >> $GITHUB_ENV
+            echo "COMMIT_MESSAGE=Security Audit + Auto-fix + Lockfile Sync" >> $GITHUB_ENV
           elif [ "$SECURITY_FIXED" = "true" ]; then
-            echo "COMMIT_MESSAGE=� SSecurity Audit + Auto-fix - $CURRENT_DATE" >> $GITHUB_ENV
+            echo "COMMIT_MESSAGE=Security Audit + Auto-fix" >> $GITHUB_ENV
           elif [ "$LOCKFILE_FIXED" = "true" ]; then
-            echo "COMMIT_MESSAGE=🔧 Security Audit + Lockfile Sync - $CURRENT_DATE" >> $GITHUB_ENV
+            echo "COMMIT_MESSAGE=Security Audit + Lockfile Sync" >> $GITHUB_ENV
           else
-            echo "COMMIT_MESSAGE=🔍 Security Audit Report - $CURRENT_DATE" >> $GITHUB_ENV
+            echo "COMMIT_MESSAGE=Security Audit Report" >> $GITHUB_ENV
           fi
 
       - name: Commit Security Reports and Fixes

@@ -1,0 +1,265 @@
+name: Generate Daily News
+
+on:
+  schedule:
+    - cron: '0 22 * * *' # Runs at 22:00 UTC, which is 6:00 AM Beijing time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Gemini CLI
+        run: |
+          echo "安装 Gemini CLI..."
+          npm install -g @google/gemini-cli
+          echo "验证安装..."
+          gemini --version || echo "Gemini CLI 版本检查失败"
+          echo "测试 API 连接..."
+          echo "Hello" | timeout 30s gemini || echo "API 连接测试失败"
+      - name: Create output directory
+        run: mkdir -p public/data
+
+      - name: Check API availability
+        run: |
+          echo "=== 检查 Gemini API 可用性 ==="
+          
+          # 简单的 API 健康检查
+          echo "测试基本 API 连接..."
+          if timeout 30s bash -c "echo 'test' | gemini" > /tmp/api_test.txt 2>&1; then
+            echo "✅ API 基本连接正常"
+            cat /tmp/api_test.txt | head -5
+          else
+            echo "⚠️  API 连接测试失败，但继续尝试生成"
+            cat /tmp/api_test.txt | head -10
+          fi
+          
+          rm -f /tmp/api_test.txt
+
+      - name: Generate and save daily news
+        run: |
+          echo "=== 开始生成24小时内新闻 ==="
+          
+          # 添加时间戳和随机元素来避免缓存
+          TIMESTAMP=$(date +%s)
+          RANDOM_ID=$(echo $RANDOM)
+          CURRENT_DATE=$(date '+%Y年%m月%d日')
+          CURRENT_TIME=$(date '+%H:%M UTC')
+          
+          echo "时间戳: $TIMESTAMP"
+          echo "随机ID: $RANDOM_ID"
+          echo "当前日期: $CURRENT_DATE"
+          echo "当前时间: $CURRENT_TIME"
+          
+          PROMPT="请提供过去24小时内的全球热点新闻TOP10，信息来源仅限英文主流媒体（如BBC、CNN、Reuters、AP、The Guardian、Financial Times、Wall Street Journal、New York Times等）。\n\n请严格按照以下格式返回，不要包含任何额外的解释或代码块标记。请直接输出 Markdown 内容：\n\n# 全球热点新闻TOP10\n\n**日期**: $CURRENT_DATE  \n**更新时间**: $CURRENT_TIME  \n**数据来源**: 英文主流媒体综合  \n\n---\n\n### 1. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 2. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 3. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 4. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 5. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 6. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 7. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 8. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 9. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n### 10. **[中文标题]** / **[英文标题]**\n- **关键词**: [中文关键词] / [英文关键词]\n- **内容**: [中文摘要] / [英文摘要]\n- **发布时间**: [年月日]\n- **新闻来源**: [媒体名称](URL链接)\n\n---\n\n*本新闻摘要由AI自动生成，仅供参考。具体信息请以官方发布为准。*  \n*生成时间戳: $TIMESTAMP | 随机ID: $RANDOM_ID*\n\n**严格要求**：\n1. 所有新闻必须来自过去24小时内发布的内容\n2. 信息来源仅限英文主流媒体（BBC、CNN、Reuters、AP、The Guardian、Financial Times、WSJ、NYT等）\n3. 中英文内容需准确对应\n4. 每条新闻摘要不超过2句话\n5. 按新闻重要性降序排列\n6. 必须包含可点击的原始新闻链接\n7. 排除体育/娱乐类新闻，聚焦政治、经济、国际关系领域\n8. 每条新闻前后必须有分隔线（---）\n\n当前时间戳：$TIMESTAMP，随机ID：$RANDOM_ID。请确保生成的内容是最新的24小时内重要新闻。"
+          
+          # 改进的重试机制
+          MAX_RETRIES=2
+          RETRY_COUNT=0
+          SUCCESS=false
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
+            echo "尝试第 $((RETRY_COUNT + 1)) 次生成..."
+            
+            # 使用timeout命令限制执行时间，避免长时间挂起
+            timeout 120s bash -c "echo '$PROMPT' | gemini" > /tmp/gemini_output.txt 2>&1
+            EXIT_CODE=$?
+            
+            # 读取输出内容
+            OUTPUT=$(cat /tmp/gemini_output.txt 2>/dev/null || echo "")
+            
+            echo "API 调用退出码: $EXIT_CODE"
+            echo "输出长度: ${#OUTPUT} 字符"
+            
+            # 检查各种错误情况
+            if [ $EXIT_CODE -eq 124 ]; then
+              echo "❌ API 调用超时 (120秒)"
+            elif [ $EXIT_CODE -ne 0 ]; then
+              echo "❌ API 调用失败，退出码: $EXIT_CODE"
+            elif [ -z "$OUTPUT" ]; then
+              echo "❌ API 返回空内容"
+            elif echo "$OUTPUT" | grep -qi "error\|failed\|exception\|apiError\|status.*500\|internal.*error\|unavailable\|timeout"; then
+              echo "❌ API 返回错误信息:"
+              echo "$OUTPUT" | head -10
+            elif echo "$OUTPUT" | grep -q "I'm ready. What would you like me to do?"; then
+              echo "❌ API 返回默认提示信息，未正确处理请求"
+            else
+              # 处理成功的输出
+              echo "✅ API 调用成功，处理输出内容..."
+              
+              # 清理输出并保存到文件
+              echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > public/data/daily-news.md
+              
+              # 验证生成的文件
+              if [ -s "public/data/daily-news.md" ]; then
+                FILE_SIZE=$(wc -c < public/data/daily-news.md)
+                LINE_COUNT=$(wc -l < public/data/daily-news.md)
+                
+                echo "生成文件大小: $FILE_SIZE 字节"
+                echo "生成文件行数: $LINE_COUNT 行"
+                
+                # 检查文件内容是否包含预期的结构
+                if [ $FILE_SIZE -gt 800 ] && [ $LINE_COUNT -gt 20 ]; then
+                  if grep -q "# 全球热点新闻TOP10" public/data/daily-news.md && grep -q "### 1\." public/data/daily-news.md; then
+                    echo "✅ 内容生成成功，包含预期结构"
+                    SUCCESS=true
+                    break
+                  else
+                    echo "❌ 生成的内容缺少预期结构"
+                  fi
+                else
+                  echo "❌ 生成的文件太小或行数不足"
+                fi
+              else
+                echo "❌ 生成的文件为空或不存在"
+              fi
+            fi
+            
+            # 如果未成功，准备重试
+            if [ "$SUCCESS" = "false" ]; then
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                # 指数退避策略
+                WAIT_TIME=$((30 + RETRY_COUNT * 30))
+                echo "等待 $WAIT_TIME 秒后重试..."
+                sleep $WAIT_TIME
+              fi
+            fi
+          done
+          
+          # 清理临时文件
+          rm -f /tmp/gemini_output.txt
+          
+          # 最终检查
+          if [ "$SUCCESS" = "false" ]; then
+            echo "❌ 达到最大重试次数 ($MAX_RETRIES)，API 持续失败"
+            echo "🔄 创建服务状态报告..."
+            
+            # 创建服务状态报告而不是让工作流失败
+            cat > public/data/daily-news.md << EOF
+          # 新闻服务状态报告
+
+          **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
+          **状态**: API 服务暂时不可用  
+          **时间戳**: $TIMESTAMP  
+          **随机ID**: $RANDOM_ID  
+
+          ## 服务信息
+
+          Gemini API 当前遇到内部服务器错误 (HTTP 500)，这通常是临时性问题。
+
+          ## 错误详情
+
+          \`\`\`
+          重试次数: $MAX_RETRIES
+          最后错误: API 内部服务器错误
+          错误代码: 500
+          \`\`\`
+
+          ## 下次生成
+
+          系统将在下次定时任务中自动重试生成24小时内新闻内容。
+
+          ---
+          *此报告由自动化系统生成*
+          EOF
+            
+            echo "✅ 已创建服务状态报告"
+            # 不要 exit 1，让工作流继续执行以提交状态报告
+          fi
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Check if content has changed
+        run: |
+          echo "=== Content Change Detection ==="
+          
+          # 检查是否有现有文件
+          if [ -f "public/data/daily-news.md" ]; then
+            # 保存新生成的文件到临时位置
+            cp public/data/daily-news.md /tmp/new_daily_news.md
+            
+            # 获取当前仓库中的文件
+            if git show HEAD:public/data/daily-news.md > /tmp/current_daily_news.md 2>/dev/null; then
+              echo "✅ 成功获取当前仓库文件"
+            else
+              echo "⚠️  无法获取当前仓库文件，可能是新文件"
+              echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
+              exit 0
+            fi
+            
+            # 计算哈希值
+            NEW_HASH=$(sha256sum /tmp/new_daily_news.md | cut -d' ' -f1)
+            CURRENT_HASH=$(sha256sum /tmp/current_daily_news.md | cut -d' ' -f1)
+            
+            echo "新生成文件哈希: $NEW_HASH"
+            echo "当前文件哈希: $CURRENT_HASH"
+            echo "新文件大小: $(wc -c < /tmp/new_daily_news.md) bytes"
+            echo "当前文件大小: $(wc -c < /tmp/current_daily_news.md) bytes"
+            echo "新文件行数: $(wc -l < /tmp/new_daily_news.md) lines"
+            echo "当前文件行数: $(wc -l < /tmp/current_daily_news.md) lines"
+            
+            # 显示内容差异
+            echo ""
+            echo "=== 内容差异比较 ==="
+            if diff -q /tmp/new_daily_news.md /tmp/current_daily_news.md > /dev/null; then
+              echo "❌ 文件内容完全相同，跳过提交"
+              echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
+            else
+              echo "✅ 文件内容有差异，继续提交"
+              echo "差异详情："
+              diff -u /tmp/current_daily_news.md /tmp/new_daily_news.md || true
+              echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
+            fi
+            
+            # 清理临时文件
+            rm -f /tmp/new_daily_news.md /tmp/current_daily_news.md
+          else
+            echo "✅ 新文件，继续提交"
+            echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
+          fi
+
+      - name: Verify file content
+        run: |
+          echo "=== 文件内容验证 ==="
+          if [ -f "public/data/daily-news.md" ]; then
+            FILE_SIZE=$(wc -c < public/data/daily-news.md)
+            LINE_COUNT=$(wc -l < public/data/daily-news.md)
+            echo "文件大小: $FILE_SIZE 字节"
+            echo "文件行数: $LINE_COUNT 行"
+            echo ""
+            echo "文件内容预览 (前20行):"
+            head -20 public/data/daily-news.md
+            echo ""
+            if [ $LINE_COUNT -gt 20 ]; then
+              echo "... (共 $LINE_COUNT 行，显示前20行)"
+            fi
+          else
+            echo "❌ 文件不存在: public/data/daily-news.md"
+          fi
+
+      - name: Show commit status
+        run: |
+          if [ "$CONTENT_CHANGED" = "true" ]; then
+            echo "✅ 准备提交更改..."
+          else
+            echo "⏭️  跳过提交 - 内容没有变化"
+          fi
+
+      - name: Commit and push the generated file
+        if: env.CONTENT_CHANGED == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "AI Generate Daily News"
+          file_pattern: "public/data/daily-news.md"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "github-actions-bot@users.noreply.github.com"

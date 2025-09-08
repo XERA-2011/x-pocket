@@ -7,6 +7,15 @@ import { getSmartHref } from '@/utils/href-helper';
 
 const pagesData: ItemCardProps[] = [
   {
+    id: "daily-news",
+    title: "Daily News",
+    description: "Global hot news TOP10 from mainstream English media.",
+    href: getSmartHref("/news"),
+    icon: "📰",
+    tags: ['News', 'Global', 'Daily'],
+    difficulty: 'Easy'
+  },
+  {
     id: "black-hole-sim",
     title: "Black Hole Simulation",
     description: "Interactive physics simulation of a black hole.",
@@ -76,7 +85,7 @@ export default function PagesShowcaseSection() {
         {/* Pages Grid */}
         <ScrollReveal delay={0.4}>
           <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 lg:gap-8"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"

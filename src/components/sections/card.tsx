@@ -5,6 +5,7 @@ import ScrollReveal from '@/components/ScrollReveal';
 import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
 
 const cardData: ItemCardProps[] = [
+  { id: "daily-news", title: "Daily News", href: "/news", description: "Global hot news TOP10 from mainstream English media", tags: ['News', 'Global'], icon: "📰" },
   { id: "essays-md", title: "Essays Markdown", href: "/english/essays-md", description: "Markdown content rendering", tags: ['Content', 'Markdown'] },
   { id: "essays-json", title: "Essays JSON", href: "/english/essays", description: "JSON data format rendering", tags: ['Content', 'JSON'] },
   { id: "coze-ai", title: "COZE AI", href: "/ai/coze", description: "AI assistant integration", tags: ['AI', 'Chat'] },

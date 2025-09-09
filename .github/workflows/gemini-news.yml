@@ -46,10 +46,10 @@ jobs:
       - name: Check API availability
         run: |
           echo "=== 检查 Gemini API 可用性 ==="
-          
+
           # 创建简单测试 prompt
           echo "Hello, please respond with 'API is working'" > /tmp/test_prompt.txt
-          
+
           # 快速 API 健康检查
           if timeout 15s bash -c "cat /tmp/test_prompt.txt | gemini --model=gemini-1.5-flash" > /tmp/api_test.txt 2>&1; then
             echo "✅ API 连接正常"
@@ -58,7 +58,7 @@ jobs:
             echo "⚠️ API 连接异常，但继续尝试生成"
             echo "错误信息: $(cat /tmp/api_test.txt | head -3)"
           fi
-          
+
           rm -f /tmp/api_test.txt /tmp/test_prompt.txt
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -66,13 +66,13 @@ jobs:
       - name: Generate and save daily news
         run: |
           echo "=== 开始生成24小时内新闻 ==="
-          
+
           CURRENT_DATE=$(date '+%Y年%m月%d日')
           CURRENT_TIME=$(date '+%H:%M UTC')
-          
+
           echo "当前日期: $CURRENT_DATE"
           echo "当前时间: $CURRENT_TIME"
-          
+
           # 创建 prompt 文件
           cat > /tmp/prompt.txt << 'PROMPT_EOF'
           Generate TOP 10 global breaking news from past 24 hours. Use this exact format:
@@ -145,32 +145,32 @@ jobs:
           # 替换占位符
           sed -i "s/CURRENT_DATE_PLACEHOLDER/$CURRENT_DATE/g" /tmp/prompt.txt
           sed -i "s/CURRENT_TIME_PLACEHOLDER/$CURRENT_TIME/g" /tmp/prompt.txt
-          
+
           # 改进的重试机制
           MAX_RETRIES=2
           RETRY_COUNT=0
           SUCCESS=false
-          
+
           while [ $RETRY_COUNT -lt $MAX_RETRIES ] && [ "$SUCCESS" = "false" ]; do
             echo "尝试第 $((RETRY_COUNT + 1)) 次生成..."
-            
+
             # 分步骤处理，减少超时风险
             echo "步骤 1: 准备 API 调用..."
-            
+
             # 使用文件输入方式调用 Gemini CLI
             timeout 120s bash -c "cat /tmp/prompt.txt | gemini --model=gemini-1.5-flash" > /tmp/gemini_output.txt 2>&1
             EXIT_CODE=$?
-            
+
             # 读取输出内容
             OUTPUT=$(cat /tmp/gemini_output.txt 2>/dev/null || echo "")
-            
+
             echo "API 调用退出码: $EXIT_CODE"
             echo "输出长度: ${#OUTPUT} 字符"
             echo "输出内容预览:"
             echo "--- 开始 ---"
             echo "$OUTPUT" | head -10
             echo "--- 结束 ---"
-            
+
             # 更严格的错误检查
             if [ $EXIT_CODE -eq 124 ]; then
               echo "❌ API 调用超时 (120秒)"
@@ -187,22 +187,22 @@ jobs:
               echo "❌ API 返回默认提示，未处理请求"
             else
               echo "✅ API 调用成功，处理输出..."
-              
+
               # 清理和验证输出
               echo "$OUTPUT" | sed 's/^```[a-z]*//g' | sed 's/^```$//g' | sed '/^$/N;/^\n$/d' > public/data/daily-news.md
-              
+
               if [ -s "public/data/daily-news.md" ]; then
                 FILE_SIZE=$(wc -c < public/data/daily-news.md)
                 LINE_COUNT=$(wc -l < public/data/daily-news.md)
-                
+
                 echo "生成文件: $FILE_SIZE 字节, $LINE_COUNT 行"
-                
+
                 # 验证内容结构 - 适应 TOP10 格式
                 if [ $FILE_SIZE -gt 1000 ] && [ $LINE_COUNT -gt 40 ]; then
                   if grep -q "# Global Breaking News TOP10\|# 全球热点新闻TOP10" public/data/daily-news.md && \
-                     grep -q "### 1\." public/data/daily-news.md && \
-                     grep -q "### 5\." public/data/daily-news.md && \
-                     grep -q "### 10\." public/data/daily-news.md; then
+                      grep -q "### 1\." public/data/daily-news.md && \
+                      grep -q "### 5\." public/data/daily-news.md && \
+                      grep -q "### 10\." public/data/daily-news.md; then
                     echo "✅ 内容验证通过"
                     SUCCESS=true
                     break
@@ -218,7 +218,7 @@ jobs:
                 echo "❌ 生成文件为空"
               fi
             fi
-            
+
             # 准备重试
             if [ "$SUCCESS" = "false" ]; then
               RETRY_COUNT=$((RETRY_COUNT + 1))
@@ -229,48 +229,48 @@ jobs:
               fi
             fi
           done
-          
+
           # 清理临时文件
           rm -f /tmp/gemini_output.txt /tmp/prompt.txt
-          
+
           # 最终处理
           if [ "$SUCCESS" = "false" ]; then
             echo "❌ 所有重试失败，创建状态报告"
-            
+
             cat > public/data/daily-news.md << 'EOF'
-            # 新闻服务状态报告
+# 新闻服务状态报告
 
-            **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')
-            **状态**: API 服务暂时不可用
+**生成时间**: PLACEHOLDER_DATE
+**状态**: API 服务暂时不可用
 
-            ## 服务信息
+## 服务信息
 
-            Gemini API 当前遇到连接问题，可能原因：
-            - API 服务器临时过载
-            - 网络连接超时
-            - API 配额限制
+Gemini API 当前遇到连接问题，可能原因：
+- API 服务器临时过载
+- 网络连接超时
+- API 配额限制
 
-            ## 技术详情
+## 技术详情
 
-            ```
-            重试次数: 2
-            超时设置: 120秒
-            模型: gemini-1.5-flash
-            ```
+```
+重试次数: 2
+超时设置: 120秒
+模型: gemini-1.5-flash
+```
 
-            ## 解决方案
+## 解决方案
 
-            1. 系统将在下次定时任务自动重试
-            2. 如持续失败，请检查 API 密钥配置
-            3. 考虑调整生成时间或模型参数
+1. 系统将在下次定时任务自动重试
+2. 如持续失败，请检查 API 密钥配置
+3. 考虑调整生成时间或模型参数
 
-            ---
-            *此报告由自动化系统生成 / Generated by automated system*
-            EOF
-            
+---
+*此报告由自动化系统生成 / Generated by automated system*
+EOF
+
             # 替换变量
-            sed -i "s/\$(date '+%Y-%m-%d %H:%M:%S UTC')/$(date '+%Y-%m-%d %H:%M:%S UTC')/g" public/data/daily-news.md
-            
+            sed -i "s/PLACEHOLDER_DATE/$(date '+%Y-%m-%d %H:%M:%S UTC')/g" public/data/daily-news.md
+
             echo "✅ 状态报告已创建"
           else
             echo "✅ 新闻生成成功"
@@ -281,45 +281,45 @@ jobs:
       - name: Create fallback content if needed
         run: |
           echo "=== 检查是否需要创建备用内容 ==="
-          
+
           if [ ! -f "public/data/daily-news.md" ] || [ ! -s "public/data/daily-news.md" ]; then
             echo "⚠️ 主要生成失败，创建备用新闻内容"
-            
+
             cat > public/data/daily-news.md << 'EOF'
-            # Global Breaking News / 全球热点新闻
+# Global Breaking News / 全球热点新闻
 
-            **Date**: $(date '+%Y年%m月%d日')
-            **Update Time**: $(date '+%H:%M UTC')
-            **Status**: Service Temporarily Unavailable / 服务暂时不可用
+**Date**: PLACEHOLDER_DATE_CN
+**Update Time**: PLACEHOLDER_TIME
+**Status**: Service Temporarily Unavailable / 服务暂时不可用
 
-            ---
+---
 
-            ## Service Notice / 服务通知
+## Service Notice / 服务通知
 
-            The automated news generation service is currently experiencing technical difficulties with the AI API. This is typically a temporary issue that resolves within a few hours.
+The automated news generation service is currently experiencing technical difficulties with the AI API. This is typically a temporary issue that resolves within a few hours.
 
-            新闻自动生成服务当前遇到AI接口技术问题。这通常是临时性问题，会在几小时内解决。
+新闻自动生成服务当前遇到AI接口技术问题。这通常是临时性问题，会在几小时内解决。
 
-            ### What's happening / 当前状况
-            - AI API connection timeout / AI接口连接超时
-            - Retry mechanism activated / 重试机制已激活
-            - Next attempt scheduled / 下次尝试已安排
+### What's happening / 当前状况
+- AI API connection timeout / AI接口连接超时
+- Retry mechanism activated / 重试机制已激活
+- Next attempt scheduled / 下次尝试已安排
 
-            ### Expected resolution / 预期解决时间
-            The service will automatically retry during the next scheduled run at 22:00 UTC (06:00 Beijing time).
+### Expected resolution / 预期解决时间
+The service will automatically retry during the next scheduled run at 22:00 UTC (06:00 Beijing time).
 
-            服务将在下次计划运行时间22:00 UTC（北京时间06:00）自动重试。
+服务将在下次计划运行时间22:00 UTC（北京时间06:00）自动重试。
 
-            ---
+---
 
-            *This notice is generated automatically when the primary news service is unavailable.*  
-            *此通知在主要新闻服务不可用时自动生成。*
-            EOF
-            
+*This notice is generated automatically when the primary news service is unavailable.*
+*此通知在主要新闻服务不可用时自动生成。*
+EOF
+
             # 替换变量
-            sed -i "s/\$(date '+%Y年%m月%d日')/$(date '+%Y年%m月%d日')/g" public/data/daily-news.md
-            sed -i "s/\$(date '+%H:%M UTC')/$(date '+%H:%M UTC')/g" public/data/daily-news.md
-            
+            sed -i "s/PLACEHOLDER_DATE_CN/$(date '+%Y年%m月%d日')/g" public/data/daily-news.md
+            sed -i "s/PLACEHOLDER_TIME/$(date '+%H:%M UTC')/g" public/data/daily-news.md
+
             echo "✅ 备用内容已创建"
           else
             echo "✅ 主要内容存在，无需备用内容"
@@ -328,12 +328,12 @@ jobs:
       - name: Check if content has changed
         run: |
           echo "=== Content Change Detection ==="
-          
+
           # 检查是否有现有文件
           if [ -f "public/data/daily-news.md" ]; then
             # 保存新生成的文件到临时位置
             cp public/data/daily-news.md /tmp/new_daily_news.md
-            
+
             # 获取当前仓库中的文件
             if git show HEAD:public/data/daily-news.md > /tmp/current_daily_news.md 2>/dev/null; then
               echo "✅ 成功获取当前仓库文件"
@@ -342,18 +342,18 @@ jobs:
               echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
               exit 0
             fi
-            
+
             # 计算哈希值
             NEW_HASH=$(sha256sum /tmp/new_daily_news.md | cut -d' ' -f1)
             CURRENT_HASH=$(sha256sum /tmp/current_daily_news.md | cut -d' ' -f1)
-            
+
             echo "新生成文件哈希: $NEW_HASH"
             echo "当前文件哈希: $CURRENT_HASH"
             echo "新文件大小: $(wc -c < /tmp/new_daily_news.md) bytes"
             echo "当前文件大小: $(wc -c < /tmp/current_daily_news.md) bytes"
             echo "新文件行数: $(wc -l < /tmp/new_daily_news.md) lines"
             echo "当前文件行数: $(wc -l < /tmp/current_daily_news.md) lines"
-            
+
             # 显示内容差异
             echo ""
             echo "=== 内容差异比较 ==="
@@ -366,7 +366,7 @@ jobs:
               diff -u /tmp/current_daily_news.md /tmp/new_daily_news.md || true
               echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
             fi
-            
+
             # 清理临时文件
             rm -f /tmp/new_daily_news.md /tmp/current_daily_news.md
           else

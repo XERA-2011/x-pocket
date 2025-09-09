@@ -79,12 +79,11 @@ jobs:
           cat > /tmp/prompt.txt << 'PROMPT_EOF'
           Generate TOP 10 global breaking news from past 24 hours. Use this exact format:
 
-          # Global Breaking News TOP10 / 全球热点新闻TOP10
+          # Global Breaking News TOP10
 
           **Date**: CURRENT_DATE_PLACEHOLDER
           **Update Time**: CURRENT_TIME_PLACEHOLDER
           **AI Model**: Google Gemini / Google Gemini
-          **Data Source**: English Mainstream Media / 英文主流媒体综合
 
           ---
 

@@ -1,72 +1,29 @@
-# Global Breaking News TOP10 / 全球热点新闻TOP10
+# 新闻服务状态报告
 
-**Date**: 2025年09月09日
-**Update Time**: 02:06 UTC
+**生成时间**: 2025-09-09 02:20:34 UTC
 **AI Model**: Google Gemini / Google Gemini
-**Data Source**: English Mainstream Media / 英文主流媒体综合
+**状态**: API 服务暂时不可用
+
+## 服务信息
+
+Gemini API 当前遇到连接问题，可能原因：
+- API 服务器临时过载
+- 网络连接超时
+- API 配额限制
+
+## 技术详情
+
+```
+重试次数: 2
+超时设置: 120秒
+模型: 默认模型
+```
+
+## 解决方案
+
+1. 系统将在下次定时任务自动重试
+2. 如持续失败，请检查 API 密钥配置
+3. 考虑调整生成时间或模型参数
 
 ---
-
-### 1. **Attack at Jerusalem Bus Stop Kills Six** / **耶路撒冷公交车站袭击致六人死亡**
-- **Time**: 2025-09-09
-- **Keywords**: Jerusalem, attack, bus stop, violence / 耶路撒冷, 袭击, 公交车站, 暴力
-- **Content**: Palestinian gunmen opened fire at a crowded bus stop during morning rush hour in Jerusalem, killing six people and wounding twelve. The attack has heightened tensions in the region. / 巴勒斯坦枪手在耶路撒冷早高峰时段向一个拥挤的公交车站开火，造成六人死亡，十二人受伤。此次袭击加剧了该地区的紧张局势。
-- **Source**: Associated Press
-
-### 2. **French Government Collapses After No-Confidence Vote** / **法国政府在不信任投票后垮台**
-- **Time**: 2025-09-09
-- **Keywords**: France, government collapse, Emmanuel Macron, no-confidence vote / 法国, 政府垮台, 埃马纽埃尔·马克龙, 不信任投票
-- **Content**: The French government has collapsed following a vote of no confidence, compelling President Emmanuel Macron to appoint a new prime minister for the fourth time in a year. / 法国政府在一次不信任投票后垮台，迫使总统埃马纽埃尔·马克龙在一年内第四次任命新总理。
-- **Source**: The Guardian
-
-### 3. **Deadly Clashes in Nepal Over Social Media Ban** / **尼泊尔因社交媒体禁令爆发致命冲突**
-- **Time**: 2025-09-09
-- **Keywords**: Nepal, protests, social media ban, clashes / 尼泊尔, 抗议, 社交媒体禁令, 冲突
-- **Content**: Violent clashes between protesters and police erupted outside Nepal's parliament following a government ban on social media platforms, resulting in at least 11 deaths. / 在政府禁止社交媒体平台后，尼泊尔议会外爆发了抗议者与警察之间的暴力冲突，导致至少11人死亡。
-- **Source**: CBS News
-
-### 4. **Israel Destroys High-Rise in Gaza City Offensive** / **以色列在加沙市的攻势中摧毁高楼**
-- **Time**: 2025-09-09
-- **Keywords**: Israel, Gaza, offensive, high-rise building / 以色列, 加沙, 攻势, 高楼
-- **Content**: As part of its intensified offensive in Gaza City, the Israeli military destroyed a high-rise building after issuing evacuation orders to residents. / 作为对加沙市加强攻势的一部分，以色列军方在向居民发出疏散命令后，摧毁了一座高层建筑。
-- **Source**: Global News
-
-### 5. **Massive Landslide in Sudan Claims Over 1,000 Lives** / **苏丹特大滑坡致逾千人遇难**
-- **Time**: 2025-09-09
-- **Keywords**: Sudan, landslide, natural disaster, casualties / 苏丹, 山体滑坡, 自然灾害, 伤亡
-- **Content**: A devastating landslide in a remote region of Sudan has reportedly killed at least 1,000 people, according to a statement from a local rebel group. Rescue efforts are underway. / 据当地一反政府组织声明，苏丹偏远地区发生毁灭性山体滑坡，据报已造成至少1000人死亡。救援工作正在进行中。
-- **Source**: The Guardian
-
-### 6. **Russia Launches Largest Aerial Attack on Ukraine Since Invasion Began** / **俄罗斯对乌克兰发动入侵以来最大规模空袭**
-- **Time**: 2025-09-09
-- **Keywords**: Russia, Ukraine, aerial attack, Kyiv / 俄罗斯, 乌克兰, 空中打击, 基辅
-- **Content**: Ukraine is facing the aftermath of Russia's most extensive aerial assault since the full-scale invasion started, which caused significant damage to a government building in the capital, Kyiv. / 乌克兰正面临自全面入侵开始以来俄罗斯最大规模的空袭后果，首都基辅的一座政府大楼遭到严重破坏。
-- **Source**: Associated Press
-
-### 7. **Migrant Boat Capsizes Off Mauritania, 69 Drown** / **毛里塔尼亚外海移民船倾覆，69人溺亡**
-- **Time**: 2025-09-09
-- **Keywords**: Mauritania, migrant boat, capsized, drowning / 毛里타尼亚, 移民船, 倾覆, 溺水
-- **Content**: A boat carrying migrants capsized off the coast of Mauritania, leading to the drowning of 69 people in one of the deadliest such incidents this year. / 一艘载有移民的船只在毛里塔尼亚海岸倾覆，导致69人溺水身亡，这是今年以来最致命的同类事件之一。
-- **Source**: The Guardian
-
-### 8. **Houthi Drone Successfully Strikes Airport in Israel** / **胡塞武装无人机成功袭击以色列机场**
-- **Time**: 2025-09-09
-- **Keywords**: Houthi, drone strike, Israel, airport / 胡塞武装, 无人机袭击, 以色列, 机场
-- **Content**: In a rare successful long-range attack, a drone launched by Houthi rebels struck an airport in Israel, marking a significant escalation in their capabilities. / 胡塞反政府武装发射的一架无人机在一次罕见的远程袭击中成功击中以色列一个机场，标志着其能力显著升级。
-- **Source**: Associated Press
-
-### 9. **Argentine President Milei's Government Suffers Major Electoral Setback** / **阿根廷总统米莱政府遭遇重大选举挫折**
-- **Time**: 2025-09-09
-- **Keywords**: Argentina, Javier Milei, election, political setback / 阿根廷, 哈维尔·米莱, 选举, 政治挫折
-- **Content**: The government of Argentine President Javier Milei has suffered a significant blow in regional elections, seen as a public referendum on his radical economic austerity measures. / 阿根廷总统哈维尔·米莱的政府在地区选举中遭受重大打击，这被视为对其激进经济紧缩措施的公开全民公投。
-- **Source**: The Guardian
-
-### 10. **Fugitive Father in New Zealand Shot and Killed by Police After Four-Year Manhunt** / **新西兰在逃父亲在四年追捕后被警方击毙**
-- **Time**: 2025-09-09
-- **Keywords**: New Zealand, fugitive, police shooting, manhunt / 新西兰, 逃犯, 警察枪击, 追捕
-- **Content**: A father who had been on the run with his three children for nearly four years was shot and killed by police in New Zealand, ending one of the country's longest manhunts. / 一名携三个孩子在逃近四年的父亲在新西兰被警方击毙，结束了该国历时最长的追捕行动之一。
-- **Source**: The Guardian
-
----
-
-*This news summary is generated by Google Gemini AI for reference only. / 本新闻摘要由Google Gemini AI自动生成，仅供参考。*
+*此报告由Google Gemini自动化系统生成 / Generated by Google Gemini automated system*

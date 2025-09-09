@@ -24,6 +24,21 @@ jobs:
           npm install -g @google/gemini-cli
           echo "验证安装..."
           gemini --version || echo "Gemini CLI 版本检查失败"
+          
+          echo "配置 Gemini API 认证..."
+          # 创建配置目录
+          mkdir -p ~/.gemini
+          
+          # 创建配置文件
+          cat > ~/.gemini/settings.json << EOF
+          {
+            "auth": {
+              "method": "api_key",
+              "api_key": "$GEMINI_API_KEY"
+            }
+          }
+          EOF
+          
           echo "测试 API 连接..."
           echo "Hello" | timeout 30s gemini || echo "API 连接测试失败"
       - name: Create output directory
@@ -32,6 +47,16 @@ jobs:
       - name: Check API availability
         run: |
           echo "=== 检查 Gemini API 可用性 ==="
+          
+          # 验证配置文件
+          echo "检查认证配置..."
+          if [ -f ~/.gemini/settings.json ]; then
+            echo "✅ 配置文件存在"
+            # 不显示完整内容以保护 API 密钥
+            echo "配置文件大小: $(wc -c < ~/.gemini/settings.json) 字节"
+          else
+            echo "❌ 配置文件不存在"
+          fi
           
           # 简单的 API 健康检查
           echo "测试基本 API 连接..."

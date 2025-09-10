@@ -1,40 +1,42 @@
 # 应用文
 
-## An email to a local newspaper giving your opinion on recycling
-- 给当地报社的关于回收利用的观点邮件
+## An email to an online shop complaining about a delayed delivery
+- [写给一家网店的投诉邮件，抱怨延迟交货]
 
 **正文**：
 
-Dear Editor,
+Dear Sir or Madam,
 
-I am writing to share my opinion on the recycling facilities in our town. I strongly believe that recycling is essential for protecting our environment. It helps to reduce the amount of waste that goes to landfill sites and also saves valuable natural resources.
+I am writing to complain about a delayed delivery. My order number is #12988, which I placed on September 1st. The order was for a blue jacket, and I was informed that it would be delivered within five working days.
 
-While I see many people are trying their best, I think the local council could do more to encourage recycling. For example, placing more recycling bins in public areas like parks and shopping streets would be a great help. Also, clearer information about what can and cannot be recycled would be very useful for all residents.
+However, it has now been ten days, and I still have not received my parcel. The tracking information has not been updated since September 3rd. I am very disappointed with this service as I needed the jacket for a trip this weekend.
 
-Thank you for considering my views.
+Could you please investigate this matter immediately? I would like to know the status of my delivery. If you cannot guarantee its arrival within the next two days, I will have to request a full refund.
+
+I look forward to your prompt reply.
 
 Yours faithfully,
-Alex Chen
+Chris Wang
 
-- 尊敬的编辑，
-- 我写信是为了分享我对我们城镇回收设施的看法。我坚信回收利用对于保护我们的环境至关重要。它有助于减少送往垃圾填埋场的废物量，并能节约宝贵的自然资源。
-- 尽管我看到许多人都在尽力而为，但我认为地方议会可以采取更多措施来鼓励回收。例如，在公园和商业街等公共区域设置更多的回收箱将会有很大帮助。此外，为所有居民提供关于哪些物品可以回收、哪些不能回收的更清晰信息也会非常有用。
-- 感谢您考虑我的观点。
-- 忠实的读者，
-- Alex Chen
+- 我写这封信是为了投诉延迟交货。我的订单号是 #12988，于9月1日下单。订单商品是一件蓝色夹克，我被告知将在五个工作日内送达。
+- 然而，现在已经过去十天了，我仍未收到我的包裹。物流信息自9月3日起就再也没有更新过。我对此服务感到非常失望，因为我本周末的旅行需要这件夹克。
+- 您能否立即调查此事？我想知道我的货物的配送状态。如果您不能保证在未来两天内送达，我将不得不要求全额退款。
+- 我期待您的及时回复。
+- 诚挚的，
+- 克里斯·王
 
 ---
 
 # 记叙文/短文
 
-## An article giving advice on how to make new friends
-- 一篇关于如何交新朋友的建议文章
+## Write a story beginning: The phone rang at midnight and changed everything.
+- [写一个以下列句子开头的故事：午夜时分，电话铃响了，一切都改变了。]
 
 **正文**：
 
-Making new friends can sometimes feel difficult, but there are many ways to meet new people. One of the best methods is to join a club or group that focuses on something you enjoy. Whether it's a sports team, a language class, or a book club, you will meet people with similar interests.
+The phone rang at midnight and changed everything. I was half-asleep, but the caller's voice was urgent. It was my aunt, who I hadn't heard from in years. "Your grandfather left you something," she said, "a small bookshop in Paris. You need to come immediately."
 
-When you are with new people, try to be open and friendly. A simple smile can make you seem more approachable. Don't be afraid to start a conversation; you can ask them about their hobbies or interests. Remember to be a good listener too. People appreciate it when you show genuine interest in them.
+I was shocked. I was a junior accountant living a boring life. A week later, I was standing in front of "Le Rêveur," a charming little shop with dusty windows. Inside, I found not just old books, but a letter from my grandfather. He wrote about a hidden treasure, not of gold, but of stories and secrets. My quiet life was over; a new adventure had just begun.
 
-- 交新朋友有时会让人觉得困难，但有很多方法可以认识新的人。最好的方法之一就是加入一个你感兴趣的俱乐部或团体。无论是运动队、语言班还是读书会，你都会遇到有相似兴趣的人。
-- 和新朋友在一起时，试着开放和友好一些。一个简单的微笑就能让你看起来更容易接近。不要害怕主动开启对话，你可以问问他们关于爱好或兴趣的问题。记住也要做一个好的倾听者。当你对他人表现出真正的兴趣时，人们会很感激。
+- 午夜时分，电话铃响了，一切都改变了。我当时半梦半醒，但来电者的声音非常急切。是我姑妈，一个我已多年未联系的亲人。她说：“你爷爷给你留下了一些东西，是巴黎的一家小书店。你需要马上过来。”
+- 我惊呆了。我只是一名过着乏味生活的小会计。一周后，我站在了一家名为“梦想家”的迷人小店前，店面的窗户布满灰尘。在里面，我不仅找到了旧书，还有一封爷爷留下的信。信中他提到了一个隐藏的宝藏，不是金银，而是关于故事和秘密的宝藏。我平静的生活结束了，一场新的冒险才刚刚开始。

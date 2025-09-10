@@ -89,61 +89,51 @@ jobs:
 
           ### 1. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 2. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 3. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 4. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 5. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 6. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 7. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 8. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 9. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
           ### 10. **[English Title]** / **[中文标题]**
           - **Time**: CURRENT_DATE_ISO_PLACEHOLDER
-          - **Keywords**: [English Keywords] / [中文关键词]
           - **Content**: [English Summary] / [中文摘要]
           - **Source**: [Media Name]
 
@@ -420,7 +410,7 @@ jobs:
         if: env.CONTENT_CHANGED == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "AI Generate Daily News"
+          commit_message: "AI Generate News"
           file_pattern: "public/data/daily-news.md"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions-bot@users.noreply.github.com"

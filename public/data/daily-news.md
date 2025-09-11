@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月10日
+**Date**: 2025年09月11日
 **Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Russian Drones Infiltrate Polish Airspace, Prompting NATO Response** / **俄罗斯无人机侵入波兰领空，引发北约反应**
-- **Time**: 2025-09-10
-- **Content**: Multiple Russian drones reportedly crossed into Poland, a NATO member state, in what European officials are calling a deliberate provocation. The act triggered an immediate response from NATO, which scrambled fighter jets to intercept and monitor the situation. / 多架俄罗斯无人机据报侵入北约成员国波兰领空，欧洲官员称此为蓄意挑衅。此举引发北约紧急反应，紧急出动战斗机进行拦截和监视。
+### 1. **Conservative Activist Charlie Kirk Assassinated** / **保守派活动家查理·柯克遇刺身亡**
+- **Time**: 2025-09-11
+- **Content**: Conservative activist Charlie Kirk was fatally shot, leading to an FBI investigation, widespread tributes from political figures including Donald Trump, and an ongoing manhunt for the assassin. / 保守派活动家查理·柯克被枪杀，联邦调查局已介入调查，包括唐纳德·特朗普在内的政界人士纷纷表示哀悼，追捕凶手的行动仍在进行中。
 - **Source**: Associated Press
 
-### 2. **Israel Intensifies Airstrikes on Gaza and Targets Hamas Leaders Abroad** / **以色列加强对加沙的空袭并针对海外哈马斯领导人**
-- **Time**: 2025-09-10
-- **Content**: Israel has escalated its military operations with intensified airstrikes on Gaza City and targeted attacks against Hamas leaders in Yemen and Doha. The looming ground offensive has prompted calls from EU leaders for sanctions against Israel. / 以色列升级了其军事行动，加强了对加沙城的空袭，并针对也门和多哈的哈马斯领导人发动了定点袭击。迫在眉睫的地面攻势已促使欧盟领导人呼吁对以色列实施制裁。
+### 2. **Israeli Airstrike in Doha Kills Hamas Leaders** / **以色列空袭多哈，哈马斯领导人身亡**
+- **Time**: 2025-09-11
+- **Content**: An Israeli airstrike in Doha, Qatar, reportedly killed at least 35 people and targeted Hamas leaders. This event has complicated Qatar's role as a mediator between Israel and Hamas and drawn international criticism. / 据报道，以色列对卡塔尔多哈发动空袭，造成至少35人死亡，目标是哈马斯领导人。此次事件使卡塔尔作为以色列与哈马斯之间调解人的角色变得复杂，并引发了国际社会的批评。
 - **Source**: Reuters
 
-### 3. **Widespread Protests and Unrest in Nepal Lead to Prime Minister's Resignation** / **尼泊尔爆发大规模抗议和骚乱，导致总理辞职**
-- **Time**: 2025-09-10
-- **Content**: Nepal is experiencing a wave of intense protest violence, leading to the deployment of the army to restore order. Amid the escalating unrest, the country's Prime Minister has reportedly resigned. / 尼泊尔正经历一波强烈的抗议暴力浪潮，导致军队部署以恢复秩序。在不断升级的骚乱中，该国总理据报已经辞职。
-- **Source**: The Hindu
-
-### 4. **Clashes and Mass Arrests During Protests Across France** / **法国各地抗议活动中发生冲突和大规模逮捕**
-- **Time**: 2025-09-10
-- **Content**: Protesters have clashed with police in Paris and other cities across France, resulting in numerous arrests. The demonstrations are related to controversial government reforms. / 抗议者在巴黎及法国其他城市与警察发生冲突，导致多人被捕。示威活动与备受争议的政府改革有关。
-- **Source**: France 24
-
-### 5. **Conservative Activist Charlie Kirk Shot at Utah College Event** / **保守派活动家查理·柯克在犹他州大学活动中遭枪击**
-- **Time**: 2025-09-10
-- **Content**: Charlie Kirk, a prominent right-wing activist and ally of former President Trump, was reportedly shot and injured during a speaking event at a college in Utah. The suspect is in custody. / 著名右翼活动家、前总统特朗普的盟友查理·柯克据报在犹他州一所大学的演讲活动中被枪击受伤。嫌疑人已被拘留。
-- **Source**: The Guardian
-
-### 6. **Russian Glide Bomb Attack Kills 24 in Eastern Ukraine** / **俄罗斯滑翔炸弹袭击导致乌克兰东部24人死亡**
-- **Time**: 2025-09-10
-- **Content**: A Russian glide bomb attack in a town in eastern Ukraine has killed at least 24 people. The victims were reportedly civilians who had gathered to collect their pensions. / 俄罗斯对乌克兰东部一个城镇发动的滑翔炸弹袭击已导致至少24人死亡。据报道，遇难者是聚集在一起领取养老金的平民。
+### 3. **Russian Drones Violate Polish Airspace** / **俄罗斯无人机侵犯波兰领空**
+- **Time**: 2025-09-11
+- **Content**: Russian drones violated Polish airspace, prompting Poland to secure damaged objects, plan a no-fly zone, and call for an emergency UN meeting. NATO has condemned the incursion as "reckless and escalatory." / 俄罗斯无人机侵犯波兰领空，促使波兰保护受损物体、计划设立禁飞区并要求召开联合国紧急会议。北约谴责此次入侵是“鲁莽和升级的”行为。
 - **Source**: BBC News
 
-### 7. **Qatar's Mediation Role Between Israel and Hamas Under Strain** / **卡塔尔在以色列与哈马斯之间的调解角色面临压力**
-- **Time**: 2025-09-10
-- **Content**: Qatar's crucial role as a mediator between Israel and Hamas is facing significant challenges following a recent Israeli attack in Doha that targeted Hamas officials. / 在以色列最近于多哈发动针对哈马斯官员的袭击后，卡塔尔作为以色列与哈马斯之间关键调解人的角色正面临重大挑战。
+### 4. **Nepal Prime Minister Resigns Amidst Protests** / **尼泊尔总理在抗议声中辞职**
+- **Time**: 2025-09-11
+- **Content**: Nepal is experiencing intensified protest violence, with the army attempting to restore order and the Prime Minister resigning amidst the unrest. / 尼泊尔正在经历日益激烈的抗议暴力活动，军队试图恢复秩序，总理在动乱中辞职。
 - **Source**: Al Jazeera
 
-### 8. **Gaza Aid Flotilla Reports Second Night of Drone Attacks** / **加沙援助船队报告连续第二晚遭到无人机袭击**
-- **Time**: 2025-09-10
-- **Content**: An international activist flotilla attempting to deliver humanitarian aid to Gaza has reported being attacked by drones for the second consecutive night. The organizers have accused Israel of attempting to sabotage their mission. / 一支试图向加沙运送人道主义援助的国际活动家船队报告称，他们已连续第二晚遭到无人机袭击。组织者指责以色列试图破坏他们的任务。
-- **Source**: Sky News
+### 5. **Brazil's Jair Bolsonaro Convicted in Coup Plot Trial** / **巴西前总统博索纳罗在政变阴谋审判中被定罪**
+- **Time**: 2025-09-11
+- **Content**: Former Brazilian President Jair Bolsonaro has been convicted in a coup plot trial, with a majority of Supreme Court judges voting for his conviction, making a lengthy prison sentence likely. / 巴西前总统雅伊尔·博索纳罗在政变阴谋审判中被定罪，最高法院大多数法官投票赞成其有罪，他很可能面临长期监禁。
+- **Source**: The Guardian
 
-### 9. **World's Largest Iceberg, A23a, Begins to Break Apart** / **世界最大冰山A23a开始崩解**
-- **Time**: 2025-09-10
-- **Content**: The world's largest iceberg, A23a, which has been drifting for decades, has reportedly started to break apart as it moves into warmer waters. Scientists are monitoring its trajectory and impact on sea levels. / 据报道，漂流了数十年的世界最大冰山A23a在进入较暖水域后已开始崩解。科学家们正在监测其轨迹和对海平面的影响。
-- **Source**: National Geographic
+### 6. **Belarus Frees 52 Political Prisoners** / **白俄罗斯释放52名政治犯**
+- **Time**: 2025-09-11
+- **Content**: Belarus has released 52 political prisoners following US mediation, leading to the US lifting some sanctions on Belarus's national airline. / 在美国调解下，白俄罗斯释放了52名政治犯，美国因此取消了对白俄罗斯国家航空公司的部分制裁。
+- **Source**: Associated Press
 
-### 10. **EU Chief Calls for European 'Independence Moment' Amid Global Tensions** / **欧盟领导人在全球紧张局势下呼吁欧洲迎来“独立时刻”**
-- **Time**: 2025-09-10
-- **Content**: The head of the European Union has called for Europe to assert its 'independence moment' in response to ongoing wars and major power tensions, urging the bloc to strengthen its strategic autonomy. / 欧盟负责人呼吁欧洲在全球持续的战争和主要大国紧张局​​势下，主张自己的“独立时刻”，并敦促欧盟加强其战略自主性。
-- **Source**: The Financial Times
+### 7. **Dozens Killed in Israeli Attacks on Gaza** / **以色列袭击加沙，数十人死亡**
+- **Time**: 2025-09-11
+- **Content**: Beyond the Doha strike, Israeli attacks on Gaza have killed dozens of people, with families recounting panic as they flee their homes in northern Gaza. / 除多哈空袭外，以色列对加沙的袭击已造成数十人死亡，逃离加沙北部家园的家庭讲述了他们的恐慌经历。
+- **Source**: Al Jazeera
+
+### 8. **Novo Nordisk Announces 9,000 Layoffs** / **诺和诺德宣布裁员9000人**
+- **Time**: 2025-09-11
+- **Content**: Novo Nordisk, the pharmaceutical company behind Ozempic and Wegovy, announced 9,000 layoffs as part of a restructuring. / 生产Ozempic和Wegovy的制药公司诺和诺德宣布，作为重组计划的一部分，将裁员9000人。
+- **Source**: Global News
+
+### 9. **Flash Floods in Indonesia Kill at Least 15** / **印度尼西亚山洪暴发，至少15人死亡**
+- **Time**: 2025-09-11
+- **Content**: Flash floods in Indonesia have resulted in at least 15 deaths and 10 people missing. / 印度尼西亚的山洪暴发已导致至少15人死亡，10人失踪。
+- **Source**: The Guardian
+
+### 10. **South Africa to Reopen Steve Biko Inquest** / **南非将重启对史蒂夫·比科的调查**
+- **Time**: 2025-09-11
+- **Content**: South Africa is set to reopen the inquest into the 1977 death in custody of anti-apartheid leader Steve Biko. / 南非将重新启动对1977年反种族隔离领袖史蒂夫·比科在押期间死亡事件的调查。
+- **Source**: AP News
 
 ---
 

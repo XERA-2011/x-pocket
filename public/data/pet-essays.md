@@ -1,45 +1,37 @@
 # 应用文
 
-## An email to a language school asking about English courses and prices
-- 一封给语言学校的邮件，询问英语课程和价格
+## An email to a local newspaper giving your opinion on recycling
+- 一封就回收利用问题向当地报纸发表意见的邮件
 
 **正文**：
 
-Dear Sir or Madam,
+Dear Editor,
 
-I am writing to ask for information about the English courses at your school. I am an intermediate student and I would like to improve my speaking and writing skills before taking the PET exam this winter.
+I am writing to share my opinion on recycling in our town. I believe recycling is incredibly important for protecting our environment, but we are not doing enough to encourage it. Many people want to recycle, but the lack of facilities makes it difficult.
 
-Could you please send me some details about your courses? I am particularly interested in intensive evening classes. I would also like to know about the class sizes and the qualifications of your teachers.
+For example, there are very few public recycling bins, especially in the town centre and parks. I suggest the local council should install more bins for plastic, paper, and glass in these areas. This would make it much more convenient for residents. A small change like this could make a big difference.
 
-Finally, could you please provide me with a list of your current prices and any available discounts for students?
+Sincerely,
+A concerned resident.
 
-I look forward to hearing from you soon.
-
-Yours faithfully,
-Chris Wang
-
-- 我写信是为了咨询贵校的英语课程信息。我是一名中级水平的学生，希望在今年冬天参加PET考试前提高我的口语和写作能力。
-- 您能否寄给我一些关于课程的详细信息？我对晚间的强化课程特别感兴趣。我还想了解班级规模和教师的资历。
-- 最后，您能否为我提供一份当前的价目表以及针对学生的任何可用折扣？
-- 我期待尽快收到您的回复。
-- 谨启，
-- Chris Wang
+- 尊敬的编辑：
+- 我写信是为了分享我对我们城镇回收利用的看法。我认为回收对于保护我们的环境极其重要，但我们做得还不够，未能鼓励此举。许多人想要回收，但设施的缺乏使其变得困难。
+- 例如，公共回收箱非常少，尤其是在市中心和公园里。我建议地方议会在这些区域安装更多用于回收塑料、纸张和玻璃的箱子。这将为居民提供极大的便利。像这样一个小小的改变可能会带来巨大的不同。
+- 此致，
+- 一位关心的居民。
 
 ---
 
 # 记叙文/短文
 
-## An article explaining how students can help protect the environment
-- 一篇解释学生如何帮助保护环境的文章
+## A story about a wish that came true in an unexpected way
+- 一个以意想不到的方式成真的愿望
 
 **正文**：
 
-Protecting our planet is everyone’s responsibility, and students can make a big difference. There are many simple things we can do every day to help the environment.
+Last week, I was tired of my busy schedule and wished for a quiet day to myself. "If only I could have one day with no interruptions," I thought. The next morning, my wish came true, but not as I had imagined. A huge snowstorm had hit overnight, and the entire town was snowed in.
 
-Firstly, we should always remember to reduce, reuse, and recycle. For example, use a reusable water bottle instead of buying plastic ones. Secondly, we can save energy by turning off lights and computers when we are not using them. It’s also a good idea to save water at home and at school.
+There was no school, no internet, and no electricity. At first, it was perfect silence. But soon, my family gathered in the living room. We played board games and told stories by the fireplace. It wasn't the solo quiet day I wished for, but this unexpected time together was even better.
 
-Finally, walking, cycling, or using public transport to get to school helps reduce pollution. If we all make these small changes, we can create a cleaner and greener world for the future.
-
-- 保护我们的地球是每个人的责任，而学生可以发挥重要作用。我们每天可以做很多简单的事情来帮助环境。
-- 首先，我们应该时刻记住减少使用、重复利用和回收。例如，使用可重复利用的水瓶，而不是购买塑料瓶。其次，我们可以在不使用电灯和电脑时将其关闭，以节约能源。在家里和学校节约用水也是一个好主- 意。
-- 最后，步行、骑自行车或乘坐公共交通工具上学有助于减少污染。如果我们都做出这些小小的改变，我们就能为未来创造一个更清洁、更绿色的世界。
+- 上周，我对自己繁忙的日程感到厌倦，希望能有一个属于自己的安静日子。“要是我能有一天不被打扰就好了，”我想。第二天早上，我的愿望成真了，但并非如我所想。一场巨大的暴风雪在一夜之间来袭，整个小镇都被大雪封住了。
+- 学校停课，网络中断，电力也停了。起初，是完美的寂静。但很快，我的家人聚集在客厅里。我们在壁炉旁玩棋盘游戏，讲故事。这并非我所期望的独自一人的安静日子，但这段意想不到的相聚时光甚至更好。

@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月11日
+**Date**: 2025年09月12日
 **Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Conservative Activist Charlie Kirk Assassinated** / **保守派活动家查理·柯克遇刺身亡**
-- **Time**: 2025-09-11
-- **Content**: Conservative activist Charlie Kirk was fatally shot, leading to an FBI investigation, widespread tributes from political figures including Donald Trump, and an ongoing manhunt for the assassin. / 保守派活动家查理·柯克被枪杀，联邦调查局已介入调查，包括唐纳德·特朗普在内的政界人士纷纷表示哀悼，追捕凶手的行动仍在进行中。
+### 1. **Suspect Arrested in Shooting of Conservative Activist Charlie Kirk** / **保守派活动家查理·柯克枪击案嫌疑人被捕**
+- **Time**: 2025-09-12
+- **Content**: A suspect has been apprehended in connection with the shooting of Charlie Kirk, a prominent conservative activist. The investigation is ongoing to determine the motive behind the attack. / 一名与知名保守派活动家查理·柯克枪击案有关的嫌疑人已被逮捕。旨在确定袭击背后动机的调查仍在进行中。
 - **Source**: Associated Press
 
-### 2. **Israeli Airstrike in Doha Kills Hamas Leaders** / **以色列空袭多哈，哈马斯领导人身亡**
-- **Time**: 2025-09-11
-- **Content**: An Israeli airstrike in Doha, Qatar, reportedly killed at least 35 people and targeted Hamas leaders. This event has complicated Qatar's role as a mediator between Israel and Hamas and drawn international criticism. / 据报道，以色列对卡塔尔多哈发动空袭，造成至少35人死亡，目标是哈马斯领导人。此次事件使卡塔尔作为以色列与哈马斯之间调解人的角色变得复杂，并引发了国际社会的批评。
+### 2. **NATO Strengthens Eastern Flank After Russian Drone Incursions** / **俄罗斯无人机入侵后，北约加强东翼**
+- **Time**: 2025-09-12
+- **Content**: NATO is bolstering its defensive capabilities on its eastern border with Russia, Belarus, and Ukraine. This move follows recent incidents of Russian drones entering Polish airspace, heightening regional tensions. / 北约正在加强其与俄罗斯、白俄罗斯和乌克兰接壤的东部边境的防御能力。此举是在最近发生俄罗斯无人机进入波兰领空事件之后，加剧了地区紧张局势。
 - **Source**: Reuters
 
-### 3. **Russian Drones Violate Polish Airspace** / **俄罗斯无人机侵犯波兰领空**
-- **Time**: 2025-09-11
-- **Content**: Russian drones violated Polish airspace, prompting Poland to secure damaged objects, plan a no-fly zone, and call for an emergency UN meeting. NATO has condemned the incursion as "reckless and escalatory." / 俄罗斯无人机侵犯波兰领空，促使波兰保护受损物体、计划设立禁飞区并要求召开联合国紧急会议。北约谴责此次入侵是“鲁莽和升级的”行为。
+### 3. **Israel-Palestine Conflict Escalates with Continued Strikes on Gaza** / **以色列对加沙的持续打击导致巴以冲突升级**
+- **Time**: 2025-09-12
+- **Content**: Hostilities in the Israel-Palestine conflict have intensified, with ongoing Israeli airstrikes on Gaza resulting in significant casualties. The international community continues to call for a ceasefire and a peaceful resolution. / 以色列与巴勒斯坦的冲突加剧，以色列对加沙的持续空袭导致大量人员伤亡。国际社会继续呼吁停火与和平解决。
+- **Source**: Al Jazeera
+
+### 4. **Nepal's Parliament Dissolved, First Female Interim PM Sworn In** / **尼泊尔议会解散，首位女临时总理宣誓就职**
+- **Time**: 2025-09-12
+- **Content**: Nepal is experiencing significant political upheaval as its parliament has been dissolved. Amidst the turmoil, Sushila Karki has been sworn in as the nation's first-ever female interim Prime Minister. / 尼泊尔正经历重大的政治动荡，其议会已被解散。在动荡中，苏希拉·卡尔基宣誓就任该国首位女性临时总理。
+- **Source**: The Guardian
+
+### 5. **Over 100 Dead in Congo River Boat Accident** / **刚果河船难致逾百人死亡**
+- **Time**: 2025-09-12
+- **Content**: A tragic boat sinking on a river in the Democratic Republic of Congo has resulted in the deaths of at least 107 people. Overcrowding is believed to be a primary cause of the disaster. / 刚果民主共和国一条河流上发生悲惨的沉船事故，导致至少107人死亡。据信，超载是造成此次灾难的主要原因。
 - **Source**: BBC News
 
-### 4. **Nepal Prime Minister Resigns Amidst Protests** / **尼泊尔总理在抗议声中辞职**
-- **Time**: 2025-09-11
-- **Content**: Nepal is experiencing intensified protest violence, with the army attempting to restore order and the Prime Minister resigning amidst the unrest. / 尼泊尔正在经历日益激烈的抗议暴力活动，军队试图恢复秩序，总理在动乱中辞职。
-- **Source**: Al Jazeera
+### 6. **Former Brazilian President Bolsonaro Sentenced for Coup Attempt** / **巴西前总统博索纳罗因政变图谋被判刑**
+- **Time**: 2025-09-12
+- **Content**: Jair Bolsonaro, the former president of Brazil, has been sentenced to 27 years in prison for his role in plotting a military coup to overturn election results. / 巴西前总统雅伊尔·博索纳罗因策划军事政变以推翻选举结果而被判处27年监禁。
+- **Source**: The New York Times
 
-### 5. **Brazil's Jair Bolsonaro Convicted in Coup Plot Trial** / **巴西前总统博索纳罗在政变阴谋审判中被定罪**
-- **Time**: 2025-09-11
-- **Content**: Former Brazilian President Jair Bolsonaro has been convicted in a coup plot trial, with a majority of Supreme Court judges voting for his conviction, making a lengthy prison sentence likely. / 巴西前总统雅伊尔·博索纳罗在政变阴谋审判中被定罪，最高法院大多数法官投票赞成其有罪，他很可能面临长期监禁。
-- **Source**: The Guardian
+### 7. **Zookeeper Killed by Lions at Safari Park in Thailand** / **泰国野生动物园管理员被狮子咬死**
+- **Time**: 2025-09-12
+- **Content**: A zookeeper was fatally mauled by lions in front of horrified visitors at a safari park in Thailand. The incident has raised serious questions about safety protocols at the facility. / 在泰国一家野生动物园，一名管理员在惊恐的游客面前被狮子致命地攻击。这起事件引发了对该设施安全规程的严重质疑。
+- **Source**: CBS News
 
-### 6. **Belarus Frees 52 Political Prisoners** / **白俄罗斯释放52名政治犯**
-- **Time**: 2025-09-11
-- **Content**: Belarus has released 52 political prisoners following US mediation, leading to the US lifting some sanctions on Belarus's national airline. / 在美国调解下，白俄罗斯释放了52名政治犯，美国因此取消了对白俄罗斯国家航空公司的部分制裁。
-- **Source**: Associated Press
+### 8. **France Urges Iran to Release Detained French Citizens** / **法国敦促伊朗释放被扣押的法国公民**
+- **Time**: 2025-09-12
+- **Content**: The French government has issued a strong demand for the immediate release of its citizens currently detained in Iran. This comes after Tehran proposed a potential prisoner exchange. / 法国政府强烈要求立即释放在伊朗被扣押的本国公民。此前，德黑兰方面提议进行可能的囚犯交换。
+- **Source**: France 24
 
-### 7. **Dozens Killed in Israeli Attacks on Gaza** / **以色列袭击加沙，数十人死亡**
-- **Time**: 2025-09-11
-- **Content**: Beyond the Doha strike, Israeli attacks on Gaza have killed dozens of people, with families recounting panic as they flee their homes in northern Gaza. / 除多哈空袭外，以色列对加沙的袭击已造成数十人死亡，逃离加沙北部家园的家庭讲述了他们的恐慌经历。
-- **Source**: Al Jazeera
+### 9. **UK Ambassador to the US Dismissed Over Epstein Connections** / **英国驻美大使因与爱泼斯坦有关联被解职**
+- **Time**: 2025-09-12
+- **Content**: Peter Mandelson, the United Kingdom's ambassador to the United States, has been fired from his position due to his reported connections with the late financier Jeffrey Epstein. / 英国驻美国大使彼得·曼德尔森因据报与已故金融家杰弗里·爱泼斯坦有关联而被解职。
+- **Source**: The Times
 
-### 8. **Novo Nordisk Announces 9,000 Layoffs** / **诺和诺德宣布裁员9000人**
-- **Time**: 2025-09-11
-- **Content**: Novo Nordisk, the pharmaceutical company behind Ozempic and Wegovy, announced 9,000 layoffs as part of a restructuring. / 生产Ozempic和Wegovy的制药公司诺和诺德宣布，作为重组计划的一部分，将裁员9000人。
-- **Source**: Global News
-
-### 9. **Flash Floods in Indonesia Kill at Least 15** / **印度尼西亚山洪暴发，至少15人死亡**
-- **Time**: 2025-09-11
-- **Content**: Flash floods in Indonesia have resulted in at least 15 deaths and 10 people missing. / 印度尼西亚的山洪暴发已导致至少15人死亡，10人失踪。
-- **Source**: The Guardian
-
-### 10. **South Africa to Reopen Steve Biko Inquest** / **南非将重启对史蒂夫·比科的调查**
-- **Time**: 2025-09-11
-- **Content**: South Africa is set to reopen the inquest into the 1977 death in custody of anti-apartheid leader Steve Biko. / 南非将重新启动对1977年反种族隔离领袖史蒂夫·比科在押期间死亡事件的调查。
-- **Source**: AP News
+### 10. **Global Press Freedom Hits 50-Year Low, Reports Indicate** / **报告显示全球新闻自由度降至50年新低**
+- **Time**: 2025-09-12
+- **Content**: A new report has revealed that global press freedom has declined to its lowest point in half a century. The findings highlight increasing threats to journalists and media organizations worldwide. / 一份新报告显示，全球新闻自由度已降至半个世纪以来的最低点。该调查结果突显了世界各地的记者和媒体机构面临的日益增长的威胁。
+- **Source**: Reporters Without Borders
 
 ---
 

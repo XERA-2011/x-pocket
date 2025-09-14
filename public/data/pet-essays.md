@@ -1,37 +1,40 @@
 # 应用文
 
-## An email to a local newspaper giving your opinion on recycling
-- 一封就回收利用问题向当地报纸发表意见的邮件
+## An email to a penfriend describing your typical school day
+- 给笔友写一封邮件，描述你平常在学校的一天
 
 **正文**：
 
-Dear Editor,
+Hi Alex,
 
-I am writing to share my opinion on recycling in our town. I believe recycling is incredibly important for protecting our environment, but we are not doing enough to encourage it. Many people want to recycle, but the lack of facilities makes it difficult.
+Thanks for your last email! You asked about my typical school day. Well, it's quite busy. I usually get to school at 8 a.m. My first class is Maths, which is challenging but interesting. After that, we have English and History.
 
-For example, there are very few public recycling bins, especially in the town centre and parks. I suggest the local council should install more bins for plastic, paper, and glass in these areas. This would make it much more convenient for residents. A small change like this could make a big difference.
+We have a lunch break at noon. I eat with my friends in the canteen, and we often chat about our hobbies. In the afternoon, we have Science and PE, which is my favourite subject because I love playing basketball. School finishes at 4 p.m.
 
-Sincerely,
-A concerned resident.
+What about your school day? Write back soon!
 
-- 尊敬的编辑：
-- 我写信是为了分享我对我们城镇回收利用的看法。我认为回收对于保护我们的环境极其重要，但我们做得还不够，未能鼓励此举。许多人想要回收，但设施的缺乏使其变得困难。
-- 例如，公共回收箱非常少，尤其是在市中心和公园里。我建议地方议会在这些区域安装更多用于回收塑料、纸张和玻璃的箱子。这将为居民提供极大的便利。像这样一个小小的改变可能会带来巨大的不同。
-- 此致，
-- 一位关心的居民。
+Best wishes,
+Chris
+
+- 嗨，亚历克斯，
+- 感谢你上次的邮件！你问我平常在学校是怎样度过的。嗯，日子相当忙碌。我通常在早上8点到校。我的第一节课是数学，虽然有挑战性但很有趣。之后，我们有英语课和历史课。
+- 我们在中午有午休时间。我和朋友们在食堂吃饭，我们经常聊各自的爱好。下午，我们有科学课和体育课，体育是我最喜欢的科目，因为我热爱打篮球。学校在下午4点放学。
+- 你的校园生活是怎样的呢？期待你的回信！
+- 最好的祝愿，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## A story about a wish that came true in an unexpected way
-- 一个以意想不到的方式成真的愿望
+## A story about helping a stranger
+- 一个关于帮助陌生人的故事
 
 **正文**：
 
-Last week, I was tired of my busy schedule and wished for a quiet day to myself. "If only I could have one day with no interruptions," I thought. The next morning, my wish came true, but not as I had imagined. A huge snowstorm had hit overnight, and the entire town was snowed in.
+Last Saturday, I was walking home from the library when I saw an elderly woman struggling with her heavy shopping bags. She looked very tired, and one of the bags was about to tear. I immediately ran over and asked if she needed any help.
 
-There was no school, no internet, and no electricity. At first, it was perfect silence. But soon, my family gathered in the living room. We played board games and told stories by the fireplace. It wasn't the solo quiet day I wished for, but this unexpected time together was even better.
+She smiled gratefully and said yes. I took her heaviest bag, and we walked together to her apartment, which was just around the corner. She told me stories about her grandchildren along the way. When we arrived, she thanked me warmly. Helping her made me feel really happy and proud of myself.
 
-- 上周，我对自己繁忙的日程感到厌倦，希望能有一个属于自己的安静日子。“要是我能有一天不被打扰就好了，”我想。第二天早上，我的愿望成真了，但并非如我所想。一场巨大的暴风雪在一夜之间来袭，整个小镇都被大雪封住了。
-- 学校停课，网络中断，电力也停了。起初，是完美的寂静。但很快，我的家人聚集在客厅里。我们在壁炉旁玩棋盘游戏，讲故事。这并非我所期望的独自一人的安静日子，但这段意想不到的相聚时光甚至更好。
+- 上周六，我正从图书馆走路回家，看到一位年长的女士正吃力地提着她沉重的购物袋。她看起来非常疲惫，其中一个袋子都快要破了。我立刻跑上前去，问她是否需要帮助。
+- 她感激地笑了笑，并答应了。我接过了她最重的那个袋子，我们一起走到了她的公寓，就在街角不远处。一路上，她给我讲了她孙子孙女的故事。当我们到达时，她热情地感谢了我。帮助了她让我感到非常开心和自豪。

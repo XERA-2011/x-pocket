@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月14日
-**Update Time**: 22:17 UTC
+**Date**: 2025年09月15日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Gaza Conflict Intensifies with Israeli Strikes and Naval Blockade Challenge** / **加沙冲突加剧，以色列空袭与海上封锁挑战**
-- **Time**: 2025-09-14
-- **Content**: At least 53 civilians were killed in escalated Israeli strikes on Gaza City, prompting an evacuation order. In response to the ongoing blockade, a "Global Sumud Flotilla" has departed from Tunisia, aiming to deliver humanitarian aid directly to Gaza. An emergency Arab-Islamic summit is set to be held in Qatar to address the escalating crisis. / 以色列对加沙城的空袭升级，导致至少53名平民死亡，并引发了疏散令。为应对持续的封锁，一支“全球苏穆德舰队”已从突尼斯出发，旨在直接向加沙提供人道主义援助。紧急阿拉伯-伊斯兰峰会将在卡塔尔举行，以应对不断升级的危机。
+### 1. **Qatar Hosts Emergency Summit on Israeli Aggression** / **卡塔尔主办关于以色列侵略的紧急峰会**
+- **Time**: 2025-09-15
+- **Content**: Leaders from the Arab world and beyond gathered in Doha for an emergency summit to discuss the escalating situation in Gaza, following an Israeli attack that killed a senior Hamas leader. The summit aims to form a unified stance against what many nations are calling a blatant act of aggression. / 阿拉伯世界及其他地区的领导人齐聚多哈，参加紧急峰会，讨论因以色列袭击导致哈马斯高级领导人丧生而不断升级的加沙局势。此次峰会旨在形成统一立场，反对许多国家所称的公然侵略行径。
 - **Source**: Al Jazeera
 
-### 2. **FBI Faces Scrutiny in Charlie Kirk Assassination Probe** / **FBI在查理·柯克遇刺案调查中面临审查**
-- **Time**: 2025-09-14
-- **Content**: The FBI is facing congressional hearings over its handling of the investigation into the assassination of conservative commentator Charlie Kirk. The suspect has been identified as 22-year-old Tyler Robinson. Rallies honoring Kirk have been held across the country as the nation grapples with the political violence. / 美国联邦调查局（FBI）因对保守派评论员查理·柯克遇刺案的调查处理不当而面临国会听证。嫌疑人已被确认为22岁的泰勒·罗宾逊。全国各地举行了纪念柯克的集会，整个国家都在努力应对这起政治暴力事件。
-- **Source**: Global News
-
-### 3. **Ukraine Drones Strike Russian Oil Refinery; NATO Bolsters Eastern Flank** / **乌克兰无人机袭击俄罗斯炼油厂；北约加强东翼防御**
-- **Time**: 2025-09-14
-- **Content**: Ukrainian drones successfully targeted a major Russian oil refinery, causing significant damage. Simultaneously, tensions have risen on the NATO border, as Russian drone incursions into Poland prompted Warsaw to scramble fighter jets and NATO to reinforce its defenses on the eastern flank. / 乌克兰无人机成功袭击了俄罗斯一家主要炼油厂，造成重大损失。与此同时，北约边境的紧张局势加剧，俄罗斯无人机入侵波兰，促使华沙紧急出动战斗机，北约也加强了其东翼的防御。
+### 2. **Nepal Appoints First Female Prime Minister After Protests** / **尼泊尔在抗议后任命首位女总理**
+- **Time**: 2025-09-15
+- **Content**: Following widespread protests and the resignation of the prime minister over a controversial social media ban, Nepal has appointed its first-ever female prime minister, marking a historic moment for the nation's politics. / 在因有争议的社交媒体禁令引发广泛抗议和总理辞职后，尼泊尔任命了其首位女总理，这标志着该国政治历史上的一个历史性时刻。
 - **Source**: The Guardian
 
-### 4. **Sushila Karki Appointed Interim PM in Nepal After Deadly Protests** / **致命抗议后，苏希拉·卡尔基被任命为尼泊尔临时总理**
-- **Time**: 2025-09-14
-- **Content**: Following deadly protests against a controversial social media ban that led to the prime minister's resignation, Sushila Karki has been appointed as Nepal's first female interim Prime Minister. Her appointment aims to stabilize the nation and guide it towards new elections. / 在反对一项有争议的社交媒体禁令的致命抗议导致总理辞职后，苏希拉·卡尔基被任命为尼泊尔首位女性临时总理。她的任命旨在稳定国家并引导其走向新的选举。
-- **Source**: The Hindu
-
-### 5. **Far-Right Anti-Immigration Rally in London Leads to Clashes** / **伦敦极右翼反移民集会引发冲突**
-- **Time**: 2025-09-14
-- **Content**: Tens of thousands participated in a far-right rally against immigration in London, organized by prominent anti-Islam activists. The demonstration resulted in violent clashes with counter-protesters, and London's Metropolitan Police have vowed to make further arrests. / 数万人在伦敦参加了由著名反伊斯兰活动家组织的极右翼反移民集会。示威活动与反抗议者发生暴力冲突，伦敦警察厅誓言将进行进一步逮捕。
-- **Source**: Associated Press
-
-### 6. **Vuelta a España Final Stage Abandoned Amidst Pro-Palestine Protests** / **环西班牙自行车赛最后赛段因亲巴勒斯坦抗议而取消**
-- **Time**: 2025-09-14
-- **Content**: The final stage of the prestigious Vuelta a España cycling race was abandoned after massive pro-Palestine protests blocked the route in Madrid. Organizers canceled the stage, citing safety concerns for both riders and spectators. / 备受瞩目的环西班牙自行车赛的最后赛段，因大规模亲巴勒斯坦抗议活动堵塞了马德里的赛道而被取消。出于对车手和观众安全的考虑，组织者取消了该赛段。
-- **Source**: Al Jazeera
-
-### 7. **Qatar's Prime Minister Denounces Israel Ahead of Arab-Islamic Summit** / **阿拉伯-伊斯兰峰会前夕，卡塔尔首相谴责以色列**
-- **Time**: 2025-09-14
-- **Content**: In a strong statement ahead of a major Arab-Islamic summit, Qatar's Prime Minister has denounced Israel for its recent military actions, including a targeted attack on Hamas leaders in Doha. The summit is expected to formulate a unified response to the ongoing conflict. / 在一场重要的阿拉伯-伊斯兰峰会召开前夕，卡塔尔首相发表措辞强硬的声明，谴责以色列最近的军事行动，包括在多哈针对哈马斯领导人的定点袭击。预计峰会将就当前冲突形成统一回应。
-- **Source**: The Hindu
-
-### 8. **Boxing Legend Ricky Hatton Dies at 46** / **拳击传奇人物里奇·哈顿去世，享年46岁**
-- **Time**: 2025-09-14
-- **Content**: Former world boxing champion Ricky "The Hitman" Hatton has passed away at the age of 46. The British boxer was beloved for his aggressive style and down-to-earth personality, holding multiple world titles during his celebrated career. / 前世界拳击冠军里奇·“杀手”·哈顿去世，享年46岁。这位英国拳击手以其激进的风格和朴实的个性而备受喜爱，在其辉煌的职业生涯中拥有多个世界冠军头衔。
-- **Source**: Indian Express
-
-### 9. **Former Brazilian President Jair Bolsonaro Sentenced to 27 Years** / **巴西前总统雅伊尔·博索纳罗被判27年监禁**
-- **Time**: 2025-09-14
-- **Content**: Jair Bolsonaro, the former president of Brazil, has been convicted for his role in a coup plot and sentenced to 27 years in prison. The landmark ruling concludes a lengthy investigation into his attempts to subvert democratic institutions following his election loss. / 巴西前总统雅伊尔·博索纳罗因在政变阴谋中扮演的角色而被定罪，并被判处27年监禁。这项里程碑式的裁决结束了对其在选举失利后颠覆民主制度企图的长期调查。
+### 3. **US and China Reach Framework Deal on TikTok** / **中美就TikTok达成框架协议**
+- **Time**: 2025-09-15
+- **Content**: After months of intense negotiations, officials from the United States and China have reportedly reached a framework agreement concerning the operations of TikTok, potentially avoiding a full ban of the popular social media app in the US. / 经过数月的紧张谈判，美国和中国官员据报已就TikTok的运营达成框架协议，这可能避免了这款广受欢迎的社交媒体应用在美国被全面禁止。
 - **Source**: Global News
 
-### 10. **India Defeats Pakistan in Politically Charged Asia Cup Cricket Match** / **印度在充满政治色彩的亚洲杯板球赛中击败巴基斯坦**
-- **Time**: 2025-09-14
-- **Content**: In a cricket match carrying significant political weight, India's national team defeated Pakistan by seven wickets in the Asia Cup. The highly anticipated game was held amid tight security and intense emotions from fans on both sides. / 在一场具有重大政治意义的板球比赛中，印度国家队在亚洲杯上以七个三柱门的优势击败了巴基斯坦队。这场备受期待的比赛在严密安保和双方球迷的激烈情绪中举行。
-- **Source**: Al Jazeera
+### 4. **Brazil's Bolsonaro Convicted for Coup Plot** / **巴西前总统博索纳罗因政变图谋被定罪**
+- **Time**: 2025-09-15
+- **Content**: Former Brazilian President Jair Bolsonaro has been convicted for his role in a coup plot and sentenced to 27 years in prison, a landmark decision in the country's efforts to uphold democratic institutions. / 巴西前总统雅伊尔·博索纳罗因在政变图谋中扮演的角色而被定罪，并被判处27年监禁，这是该国维护民主制度努力中的一个里程碑式裁决。
+- **Source**: Global News
+
+### 5. **FAA Seeks $3.1 Million Fine from Boeing for Safety Violations** / **美国联邦航空局因安全违规向波音寻求310万美元罚款**
+- **Time**: 2025-09-15
+- **Content**: The U.S. Federal Aviation Administration is seeking to impose a $3.1 million fine on Boeing for a series of safety violations, including issues related to a midair panel blowout on an Alaska Airlines flight in early 2024. / 美国联邦航空局正寻求对波音公司处以310万美元的罚款，原因是一系列安全违规行为，包括与2024年初阿拉斯加航空公司一架飞机在空中面板爆裂相关的 问题。
+- **Source**: Global News
+
+### 6. **Anti-LGBTQ+ Rhetoric Used by Politicians in 51 Countries, Report Finds** / **报告发现51个国家的政客使用反LGBTQ+言论**
+- **Time**: 2025-09-15
+- **Content**: A new report from a leading non-governmental organization reveals that politicians in at least 51 countries have utilized anti-LGBTQ+ rhetoric during recent election campaigns, fueling concerns about the erosion of human rights. / 一家主要非政府组织的新报告显示，至少51个国家的政客在近期的选举活动中使用了反LGBTQ+的言论，引发了人们对人权受到侵蚀的担忧。
+- **Source**: The Guardian
+
+### 7. **Global Press Freedom Hits 50-Year Low** / **全球新闻自由度降至50年新低**
+- **Time**: 2025-09-15
+- **Content**: A comprehensive global study has found that press freedom around the world has declined to its lowest point in half a century, with journalists facing increasing threats, censorship, and violence. / 一项全面的全球研究发现，世界各地的新闻自由度已降至半个世纪以来的最低点，记者面临着日益增多的威胁、审查和暴力。
+- **Source**: The Guardian
+
+### 8. **NATO Launches "Eastern Flank" Defense After Russian Drones Enter Polish Airspace** / **俄罗斯无人机进入波兰领空后，北约启动“东翼”防御**
+- **Time**: 2025-09-15
+- **Content**: NATO has initiated its "Eastern Flank" defense protocol after Russian drones reportedly entered Polish airspace, escalating tensions between the military alliance and Moscow. Poland has deployed military aircraft in response to the threat. / 据报道，在俄罗斯无人机进入波兰领空后，北约启动了其“东翼”防御协议，加剧了军事联盟与莫斯科之间的紧张关系。波兰已部署军用飞机以应对威胁。
+- **Source**: Global News
+
+### 9. **Zookeeper in Thailand Mauled to Death by Lions** / **泰国动物园管理员被狮子咬死**
+- **Time**: 2025-09-15
+- **Content**: A tragic incident occurred at a zoo in Thailand where a zookeeper was mauled to death by lions in front of horrified visitors. The event has raised serious questions about safety protocols at the facility. / 泰国一家动物园发生了一起悲剧性事件，一名动物园管理员在惊恐的游客面前被狮子咬死。该事件引发了对该设施安全规程的严重质疑。
+- **Source**: Global News
+
+### 10. **South Africa Reopens Inquest into Activist Steve Biko's Death** / **南非重新调查活动家史蒂夫·比科的死因**
+- **Time**: 2025-09-15
+- **Content**: Nearly five decades after his death in police custody, South Africa has decided to reopen the inquest into the death of anti-apartheid activist Steve Biko, a move hailed by human rights advocates. / 在反种族隔离活动家史蒂夫·比科在警方拘留期间去世近五十年后，南非决定重新调查其死因，此举受到人权倡导者的欢迎。
+- **Source**: The Guardian
 
 ---
 

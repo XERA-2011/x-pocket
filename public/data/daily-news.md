@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月15日
-**Update Time**: 22:18 UTC
+**Date**: 2025年09月16日
+**Update Time**: 22:17 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Qatar Hosts Emergency Summit on Israeli Aggression** / **卡塔尔主办关于以色列侵略的紧急峰会**
-- **Time**: 2025-09-15
-- **Content**: Leaders from the Arab world and beyond gathered in Doha for an emergency summit to discuss the escalating situation in Gaza, following an Israeli attack that killed a senior Hamas leader. The summit aims to form a unified stance against what many nations are calling a blatant act of aggression. / 阿拉伯世界及其他地区的领导人齐聚多哈，参加紧急峰会，讨论因以色列袭击导致哈马斯高级领导人丧生而不断升级的加沙局势。此次峰会旨在形成统一立场，反对许多国家所称的公然侵略行径。
+### 1. **UN Commission Accuses Israel of Genocide in Gaza** / **联合国委员会指控以色列在加沙实施种族灭绝**
+- **Time**: 2025-09-16
+- **Content**: A UN commission of inquiry has accused Israel of committing genocide in the Gaza Strip and called for immediate international action. The report details alleged war crimes and crimes against humanity, urging the UN Security Council to take decisive measures. / 联合国一个调查委员会指控以色列在加沙地带犯下种族灭绝罪行，并呼吁国际社会立即采取行动。报告详细列举了涉嫌的战争罪和反人类罪，并敦促联合国安理会采取果断措施。
+- **Source**: Associated Press
+
+### 2. **Ukrainian Drones Strike Major Russian Oil Refinery** / **乌克兰无人机袭击俄罗斯主要炼油厂**
+- **Time**: 2025-09-16
+- **Content**: Ukrainian drones successfully struck one of Russia's largest oil refineries, causing a significant fire and disrupting operations. This attack is part of a broader strategy to target Russia's energy infrastructure and cripple its war economy. / 乌克兰无人机成功袭击了俄罗斯最大的炼油厂之一，引发大火并导致运营中断。此次袭击是旨在打击俄罗斯能源基础设施、削弱其战争经济的更广泛战略的一部分。
+- **Source**: Reuters
+
+### 3. **Jair Bolsonaro Sentenced to 27 Years for Coup Plot** / **雅伊尔·博索纳罗因策划政变被判27年监禁**
+- **Time**: 2025-09-16
+- **Content**: Former Brazilian President Jair Bolsonaro has been sentenced to 27 years in prison for his role in plotting a military coup to overturn the 2022 election results. The landmark ruling found him guilty of attempting to abolish the democratic state. / 巴西前总统雅伊尔·博索纳罗因策划军事政变以推翻2022年选举结果，被判处27年监禁。这项里程碑式的裁决认定他企图颠覆民主国家的罪名成立。
+- **Source**: The Guardian
+
+### 4. **Syria, Jordan, and US Agree on Plan to Restore Stability in Sweida** / **叙利亚、约旦和美国就恢复苏韦达稳定达成协议**
+- **Time**: 2025-09-16
+- **Content**: Following deadly clashes, Syria, Jordan, and the United States have reached an agreement on a comprehensive plan to restore stability in the southern Syrian province of Sweida. The plan includes de-escalation measures and humanitarian aid provisions. / 在致命冲突之后，叙利亚、约旦和美国就一项旨在恢复叙利亚南部苏韦达省稳定的全面计划达成协议。该计划包括降级措施和人道主义援助条款。
 - **Source**: Al Jazeera
 
-### 2. **Nepal Appoints First Female Prime Minister After Protests** / **尼泊尔在抗议后任命首位女总理**
-- **Time**: 2025-09-15
-- **Content**: Following widespread protests and the resignation of the prime minister over a controversial social media ban, Nepal has appointed its first-ever female prime minister, marking a historic moment for the nation's politics. / 在因有争议的社交媒体禁令引发广泛抗议和总理辞职后，尼泊尔任命了其首位女总理，这标志着该国政治历史上的一个历史性时刻。
+### 5. **Venezuela Reports 11 Killed in US Boat Strike, Denies Gang Link** / **委内瑞拉称美国船只袭击致11死，否认与黑帮有关**
+- **Time**: 2025-09-16
+- **Content**: The Venezuelan government reported that a US vessel strike killed 11 people, asserting that the victims were not gang members as previously claimed by US officials. The incident has escalated diplomatic tensions between the two nations. / 委内瑞拉政府报告称，一艘美国船只的袭击导致11人死亡，并坚称受害者并非美国官员先前声称的黑帮成员。该事件加剧了两国之间的外交紧张局势。
 - **Source**: The Guardian
 
-### 3. **US and China Reach Framework Deal on TikTok** / **中美就TikTok达成框架协议**
-- **Time**: 2025-09-15
-- **Content**: After months of intense negotiations, officials from the United States and China have reportedly reached a framework agreement concerning the operations of TikTok, potentially avoiding a full ban of the popular social media app in the US. / 经过数月的紧张谈判，美国和中国官员据报已就TikTok的运营达成框架协议，这可能避免了这款广受欢迎的社交媒体应用在美国被全面禁止。
+### 6. **Kazakhstan Bans Bride Kidnapping and Forced Marriages** / **哈萨克斯坦禁止绑架新娘和强迫婚姻**
+- **Time**: 2025-09-16
+- **Content**: Kazakhstan's parliament has passed a law officially banning the practices of bride kidnapping and forced marriages. This move is celebrated by human rights activists as a significant step toward protecting women's rights in the country. / 哈萨克斯坦议会通过一项法律，正式禁止绑架新娘和强迫婚姻的做法。人权活动家称赞此举是该国在保护妇女权利方面迈出的重要一步。
+- **Source**: The Hindu
+
+### 7. **Taliban Leader Bans Wi-Fi in Afghan Province to 'Prevent Immorality'** / **塔利班领导人为“防止不道德行为”在阿富汗一省份禁用Wi-Fi**
+- **Time**: 2025-09-16
+- **Content**: A local Taliban leader has banned the use of Wi-Fi in a province of Afghanistan, claiming the measure is necessary to prevent the spread of "immorality" and un-Islamic content among the youth. / 一名塔利班地方领导人在阿富汗某省份下令禁用Wi-Fi，声称此举是为防止“不道德”和非伊斯兰内容在年轻人中传播所必需的。
+- **Source**: The Hindu
+
+### 8. **Legendary Actor and Director Robert Redford Dies at 89** / **传奇演员兼导演罗伯特·雷德福去世，享年89岁**
+- **Time**: 2025-09-16
+- **Content**: Robert Redford, the iconic actor, director, and founder of the Sundance Film Festival, has passed away at the age of 89. He was a towering figure in Hollywood for decades, known for his classic films and environmental activism. / 标志性演员、导演及圣丹斯电影节创始人罗伯特·雷德福去世，享年89岁。几十年来，他一直是好莱坞的巨擘，以其经典电影和环保行动主义而闻名。
+- **Source**: CTV News
+
+### 9. **Suspect in Charlie Kirk Killing Charged with Aggravated Murder** / **查理·柯克谋杀案嫌疑人被控严重谋杀罪**
+- **Time**: 2025-09-16
+- **Content**: The suspect in the killing of conservative commentator Charlie Kirk has been formally charged with aggravated murder. Prosecutors in Utah have announced they will seek the death penalty in this high-profile case. / 保守派评论员查理·柯克遇害案的嫌疑人已被正式指控犯有严重谋杀罪。犹他州检察官宣布，他们将在这起备受瞩目的案件中寻求判处死刑。
 - **Source**: Global News
 
-### 4. **Brazil's Bolsonaro Convicted for Coup Plot** / **巴西前总统博索纳罗因政变图谋被定罪**
-- **Time**: 2025-09-15
-- **Content**: Former Brazilian President Jair Bolsonaro has been convicted for his role in a coup plot and sentenced to 27 years in prison, a landmark decision in the country's efforts to uphold democratic institutions. / 巴西前总统雅伊尔·博索纳罗因在政变图谋中扮演的角色而被定罪，并被判处27年监禁，这是该国维护民主制度努力中的一个里程碑式裁决。
-- **Source**: Global News
-
-### 5. **FAA Seeks $3.1 Million Fine from Boeing for Safety Violations** / **美国联邦航空局因安全违规向波音寻求310万美元罚款**
-- **Time**: 2025-09-15
-- **Content**: The U.S. Federal Aviation Administration is seeking to impose a $3.1 million fine on Boeing for a series of safety violations, including issues related to a midair panel blowout on an Alaska Airlines flight in early 2024. / 美国联邦航空局正寻求对波音公司处以310万美元的罚款，原因是一系列安全违规行为，包括与2024年初阿拉斯加航空公司一架飞机在空中面板爆裂相关的 问题。
-- **Source**: Global News
-
-### 6. **Anti-LGBTQ+ Rhetoric Used by Politicians in 51 Countries, Report Finds** / **报告发现51个国家的政客使用反LGBTQ+言论**
-- **Time**: 2025-09-15
-- **Content**: A new report from a leading non-governmental organization reveals that politicians in at least 51 countries have utilized anti-LGBTQ+ rhetoric during recent election campaigns, fueling concerns about the erosion of human rights. / 一家主要非政府组织的新报告显示，至少51个国家的政客在近期的选举活动中使用了反LGBTQ+的言论，引发了人们对人权受到侵蚀的担忧。
-- **Source**: The Guardian
-
-### 7. **Global Press Freedom Hits 50-Year Low** / **全球新闻自由度降至50年新低**
-- **Time**: 2025-09-15
-- **Content**: A comprehensive global study has found that press freedom around the world has declined to its lowest point in half a century, with journalists facing increasing threats, censorship, and violence. / 一项全面的全球研究发现，世界各地的新闻自由度已降至半个世纪以来的最低点，记者面临着日益增多的威胁、审查和暴力。
-- **Source**: The Guardian
-
-### 8. **NATO Launches "Eastern Flank" Defense After Russian Drones Enter Polish Airspace** / **俄罗斯无人机进入波兰领空后，北约启动“东翼”防御**
-- **Time**: 2025-09-15
-- **Content**: NATO has initiated its "Eastern Flank" defense protocol after Russian drones reportedly entered Polish airspace, escalating tensions between the military alliance and Moscow. Poland has deployed military aircraft in response to the threat. / 据报道，在俄罗斯无人机进入波兰领空后，北约启动了其“东翼”防御协议，加剧了军事联盟与莫斯科之间的紧张关系。波兰已部署军用飞机以应对威胁。
-- **Source**: Global News
-
-### 9. **Zookeeper in Thailand Mauled to Death by Lions** / **泰国动物园管理员被狮子咬死**
-- **Time**: 2025-09-15
-- **Content**: A tragic incident occurred at a zoo in Thailand where a zookeeper was mauled to death by lions in front of horrified visitors. The event has raised serious questions about safety protocols at the facility. / 泰国一家动物园发生了一起悲剧性事件，一名动物园管理员在惊恐的游客面前被狮子咬死。该事件引发了对该设施安全规程的严重质疑。
-- **Source**: Global News
-
-### 10. **South Africa Reopens Inquest into Activist Steve Biko's Death** / **南非重新调查活动家史蒂夫·比科的死因**
-- **Time**: 2025-09-15
-- **Content**: Nearly five decades after his death in police custody, South Africa has decided to reopen the inquest into the death of anti-apartheid activist Steve Biko, a move hailed by human rights advocates. / 在反种族隔离活动家史蒂夫·比科在警方拘留期间去世近五十年后，南非决定重新调查其死因，此举受到人权倡导者的欢迎。
-- **Source**: The Guardian
+### 10. **Poland Deploys Military Aircraft Amid Drone Threats from Ukraine** / **因来自乌克兰的无人机威胁，波兰部署军用飞机**
+- **Time**: 2025-09-16
+- **Content**: Poland's military has deployed aircraft in its airspace as a precautionary measure due to the increased threat of Russian drone and missile strikes in western Ukraine, near the Polish border. / 由于俄罗斯在靠近波兰边境的乌克兰西部地区发动无人机和导弹袭击的威胁增加，波兰军方已在其领空部署飞机作为预防措施。
+- **Source**: Associated Press
 
 ---
 

@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月16日
+**Date**: 2025年09月17日
 **Update Time**: 22:17 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **UN Commission Accuses Israel of Genocide in Gaza** / **联合国委员会指控以色列在加沙实施种族灭绝**
-- **Time**: 2025-09-16
-- **Content**: A UN commission of inquiry has accused Israel of committing genocide in the Gaza Strip and called for immediate international action. The report details alleged war crimes and crimes against humanity, urging the UN Security Council to take decisive measures. / 联合国一个调查委员会指控以色列在加沙地带犯下种族灭绝罪行，并呼吁国际社会立即采取行动。报告详细列举了涉嫌的战争罪和反人类罪，并敦促联合国安理会采取果断措施。
+### 1. **Israeli Forces Advance into Gaza City, Civilian Casualties Rise** / **以色列军队挺进加沙市，平民伤亡人数上升**
+- **Time**: 2025-09-17
+- **Content**: Israeli forces have pushed deeper into Gaza City, leading to a significant increase in Palestinian casualties and displacement. The military has issued warnings for residents to evacuate as the ground offensive intensifies. / 以色列军队已深入加沙市，导致巴勒斯坦伤亡和流离失所人数大幅增加。随着地面攻势的加剧，军方已发布居民撤离警告。
 - **Source**: Associated Press
 
-### 2. **Ukrainian Drones Strike Major Russian Oil Refinery** / **乌克兰无人机袭击俄罗斯主要炼油厂**
-- **Time**: 2025-09-16
-- **Content**: Ukrainian drones successfully struck one of Russia's largest oil refineries, causing a significant fire and disrupting operations. This attack is part of a broader strategy to target Russia's energy infrastructure and cripple its war economy. / 乌克兰无人机成功袭击了俄罗斯最大的炼油厂之一，引发大火并导致运营中断。此次袭击是旨在打击俄罗斯能源基础设施、削弱其战争经济的更广泛战略的一部分。
+### 2. **Ukrainian Drone Strike Hits Major Russian Oil Refinery** / **乌克兰无人机袭击俄罗斯主要炼油厂**
+- **Time**: 2025-09-17
+- **Content**: A Ukrainian drone attack has caused a major fire at one of Russia's largest oil refineries, marking a significant escalation in Ukraine's long-range strike capabilities against Russian infrastructure. / 乌克兰无人机袭击导致俄罗斯最大炼油厂之一发生大火，这标志着乌克兰对俄罗斯基础设施的远程打击能力显著升级。
 - **Source**: Reuters
 
-### 3. **Jair Bolsonaro Sentenced to 27 Years for Coup Plot** / **雅伊尔·博索纳罗因策划政变被判27年监禁**
-- **Time**: 2025-09-16
-- **Content**: Former Brazilian President Jair Bolsonaro has been sentenced to 27 years in prison for his role in plotting a military coup to overturn the 2022 election results. The landmark ruling found him guilty of attempting to abolish the democratic state. / 巴西前总统雅伊尔·博索纳罗因策划军事政变以推翻2022年选举结果，被判处27年监禁。这项里程碑式的裁决认定他企图颠覆民主国家的罪名成立。
-- **Source**: The Guardian
+### 3. **Trump Arrives in UK for Second State Visit Amid Protests** / **特朗普抵达英国进行第二次国事访问，抗议活动随行**
+- **Time**: 2025-09-17
+- **Content**: Donald Trump and his wife Melania have arrived in London for his second state visit to the UK. The visit, which will include a meeting with King Charles, has drawn significant protests. / 唐纳德·特朗普和妻子梅拉尼娅已抵达伦敦，开始对英国进行第二次国事访问。此次访问将包括与查尔斯国王的会面，并引发了大规模的抗议活动。
+- **Source**: BBC News
 
-### 4. **Syria, Jordan, and US Agree on Plan to Restore Stability in Sweida** / **叙利亚、约旦和美国就恢复苏韦达稳定达成协议**
-- **Time**: 2025-09-16
-- **Content**: Following deadly clashes, Syria, Jordan, and the United States have reached an agreement on a comprehensive plan to restore stability in the southern Syrian province of Sweida. The plan includes de-escalation measures and humanitarian aid provisions. / 在致命冲突之后，叙利亚、约旦和美国就一项旨在恢复叙利亚南部苏韦达省稳定的全面计划达成协议。该计划包括降级措施和人道主义援助条款。
+### 4. **US Federal Reserve Cuts Interest Rates for First Time in Nearly a Year** / **美联储近一年来首次降息**
+- **Time**: 2025-09-17
+- **Content**: The U.S. Federal Reserve has announced a quarter-point cut in interest rates, the first reduction in almost a year, signaling a shift in monetary policy amid changing economic forecasts. / 美国联邦储备委员会宣布降息25个基点，这是近一年来的首次降息，表明在经济预测变化的背景下货币政策的转变。
+- **Source**: The Wall Street Journal
+
+### 5. **Iran Executes Man Accused of Spying for Israel** / **伊朗处决一名被控为以色列从事间谍活动的男子**
+- **Time**: 2025-09-17
+- **Content**: Iran has executed a man convicted of spying for Israel's intelligence agency, Mossad. Human rights organizations have raised concerns about the fairness of the trial, alleging the confession was obtained through torture. / 伊朗处决了一名被判为以色列情报机构摩萨德从事间谍活动的男子。人权组织对审判的公正性表示担忧，称其供词是通过酷刑获得的。
 - **Source**: Al Jazeera
 
-### 5. **Venezuela Reports 11 Killed in US Boat Strike, Denies Gang Link** / **委内瑞拉称美国船只袭击致11死，否认与黑帮有关**
-- **Time**: 2025-09-16
-- **Content**: The Venezuelan government reported that a US vessel strike killed 11 people, asserting that the victims were not gang members as previously claimed by US officials. The incident has escalated diplomatic tensions between the two nations. / 委内瑞拉政府报告称，一艘美国船只的袭击导致11人死亡，并坚称受害者并非美国官员先前声称的黑帮成员。该事件加剧了两国之间的外交紧张局势。
+### 6. **Nepalese Prime Minister Resigns Following Deadly Protests** / **尼泊尔总理在致命抗议后辞职**
+- **Time**: 2025-09-17
+- **Content**: Nepal's Prime Minister has resigned from his position following widespread protests sparked by a controversial social media ban, which resulted in several deaths. / 尼泊尔总理因备受争议的社交媒体禁令引发全国性抗议并导致数人死亡而辞职。
 - **Source**: The Guardian
 
-### 6. **Kazakhstan Bans Bride Kidnapping and Forced Marriages** / **哈萨克斯坦禁止绑架新娘和强迫婚姻**
-- **Time**: 2025-09-16
-- **Content**: Kazakhstan's parliament has passed a law officially banning the practices of bride kidnapping and forced marriages. This move is celebrated by human rights activists as a significant step toward protecting women's rights in the country. / 哈萨克斯坦议会通过一项法律，正式禁止绑架新娘和强迫婚姻的做法。人权活动家称赞此举是该国在保护妇女权利方面迈出的重要一步。
+### 7. **Saudi Arabia and Pakistan Sign Mutual Defense Pact** / **沙特阿拉伯与巴基斯坦签署共同防御条约**
+- **Time**: 2025-09-17
+- **Content**: Saudi Arabia and Pakistan have signed a mutual defense agreement to enhance military cooperation and regional security, reflecting strengthening ties between the two nations. / 沙特阿拉伯和巴基斯坦签署了一项共同防御协议，以加强军事合作和地区安全，反映了两国之间日益紧密的关系。
 - **Source**: The Hindu
 
-### 7. **Taliban Leader Bans Wi-Fi in Afghan Province to 'Prevent Immorality'** / **塔利班领导人为“防止不道德行为”在阿富汗一省份禁用Wi-Fi**
-- **Time**: 2025-09-16
-- **Content**: A local Taliban leader has banned the use of Wi-Fi in a province of Afghanistan, claiming the measure is necessary to prevent the spread of "immorality" and un-Islamic content among the youth. / 一名塔利班地方领导人在阿富汗某省份下令禁用Wi-Fi，声称此举是为防止“不道德”和非伊斯兰内容在年轻人中传播所必需的。
-- **Source**: The Hindu
-
-### 8. **Legendary Actor and Director Robert Redford Dies at 89** / **传奇演员兼导演罗伯特·雷德福去世，享年89岁**
-- **Time**: 2025-09-16
-- **Content**: Robert Redford, the iconic actor, director, and founder of the Sundance Film Festival, has passed away at the age of 89. He was a towering figure in Hollywood for decades, known for his classic films and environmental activism. / 标志性演员、导演及圣丹斯电影节创始人罗伯特·雷德福去世，享年89岁。几十年来，他一直是好莱坞的巨擘，以其经典电影和环保行动主义而闻名。
-- **Source**: CTV News
-
-### 9. **Suspect in Charlie Kirk Killing Charged with Aggravated Murder** / **查理·柯克谋杀案嫌疑人被控严重谋杀罪**
-- **Time**: 2025-09-16
-- **Content**: The suspect in the killing of conservative commentator Charlie Kirk has been formally charged with aggravated murder. Prosecutors in Utah have announced they will seek the death penalty in this high-profile case. / 保守派评论员查理·柯克遇害案的嫌疑人已被正式指控犯有严重谋杀罪。犹他州检察官宣布，他们将在这起备受瞩目的案件中寻求判处死刑。
+### 8. **Global Search Underway for Stolen Ancient Egyptian Artifact** / **全球搜寻被盗古埃及文物**
+- **Time**: 2025-09-17
+- **Content**: An international hunt is underway for a priceless ancient Egyptian gold bracelet that was stolen from a museum. Law enforcement agencies and art recovery experts are collaborating on the search. / 针对一件从博物馆被盗的无价古埃及金手镯的国际搜寻行动正在进行中。执法机构和艺术品追回专家正在合作进行搜寻。
 - **Source**: Global News
 
-### 10. **Poland Deploys Military Aircraft Amid Drone Threats from Ukraine** / **因来自乌克兰的无人机威胁，波兰部署军用飞机**
-- **Time**: 2025-09-16
-- **Content**: Poland's military has deployed aircraft in its airspace as a precautionary measure due to the increased threat of Russian drone and missile strikes in western Ukraine, near the Polish border. / 由于俄罗斯在靠近波兰边境的乌克兰西部地区发动无人机和导弹袭击的威胁增加，波兰军方已在其领空部署飞机作为预防措施。
+### 9. **EU Considers Sanctions on Israel Over Gaza Conflict** / **欧盟因加沙冲突考虑对以色列实施制裁**
+- **Time**: 2025-09-17
+- **Content**: The European Union is reportedly considering imposing new tariffs and sanctions on Israel in response to the ongoing military operations and humanitarian crisis in Gaza. / 据报道，为应对加沙持续的军事行动和人道主义危机，欧盟正在考虑对以色列实施新的关税和制裁。
 - **Source**: Associated Press
+
+### 10. **Poland Deploys Fighter Jets Amid Russian Drone Activity Near Border** / **因俄罗斯无人机在边境附近活动，波兰部署战斗机**
+- **Time**: 2025-09-17
+- **Content**: Poland's military has scrambled fighter jets to patrol its airspace as a precautionary measure due to increased Russian drone activity near the border with Ukraine. / 由于俄罗斯在与乌克兰边境附近的无人机活动增加，波兰军方已紧急出动战斗机巡逻其领空，作为一项预防措施。
+- **Source**: CTV News
 
 ---
 

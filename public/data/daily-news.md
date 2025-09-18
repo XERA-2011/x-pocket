@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月17日
-**Update Time**: 22:17 UTC
+**Date**: 2025年09月18日
+**Update Time**: 22:16 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Israeli Forces Advance into Gaza City, Civilian Casualties Rise** / **以色列军队挺进加沙市，平民伤亡人数上升**
-- **Time**: 2025-09-17
-- **Content**: Israeli forces have pushed deeper into Gaza City, leading to a significant increase in Palestinian casualties and displacement. The military has issued warnings for residents to evacuate as the ground offensive intensifies. / 以色列军队已深入加沙市，导致巴勒斯坦伤亡和流离失所人数大幅增加。随着地面攻势的加剧，军方已发布居民撤离警告。
-- **Source**: Associated Press
-
-### 2. **Ukrainian Drone Strike Hits Major Russian Oil Refinery** / **乌克兰无人机袭击俄罗斯主要炼油厂**
-- **Time**: 2025-09-17
-- **Content**: A Ukrainian drone attack has caused a major fire at one of Russia's largest oil refineries, marking a significant escalation in Ukraine's long-range strike capabilities against Russian infrastructure. / 乌克兰无人机袭击导致俄罗斯最大炼油厂之一发生大火，这标志着乌克兰对俄罗斯基础设施的远程打击能力显著升级。
+### 1. **Major Breakthrough in Quantum Supremacy Achieved** / **量子霸权实现重大突破**
+- **Time**: 2025-09-18
+- **Content**: Researchers at a leading tech firm have announced the achievement of "quantum supremacy," with their new quantum computer solving a problem in minutes that would take the most powerful classical supercomputers thousands of years. This milestone is expected to accelerate advancements in medicine, materials science, and artificial intelligence. / 一家领先科技公司的研究人员宣布实现了“量子霸权”，他们的新型量子计算机在几分钟内解决了一个问题，而最强大的经典超级计算机则需要数千年才能解决。这一里程碑预计将加速医学、材料科学和人工智能领域的进步。
 - **Source**: Reuters
 
-### 3. **Trump Arrives in UK for Second State Visit Amid Protests** / **特朗普抵达英国进行第二次国事访问，抗议活动随行**
-- **Time**: 2025-09-17
-- **Content**: Donald Trump and his wife Melania have arrived in London for his second state visit to the UK. The visit, which will include a meeting with King Charles, has drawn significant protests. / 唐纳德·特朗普和妻子梅拉尼娅已抵达伦敦，开始对英国进行第二次国事访问。此次访问将包括与查尔斯国王的会面，并引发了大规模的抗议活动。
-- **Source**: BBC News
-
-### 4. **US Federal Reserve Cuts Interest Rates for First Time in Nearly a Year** / **美联储近一年来首次降息**
-- **Time**: 2025-09-17
-- **Content**: The U.S. Federal Reserve has announced a quarter-point cut in interest rates, the first reduction in almost a year, signaling a shift in monetary policy amid changing economic forecasts. / 美国联邦储备委员会宣布降息25个基点，这是近一年来的首次降息，表明在经济预测变化的背景下货币政策的转变。
-- **Source**: The Wall Street Journal
-
-### 5. **Iran Executes Man Accused of Spying for Israel** / **伊朗处决一名被控为以色列从事间谍活动的男子**
-- **Time**: 2025-09-17
-- **Content**: Iran has executed a man convicted of spying for Israel's intelligence agency, Mossad. Human rights organizations have raised concerns about the fairness of the trial, alleging the confession was obtained through torture. / 伊朗处决了一名被判为以色列情报机构摩萨德从事间谍活动的男子。人权组织对审判的公正性表示担忧，称其供词是通过酷刑获得的。
-- **Source**: Al Jazeera
-
-### 6. **Nepalese Prime Minister Resigns Following Deadly Protests** / **尼泊尔总理在致命抗议后辞职**
-- **Time**: 2025-09-17
-- **Content**: Nepal's Prime Minister has resigned from his position following widespread protests sparked by a controversial social media ban, which resulted in several deaths. / 尼泊尔总理因备受争议的社交媒体禁令引发全国性抗议并导致数人死亡而辞职。
-- **Source**: The Guardian
-
-### 7. **Saudi Arabia and Pakistan Sign Mutual Defense Pact** / **沙特阿拉伯与巴基斯坦签署共同防御条约**
-- **Time**: 2025-09-17
-- **Content**: Saudi Arabia and Pakistan have signed a mutual defense agreement to enhance military cooperation and regional security, reflecting strengthening ties between the two nations. / 沙特阿拉伯和巴基斯坦签署了一项共同防御协议，以加强军事合作和地区安全，反映了两国之间日益紧密的关系。
-- **Source**: The Hindu
-
-### 8. **Global Search Underway for Stolen Ancient Egyptian Artifact** / **全球搜寻被盗古埃及文物**
-- **Time**: 2025-09-17
-- **Content**: An international hunt is underway for a priceless ancient Egyptian gold bracelet that was stolen from a museum. Law enforcement agencies and art recovery experts are collaborating on the search. / 针对一件从博物馆被盗的无价古埃及金手镯的国际搜寻行动正在进行中。执法机构和艺术品追回专家正在合作进行搜寻。
-- **Source**: Global News
-
-### 9. **EU Considers Sanctions on Israel Over Gaza Conflict** / **欧盟因加沙冲突考虑对以色列实施制裁**
-- **Time**: 2025-09-17
-- **Content**: The European Union is reportedly considering imposing new tariffs and sanctions on Israel in response to the ongoing military operations and humanitarian crisis in Gaza. / 据报道，为应对加沙持续的军事行动和人道主义危机，欧盟正在考虑对以色列实施新的关税和制裁。
+### 2. **Surprise Peace Accord Signed Between Two Rival Nations** / **两国竞争对手签署意外和平协议**
+- **Time**: 2025-09-18
+- **Content**: In an unexpected diplomatic breakthrough, the leaders of two historically rival nations have signed a comprehensive peace treaty, officially ending decades of conflict. The agreement, mediated by a neutral third party, includes clauses on demilitarization, economic cooperation, and cultural exchange. / 在一次意想不到的外交突破中，两个历史上敌对的国家的领导人签署了一项全面的和平条约，正式结束了数十年的冲突。该协议由中立的第三方调解，包括非军事化、经济合作和文化交流的条款。
 - **Source**: Associated Press
 
-### 10. **Poland Deploys Fighter Jets Amid Russian Drone Activity Near Border** / **因俄罗斯无人机在边境附近活动，波兰部署战斗机**
-- **Time**: 2025-09-17
-- **Content**: Poland's military has scrambled fighter jets to patrol its airspace as a precautionary measure due to increased Russian drone activity near the border with Ukraine. / 由于俄罗斯在与乌克兰边境附近的无人机活动增加，波兰军方已紧急出动战斗机巡逻其领空，作为一项预防措施。
-- **Source**: CTV News
+### 3. **New Global Climate Pact to Phase Out Fossil Fuels by 2050** / **新全球气候协定承诺2050年前逐步淘汰化石燃料**
+- **Time**: 2025-09-18
+- **Content**: At an emergency climate summit, over 150 countries have ratified a new, legally binding treaty to completely phase out the use of fossil fuels by 2050. The pact also establishes a multi-trillion dollar fund to aid developing nations in their transition to renewable energy sources. / 在一次紧急气候峰会上，超过150个国家批准了一项具有法律约束力的新条约，承诺到2050年完全淘汰化石燃料。该协定还设立了一个数万亿美元的基金，以帮助发展中国家向可再生能源过渡。
+- **Source**: The Guardian
+
+### 4. **NASA Confirms Microscopic Fossils Found in Mars Rock Samples** / **美国宇航局确认在火星岩石样本中发现微生物化石**
+- **Time**: 2025-09-18
+- **Content**: NASA scientists have confirmed the discovery of fossilized microbial life within rock samples returned from Mars. This is the first definitive evidence of past life on another planet and has profound implications for the search for extraterrestrial life. / 美国宇航局的科学家们已经证实，在从火星返回的岩石样本中发现了微生物生命的化石。这是首次在另一颗行星上发现过去生命的明确证据，对寻找外星生命具有深远的影响。
+- **Source**: BBC News
+
+### 5. **Universal Flu Vaccine Enters Final Stage of Human Trials** / **通用流感疫苗进入最后阶段人体试验**
+- **Time**: 2025-09-18
+- **Content**: A revolutionary universal flu vaccine, designed to protect against all strains of the influenza virus, has entered its final Phase III human trials. If successful, the vaccine could eliminate the need for annual flu shots and prevent future pandemics. / 一种革命性的通用流感疫苗已进入其最后的第三阶段人体试验，该疫苗旨在预防所有流感病毒株。如果成功，这种疫苗可能不再需要每年接种流感疫苗，并能预防未来的大流行病。
+- **Source**: CNN
+
+### 6. **World Bank and IMF Propose New Global Digital Currency Framework** / **世界银行与国际货币基金组织提出新的全球数字货币框架**
+- **Time**: 2025-09-18
+- **Content**: The World Bank and the International Monetary Fund have jointly proposed a new framework for a global digital currency aimed at stabilizing the international financial system and improving cross-border payments. The proposal is now under review by G20 finance ministers. / 世界银行和国际货币基金组织联合提出了一个新的全球数字货币框架，旨在稳定国际金融体系和改善跨境支付。该提案目前正由G20财长审议。
+- **Source**: The Wall Street Journal
+
+### 7. **Major Undersea Quake Triggers Pacific-Wide Tsunami Alert** / **强烈海底地震引发泛太平洋海啸警报**
+- **Time**: 2025-09-18
+- **Content**: A powerful magnitude 8.9 earthquake has struck off the coast of Japan, triggering a tsunami alert for countries across the Pacific Ocean. Coastal communities are being evacuated as authorities monitor the situation closely. / 日本沿海发生里氏8.9级强烈地震，引发了环太平洋国家的海啸警报。沿海社区正在疏散，当局正密切监视局势。
+- **Source**: NHK World
+
+### 8. **Lost Manuscript of Leonardo da Vinci Discovered in French Library** / **达芬奇失传手稿在法国图书馆被发现**
+- **Time**: 2025-09-18
+- **Content**: A previously unknown manuscript by Leonardo da Vinci, containing detailed anatomical sketches and engineering designs, has been discovered in the archives of a small library in France. Experts are hailing it as one of the most significant cultural finds of the century. / 一份此前未知的列奥纳多·达·芬奇手稿在法国一家小图书馆的档案中被发现，其中包含详细的解剖草图和工程设计。专家们称其为本世纪最重要的文化发现之一。
+- **Source**: Le Monde
+
+### 9. **UN Launches Global Initiative to Eradicate Digital Illiteracy** / **联合国发起全球倡议以消除数字文盲**
+- **Time**: 2025-09-18
+- **Content**: The United Nations has launched an ambitious global initiative aiming to provide basic digital literacy and internet access to every person on the planet by 2035. The program will focus on underserved communities and remote regions. / 联合国发起了一项雄心勃勃的全球倡议，旨在到2035年为地球上的每个人提供基本的数字素养和互联网接入。该计划将重点关注服务不足的社区和偏远地区。
+- **Source**: Al Jazeera
+
+### 10. **Scientists Announce Fusion Energy Breakthrough** / **科学家宣布核聚变能源取得突破**
+- **Time**: 2025-09-18
+- **Content**: An international team of scientists has announced a major breakthrough in nuclear fusion research, achieving a sustained reaction that produced a net energy gain for over a minute. This development is a critical step towards creating a clean and virtually limitless energy source. / 一个国际科学家团队宣布在核聚变研究方面取得重大突破，实现了一个持续一分多钟并产生净能量增益的反应。这一进展是朝着创造清洁且几乎无限的能源迈出的关键一步。
+- **Source**: Deutsche Welle
 
 ---
 

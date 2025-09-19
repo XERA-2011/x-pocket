@@ -1,22 +1,23 @@
 # 应用文
 
-## A postcard describing an interesting museum you visited
-- 一张描述你参观过的有趣博物馆的明信片
+## A thank-you email to a host family after staying with them
+- 在寄宿家庭居住后，给他们写一封感谢邮件
 
 **正文**：
 
-Hi Sam,
+Dear Mr. and Mrs. Smith,
 
-I'm having a fantastic holiday in London! Yesterday, I went to the Natural History Museum, and it was absolutely brilliant. The building itself is stunning, but the best part was the dinosaur exhibition. I saw a huge, life-sized model of a Tyrannosaurus Rex, and it was so realistic! I also spent a lot of time in the Earth Hall, where there's an amazing collection of gemstones. I learned so much and took plenty of photos to show you. It’s a must-see place if you ever visit.
+I am writing to thank you for your kindness during my stay in London. I had a wonderful time with your family and really enjoyed practicing my English with you every evening. The food was always delicious, especially the roast dinner you made on Sunday!
 
-Hope you're well. See you soon!
+Thank you also for taking me to see the Tower of London. It was an amazing day out. I am now back home safely, but I already miss our time together. I hope you will come and visit me in my city one day.
 
-Best,
+Best wishes,
+
 Alex
 
-- 嗨，萨姆，
-- 我在伦敦的假期过得非常棒！昨天，我去了自然历史博物馆，那里简直太棒了。建筑本身就令人惊叹，但最精彩的部分是恐龙展览。我看到了一个巨大的、与实物大小一样的霸王龙模型，它太逼真了！我还在地球馆待了很长时间，那里有令人惊叹的宝石收藏。我学到了很多东西，也拍了很多照片给你看。如果你来这里，这绝对是个必看的地方。
-- 希望你一切都好。很快再见！
+- 尊敬的史密斯先生和太太：
+- 我写这封信是为了感谢我在伦敦逗留期间你们给予我的善意。我和你们的家人度过了一段美好的时光，我真的很享受每天晚上和你们一起练习英语。食物总是很美味，尤其是你们周日做的烤肉晚餐！
+- 也谢谢你们带我去参观伦敦塔。那是很棒的一天。我现在已经安全到家了，但我已经开始想念我们在一起的时光。希望有一天你们能来我的城市看我。
 - 最好的祝愿，
 - 亚历克斯
 
@@ -24,11 +25,13 @@ Alex
 
 # 记叙文/短文
 
-## An article for teenagers about the benefits of learning a second language
-- 一篇为青少年写的关于学习第二语言好处的文章
+## Write a story ending: That experience taught me never to judge people too quickly.
+- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过快地评判他人。
 
 **正文**：
 
-Want to make your world bigger? Learning a second language is your ticket! It’s more than just a useful skill for travelling; it’s a workout for your brain. Studies show that being bilingual can improve your memory and help you become better at solving problems. It also opens doors to new cultures. You can enjoy foreign films without subtitles, understand the lyrics of your favourite international pop songs, and even make new friends from different countries. This amazing skill will not only impress your future employers but also make your life much more exciting. Give it a try!
+The new librarian, Mr. Harrison, seemed very strict. He never smiled and always told us to be quiet in a stern voice. One afternoon, I couldn't find a book I needed for my school project. I was about to give up when Mr. Harrison came over. I thought he was going to scold me for making a mess. Instead, he asked gently what I was looking for. After I told him, he spent nearly an hour searching online and in the storeroom. He finally found the book for me. That experience taught me never to judge people too quickly.
 
-- 想要让你的世界变得更大吗？学习第二语言就是你的门票！它不仅仅是一项对旅行有用的技能，更是对你大脑的一种锻炼。研究表明，掌握双语可以提高你的记忆力，并帮助你更擅长解决问题。它还为你打开了通往新文化的大门。你可以欣赏没有字幕的外国电影，理解你最喜欢的国际流行歌曲的歌词，甚至可以结交来自不同国家的新朋友。这项了不起的技能不仅会给你未来的雇主留下深刻印象，也会让你的生活变得更加精彩。试一试吧！
+- 新来的图书管理员哈里森先生似乎非常严格。他从不微笑，总是用严厉的声音让我们保持安静。
+- 一天下午，我找不到学校项目需要的一本书。正当我准备放弃时，哈里森先生走了过来。我以为他会因为我把地方弄得一团糟而责备我。
+- 相反，他温柔地问我在找什么。我告诉他之后，他花了将近一个小时在网上和储藏室里查找。他最终为我找到了那本书。那次经历教会了我永远不要过快地评判他人。

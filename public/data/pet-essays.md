@@ -1,37 +1,43 @@
 # 应用文
 
-## A thank-you email to a host family after staying with them
-- 在寄宿家庭居住后，给他们写一封感谢邮件
+## An email inviting your cousin to visit you during the holidays
+- 一封邀请表兄/妹假期来访的邮件
 
 **正文**：
 
-Dear Mr. and Mrs. Smith,
+Hi Alex,
 
-I am writing to thank you for your kindness during my stay in London. I had a wonderful time with your family and really enjoyed practicing my English with you every evening. The food was always delicious, especially the roast dinner you made on Sunday!
+How are you doing? The summer holiday is just around the corner, and I was thinking it would be great if you could come and visit me. I know you haven't been to my city before, and there's so much for us to do!
 
-Thank you also for taking me to see the Tower of London. It was an amazing day out. I am now back home safely, but I already miss our time together. I hope you will come and visit me in my city one day.
+There's a new science museum that just opened downtown which looks amazing. We could also spend a day at the beach if the weather is nice. Plus, my mom promised to make her famous barbecue for us. It would be so much fun to finally hang out again after such a long time.
 
-Best wishes,
+Let me know if you can make it!
 
-Alex
+Best,
+Chris
 
-- 尊敬的史密斯先生和太太：
-- 我写这封信是为了感谢我在伦敦逗留期间你们给予我的善意。我和你们的家人度过了一段美好的时光，我真的很享受每天晚上和你们一起练习英语。食物总是很美味，尤其是你们周日做的烤肉晚餐！
-- 也谢谢你们带我去参观伦敦塔。那是很棒的一天。我现在已经安全到家了，但我已经开始想念我们在一起的时光。希望有一天你们能来我的城市看我。
-- 最好的祝愿，
-- 亚历克斯
+- 嗨，亚历克斯，
+- 你最近怎么样？暑假马上就要到了，我在想，如果你能来我这儿玩就太好了。我知道你以前没来过我的城市，我们有很多事可以一起做！
+- 市中心新开了一家科技博物馆，看起来非常棒。如果天气好的话，我们还可以在海滩上玩一天。而且，我妈妈答应为我们做她拿手的烤肉。这么久没见，我们能再次聚在一起一定会非常有趣。
+- 如果你能来的话，请告诉我！
+- 祝好，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## Write a story ending: That experience taught me never to judge people too quickly.
-- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过快地评判他人。
+## An article reviewing a movie that all teenagers should watch
+- 一篇推荐所有青少年都应观看的电影的影评
 
 **正文**：
 
-The new librarian, Mr. Harrison, seemed very strict. He never smiled and always told us to be quiet in a stern voice. One afternoon, I couldn't find a book I needed for my school project. I was about to give up when Mr. Harrison came over. I thought he was going to scold me for making a mess. Instead, he asked gently what I was looking for. After I told him, he spent nearly an hour searching online and in the storeroom. He finally found the book for me. That experience taught me never to judge people too quickly.
+**A Film That Speaks to You: "The Edge of Seventeen"**
 
-- 新来的图书管理员哈里森先生似乎非常严格。他从不微笑，总是用严厉的声音让我们保持安静。
-- 一天下午，我找不到学校项目需要的一本书。正当我准备放弃时，哈里森先生走了过来。我以为他会因为我把地方弄得一团糟而责备我。
-- 相反，他温柔地问我在找什么。我告诉他之后，他花了将近一个小时在网上和储藏室里查找。他最终为我找到了那本书。那次经历教会了我永远不要过快地评判他人。
+Are you looking for a movie that truly understands the challenges of being a teenager? If so, you must watch "The Edge of Seventeen." The film tells the story of Nadine, a high school student who feels awkward and lonely, especially after her best friend starts dating her popular older brother.
+
+The movie is brilliant because it's both hilarious and incredibly honest. It perfectly captures the feeling that everything is the end of the world, a common emotion for many teenagers. It teaches us that it's okay not to be perfect and that everyone is struggling with their own problems. I highly recommend it.
+
+- **一部与你对话的电影：《成长边缘》**
+- 你是否在寻找一部真正理解青少年时期挑战的电影？如果是这样，你一定要看《成长边缘》。这部电影讲述了高中生娜丁的故事，她总感觉自己笨拙又孤独，尤其是在她最好的朋友开始和她受欢迎的哥哥约会之后。
+- 这部电影非常出色，因为它既搞笑又异常真实。它完美地捕捉到了那种感觉一切都像是世界末日的情绪，这是许多青少年共有的感受。它告诉我们，不完美也没关系，每个人都在与自己的问题作斗争。我强烈推荐这部电影。

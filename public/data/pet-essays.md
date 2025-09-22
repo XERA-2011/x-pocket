@@ -1,43 +1,43 @@
 # 应用文
 
-## An email inviting your cousin to visit you during the holidays
-- 一封邀请表兄/妹假期来访的邮件
+## A postcard to your family from your first week at a new school
+- 一封你在新学校第一周寄给家人的明信片
 
 **正文**：
 
-Hi Alex,
+Hi everyone,
 
-How are you doing? The summer holiday is just around the corner, and I was thinking it would be great if you could come and visit me. I know you haven't been to my city before, and there's so much for us to do!
+I'm having a fantastic time at my new school! The first week has been busy but very exciting. My classes are quite interesting, especially the art class, and all the teachers are friendly and helpful.
 
-There's a new science museum that just opened downtown which looks amazing. We could also spend a day at the beach if the weather is nice. Plus, my mom promised to make her famous barbecue for us. It would be so much fun to finally hang out again after such a long time.
+I've already made a new friend named Alex. We have lunch together every day and he's shown me around the huge campus. The school has a big library and a swimming pool, which is amazing! I was a bit nervous at first, but now I feel really happy here.
 
-Let me know if you can make it!
+Hope you are all well. I miss you!
 
-Best,
+Lots of love,
 Chris
 
-- 嗨，亚历克斯，
-- 你最近怎么样？暑假马上就要到了，我在想，如果你能来我这儿玩就太好了。我知道你以前没来过我的城市，我们有很多事可以一起做！
-- 市中心新开了一家科技博物馆，看起来非常棒。如果天气好的话，我们还可以在海滩上玩一天。而且，我妈妈答应为我们做她拿手的烤肉。这么久没见，我们能再次聚在一起一定会非常有趣。
-- 如果你能来的话，请告诉我！
-- 祝好，
+- 大家好，
+- 我在新学校过得非常棒！第一周虽然忙碌，但非常令人兴奋。我的课程都很有趣，特别是美术课，而且所有的老师都很友好，乐于助人。
+- 我已经交了一个名叫亚历克斯的新朋友。我们每天一起吃午饭，他还带我参观了这个巨大的校园。学校有一个大图书馆和一个游泳池，太棒了！一开始我还有点紧张，但现在我在这里感觉非常开心。
+- 希望你们一切都好。想念你们！
+- 爱你们的，
 - 克里斯
 
 ---
 
 # 记叙文/短文
 
-## An article reviewing a movie that all teenagers should watch
-- 一篇推荐所有青少年都应观看的电影的影评
+## An article giving advice on how to make new friends
+- 一篇关于如何结交新朋友的建议文章
 
 **正文**：
 
-**A Film That Speaks to You: "The Edge of Seventeen"**
+Making new friends can feel difficult, but it doesn't have to be. Here is some simple advice to help you.
 
-Are you looking for a movie that truly understands the challenges of being a teenager? If so, you must watch "The Edge of Seventeen." The film tells the story of Nadine, a high school student who feels awkward and lonely, especially after her best friend starts dating her popular older brother.
+First, be yourself. People will like you for who you are. Don't be afraid to show your interests and smile often, as it makes you seem more approachable.
 
-The movie is brilliant because it's both hilarious and incredibly honest. It perfectly captures the feeling that everything is the end of the world, a common emotion for many teenagers. It teaches us that it's okay not to be perfect and that everyone is struggling with their own problems. I highly recommend it.
+Another good idea is to join clubs or groups. Whether it's a sports team, a book club, or a music group, you will meet people who like the same things as you. Finally, be a good listener. Ask questions and show you are interested in others.
 
-- **一部与你对话的电影：《成长边缘》**
-- 你是否在寻找一部真正理解青少年时期挑战的电影？如果是这样，你一定要看《成长边缘》。这部电影讲述了高中生娜丁的故事，她总感觉自己笨拙又孤独，尤其是在她最好的朋友开始和她受欢迎的哥哥约会之后。
-- 这部电影非常出色，因为它既搞笑又异常真实。它完美地捕捉到了那种感觉一切都像是世界末日的情绪，这是许多青少年共有的感受。它告诉我们，不完美也没关系，每个人都在与自己的问题作斗争。我强烈推荐这部电影。
+- 结交新朋友可能感觉很难，但其实不必如此。这里有一些简单的建议可以帮助你。
+- 首先，做你自己。人们会因为真实的你而喜欢你。不要害怕展示你的兴趣并经常微笑，因为这会让你看起来更容易接近。
+- 另一个好主意是加入俱乐部或社团。无论是运动队、读书俱乐部还是音乐小组，你都会遇到和你有相同爱好的人。最后，做一个好的倾听者。多问问题，并表现出你对他人感兴趣。

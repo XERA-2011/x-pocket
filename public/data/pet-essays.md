@@ -1,43 +1,47 @@
 # 应用文
 
-## A postcard to your family from your first week at a new school
-- 一封你在新学校第一周寄给家人的明信片
+## A thank-you email to someone who helped you learn English
+- 一封感谢信，致谢曾帮助你学习英语的人
 
-**正文**：
+**正文**:
 
-Hi everyone,
+Dear Alex,
 
-I'm having a fantastic time at my new school! The first week has been busy but very exciting. My classes are quite interesting, especially the art class, and all the teachers are friendly and helpful.
+I hope you're doing well. I'm writing to say a huge thank you for all your help with my English studies. I really appreciate the time you spent practicing conversation with me every week. Your patience and encouragement made a big difference.
 
-I've already made a new friend named Alex. We have lunch together every day and he's shown me around the huge campus. The school has a big library and a swimming pool, which is amazing! I was a bit nervous at first, but now I feel really happy here.
+Thanks to you, my speaking skills have improved so much, and I feel much more confident. I even passed my recent English exam with a great score! I couldn't have done it without your support.
 
-Hope you are all well. I miss you!
+Let's catch up soon!
 
-Lots of love,
+Best wishes,
+
 Chris
 
-- 大家好，
-- 我在新学校过得非常棒！第一周虽然忙碌，但非常令人兴奋。我的课程都很有趣，特别是美术课，而且所有的老师都很友好，乐于助人。
-- 我已经交了一个名叫亚历克斯的新朋友。我们每天一起吃午饭，他还带我参观了这个巨大的校园。学校有一个大图书馆和一个游泳池，太棒了！一开始我还有点紧张，但现在我在这里感觉非常开心。
-- 希望你们一切都好。想念你们！
-- 爱你们的，
+- 亲爱的亚历克斯：
+- 
+- 希望你一切都好。我写这封信是为了对你在我英语学习上提供的所有帮助，表达我诚挚的感谢。我非常感激你每周花时间陪我练习对话。你的耐心和鼓励给了我巨大的影响。
+- 
+- 因为你，我的口语能力进步了很多，我也变得自信多了。我甚至在最近的英语考试中取得了优异的成绩！没有你的支持，我不可能做到。
+- 
+- 我们找个时间聚聚吧！
+- 
+- 最好的祝愿，
+- 
 - 克里斯
 
 ---
 
 # 记叙文/短文
 
-## An article giving advice on how to make new friends
-- 一篇关于如何结交新朋友的建议文章
+## Write a story that begins: When I opened the old box, I found something incredible inside.
+- 写一个以下列句子开头的故事：当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。
 
-**正文**：
+**正文**:
 
-Making new friends can feel difficult, but it doesn't have to be. Here is some simple advice to help you.
+When I opened the old box, I found something incredible inside. It was a small, silver compass that wasn't pointing north. Instead, its needle was spinning wildly before it locked onto a picture of my lost cat, Whiskers, on my desk. I thought it was broken, but when I picked it up, the needle pointed straight towards the front door.
 
-First, be yourself. People will like you for who you are. Don't be afraid to show your interests and smile often, as it makes you seem more approachable.
+Curious, I followed its direction out of the house and down the street. It led me to the old park. There, sleeping under a bench, was Whiskers! The compass had led me straight to him.
 
-Another good idea is to join clubs or groups. Whether it's a sports team, a book club, or a music group, you will meet people who like the same things as you. Finally, be a good listener. Ask questions and show you are interested in others.
-
-- 结交新朋友可能感觉很难，但其实不必如此。这里有一些简单的建议可以帮助你。
-- 首先，做你自己。人们会因为真实的你而喜欢你。不要害怕展示你的兴趣并经常微笑，因为这会让你看起来更容易接近。
-- 另一个好主意是加入俱乐部或社团。无论是运动队、读书俱乐部还是音乐小组，你都会遇到和你有相同爱好的人。最后，做一个好的倾听者。多问问题，并表现出你对他人感兴趣。
+- 当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。那是一个小小的银色罗盘，但它并不指向北方。相反，它的指针疯狂地旋转，然后锁定了我书桌上一张我丢失的猫“晶晶”的照片。我以为它坏了，但当我拿起它时，指针直直地指向了前门。
+- 
+- 出于好奇，我跟着它的指引走出了房子，沿着街道前行。它把我带到了旧公园。在那里，一只猫正睡在长凳下，是晶晶！这个罗盘直接把我带到了他身边。

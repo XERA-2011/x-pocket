@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * Disclaimer: This component is not entirely my own
  */

@@ -85,16 +85,36 @@ export default function HeroSection() {
           onHoverStart={() => setIsHovered(true)}
           onHoverEnd={() => setIsHovered(false)}
           className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full cursor-pointer"
-          style={{
-            background: 'radial-gradient(circle, transparent 60%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0.3) 80%, transparent 90%)',
-            boxShadow: '0 0 40px rgba(255,255,255,0.2), inset 0 0 40px rgba(255,255,255,0.05)'
-          }}
         >
+          {/* Background container */}
+          <div className="absolute inset-0 rounded-full">
+            {/* Initial state */}
+            <motion.div
+              className="absolute inset-0 rounded-full"
+              style={{
+                background: 'radial-gradient(circle, transparent 60%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0.3) 80%, transparent 90%)',
+                boxShadow: '0 0 40px rgba(255,255,255,0.2), inset 0 0 40px rgba(255,255,255,0.05)'
+              }}
+              animate={{ opacity: isHovered ? 0 : 1 }}
+              transition={{ duration: 0.4, ease: 'easeInOut' }}
+            />
+            {/* Hover state */}
+            <motion.div
+              className="absolute inset-0 rounded-full"
+              style={{
+                background: 'radial-gradient(circle, white 60%, rgba(255,255,255,0.7) 75%, transparent 90%)',
+                boxShadow: '0 0 50px rgba(255,255,255,0.3)'
+              }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: isHovered ? 1 : 0 }}
+              transition={{ duration: 0.4, ease: 'easeInOut' }}
+            />
+          </div>
           {/* X logo */}
           <div className="absolute inset-0 flex items-center justify-center">
             <Logo
-              className="w-1/2 h-1/2 text-white"
-              variant="white"
+              className={`w-1/2 h-1/2 ${isHovered ? 'text-black' : 'text-white'}`}
+              variant={isHovered ? 'black' : 'white'}
               animate={true}
               animationDelay={0.5}
               strokeWidth={12}

@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { motion, Variants } from 'framer-motion';
 import GlowCard from './GlowCard';
-import { Button } from './ElasticButton';
 
 export interface ItemCardProps {
   id: string;
@@ -110,14 +109,9 @@ export default function ItemCard({ item }: { item: ItemCardProps; index: number 
                   Coming Soon
                 </div>
               ) : (
-                <Button
-                  asChild
-                  variant="ghost"
-                >
-                  <Link href={item.href} className="w-full text-center py-2.5 px-4 bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/30 rounded-xl text-white hover:text-white/90 transition-all duration-300 no-underline">
-                    View
-                  </Link>
-                </Button>
+                <Link href={item.href} className="block w-full text-center py-2.5 px-4 bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/30 rounded-full text-white hover:text-white/90 transition-all duration-300 no-underline cursor-can-hover">
+                  View
+                </Link>
               )}
             </div>
           </div>

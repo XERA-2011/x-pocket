@@ -196,7 +196,7 @@ function ElasticCursor() {
         ref={jellyRef}
         id={"jelly-id"}
         className={cn(
-          `w-[${CURSOR_DIAMETER}px] h-[${CURSOR_DIAMETER}px] border-2 border-black dark:border-white`,
+          `w-[${CURSOR_DIAMETER}px] h-[${CURSOR_DIAMETER}px] border-2 border-transparent`,
           "jelly-blob fixed left-0 top-0 rounded-lg z-[999] pointer-events-none will-change-transform",
           "translate-x-[-50%] translate-y-[-50%]"
         )}

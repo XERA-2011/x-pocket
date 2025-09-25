@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月24日
-**Update Time**: 22:19 UTC
+**Date**: 2025年09月25日
+**Update Time**: 22:17 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Israel-Gaza Conflict Escalates with Flotilla Attack** / **以色列与加沙冲突升级，救援船队遭袭**
-- **Time**: 2025-09-24
-- **Content**: The conflict in the Gaza Strip has intensified as Israeli forces continue their attacks, resulting in numerous Palestinian casualties. An activist flotilla attempting to deliver aid was reportedly attacked by drones. / 加沙地带的冲突加剧，以色列军队持续发动袭击，造成多名巴勒斯坦人伤亡。一支试图运送援助物资的活动人士船队据报遭到无人机袭击。
+### 1. **Former French President Sarkozy Sentenced to Prison** / **法国前总统萨科齐被判入狱**
+- **Time**: 2025-09-25
+- **Content**: A Paris court has sentenced former French President Nicolas Sarkozy to five years in prison for criminal conspiracy related to a case involving Libyan financing. / 巴黎一家法院以与利比亚资金案有关的刑事阴谋罪判处法国前总统尼古拉·萨科齐五年徒刑。
 - **Source**: Associated Press
 
-### 2. **Trump Shifts Stance on Ukraine's Ability to Win War** / **特朗普转变立场，认为乌克兰能够赢得战争**
-- **Time**: 2025-09-24
-- **Content**: Former U.S. President Donald Trump has reportedly changed his view, now believing Ukraine can reclaim all lost territory with NATO's assistance, a position the Kremlin has dismissed. / 据报道，美国前总统唐纳德·特朗普改变了其观点，现在认为在北约的帮助下，乌克兰可以收复所有失地。克里姆林宫对此立场表示不屑。
-- **Source**: Reuters
-
-### 3. **World Leaders Address UN General Assembly Amidst Global Crises** / **全球危机之际，世界各国领导人在联合国大会上发言**
-- **Time**: 2025-09-24
-- **Content**: Leaders from around the world are gathering at the UN General Assembly to discuss pressing issues including the wars in the Middle East and Ukraine, climate change, and international sanctions. / 来自世界各地的领导人正齐聚联合国大会，讨论中东和乌克兰战争、气候变化及国际制裁等紧迫问题。
-- **Source**: United Nations
-
-### 4. **Super Typhoon Ragasa Slams into Asia, Causing Widespread Damage** / **超级台风“拉加萨”重创亚洲，造成大范围破坏**
-- **Time**: 2025-09-24
-- **Content**: Super Typhoon Ragasa has left a trail of destruction across Asia, causing at least 17 fatalities in Taiwan and battering Hong Kong before making landfall in mainland China. / 超级台风“拉加萨”在亚洲各地造成严重破坏，在台湾导致至少17人死亡，并猛烈袭击香港，随后在中国大陆登陆。
-- **Source**: BBC News
-
-### 5. **Fatal Shooting at Dallas ICE Facility Leaves Two Dead** / **达拉斯移民与海关执法局设施发生致命枪击，两人死亡**
-- **Time**: 2025-09-24
-- **Content**: A shooting at a U.S. Immigration and Customs Enforcement (ICE) facility in Dallas, Texas, has resulted in the deaths of two detainees and left one critically injured. The suspected shooter was later found deceased. / 位于德克萨斯州达拉斯的美国移民与海关执法局（ICE）一处设施发生枪击事件，导致两名被拘留者死亡，一人重伤。嫌疑枪手随后被发现已死亡。
-- **Source**: CNN
-
-### 6. **Drone Strike on Sudan Market Kills 15 Civilians** / **苏丹一市场遭无人机袭击，致15名平民死亡**
-- **Time**: 2025-09-24
-- **Content**: A drone strike on a crowded market in El-Fasher, Sudan, has killed at least 15 people and injured dozens more, according to local aid workers and officials. / 据当地援助人员和官员称，苏丹法希尔市一个拥挤的市场遭到无人机袭击，造成至少15人死亡，数十人受伤。
-- **Source**: Al Jazeera
-
-### 7. **Yemen's Houthi Rebels Claim Drone Attack on Eilat, Israel** / **也门胡塞叛军声称对以色列埃拉特发动无人机袭击**
-- **Time**: 2025-09-24
-- **Content**: Yemen's Houthi rebels have claimed responsibility for a drone attack on the southern Israeli city of Eilat, which reportedly caused several injuries. / 也门胡塞叛军声称对以色列南部城市埃拉特发动了无人机袭击，据报道袭击造成数人受伤。
+### 2. **Israeli Strikes Kill 17 in Gaza as Ceasefire Pressure Mounts** / **以色列空袭加沙致17人死亡，停火压力增大**
+- **Time**: 2025-09-25
+- **Content**: At least 17 Palestinians were killed in Israeli strikes on Gaza, as international calls for a ceasefire in the Israel-Hamas war grow louder. / 以色列对加沙的袭击造成至少17名巴勒斯坦人死亡，国际社会对以色列-哈马斯战争停火的呼声日益高涨。
 - **Source**: The Guardian
 
-### 8. **Massive Sinkhole Opens in Central Bangkok** / **曼谷市中心出现巨型天坑**
-- **Time**: 2025-09-24
-- **Content**: A large sinkhole, approximately 50 meters deep, has suddenly appeared in a street in Bangkok, Thailand, prompting road closures and the evacuation of nearby buildings. No injuries have been reported. / 泰国曼谷一条街道上突然出现一个约50米深的巨大天坑，导致道路封闭和附近建筑物内的人员疏散。目前没有人员伤亡报告。
-- **Source**: Sky News
+### 3. **Ukrainian President Warns of "Most Destructive Arms Race"** / **乌克兰总统警告“史上最具破坏性的军备竞赛”**
+- **Time**: 2025-09-25
+- **Content**: Ukraine's president stated that the world is currently in "the most destructive arms race in human history" amid the ongoing conflict with Russia. / 乌克兰总统表示，在与俄罗斯持续冲突的背景下，世界正处于“人类历史上最具破坏性的军备竞赛”中。
+- **Source**: Global News
 
-### 9. **Syrian President Addresses UN for the First Time in Decades** / **叙利亚总统几十年来首次在联合国发表讲话**
-- **Time**: 2025-09-24
-- **Content**: In a historic address, Syrian President Ahmad al-Sharaa spoke before the UN General Assembly, marking the first such appearance for a Syrian leader in nearly 60 years, calling for the lifting of all sanctions. / 叙利亚总统艾哈迈德·沙雷在联合国大会上发表了历史性讲话，这是近60年来叙利亚领导人首次在联大发言，他呼吁解除所有对叙制裁。
+### 4. **Drone Flyovers in Denmark Aim to "Sow Fear"** / **丹麦无人机飞越事件旨在“散播恐惧”**
+- **Time**: 2025-09-25
+- **Content**: Danish officials believe that recent drone flyovers at four airports were intended to create fear and division within the country. / 丹麦官员认为，最近在四个机场发生的无人机飞越事件旨在在该国制造恐惧和分裂。
 - **Source**: Associated Press
 
-### 10. **China Announces Ambitious New Climate Goals to Cut Emissions** / **中国宣布新的宏伟气候目标以削减排放**
-- **Time**: 2025-09-24
-- **Content**: China, the world's largest emitter of carbon dioxide, has announced a new set of climate goals aimed at significantly reducing its carbon emissions and achieving carbon neutrality. / 作为全球最大的二氧化碳排放国，中国宣布了一系列新的气候目标，旨在大幅减少其碳排放并实现碳中和。
-- **Source**: Reuters
+### 5. **Chinese Premier Calls for US-China Cooperation at UN** / **中国总理在联合国呼吁中美合作**
+- **Time**: 2025-09-25
+- **Content**: China's Premier Li Qiang, speaking at the UN General Assembly, emphasized the need for the United States and China to "work in the same direction." / 中国总理李强在联合国大会上发表讲话，强调中美需要“同向而行”。
+- **Source**: The Hindu
+
+### 6. **Giant Sinkhole Opens Up in Bangkok Street** / **曼谷街头惊现巨大天坑**
+- **Time**: 2025-09-25
+- **Content**: A large sinkhole has appeared on a street in Bangkok, causing traffic disruptions and raising concerns about infrastructure safety. / 曼谷一条街道上出现一个巨大的天坑，导致交通中断，并引发了人们对基础设施安全的担忧。
+- **Source**: Associated Press
+
+### 7. **Iran Suspected of Undeclared Missile Test** / **伊朗被怀疑进行未申报的导弹试验**
+- **Time**: 2025-09-25
+- **Content**: Satellite imagery analyzed by the Associated Press suggests that Iran has likely conducted a missile test that it did not publicly declare. / 美联社分析的卫星图像显示，伊朗很可能进行了一次未公开宣布的导弹试验。
+- **Source**: PBS
+
+### 8. **UEFA Expected to Suspend Israel from European Soccer** / **欧足联预计将暂停以色列的欧洲足球比赛资格**
+- **Time**: 2025-09-25
+- **Content**: The Union of European Football Associations (UEFA) is reportedly set to suspend Israel from participating in European soccer competitions. / 据报道，欧洲足球协会联盟（UEFA）将暂停以色列参加欧洲足球比赛的资格。
+- **Source**: PBS
+
+### 9. **Weakened Super Typhoon Ragasa Heads Towards Vietnam** / **减弱的超强台风“拉加萨”逼近越南**
+- **Time**: 2025-09-25
+- **Content**: After battering China and Hong Kong, a weakened Super Typhoon Ragasa is now on a course towards Vietnam. / 在袭击了中国和香港之后，减弱的超强台风“拉加萨”目前正朝越南方向移动。
+- **Source**: CTV News
+
+### 10. **New Ebola Outbreak in Congo Kills Dozens** / **刚果新一轮埃博拉疫情导致数十人死亡**
+- **Time**: 2025-09-25
+- **Content**: A new outbreak of the Ebola virus in the Democratic Republic of Congo has resulted in dozens of fatalities, with health officials warning of a shortage of funds to combat the disease. / 刚果民主共和国新爆发的埃博拉病毒已导致数十人死亡，卫生官员警告抗击该疾病的资金短缺。
+- **Source**: Associated Press
 
 ---
 

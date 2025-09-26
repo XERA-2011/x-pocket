@@ -1,47 +1,37 @@
 # 应用文
 
-## A thank-you email to someone who helped you learn English
-- 一封感谢信，致谢曾帮助你学习英语的人
+## An email to your headteacher suggesting a new school club
+- 给校长写一封关于建立新社团建议的邮件
 
-**正文**:
+**正文**：
 
-Dear Alex,
+Dear Mr. Smith,
 
-I hope you're doing well. I'm writing to say a huge thank you for all your help with my English studies. I really appreciate the time you spent practicing conversation with me every week. Your patience and encouragement made a big difference.
+I am writing to suggest the creation of a new school club: a Creative Writing Club. Many students, including myself, are passionate about writing stories and poems but have no formal platform to share our work or improve our skills.
 
-Thanks to you, my speaking skills have improved so much, and I feel much more confident. I even passed my recent English exam with a great score! I couldn't have done it without your support.
+This club would be a fantastic opportunity for us to develop our creativity and communication abilities. We could hold weekly meetings to discuss our writing, give each other feedback, and even invite local authors for talks. I believe this club would greatly enrich our school’s cultural life.
 
-Let's catch up soon!
+Thank you for considering my suggestion.
 
-Best wishes,
+Yours sincerely,
+Chris Green
 
-Chris
-
-- 亲爱的亚历克斯：
-- 
-- 希望你一切都好。我写这封信是为了对你在我英语学习上提供的所有帮助，表达我诚挚的感谢。我非常感激你每周花时间陪我练习对话。你的耐心和鼓励给了我巨大的影响。
-- 
-- 因为你，我的口语能力进步了很多，我也变得自信多了。我甚至在最近的英语考试中取得了优异的成绩！没有你的支持，我不可能做到。
-- 
-- 我们找个时间聚聚吧！
-- 
-- 最好的祝愿，
-- 
-- 克里斯
+- 尊敬的史密斯先生，
+- 我写信是为了建议学校成立一个新的社团：创意写作社。包括我自己在内的许多同学都对写故事和诗歌充满热情，但我们没有一个正式的平台来分享我们的作品或提升我们的写作技巧。
+- 这个社团将为我们提供一个绝佳的机会来发展我们的创造力和沟通能力。我们可以每周举行会议，讨论我们的作品，互相给予反馈，甚至可以邀请本地作家来做讲座。我相信这个社团将极大地丰富我们学校的文化生活。
+- 感谢您考虑我的建议。
+- 诚挚的，
+- 克里斯·格林
 
 ---
 
 # 记叙文/短文
 
-## Write a story that begins: When I opened the old box, I found something incredible inside.
-- 写一个以下列句子开头的故事：当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。
+## Write a story ending: That experience taught me never to judge people too quickly.
+- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过早地对人下定论。
 
-**正文**:
+**正文**：
 
-When I opened the old box, I found something incredible inside. It was a small, silver compass that wasn't pointing north. Instead, its needle was spinning wildly before it locked onto a picture of my lost cat, Whiskers, on my desk. I thought it was broken, but when I picked it up, the needle pointed straight towards the front door.
+Our new classmate, Leo, was always quiet and never joined our games. We all thought he was unfriendly. One day, during a fierce storm, the lights in our classroom suddenly went out. Everyone panicked in the darkness. While we were all shouting, Leo calmly took out a small torch from his bag and found the emergency light switch. He then helped our teacher guide everyone out of the room safely. We were all surprised by his calmness and resourcefulness. That experience taught me never to judge people too quickly.
 
-Curious, I followed its direction out of the house and down the street. It led me to the old park. There, sleeping under a bench, was Whiskers! The compass had led me straight to him.
-
-- 当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。那是一个小小的银色罗盘，但它并不指向北方。相反，它的指针疯狂地旋转，然后锁定了我书桌上一张我丢失的猫“晶晶”的照片。我以为它坏了，但当我拿起它时，指针直直地指向了前门。
-- 
-- 出于好奇，我跟着它的指引走出了房子，沿着街道前行。它把我带到了旧公园。在那里，一只猫正睡在长凳下，是晶晶！这个罗盘直接把我带到了他身边。
+- 我们的新同学里奥总是很安静，从不参加我们的游戏。我们都以为他很不友好。一天，在一场猛烈的暴风雨中，我们教室的灯突然熄灭了。在黑暗中，所有人都惊慌失措。当我们都在尖叫时，里奥冷静地从书包里拿出一个小手电筒，找到了应急灯的开关。随后，他帮助老师引导大家安全地撤离了房间。我们都对他的冷静和足智多谋感到惊讶。那次经历教会了我永远不要过早地对人下定论。

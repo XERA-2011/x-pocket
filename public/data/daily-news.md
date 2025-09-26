@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月25日
-**Update Time**: 22:17 UTC
+**Date**: 2025年09月26日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Former French President Sarkozy Sentenced to Prison** / **法国前总统萨科齐被判入狱**
-- **Time**: 2025-09-25
-- **Content**: A Paris court has sentenced former French President Nicolas Sarkozy to five years in prison for criminal conspiracy related to a case involving Libyan financing. / 巴黎一家法院以与利比亚资金案有关的刑事阴谋罪判处法国前总统尼古拉·萨科齐五年徒刑。
+### 1. **Israel-Hamas Conflict Continues Amidst UN Tensions** / **以色列-哈马斯冲突在联合国紧张局势中持续**
+- **Time**: 2025-09-26
+- **Content**: Israeli Prime Minister Netanyahu addressed the UN General Assembly, vowing to continue the military campaign in Gaza, which prompted walkouts from several delegations. Meanwhile, reports indicate ongoing Israeli military operations in Gaza and the West Bank. / 以色列总理内塔尼亚胡在联合国大会发表讲话，誓言将继续在加沙的军事行动，此举引发多个代表团退场。与此同时，报道显示以色列在加沙和约旦河西岸的军事行动仍在继续。
 - **Source**: Associated Press
 
-### 2. **Israeli Strikes Kill 17 in Gaza as Ceasefire Pressure Mounts** / **以色列空袭加沙致17人死亡，停火压力增大**
-- **Time**: 2025-09-25
-- **Content**: At least 17 Palestinians were killed in Israeli strikes on Gaza, as international calls for a ceasefire in the Israel-Hamas war grow louder. / 以色列对加沙的袭击造成至少17名巴勒斯坦人死亡，国际社会对以色列-哈马斯战争停火的呼声日益高涨。
+### 2. **Russia and Ukraine Exchange Deadly Drone and Missile Strikes** / **俄罗斯与乌克兰相互发动致命无人机和导弹袭击**
+- **Time**: 2025-09-26
+- **Content**: The conflict between Russia and Ukraine continues to escalate, with both sides launching deadly drone and missile strikes. Ukrainian President Zelenskyy is actively seeking further international support at the United Nations. / 俄罗斯与乌克兰之间的冲突持续升级，双方均发动了致命的无人机和导弹袭击。乌克兰总统泽连斯基正在联合国积极寻求进一步的国际支持。
+- **Source**: Reuters
+
+### 3. **UN General Assembly Addresses Multiple Global Crises** / **联合国大会应对多重全球危机**
+- **Time**: 2025-09-26
+- **Content**: The UN General Assembly is currently the focal point of international diplomacy, with world leaders discussing critical issues including the Israel-Hamas conflict, the war in Ukraine, and potential new sanctions on Iran. / 联合国大会目前是国际外交的焦点，世界各国领导人正在讨论包括以色列-哈马斯冲突、乌克兰战争以及可能对伊朗实施新制裁在内的关键问题。
+- **Source**: UN News
+
+### 4. **Typhoon Ragasa Weakens After Causing Widespread Disruption** / **台风“拉加萨”在造成广泛破坏后减弱**
+- **Time**: 2025-09-26
+- **Content**: Super Typhoon Ragasa has weakened as it moves towards Vietnam, after causing significant disruption and damage across China, Hong Kong, Taiwan, and the Philippines. / 超级台风“拉加萨”在向越南移动的过程中已经减弱，此前它在中国、香港、台湾和菲律宾造成了严重的破坏和损失。
 - **Source**: The Guardian
 
-### 3. **Ukrainian President Warns of "Most Destructive Arms Race"** / **乌克兰总统警告“史上最具破坏性的军备竞赛”**
-- **Time**: 2025-09-25
-- **Content**: Ukraine's president stated that the world is currently in "the most destructive arms race in human history" amid the ongoing conflict with Russia. / 乌克兰总统表示，在与俄罗斯持续冲突的背景下，世界正处于“人类历史上最具破坏性的军备竞赛”中。
+### 5. **Fugitive Black Militant Assata Shakur Dies in Cuba** / **流亡黑人武装分子阿萨塔·沙库尔在古巴去世**
+- **Time**: 2025-09-26
+- **Content**: Assata Shakur, a prominent Black militant and fugitive who had been living in exile in Cuba since 1979 after escaping a U.S. prison, has died at the age of 78. / 阿萨塔·沙库尔，一位著名的黑人武装分子和逃犯，自1979年从美国监狱逃脱后一直流亡古巴，现已去世，享年78岁。
+- **Source**: Al Jazeera
+
+### 6. **EU Moves Forward with "Drone Wall" Plan Amid Security Concerns** / **出于安全担忧，欧盟推进“无人机墙”计划**
+- **Time**: 2025-09-26
+- **Content**: The European Union is advancing its plan to create a "drone wall" to enhance security, following a series of alleged Russian drone incursions and incidents affecting air traffic in countries like Denmark. / 在发生一系列据称是俄罗斯无人机入侵以及影响丹麦等国空中交通的事件后，欧盟正在推进其建立“无人机墙”以加强安全的计划。
+- **Source**: Sky News
+
+### 7. **Former French President Nicolas Sarkozy Sentenced to Prison** / **法国前总统尼古拉·萨科齐被判入狱**
+- **Time**: 2025-09-26
+- **Content**: Nicolas Sarkozy, the former president of France, has been convicted of criminal conspiracy and sentenced to five years in prison, marking a significant moment in French politics. / 法国前总统尼古拉·萨科齐因刑事共谋罪被判处五年徒刑，这标志着法国政坛的一个重要时刻。
 - **Source**: Global News
 
-### 4. **Drone Flyovers in Denmark Aim to "Sow Fear"** / **丹麦无人机飞越事件旨在“散播恐惧”**
-- **Time**: 2025-09-25
-- **Content**: Danish officials believe that recent drone flyovers at four airports were intended to create fear and division within the country. / 丹麦官员认为，最近在四个机场发生的无人机飞越事件旨在在该国制造恐惧和分裂。
-- **Source**: Associated Press
+### 8. **Interpol Arrests 260 in Major Crackdown on Online Romance Scams in Africa** / **国际刑警组织在非洲大规模打击网络爱情诈骗，逮捕260人**
+- **Time**: 2025-09-26
+- **Content**: A major operation coordinated by Interpol has led to the arrest of 260 individuals across Africa who were allegedly involved in sophisticated online romance scams targeting victims worldwide. / 一项由国际刑警组织协调的大规模行动已在非洲各地逮捕了260名涉嫌参与针对全球受害者的复杂网络爱情诈骗的个人。
+- **Source**: AP News
 
-### 5. **Chinese Premier Calls for US-China Cooperation at UN** / **中国总理在联合国呼吁中美合作**
-- **Time**: 2025-09-25
-- **Content**: China's Premier Li Qiang, speaking at the UN General Assembly, emphasized the need for the United States and China to "work in the same direction." / 中国总理李强在联合国大会上发表讲话，强调中美需要“同向而行”。
+### 9. **Deadly Clashes Erupt in Ladakh, India, Over Self-Rule Demands** / **印度拉达克因自治要求爆发致命冲突**
+- **Time**: 2025-09-26
+- **Content**: Security restrictions have been imposed in the remote region of Ladakh, India, following deadly clashes and widespread protests by residents demanding self-rule and greater autonomy. / 在印度偏远的拉达克地区，由于居民要求自治和更大自主权而引发致命冲突和广泛抗议，当局已实施安全限制。
 - **Source**: The Hindu
 
-### 6. **Giant Sinkhole Opens Up in Bangkok Street** / **曼谷街头惊现巨大天坑**
-- **Time**: 2025-09-25
-- **Content**: A large sinkhole has appeared on a street in Bangkok, causing traffic disruptions and raising concerns about infrastructure safety. / 曼谷一条街道上出现一个巨大的天坑，导致交通中断，并引发了人们对基础设施安全的担忧。
-- **Source**: Associated Press
-
-### 7. **Iran Suspected of Undeclared Missile Test** / **伊朗被怀疑进行未申报的导弹试验**
-- **Time**: 2025-09-25
-- **Content**: Satellite imagery analyzed by the Associated Press suggests that Iran has likely conducted a missile test that it did not publicly declare. / 美联社分析的卫星图像显示，伊朗很可能进行了一次未公开宣布的导弹试验。
-- **Source**: PBS
-
-### 8. **UEFA Expected to Suspend Israel from European Soccer** / **欧足联预计将暂停以色列的欧洲足球比赛资格**
-- **Time**: 2025-09-25
-- **Content**: The Union of European Football Associations (UEFA) is reportedly set to suspend Israel from participating in European soccer competitions. / 据报道，欧洲足球协会联盟（UEFA）将暂停以色列参加欧洲足球比赛的资格。
-- **Source**: PBS
-
-### 9. **Weakened Super Typhoon Ragasa Heads Towards Vietnam** / **减弱的超强台风“拉加萨”逼近越南**
-- **Time**: 2025-09-25
-- **Content**: After battering China and Hong Kong, a weakened Super Typhoon Ragasa is now on a course towards Vietnam. / 在袭击了中国和香港之后，减弱的超强台风“拉加萨”目前正朝越南方向移动。
-- **Source**: CTV News
-
-### 10. **New Ebola Outbreak in Congo Kills Dozens** / **刚果新一轮埃博拉疫情导致数十人死亡**
-- **Time**: 2025-09-25
-- **Content**: A new outbreak of the Ebola virus in the Democratic Republic of Congo has resulted in dozens of fatalities, with health officials warning of a shortage of funds to combat the disease. / 刚果民主共和国新爆发的埃博拉病毒已导致数十人死亡，卫生官员警告抗击该疾病的资金短缺。
-- **Source**: Associated Press
+### 10. **Trump Announces Plan for Heavy Tariffs on Pharmaceuticals and Trucks** / **特朗普宣布计划对药品和卡车征收重税**
+- **Time**: 2025-09-26
+- **Content**: Former U.S. President Donald Trump has announced a proposal for 100% tariffs on imported pharmaceuticals and 25% tariffs on heavy trucks if he is re-elected. / 美国前总统唐纳德·特朗普宣布一项提议，如果他再次当选，将对进口药品征收100%的关税，对重型卡车征收25%的关税。
+- **Source**: CBS News
 
 ---
 

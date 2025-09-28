@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月27日
-**Update Time**: 22:17 UTC
+**Date**: 2025年09月28日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Israel Intensifies Gaza Offensive Amid International Condemnation** / **以色列在国际谴责声中加强加沙攻势**
-- **Time**: 2025-09-27
-- **Content**: Israeli forces have escalated their military operations in the Gaza Strip, resulting in over 90 Palestinian casualties in the last 24 hours. The intensified attacks come as international pressure mounts for a ceasefire, with many world leaders expressing grave concern over the humanitarian crisis. / 以色列军队升级了在加沙地带的军事行动，过去24小时内导致超过90名巴勒斯坦人伤亡。此次攻击升级正值国际社会要求停火的压力日益增大，多国领导人对人道主义危机表示严重关切。
-- **Source**: Al Jazeera
-
-### 2. **Russia Vows "Decisive Response" to Western Provocations at UN** / **俄罗斯在联合国誓言对西方挑衅做出“决定性回应”**
-- **Time**: 2025-09-27
-- **Content**: Russian Foreign Minister Sergey Lavrov, speaking at the UN General Assembly, stated that Russia would deliver a "decisive response" if provoked by Western nations. His remarks have heightened diplomatic tensions amid the ongoing war in Ukraine. / 俄罗斯外交部长谢尔盖·拉夫罗夫在联合国大会上发言时表示，如果受到西方国家的挑衅，俄罗斯将做出“决定性回应”。他的言论在乌克兰战争持续的背景下加剧了外交紧张局势。
+### 1. **Israel-Hamas War Intensifies** / **以色列与哈马斯战争加剧**
+- **Time**: 2025-09-28
+- **Content**: Israeli forces continue their assault on Gaza, with reports of a high death toll and hospital infrastructure collapsing. Tens of thousands have protested in Berlin calling for an end to the conflict, while discussions around a ceasefire plan are ongoing. / 以色列军队继续对加沙发动袭击，据报道死亡人数众多，医院基础设施崩溃。数万人在柏林举行抗议，呼吁结束冲突，而有关停火计划的讨论正在进行中。
 - **Source**: Associated Press
 
-### 3. **Stampede at Political Rally in India Leaves Over 30 Dead** / **印度政治集会发生踩踏事件，造成30余人死亡**
-- **Time**: 2025-09-27
-- **Content**: A tragic incident occurred at a rally for Indian actor-politician Vijay, where a stampede resulted in the deaths of at least 31 people and left more than 50 injured. The event has raised serious questions about crowd management and safety protocols at large public gatherings. / 印度演员兼政治家维杰的一次集会发生悲剧性踩踏事件，导致至少31人死亡，超过50人受伤。该事件引发了关于大型公众集会人群管理和安全规程的严肃质疑。
-- **Source**: The Guardian
-
-### 4. **Drone Sightings Over Military Sites in Denmark and Norway Spark Alarm** / **丹麦和挪威军事基地上空出现无人机引发警报**
-- **Time**: 2025-09-27
-- **Content**: Denmark and Norway have reported multiple drone sightings over sensitive military locations and airports overnight. Danish officials have warned that the flyovers are likely intended to stoke fear and test national security responses. / 丹麦和挪威报告夜间在敏感军事地点和机场上空发现多架无人机。丹麦官员警告称，这些飞行活动很可能是为了制造恐慌并测试国家安全反应能力。
+### 2. **Russia-Ukraine War Continues** / **俄乌战争持续**
+- **Time**: 2025-09-28
+- **Content**: Kyiv has been subjected to Russian drone and missile attacks, resulting in casualties. Ukraine's nuclear plant remains on emergency power, and Russia has issued warnings of a "decisive response" to any aggression. / 基辅遭到俄罗斯无人机和导弹袭击，造成人员伤亡。乌克兰核电站仍处于紧急供电状态，俄罗斯已发出警告，称将对任何侵略行为做出“决定性回应”。
 - **Source**: Reuters
 
-### 5. **Iran Recalls European Envoys Over Reimposed Sanctions** / **因制裁被重新实施，伊朗召回驻欧洲多国使节**
-- **Time**: 2025-09-27
-- **Content**: In response to the reimposition of UN sanctions by the UK, France, and Germany, Iran has recalled its envoys from these countries. The move signals a deepening rift between Tehran and European powers. / 为回应英国、法国和德国重新实施联合国制裁，伊朗已从这些国家召回其使节。此举标志着德黑兰与欧洲大国之间的裂痕正在加深。
-- **Source**: Sky News
-
-### 6. **Former French President Nicolas Sarkozy Sentenced to Prison** / **法国前总统尼古拉·萨科齐被判入狱**
-- **Time**: 2025-09-27
-- **Content**: Nicolas Sarkozy, the former President of France, has been sentenced to five years in prison on corruption charges. The landmark ruling marks a significant moment in French politics. / 法国前总统尼古拉·萨科齐因腐败指控被判处五年徒刑。这一里程碑式的判决标志着法国政治的一个重要时刻。
-- **Source**: Global News
-
-### 7. **Polish Climber Makes History with First Ski Descent of Everest Without Oxygen** / **波兰登山者无氧滑雪下珠峰创造历史**
-- **Time**: 2025-09-27
-- **Content**: A Polish mountaineer has achieved a historic first by successfully skiing down Mount Everest without the use of supplemental oxygen. The feat is being hailed as a monumental achievement in the world of extreme sports. / 一名波兰登山家在没有使用辅助氧气的情况下成功滑雪下珠穆朗玛峰，创造了历史性的第一次。这一壮举被誉为极限运动界的丰碑式成就。
+### 3. **UN Sanctions Reimposed on Iran** / **联合国恢复对伊朗的制裁**
+- **Time**: 2025-09-28
+- **Content**: Sweeping UN sanctions have been reimposed on Iran due to its nuclear program, leading Iran to consider its diplomatic and confrontational options. / 由于伊朗的核计划，联合国已恢复对伊朗的全面制裁，导致伊朗正在考虑其外交和对抗性选择。
 - **Source**: Al Jazeera
 
-### 8. **Super Typhoon Ragasa Batters Asia, Heads Towards Vietnam** / **超级台风“拉加萨”重创亚洲，正逼近越南**
-- **Time**: 2025-09-27
-- **Content**: After causing significant damage in China and Hong Kong, Super Typhoon Ragasa is now moving towards Vietnam. Authorities are issuing urgent warnings and preparing for widespread impact from the powerful storm. / 在对中国和香港造成重大破坏后，超级台风“拉加萨”目前正向越南移动。当局正在发布紧急警报，并为这场强风暴可能带来的广泛影响做准备。
+### 4. **Taliban Releases US Citizen** / **塔利班释放美国公民**
+- **Time**: 2025-09-28
+- **Content**: The Taliban has freed a U.S. citizen from an Afghan prison, weeks after an agreement with U.S. envoys on a prisoner exchange. / 塔利班从阿富汗监狱释放了一名美国公民，几周前，美国特使就交换囚犯达成了协议。
 - **Source**: The Guardian
 
-### 9. **Taiwan Convicts Four Officials of Spying for China** / **台湾四名前执政党官员因替中国从事间谍活动被定罪**
-- **Time**: 2025-09-27
-- **Content**: Four former officials from Taiwan's ruling party have been convicted of espionage for China. The case highlights ongoing concerns about Chinese intelligence operations and their influence in Taiwan. / 四名台湾前执政党官员因替中国从事间谍活动而被定罪。此案凸显了外界对中国情报活动及其在台湾影响力的持续担忧。
+### 5. **Moldova Election Plagued by Interference Claims** / **摩尔多瓦选举受到干预指控的困扰**
+- **Time**: 2025-09-28
+- **Content**: Moldova held elections amid accusations of Russian interference. / 摩尔多瓦在俄罗斯干预的指控中举行了选举。
+- **Source**: BBC News
+
+### 6. **Deadly Church Shooting in Michigan, US** / **美国密歇根州教堂发生致命枪击案**
+- **Time**: 2025-09-28
+- **Content**: A shooting and fire at a Michigan church resulted in two deaths and several injuries. / 密歇根州一座教堂发生枪击和火灾，造成两人死亡，数人受伤。
+- **Source**: CNN
+
+### 7. **Drone Sightings in Denmark Prompt NATO Vigilance** / **丹麦无人机目击事件促使北约保持警惕**
+- **Time**: 2025-09-28
+- **Content**: New drone sightings have been reported at Danish armed forces' locations, prompting NATO to increase its vigilance in the Baltic Sea. / 据报道，丹麦武装部队所在地出现新的无人机目击事件，促使北约加强在波罗的海的警戒。
+- **Source**: Reuters
+
+### 8. **Mideast Nations Confront Regional Chaos** / **中东国家面临地区混乱**
+- **Time**: 2025-09-28
+- **Content**: Egypt has warned that the Middle East region is "at a point of implosion" as nations confront widespread chaos. / 埃及警告说，随着各国面临普遍的混乱，中东地区正处于“内爆的边缘”。
 - **Source**: Associated Press
 
-### 10. **Iraq Resumes Kurdish Oil Exports to Turkiye After Long Halt** / **伊拉克在长期中断后恢复向土耳其出口库尔德石油**
-- **Time**: 2025-09-27
-- **Content**: After a two-and-a-half-year suspension, Iraq has resumed the export of Kurdish oil to Turkiye through a key pipeline. The move is expected to have significant economic implications for the semi-autonomous Kurdistan region. / 经过两年半的中断，伊拉克已通过一条关键管道恢复向土耳其出口库尔德石油。此举预计将对半自治的库尔德斯坦地区产生重大的经济影响。
-- **Source**: Al Jazeera
+### 9. **US East Coast Braces for Hurricane Imelda** / **美国东海岸为飓风伊梅尔达做准备**
+- **Time**: 2025-09-28
+- **Content**: The United States is preparing for Hurricane Imelda, a storm expected to impact the east coast in the coming days. / 美国正在为飓风伊梅尔达做准备，预计这场风暴将在未来几天影响东海岸。
+- **Source**: The Weather Channel
+
+### 10. **British Retailer Harrods Hit by Cyberattack** / **英国零售商哈罗德遭受网络攻击**
+- **Time**: 2025-09-28
+- **Content**: Luxury retailer Harrods has experienced a cyberattack and is warning customers about a potential data breach. / 奢侈品零售商哈罗德遭遇网络攻击，并警告顾客可能存在数据泄露风险。
+- **Source**: Sky News
 
 ---
 

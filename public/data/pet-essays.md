@@ -1,37 +1,43 @@
 # 应用文
 
-## An email to your headteacher suggesting a new school club
-- 给校长写一封关于建立新社团建议的邮件
+## An email apologizing to a friend for missing their party
+- 一封因错过朋友聚会而向其致歉的邮件
 
 **正文**：
 
-Dear Mr. Smith,
+Hi Alex,
 
-I am writing to suggest the creation of a new school club: a Creative Writing Club. Many students, including myself, are passionate about writing stories and poems but have no formal platform to share our work or improve our skills.
+I’m writing to say I’m really sorry that I missed your birthday party last Saturday. I was so excited about it, but I started feeling unwell that afternoon. I had a high temperature and a headache, so my mum insisted I stay in bed.
 
-This club would be a fantastic opportunity for us to develop our creativity and communication abilities. We could hold weekly meetings to discuss our writing, give each other feedback, and even invite local authors for talks. I believe this club would greatly enrich our school’s cultural life.
+I was so disappointed to miss out on the celebration. I heard it was a fantastic evening! Did everyone enjoy the barbecue? I hope you got lots of great presents.
 
-Thank you for considering my suggestion.
+I feel much better now and would love to hear all about it. Let’s meet up for coffee next week.
 
-Yours sincerely,
-Chris Green
+Best,
+Chris
 
-- 尊敬的史密斯先生，
-- 我写信是为了建议学校成立一个新的社团：创意写作社。包括我自己在内的许多同学都对写故事和诗歌充满热情，但我们没有一个正式的平台来分享我们的作品或提升我们的写作技巧。
-- 这个社团将为我们提供一个绝佳的机会来发展我们的创造力和沟通能力。我们可以每周举行会议，讨论我们的作品，互相给予反馈，甚至可以邀请本地作家来做讲座。我相信这个社团将极大地丰富我们学校的文化生活。
-- 感谢您考虑我的建议。
-- 诚挚的，
-- 克里斯·格林
+- 嗨，亚历克斯，
+- 我写信是想告诉你，我非常抱歉错过了上周六你的生日聚会。我本来对此充满期待，但那天下午我开始感到不舒服。我发高烧还头痛，所以我妈妈坚持要我卧床休息。
+- 错过了这次庆祝活动，我感到非常失望。我听说那是一个精彩的夜晚！大家是不是都很喜欢烧烤？希望你收到了很多很棒的礼物。
+- 我现在感觉好多了，很想听听聚会的所有事情。我们下周找个时间喝杯咖啡见个面吧。
+- 祝好，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## Write a story ending: That experience taught me never to judge people too quickly.
-- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过早地对人下定论。
+## An article about why young people should volunteer in their community
+- 一篇关于年轻人为何应该在社区做志愿者的文章
 
 **正文**：
 
-Our new classmate, Leo, was always quiet and never joined our games. We all thought he was unfriendly. One day, during a fierce storm, the lights in our classroom suddenly went out. Everyone panicked in the darkness. While we were all shouting, Leo calmly took out a small torch from his bag and found the emergency light switch. He then helped our teacher guide everyone out of the room safely. We were all surprised by his calmness and resourcefulness. That experience taught me never to judge people too quickly.
+Volunteering is a fantastic way for young people to contribute to their community. It offers a unique opportunity to make a real difference while also developing important life skills.
 
-- 我们的新同学里奥总是很安静，从不参加我们的游戏。我们都以为他很不友好。一天，在一场猛烈的暴风雨中，我们教室的灯突然熄灭了。在黑暗中，所有人都惊慌失措。当我们都在尖叫时，里奥冷静地从书包里拿出一个小手电筒，找到了应急灯的开关。随后，他帮助老师引导大家安全地撤离了房间。我们都对他的冷静和足智多谋感到惊讶。那次经历教会了我永远不要过早地对人下定论。
+When you volunteer, you can learn teamwork, communication, and problem-solving skills that are valuable for your future career. For example, helping at a local animal shelter or organizing a charity event teaches responsibility. It also allows you to meet new people from different backgrounds and understand more about the world around you.
+
+Giving your time to help others brings a great sense of achievement and happiness. It strengthens our communities and makes them better places to live. So, why not find a local group and get involved?
+
+- 志愿服务是年轻人为社区做出贡献的绝佳方式。它提供了一个独特的机会，让你在真正改变社区的同时，也能发展重要的生活技能。
+- 当你做志愿者时，你可以学到对未来职业生涯非常有价值的团队合作、沟通和解决问题的能力。例如，在当地的动物收容所帮忙或组织慈善活动可以教会你责任感。它还能让你结识来自不同背景的新朋友，更多地了解你周围的世界。
+- 奉献自己的时间去帮助他人会带来巨大的成就感和幸福感。它能巩固我们的社区，让它们成为更美好的居住地。那么，为什么不找一个本地团体并参与其中呢？

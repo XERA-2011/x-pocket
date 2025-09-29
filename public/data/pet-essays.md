@@ -1,25 +1,29 @@
 # 应用文
 
-## An email apologizing to a friend for missing their party
-- 一封因错过朋友聚会而向其致歉的邮件
+## An email to a friend recommending a new restaurant you tried
+- 一封向朋友推荐你尝试过的新餐厅的邮件
 
 **正文**：
 
 Hi Alex,
 
-I’m writing to say I’m really sorry that I missed your birthday party last Saturday. I was so excited about it, but I started feeling unwell that afternoon. I had a high temperature and a headache, so my mum insisted I stay in bed.
+How are you? I'm writing to tell you about an amazing new restaurant I tried last night called "The Corner Bistro." You would love it!
 
-I was so disappointed to miss out on the celebration. I heard it was a fantastic evening! Did everyone enjoy the barbecue? I hope you got lots of great presents.
+They serve fantastic Italian food. I had the best pizza I've ever tasted, and the pasta looked delicious too. The atmosphere is really cozy and relaxed, with soft music playing in the background. The staff were also incredibly friendly and helpful.
 
-I feel much better now and would love to hear all about it. Let’s meet up for coffee next week.
+It's not too expensive either. We should definitely go together next weekend. Let me know if you're free.
 
 Best,
 Chris
 
 - 嗨，亚历克斯，
-- 我写信是想告诉你，我非常抱歉错过了上周六你的生日聚会。我本来对此充满期待，但那天下午我开始感到不舒服。我发高烧还头痛，所以我妈妈坚持要我卧床休息。
-- 错过了这次庆祝活动，我感到非常失望。我听说那是一个精彩的夜晚！大家是不是都很喜欢烧烤？希望你收到了很多很棒的礼物。
-- 我现在感觉好多了，很想听听聚会的所有事情。我们下周找个时间喝杯咖啡见个面吧。
+- 
+- 你好吗？我写信是想告诉你，我昨晚去了一家超棒的新餐厅，叫做“街角小馆”。你一定会喜欢的！
+- 
+- 他们提供非常美味的意大利菜。我吃到了我尝过最棒的比萨，而且他们的意面看起来也很好吃。餐厅的氛围非常舒适和放松，背景里还放着轻柔的音乐。员工们也非常友好和乐于助人。
+- 
+- 而且价格也不算太贵。我们下周末一定要一起去。如果你有空的话，告诉我一声。
+- 
 - 祝好，
 - 克里斯
 
@@ -27,17 +31,15 @@ Chris
 
 # 记叙文/短文
 
-## An article about why young people should volunteer in their community
-- 一篇关于年轻人为何应该在社区做志愿者的文章
+## Write a story that begins: When I opened the old box, I found something incredible inside.
+- 写一个以下列句子开头的故事：当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。
 
 **正文**：
 
-Volunteering is a fantastic way for young people to contribute to their community. It offers a unique opportunity to make a real difference while also developing important life skills.
+When I opened the old box, I found something incredible inside. It was a small, silver compass that looked ancient. As I picked it up, the dust fell away to reveal strange symbols engraved around its edge.
 
-When you volunteer, you can learn teamwork, communication, and problem-solving skills that are valuable for your future career. For example, helping at a local animal shelter or organizing a charity event teaches responsibility. It also allows you to meet new people from different backgrounds and understand more about the world around you.
+Suddenly, the needle started to spin wildly. It didn't point north. Instead, it stopped and pointed directly at an old map I had on my wall. I looked closer and saw a tiny island on the map that I had never noticed before. A feeling of excitement rushed through me. This compass wasn't just old; it was magical.
 
-Giving your time to help others brings a great sense of achievement and happiness. It strengthens our communities and makes them better places to live. So, why not find a local group and get involved?
-
-- 志愿服务是年轻人为社区做出贡献的绝佳方式。它提供了一个独特的机会，让你在真正改变社区的同时，也能发展重要的生活技能。
-- 当你做志愿者时，你可以学到对未来职业生涯非常有价值的团队合作、沟通和解决问题的能力。例如，在当地的动物收容所帮忙或组织慈善活动可以教会你责任感。它还能让你结识来自不同背景的新朋友，更多地了解你周围的世界。
-- 奉献自己的时间去帮助他人会带来巨大的成就感和幸福感。它能巩固我们的社区，让它们成为更美好的居住地。那么，为什么不找一个本地团体并参与其中呢？
+- 当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。那是一个小巧的银色罗盘，看起来非常古老。当我拿起它时，灰尘簌簌落下，露出了边缘刻着的奇怪符号。
+- 
+- 突然，罗盘的指针开始疯狂地旋转。它并没有指向北方，而是停了下来，直直地指向我墙上挂着的一张旧地图。我凑近一看，发现地图上有一个我从未注意过的小岛。一股兴奋感涌遍我的全身。这个罗盘不只是个旧物件，它拥有魔力。

@@ -1,45 +1,43 @@
 # 应用文
 
-## An email to a friend recommending a new restaurant you tried
-- 一封向朋友推荐你尝试过的新餐厅的邮件
+## A thank-you email to someone who helped you learn English
+- 一封感谢信，致帮助你学习英语的人
 
 **正文**：
 
-Hi Alex,
+Dear Alex,
 
-How are you? I'm writing to tell you about an amazing new restaurant I tried last night called "The Corner Bistro." You would love it!
+I hope you're doing well. I'm writing to say a huge thank you for all your help with my English studies. When I first started, I found speaking very difficult, but our weekly conversations made a real difference. You were always so patient and explained grammar in a way that was easy to understand.
 
-They serve fantastic Italian food. I had the best pizza I've ever tasted, and the pasta looked delicious too. The atmosphere is really cozy and relaxed, with soft music playing in the background. The staff were also incredibly friendly and helpful.
+Thanks to you, I feel much more confident now. Last week, I gave a presentation in English and it went great! I couldn't have done it without your support. I really appreciate everything.
 
-It's not too expensive either. We should definitely go together next weekend. Let me know if you're free.
+Best wishes,
 
-Best,
 Chris
 
-- 嗨，亚历克斯，
+- 亲爱的亚历克斯：
 - 
-- 你好吗？我写信是想告诉你，我昨晚去了一家超棒的新餐厅，叫做“街角小馆”。你一定会喜欢的！
+- 希望你一切都好。我写这封信是为了对你在我英语学习上提供的所有帮助，表达我最诚挚的感谢。刚开始时，我觉得说英语特别困难，但我们每周的对话真的改变了这一切。你总是那么有耐心，并且用一种很容易理解的方式向我解释语法。
 - 
-- 他们提供非常美味的意大利菜。我吃到了我尝过最棒的比萨，而且他们的意面看起来也很好吃。餐厅的氛围非常舒适和放松，背景里还放着轻柔的音乐。员工们也非常友好和乐于助人。
+- 因为你，我现在自信多了。上周，我用英语做了一个演示，效果非常好！没有你的支持，我是不可能做到的。我真的很感激你所做的一切。
 - 
-- 而且价格也不算太贵。我们下周末一定要一起去。如果你有空的话，告诉我一声。
+- 最好的祝愿，
 - 
-- 祝好，
 - 克里斯
 
 ---
 
 # 记叙文/短文
 
-## Write a story that begins: When I opened the old box, I found something incredible inside.
-- 写一个以下列句子开头的故事：当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。
+## An article for teenagers about the benefits of learning a second language
+- 一篇为青少年写的关于学习第二语言好处的文章
 
 **正文**：
 
-When I opened the old box, I found something incredible inside. It was a small, silver compass that looked ancient. As I picked it up, the dust fell away to reveal strange symbols engraved around its edge.
+Are you thinking about learning a new language? It’s one of the best things you can do! Learning another language, like Spanish or Japanese, opens up a whole new world. You can make friends with people from different countries and understand their culture, music, and films in a much deeper way.
 
-Suddenly, the needle started to spin wildly. It didn't point north. Instead, it stopped and pointed directly at an old map I had on my wall. I looked closer and saw a tiny island on the map that I had never noticed before. A feeling of excitement rushed through me. This compass wasn't just old; it was magical.
+It’s also great for your brain, improving your memory and problem-solving skills. Plus, it can be very useful for your future. Imagine travelling the world and being able to chat with the local people easily! It’s a skill that will benefit you for your entire life.
 
-- 当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。那是一个小巧的银色罗盘，看起来非常古老。当我拿起它时，灰尘簌簌落下，露出了边缘刻着的奇怪符号。
+- 你是否正在考虑学习一门新语言？这是你能做的最棒的事情之一！学习另一门语言，比如西班牙语或日语，会为你打开一个全新的世界。你可以和来自不同国家的人交朋友，并以更深刻的方式理解他们的文化、音乐和电影。
 - 
-- 突然，罗盘的指针开始疯狂地旋转。它并没有指向北方，而是停了下来，直直地指向我墙上挂着的一张旧地图。我凑近一看，发现地图上有一个我从未注意过的小岛。一股兴奋感涌遍我的全身。这个罗盘不只是个旧物件，它拥有魔力。
+- 这对你的大脑也很有好处，能够提升你的记忆力和解决问题的能力。此外，它对你的未来也大有裨益。想象一下，环游世界并且能够轻松地与当地人交谈！这是一项会让你终身受益的技能。

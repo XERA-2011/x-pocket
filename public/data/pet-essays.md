@@ -1,43 +1,40 @@
 # 应用文
 
-## A thank-you email to someone who helped you learn English
-- 一封感谢信，致帮助你学习英语的人
+## An email applying for a weekend job at a bookshop
+- 申请书店周末工作的邮件
 
 **正文**：
 
-Dear Alex,
+Dear Sir or Madam,
 
-I hope you're doing well. I'm writing to say a huge thank you for all your help with my English studies. When I first started, I found speaking very difficult, but our weekly conversations made a real difference. You were always so patient and explained grammar in a way that was easy to understand.
+I am writing to apply for the weekend job at your bookshop, which I saw advertised in the local newspaper.
 
-Thanks to you, I feel much more confident now. Last week, I gave a presentation in English and it went great! I couldn't have done it without your support. I really appreciate everything.
+I am a sixteen-year-old student and a passionate reader. I believe my love for books and literature makes me a suitable candidate for this position. I am a very organized and responsible person, and I enjoy helping people. My friends always say I am friendly and approachable. I am available to work every Saturday and Sunday.
 
-Best wishes,
+I would be very grateful for the opportunity to discuss my application with you further. Thank you for your time and consideration.
 
-Chris
+Yours faithfully,
+[Your Name]
 
-- 亲爱的亚历克斯：
-- 
-- 希望你一切都好。我写这封信是为了对你在我英语学习上提供的所有帮助，表达我最诚挚的感谢。刚开始时，我觉得说英语特别困难，但我们每周的对话真的改变了这一切。你总是那么有耐心，并且用一种很容易理解的方式向我解释语法。
-- 
-- 因为你，我现在自信多了。上周，我用英语做了一个演示，效果非常好！没有你的支持，我是不可能做到的。我真的很感激你所做的一切。
-- 
-- 最好的祝愿，
-- 
-- 克里斯
+- 尊敬的先生或女士：
+- 我写信是为了申请贵书店的周末工作，我是在当地报纸上看到这则招聘广告的。
+- 我是一名十六岁的学生，也是一位热情的读者。我相信我对书籍和文学的热爱使我成为该职位的合适人选。我是一个非常有条理和负责任的人，并且我乐于助人。我的朋友们总说我友好且平易近人。我每周六和周日都有空工作。
+- 如果能有机会与您进一步讨论我的申请，我将不胜感激。感谢您的时间和考虑。
+- 此致，
+- [你的名字]
 
 ---
 
 # 记叙文/短文
 
-## An article for teenagers about the benefits of learning a second language
-- 一篇为青少年写的关于学习第二语言好处的文章
+## A story about the most important decision you ever made
+- 关于你做过的最重要的决定的故事
 
 **正文**：
 
-Are you thinking about learning a new language? It’s one of the best things you can do! Learning another language, like Spanish or Japanese, opens up a whole new world. You can make friends with people from different countries and understand their culture, music, and films in a much deeper way.
+The most important decision I ever made was to study abroad. After finishing high school, I had the choice to attend a local university or move to another country for my studies. It was a scary thought to leave my family and friends behind.
 
-It’s also great for your brain, improving your memory and problem-solving skills. Plus, it can be very useful for your future. Imagine travelling the world and being able to chat with the local people easily! It’s a skill that will benefit you for your entire life.
+However, I knew that studying overseas would offer me incredible opportunities. I decided to take the risk. Living in a new country was challenging at first, but it taught me to be independent and confident. I met people from all over the world and learned about different cultures. This decision completely changed my life for the better.
 
-- 你是否正在考虑学习一门新语言？这是你能做的最棒的事情之一！学习另一门语言，比如西班牙语或日语，会为你打开一个全新的世界。你可以和来自不同国家的人交朋友，并以更深刻的方式理解他们的文化、音乐和电影。
-- 
-- 这对你的大脑也很有好处，能够提升你的记忆力和解决问题的能力。此外，它对你的未来也大有裨益。想象一下，环游世界并且能够轻松地与当地人交谈！这是一项会让你终身受益的技能。
+- 我做过的最重要的决定是出国留学。高中毕业后，我可以选择就读本地大学或去另一个国家学习。离开我的家人和朋友是一个很可怕的想法。
+- 然而，我知道海外学习会给我带来难以置信的机会。我决定冒险一试。起初，在一个新的国家生活充满挑战，但它教会了我独立和自信。我遇到了来自世界各地的人，了解了不同的文化。这个决定彻底改变了我的生活，让我变得更好。

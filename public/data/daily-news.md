@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年09月30日
-**Update Time**: 22:19 UTC
+**Date**: 2025年10月01日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Trump Gives Hamas Ultimatum on Gaza Peace Plan** / **特朗普就加沙和平计划向哈马斯发出最后通牒**
-- **Time**: 2025-09-30
-- **Content**: Donald Trump has given Hamas a three to four-day deadline to respond to his Gaza peace proposal, warning of severe consequences for failure to comply. The ultimatum comes amid ongoing efforts to broker a lasting ceasefire in the region, though Israeli Prime Minister Netanyahu has stated he did not agree to a Palestinian state. / 唐纳德·特朗普给哈马斯三到四天的时间回应他的加沙和平提议，并警告称若不遵守将面临严重后果。该最后通牒发出之际，各方正努力促成该地区持久停火，但以色列总理内塔尼亚胡表示他不同意建立巴勒斯坦国。
-- **Source**: The Guardian
+### 1. **Israel Orders Evacuation of Gaza City** / **以色列下令撤离加沙市**
+- **Time**: 2025-10-01
+- **Content**: Israel has ordered all civilians in Gaza City to evacuate, warning that anyone who remains will be considered a militant. The Israeli navy has also reportedly begun intercepting an aid flotilla bound for the region. / 以色列已下令加沙市所有平民撤离，并警告称任何留下来的人都将被视为武装分子。据报道，以色列海军也已开始拦截驶往该地区的援助船队。
+- **Source**: AP News
 
-### 2. **Powerful 6.9-Magnitude Earthquake Strikes Central Philippines** / **6.9级强震袭击菲律宾中部**
-- **Time**: 2025-09-30
-- **Content**: A powerful 6.9-magnitude earthquake struck the Central Philippines, causing significant damage, including the collapse of a historic church. At least five fatalities have been confirmed as rescue and recovery operations are underway. / 一场强烈的6.9级地震袭击了菲律宾中部，造成重大损失，包括一座历史悠久的教堂倒塌。目前已确认至少有五人死亡，救援和恢复工作正在进行中。
+### 2. **Hamas-Linked Arrests in Germany** / **德国逮捕与哈马斯有关人员**
+- **Time**: 2025-10-01
+- **Content**: German authorities have arrested three individuals with alleged ties to Hamas. They are suspected of planning attacks on Jewish institutions within the country. / 德国当局逮捕了三名据称与哈马斯有联系的个人。他们涉嫌策划对该国境内的犹太机构发动袭击。
 - **Source**: Al Jazeera
 
-### 3. **Indonesia School Collapse Leaves at Least 3 Dead, 38 Missing** / **印尼学校倒塌致至少3人死亡，38人失踪**
-- **Time**: 2025-09-30
-- **Content**: A school building collapsed in Indonesia, resulting in at least three deaths and leaving 38 people, mostly students, missing. Emergency services are conducting a search and rescue operation, with fears the death toll could rise. / 印度尼西亚一所学校大楼倒塌，导致至少三人死亡，另有38人（其中大部分是学生）失踪。紧急救援部门正在进行搜救行动，担心死亡人数可能会上升。
+### 3. **Heightened Risk at Ukrainian Nuclear Plant** / **乌克兰核电站风险加剧**
+- **Time**: 2025-10-01
+- **Content**: Ukrainian President Zelenskyy and the head of the UN's atomic agency have warned of a heightened risk at a major Ukrainian nuclear plant, which has suffered its longest power outage since the war began. / 乌克兰总统泽连斯基和联合国原子能机构负责人警告称，乌克兰一座主要核电站的风险加剧，该核电站经历了自战争开始以来最长的一次停电。
+- **Source**: The Guardian
+
+### 4. **Powerful Earthquake Strikes the Philippines** / **强震袭击菲律宾**
+- **Time**: 2025-10-01
+- **Content**: A powerful magnitude 6.9 earthquake has struck the Philippines, resulting in at least 69 fatalities and leaving many more missing. / 菲律宾发生6.9级强震，已造成至少69人死亡，另有多人失踪。
 - **Source**: Global News
 
-### 4. **Former DRC President Joseph Kabila Sentenced to Death in Absentia** / **刚果（金）前总统约瑟夫·卡比拉被缺席判处死刑**
-- **Time**: 2025-09-30
-- **Content**: Joseph Kabila, the former president of the Democratic Republic of Congo, has been sentenced to death in absentia on charges of treason and conspiracy. The verdict is seen as politically motivated by his supporters. / 刚果民主共和国前总统约瑟夫·卡比拉因叛国罪和阴谋罪被缺席判处死刑。其支持者认为该判决具有政治动机。
+### 5. **Renowned Primatologist Jane Goodall Dies at 91** / **著名灵长类动物学家珍·古道尔去世，享年91岁**
+- **Time**: 2025-10-01
+- **Content**: Jane Goodall, the world-renowned primatologist and conservationist, has passed away at the age of 91. Her groundbreaking work with chimpanzees revolutionized our understanding of the natural world. / 世界著名灵长类动物学家和环保主义者珍·古道尔去世，享年91岁。她在黑猩猩研究方面的开创性工作彻底改变了我们对自然界的理解。
 - **Source**: The Guardian
 
-### 5. **Madagascar's President Dissolves Government Amid Protests** / **马达加斯加总统在抗议声中解散政府**
-- **Time**: 2025-09-30
-- **Content**: The President of Madagascar has dissolved the government following widespread youth-led protests demanding political and economic reforms. The move is aimed at quelling the unrest and paving the way for a new government. / 在广泛的青年领导的抗议活动要求政治和经济改革后，马达加斯加总统解散了政府。此举旨在平息动荡，为新政府的成立铺平道路。
-- **Source**: The Guardian
+### 6. **Potential U.S. Government Shutdown Looms** / **美国政府面临潜在停摆风险**
+- **Time**: 2025-10-01
+- **Content**: A prolonged U.S. government shutdown could significantly impact travel plans and other federal services as lawmakers struggle to reach a budget agreement. / 由于立法者难以达成预算协议，美国政府若长时间停摆，可能会严重影响旅行计划和其他联邦服务。
+- **Source**: CTV News
 
-### 6. **Germany Seeks Extradition of Ukrainian Diver Over Nord Stream Attack** / **德国就北溪管道袭击事件寻求引渡一名乌克兰潜水员**
-- **Time**: 2025-09-30
-- **Content**: German authorities are seeking the extradition of a Ukrainian diver in connection with the 2022 sabotage of the Nord Stream gas pipelines. This development marks a significant step in the ongoing investigation into the attack. / 德国当局正寻求引渡一名与2022年北溪天然气管道破坏事件有关的乌克兰潜水员。这一进展标志着对此次袭击事件的持续调查迈出了重要一步。
-- **Source**: The Guardian
+### 7. **Nationwide Strike in Greece Protests Labor Law Changes** / **希腊全国性罢工抗议劳动法改革**
+- **Time**: 2025-10-01
+- **Content**: Thousands of people marched in Athens as part of a nationwide 24-hour strike to protest controversial changes to labor laws. / 数千人参加了在雅典举行的全国性24小时罢工，抗议备受争议的劳动法改革。
+- **Source**: AP News
 
-### 7. **US Court Rules Trump's Targeting of Pro-Palestinian Students Unlawful** / **美国法院裁定特朗普针对亲巴勒斯坦学生的行为非法**
-- **Time**: 2025-09-30
-- **Content**: A US court has ruled that the Trump administration's targeting of pro-Palestinian students was unlawful, constituting a violation of their civil rights. The decision is a landmark victory for free speech and academic freedom advocates. / 美国一家法院裁定，特朗普政府针对亲巴勒斯坦学生的行为是非法的，构成了对他们公民权利的侵犯。该判决是言论自由和学术自由倡导者的里程碑式胜利。
-- **Source**: NDTV
-
-### 8. **Pfizer Agrees to Lower Prescription Drug Costs in Deal with Trump** / **辉瑞公司与特朗普达成协议，同意降低处方药价格**
-- **Time**: 2025-09-30
-- **Content**: Pharmaceutical giant Pfizer has reached an agreement with Donald Trump to lower the costs of prescription drugs for Medicaid recipients. The deal is part of a broader effort to address rising healthcare expenses in the United States. / 制药巨头辉瑞公司已与唐纳德·特朗普达成协议，将降低医疗补助计划受益人的处方药费用。该协议是为解决美国日益增长的医疗开支所做的更广泛努力的一部分。
-- **Source**: CBS News
-
-### 9. **US Military Ends "Woke" Rules, Mandates "Male-Level" Fitness** / **美国军方终止“觉醒”规定，强制执行“男性水平”体能标准**
-- **Time**: 2025-09-30
-- **Content**: The U.S. military has announced an end to what it termed "woke" rules and has implemented "male-level" fitness standards for all troops, regardless of gender. The policy shift aims to enhance combat readiness and physical performance. / 美国军方宣布终止其所谓的“觉醒”规定，并对所有士兵（无论性别）实施“男性水平”的体能标准。该政策转变旨在提高战备状态和身体表现。
-- **Source**: NDTV
-
-### 10. **120 Iranians Detained in the U.S. to Be Repatriated** / **120名在美国被拘留的伊朗人将被遣返**
-- **Time**: 2025-09-30
-- **Content**: The United States has announced that 120 Iranian nationals detained for illegal entry will be returned to Iran. The repatriation is part of ongoing immigration enforcement actions. / 美国宣布，120名因非法入境而被拘留的伊朗国民将被送回伊朗。此次遣返是正在进行的移民执法行动的一部分。
+### 8. **Moroccan Youth Protest World Cup Spending** / **摩洛哥青年抗议世界杯开支**
+- **Time**: 2025-10-01
+- **Content**: For the fourth consecutive night, youth in Morocco have taken to the streets to protest government spending on the World Cup, demanding more investment in schools and hospitals. / 摩洛哥青年连续第四晚走上街头，抗议政府在世界杯上的开支，要求加大对学校和医院的投资。
 - **Source**: The Hindu
+
+### 9. **School Building Collapse in Indonesia Kills Three** / **印尼校舍倒塌致三人死亡**
+- **Time**: 2025-10-01
+- **Content**: A school building collapse in Indonesia has resulted in the deaths of at least three people, with 38 others still reported as missing. / 印度尼西亚一栋校舍倒塌，已造成至少三人死亡，另有38人据报失踪。
+- **Source**: Global News
+
+### 10. **Russian Drone Attack Kills Four in Ukraine** / **俄罗斯无人机袭击乌克兰致四人死亡**
+- **Time**: 2025-10-01
+- **Content**: A recent Russian drone and missile attack on Ukraine has resulted in at least four deaths and 70 injuries, according to Ukrainian officials. / 据乌克兰官员称，俄罗斯最近对乌克兰发动的无人机和导弹袭击已造成至少四人死亡，70人受伤。
+- **Source**: CTV News
 
 ---
 

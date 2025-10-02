@@ -1,40 +1,39 @@
 # 应用文
 
-## An email applying for a weekend job at a bookshop
-- 申请书店周末工作的邮件
+## An email to an online shop complaining about a delayed delivery
+- 一封向网店投诉延迟交货的邮件
 
 **正文**：
 
-Dear Sir or Madam,
+Dear Customer Service,
 
-I am writing to apply for the weekend job at your bookshop, which I saw advertised in the local newspaper.
+I am writing to complain about a delayed delivery. My order number is 309301759. I purchased a blue jacket on your website on September 22nd, and the expected delivery date was September 29th. However, it is now October 2nd, and I still have not received my order.
 
-I am a sixteen-year-old student and a passionate reader. I believe my love for books and literature makes me a suitable candidate for this position. I am a very organized and responsible person, and I enjoy helping people. My friends always say I am friendly and approachable. I am available to work every Saturday and Sunday.
+The tracking information has not been updated for five days. I am very disappointed with this situation. Could you please check the status of my order immediately? I would appreciate it if you could tell me when I can expect to receive my jacket.
 
-I would be very grateful for the opportunity to discuss my application with you further. Thank you for your time and consideration.
+I look forward to your prompt reply.
 
 Yours faithfully,
-[Your Name]
+Chris
 
-- 尊敬的先生或女士：
-- 我写信是为了申请贵书店的周末工作，我是在当地报纸上看到这则招聘广告的。
-- 我是一名十六岁的学生，也是一位热情的读者。我相信我对书籍和文学的热爱使我成为该职位的合适人选。我是一个非常有条理和负责任的人，并且我乐于助人。我的朋友们总说我友好且平易近人。我每周六和周日都有空工作。
-- 如果能有机会与您进一步讨论我的申请，我将不胜感激。感谢您的时间和考虑。
-- 此致，
-- [你的名字]
+- 我写信是为了投诉延迟交货。我的订单号是 309301759。我于9月22日在你们的网站上购买了一件蓝色夹克，预计送达日期是9月29日。然而，现在已经是10月2日了，我仍然没有收到我的订单。
+- 物流跟踪信息已经五天没有更新了。我对这种情况感到非常失望。能否请你们立即核查我的订单状态？如果您能告诉我预计何时可以收到我的夹克，我将不胜感激。
+- 我期待您的及时回复。
+- 诚挚的，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## A story about the most important decision you ever made
-- 关于你做过的最重要的决定的故事
+## Write a story about a day when everything went wrong
+- 记述诸事不顺的一天
 
 **正文**：
 
-The most important decision I ever made was to study abroad. After finishing high school, I had the choice to attend a local university or move to another country for my studies. It was a scary thought to leave my family and friends behind.
+It all started when my alarm clock didn't go off. I woke up late and had to rush to get ready for school. In my hurry, I spilled orange juice all over my clean shirt. I quickly changed, but I knew it was a bad sign.
 
-However, I knew that studying overseas would offer me incredible opportunities. I decided to take the risk. Living in a new country was challenging at first, but it taught me to be independent and confident. I met people from all over the world and learned about different cultures. This decision completely changed my life for the better.
+When I ran to the bus stop, I saw the bus pulling away. I had to walk to school and arrived just as the bell rang for my first class, which was a math test. I realized I had forgotten my calculator at home. After school, it started to rain heavily, and I didn't have an umbrella. It was truly a day where nothing went right.
 
-- 我做过的最重要的决定是出国留学。高中毕业后，我可以选择就读本地大学或去另一个国家学习。离开我的家人和朋友是一个很可怕的想法。
-- 然而，我知道海外学习会给我带来难以置信的机会。我决定冒险一试。起初，在一个新的国家生活充满挑战，但它教会了我独立和自信。我遇到了来自世界各地的人，了解了不同的文化。这个决定彻底改变了我的生活，让我变得更好。
+- 一切都始于我的闹钟没有响。我醒得很晚，不得不匆忙准备上学。慌乱中，我把橙汁洒得到处都是，弄脏了我的干净衬衫。我迅速换了件衣服，但我知道这是个不好的预兆。
+- 当我跑到公交车站时，我眼睁睁地看着公交车开走了。我只好步行去学校，当我到达时，第一节课的铃声正好响起，而那是一场数学考试。我发现我把计算器忘在家里了。放学后，天开始下起大雨，而我没有带伞。这真是诸事不顺的一天。

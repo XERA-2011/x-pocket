@@ -1,39 +1,37 @@
 # 应用文
 
-## An email to an online shop complaining about a delayed delivery
-- 一封向网店投诉延迟交货的邮件
+## A postcard to your family from your first week at a new school
+- 来自新学校第一周给你家人的明信片
 
 **正文**：
 
-Dear Customer Service,
+Hi everyone,
 
-I am writing to complain about a delayed delivery. My order number is 309301759. I purchased a blue jacket on your website on September 22nd, and the expected delivery date was September 29th. However, it is now October 2nd, and I still have not received my order.
+I'm having a fantastic time at my new school! It's much bigger than my old one, and the campus is beautiful. I was a bit nervous at first, but I've already made some lovely friends. My roommate, Sarah, is very kind and has been showing me around.
 
-The tracking information has not been updated for five days. I am very disappointed with this situation. Could you please check the status of my order immediately? I would appreciate it if you could tell me when I can expect to receive my jacket.
+The teachers are really supportive, and the lessons are more interesting than I expected, especially the art class. I'm learning so much already. I miss you all, but I'm settling in well. Can't wait to tell you more about it soon!
 
-I look forward to your prompt reply.
+Lots of love,
+Alex
 
-Yours faithfully,
-Chris
-
-- 我写信是为了投诉延迟交货。我的订单号是 309301759。我于9月22日在你们的网站上购买了一件蓝色夹克，预计送达日期是9月29日。然而，现在已经是10月2日了，我仍然没有收到我的订单。
-- 物流跟踪信息已经五天没有更新了。我对这种情况感到非常失望。能否请你们立即核查我的订单状态？如果您能告诉我预计何时可以收到我的夹克，我将不胜感激。
-- 我期待您的及时回复。
-- 诚挚的，
-- 克里斯
+- 大家好，
+- 我在新学校过得非常棒！这里比我以前的学校大得多，校园也很美。起初我有点紧张，但我已经交到了一些很棒的朋友。我的室友莎拉人很好，一直带我四处熟悉环境。
+- 老师们都非常支持我，课程也比我想象的要有趣，尤其是美术课。我已经学到了很多东西。我很想念你们，但我适应得很好。等不及很快和你们分享更多事情！
+- 爱你们的，
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## Write a story about a day when everything went wrong
-- 记述诸事不顺的一天
+## Write a story beginning: The phone rang at midnight and changed everything.
+- 写一个以下列句子开头的故事：午夜时分，电话铃响了，一切都改变了。
 
 **正文**：
 
-It all started when my alarm clock didn't go off. I woke up late and had to rush to get ready for school. In my hurry, I spilled orange juice all over my clean shirt. I quickly changed, but I knew it was a bad sign.
+The phone rang at midnight and changed everything. I groggily reached for it, wondering who would call at such an hour. A frantic voice on the other end shouted, "It's real! The map we found in grandma's attic... it leads to real treasure!" It was my cousin, Leo.
 
-When I ran to the bus stop, I saw the bus pulling away. I had to walk to school and arrived just as the bell rang for my first class, which was a math test. I realized I had forgotten my calculator at home. After school, it started to rain heavily, and I didn't have an umbrella. It was truly a day where nothing went right.
+I was skeptical, but his excitement was contagious. The next morning, instead of going to my boring office job, I was on a train to the coast with a backpack and an old, mysterious map. My predictable life was over, replaced by an unexpected adventure.
 
-- 一切都始于我的闹钟没有响。我醒得很晚，不得不匆忙准备上学。慌乱中，我把橙汁洒得到处都是，弄脏了我的干净衬衫。我迅速换了件衣服，但我知道这是个不好的预兆。
-- 当我跑到公交车站时，我眼睁睁地看着公交车开走了。我只好步行去学校，当我到达时，第一节课的铃声正好响起，而那是一场数学考试。我发现我把计算器忘在家里了。放学后，天开始下起大雨，而我没有带伞。这真是诸事不顺的一天。
+- 午夜时分，电话铃响了，一切都改变了。我睡眼惺忪地伸手去拿电话，心想谁会这么晚打电话来。电话那头一个狂热的声音喊道：“是真的！我们在奶奶阁楼里找到的那张地图……它指向了真正的宝藏！” 是我的表哥里奥。
+- 我本持怀疑态度，但他的兴奋之情很有感染力。第二天早上，我没有去我那份无聊的办公室工作，而是背着背包，带着一张古老而神秘的地图，坐上了去往海岸的火车。我那可预见的生活结束了，取而代之的是一场意想不到的冒险。

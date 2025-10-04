@@ -1,37 +1,44 @@
 # 应用文
 
-## A postcard to your family from your first week at a new school
-- 来自新学校第一周给你家人的明信片
+## An email booking tickets for a concert
+- 一封预订音乐会门票的电子邮件
 
 **正文**：
 
-Hi everyone,
+Dear Sir/Madam,
 
-I'm having a fantastic time at my new school! It's much bigger than my old one, and the campus is beautiful. I was a bit nervous at first, but I've already made some lovely friends. My roommate, Sarah, is very kind and has been showing me around.
+I am writing to inquire about booking tickets for the "Future Sound" concert on Saturday, 22nd November. I would like to purchase three tickets for myself and my friends. We would prefer seats that are together and have a clear view of the stage.
 
-The teachers are really supportive, and the lessons are more interesting than I expected, especially the art class. I'm learning so much already. I miss you all, but I'm settling in well. Can't wait to tell you more about it soon!
+Could you please provide information on the ticket prices and whether any student discounts are available? Also, could you let me know what payment methods you accept?
 
-Lots of love,
-Alex
+We are very excited about this event and look forward to hearing from you soon.
 
-- 大家好，
-- 我在新学校过得非常棒！这里比我以前的学校大得多，校园也很美。起初我有点紧张，但我已经交到了一些很棒的朋友。我的室友莎拉人很好，一直带我四处熟悉环境。
-- 老师们都非常支持我，课程也比我想象的要有趣，尤其是美术课。我已经学到了很多东西。我很想念你们，但我适应得很好。等不及很快和你们分享更多事情！
-- 爱你们的，
-- 亚历克斯
+Best regards,
+
+Alex Chen
+
+- 尊敬的先生/女士：
+- 我写信是为了咨询预订11月22日（星期六）“未来之声”音乐会门票的事宜。我想为我和我的朋友们购买三张票。我们希望座位能够连在一起，并且能清楚地看到舞台。
+- 您能否提供关于票价以及是否有学生折扣的信息？另外，能否告知你们接受哪些付款方式？
+- 我们对这次活动感到非常兴奋，期待您的尽快回复。
+- 此致，
+- Alex Chen
 
 ---
 
 # 记叙文/短文
 
-## Write a story beginning: The phone rang at midnight and changed everything.
-- 写一个以下列句子开头的故事：午夜时分，电话铃响了，一切都改变了。
+## An article explaining how students can help protect the environment
+- 一篇解释学生如何帮助保护环境的文章
 
 **正文**：
 
-The phone rang at midnight and changed everything. I groggily reached for it, wondering who would call at such an hour. A frantic voice on the other end shouted, "It's real! The map we found in grandma's attic... it leads to real treasure!" It was my cousin, Leo.
+**Our Planet, Our Future: A Student's Guide**
 
-I was skeptical, but his excitement was contagious. The next morning, instead of going to my boring office job, I was on a train to the coast with a backpack and an old, mysterious map. My predictable life was over, replaced by an unexpected adventure.
+As students, we have a vital role in protecting our environment. You don't need to do big things to make a difference. Start small! At school, you can reduce paper waste by writing on both sides of a sheet. Remember to bring a reusable water bottle instead of buying plastic ones.
 
-- 午夜时分，电话铃响了，一切都改变了。我睡眼惺忪地伸手去拿电话，心想谁会这么晚打电话来。电话那头一个狂热的声音喊道：“是真的！我们在奶奶阁楼里找到的那张地图……它指向了真正的宝藏！” 是我的表哥里奥。
-- 我本持怀疑态度，但他的兴奋之情很有感染力。第二天早上，我没有去我那份无聊的办公室工作，而是背着背包，带着一张古老而神秘的地图，坐上了去往海岸的火车。我那可预见的生活结束了，取而代之的是一场意想不到的冒险。
+At home, try to save energy by turning off lights and electronics when they are not in use. Also, encourage your family to recycle glass, plastic, and paper. By making these simple changes, we can collectively create a healthier planet for our future.
+
+- **我们的星球，我们的未来：学生指南**
+- 作为学生，我们在保护环境方面扮演着至关重要的角色。你不需要做惊天动地的大事来带来改变。从小事做起！在学校，你可以通过双面书写来减少纸张浪费。记得带一个可重复使用的水瓶，而不是购买塑料瓶装水。
+- 在家里，尝试在不使用电灯和电子设备时将其关闭以节约能源。同时，鼓励你的家人回收玻璃、塑料和纸张。通过做出这些简单的改变，我们可以共同为我们的未来创造一个更健康的地球。

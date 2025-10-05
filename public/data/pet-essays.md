@@ -1,44 +1,37 @@
 # 应用文
 
-## An email booking tickets for a concert
-- 一封预订音乐会门票的电子邮件
+## A postcard from your exchange program abroad
+- 来自你的海外交换项目的明信片
 
 **正文**：
 
-Dear Sir/Madam,
+Hi everyone,
 
-I am writing to inquire about booking tickets for the "Future Sound" concert on Saturday, 22nd November. I would like to purchase three tickets for myself and my friends. We would prefer seats that are together and have a clear view of the stage.
+Greetings from sunny Barcelona! I'm having an absolutely amazing time on my exchange program. My host family is incredibly kind and the food here is delicious, especially the paella. I've made lots of new friends from different countries at the language school, and my Spanish is getting better every day.
 
-Could you please provide information on the ticket prices and whether any student discounts are available? Also, could you let me know what payment methods you accept?
+Last weekend, we visited the Sagrada Familia and it was breathtaking. There's so much to see and do here. I miss you all, but I'm learning so much. Can't wait to share all my stories with you when I return!
 
-We are very excited about this event and look forward to hearing from you soon.
+Best wishes,
+Alex
 
-Best regards,
-
-Alex Chen
-
-- 尊敬的先生/女士：
-- 我写信是为了咨询预订11月22日（星期六）“未来之声”音乐会门票的事宜。我想为我和我的朋友们购买三张票。我们希望座位能够连在一起，并且能清楚地看到舞台。
-- 您能否提供关于票价以及是否有学生折扣的信息？另外，能否告知你们接受哪些付款方式？
-- 我们对这次活动感到非常兴奋，期待您的尽快回复。
-- 此致，
-- Alex Chen
+- 大家好，
+- 来自阳光明媚的巴塞罗那的问候！我在这里的交换项目过得非常愉快。我的寄宿家庭非常友善，这里的食物也很美味，尤其是海鲜饭。我在语言学校结交了许多来自不同国家的新朋友，我的西班牙语每天都在进步。
+- 上个周末，我们参观了圣家堂，它简直令人叹为观止。这里有太多可看可做的事情了。我很想念大家，但我也学到了很多东西。等我回去后，我迫不及待地想和你们分享我所有的故事！
+- 最好的祝愿，
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## An article explaining how students can help protect the environment
-- 一篇解释学生如何帮助保护环境的文章
+## Write a story about a misunderstanding that had a happy ending
+- 写一个关于误会最终带来圆满结局的故事
 
 **正文**：
 
-**Our Planet, Our Future: A Student's Guide**
+Last Tuesday, I arranged to meet my friend Sarah at the library at 3 p.m. to study. I waited for over an hour, but she never appeared. I felt really upset and a bit angry, thinking she had forgotten our plan. I went home feeling disappointed and ignored her calls that evening.
 
-As students, we have a vital role in protecting our environment. You don't need to do big things to make a difference. Start small! At school, you can reduce paper waste by writing on both sides of a sheet. Remember to bring a reusable water bottle instead of buying plastic ones.
+The next day, she found me at school and looked worried. "What happened?" she asked. I told her I had waited for ages. She looked confused and then showed me my message. I had accidentally typed "meet at the liberty," and she had been waiting at the Liberty Cafe across town! We both started laughing. The misunderstanding was silly, but it taught us to communicate more clearly.
 
-At home, try to save energy by turning off lights and electronics when they are not in use. Also, encourage your family to recycle glass, plastic, and paper. By making these simple changes, we can collectively create a healthier planet for our future.
-
-- **我们的星球，我们的未来：学生指南**
-- 作为学生，我们在保护环境方面扮演着至关重要的角色。你不需要做惊天动地的大事来带来改变。从小事做起！在学校，你可以通过双面书写来减少纸张浪费。记得带一个可重复使用的水瓶，而不是购买塑料瓶装水。
-- 在家里，尝试在不使用电灯和电子设备时将其关闭以节约能源。同时，鼓励你的家人回收玻璃、塑料和纸张。通过做出这些简单的改变，我们可以共同为我们的未来创造一个更健康的地球。
+- 上周二，我约了朋友莎拉下午3点在图书馆见面学习。我等了一个多小时，但她一直没有出现。我感到非常难过和有点生气，以为她忘记了我们的计划。我失望地回了家，并在那天晚上无视了她的电话。
+- 第二天，她在学校找到了我，看起来很担心。“发生什么事了？”她问。我告诉她我等了很久。她看起来很困惑，然后给我看了我的短信。我竟然不小心打成了“在自由咖啡馆见面”，而她一直在城另一头的自由咖啡馆等我！我们俩都笑了起来。这个误会很傻，但它教会了我们要更清晰地沟通。

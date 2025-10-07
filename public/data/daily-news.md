@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月06日
+**Date**: 2025年10月07日
 **Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **French Government in Crisis as Prime Minister Resigns** / **法国政府陷入危机，总理辞职**
-- **Time**: 2025-10-06
-- **Content**: French Prime Minister Michel Barnier has resigned, and his government has been dissolved after a motion of no confidence was passed in parliament. This development plunges the country into political uncertainty and triggers a constitutional crisis. / 法国总理米歇尔·巴尼耶在议会通过不信任动议后辞职，其政府随之解散。此举使该国陷入政治不确定性并引发宪法危机。
-- **Source**: Associated Press
+### 1. **Israel-Hamas War Continues with Ceasefire Talks** / **以哈战争持续，停火谈判进行中**
+- **Time**: 2025-10-07
+- **Content**: The two-year anniversary of Hamas' attack on Israel has been marked by ongoing ceasefire negotiations in Egypt between Israel and Hamas. Reports highlight the humanitarian crisis in Gaza and pro-Palestinian protests globally. / 哈马斯袭击以色列两周年之际，以色列与哈马斯在埃及的停火谈判仍在继续。报道凸显了加沙的人道主义危机和全球范围内的亲巴勒斯坦抗议活动。
+- **Source**: The Hindu
 
-### 2. **Israel and Hamas Begin Indirect Ceasefire Talks in Cairo** / **以色列与哈马斯在开罗开始间接停火谈判**
-- **Time**: 2025-10-06
-- **Content**: Delegations from Israel and Hamas have begun indirect negotiations in Cairo, mediated by Egypt and Qatar. The talks aim to secure a ceasefire in Gaza and the release of hostages, though significant gaps between the two sides remain. / 以色列和哈马斯的代表团在埃及和卡塔尔的调解下，于开罗展开间接谈判。谈判旨在达成加沙地区的停火协议并释放人质，但双方立场仍存在显著分歧。
-- **Source**: Reuters
+### 2. **Russia-Ukraine Conflict Intensifies** / **俄乌冲突加剧**
+- **Time**: 2025-10-07
+- **Content**: Ukraine has reported striking Russian ammunition plants, oil terminals, and weapons depots. Concurrently, large-scale Russian attacks on Ukraine have resulted in casualties and significant damage, including the death of thousands of pigs. / 乌克兰报告称袭击了俄罗斯的弹药厂、石油码头和武器库。与此同时，俄罗斯对乌克兰的大规模袭击已导致人员伤亡和重大损失，包括数千头猪的死亡。
+- **Source**: CTV News
 
-### 3. **Russia and Ukraine Exchange Deadly Strikes** / **俄罗斯与乌克兰发生致命性相互袭击**
-- **Time**: 2025-10-06
-- **Content**: Ukraine launched a significant drone attack on Russian territory, targeting military and infrastructure sites. In retaliation, Russia struck a Ukrainian railway station, resulting in multiple civilian casualties. The exchange marks a serious escalation in the conflict. / 乌克兰对俄罗斯境内发动了大规模无人机袭击，目标是军事和基础设施。作为报复，俄罗斯袭击了一座乌克兰火车站，导致多名平民伤亡。此次交火标志着冲突的严重升级。
-- **Source**: BBC News
-
-### 4. **Nobel Prize in Medicine Awarded for Immune System Discoveries** / **诺贝尔医学奖授予免疫系统领域的发现**
-- **Time**: 2025-10-06
-- **Content**: The Nobel Prize in Physiology or Medicine has been awarded to three scientists for their groundbreaking discoveries concerning the fundamental mechanisms of the immune system. Their work has paved the way for new therapies against cancer and autoimmune diseases. / 诺贝尔生理学或医学奖授予三位科学家，以表彰他们在免疫系统基本机制方面的突破性发现。他们的研究为癌症和自身免疫性疾病的新疗法铺平了道路。
-- **Source**: The Nobel Prize
-
-### 5. **Massive Rescue Operation on Mount Everest After Snowstorm** / **珠穆朗玛峰雪崩后展开大规模救援行动**
-- **Time**: 2025-10-06
-- **Content**: A severe snowstorm on Mount Everest has trapped nearly 1,000 climbers and guides. An urgent large-scale rescue operation is underway to evacuate those stranded, with reports of over 200 climbers in perilous conditions. / 珠穆朗玛峰发生严重雪崩，导致近1000名登山者和向导被困。一项紧急大规模救援行动正在进行中，以疏散被困人员，据报道有超过200名登山者情况危急。
+### 3. **Mount Everest Blizzard Strands Hundreds of Climbers** / **珠穆朗玛峰暴雪困住数百名登山者**
+- **Time**: 2025-10-07
+- **Content**: A severe blizzard on Mount Everest has left hundreds of hikers stranded, with rescue efforts underway amidst "extreme" conditions. / 珠穆朗玛峰的一场严重暴风雪导致数百名徒步旅行者被困，救援工作正在“极端”条件下进行。
 - **Source**: The Guardian
 
-### 6. **Death Toll in Indonesian School Collapse Rises to 54** / **印度尼西亚学校倒塌事故死亡人数升至54人**
-- **Time**: 2025-10-06
-- **Content**: The death toll from a school building collapse in Indonesia has tragically risen to 54, with many victims being young students. Rescue efforts are ongoing as authorities search for dozens still missing under the rubble. / 印度尼西亚一所学校建筑倒塌造成的死亡人数不幸上升至54人，其中许多遇难者是年轻学生。救援工作仍在继续，当局正在搜寻仍被埋在废墟下的数十名失踪者。
-- **Source**: Al Jazeera
+### 4. **French Political Instability** / **法国政局不稳**
+- **Time**: 2025-10-07
+- **Content**: The French Prime Minister is in a final effort to salvage his cabinet, with some reports indicating a resignation shortly after naming a new government. / 法国总理正在为挽救其内阁做最后的努力，一些报道称他将在任命新政府后不久辞职。
+- **Source**: The Hindu
 
-### 7. **US Government Shutdown Enters Second Week Amid Budget Standoff** / **美国政府因预算僵局进入第二周停摆**
-- **Time**: 2025-10-06
-- **Content**: The U.S. federal government has entered its second week of a partial shutdown as Congress remains deadlocked over a new budget. The shutdown affects numerous federal agencies and leaves hundreds of thousands of employees furloughed. / 由于国会在新预算问题上僵持不下，美国联邦政府已进入部分停摆的第二周。此次停摆影响了众多联邦机构，导致数十万名员工被迫休假。
-- **Source**: CNN
+### 5. **German Mayor Stabbed** / **德国市长遇刺**
+- **Time**: 2025-10-07
+- **Content**: A newly elected mayor in Germany was found with serious stabbing wounds, an act Chancellor Merz described as "abhorrent." / 德国一位新当选的市长被发现身中多刀，伤势严重，总理默茨称此举“令人发指”。
+- **Source**: Sky News
 
-### 8. **Major Japanese Beverage Producer Hit by Cyberattack** / **日本主要饮料生产商遭网络攻击**
-- **Time**: 2025-10-06
-- **Content**: One of Japan's largest beverage companies has suspended production and shipments after being targeted by a major cyberattack. The company is working to restore its systems, but the incident has caused significant disruption to its supply chain. / 日本最大的饮料公司之一在遭受大规模网络攻击后，已暂停生产和发货。该公司正在努力恢复系统，但此次事件已对其供应链造成严重干扰。
-- **Source**: Nikkei Asia
+### 6. **Nobel Prize in Physics Awarded** / **诺贝尔物理学奖揭晓**
+- **Time**: 2025-10-07
+- **Content**: Three scientists have been awarded the 2025 Nobel Prize in Physics for their work advancing quantum technology. / 三位科学家因其在推进量子技术方面的工作而被授予2025年诺贝尔物理学奖。
+- **Source**: CTV News
 
-### 9. **India and China to Resume Direct Flights After Five-Year Hiatus** / **时隔五年，印度与中国将恢复直航**
-- **Time**: 2025-10-06
-- **Content**: India and China have agreed to resume direct passenger flights for the first time in five years. This move is seen as a step toward normalizing relations and boosting economic and cultural exchange between the two nations. / 印度和中国已同意恢复五年来的首次直航客运航班。此举被视为两国关系正常化以及促进经济文化交流的一步。
-- **Source**: The Times of India
+### 7. **Gold Prices Reach Record Highs** / **黄金价格创历史新高**
+- **Time**: 2025-10-07
+- **Content**: Gold futures have surged, rising above $4,000 per ounce for the first time, as investors seek safe haven assets. / 黄金期货价格飙升，首次突破每盎司4000美元，原因是投资者寻求避险资产。
+- **Source**: AP News
 
-### 10. **Madagascar Appoints New Prime Minister After Weeks of Protests** / **马达加斯加在数周抗议后任命新总理**
-- **Time**: 2025-10-06
-- **Content**: Following weeks of widespread protests and political turmoil, Madagascar's president has appointed a new prime minister in an effort to quell the unrest. The new leader faces the immediate challenge of restoring stability and addressing public grievances. / 经过数周的广泛抗议和政治动荡，马达加斯加总统任命了一位新总理以平息骚乱。新领导人面临着恢复稳定和解决公众不满的紧迫挑战。
-- **Source**: France 24
+### 8. **Indonesia School Collapse Death Toll Rises** / **印尼学校倒塌死亡人数上升**
+- **Time**: 2025-10-07
+- **Content**: The death toll from a school building collapse in Indonesia has reached 54, with search efforts for missing students continuing. / 印度尼西亚一所学校教学楼倒塌造成的死亡人数已达54人，失踪学生的搜寻工作仍在继续。
+- **Source**: The Guardian
+
+### 9. **Canada-US Trade Discussions** / **加拿大与美国举行贸易会谈**
+- **Time**: 2025-10-07
+- **Content**: Canadian Prime Minister Mark Carney met with U.S. President Trump to discuss trade and tariffs, with both sides expressing intentions to work quickly on tariff deals. / 加拿大总理马克·卡尼与美国总统特朗普会面，讨论贸易和关税问题，双方都表示打算迅速就关税协议开展工作。
+- **Source**: Global News
+
+### 10. **Yemen's Houthi Rebels Detain UN Staff** / **也门胡塞叛军拘留联合国工作人员**
+- **Time**: 2025-10-07
+- **Content**: Yemen's Houthi rebels have reportedly detained nine more UN staff members as part of an ongoing crackdown. / 据报道，也门胡塞叛军在持续的镇压行动中又拘留了九名联合国工作人员。
+- **Source**: AP News
 
 ---
 

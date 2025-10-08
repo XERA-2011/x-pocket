@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月07日
-**Update Time**: 22:18 UTC
+**Date**: 2025年10月08日
+**Update Time**: 22:19 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Israel-Hamas War Continues with Ceasefire Talks** / **以哈战争持续，停火谈判进行中**
-- **Time**: 2025-10-07
-- **Content**: The two-year anniversary of Hamas' attack on Israel has been marked by ongoing ceasefire negotiations in Egypt between Israel and Hamas. Reports highlight the humanitarian crisis in Gaza and pro-Palestinian protests globally. / 哈马斯袭击以色列两周年之际，以色列与哈马斯在埃及的停火谈判仍在继续。报道凸显了加沙的人道主义危机和全球范围内的亲巴勒斯坦抗议活动。
-- **Source**: The Hindu
+### 1. **Ceasefire Talks for Gaza Conflict Underway in Egypt** / **加沙冲突停火谈判在埃及进行中**
+- **Time**: 2025-10-08
+- **Content**: Top officials from the US, Qatar, and Israel have joined talks with Hamas in Egypt to negotiate a potential ceasefire in the Gaza conflict. / 美国、卡塔尔和以色列的高级官员已在埃及与哈马斯进行谈判，以商讨加沙冲突的潜在停火协议。
+- **Source**: Associated Press
 
-### 2. **Russia-Ukraine Conflict Intensifies** / **俄乌冲突加剧**
-- **Time**: 2025-10-07
-- **Content**: Ukraine has reported striking Russian ammunition plants, oil terminals, and weapons depots. Concurrently, large-scale Russian attacks on Ukraine have resulted in casualties and significant damage, including the death of thousands of pigs. / 乌克兰报告称袭击了俄罗斯的弹药厂、石油码头和武器库。与此同时，俄罗斯对乌克兰的大规模袭击已导致人员伤亡和重大损失，包括数千头猪的死亡。
-- **Source**: CTV News
-
-### 3. **Mount Everest Blizzard Strands Hundreds of Climbers** / **珠穆朗玛峰暴雪困住数百名登山者**
-- **Time**: 2025-10-07
-- **Content**: A severe blizzard on Mount Everest has left hundreds of hikers stranded, with rescue efforts underway amidst "extreme" conditions. / 珠穆朗玛峰的一场严重暴风雪导致数百名徒步旅行者被困，救援工作正在“极端”条件下进行。
-- **Source**: The Guardian
-
-### 4. **French Political Instability** / **法国政局不稳**
-- **Time**: 2025-10-07
-- **Content**: The French Prime Minister is in a final effort to salvage his cabinet, with some reports indicating a resignation shortly after naming a new government. / 法国总理正在为挽救其内阁做最后的努力，一些报道称他将在任命新政府后不久辞职。
-- **Source**: The Hindu
-
-### 5. **German Mayor Stabbed** / **德国市长遇刺**
-- **Time**: 2025-10-07
-- **Content**: A newly elected mayor in Germany was found with serious stabbing wounds, an act Chancellor Merz described as "abhorrent." / 德国一位新当选的市长被发现身中多刀，伤势严重，总理默茨称此举“令人发指”。
+### 2. **Israel Marks Two-Year Anniversary of Hamas Attack** / **以色列纪念哈马斯袭击两周年**
+- **Time**: 2025-10-08
+- **Content**: Israel is commemorating the second anniversary of the October 7th attack by Hamas, as the conflict in Gaza continues. / 在加沙冲突持续之际，以色列正在纪念哈马斯10月7日袭击事件两周年。
 - **Source**: Sky News
 
-### 6. **Nobel Prize in Physics Awarded** / **诺贝尔物理学奖揭晓**
-- **Time**: 2025-10-07
-- **Content**: Three scientists have been awarded the 2025 Nobel Prize in Physics for their work advancing quantum technology. / 三位科学家因其在推进量子技术方面的工作而被授予2025年诺贝尔物理学奖。
-- **Source**: CTV News
-
-### 7. **Gold Prices Reach Record Highs** / **黄金价格创历史新高**
-- **Time**: 2025-10-07
-- **Content**: Gold futures have surged, rising above $4,000 per ounce for the first time, as investors seek safe haven assets. / 黄金期货价格飙升，首次突破每盎司4000美元，原因是投资者寻求避险资产。
-- **Source**: AP News
-
-### 8. **Indonesia School Collapse Death Toll Rises** / **印尼学校倒塌死亡人数上升**
-- **Time**: 2025-10-07
-- **Content**: The death toll from a school building collapse in Indonesia has reached 54, with search efforts for missing students continuing. / 印度尼西亚一所学校教学楼倒塌造成的死亡人数已达54人，失踪学生的搜寻工作仍在继续。
-- **Source**: The Guardian
-
-### 9. **Canada-US Trade Discussions** / **加拿大与美国举行贸易会谈**
-- **Time**: 2025-10-07
-- **Content**: Canadian Prime Minister Mark Carney met with U.S. President Trump to discuss trade and tariffs, with both sides expressing intentions to work quickly on tariff deals. / 加拿大总理马克·卡尼与美国总统特朗普会面，讨论贸易和关税问题，双方都表示打算迅速就关税协议开展工作。
+### 3. **Second Gaza Aid Flotilla Intercepted by Israeli Forces** / **第二支加沙援助船队被以色列军队拦截**
+- **Time**: 2025-10-08
+- **Content**: Israeli forces intercepted a second aid flotilla attempting to reach Gaza, with reports of Canadian citizens among those detained. / 以色列军队拦截了第二支试图抵达加沙的援助船队，据报道被拘留者中有加拿大公民。
 - **Source**: Global News
 
-### 10. **Yemen's Houthi Rebels Detain UN Staff** / **也门胡塞叛军拘留联合国工作人员**
-- **Time**: 2025-10-07
-- **Content**: Yemen's Houthi rebels have reportedly detained nine more UN staff members as part of an ongoing crackdown. / 据报道，也门胡塞叛军在持续的镇压行动中又拘留了九名联合国工作人员。
-- **Source**: AP News
+### 4. **Germany Ends Fast-Track Citizenship Program** / **德国终止快速入籍计划**
+- **Time**: 2025-10-08
+- **Content**: Germany has ended its fast-track citizenship program, reflecting a shift in the country's sentiment regarding migration. / 德国已终止其快速入籍计划，反映了该国对移民情绪的转变。
+- **Source**: The Guardian
+
+### 5. **Spanish MPs Support Arms Embargo on Israel** / **西班牙议员支持对以色列实施武器禁运**
+- **Time**: 2025-10-08
+- **Content**: Members of the Spanish parliament have supported a move to legally enshrine an arms embargo on Israel. / 西班牙议会议员支持将对以色列的武器禁运合法化的举措。
+- **Source**: The Guardian
+
+### 6. **French President Macron to Name New Prime Minister** / **法国总统马克龙将任命新总理**
+- **Time**: 2025-10-08
+- **Content**: Following the resignation of the prime minister, French President Emmanuel Macron is expected to name a replacement within 48 hours. / 在总理辞职后，法国总统埃马纽埃尔·马克龙预计将在48小时内任命接替者。
+- **Source**: Associated Press
+
+### 7. **Building Collapse in Madrid Kills at Least Four** / **马德里建筑倒塌造成至少四人死亡**
+- **Time**: 2025-10-08
+- **Content**: A six-story building under refurbishment in central Madrid collapsed, resulting in the death of at least four people. / 马德里市中心一栋正在翻修的六层建筑倒塌，导致至少四人死亡。
+- **Source**: Global News
+
+### 8. **Ecuador President's Motorcade Attacked by Protesters** / **厄瓜多尔总统车队遭抗议者袭击**
+- **Time**: 2025-10-08
+- **Content**: The motorcade of Ecuador's president was attacked by protesters, though the president was unharmed in the incident. / 厄瓜多尔总统的车队遭到抗议者袭击，但总统本人在事件中没有受伤。
+- **Source**: The Guardian
+
+### 9. **Curfews Imposed in Jamaica Following Shootings** / **牙买加枪击事件后实施宵禁**
+- **Time**: 2025-10-08
+- **Content**: Police in Jamaica have imposed curfews in response to recent shootings that left five people dead and ten injured. / 牙买加警方在最近发生导致五人死亡、十人受伤的枪击事件后实施了宵禁。
+- **Source**: Associated Press
+
+### 10. **Landslides in India's Darjeeling Region Kill 24** / **印度大吉岭地区山体滑坡致24人死亡**
+- **Time**: 2025-10-08
+- **Content**: Rescuers in India are searching for missing individuals after landslides in the Darjeeling region killed 24 people. / 印度大吉岭地区发生山体滑坡，造成24人死亡，救援人员正在搜寻失踪人员。
+- **Source**: Associated Press
 
 ---
 

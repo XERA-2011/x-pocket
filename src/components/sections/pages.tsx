@@ -1,11 +1,11 @@
 "use client";
 
-import { motion, Variants } from 'framer-motion';
+import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
+import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 import { getSmartHref } from '@/utils/href-helper';
 
-const pagesData: ItemCardProps[] = [
+const pagesData: GlowCardItem[] = [
   {
     id: "daily-news",
     title: "Daily News",
@@ -53,16 +53,7 @@ const pagesData: ItemCardProps[] = [
   }
 ];
 
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-      delayChildren: 0.3,
-    },
-  },
-};
+
 
 export default function PagesShowcaseSection() {
   return (
@@ -84,17 +75,12 @@ export default function PagesShowcaseSection() {
 
         {/* Pages Grid */}
         <ScrollReveal delay={0.4}>
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-          >
-            {pagesData.map((page, index) => (
-              <ItemCard key={page.id} item={page} index={index} />
-            ))}
-          </motion.div>
+          <GlowCardList
+            items={pagesData}
+            columns={4}
+            gap="lg"
+            className="lg:gap-8"
+          />
         </ScrollReveal>
       </div>
     </section>

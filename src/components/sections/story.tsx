@@ -1,10 +1,10 @@
 "use client";
 
-import { motion, Variants } from 'framer-motion';
+import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
+import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 
-const storiesData: ItemCardProps[] = [
+const storiesData: GlowCardItem[] = [
   {
     id: 'pocket-journey',
     title: 'Pocket Journey',
@@ -43,16 +43,7 @@ const storiesData: ItemCardProps[] = [
   }
 ];
 
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-      delayChildren: 0.3,
-    },
-  },
-};
+
 
 export default function StorySection() {
   return (
@@ -74,17 +65,12 @@ export default function StorySection() {
 
         {/* Stories Grid */}
         <ScrollReveal delay={0.4}>
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-          >
-            {storiesData.map((story, index) => (
-              <ItemCard key={story.id} item={story} index={index} />
-            ))}
-          </motion.div>
+          <GlowCardList
+            items={storiesData}
+            columns={4}
+            gap="lg"
+            className="lg:gap-8"
+          />
         </ScrollReveal>
       </div>
     </section>

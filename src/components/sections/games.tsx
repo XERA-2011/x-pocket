@@ -1,12 +1,11 @@
 "use client";
 
-import { useRef } from 'react';
-import { motion, Variants } from 'framer-motion';
+import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
+import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 import { getSmartHref } from '@/utils/href-helper';
 
-const gamesData: ItemCardProps[] = [
+const gamesData: GlowCardItem[] = [
   {
     id: 'solar-skirmish',
     title: 'Solar Skirmish',
@@ -47,19 +46,9 @@ const gamesData: ItemCardProps[] = [
   }
 ];
 
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-      delayChildren: 0.3,
-    },
-  },
-};
+
 
 export default function GamesSection() {
-  const containerRef = useRef<HTMLDivElement>(null);
 
   return (
     <section className="relative w-full min-h-screen py-20" id="games-showcase">
@@ -80,18 +69,12 @@ export default function GamesSection() {
 
         {/* Games Grid */}
         <ScrollReveal delay={0.4}>
-          <motion.div
-            ref={containerRef}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-          >
-            {gamesData.map((game, index) => (
-              <ItemCard key={game.id} item={game} index={index} />
-            ))}
-          </motion.div>
+          <GlowCardList
+            items={gamesData}
+            columns={4}
+            gap="lg"
+            className="lg:gap-8"
+          />
         </ScrollReveal>
       </div>
     </section>

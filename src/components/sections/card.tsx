@@ -1,11 +1,11 @@
 "use client";
 
-import { motion, Variants } from 'framer-motion';
+import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
-import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
+import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 
-const cardData: ItemCardProps[] = [
-  { id: "daily-news", title: "Daily News", href: "/news", description: "Global hot news TOP10 from mainstream English media", tags: ['News', 'Global'], icon: "📰" },
+const cardData: GlowCardItem[] = [
+  { id: "daily-news", title: "Daily News", href: "/news", description: "Global hot news TOP10 from mainstream English media", tags: ['News', 'Global'] },
   { id: "essays-md", title: "Essays Markdown", href: "/english/essays-md", description: "Markdown content rendering", tags: ['Content', 'Markdown'] },
   { id: "essays-json", title: "Essays JSON", href: "/english/essays", description: "JSON data format rendering", tags: ['Content', 'JSON'] },
   { id: "coze-ai", title: "COZE AI", href: "/ai/coze", description: "AI assistant integration", tags: ['AI', 'Chat'] },
@@ -13,16 +13,6 @@ const cardData: ItemCardProps[] = [
   { id: "games", title: "Games", href: "/games", description: "Interactive games", tags: ['Game', 'Interactive'] },
 ];
 
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.2,
-    },
-  },
-};
 
 export default function CardSection() {
   return (
@@ -44,17 +34,12 @@ export default function CardSection() {
 
         {/* Cards Grid */}
         <ScrollReveal delay={0.3}>
-          <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-          >
-            {cardData.map((card, index) => (
-              <ItemCard key={card.id} item={card} index={index} />
-            ))}
-          </motion.div>
+          <GlowCardList
+            items={cardData}
+            columns={4}
+            gap="lg"
+            className="lg:gap-8"
+          />
         </ScrollReveal>
       </div>
     </section>

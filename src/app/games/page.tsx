@@ -1,10 +1,10 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import ItemCard, { ItemCardProps } from '@/components/ui/ItemCard';
+import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 import { getSmartHref } from '@/utils/href-helper';
 
-const gamesData: ItemCardProps[] = [
+const gamesData: GlowCardItem[] = [
   {
     id: 'solar-skirmish',
     title: 'Solar Skirmish',
@@ -45,16 +45,7 @@ const gamesData: ItemCardProps[] = [
   }
 ];
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-      delayChildren: 0.2,
-    },
-  },
-};
+
 
 export default function GamesPage() {
   return (
@@ -76,16 +67,12 @@ export default function GamesPage() {
           <div className="w-24 h-1 bg-white/30 mx-auto rounded-full mt-6" />
         </motion.div>
 
-        <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-        >
-          {gamesData.map((game, index) => (
-            <ItemCard key={game.id} item={game} index={index} />
-          ))}
-        </motion.div>
+        <GlowCardList
+          items={gamesData}
+          columns={3}
+          gap="lg"
+          className="lg:gap-8"
+        />
       </div>
     </div>
   );

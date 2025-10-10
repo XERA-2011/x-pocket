@@ -45,10 +45,10 @@ const pagesData: GlowCardItem[] = [
   {
     id: "x-logo-design",
     title: "X Logo Design",
-    description: "X Logo implemented with CSS and SVG.",
+    description: "SVG to PNG export tool with black/white dual versions.",
     href: getSmartHref("/pages/x-logo.html"),
     icon: "❌",
-    tags: ['Design', 'CSS', 'SVG'],
+    tags: ['Design', 'SVG', 'Export'],
     difficulty: 'Easy'
   }
 ];

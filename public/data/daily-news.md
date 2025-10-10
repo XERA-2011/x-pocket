@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月09日
+**Date**: 2025年10月10日
 **Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Israel and Hamas Agree to First Phase of Gaza Ceasefire Deal** / **以色列与哈马斯达成加沙停火协议第一阶段**
-- **Time**: 2025-10-09
-- **Content**: A significant breakthrough has been reached with an agreement on the first phase of a peace plan, which includes a pause in fighting and the release of hostages and prisoners. / 和平计划第一阶段已达成重大突破，其中包括暂停战斗以及释放人质和囚犯。
+### 1. **Gaza Ceasefire Takes Effect, Palestinians Return North** / **加沙停火生效，巴勒斯坦人返回北部**
+- **Time**: 2025-10-10
+- **Content**: A U.S.-brokered ceasefire between Israel and Hamas has begun, allowing tens of thousands of Palestinians to start returning to the heavily damaged northern Gaza Strip. / 由美国斡旋的以色列与哈马斯之间的停火协议已经生效，数万名巴勒斯坦人开始返回遭受重创的加沙地带北部。
+- **Source**: Associated Press
+
+### 2. **Venezuelan Opposition Leader María Corina Machado Wins Nobel Peace Prize** / **委内瑞拉反对派领袖玛丽亚·科里纳·马查多荣获诺贝尔和平奖**
+- **Time**: 2025-10-10
+- **Content**: María Corina Machado, a prominent Venezuelan opposition leader, has been awarded the Nobel Peace Prize for her long and non-violent struggle for democracy and human rights in Venezuela. / 委内瑞拉著名反对派领袖玛丽亚·科里纳·马查多因其为委内瑞拉民主和人权所做的长期非暴力斗争而被授予诺贝尔和平奖。
+- **Source**: The Guardian
+
+### 3. **Powerful Earthquakes Strike Southern Philippines** / **强震袭击菲律宾南部**
+- **Time**: 2025-10-10
+- **Content**: Two powerful earthquakes struck off the coast of the southern Philippines, resulting in at least seven fatalities and causing significant shaking to buildings in the region. / 两次强烈地震袭击了菲律宾南部海岸，造成至少七人死亡，并导致该地区建筑物剧烈摇晃。
 - **Source**: Al Jazeera
 
-### 2. **Hungarian Author László Krasznahorkai Awarded Nobel Prize in Literature** / **匈牙利作家克拉斯诺霍尔卡伊·拉斯洛荣获诺贝尔文学奖**
-- **Time**: 2025-10-09
-- **Content**: The Royal Swedish Academy of Sciences announced that the 2025 Nobel Prize in Literature has been awarded to Hungarian author László Krasznahorkai for his compelling and visionary oeuvre. / 瑞典皇家科学院宣布，2025年诺贝尔文学奖授予匈牙利作家克拉斯诺霍尔卡伊·拉斯洛，以表彰其引人入胜且富有远见的作品。
-- **Source**: The Hindu
+### 4. **Macron Reappoints Prime Minister Amid French Turmoil** / **法国政局动荡，马克龙重新任命总理**
+- **Time**: 2025-10-10
+- **Content**: In an effort to address ongoing political instability, French President Emmanuel Macron has reappointed Sébastien Lecornu as Prime Minister just days after his government's resignation. / 为应对持续的政治动荡，法国总统埃马纽埃尔·马克龙在政府辞职仅几天后，重新任命塞巴斯蒂安·勒科尔尼为总理。
+- **Source**: Sky News
 
-### 3. **UK Prime Minister Keir Starmer Visits India to Strengthen Ties** / **英国首相基尔·斯塔默访问印度以加强两国关系**
-- **Time**: 2025-10-09
-- **Content**: British Prime Minister Keir Starmer arrived in India to enhance diplomatic relations and discuss trade, following the UK-India free trade pact. / 继英印自由贸易协定之后，英国首相基尔·斯塔默抵达印度，旨在加强外交关系和商讨贸易问题。
-- **Source**: India Today
+### 5. **Trump Threatens New 100% Tariffs on China** / **特朗普威胁对中国征收新的100%关税**
+- **Time**: 2025-10-10
+- **Content**: Former U.S. President Donald Trump announced he plans to impose an additional 100% tariff on all imports from China starting next month, escalating the trade dispute. / 美国前总统唐纳德·特朗普宣布，计划从下月起对所有从中国进口的商品加征100%的关税，使贸易争端升级。
+- **Source**: CBS News
 
-### 4. **China Imposes New Export Controls on Rare Earths and Technology** / **中国对稀土和相关技术实施新的出口管制**
-- **Time**: 2025-10-09
-- **Content**: China has outlined new restrictions on the export of rare earths and related technologies, extending its control over these critical elements. / 中国公布了对稀土及相关技术出口的新限制，扩大了对这些关键元素的控制。
-- **Source**: The Hindu
+### 6. **Conflict in Ukraine Continues with Civilian Casualties** / **乌克兰冲突持续，造成平民伤亡**
+- **Time**: 2025-10-10
+- **Content**: Russian strikes wounded at least 20 people in Kyiv, while a separate attack killed a child. Ukrainian attacks are reportedly causing gas shortages in Russia, and a Russian strike has severely damaged a Ukrainian power plant. / 俄罗斯的袭击在基辅造成至少20人受伤，另有一次袭击导致一名儿童死亡。据报道，乌克兰的袭击导致俄罗斯天然气短缺，而俄罗斯的一次打击严重损坏了一座乌克兰发电厂。
+- **Source**: Global News
 
-### 5. **G20 Conservation Body to Target Environmental Crimes** / **G20保护机构将打击环境犯罪**
-- **Time**: 2025-10-09
-- **Content**: The IUCN Congress in Abu Dhabi is set to push for coordinated international action against wildlife trafficking, illegal logging, and other environmental offenses. / 在阿布扎比举行的世界自然保护联盟大会将推动国际社会采取协调行动，打击野生动物贩运、非法采伐和其他环境犯罪。
-- **Source**: India Today
+### 7. **Peru's Congress Removes President Boluarte from Office** / **秘鲁国会罢免总统博鲁阿尔特**
+- **Time**: 2025-10-10
+- **Content**: Amidst a growing crime wave and political turmoil, Peru's Congress has voted to remove President Dina Boluarte from office. / 在日益严重的犯罪浪潮和政治动荡中，秘鲁国会投票决定罢免总统迪娜·博鲁阿尔特的职务。
+- **Source**: Associated Press
 
-### 6. **DR Congo to Link Cobalt Exports to 3-Year Quotas** / **刚果民主共和国将钴出口与三年配额挂钩**
-- **Time**: 2025-10-09
-- **Content**: The Democratic Republic of the Congo will now tie cobalt export quotas to production and shipment data over the past three years. / 刚果民主共和国现在将根据过去三年的生产和装运数据，将钴出口配额与之挂钩。
-- **Source**: India Today
+### 8. **Nineteen Missing After Explosion at Tennessee Munitions Plant** / **田纳西州军工厂爆炸，十九人失踪**
+- **Time**: 2025-10-10
+- **Content**: A large explosion occurred at a military munitions plant in Tennessee, leaving nineteen people missing and prompting a major emergency response. / 田纳西州一座军事弹药厂发生大规模爆炸，导致19人失踪，并引发了重大的紧急响应。
+- **Source**: The Guardian
 
-### 7. **Fifth French Prime Minister Resigns in Three Years** / **三年内第五位法国总理辞职**
-- **Time**: 2025-10-09
-- **Content**: French President Macron is reportedly facing increasing calls for snap elections or his resignation following the departure of the fifth Prime Minister in his current term. / 据报道，在现任期内第五位总理离职后，法国总统马克龙面临着要求提前选举或辞职的日益高涨的呼声。
-- **Source**: Al Jazeera
+### 9. **Hamas Praises Trump for Ceasefire Deal** / **哈马斯就停火协议赞扬特朗普**
+- **Time**: 2025-10-10
+- **Content**: A senior Hamas official has publicly thanked Donald Trump for his role in the recent ceasefire deal but stated that former UK Prime Minister Tony Blair is not welcome in a post-war Gaza role. / 一名哈马斯高级官员公开感谢唐纳德·特朗普在最近的停火协议中扮演的角色，但表示不欢迎英国前首相托尼·布莱尔在战后加沙担任任何角色。
+- **Source**: Sky News
 
-### 8. **Russia Advances in Ukraine, Report Cites Heavy Casualties** / **报告称俄罗斯在乌克兰取得进展，伤亡惨重**
-- **Time**: 2025-10-09
-- **Content**: A report indicates that Russia is making incremental gains in Ukraine, with an estimated 90,000 troops killed in 2025. / 一份报告显示，俄罗斯在乌克兰取得了逐步进展，预计2025年将有9万名士兵阵亡。
-- **Source**: Al Jazeera
-
-### 9. **Taiwan Detects Chinese Military Activity Near its Waters** / **台湾在其水域附近侦测到中国军事活动**
-- **Time**: 2025-10-09
-- **Content**: Taiwan's Ministry of National Defense reported detecting nine Chinese military aircraft and seven naval vessels operating near its territory. / 台湾国防部报告称，在其领土附近侦测到九架中国军机和七艘海军舰艇活动。
-- **Source**: The Times of India
-
-### 10. **Man Arrested for Maliciously Igniting Deadly Palisades Fire** / **一名男子因恶意点燃致命的帕利塞德斯大火而被捕**
-- **Time**: 2025-10-09
-- **Content**: Authorities have announced the arrest of a man accused of deliberately starting the Palisades Fire, which devastated parts of Los Angeles County and resulted in multiple fatalities. / 当局宣布逮捕了一名被控故意引发帕利塞德斯大火的男子，这场大火摧毁了洛杉矶县的部分地区，并导致多人死亡。
-- **Source**: DrydenWire
+### 10. **Nobel Peace Prize Officials Investigate Betting Surge** / **诺贝尔和平奖官员调查投注激增事件**
+- **Time**: 2025-10-10
+- **Content**: Officials responsible for the Nobel Peace Prize are investigating an unusual surge in bets placed on the winner, María Corina Machado, just before the official announcement, raising concerns about a potential leak. / 诺贝尔和平奖的相关官员正在调查在正式宣布前，针对获奖者玛丽亚·科里纳·马查多的投注异常激增的事件，引发了对可能存在信息泄露的担忧。
+- **Source**: The Guardian
 
 ---
 

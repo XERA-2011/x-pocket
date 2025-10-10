@@ -1,34 +1,40 @@
 # 应用文
 
-## A thank-you email to a host family after staying with them
-- [给寄宿家庭的一封感谢邮件]
+## An email to a friend recommending a new restaurant you tried
+- 给朋友写一封邮件，推荐你尝试过的一家新餐厅
 
 **正文**：
 
-Dear Mr. and Mrs. Smith,
+Hi Alex,
 
-I'm writing to express my sincere gratitude for your kindness during my stay in London. I'm now safely back home, but I already miss our evening chats and the delicious meals you prepared. You made me feel like a real member of your family.
+Hope you're doing well. I'm writing to tell you about an amazing new Italian restaurant I tried last night called "The Olive Tree." You would absolutely love it!
 
-Thank you for helping me with my English and showing me around the city. The trip to the British Museum was a highlight for me. Your hospitality was incredible, and it made my experience unforgettable. I hope you will visit me in China one day.
+The restaurant has a really cozy atmosphere, and the staff are incredibly friendly. I ordered the seafood pasta, and it was the best I've ever had. The prices were quite reasonable too. I know how much you enjoy Italian food, so I thought of you immediately.
 
-Best wishes,
-Li Hua
+We should definitely go together next week. Let me know if you're free.
 
-- 我写这封信是为了表达在我伦敦逗留期间您们给予我善待的诚挚感谢。如今我已平安返家，但我已经开始怀念我们的夜谈和您们准备的美味佳肴。您们让我感觉自己就像是这个家庭的真正一员。
-- 感谢您们帮助我练习英语并带我游览城市。参观大英博物馆的经历对我来说是一大亮点。您们的盛情款待令人难忘，让我的这次经历变得难以忘怀。我希望有一天您们能来中国拜访我。
+Best,
+Chris
+
+- 嗨，亚历克斯，
+- 希望你一切都好。我写信是想告诉你，我昨晚去了一家超棒的意大利新餐厅，叫做“橄榄树”。你绝对会喜欢的！
+- 那家餐厅的气氛非常舒适，员工也极其友好。我点了海鲜意面，那是我吃过的最棒的。价格也很合理。我知道你很喜欢意大利菜，所以立刻就想到了你。
+- 我们下周一定要一起去。如果你有空的话，告诉我。
+- 祝好，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## Write a story about a misunderstanding that had a happy ending
-- [写一个关于误会最终迎来圆满结局的故事]
+## Write a story beginning: The phone rang at midnight and changed everything.
+- 写一个以下列句子开头的故事：午夜时分，电话铃响了，一切都改变了。
 
 **正文**：
 
-Last Saturday, I saw my friend Tom leaving a jewelry shop with a beautiful necklace. I knew his girlfriend, Sarah, had a birthday coming up, but I had also heard they were arguing. Later, I saw him give the necklace to another girl in a café. I was shocked and thought he was being unfaithful.
+The phone rang at midnight and changed everything. I was half asleep, but the urgent sound made me jump out of bed. It was my aunt, her voice trembling. "Your grandfather left you something," she said. "A small cottage by the sea. The keys are with me."
 
-Feeling upset for Sarah, I almost called her. However, I decided to ask Tom first. He laughed and explained the girl was his cousin, who was helping him choose the perfect birthday gift for Sarah. The next day, Sarah was overjoyed with her present, and I was relieved I hadn't jumped to the wrong conclusion.
+The next day, I drove for hours to the coast. The cottage was old but charming, filled with maps and books about the ocean. On a small desk, I found a letter from him. It spoke of a hidden family treasure and a final adventure he had planned for me.
 
-- 上周六，我看到我的朋友汤姆带着一条漂亮的项链走出一家珠宝店。我知道他的女朋友莎拉的生日快到了，但我也听说他们最近在吵架。之后，我看到他在一家咖啡馆里把项链给了另一个女孩。我感到震惊，以为他背叛了感情。
-- 我为莎拉感到难过，差点就打电话给她了。然而，我决定先问问汤姆。他笑着解释说，那个女孩是他的表妹，正在帮他为莎拉挑选完美的生日礼物。第二天，莎拉对她的礼物欣喜若狂，而我也因为自己没有草率地得出错误结论而松了一口气。
+- 午夜时分，电话铃响了，一切都改变了。我本已半梦半醒，但那急促的铃声让我从床上一跃而起。是我姑妈打来的，她的声音在颤抖。“你爷爷给你留了样东西，”她说，“海边的一座小木屋。钥匙在我这里。”
+- 第二天，我开了几个小时的车来到海边。那座木屋虽旧但很迷人，里面堆满了地图和关于海洋的书籍。在一张小书桌上，我找到了他留下的一封信。信中提到了一个隐藏的家族宝藏，以及他为我计划的最后一次冒险。

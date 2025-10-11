@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月10日
-**Update Time**: 22:18 UTC
+**Date**: 2025年10月11日
+**Update Time**: 22:17 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Gaza Ceasefire Takes Effect, Palestinians Return North** / **加沙停火生效，巴勒斯坦人返回北部**
-- **Time**: 2025-10-10
-- **Content**: A U.S.-brokered ceasefire between Israel and Hamas has begun, allowing tens of thousands of Palestinians to start returning to the heavily damaged northern Gaza Strip. / 由美国斡旋的以色列与哈马斯之间的停火协议已经生效，数万名巴勒斯坦人开始返回遭受重创的加沙地带北部。
-- **Source**: Associated Press
+### 1. **Israel-Hamas Ceasefire Holds, Aid Convoys Prepare to Enter Gaza** / **以色列与哈马斯停火协议生效，援助车队准备进入加沙**
+- **Time**: 2025-10-11
+- **Content**: A ceasefire between Israel and Hamas appears to be holding as international agencies prepare to deliver crucial humanitarian aid to the Gaza Strip. Tens of thousands of Palestinians are returning to their homes, many of which have been destroyed. / 以色列与哈马斯之间的停火协议似乎正在维持，国际机构正准备向加沙地带运送关键的人道主义援助。成千上万的巴勒斯坦人正在返回家园，其中许多房屋已被摧毁。
+- **Source**: Reuters
 
-### 2. **Venezuelan Opposition Leader María Corina Machado Wins Nobel Peace Prize** / **委内瑞拉反对派领袖玛丽亚·科里纳·马查多荣获诺贝尔和平奖**
-- **Time**: 2025-10-10
-- **Content**: María Corina Machado, a prominent Venezuelan opposition leader, has been awarded the Nobel Peace Prize for her long and non-violent struggle for democracy and human rights in Venezuela. / 委内瑞拉著名反对派领袖玛丽亚·科里纳·马查多因其为委内瑞拉民主和人权所做的长期非暴力斗争而被授予诺贝尔和平奖。
-- **Source**: The Guardian
-
-### 3. **Powerful Earthquakes Strike Southern Philippines** / **强震袭击菲律宾南部**
-- **Time**: 2025-10-10
-- **Content**: Two powerful earthquakes struck off the coast of the southern Philippines, resulting in at least seven fatalities and causing significant shaking to buildings in the region. / 两次强烈地震袭击了菲律宾南部海岸，造成至少七人死亡，并导致该地区建筑物剧烈摇晃。
+### 2. **Dozens Killed in Attack on Displacement Camp in Sudan's Darfur Region** / **苏丹达尔富尔地区一流离失所者营地遭袭，数十人遇难**
+- **Time**: 2025-10-11
+- **Content**: A paramilitary attack on a displacement camp in El Fasher, North Darfur, has reportedly killed at least 60 people. The attack adds to the escalating violence and humanitarian crisis in the region. / 据报道，苏丹北达尔富尔州法希尔市一个流离失所者营地遭到准军事部队袭击，造成至少60人死亡。此次袭击加剧了该地区不断升级的暴力和人道主义危机。
 - **Source**: Al Jazeera
 
-### 4. **Macron Reappoints Prime Minister Amid French Turmoil** / **法国政局动荡，马克龙重新任命总理**
-- **Time**: 2025-10-10
-- **Content**: In an effort to address ongoing political instability, French President Emmanuel Macron has reappointed Sébastien Lecornu as Prime Minister just days after his government's resignation. / 为应对持续的政治动荡，法国总统埃马纽埃尔·马克龙在政府辞职仅几天后，重新任命塞巴斯蒂安·勒科尔尼为总理。
-- **Source**: Sky News
+### 3. **Venezuelan Opposition Leader María Corina Machado Wins Nobel Peace Prize** / **委内瑞拉反对派领袖玛丽亚·科里纳·马查多荣获诺贝尔和平奖**
+- **Time**: 2025-10-11
+- **Content**: Venezuelan opposition leader María Corina Machado has been awarded the Nobel Peace Prize for her long and non-violent struggle for democracy and human rights in Venezuela. / 委内瑞拉反对派领袖玛丽亚·科里纳·马查多因其在委内瑞拉为民主和人权进行的长期非暴力斗争而被授予诺贝尔和平奖。
+- **Source**: The Nobel Prize
 
-### 5. **Trump Threatens New 100% Tariffs on China** / **特朗普威胁对中国征收新的100%关税**
-- **Time**: 2025-10-10
-- **Content**: Former U.S. President Donald Trump announced he plans to impose an additional 100% tariff on all imports from China starting next month, escalating the trade dispute. / 美国前总统唐纳德·特朗普宣布，计划从下月起对所有从中国进口的商品加征100%的关税，使贸易争端升级。
-- **Source**: CBS News
-
-### 6. **Conflict in Ukraine Continues with Civilian Casualties** / **乌克兰冲突持续，造成平民伤亡**
-- **Time**: 2025-10-10
-- **Content**: Russian strikes wounded at least 20 people in Kyiv, while a separate attack killed a child. Ukrainian attacks are reportedly causing gas shortages in Russia, and a Russian strike has severely damaged a Ukrainian power plant. / 俄罗斯的袭击在基辅造成至少20人受伤，另有一次袭击导致一名儿童死亡。据报道，乌克兰的袭击导致俄罗斯天然气短缺，而俄罗斯的一次打击严重损坏了一座乌克兰发电厂。
-- **Source**: Global News
-
-### 7. **Peru's Congress Removes President Boluarte from Office** / **秘鲁国会罢免总统博鲁阿尔特**
-- **Time**: 2025-10-10
-- **Content**: Amidst a growing crime wave and political turmoil, Peru's Congress has voted to remove President Dina Boluarte from office. / 在日益严重的犯罪浪潮和政治动荡中，秘鲁国会投票决定罢免总统迪娜·博鲁阿尔特的职务。
+### 4. **Major Russian Strikes Target Ukraine's Energy Grid, Causing Widespread Outages** / **俄罗斯大规模袭击乌克兰能源网络，导致大范围停电**
+- **Time**: 2025-10-11
+- **Content**: Russia has launched major strikes on Ukraine's energy infrastructure, causing widespread power outages across the country. Power has been restored to 800,000 in Kyiv, but the energy situation remains critical. / 俄罗斯对乌克兰的能源基础设施发动了大规模袭击，导致全国大范围停电。基辅80万人的电力已经恢复，但能源形势依然严峻。
 - **Source**: Associated Press
 
-### 8. **Nineteen Missing After Explosion at Tennessee Munitions Plant** / **田纳西州军工厂爆炸，十九人失踪**
-- **Time**: 2025-10-10
-- **Content**: A large explosion occurred at a military munitions plant in Tennessee, leaving nineteen people missing and prompting a major emergency response. / 田纳西州一座军事弹药厂发生大规模爆炸，导致19人失踪，并引发了重大的紧急响应。
+### 5. **Twin Earthquakes Strike Off Southern Philippines, Killing at Least Seven** / **菲律宾南部海域发生双重地震，至少七人死亡**
+- **Time**: 2025-10-11
+- **Content**: Two powerful earthquakes have struck off the coast of the southern Philippines, killing at least seven people and causing significant damage to infrastructure. / 菲律宾南部海域发生两次强烈地震，造成至少七人死亡，并对基础设施造成严重破坏。
+- **Source**: BBC News
+
+### 6. **US Threatens New 100% Tariffs on Chinese Imports, China Retaliates** / **美国威胁对中国进口商品征收100%新关税，中国采取报复措施**
+- **Time**: 2025-10-11
+- **Content**: The US is threatening new 100% tariffs on Chinese imports, escalating trade tensions between the two economic giants. In response, China has imposed retaliatory port fees on US ships. / 美国威胁对中国进口商品加征100%的新关税，加剧了两大经济体之间的贸易紧张关系。作为回应，中国已对美国船只征收报复性港口费。
+- **Source**: Bloomberg
+
+### 7. **Peruvian Lawmakers Vote to Oust President Dina Boluarte Amid Crime Crisis** / **秘鲁因犯罪危机投票罢免总统迪娜·博卢阿尔特**
+- **Time**: 2025-10-11
+- **Content**: Lawmakers in Peru have voted to oust President Dina Boluarte over her handling of a severe crime crisis in the country. The political turmoil adds to the instability Peru has faced in recent years. / 秘鲁立法者投票决定罢免总统迪娜·博卢阿尔特，原因是对该国严重的犯罪危机处理不当。此次政治动荡加剧了秘鲁近年来的不稳定局势。
 - **Source**: The Guardian
 
-### 9. **Hamas Praises Trump for Ceasefire Deal** / **哈马斯就停火协议赞扬特朗普**
-- **Time**: 2025-10-10
-- **Content**: A senior Hamas official has publicly thanked Donald Trump for his role in the recent ceasefire deal but stated that former UK Prime Minister Tony Blair is not welcome in a post-war Gaza role. / 一名哈马斯高级官员公开感谢唐纳德·特朗普在最近的停火协议中扮演的角色，但表示不欢迎英国前首相托尼·布莱尔在战后加沙担任任何角色。
+### 8. **Severe Flooding in Mexico Leaves at Least 23 Dead** / **墨西哥严重洪灾已致至少23人死亡**
+- **Time**: 2025-10-11
+- **Content**: Severe flooding in central and southern Mexico has resulted in the deaths of at least 23 people, with many more missing. Heavy rains have caused rivers to overflow and triggered landslides. / 墨西哥中部和南部的严重洪灾已导致至少23人死亡，另有多人失踪。暴雨导致河流泛滥并引发山体滑坡。
+- **Source**: CNN
+
+### 9. **Former Lostprophets Singer Ian Watkins Dies in Prison** / **前“迷失先知”乐队主唱伊恩·沃特金斯在狱中去世**
+- **Time**: 2025-10-11
+- **Content**: Ian Watkins, the disgraced former singer of the rock band Lostprophets, has died after being attacked in prison. He was serving a lengthy sentence for a string of child sex offenses. / 摇滚乐队“迷失先知”声名狼藉的前主唱伊恩·沃特金斯在狱中遇袭后死亡。他因一系列儿童性犯罪而被判长期徒刑。
 - **Source**: Sky News
 
-### 10. **Nobel Peace Prize Officials Investigate Betting Surge** / **诺贝尔和平奖官员调查投注激增事件**
-- **Time**: 2025-10-10
-- **Content**: Officials responsible for the Nobel Peace Prize are investigating an unusual surge in bets placed on the winner, María Corina Machado, just before the official announcement, raising concerns about a potential leak. / 诺贝尔和平奖的相关官员正在调查在正式宣布前，针对获奖者玛丽亚·科里纳·马查多的投注异常激增的事件，引发了对可能存在信息泄露的担忧。
-- **Source**: The Guardian
+### 10. **North Korea Displays New Missile at Military Parade** / **朝鲜在阅兵式上展示新型导弹**
+- **Time**: 2025-10-11
+- **Content**: North Korea has unveiled what appears to be a new type of missile during a military parade marking the anniversary of the ruling party. The display is being closely watched by international observers. / 在纪念执政党成立周年的阅兵式上，朝鲜展示了一种似乎是新型的导弹。国际观察员正在密切关注此次展示。
+- **Source**: Associated Press
 
 ---
 

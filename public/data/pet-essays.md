@@ -1,25 +1,25 @@
 # 应用文
 
 ## An email to a friend recommending a new restaurant you tried
-- 给朋友写一封邮件，推荐你尝试过的一家新餐厅
+- 给朋友写一封邮件，推荐一家你新尝试的餐厅
 
 **正文**：
 
 Hi Alex,
 
-Hope you're doing well. I'm writing to tell you about an amazing new Italian restaurant I tried last night called "The Olive Tree." You would absolutely love it!
+How are you? I'm writing to tell you about an amazing new Italian restaurant I tried last weekend called "The Olive Grove." It just opened downtown, and I think you'd really love it.
 
-The restaurant has a really cozy atmosphere, and the staff are incredibly friendly. I ordered the seafood pasta, and it was the best I've ever had. The prices were quite reasonable too. I know how much you enjoy Italian food, so I thought of you immediately.
+The atmosphere was so cozy and welcoming. I ordered the seafood pasta, and it was absolutely delicious – the best I've had in ages! The prices were quite reasonable, too. They also have a great selection of vegetarian pizzas, which I know you enjoy.
 
-We should definitely go together next week. Let me know if you're free.
+We should definitely go together sometime soon. Let me know when you're free next week!
 
 Best,
 Chris
 
 - 嗨，亚历克斯，
-- 希望你一切都好。我写信是想告诉你，我昨晚去了一家超棒的意大利新餐厅，叫做“橄榄树”。你绝对会喜欢的！
-- 那家餐厅的气氛非常舒适，员工也极其友好。我点了海鲜意面，那是我吃过的最棒的。价格也很合理。我知道你很喜欢意大利菜，所以立刻就想到了你。
-- 我们下周一定要一起去。如果你有空的话，告诉我。
+- 你好吗？我写信是想告诉你，上周末我尝试了一家超棒的新意大利餐厅，叫做“橄榄树林”。它刚在市中心开业，我觉得你一定会非常喜欢。
+- 那里的氛围非常舒适和热情。我点了海鲜意面，味道简直太美味了——是我近年来吃过最棒的！价格也相当合理。而且，他们还有很多素食披萨可供选择，我知道你喜欢。
+- 我们近期一定要找个时间一起去。告诉我你下周什么时候有空！
 - 祝好，
 - 克里斯
 
@@ -27,14 +27,17 @@ Chris
 
 # 记叙文/短文
 
-## Write a story beginning: The phone rang at midnight and changed everything.
-- 写一个以下列句子开头的故事：午夜时分，电话铃响了，一切都改变了。
+## An article reviewing a movie that all teenagers should watch
+- 一篇影评，推荐一部所有青少年都该看的电影
 
 **正文**：
 
-The phone rang at midnight and changed everything. I was half asleep, but the urgent sound made me jump out of bed. It was my aunt, her voice trembling. "Your grandfather left you something," she said. "A small cottage by the sea. The keys are with me."
+**A Must-See Film: "The Way Home"**
 
-The next day, I drove for hours to the coast. The cottage was old but charming, filled with maps and books about the ocean. On a small desk, I found a letter from him. It spoke of a hidden family treasure and a final adventure he had planned for me.
+If you are looking for a movie that is both entertaining and meaningful, you must watch "The Way Home." This film tells the story of a young city boy who has to spend the summer with his grandmother in the countryside. At first, he is bored and unhappy, but he slowly learns to appreciate the simple joys of life and the deep love of his family.
 
-- 午夜时分，电话铃响了，一切都改变了。我本已半梦半醒，但那急促的铃声让我从床上一跃而起。是我姑妈打来的，她的声音在颤抖。“你爷爷给你留了样东西，”她说，“海边的一座小木屋。钥匙在我这里。”
-- 第二天，我开了几个小时的车来到海边。那座木屋虽旧但很迷人，里面堆满了地图和关于海洋的书籍。在一张小书桌上，我找到了他留下的一封信。信中提到了一个隐藏的家族宝藏，以及他为我计划的最后一次冒险。
+The movie is beautifully filmed and the acting is brilliant. It teaches us an important lesson about patience, understanding, and the importance of family bonds. It’s a powerful reminder not to take our loved ones for granted. I believe every teenager should see it; it will definitely make you think.
+
+- **一部必看电影：《回家之路》**
+- 如果你正在寻找一部既有趣又有意义的电影，你一定要看《回家之路》。这部电影讲述了一个城市小男孩被迫在乡下和外婆共度暑假的故事。起初，他感到无聊和不快，但他慢慢学会了欣赏简单生活的乐趣和家庭的深厚关爱。
+- 这部电影的画面很美，演员的表演也很出色。它教会了我们关于耐心、理解以及家庭纽带重要性的重要一课。它有力地提醒我们，不要把我们所爱的人视为理所当然。我相信每个青少年都应该看看这部电影，它一定会引发你的思考。

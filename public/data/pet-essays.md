@@ -1,27 +1,24 @@
 # 应用文
 
-## An email to a friend recommending a new restaurant you tried
-- 给朋友写一封邮件，推荐一家你新尝试的餐厅
+## An email to a penfriend describing your typical school day
+- 给笔友写一封邮件，描述你平常在学校的一天
 
 **正文**：
 
 Hi Alex,
 
-How are you? I'm writing to tell you about an amazing new Italian restaurant I tried last weekend called "The Olive Grove." It just opened downtown, and I think you'd really love it.
+Thanks for your last email! You asked about my school day. Well, it's quite busy. My classes start at 8 a.m., so I usually get to school around 7:45. In the morning, we have subjects like Maths and Science, which are interesting but sometimes difficult.
 
-The atmosphere was so cozy and welcoming. I ordered the seafood pasta, and it was absolutely delicious – the best I've had in ages! The prices were quite reasonable, too. They also have a great selection of vegetarian pizzas, which I know you enjoy.
+We have a lunch break at noon. I eat with my friends in the canteen, and we chat about our day. In the afternoon, we have more creative classes, such as Art and Music, which I really enjoy. School finishes at 4 p.m., but I often stay for football practice. It's a long day, but I like it!
 
-We should definitely go together sometime soon. Let me know when you're free next week!
-
-Best,
-Chris
+Best wishes,
+Sam
 
 - 嗨，亚历克斯，
-- 你好吗？我写信是想告诉你，上周末我尝试了一家超棒的新意大利餐厅，叫做“橄榄树林”。它刚在市中心开业，我觉得你一定会非常喜欢。
-- 那里的氛围非常舒适和热情。我点了海鲜意面，味道简直太美味了——是我近年来吃过最棒的！价格也相当合理。而且，他们还有很多素食披萨可供选择，我知道你喜欢。
-- 我们近期一定要找个时间一起去。告诉我你下周什么时候有空！
-- 祝好，
-- 克里斯
+- 感谢你上次的邮件！你问我平常在学校是怎样度过的。嗯，日子相当忙碌。我的课早上8点开始，所以我通常7点45分左右到校。上午，我们有数学和科学这样的科目，这些课很有趣，但有时也挺难的。
+- 我们中午有午休时间。我和朋友们在食堂吃饭，聊聊我们一天的情况。下午，我们有更具创造性的课程，比如我非常喜欢的美术和音乐。学校下午4点放学，但我经常会留下来参加足球训练。这是漫长的一天，但我很喜欢！
+- 最好的祝愿，
+- 山姆
 
 ---
 
@@ -32,12 +29,12 @@ Chris
 
 **正文**：
 
-**A Must-See Film: "The Way Home"**
+**A Movie for Everyone: "Inside Out"**
 
-If you are looking for a movie that is both entertaining and meaningful, you must watch "The Way Home." This film tells the story of a young city boy who has to spend the summer with his grandmother in the countryside. At first, he is bored and unhappy, but he slowly learns to appreciate the simple joys of life and the deep love of his family.
+If you are looking for a fantastic movie, you must watch "Inside Out". This animated film is about a young girl named Riley and her emotions: Joy, Sadness, Anger, Fear, and Disgust. When Riley's family moves to a new city, her emotions get very confused and have to learn to work together.
 
-The movie is beautifully filmed and the acting is brilliant. It teaches us an important lesson about patience, understanding, and the importance of family bonds. It’s a powerful reminder not to take our loved ones for granted. I believe every teenager should see it; it will definitely make you think.
+I think all teenagers should see this film. It's not just funny and colourful, but it also teaches an important lesson about feelings. It shows that it's okay to be sad sometimes and that all our emotions are important. "Inside Out" helps you understand yourself better. Don't miss it!
 
-- **一部必看电影：《回家之路》**
-- 如果你正在寻找一部既有趣又有意义的电影，你一定要看《回家之路》。这部电影讲述了一个城市小男孩被迫在乡下和外婆共度暑假的故事。起初，他感到无聊和不快，但他慢慢学会了欣赏简单生活的乐趣和家庭的深厚关爱。
-- 这部电影的画面很美，演员的表演也很出色。它教会了我们关于耐心、理解以及家庭纽带重要性的重要一课。它有力地提醒我们，不要把我们所爱的人视为理所当然。我相信每个青少年都应该看看这部电影，它一定会引发你的思考。
+- **一部适合所有人的电影：《头脑特工队》**
+- 如果你正在寻找一部精彩的电影，你一定要看《头脑特工队》。这部动画电影讲述了一个名叫莱莉的小女孩和她的五种情绪：乐乐、忧忧、怒怒、怕怕和厌厌。当莱莉全家搬到一个新城市时，她的情绪们变得非常困惑，必须学会如何共同协作。
+- 我认为所有青少年都应该看这部电影。它不仅有趣、色彩鲜艳，还教会了我们关于情感的重要一课。它告诉我们，有时候感到悲伤是完全正常的，而且我们所有的情绪都至关重要。《头脑特工队》能帮助你更好地了解自己。千万不要错过！

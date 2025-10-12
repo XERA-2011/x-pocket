@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月11日
-**Update Time**: 22:17 UTC
+**Date**: 2025年10月12日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Israel-Hamas Ceasefire Holds, Aid Convoys Prepare to Enter Gaza** / **以色列与哈马斯停火协议生效，援助车队准备进入加沙**
-- **Time**: 2025-10-11
-- **Content**: A ceasefire between Israel and Hamas appears to be holding as international agencies prepare to deliver crucial humanitarian aid to the Gaza Strip. Tens of thousands of Palestinians are returning to their homes, many of which have been destroyed. / 以色列与哈马斯之间的停火协议似乎正在维持，国际机构正准备向加沙地带运送关键的人道主义援助。成千上万的巴勒斯坦人正在返回家园，其中许多房屋已被摧毁。
+### 1. **Gaza Ceasefire Holds Amid Hostage Release Preparations** / **加沙停火持续，人质释放准备工作进行中**
+- **Time**: 2025-10-12
+- **Content**: A fragile ceasefire between Israel and Hamas continues to hold as preparations are underway for the release of hostages and prisoners. International mediators are working to ensure the terms of the agreement are met by both sides. / 以色列与哈马斯之间的脆弱停火仍在持续，释放人质和囚犯的准备工作正在进行中。国际调解人正在努力确保双方遵守协议条款。
+- **Source**: Associated Press
+
+### 2. **Russia Launches Major Strikes on Ukraine's Energy Grid** / **俄罗斯对乌克兰能源网络发动大规模袭击**
+- **Time**: 2025-10-12
+- **Content**: Russia has launched a new wave of major strikes targeting Ukraine's energy infrastructure, causing significant power outages in several regions, including the capital, Kyiv. Ukrainian authorities are working to restore power and bolster air defenses. / 俄罗斯发动了新一轮大规模袭击，目标是乌克兰的能源基础设施，导致包括首都基辅在内的多个地区出现严重停电。乌克兰当局正在努力恢复电力并加强防空能力。
 - **Source**: Reuters
 
-### 2. **Dozens Killed in Attack on Displacement Camp in Sudan's Darfur Region** / **苏丹达尔富尔地区一流离失所者营地遭袭，数十人遇难**
-- **Time**: 2025-10-11
-- **Content**: A paramilitary attack on a displacement camp in El Fasher, North Darfur, has reportedly killed at least 60 people. The attack adds to the escalating violence and humanitarian crisis in the region. / 据报道，苏丹北达尔富尔州法希尔市一个流离失所者营地遭到准军事部队袭击，造成至少60人死亡。此次袭击加剧了该地区不断升级的暴力和人道主义危机。
-- **Source**: Al Jazeera
-
-### 3. **Venezuelan Opposition Leader María Corina Machado Wins Nobel Peace Prize** / **委内瑞拉反对派领袖玛丽亚·科里纳·马查多荣获诺贝尔和平奖**
-- **Time**: 2025-10-11
-- **Content**: Venezuelan opposition leader María Corina Machado has been awarded the Nobel Peace Prize for her long and non-violent struggle for democracy and human rights in Venezuela. / 委内瑞拉反对派领袖玛丽亚·科里纳·马查多因其在委内瑞拉为民主和人权进行的长期非暴力斗争而被授予诺贝尔和平奖。
-- **Source**: The Nobel Prize
-
-### 4. **Major Russian Strikes Target Ukraine's Energy Grid, Causing Widespread Outages** / **俄罗斯大规模袭击乌克兰能源网络，导致大范围停电**
-- **Time**: 2025-10-11
-- **Content**: Russia has launched major strikes on Ukraine's energy infrastructure, causing widespread power outages across the country. Power has been restored to 800,000 in Kyiv, but the energy situation remains critical. / 俄罗斯对乌克兰的能源基础设施发动了大规模袭击，导致全国大范围停电。基辅80万人的电力已经恢复，但能源形势依然严峻。
-- **Source**: Associated Press
-
-### 5. **Twin Earthquakes Strike Off Southern Philippines, Killing at Least Seven** / **菲律宾南部海域发生双重地震，至少七人死亡**
-- **Time**: 2025-10-11
-- **Content**: Two powerful earthquakes have struck off the coast of the southern Philippines, killing at least seven people and causing significant damage to infrastructure. / 菲律宾南部海域发生两次强烈地震，造成至少七人死亡，并对基础设施造成严重破坏。
-- **Source**: BBC News
-
-### 6. **US Threatens New 100% Tariffs on Chinese Imports, China Retaliates** / **美国威胁对中国进口商品征收100%新关税，中国采取报复措施**
-- **Time**: 2025-10-11
-- **Content**: The US is threatening new 100% tariffs on Chinese imports, escalating trade tensions between the two economic giants. In response, China has imposed retaliatory port fees on US ships. / 美国威胁对中国进口商品加征100%的新关税，加剧了两大经济体之间的贸易紧张关系。作为回应，中国已对美国船只征收报复性港口费。
+### 3. **Trump Threatens New 100% Tariffs on China** / **特朗普威胁对中国征收新的100%关税**
+- **Time**: 2025-10-12
+- **Content**: Former U.S. President Donald Trump has threatened to impose a new round of 100% tariffs on Chinese imports if re-elected, escalating trade tensions. The statement has caused concern among businesses and economists about a potential trade war. / 美国前总统唐纳德·特朗普威胁称，如果再次当选，将对中国进口商品征收新一轮100%的关税，从而加剧贸易紧张局势。该言论引发了商界和经济学家对可能爆发的贸易战的担忧。
 - **Source**: Bloomberg
 
-### 7. **Peruvian Lawmakers Vote to Oust President Dina Boluarte Amid Crime Crisis** / **秘鲁因犯罪危机投票罢免总统迪娜·博卢阿尔特**
-- **Time**: 2025-10-11
-- **Content**: Lawmakers in Peru have voted to oust President Dina Boluarte over her handling of a severe crime crisis in the country. The political turmoil adds to the instability Peru has faced in recent years. / 秘鲁立法者投票决定罢免总统迪娜·博卢阿尔特，原因是对该国严重的犯罪危机处理不当。此次政治动荡加剧了秘鲁近年来的不稳定局势。
+### 4. **Dozens Killed in Sudanese Paramilitary Attack in Darfur** / **苏丹准军事部队在达尔富尔的袭击导致数十人死亡**
+- **Time**: 2025-10-12
+- **Content**: An attack by Sudan's paramilitary Rapid Support Forces (RSF) on a shelter for displaced families in Darfur has resulted in the deaths of at least 53 people, including women and children, according to local officials and aid groups. / 据当地官员和援助组织称，苏丹准军事部队“快速支援部队”（RSF）对达尔富尔一个流离失所家庭的避难所发动袭击，导致至少53人死亡，其中包括妇女和儿童。
+- **Source**: Al Jazeera
+
+### 5. **Series of Earthquakes Strike Off Southern Philippines** / **菲律宾南部海域发生一系列地震**
+- **Time**: 2025-10-12
+- **Content**: A series of strong earthquakes struck off the coast of the southern Philippines, causing buildings to shake and triggering panic among residents. At least seven fatalities have been reported, and authorities are assessing the full extent of the damage. / 菲律宾南部海岸发生一系列强烈地震，导致建筑物摇晃，居民陷入恐慌。据报道，目前至少有7人死亡，当局正在评估全部损失情况。
+- **Source**: BBC News
+
+### 6. **France's Re-appointed PM Names New Cabinet to Quell Turmoil** / **法国再次任命的总理提名新内阁以平息动荡**
+- **Time**: 2025-10-12
+- **Content**: In an effort to stabilize the political situation, France's newly re-appointed prime minister has announced a new cabinet. The move aims to build a more unified government to address ongoing political turmoil and policy challenges. / 为稳定政治局势，法国新获任命的总理宣布了新内阁。此举旨在建立一个更加统一的政府，以应对持续的政治动荡和政策挑战。
+- **Source**: France 24
+
+### 7. **Afghanistan Claims Killing Dozens of Pakistani Soldiers in Border Clashes** / **阿富汗声称在边境冲突中击毙数十名巴基斯坦士兵**
+- **Time**: 2025-10-12
+- **Content**: Tensions have flared at the Afghanistan-Pakistan border, with Afghan authorities claiming to have killed 58 Pakistani soldiers in overnight clashes. The incident has led to the closure of the border crossing and heightened military alerts on both sides. / 阿富汗与巴基斯坦边境紧张局势加剧，阿富汗当局声称在夜间冲突中打死58名巴基斯坦士兵。该事件已导致边境口岸关闭，双方均已加强军事戒备。
 - **Source**: The Guardian
 
-### 8. **Severe Flooding in Mexico Leaves at Least 23 Dead** / **墨西哥严重洪灾已致至少23人死亡**
-- **Time**: 2025-10-11
-- **Content**: Severe flooding in central and southern Mexico has resulted in the deaths of at least 23 people, with many more missing. Heavy rains have caused rivers to overflow and triggered landslides. / 墨西哥中部和南部的严重洪灾已导致至少23人死亡，另有多人失踪。暴雨导致河流泛滥并引发山体滑坡。
+### 8. **Chinese Coast Guard Rams Philippine Vessel in South China Sea** / **中国海警在南中国海撞击菲律宾船只**
+- **Time**: 2025-10-12
+- **Content**: The Chinese coast guard reportedly rammed and damaged a Philippine vessel near a disputed island in the South China Sea. The Philippines has condemned the action as a dangerous and provocative maneuver, further escalating regional tensions. / 据报道，中国海警在南中国海一争议岛屿附近撞击并损坏了一艘菲律宾船只。菲律宾谴责此举是危险的挑衅行为，进一步加剧了地区紧张局势。
 - **Source**: CNN
 
-### 9. **Former Lostprophets Singer Ian Watkins Dies in Prison** / **前“迷失先知”乐队主唱伊恩·沃特金斯在狱中去世**
-- **Time**: 2025-10-11
-- **Content**: Ian Watkins, the disgraced former singer of the rock band Lostprophets, has died after being attacked in prison. He was serving a lengthy sentence for a string of child sex offenses. / 摇滚乐队“迷失先知”声名狼藉的前主唱伊恩·沃特金斯在狱中遇袭后死亡。他因一系列儿童性犯罪而被判长期徒刑。
-- **Source**: Sky News
+### 9. **Nobel Peace Prize Awarded to Venezuelan Opposition Leader María Corina Machado** / **诺贝尔和平奖授予委内瑞拉反对派领袖玛丽亚·科里纳·马查多**
+- **Time**: 2025-10-12
+- **Content**: The Nobel Peace Prize has been awarded to María Corina Machado for her work in unifying Venezuela's opposition against the ruling government and advocating for democratic change through non-violent means. / 诺贝尔和平奖被授予玛丽亚·科里纳·马查多，以表彰她在团结委内瑞拉反对派、对抗执政政府以及通过非暴力手段倡导民主变革方面所做的工作。
+- **Source**: The Nobel Prize
 
-### 10. **North Korea Displays New Missile at Military Parade** / **朝鲜在阅兵式上展示新型导弹**
-- **Time**: 2025-10-11
-- **Content**: North Korea has unveiled what appears to be a new type of missile during a military parade marking the anniversary of the ruling party. The display is being closely watched by international observers. / 在纪念执政党成立周年的阅兵式上，朝鲜展示了一种似乎是新型的导弹。国际观察员正在密切关注此次展示。
-- **Source**: Associated Press
+### 10. **Qantas Data Leak Affects Millions of Customers** / **澳洲航空数据泄露影响数百万客户**
+- **Time**: 2025-10-12
+- **Content**: Australian airline Qantas has suffered a major data breach, with hackers leaking the personal records of 5 million customers after a ransom deadline passed. The airline is now working with cybersecurity authorities to investigate the incident. / 澳大利亚航空公司澳洲航空遭遇严重数据泄露，在赎金支付期限过后，黑客泄露了500万客户的个人记录。该航空公司目前正与网络安全部门合作调查此事件。
+- **Source**: The Sydney Morning Herald
 
 ---
 

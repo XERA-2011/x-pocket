@@ -1,40 +1,40 @@
 # 应用文
 
-## An email to a penfriend describing your typical school day
-- 给笔友写一封邮件，描述你平常在学校的一天
+## An email giving directions to your new house
+- 一封告知新家路线的邮件
 
 **正文**：
 
 Hi Alex,
 
-Thanks for your last email! You asked about my school day. Well, it's quite busy. My classes start at 8 a.m., so I usually get to school around 7:45. In the morning, we have subjects like Maths and Science, which are interesting but sometimes difficult.
+I'm so excited for you to visit my new house this Saturday! Here are the directions.
 
-We have a lunch break at noon. I eat with my friends in the canteen, and we chat about our day. In the afternoon, we have more creative classes, such as Art and Music, which I really enjoy. School finishes at 4 p.m., but I often stay for football practice. It's a long day, but I like it!
+Take the number 15 bus from the city center and get off at the Oak Street stop. Walk straight ahead for about two minutes until you see a large supermarket. My road, Pine Close, is the first turning on the left after the supermarket. Walk down Pine Close, and my house is number 22. It's the one with a bright blue door, so you can't miss it!
 
-Best wishes,
-Sam
+Let me know if you have any trouble finding it.
+
+Best,
+Chris
 
 - 嗨，亚历克斯，
-- 感谢你上次的邮件！你问我平常在学校是怎样度过的。嗯，日子相当忙碌。我的课早上8点开始，所以我通常7点45分左右到校。上午，我们有数学和科学这样的科目，这些课很有趣，但有时也挺难的。
-- 我们中午有午休时间。我和朋友们在食堂吃饭，聊聊我们一天的情况。下午，我们有更具创造性的课程，比如我非常喜欢的美术和音乐。学校下午4点放学，但我经常会留下来参加足球训练。这是漫长的一天，但我很喜欢！
-- 最好的祝愿，
-- 山姆
+- 很高兴你这周六能来我的新家！这是路线。
+- 从市中心乘坐15路公交车，在橡树街站下车。然后一直往前走大约两分钟，直到你看到一个大型超市。我的路，松树巷，是超市后的第一个左转弯。沿着松树巷走，我的房子是22号。就是那个有着亮蓝色门的房子，你不会错过的！
+- 如果你找不到，随时告诉我。
+- 祝好，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## An article reviewing a movie that all teenagers should watch
-- 一篇影评，推荐一部所有青少年都该看的电影
+## An article about a traditional celebration in your country
+- 一篇关于你国家传统节日的文章
 
 **正文**：
 
-**A Movie for Everyone: "Inside Out"**
+The Spring Festival is the most important traditional celebration in my country. It usually lasts for about fifteen days and marks the beginning of the lunar new year.
 
-If you are looking for a fantastic movie, you must watch "Inside Out". This animated film is about a young girl named Riley and her emotions: Joy, Sadness, Anger, Fear, and Disgust. When Riley's family moves to a new city, her emotions get very confused and have to learn to work together.
+Before the festival, families clean their homes thoroughly to sweep away any bad luck. On New Year's Eve, everyone gathers for a big family dinner, which is full of delicious, symbolic foods like dumplings and fish. People wear new clothes, often in red, as it represents happiness and good fortune. Children receive red envelopes with money inside for good luck. It's a wonderful time filled with joy and family reunion.
 
-I think all teenagers should see this film. It's not just funny and colourful, but it also teaches an important lesson about feelings. It shows that it's okay to be sad sometimes and that all our emotions are important. "Inside Out" helps you understand yourself better. Don't miss it!
-
-- **一部适合所有人的电影：《头脑特工队》**
-- 如果你正在寻找一部精彩的电影，你一定要看《头脑特工队》。这部动画电影讲述了一个名叫莱莉的小女孩和她的五种情绪：乐乐、忧忧、怒怒、怕怕和厌厌。当莱莉全家搬到一个新城市时，她的情绪们变得非常困惑，必须学会如何共同协作。
-- 我认为所有青少年都应该看这部电影。它不仅有趣、色彩鲜艳，还教会了我们关于情感的重要一课。它告诉我们，有时候感到悲伤是完全正常的，而且我们所有的情绪都至关重要。《头脑特工队》能帮助你更好地了解自己。千万不要错过！
+- 春节是我国最重要的传统节日。它通常持续约十五天，标志着农历新年的开始。
+- 节前，家家户户都会彻底打扫卫生，以扫除任何坏运气。除夕夜，大家会团聚在一起享用丰盛的年夜饭，餐桌上摆满了饺子和鱼等美味又富有象征意义的食物。人们会穿上新衣，通常是红色的，因为它代表着幸福和好运。孩子们会收到装有压岁钱的红包，以求好运。这是一个充满欢乐和家庭团聚的美好时光。

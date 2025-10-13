@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月12日
-**Update Time**: 22:18 UTC
+**Date**: 2025年10月13日
+**Update Time**: 22:19 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Gaza Ceasefire Holds Amid Hostage Release Preparations** / **加沙停火持续，人质释放准备工作进行中**
-- **Time**: 2025-10-12
-- **Content**: A fragile ceasefire between Israel and Hamas continues to hold as preparations are underway for the release of hostages and prisoners. International mediators are working to ensure the terms of the agreement are met by both sides. / 以色列与哈马斯之间的脆弱停火仍在持续，释放人质和囚犯的准备工作正在进行中。国际调解人正在努力确保双方遵守协议条款。
-- **Source**: Associated Press
-
-### 2. **Russia Launches Major Strikes on Ukraine's Energy Grid** / **俄罗斯对乌克兰能源网络发动大规模袭击**
-- **Time**: 2025-10-12
-- **Content**: Russia has launched a new wave of major strikes targeting Ukraine's energy infrastructure, causing significant power outages in several regions, including the capital, Kyiv. Ukrainian authorities are working to restore power and bolster air defenses. / 俄罗斯发动了新一轮大规模袭击，目标是乌克兰的能源基础设施，导致包括首都基辅在内的多个地区出现严重停电。乌克兰当局正在努力恢复电力并加强防空能力。
-- **Source**: Reuters
-
-### 3. **Trump Threatens New 100% Tariffs on China** / **特朗普威胁对中国征收新的100%关税**
-- **Time**: 2025-10-12
-- **Content**: Former U.S. President Donald Trump has threatened to impose a new round of 100% tariffs on Chinese imports if re-elected, escalating trade tensions. The statement has caused concern among businesses and economists about a potential trade war. / 美国前总统唐纳德·特朗普威胁称，如果再次当选，将对中国进口商品征收新一轮100%的关税，从而加剧贸易紧张局势。该言论引发了商界和经济学家对可能爆发的贸易战的担忧。
-- **Source**: Bloomberg
-
-### 4. **Dozens Killed in Sudanese Paramilitary Attack in Darfur** / **苏丹准军事部队在达尔富尔的袭击导致数十人死亡**
-- **Time**: 2025-10-12
-- **Content**: An attack by Sudan's paramilitary Rapid Support Forces (RSF) on a shelter for displaced families in Darfur has resulted in the deaths of at least 53 people, including women and children, according to local officials and aid groups. / 据当地官员和援助组织称，苏丹准军事部队“快速支援部队”（RSF）对达尔富尔一个流离失所家庭的避难所发动袭击，导致至少53人死亡，其中包括妇女和儿童。
-- **Source**: Al Jazeera
-
-### 5. **Series of Earthquakes Strike Off Southern Philippines** / **菲律宾南部海域发生一系列地震**
-- **Time**: 2025-10-12
-- **Content**: A series of strong earthquakes struck off the coast of the southern Philippines, causing buildings to shake and triggering panic among residents. At least seven fatalities have been reported, and authorities are assessing the full extent of the damage. / 菲律宾南部海岸发生一系列强烈地震，导致建筑物摇晃，居民陷入恐慌。据报道，目前至少有7人死亡，当局正在评估全部损失情况。
-- **Source**: BBC News
-
-### 6. **France's Re-appointed PM Names New Cabinet to Quell Turmoil** / **法国再次任命的总理提名新内阁以平息动荡**
-- **Time**: 2025-10-12
-- **Content**: In an effort to stabilize the political situation, France's newly re-appointed prime minister has announced a new cabinet. The move aims to build a more unified government to address ongoing political turmoil and policy challenges. / 为稳定政治局势，法国新获任命的总理宣布了新内阁。此举旨在建立一个更加统一的政府，以应对持续的政治动荡和政策挑战。
-- **Source**: France 24
-
-### 7. **Afghanistan Claims Killing Dozens of Pakistani Soldiers in Border Clashes** / **阿富汗声称在边境冲突中击毙数十名巴基斯坦士兵**
-- **Time**: 2025-10-12
-- **Content**: Tensions have flared at the Afghanistan-Pakistan border, with Afghan authorities claiming to have killed 58 Pakistani soldiers in overnight clashes. The incident has led to the closure of the border crossing and heightened military alerts on both sides. / 阿富汗与巴基斯坦边境紧张局势加剧，阿富汗当局声称在夜间冲突中打死58名巴基斯坦士兵。该事件已导致边境口岸关闭，双方均已加强军事戒备。
+### 1. **Gaza Ceasefire and Hostage Release Following Peace Deal** / **加沙停火协议后人质获释**
+- **Time**: 2025-10-13
+- **Content**: A major breakthrough in the Gaza conflict as a peace deal brokered by former US President Trump leads to the release of all 20 remaining living Israeli hostages by Hamas. In return, hundreds of Palestinian detainees and prisoners were also released. / 在美国前总统特朗普的斡旋下，加沙冲突取得重大突破，哈马斯释放了所有20名在世的以色列人质。作为交换，数百名巴勒斯坦被扣押人员和囚犯也获释。
 - **Source**: The Guardian
 
-### 8. **Chinese Coast Guard Rams Philippine Vessel in South China Sea** / **中国海警在南中国海撞击菲律宾船只**
-- **Time**: 2025-10-12
-- **Content**: The Chinese coast guard reportedly rammed and damaged a Philippine vessel near a disputed island in the South China Sea. The Philippines has condemned the action as a dangerous and provocative maneuver, further escalating regional tensions. / 据报道，中国海警在南中国海一争议岛屿附近撞击并损坏了一艘菲律宾船只。菲律宾谴责此举是危险的挑衅行为，进一步加剧了地区紧张局势。
-- **Source**: CNN
+### 2. **Trump Aims for Peace with Iran After Gaza Deal** / **特朗普在加沙协议后致力于与伊朗实现和平**
+- **Time**: 2025-10-13
+- **Content**: Following the successful negotiation of the Gaza ceasefire, former President Trump has stated his next goal is to achieve a peace agreement with Iran, signaling a potential major shift in Middle East diplomacy. / 在成功促成加沙停火后，美国前总统特朗普表示，他的下一个目标是与伊朗达成和平协议，这预示着中东外交格局可能发生重大转变。
+- **Source**: The Guardian
 
-### 9. **Nobel Peace Prize Awarded to Venezuelan Opposition Leader María Corina Machado** / **诺贝尔和平奖授予委内瑞拉反对派领袖玛丽亚·科里纳·马查多**
-- **Time**: 2025-10-12
-- **Content**: The Nobel Peace Prize has been awarded to María Corina Machado for her work in unifying Venezuela's opposition against the ruling government and advocating for democratic change through non-violent means. / 诺贝尔和平奖被授予玛丽亚·科里纳·马查多，以表彰她在团结委内瑞拉反对派、对抗执政政府以及通过非暴力手段倡导民主变革方面所做的工作。
-- **Source**: The Nobel Prize
+### 3. **Madagascar President Alleges Military Power Grab** / **马达加斯加总统指控军方夺权**
+- **Time**: 2025-10-13
+- **Content**: Madagascar is facing a political crisis as President Andry Rajoelina claims the military is attempting an "illegal power grab." The situation remains tense as elite soldiers have reportedly joined protests against him. / 马达加斯加正面临政治危机，总统安德里·拉乔利纳声称军方正试图“非法夺权”。据报道，精锐士兵已加入反对他的抗议活动，局势依然紧张。
+- **Source**: The Guardian
 
-### 10. **Qantas Data Leak Affects Millions of Customers** / **澳洲航空数据泄露影响数百万客户**
-- **Time**: 2025-10-12
-- **Content**: Australian airline Qantas has suffered a major data breach, with hackers leaking the personal records of 5 million customers after a ransom deadline passed. The airline is now working with cybersecurity authorities to investigate the incident. / 澳大利亚航空公司澳洲航空遭遇严重数据泄露，在赎金支付期限过后，黑客泄露了500万客户的个人记录。该航空公司目前正与网络安全部门合作调查此事件。
-- **Source**: The Sydney Morning Herald
+### 4. **Devastating Floods in Mexico Leave Dozens Dead and Missing** / **墨西哥毁灭性洪水导致数十人死亡和失踪**
+- **Time**: 2025-10-13
+- **Content**: Severe flooding across Mexico has resulted in a tragic loss of life, with at least 64 people confirmed dead and another 65 reported missing as rescue operations continue. / 墨西哥多地遭遇严重洪水，造成惨重的人员伤亡。目前已确认至少64人死亡，另有65人失踪，救援行动仍在继续。
+- **Source**: The Guardian
+
+### 5. **Prominent Cuban Dissident José Daniel Ferrer Freed into Exile** / **古巴著名异见人士何塞·丹尼尔·费雷尔获释流亡**
+- **Time**: 2025-10-13
+- **Content**: After years of imprisonment, Cuban dissident leader José Daniel Ferrer has been released by the government and has gone into exile in the United States, marking a significant moment for the Cuban opposition. / 经过多年监禁，古巴异见领袖何塞·丹尼尔·费雷尔被政府释放，并流亡至美国。这对古巴反对派来说是一个重要时刻。
+- **Source**: AP News
+
+### 6. **Heavy Clashes Erupt on Pakistan-Afghanistan Border** / **巴基斯坦与阿富汗边境爆发激烈冲突**
+- **Time**: 2025-10-13
+- **Content**: Tensions have escalated at the border between Pakistan and Afghanistan, leading to heavy clashes between the two nations' forces. The cause of the confrontation is currently under investigation. / 巴基斯坦和阿富汗边境紧张局势升级，两国军队爆发激烈冲突。冲突原因目前正在调查中。
+- **Source**: The Guardian
+
+### 7. **New Zealand Faces "Climate Denial" Accusations Over Methane Cuts** / **新西兰因削减甲烷排放目标而面临“气候否认”指控**
+- **Time**: 2025-10-13
+- **Content**: New Zealand's government is under fire from environmental groups and international critics, who accuse it of "full-blown climate denial" after announcing significant cuts to its methane reduction targets. / 新西兰政府因宣布大幅削减甲烷减排目标而受到环保组织和国际评论家的抨击，被指责为“彻头彻尾的气候否认论”。
+- **Source**: The Guardian
+
+### 8. **Japan Sees Record Births to Foreign Parents Amid Migration Debate** / **日本移民辩论中，外国父母生育率创历史新高**
+- **Time**: 2025-10-13
+- **Content**: As Japan grapples with a declining birth rate and a heated political debate over immigration, new data shows a record number of babies were born to foreign parents, highlighting the changing demographics of the nation. / 在日本努力应对出生率下降和激烈的移民辩论之际，新数据显示，外国父母生育的婴儿数量创下历史新高，凸显了该国人口结构的变化。
+- **Source**: The Guardian
+
+### 9. **Nobel Economics Prize Awarded for Work on Tech-Driven Growth** / **诺贝尔经济学奖授予技术驱动增长研究**
+- **Time**: 2025-10-13
+- **Content**: A trio of economists has been awarded the Nobel Memorial Prize in Economic Sciences for their groundbreaking research on how technological innovation drives long-term economic growth and prosperity. / 三位经济学家因其在技术创新如何推动长期经济增长和繁荣方面的开创性研究而被授予诺贝尔经济学纪念奖。
+- **Source**: The Guardian
+
+### 10. **Former French President Sarkozy Ordered to Jail** / **法国前总统萨科齐被判入狱**
+- **Time**: 2025-10-13
+- **Content**: A court has ordered former French President Nicolas Sarkozy to be jailed next week in relation to a campaign finance scandal, a landmark decision in French politics. / 法院已下令法国前总统尼古拉·萨科齐于下周就竞选财务丑闻入狱服刑，这是法国政坛一项具有里程碑意义的裁决。
+- **Source**: The Guardian
 
 ---
 

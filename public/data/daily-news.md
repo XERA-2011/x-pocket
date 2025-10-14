@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月13日
+**Date**: 2025年10月14日
 **Update Time**: 22:19 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Gaza Ceasefire and Hostage Release Following Peace Deal** / **加沙停火协议后人质获释**
-- **Time**: 2025-10-13
-- **Content**: A major breakthrough in the Gaza conflict as a peace deal brokered by former US President Trump leads to the release of all 20 remaining living Israeli hostages by Hamas. In return, hundreds of Palestinian detainees and prisoners were also released. / 在美国前总统特朗普的斡旋下，加沙冲突取得重大突破，哈马斯释放了所有20名在世的以色列人质。作为交换，数百名巴勒斯坦被扣押人员和囚犯也获释。
-- **Source**: The Guardian
-
-### 2. **Trump Aims for Peace with Iran After Gaza Deal** / **特朗普在加沙协议后致力于与伊朗实现和平**
-- **Time**: 2025-10-13
-- **Content**: Following the successful negotiation of the Gaza ceasefire, former President Trump has stated his next goal is to achieve a peace agreement with Iran, signaling a potential major shift in Middle East diplomacy. / 在成功促成加沙停火后，美国前总统特朗普表示，他的下一个目标是与伊朗达成和平协议，这预示着中东外交格局可能发生重大转变。
-- **Source**: The Guardian
-
-### 3. **Madagascar President Alleges Military Power Grab** / **马达加斯加总统指控军方夺权**
-- **Time**: 2025-10-13
-- **Content**: Madagascar is facing a political crisis as President Andry Rajoelina claims the military is attempting an "illegal power grab." The situation remains tense as elite soldiers have reportedly joined protests against him. / 马达加斯加正面临政治危机，总统安德里·拉乔利纳声称军方正试图“非法夺权”。据报道，精锐士兵已加入反对他的抗议活动，局势依然紧张。
-- **Source**: The Guardian
-
-### 4. **Devastating Floods in Mexico Leave Dozens Dead and Missing** / **墨西哥毁灭性洪水导致数十人死亡和失踪**
-- **Time**: 2025-10-13
-- **Content**: Severe flooding across Mexico has resulted in a tragic loss of life, with at least 64 people confirmed dead and another 65 reported missing as rescue operations continue. / 墨西哥多地遭遇严重洪水，造成惨重的人员伤亡。目前已确认至少64人死亡，另有65人失踪，救援行动仍在继续。
-- **Source**: The Guardian
-
-### 5. **Prominent Cuban Dissident José Daniel Ferrer Freed into Exile** / **古巴著名异见人士何塞·丹尼尔·费雷尔获释流亡**
-- **Time**: 2025-10-13
-- **Content**: After years of imprisonment, Cuban dissident leader José Daniel Ferrer has been released by the government and has gone into exile in the United States, marking a significant moment for the Cuban opposition. / 经过多年监禁，古巴异见领袖何塞·丹尼尔·费雷尔被政府释放，并流亡至美国。这对古巴反对派来说是一个重要时刻。
+### 1. **Madagascar's President Ousted in Military Coup** / **马达加斯加总统在军事政变中被推翻**
+- **Time**: 2025-10-14
+- **Content**: Following weeks of youth-led protests, the military in Madagascar has taken control of the country and ousted the president. The military has suspended all government institutions. / 在经历数周由青年主导的抗议活动后，马达加斯加军方已控制国家并推翻了总统。军方已暂停所有政府机构的运作。
 - **Source**: AP News
 
-### 6. **Heavy Clashes Erupt on Pakistan-Afghanistan Border** / **巴基斯坦与阿富汗边境爆发激烈冲突**
-- **Time**: 2025-10-13
-- **Content**: Tensions have escalated at the border between Pakistan and Afghanistan, leading to heavy clashes between the two nations' forces. The cause of the confrontation is currently under investigation. / 巴基斯坦和阿富汗边境紧张局势升级，两国军队爆发激烈冲突。冲突原因目前正在调查中。
+### 2. **Fragile Gaza Ceasefire Tested as Israel Imposes New Aid Restrictions** / **以色列实施新援助限制，加沙脆弱停火面临考验**
+- **Time**: 2025-10-14
+- **Content**: The ceasefire in Gaza is under strain as Israel has reportedly imposed new restrictions on humanitarian aid entering the territory. Clashes have been reported, and Hamas is reasserting control, further complicating the situation. / 由于据报道以色列对进入该地区的人道主义援助实施了新的限制，加沙的停火协议正面临压力。据报道发生了冲突，哈马斯正在重新主张控制权，使局势进一步复杂化。
 - **Source**: The Guardian
 
-### 7. **New Zealand Faces "Climate Denial" Accusations Over Methane Cuts** / **新西兰因削减甲烷排放目标而面临“气候否认”指控**
-- **Time**: 2025-10-13
-- **Content**: New Zealand's government is under fire from environmental groups and international critics, who accuse it of "full-blown climate denial" after announcing significant cuts to its methane reduction targets. / 新西兰政府因宣布大幅削减甲烷减排目标而受到环保组织和国际评论家的抨击，被指责为“彻头彻尾的气候否认论”。
+### 3. **Earthquake Strikes Off Southern Philippines, Killing at Least Seven** / **菲律宾南部发生地震，至少七人死亡**
+- **Time**: 2025-10-14
+- **Content**: A powerful earthquake struck off the coast of the southern Philippines, causing buildings to shake and resulting in the deaths of at least seven people. / 菲律宾南部海岸发生强烈地震，导致建筑物摇晃，并造成至少七人死亡。
+- **Source**: AP News
+
+### 4. **Garment Factory Fire in Bangladesh Kills at Least 16** / **孟加拉国服装厂火灾，至少16人死亡**
+- **Time**: 2025-10-14
+- **Content**: A fire at a garment factory in Bangladesh has killed at least 16 people. The death toll is expected to rise as rescue operations continue. / 孟加拉国一家服装厂发生火灾，已造成至少16人死亡。预计随着救援行动的继续，死亡人数还会上升。
+- **Source**: Global News
+
+### 5. **Torrential Rains and Flooding in Mexico Leave at Least 64 Dead** / **墨西哥暴雨和洪水导致至少64人死亡**
+- **Time**: 2025-10-14
+- **Content**: Severe flooding and torrential rains in Mexico have resulted in at least 64 deaths, with another 65 people reported missing. / 墨西哥的严重洪水和暴雨已导致至少64人死亡，另有65人据报失踪。
+- **Source**: Global News
+
+### 6. **French Prime Minister Suspends Macron's Pension Plan** / **法国总理暂停马克龙的养老金计划**
+- **Time**: 2025-10-14
+- **Content**: Ahead of a no-confidence vote, the French Prime Minister has suspended President Macron's controversial pension reform plan. / 在不信任投票前，法国总理已暂停了马克龙总统备受争议的养老金改革计划。
 - **Source**: The Guardian
 
-### 8. **Japan Sees Record Births to Foreign Parents Amid Migration Debate** / **日本移民辩论中，外国父母生育率创历史新高**
-- **Time**: 2025-10-13
-- **Content**: As Japan grapples with a declining birth rate and a heated political debate over immigration, new data shows a record number of babies were born to foreign parents, highlighting the changing demographics of the nation. / 在日本努力应对出生率下降和激烈的移民辩论之际，新数据显示，外国父母生育的婴儿数量创下历史新高，凸显了该国人口结构的变化。
+### 7. **US Revokes Visas of 50 Mexican Officials in Cartel Crackdown** / **美国在打击贩毒集团行动中吊销50名墨西哥官员签证**
+- **Time**: 2025-10-14
+- **Content**: The United States has revoked the visas of at least 50 Mexican officials as part of a broader crackdown on drug cartels. / 作为更广泛打击贩毒集团行动的一部分，美国已吊销了至少50名墨西哥官员的签证。
 - **Source**: The Guardian
 
-### 9. **Nobel Economics Prize Awarded for Work on Tech-Driven Growth** / **诺贝尔经济学奖授予技术驱动增长研究**
-- **Time**: 2025-10-13
-- **Content**: A trio of economists has been awarded the Nobel Memorial Prize in Economic Sciences for their groundbreaking research on how technological innovation drives long-term economic growth and prosperity. / 三位经济学家因其在技术创新如何推动长期经济增长和繁荣方面的开创性研究而被授予诺贝尔经济学纪念奖。
-- **Source**: The Guardian
+### 8. **Trump Threatens to Withdraw Support for Argentina** / **特朗普威胁要撤回对阿根廷的支持**
+- **Time**: 2025-10-14
+- **Content**: Former President Trump has threatened to withdraw US support for Argentina if the country's politics do not align with US interests. / 美国前总统特朗普威胁称，如果阿根廷的政治不符合美国利益，他将撤回美国对阿根廷的支持。
+- **Source**: AP News
 
-### 10. **Former French President Sarkozy Ordered to Jail** / **法国前总统萨科齐被判入狱**
-- **Time**: 2025-10-13
-- **Content**: A court has ordered former French President Nicolas Sarkozy to be jailed next week in relation to a campaign finance scandal, a landmark decision in French politics. / 法院已下令法国前总统尼古拉·萨科齐于下周就竞选财务丑闻入狱服刑，这是法国政坛一项具有里程碑意义的裁决。
-- **Source**: The Guardian
+### 9. **Spike in Suspected Bear Attacks Results in Multiple Deaths in Japan** / **日本疑似熊袭击事件激增，导致多人死亡**
+- **Time**: 2025-10-14
+- **Content**: Japan has seen a sharp increase in suspected bear attacks, which have resulted in multiple fatalities across the country. / 日本疑似熊袭击事件急剧增加，已在全国范围内造成多人死亡。
+- **Source**: Global News
+
+### 10. **Canadian Foreign Minister Visits India for First Time in Two Years** / **加拿大外交部长两年来首次访问印度**
+- **Time**: 2025-10-14
+- **Content**: Canada's foreign affairs minister is visiting India, marking the first high-level diplomatic visit between the two countries in two years and signaling a potential thaw in relations. / 加拿大外交部长正在访问印度，这是两国两年来首次高层外交访问，标志着两国关系可能解冻。
+- **Source**: Global News
 
 ---
 

@@ -1,40 +1,43 @@
 # 应用文
 
-## An email giving directions to your new house
-- 一封告知新家路线的邮件
+## An email to a gym asking about membership fees and facilities
+- 一封写给健身房询问会员费用和设施的邮件
 
 **正文**：
 
-Hi Alex,
+Dear Sir or Madam,
 
-I'm so excited for you to visit my new house this Saturday! Here are the directions.
+I am writing to inquire about joining your gym. I have recently moved to this area and I am looking for a place to exercise.
 
-Take the number 15 bus from the city center and get off at the Oak Street stop. Walk straight ahead for about two minutes until you see a large supermarket. My road, Pine Close, is the first turning on the left after the supermarket. Walk down Pine Close, and my house is number 22. It's the one with a bright blue door, so you can't miss it!
+Could you please provide me with information on your membership options? I am particularly interested in the monthly fees and whether you offer any discounts for new members.
 
-Let me know if you have any trouble finding it.
+Furthermore, I would like to know more about your facilities. Specifically, do you have a swimming pool and are there any group classes, such as yoga or spinning, included in the membership?
 
-Best,
-Chris
+I look forward to hearing from you soon.
 
-- 嗨，亚历克斯，
-- 很高兴你这周六能来我的新家！这是路线。
-- 从市中心乘坐15路公交车，在橡树街站下车。然后一直往前走大约两分钟，直到你看到一个大型超市。我的路，松树巷，是超市后的第一个左转弯。沿着松树巷走，我的房子是22号。就是那个有着亮蓝色门的房子，你不会错过的！
-- 如果你找不到，随时告诉我。
-- 祝好，
-- 克里斯
+Yours faithfully,
+Alex White
+
+- 尊敬的先生或女士：
+- 我写信是为了咨询加入贵健身房的事宜。我最近刚搬到这个区域，正在寻找一个可以锻炼的地方。
+- 您能否为我提供关于会员选项的信息？我尤其想了解月费标准，以及是否为新会员提供任何折扣。
+- 此外，我想更多地了解你们的设施。具体来说，健身房里有游泳池吗？会员资格是否包含例如瑜伽或动感单车这样的团体课程？
+- 期待您的尽快回复。
+- 诚挚的，
+- 亚历克斯·怀特
 
 ---
 
 # 记叙文/短文
 
-## An article about a traditional celebration in your country
-- 一篇关于你国家传统节日的文章
+## Write a story that begins: When I opened the old box, I found something incredible inside.
+- 写一个以下列句子开头的故事：当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。
 
 **正文**：
 
-The Spring Festival is the most important traditional celebration in my country. It usually lasts for about fifteen days and marks the beginning of the lunar new year.
+When I opened the old box, I found something incredible inside. It wasn't treasure or gold, but a small, leather-bound diary. The pages were yellow with age, and the handwriting was elegant. As I began to read, I realised it belonged to my great-grandfather, who was an explorer.
 
-Before the festival, families clean their homes thoroughly to sweep away any bad luck. On New Year's Eve, everyone gathers for a big family dinner, which is full of delicious, symbolic foods like dumplings and fish. People wear new clothes, often in red, as it represents happiness and good fortune. Children receive red envelopes with money inside for good luck. It's a wonderful time filled with joy and family reunion.
+The diary told amazing stories of his adventures in forgotten jungles and lost cities. He wrote about mysterious creatures and ancient secrets. The last entry was dated seventy years ago and described a hidden waterfall. He had left a map tucked inside the back cover. I knew then my own adventure was just beginning.
 
-- 春节是我国最重要的传统节日。它通常持续约十五天，标志着农历新年的开始。
-- 节前，家家户户都会彻底打扫卫生，以扫除任何坏运气。除夕夜，大家会团聚在一起享用丰盛的年夜饭，餐桌上摆满了饺子和鱼等美味又富有象征意义的食物。人们会穿上新衣，通常是红色的，因为它代表着幸福和好运。孩子们会收到装有压岁钱的红包，以求好运。这是一个充满欢乐和家庭团聚的美好时光。
+- 当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。那不是金银财宝，而是一本小小的皮面日记。书页因年代久远而泛黄，字迹十分优雅。当我开始阅读时，我意识到这本日记属于我的曾祖父，他曾是一位探险家。
+- 日记讲述了他-在被遗忘的丛林和失落的城市中奇妙的冒险故事。他记录了神秘的生物和古老的秘密。最后一篇日记的日期是七十年前，描述了一个隐秘的瀑布。他在封底里夹了一张地图。那一刻我便知道，我自己的冒险才刚刚开始。

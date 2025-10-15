@@ -1,43 +1,41 @@
 # 应用文
 
-## An email to a gym asking about membership fees and facilities
-- 一封写给健身房询问会员费用和设施的邮件
+## A thank-you email to someone who helped you learn English
+- 一封感谢信，致帮助你学习英语的人
 
 **正文**：
 
-Dear Sir or Madam,
+Dear Alex,
 
-I am writing to inquire about joining your gym. I have recently moved to this area and I am looking for a place to exercise.
+I hope you're doing well. I'm writing to express my sincere gratitude for your help with my English studies. When I first started, I struggled a lot with speaking and grammar, but your patient guidance made a huge difference.
 
-Could you please provide me with information on your membership options? I am particularly interested in the monthly fees and whether you offer any discounts for new members.
+The weekly conversation practice we had was incredibly helpful. You always corrected my mistakes kindly and encouraged me to speak more confidently. Thanks to you, my English has improved so much that I recently passed my exam with a great score!
 
-Furthermore, I would like to know more about your facilities. Specifically, do you have a swimming pool and are there any group classes, such as yoga or spinning, included in the membership?
+I really appreciate all the time and effort you dedicated to helping me. Thank you again for everything!
 
-I look forward to hearing from you soon.
+Best regards,
 
-Yours faithfully,
-Alex White
+Chris
 
-- 尊敬的先生或女士：
-- 我写信是为了咨询加入贵健身房的事宜。我最近刚搬到这个区域，正在寻找一个可以锻炼的地方。
-- 您能否为我提供关于会员选项的信息？我尤其想了解月费标准，以及是否为新会员提供任何折扣。
-- 此外，我想更多地了解你们的设施。具体来说，健身房里有游泳池吗？会员资格是否包含例如瑜伽或动感单车这样的团体课程？
-- 期待您的尽快回复。
-- 诚挚的，
-- 亚历克斯·怀特
+- 亲爱的亚历克斯，
+- 我希望你一切都好。我写这封信是为了表达我对你在我英语学习上所提供帮助的诚挚感谢。刚开始时，我的口语和语法都很糟糕，但你耐心的指导给我带来了巨大的改变。
+- 我们每周的口语练习对我帮助极大。你总是很友善地纠正我的错误，并鼓励我更自信地开口说。多亏了你，我的英语进步了很多，最近还在考试中取得了优异的成绩！
+- 我真的很感激你为帮助我所付出的所有时间和精力。再次感谢你所做的一切！
+- 此致，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## Write a story that begins: When I opened the old box, I found something incredible inside.
-- 写一个以下列句子开头的故事：当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。
+## Write a story ending: That experience taught me never to judge people too quickly.
+- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过早地对人下判断。
 
 **正文**：
 
-When I opened the old box, I found something incredible inside. It wasn't treasure or gold, but a small, leather-bound diary. The pages were yellow with age, and the handwriting was elegant. As I began to read, I realised it belonged to my great-grandfather, who was an explorer.
+Last winter, a new neighbor, Mr. Harrison, moved in next door. He was an old man who always wore a grumpy expression and never said hello. My friends and I thought he was unfriendly and probably mean. We often saw him working in his garden, looking serious.
 
-The diary told amazing stories of his adventures in forgotten jungles and lost cities. He wrote about mysterious creatures and ancient secrets. The last entry was dated seventy years ago and described a hidden waterfall. He had left a map tucked inside the back cover. I knew then my own adventure was just beginning.
+One afternoon, my cat, Leo, climbed a tall tree and was too scared to come down. My parents weren't home. I didn't know what to do. Suddenly, Mr. Harrison appeared with a ladder. He calmly climbed up and gently brought Leo back to me. He even smiled. That experience taught me never to judge people too quickly.
 
-- 当我打开那个旧盒子时，我在里面发现了一件不可思议的东西。那不是金银财宝，而是一本小小的皮面日记。书页因年代久远而泛黄，字迹十分优雅。当我开始阅读时，我意识到这本日记属于我的曾祖父，他曾是一位探险家。
-- 日记讲述了他-在被遗忘的丛林和失落的城市中奇妙的冒险故事。他记录了神秘的生物和古老的秘密。最后一篇日记的日期是七十年前，描述了一个隐秘的瀑布。他在封底里夹了一张地图。那一刻我便知道，我自己的冒险才刚刚开始。
+- 去年冬天，一位名叫哈里森先生的新邻居搬到了隔壁。他是一位老人，总是板着脸，从不打招呼。我和朋友们都觉得他很不友好，可能还很刻薄。我们经常看到他在花园里干活，表情严肃。
+- 一天下午，我的猫里奥爬上了一棵高树，吓得不敢下来。我父母又不在家。我不知所措。突然，哈里森先生拿着梯子出现了。他镇定地爬上去，温柔地把里奥抱下来还给了我。他甚至还笑了。那次经历教会了我永远不要过早地对人下判断。

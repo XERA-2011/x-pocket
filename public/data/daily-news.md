@@ -1,59 +1,59 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月14日
-**Update Time**: 22:19 UTC
+**Date**: 2025年10月15日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Madagascar's President Ousted in Military Coup** / **马达加斯加总统在军事政变中被推翻**
-- **Time**: 2025-10-14
-- **Content**: Following weeks of youth-led protests, the military in Madagascar has taken control of the country and ousted the president. The military has suspended all government institutions. / 在经历数周由青年主导的抗议活动后，马达加斯加军方已控制国家并推翻了总统。军方已暂停所有政府机构的运作。
-- **Source**: AP News
-
-### 2. **Fragile Gaza Ceasefire Tested as Israel Imposes New Aid Restrictions** / **以色列实施新援助限制，加沙脆弱停火面临考验**
-- **Time**: 2025-10-14
-- **Content**: The ceasefire in Gaza is under strain as Israel has reportedly imposed new restrictions on humanitarian aid entering the territory. Clashes have been reported, and Hamas is reasserting control, further complicating the situation. / 由于据报道以色列对进入该地区的人道主义援助实施了新的限制，加沙的停火协议正面临压力。据报道发生了冲突，哈马斯正在重新主张控制权，使局势进一步复杂化。
+### 1. **Gaza Ceasefire and Aid Challenges** / **加沙停火与援助挑战**
+- **Time**: 2025-10-15
+- **Content**: Challenges remain for aid distribution in Gaza City despite the ceasefire with Israel. The UN is calling for Israel to open more Gaza border crossings to allow a surge of aid. / 尽管与以色列达成停火协议，但加沙城的援助分发仍面临挑战。联合国呼吁以色列开放更多加沙边境口岸，以便援助物资大量涌入。
 - **Source**: The Guardian
 
-### 3. **Earthquake Strikes Off Southern Philippines, Killing at Least Seven** / **菲律宾南部发生地震，至少七人死亡**
-- **Time**: 2025-10-14
-- **Content**: A powerful earthquake struck off the coast of the southern Philippines, causing buildings to shake and resulting in the deaths of at least seven people. / 菲律宾南部海岸发生强烈地震，导致建筑物摇晃，并造成至少七人死亡。
-- **Source**: AP News
+### 2. **Dozens Killed in Fresh Clashes Along Afghanistan-Pakistan Border** / **阿富汗-巴基斯坦边境新冲突致数十人死亡**
+- **Time**: 2025-10-15
+- **Content**: Dozens have been killed in fresh clashes along the Afghanistan-Pakistan border. Both sides have declared a ceasefire after Islamabad carried out retaliatory strikes on Kabul and Kandahar province. / 阿富汗与巴基斯坦边境发生新的冲突，导致数十人死亡。在伊斯兰堡对喀布尔和坎大哈省进行报复性打击后，双方宣布停火。
+- **Source**: Al Jazeera
 
-### 4. **Garment Factory Fire in Bangladesh Kills at Least 16** / **孟加拉国服装厂火灾，至少16人死亡**
-- **Time**: 2025-10-14
-- **Content**: A fire at a garment factory in Bangladesh has killed at least 16 people. The death toll is expected to rise as rescue operations continue. / 孟加拉国一家服装厂发生火灾，已造成至少16人死亡。预计随着救援行动的继续，死亡人数还会上升。
-- **Source**: Global News
+### 3. **Syrian President on First Visit to Moscow Since War** / **叙利亚总统战后首次访问莫斯科**
+- **Time**: 2025-10-15
+- **Content**: The Syrian president is on his first visit to Moscow, holding talks with former enemies, seeking to "redefine" Russia ties. / 叙利亚总统首次访问莫斯科，与昔日敌人举行会谈，寻求“重新定义”与俄罗斯的关系。
+- **Source**: Al Jazeera
 
-### 5. **Torrential Rains and Flooding in Mexico Leave at Least 64 Dead** / **墨西哥暴雨和洪水导致至少64人死亡**
-- **Time**: 2025-10-14
-- **Content**: Severe flooding and torrential rains in Mexico have resulted in at least 64 deaths, with another 65 people reported missing. / 墨西哥的严重洪水和暴雨已导致至少64人死亡，另有65人据报失踪。
-- **Source**: Global News
-
-### 6. **French Prime Minister Suspends Macron's Pension Plan** / **法国总理暂停马克龙的养老金计划**
-- **Time**: 2025-10-14
-- **Content**: Ahead of a no-confidence vote, the French Prime Minister has suspended President Macron's controversial pension reform plan. / 在不信任投票前，法国总理已暂停了马克龙总统备受争议的养老金改革计划。
+### 4. **Germany's Coalition Government in Row Over Conscription** / **德国联合政府因征兵问题发生争执**
+- **Time**: 2025-10-15
+- **Content**: Germany's coalition government is in a row over a push to bring back conscription. / 德国联合政府因是否恢复征兵制而产生分歧。
 - **Source**: The Guardian
 
-### 7. **US Revokes Visas of 50 Mexican Officials in Cartel Crackdown** / **美国在打击贩毒集团行动中吊销50名墨西哥官员签证**
-- **Time**: 2025-10-14
-- **Content**: The United States has revoked the visas of at least 50 Mexican officials as part of a broader crackdown on drug cartels. / 作为更广泛打击贩毒集团行动的一部分，美国已吊销了至少50名墨西哥官员的签证。
+### 5. **Kenyan Opposition Figure Raila Odinga Dies at 80** / **肯尼亚反对派人物拉伊拉·奥廷加去世，享年80岁**
+- **Time**: 2025-10-15
+- **Content**: Kenyan opposition figure Raila Odinga has died at age 80. / 肯尼亚反对派人物拉伊拉·奥廷加去世，享年80岁。
 - **Source**: The Guardian
 
-### 8. **Trump Threatens to Withdraw Support for Argentina** / **特朗普威胁要撤回对阿根廷的支持**
-- **Time**: 2025-10-14
-- **Content**: Former President Trump has threatened to withdraw US support for Argentina if the country's politics do not align with US interests. / 美国前总统特朗普威胁称，如果阿根廷的政治不符合美国利益，他将撤回美国对阿根廷的支持。
-- **Source**: AP News
-
-### 9. **Spike in Suspected Bear Attacks Results in Multiple Deaths in Japan** / **日本疑似熊袭击事件激增，导致多人死亡**
-- **Time**: 2025-10-14
-- **Content**: Japan has seen a sharp increase in suspected bear attacks, which have resulted in multiple fatalities across the country. / 日本疑似熊袭击事件急剧增加，已在全国范围内造成多人死亡。
+### 6. **Madagascar's President Impeached, Military Takes Power** / **马达加斯加总统遭弹劾，军方掌权**
+- **Time**: 2025-10-15
+- **Content**: Madagascar's president has been impeached, and the military has taken power following protests. / 马达加斯加总统在抗议活动后被弹劾，军方已接管权力。
 - **Source**: Global News
 
-### 10. **Canadian Foreign Minister Visits India for First Time in Two Years** / **加拿大外交部长两年来首次访问印度**
-- **Time**: 2025-10-14
-- **Content**: Canada's foreign affairs minister is visiting India, marking the first high-level diplomatic visit between the two countries in two years and signaling a potential thaw in relations. / 加拿大外交部长正在访问印度，这是两国两年来首次高层外交访问，标志着两国关系可能解冻。
+### 7. **US Safety Board Finds Titan Sub Implosion Due to Faulty Engineering** / **美国安全委员会认定泰坦号潜艇内爆系工程缺陷所致**
+- **Time**: 2025-10-15
+- **Content**: The U.S. safety board has found that the Titan sub implosion was due to faulty engineering. / 美国安全委员会调查发现，泰坦号潜艇内爆的原因是工程设计存在缺陷。
+- **Source**: Global News
+
+### 8. **US Judge Temporarily Blocks Trump's Plan to Fire Thousands of Government Workers** / **美国法官暂时阻止特朗普解雇数千名政府雇员的计划**
+- **Time**: 2025-10-15
+- **Content**: A US judge has temporarily blocked Trump's plan to fire thousands of government workers. / 一名美国法官暂时阻止了特朗普解雇数千名政府工作人员的计划。
+- **Source**: Al Jazeera
+
+### 9. **Germany Pledges $2 Billion in Military Aid for Ukraine** / **德国承诺向乌克兰提供20亿美元军事援助**
+- **Time**: 2025-10-15
+- **Content**: Germany has pledged $2 billion in military aid for Ukraine as Kyiv seeks more funds. / 在基辅寻求更多资金之际，德国已承诺向乌克兰提供20亿美元的军事援助。
+- **Source**: Al Jazeera
+
+### 10. **Garment Factory Fire in Bangladesh Kills at Least 16** / **孟加拉国制衣厂火灾致至少16人死亡**
+- **Time**: 2025-10-15
+- **Content**: A garment factory fire in Bangladesh has killed at least 16 people, with relatives of missing workers questioning why the door was locked. / 孟加拉国一家制衣厂发生火灾，造成至少16人死亡，失踪工人的亲属质疑为何门被锁上。
 - **Source**: Global News
 
 ---

@@ -1,26 +1,25 @@
 # 应用文
 
-## A thank-you email to someone who helped you learn English
-- 一封感谢信，致帮助你学习英语的人
+## An email to a penfriend describing your typical school day
+- 给笔友写一封邮件，描述你平常在学校的一天
 
 **正文**：
 
-Dear Alex,
+Hi Alex,
 
-I hope you're doing well. I'm writing to express my sincere gratitude for your help with my English studies. When I first started, I struggled a lot with speaking and grammar, but your patient guidance made a huge difference.
+Thanks for your last email! You asked about my typical school day. Well, it's quite busy. I usually get up at 7 a.m. and have a quick breakfast. School starts at 8:30 a.m. We have four classes in the morning, like Maths and English, with a short break in between.
 
-The weekly conversation practice we had was incredibly helpful. You always corrected my mistakes kindly and encouraged me to speak more confidently. Thanks to you, my English has improved so much that I recently passed my exam with a great score!
+Lunch is at 12:30 p.m., and I eat with my friends in the canteen. In the afternoon, we have more creative subjects like Art or Music. School finishes at 4 p.m., but I often stay for the basketball club. When I get home, I do my homework and then relax.
 
-I really appreciate all the time and effort you dedicated to helping me. Thank you again for everything!
+Hope to hear from you soon!
 
-Best regards,
-
+Best,
 Chris
 
-- 亲爱的亚历克斯，
-- 我希望你一切都好。我写这封信是为了表达我对你在我英语学习上所提供帮助的诚挚感谢。刚开始时，我的口语和语法都很糟糕，但你耐心的指导给我带来了巨大的改变。
-- 我们每周的口语练习对我帮助极大。你总是很友善地纠正我的错误，并鼓励我更自信地开口说。多亏了你，我的英语进步了很多，最近还在考试中取得了优异的成绩！
-- 我真的很感激你为帮助我所付出的所有时间和精力。再次感谢你所做的一切！
+- 嗨，亚历克斯，
+- 感谢你的上一封邮件！你问我平常在学校是怎样度过的。嗯，日子相当忙碌。我通常早上7点起床，然后迅速吃个早餐。学校8点半开始上课。我们上午有四节课，比如数学和英语，课间有短暂的休息。
+- 午餐时间是中午12点半，我和朋友们在食堂吃饭。下午，我们会学习一些更具创造性的科目，比如美术或音乐。学校下午4点放学，但我经常会留下来参加篮球俱乐部。回到家后，我会先做作业，然后再放松一下。
+- 希望很快能收到你的回信！
 - 此致，
 - 克里斯
 
@@ -28,14 +27,14 @@ Chris
 
 # 记叙文/短文
 
-## Write a story ending: That experience taught me never to judge people too quickly.
-- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过早地对人下判断。
+## A story about helping a stranger
+- 一个关于帮助陌生人的故事
 
 **正文**：
 
-Last winter, a new neighbor, Mr. Harrison, moved in next door. He was an old man who always wore a grumpy expression and never said hello. My friends and I thought he was unfriendly and probably mean. We often saw him working in his garden, looking serious.
+Last Saturday, I was walking home from the park when I saw a wallet lying on the pavement. I picked it up and looked inside to find some identification. It belonged to an elderly woman, and her address was on her driver's license. I decided to take it to her house, which was only a few streets away.
 
-One afternoon, my cat, Leo, climbed a tall tree and was too scared to come down. My parents weren't home. I didn't know what to do. Suddenly, Mr. Harrison appeared with a ladder. He calmly climbed up and gently brought Leo back to me. He even smiled. That experience taught me never to judge people too quickly.
+When I arrived, I rang the bell, and a worried-looking woman answered. I handed her the wallet, and her face lit up with relief. She was so grateful and offered me a reward, but I politely refused. Helping her was reward enough.
 
-- 去年冬天，一位名叫哈里森先生的新邻居搬到了隔壁。他是一位老人，总是板着脸，从不打招呼。我和朋友们都觉得他很不友好，可能还很刻薄。我们经常看到他在花园里干活，表情严肃。
-- 一天下午，我的猫里奥爬上了一棵高树，吓得不敢下来。我父母又不在家。我不知所措。突然，哈里森先生拿着梯子出现了。他镇定地爬上去，温柔地把里奥抱下来还给了我。他甚至还笑了。那次经历教会了我永远不要过早地对人下判断。
+- 上周六，我从公园走路回家时，看到人行道上躺着一个钱包。我捡起它，并查看里面是否有身份证明。钱包属于一位年长的女士，她的驾照上有地址。我决定把钱包送到她家，那里只隔几条街。
+- 当我到达时，我按了门铃，一位看起来很焦急的女士开了门。我把钱包递给她，她的脸上立刻露出了释然的表情。她非常感激，并提出要给我一些报酬，但我礼貌地拒绝了。能帮助她本身就足够了。

@@ -1,59 +1,59 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月15日
-**Update Time**: 22:18 UTC
+**Date**: 2025年10月16日
+**Update Time**: 22:17 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Gaza Ceasefire and Aid Challenges** / **加沙停火与援助挑战**
-- **Time**: 2025-10-15
-- **Content**: Challenges remain for aid distribution in Gaza City despite the ceasefire with Israel. The UN is calling for Israel to open more Gaza border crossings to allow a surge of aid. / 尽管与以色列达成停火协议，但加沙城的援助分发仍面临挑战。联合国呼吁以色列开放更多加沙边境口岸，以便援助物资大量涌入。
-- **Source**: The Guardian
-
-### 2. **Dozens Killed in Fresh Clashes Along Afghanistan-Pakistan Border** / **阿富汗-巴基斯坦边境新冲突致数十人死亡**
-- **Time**: 2025-10-15
-- **Content**: Dozens have been killed in fresh clashes along the Afghanistan-Pakistan border. Both sides have declared a ceasefire after Islamabad carried out retaliatory strikes on Kabul and Kandahar province. / 阿富汗与巴基斯坦边境发生新的冲突，导致数十人死亡。在伊斯兰堡对喀布尔和坎大哈省进行报复性打击后，双方宣布停火。
-- **Source**: Al Jazeera
-
-### 3. **Syrian President on First Visit to Moscow Since War** / **叙利亚总统战后首次访问莫斯科**
-- **Time**: 2025-10-15
-- **Content**: The Syrian president is on his first visit to Moscow, holding talks with former enemies, seeking to "redefine" Russia ties. / 叙利亚总统首次访问莫斯科，与昔日敌人举行会谈，寻求“重新定义”与俄罗斯的关系。
-- **Source**: Al Jazeera
-
-### 4. **Germany's Coalition Government in Row Over Conscription** / **德国联合政府因征兵问题发生争执**
-- **Time**: 2025-10-15
-- **Content**: Germany's coalition government is in a row over a push to bring back conscription. / 德国联合政府因是否恢复征兵制而产生分歧。
-- **Source**: The Guardian
-
-### 5. **Kenyan Opposition Figure Raila Odinga Dies at 80** / **肯尼亚反对派人物拉伊拉·奥廷加去世，享年80岁**
-- **Time**: 2025-10-15
-- **Content**: Kenyan opposition figure Raila Odinga has died at age 80. / 肯尼亚反对派人物拉伊拉·奥廷加去世，享年80岁。
-- **Source**: The Guardian
-
-### 6. **Madagascar's President Impeached, Military Takes Power** / **马达加斯加总统遭弹劾，军方掌权**
-- **Time**: 2025-10-15
-- **Content**: Madagascar's president has been impeached, and the military has taken power following protests. / 马达加斯加总统在抗议活动后被弹劾，军方已接管权力。
+### 1. **Fragile Ceasefire Holds Between Israel and Hamas** / **以色列与哈马斯之间的脆弱停火得以维持**
+- **Time**: 2025-10-16
+- **Content**: A fragile ceasefire remains in place between Israel and Hamas, though concerns are rising about a potential body exchange and ongoing challenges in delivering aid to Gaza. / 以色列与哈马斯之间的脆弱停火仍然存在，但人们对潜在的遗体交换和向加沙提供援助的持续挑战感到担忧。
 - **Source**: Global News
 
-### 7. **US Safety Board Finds Titan Sub Implosion Due to Faulty Engineering** / **美国安全委员会认定泰坦号潜艇内爆系工程缺陷所致**
-- **Time**: 2025-10-15
-- **Content**: The U.S. safety board has found that the Titan sub implosion was due to faulty engineering. / 美国安全委员会调查发现，泰坦号潜艇内爆的原因是工程设计存在缺陷。
+### 2. **Trump Threatens Direct U.S. Military Intervention Against Hamas** / **特朗普威胁对哈马斯进行直接军事干预**
+- **Time**: 2025-10-16
+- **Content**: Donald Trump has threatened that the US will "go in and kill" Hamas if executions in Gaza continue, a significant escalation in rhetoric. / 唐纳德·特朗普威胁称，如果加沙的处决行动继续下去，美国将“进去杀死”哈马斯，这是一种言辞上的重大升级。
+- **Source**: Sky News
+
+### 3. **China Expresses Dissatisfaction with U.S. Actions Amid Tariff Threats** / **在关税威胁下，中国对美国的行动表示不满**
+- **Time**: 2025-10-16
+- **Content**: China expressed dissatisfaction with recent US actions following President Trump's threat of imposing 100% tariffs on Chinese exports. / 在特朗普总统威胁对中国出口商品征收100%的关税后，中国对美国最近的行动表示不满。
 - **Source**: Global News
 
-### 8. **US Judge Temporarily Blocks Trump's Plan to Fire Thousands of Government Workers** / **美国法官暂时阻止特朗普解雇数千名政府雇员的计划**
-- **Time**: 2025-10-15
-- **Content**: A US judge has temporarily blocked Trump's plan to fire thousands of government workers. / 一名美国法官暂时阻止了特朗普解雇数千名政府工作人员的计划。
+### 4. **Trump to Meet Putin to Discuss End of Ukraine War** / **特朗普将会见普京讨论结束乌克兰战争**
+- **Time**: 2025-10-16
+- **Content**: Donald Trump has stated he will meet with Vladimir Putin again to try and end the Ukraine war, ahead of a meeting with Ukrainian President Volodymyr Zelenskyy. / 唐纳德·特朗普表示，他将再次会见弗拉基米尔·普京，试图结束乌克兰战争，此举先于与乌克兰总统弗拉基米尔·泽连斯基的会晤。
 - **Source**: Al Jazeera
 
-### 9. **Germany Pledges $2 Billion in Military Aid for Ukraine** / **德国承诺向乌克兰提供20亿美元军事援助**
-- **Time**: 2025-10-15
-- **Content**: Germany has pledged $2 billion in military aid for Ukraine as Kyiv seeks more funds. / 在基辅寻求更多资金之际，德国已承诺向乌克兰提供20亿美元的军事援助。
-- **Source**: Al Jazeera
+### 5. **African Union Suspends Madagascar After Military Takeover** / **军事接管后，非洲联盟暂停马达加斯加的成员资格**
+- **Time**: 2025-10-16
+- **Content**: The African Union has suspended Madagascar as a military leader is set to be sworn in as president, following a military takeover. / 在军事接管后，非洲联盟暂停了马达加斯加的成员资格，一名军事领导人将宣誓就任总统。
+- **Source**: The Guardian
 
-### 10. **Garment Factory Fire in Bangladesh Kills at Least 16** / **孟加拉国制衣厂火灾致至少16人死亡**
-- **Time**: 2025-10-15
-- **Content**: A garment factory fire in Bangladesh has killed at least 16 people, with relatives of missing workers questioning why the door was locked. / 孟加拉国一家制衣厂发生火灾，造成至少16人死亡，失踪工人的亲属质疑为何门被锁上。
+### 6. **Nestlé to Cut 16,000 Jobs Globally Amid Economic Challenges** / **雀巢因经济挑战将在全球裁员16,000人**
+- **Time**: 2025-10-16
+- **Content**: Nestlé is cutting 16,000 jobs globally due to multiple economic challenges, marking a significant move for the food and beverage giant. / 由于多重经济挑战，雀巢将在全球裁员16,000人，这对这家食品和饮料巨头来说是一个重大举措。
+- **Source**: Global News
+
+### 7. **Titan Sub Implosion Caused by Faulty Engineering, U.S. Report Finds** / **美国报告发现，泰坦号潜艇内爆是由工程缺陷引起的**
+- **Time**: 2025-10-16
+- **Content**: The Titan sub implosion was due to faulty engineering, according to the U.S. safety board's final report. / 根据美国安全委员会的最终报告，泰坦号潜艇的内爆是由于工程缺陷造成的。
+- **Source**: Global News
+
+### 8. **Canadian Airport Screens Hacked with Pro-Hamas Messages** / **加拿大机场屏幕被黑客入侵，显示亲哈马斯信息**
+- **Time**: 2025-10-16
+- **Content**: Airport display screens and PA systems in British Columbia, Canada, were hacked with pro-Hamas messages, prompting a police investigation. / 加拿大不列颠哥伦比亚省的机场显示屏和广播系统被黑客入侵，显示亲哈马斯的信息，促使警方展开调查。
+- **Source**: Global News
+
+### 9. **Deadly Clashes at Kenyan Prime Minister's Viewing** / **肯尼亚总理的悼念活动上发生致命冲突**
+- **Time**: 2025-10-16
+- **Content**: Kenyan police fired shots and deployed tear gas near crowds at a viewing for the late Prime Minister Odinga, with reports of mourners killed. / 肯尼亚警方在已故总理奥廷加的悼念活动上向人群附近开枪并部署催泪瓦斯，有报道称有哀悼者丧生。
+- **Source**: Associated Press
+
+### 10. **Deadly Floods and Landslides Hit Mexico** / **致命的洪水和山体滑坡袭击墨西哥**
+- **Time**: 2025-10-16
+- **Content**: Mexico's Cazones River overflowed during deadly floods and landslides, with rescue teams searching for the missing. / 墨西哥的卡索内斯河在致命的洪水和山体滑坡期间泛滥，救援队正在搜寻失踪人员。
 - **Source**: Global News
 
 ---

@@ -1,25 +1,26 @@
 # 应用文
 
-## An email to a penfriend describing your typical school day
-- 给笔友写一封邮件，描述你平常在学校的一天
+## An email booking tickets for a concert
+- 一封预订音乐会门票的电子邮件
 
 **正文**：
 
-Hi Alex,
+Dear Sir or Madam,
 
-Thanks for your last email! You asked about my typical school day. Well, it's quite busy. I usually get up at 7 a.m. and have a quick breakfast. School starts at 8:30 a.m. We have four classes in the morning, like Maths and English, with a short break in between.
+I am writing to inquire about booking tickets for the "Starlight" concert, which is scheduled for Saturday, 22nd November. My friends and I are very excited to see this performance.
 
-Lunch is at 12:30 p.m., and I eat with my friends in the canteen. In the afternoon, we have more creative subjects like Art or Music. School finishes at 4 p.m., but I often stay for the basketball club. When I get home, I do my homework and then relax.
+I would like to purchase three tickets. If possible, we would prefer seats together in the central area, as we want to have a good view of the stage. Could you please inform me of the price per ticket and whether there are any student discounts available?
 
-Hope to hear from you soon!
+Please also let me know the available payment methods. I look forward to hearing from you soon.
 
-Best,
+Best regards,
+
 Chris
 
-- 嗨，亚历克斯，
-- 感谢你的上一封邮件！你问我平常在学校是怎样度过的。嗯，日子相当忙碌。我通常早上7点起床，然后迅速吃个早餐。学校8点半开始上课。我们上午有四节课，比如数学和英语，课间有短暂的休息。
-- 午餐时间是中午12点半，我和朋友们在食堂吃饭。下午，我们会学习一些更具创造性的科目，比如美术或音乐。学校下午4点放学，但我经常会留下来参加篮球俱乐部。回到家后，我会先做作业，然后再放松一下。
-- 希望很快能收到你的回信！
+- 尊敬的先生或女士：
+- 我写信是为了咨询预订11月22日（星期六）举行的“星光”音乐会门票事宜。我和我的朋友们都非常期待观看这场演出。
+- 我想购买三张票。如果可能的话，我们希望是舞台视野较好的中央区域的连座。请问您能否告知我每张票的价格，以及是否有学生折扣？
+- 另外，也请告知我有哪些可用的支付方式。期待您的尽快回复。
 - 此致，
 - 克里斯
 
@@ -27,14 +28,14 @@ Chris
 
 # 记叙文/短文
 
-## A story about helping a stranger
-- 一个关于帮助陌生人的故事
+## An article about why young people should volunteer in their community
+- 一篇关于年轻人为何应该在社区做志愿者的文章
 
 **正文**：
 
-Last Saturday, I was walking home from the park when I saw a wallet lying on the pavement. I picked it up and looked inside to find some identification. It belonged to an elderly woman, and her address was on her driver's license. I decided to take it to her house, which was only a few streets away.
+Volunteering is a fantastic opportunity for young people to contribute to their community and develop personally. It offers numerous benefits that go beyond just helping others.
 
-When I arrived, I rang the bell, and a worried-looking woman answered. I handed her the wallet, and her face lit up with relief. She was so grateful and offered me a reward, but I politely refused. Helping her was reward enough.
+Firstly, by volunteering, you can gain valuable life skills such as teamwork, communication, and problem-solving, which are highly valued by future employers. Secondly, it is a wonderful way to meet new people and make friends who share similar interests. Most importantly, helping your local community provides a great sense of achievement and can boost your self-confidence. It allows you to make a real difference. It’s a rewarding experience for everyone involved.
 
-- 上周六，我从公园走路回家时，看到人行道上躺着一个钱包。我捡起它，并查看里面是否有身份证明。钱包属于一位年长的女士，她的驾照上有地址。我决定把钱包送到她家，那里只隔几条街。
-- 当我到达时，我按了门铃，一位看起来很焦急的女士开了门。我把钱包递给她，她的脸上立刻露出了释然的表情。她非常感激，并提出要给我一些报酬，但我礼貌地拒绝了。能帮助她本身就足够了。
+- 志愿服务对于年轻人来说，是一个为社区做出贡献并实现个人发展的绝佳机会。它带来的好处远不止帮助他人。
+- 首先，通过志愿服务，你可以获得宝贵的生活技能，如团队合作、沟通和解决问题的能力，这些都是未来雇主高度看重的。其次，这是一个结识新朋友、结交有相似兴趣的伙伴的绝佳方式。最重要的是，帮助本地社区能带来巨大的成就感，并能增强你的自信心。它让你能够真正地带来改变。对每个参与者来说，这都是一次有益的经历。

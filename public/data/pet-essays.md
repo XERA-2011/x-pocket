@@ -1,40 +1,43 @@
 # 应用文
 
-## A postcard from your exchange program abroad
-- 来自你的海外交换项目的明信片
+## An email to your headteacher suggesting a new school club
+- 给校长写一封建议成立新学校社团的邮件
 
 **正文**：
 
-Hi Sam,
+Dear Mr. Harrison,
 
-I'm having an amazing time here in sunny Spain! The city is beautiful, and I've already learned so much. My host family is incredibly kind and their cooking is delicious. I'm practicing my Spanish every day, and it's getting much better.
+I am writing to suggest a new school club: a Creative Writing Club.
 
-Last weekend, we visited a famous museum and saw some incredible art. Tomorrow, we're going to the beach. I can't wait! The weather is perfect for swimming.
+Many students enjoy writing stories and poems, but we don't have a club for it. A writing club would be a wonderful place for us to share our work, receive feedback, and improve our skills together. We could hold weekly meetings to discuss ideas, run workshops on different writing styles, and perhaps even invite a local author to speak.
 
-I've made lots of new friends from all over the world. I wish you were here to share this experience with me.
+I believe this club would be very popular and a great addition to our school's activities.
 
-See you soon,
-Alex
+Thank you for considering my suggestion.
 
-- 嗨，山姆，
-- 我在阳光明媚的西班牙过得非常愉快！这座城市很美，而且我已经学到了很多东西。我的寄宿家庭非常友善，他们做的饭也很好吃。我每天都在练习西班牙语，水平提高了不少。
-- 上周末，我们参观了一个著名的博物馆，欣赏了一些令人难以置信的艺术品。明天，我们准备去海滩。我等不及了！天气非常适合游泳。
-- 我交了很多来自世界各地的新朋友。真希望你也能在这里和我一起分享这段经历。
-- 再见，
-- 亚历克斯
+Yours sincerely,
+
+Alex Chen
+
+- 尊敬的哈里森先生，
+- 我写信是为了建议成立一个新的学校社团：创意写作社。
+- 许多学生喜欢写故事和诗歌，但我们没有一个专门的社团。写作社将是一个很棒的地方，让我们分享作品、获得反馈并共同提高技能。我们可以每周开会讨论想法，举办关于不同写作风格的工作坊，甚至可以邀请一位本地作家来演讲。
+- 我相信这个社团会非常受欢迎，并成为我们学校活动的一个重要补充。
+- 感谢您考虑我的建议。
+- 此致，
+- Alex Chen
 
 ---
 
 # 记叙文/短文
 
-## An article about why young people should volunteer in their community
-- 一篇关于年轻人为什么应该在社区做志愿者的文章
+## Write a story that ends: I realized that sometimes the best adventures happen close to home.
+- 写一个以下列句子结尾的故事：我意识到，有时最棒的冒险就在家附近。
 
 **正文**：
 
-Volunteering is a fantastic way for young people to contribute to their community and develop important life skills. When you volunteer, you're not just helping others; you're also helping yourself.
+My big hiking trip to the mountains was canceled because of a storm. I was so disappointed and thought my weekend would be incredibly boring. Seeing my sad face, my grandmother suggested I explore the old attic. It was dusty and filled with forgotten things. In a corner, I found an old wooden chest. Inside were my grandfather's journals, filled with hand-drawn maps of our town and notes about "hidden treasures" in the local park. I spent the entire weekend following his clues, discovering a tiny hidden waterfall and a secret garden I never knew existed. I realized that sometimes the best adventures happen close to home.
 
-Firstly, it allows you to meet new people and make friends who share your interests. Secondly, volunteering can teach you valuable skills like teamwork, communication, and problem-solving, which are great for your future career. You might even discover a passion you never knew you had. Finally, seeing the positive impact of your work on others is incredibly rewarding and can boost your confidence. It’s a win-win situation!
-
-- 志愿服务是年轻人为社区做出贡献并发展重要生活技能的绝佳方式。当你做志愿者时，你不仅在帮助他人，也在帮助自己。
-- 首先，它能让你结识新朋友，结交与你有共同兴趣的朋友。其次，志愿服务可以教你宝贵的技能，如团队合作、沟通和解决问题的能力，这对你未来的职业生涯大有裨益。你甚至可能发现自己从未意识到的热情所在。最后，看到自己的工作对他人产生的积极影响会带来难以置信的回报感，并能增强你的自信。这是一个双赢的局面！
+- 我重要的山区远足之旅因为一场风暴而取消了。我非常失望，觉得我的周末会无聊透顶。
+- 奶奶看到我悲伤的脸，建议我去探索一下旧阁楼。那里布满灰尘，堆满了被遗忘的东西。在一个角落里，我发现了一个旧木箱。里面是我祖父的日记，画满了我们小镇的手绘地图，还有关于本地公园里“隐藏宝藏”的笔记。
+- 我花了整个周末跟着他的线索，发现了一个我从未知道存在的小瀑布和一个秘密花园。我意识到，有时最棒的冒险就在家附近。

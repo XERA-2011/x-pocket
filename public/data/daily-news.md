@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月18日
-**Update Time**: 22:18 UTC
+**Date**: 2025年10月19日
+**Update Time**: 22:19 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Gaza Ceasefire Violations** / **加沙停火协议遭破坏**
-- **Time**: 2025-10-18
-- **Content**: The Gaza media office reports that Israel has violated the ceasefire 47 times, resulting in 38 Palestinian deaths. Authorities are urging the UN to intervene to protect unarmed civilians. / 加沙媒体办公室报告称，以色列已47次违反停火协议，导致38名巴勒斯坦人死亡。当局敦促联合国进行干预，保护手无寸铁的平民。
+### 1. **Israel-Gaza Ceasefire Under Strain** / **以色列与加沙停火协议面临压力**
+- **Time**: 2025-10-19
+- **Content**: A fragile ceasefire between Israel and Hamas is being tested by renewed hostilities. Israel launched airstrikes and artillery on Gaza, with both sides claiming the other breached the truce. / 以色列与哈马斯之间的脆弱停火协议正因新的敌对行动而受到考验。以色列对加沙发动了空袭和炮击，双方均声称对方违反了停火协议。
 - **Source**: The Guardian
 
-### 2. **Rafah Crossing to Remain Closed** / **拉法过境点将继续关闭**
-- **Time**: 2025-10-18
-- **Content**: The Rafah border crossing is expected to remain closed "until further notice," according to Israel, adding pressure over hostage remains. / 以色列方面称，拉法边境口岸预计将“关闭直至另行通知”，这增加了人质遗骸问题的压力。
-- **Source**: Reuters
+### 2. **Louvre Heist: Priceless Jewelry Stolen** / **卢浮宫发生抢劫案：无价珠宝被盗**
+- **Time**: 2025-10-19
+- **Content**: Thieves stole eight "priceless" jewelry pieces from the Louvre Museum in Paris, escaping on motorbikes. / 盗贼从巴黎卢浮宫博物馆偷走了八件“无价”珠宝，并骑摩托车逃离。
+- **Source**: Global News
 
-### 3. **Iran Nuclear Deal Ends** / **伊朗核协议终止**
-- **Time**: 2025-10-18
-- **Content**: Iran has announced the official end to its 10-year-old nuclear agreement, stating it is no longer bound by restrictions on its nuclear program. / 伊朗宣布其长达10年的核协议正式终止，并表示不再受其核计划的限制。
-- **Source**: Associated Press
-
-### 4. **Trump-Zelenskyy Meeting on US Missiles** / **特朗普与泽连斯基就美国导弹问题举行会晤**
-- **Time**: 2025-10-18
-- **Content**: US President Trump met with Ukrainian President Zelenskyy, downplaying hopes he will supply Ukraine with US missiles. / 美国总统特朗普与乌克兰总统泽连斯基举行会晤，淡化了向乌克兰提供美国导弹的希望。
-- **Source**: Fox News
-
-### 5. **Portugal Approves Burqa Ban** / **葡萄牙批准布卡禁令**
-- **Time**: 2025-10-18
-- **Content**: Portugal's parliament has approved a burqa ban bill, which is seen as targeting Muslim women. / 葡萄牙议会批准了一项布卡禁令法案，此举被视为针对穆斯林女性。
-- **Source**: Sky News
-
-### 6. **Pakistan-Afghanistan Talks in Qatar** / **巴基斯坦与阿富汗在卡塔尔举行会谈**
-- **Time**: 2025-10-18
-- **Content**: Pakistan state television announced talks in Qatar with Afghanistan amid escalating hostilities and border clashes. / 巴基斯坦国家电视台宣布，在敌对行动和边境冲突不断升级的情况下，巴基斯坦将在卡塔尔与阿富汗举行会谈。
+### 3. **"No Kings Day" Protests Against Trump Held Across the US** / **全美举行“无王日”反特朗普抗议活动**
+- **Time**: 2025-10-19
+- **Content**: Hundreds of thousands participated in "No Kings Day" rallies across the US, protesting against Donald Trump. / 数十万人在全美范围内参加了“无王日”集会，抗议唐纳德·特朗普。
 - **Source**: Al Jazeera
 
-### 7. **Boat Accident in Mozambique** / **莫桑比克发生船只事故**
-- **Time**: 2025-10-18
-- **Content**: Three Indians are dead and five are missing after a boat accident in Mozambique. / 莫桑比克发生一起船只事故，造成3名印度人死亡，5人失踪。
+### 4. **North Korean Soldier Defects to South Korea** / **一名朝鲜士兵叛逃至韩国**
+- **Time**: 2025-10-19
+- **Content**: A North Korean soldier defected to South Korea across the heavily fortified border. / 一名朝鲜士兵穿过重兵把守的边境叛逃至韩国。
+- **Source**: AP News
+
+### 5. **Former French President Nicolas Sarkozy to Be Imprisoned** / **法国前总统尼古拉·萨科齐即将入狱**
+- **Time**: 2025-10-19
+- **Content**: Former French President Nicolas Sarkozy is set to enter prison for criminal conspiracy related to Libyan funding. / 法国前总统尼古拉·萨科齐因与利比亚资金有关的刑事阴谋罪即将入狱。
+- **Source**: The Guardian
+
+### 6. **Pro-EU Turkish Cypriot Candidate Wins Landslide Victory** / **亲欧盟的土族塞人候选人赢得压倒性胜利**
+- **Time**: 2025-10-19
+- **Content**: A pro-EU Turkish Cypriot candidate secured a landslide win, raising hopes for peace. / 一位亲欧盟的土族塞人候选人获得了压倒性胜利，为和平带来了希望。
+- **Source**: The Guardian
+
+### 7. **Iran Executes Alleged Israeli Spy** / **伊朗处决一名被指控的以色列间谍**
+- **Time**: 2025-10-19
+- **Content**: Iran's news agency reported the execution of an individual accused of spying for Israel. / 据伊朗通讯社报道，一名被指控为以色列从事间谍活动的人已被处决。
 - **Source**: The Hindu
 
-### 8. **Fire at Dhaka International Airport** / **达卡国际机场发生火灾**
-- **Time**: 2025-10-18
-- **Content**: A major fire broke out at Dhaka international airport, suspending flight operations. / 达卡国际机场发生重大火灾，导致航班运营暂停。
-- **Source**: NDTV
+### 8. **US to Relocate Drug Boat Survivors** / **美国将重新安置贩毒船幸存者**
+- **Time**: 2025-10-19
+- **Content**: The US military will move survivors of a strike on an alleged drug boat in the Caribbean to Ecuador and Colombia. / 美国军方将把在加勒比海一艘涉嫌贩毒船只袭击中的幸存者转移到厄瓜多尔和哥伦比亚。
+- **Source**: AP News
 
-### 9. **Bus Crash in Brazil Kills 17** / **巴西巴士相撞事故致17人死亡**
-- **Time**: 2025-10-18
-- **Content**: A bus crash in north-eastern Brazil killed 17 people. / 巴西东北部发生一起巴士相撞事故，造成17人死亡。
+### 9. **Fatal Bus Crash in Brazil Kills 17** / **巴西发生致命巴士车祸，造成17人死亡**
+- **Time**: 2025-10-19
+- **Content**: A bus crash in north-eastern Brazil killed 17 people. / 巴西东北部发生一起巴士车祸，造成17人死亡。
 - **Source**: The Guardian
 
-### 10. **Nobel Laureate Chen Ning Yang Dies at 103** / **诺贝尔奖得主杨振宁去世，享年103岁**
-- **Time**: 2025-10-18
-- **Content**: Renowned Chinese-American physicist and Nobel laureate Chen Ning Yang has died at 103. / 著名华裔美国物理学家、诺贝尔奖得主杨振宁去世，享年103岁。
-- **Source**: The Guardian
+### 10. **Massive Fire at Dhaka Airport Halts Flights** / **达卡机场发生大火，航班停飞**
+- **Time**: 2025-10-19
+- **Content**: A massive fire broke out at Dhaka airport's cargo terminal in Bangladesh, leading to the suspension of all flights. / 孟加拉国达卡机场货运站发生大规模火灾，导致所有航班暂停。
+- **Source**: Global News
 
 ---
 

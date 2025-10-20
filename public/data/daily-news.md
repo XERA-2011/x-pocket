@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月19日
+**Date**: 2025年10月20日
 **Update Time**: 22:19 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Israel-Gaza Ceasefire Under Strain** / **以色列与加沙停火协议面临压力**
-- **Time**: 2025-10-19
-- **Content**: A fragile ceasefire between Israel and Hamas is being tested by renewed hostilities. Israel launched airstrikes and artillery on Gaza, with both sides claiming the other breached the truce. / 以色列与哈马斯之间的脆弱停火协议正因新的敌对行动而受到考验。以色列对加沙发动了空袭和炮击，双方均声称对方违反了停火协议。
-- **Source**: The Guardian
-
-### 2. **Louvre Heist: Priceless Jewelry Stolen** / **卢浮宫发生抢劫案：无价珠宝被盗**
-- **Time**: 2025-10-19
-- **Content**: Thieves stole eight "priceless" jewelry pieces from the Louvre Museum in Paris, escaping on motorbikes. / 盗贼从巴黎卢浮宫博物馆偷走了八件“无价”珠宝，并骑摩托车逃离。
-- **Source**: Global News
-
-### 3. **"No Kings Day" Protests Against Trump Held Across the US** / **全美举行“无王日”反特朗普抗议活动**
-- **Time**: 2025-10-19
-- **Content**: Hundreds of thousands participated in "No Kings Day" rallies across the US, protesting against Donald Trump. / 数十万人在全美范围内参加了“无王日”集会，抗议唐纳德·特朗普。
-- **Source**: Al Jazeera
-
-### 4. **North Korean Soldier Defects to South Korea** / **一名朝鲜士兵叛逃至韩国**
-- **Time**: 2025-10-19
-- **Content**: A North Korean soldier defected to South Korea across the heavily fortified border. / 一名朝鲜士兵穿过重兵把守的边境叛逃至韩国。
+### 1. **Louvre Museum Hit by Daylight Jewel Heist** / **卢浮宫博物馆遭遇白日珠宝抢劫案**
+- **Time**: 2025-10-20
+- **Content**: Thieves stole crown jewels and necklaces from the Louvre Museum in Paris in a daring four-minute daylight robbery, raising serious concerns about security at the world-renowned institution. The museum remained closed for a full day following the heist to allow for a thorough investigation. / 盗贼在光天化日之下，于短短四分钟内从巴黎卢浮宫博物馆盗走了皇冠珠宝和项链，这起大胆的抢劫案引发了人们对这家世界知名博物馆安保措施的严重担忧。案发后，博物馆关闭了一整天以便进行彻底调查。
 - **Source**: AP News
 
-### 5. **Former French President Nicolas Sarkozy to Be Imprisoned** / **法国前总统尼古拉·萨科齐即将入狱**
-- **Time**: 2025-10-19
-- **Content**: Former French President Nicolas Sarkozy is set to enter prison for criminal conspiracy related to Libyan funding. / 法国前总统尼古拉·萨科齐因与利比亚资金有关的刑事阴谋罪即将入狱。
+### 2. **Gaza Ceasefire Holds as Another Hostage's Remains Returned** / **加沙停火持续，又一具人质遗体被送回**
+- **Time**: 2025-10-20
+- **Content**: Palestinian militants in Gaza handed over the remains of another hostage, bringing the total to 13 since the ceasefire began. Meanwhile, Israel has resumed the delivery of humanitarian aid to the region after a temporary halt. / 加沙的巴勒斯坦武装分子交还了另一名人质的遗体，这是自停火开始以来的第13具。与此同时，以色列在短暂停止后，已恢复向该地区运送人道主义援助物资。
+- **Source**: Reuters
+
+### 3. **Rodrigo Paz Becomes Bolivia's First Conservative Leader in Decades** / **罗德里戈·帕斯成为玻利维亚数十年来首位保守派领袖**
+- **Time**: 2025-10-20
+- **Content**: Rodrigo Paz has won the presidential runoff election in Bolivia, marking a significant political shift as he becomes the country's first conservative leader in several decades. / 罗德里戈·帕斯在玻利维亚的总统决选中获胜，标志着该国政治格局的重大转变，他将成为数十年来首位保守派领导人。
 - **Source**: The Guardian
 
-### 6. **Pro-EU Turkish Cypriot Candidate Wins Landslide Victory** / **亲欧盟的土族塞人候选人赢得压倒性胜利**
-- **Time**: 2025-10-19
-- **Content**: A pro-EU Turkish Cypriot candidate secured a landslide win, raising hopes for peace. / 一位亲欧盟的土族塞人候选人获得了压倒性胜利，为和平带来了希望。
+### 4. **Trump Expresses Doubts on Ukraine's Ability to Win War with Russia** / **特朗普对乌克兰赢得与俄罗斯战争的能力表示怀疑**
+- **Time**: 2025-10-20
+- **Content**: Ahead of a meeting with Vladimir Putin, former U.S. President Donald Trump voiced skepticism about Ukraine's chances of winning the war against Russia. He suggested that Ukraine's Donbas region might need to be "cut up" to end the conflict and that land-for-peace might be a necessary compromise. / 在与弗拉基米尔·普京会晤前，美国前总统唐纳德·特朗普对乌克兰在与俄罗斯的战争中获胜的可能性表示怀疑。他暗示，为了结束冲突，可能需要“分割”乌克兰的顿巴斯地区，而以土地换和平或许是必要的妥协。
 - **Source**: The Guardian
 
-### 7. **Iran Executes Alleged Israeli Spy** / **伊朗处决一名被指控的以色列间谍**
-- **Time**: 2025-10-19
-- **Content**: Iran's news agency reported the execution of an individual accused of spying for Israel. / 据伊朗通讯社报道，一名被指控为以色列从事间谍活动的人已被处决。
+### 5. **Russia-Ukraine War: Moscow Reacts to Tomahawk Missile Reports** / **俄乌战争：莫斯科就战斧导弹报道作出反应**
+- **Time**: 2025-10-20
+- **Content**: Moscow has expressed its displeasure over the prospect of Ukraine potentially receiving Tomahawk missiles. In other developments, a Russian gas processing plant was reportedly hit in a new attack, and Russia claims to have taken control of a village in the Donetsk region. / 莫斯科对乌克兰可能接收战斧导弹的前景表示不满。其他方面，据报道，一座俄罗斯天然气加工厂在一次新的袭击中被击中，同时俄罗斯声称已控制顿涅茨克地区的一个村庄。
+- **Source**: Sky News
+
+### 6. **Tropical Storm Fengshen Hits Philippines, Causing Multiple Fatalities** / **热带风暴“风神”袭击菲律宾，造成多人死亡**
+- **Time**: 2025-10-20
+- **Content**: Tropical Storm Fengshen has resulted in seven deaths and forced the evacuation of over 22,000 people in the Philippines, causing widespread disruption. / 热带风暴“风神”在菲律宾已导致7人死亡，并迫使超过22,000人疏散，造成了广泛的混乱。
 - **Source**: The Hindu
 
-### 8. **US to Relocate Drug Boat Survivors** / **美国将重新安置贩毒船幸存者**
-- **Time**: 2025-10-19
-- **Content**: The US military will move survivors of a strike on an alleged drug boat in the Caribbean to Ecuador and Colombia. / 美国军方将把在加勒比海一艘涉嫌贩毒船只袭击中的幸存者转移到厄瓜多尔和哥伦比亚。
-- **Source**: AP News
+### 7. **Prince Andrew Relinquishes Duke of York Title Amid Epstein Allegations** / **在爱泼斯坦相关指控中，安德鲁王子放弃约克公爵头衔**
+- **Time**: 2025-10-20
+- **Content**: As allegations related to his connection with Jeffrey Epstein continue to mount, Prince Andrew has announced that he is relinquishing his title as the Duke of York. / 随着与杰弗里·爱泼斯坦有关的指控不断增多，安德鲁王子宣布他将放弃约克公爵的头衔。
+- **Source**: Fox News
 
-### 9. **Fatal Bus Crash in Brazil Kills 17** / **巴西发生致命巴士车祸，造成17人死亡**
-- **Time**: 2025-10-19
-- **Content**: A bus crash in north-eastern Brazil killed 17 people. / 巴西东北部发生一起巴士车祸，造成17人死亡。
-- **Source**: The Guardian
-
-### 10. **Massive Fire at Dhaka Airport Halts Flights** / **达卡机场发生大火，航班停飞**
-- **Time**: 2025-10-19
-- **Content**: A massive fire broke out at Dhaka airport's cargo terminal in Bangladesh, leading to the suspension of all flights. / 孟加拉国达卡机场货运站发生大规模火灾，导致所有航班暂停。
+### 8. **Major Amazon Web Services (AWS) Outage Disrupts Global Apps and Websites** / **亚马逊网络服务（AWS）大规模中断，影响全球应用和网站**
+- **Time**: 2025-10-20
+- **Content**: A significant global outage of Amazon Web Services (AWS) caused disruptions for numerous major applications and websites, including the ticketing system for the Toronto Blue Jays. / 亚马逊网络服务（AWS）的一次严重的全球性中断，导致包括多伦多蓝鸟队票务系统在内的许多主要应用程序和网站服务受到影响。
 - **Source**: Global News
+
+### 9. **Iran's Supreme Leader Rejects Trump's Claims of Destroyed Nuclear Sites** / **伊朗最高领袖否认特朗普关于核设施被摧毁的说法**
+- **Time**: 2025-10-20
+- **Content**: Iran's Supreme Leader, Ayatollah Ali Khamenei, has dismissed claims made by former U.S. President Donald Trump that Iranian nuclear sites were destroyed by American strikes in June. / 伊朗最高领袖阿亚图拉·阿里·哈梅内伊驳斥了美国前总统唐纳德·特朗普关于伊朗核设施在6月份被美军袭击摧毁的说法。
+- **Source**: NDTV
+
+### 10. **EU Ministers Support Phasing Out Russian Energy Imports** / **欧盟部长支持逐步取消俄罗斯能源进口**
+- **Time**: 2025-10-20
+- **Content**: European Union ministers have backed a strategic plan to phase out the bloc's reliance on Russian gas and oil imports, marking a significant step in energy policy. / 欧盟各国部长已支持一项战略计划，旨在逐步摆脱对俄罗斯天然气和石油进口的依赖，这标志着能源政策迈出了重要一步。
+- **Source**: Sky News
 
 ---
 

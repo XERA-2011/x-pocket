@@ -1,43 +1,51 @@
 # 应用文
 
-## An email to your headteacher suggesting a new school club
-- 给校长写一封建议成立新学校社团的邮件
+## An email inviting your cousin to visit you during the holidays
+- 一封邀请表兄/妹假期来访的邮件
 
 **正文**：
 
-Dear Mr. Harrison,
+Hi [Cousin's Name],
 
-I am writing to suggest a new school club: a Creative Writing Club.
+How are you doing? The summer holiday is just around the corner, and I was thinking it would be great if you could come and stay with us for a week.
 
-Many students enjoy writing stories and poems, but we don't have a club for it. A writing club would be a wonderful place for us to share our work, receive feedback, and improve our skills together. We could hold weekly meetings to discuss ideas, run workshops on different writing styles, and perhaps even invite a local author to speak.
+We could do so many fun things together! There's a new science museum that just opened downtown which looks amazing. We could also spend a day at the beach, and in the evenings, we can watch all the new movies we've missed. My parents would be thrilled to see you too.
 
-I believe this club would be very popular and a great addition to our school's activities.
+Let me know if you think you can make it. I really hope you can come!
 
-Thank you for considering my suggestion.
+Best,
 
-Yours sincerely,
+[Your Name]
 
-Alex Chen
-
-- 尊敬的哈里森先生，
-- 我写信是为了建议成立一个新的学校社团：创意写作社。
-- 许多学生喜欢写故事和诗歌，但我们没有一个专门的社团。写作社将是一个很棒的地方，让我们分享作品、获得反馈并共同提高技能。我们可以每周开会讨论想法，举办关于不同写作风格的工作坊，甚至可以邀请一位本地作家来演讲。
-- 我相信这个社团会非常受欢迎，并成为我们学校活动的一个重要补充。
-- 感谢您考虑我的建议。
-- 此致，
-- Alex Chen
+- 你好，[表兄/妹的名字]，
+- 
+- 最近怎么样？暑假马上就要到了，我在想，如果你能来我们家住一个星期就太好了。
+- 
+- 我们可以一起做好多有趣的事！市中心新开了一家科技馆，看起来特别棒。我们还可以去海滩玩一天，晚上可以看所有我们错过了的新电影。我父母见到你也会特别开心的。
+- 
+- 如果你觉得能来的话，请告诉我。我真的非常希望你能来！
+- 
+- 祝好，
+- 
+- [你的名字]
 
 ---
 
 # 记叙文/短文
 
-## Write a story that ends: I realized that sometimes the best adventures happen close to home.
-- 写一个以下列句子结尾的故事：我意识到，有时最棒的冒险就在家附近。
+## An article for teenagers about the benefits of learning a second language
+- 一篇为青少年写的关于学习第二语言好处的文章
 
 **正文**：
 
-My big hiking trip to the mountains was canceled because of a storm. I was so disappointed and thought my weekend would be incredibly boring. Seeing my sad face, my grandmother suggested I explore the old attic. It was dusty and filled with forgotten things. In a corner, I found an old wooden chest. Inside were my grandfather's journals, filled with hand-drawn maps of our town and notes about "hidden treasures" in the local park. I spent the entire weekend following his clues, discovering a tiny hidden waterfall and a secret garden I never knew existed. I realized that sometimes the best adventures happen close to home.
+**Unlock Your World: Learn a New Language!**
 
-- 我重要的山区远足之旅因为一场风暴而取消了。我非常失望，觉得我的周末会无聊透顶。
-- 奶奶看到我悲伤的脸，建议我去探索一下旧阁楼。那里布满灰尘，堆满了被遗忘的东西。在一个角落里，我发现了一个旧木箱。里面是我祖父的日记，画满了我们小镇的手绘地图，还有关于本地公园里“隐藏宝藏”的笔记。
-- 我花了整个周末跟着他的线索，发现了一个我从未知道存在的小瀑布和一个秘密花园。我意识到，有时最棒的冒险就在家附近。
+Have you ever thought about learning another language? It’s more than just a school subject; it’s a superpower! Learning a language like Spanish or Japanese opens up a whole new world of music, films, and books for you to enjoy.
+
+It’s also fantastic for your brain, helping to improve your memory and making you a better problem-solver. Plus, imagine travelling to another country and being able to chat with the local people in their own language! It makes the experience so much more exciting. So why not start your language journey today?
+
+- **解锁你的世界：学习一门新语言！**
+- 
+- 你有没有想过学习另一门语言？它不仅仅是一个学校科目，更是一种超能力！学习一门像西班牙语或日语这样的语言，会为你打开一个全新的世界，让你享受更多的音乐、电影和书籍。
+- 
+- 这对你的大脑也极有好处，有助于提高你的记忆力，让你更擅长解决问题。另外，想象一下去另一个国家旅行，能用当地人的语言和他们交谈！这会让旅行体验变得更加精彩。那么，为什么不从今天就开始你的语言之旅呢？

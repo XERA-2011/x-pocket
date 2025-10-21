@@ -1,51 +1,32 @@
 # 应用文
 
-## An email inviting your cousin to visit you during the holidays
-- 一封邀请表兄/妹假期来访的邮件
+## A postcard describing an interesting museum you visited
+- 一张描述你参观过的有趣博物馆的明信片
 
 **正文**：
 
-Hi [Cousin's Name],
+Hi Sam,
 
-How are you doing? The summer holiday is just around the corner, and I was thinking it would be great if you could come and stay with us for a week.
+I'm having a fantastic time in London! Yesterday, I visited the Natural History Museum, and it was amazing. The building itself is beautiful, but the best part was the dinosaur exhibition. I saw a huge T-Rex skeleton that was so cool! They also had a special section about earthquakes where you could experience a simulation. It felt so real. The museum is full of incredible things, and I learned so much. You would absolutely love it here.
 
-We could do so many fun things together! There's a new science museum that just opened downtown which looks amazing. We could also spend a day at the beach, and in the evenings, we can watch all the new movies we've missed. My parents would be thrilled to see you too.
+See you soon,
+Alex
 
-Let me know if you think you can make it. I really hope you can come!
-
-Best,
-
-[Your Name]
-
-- 你好，[表兄/妹的名字]，
-- 
-- 最近怎么样？暑假马上就要到了，我在想，如果你能来我们家住一个星期就太好了。
-- 
-- 我们可以一起做好多有趣的事！市中心新开了一家科技馆，看起来特别棒。我们还可以去海滩玩一天，晚上可以看所有我们错过了的新电影。我父母见到你也会特别开心的。
-- 
-- 如果你觉得能来的话，请告诉我。我真的非常希望你能来！
-- 
-- 祝好，
-- 
-- [你的名字]
+- 嗨，山姆，
+- 我在伦敦玩得非常开心！昨天，我参观了自然历史博物馆，简直太棒了。建筑本身就很美，但最精彩的部分是恐龙展览。我看到了一个巨大的霸王龙骨架，太酷了！他们还有一个关于地震的特别展区，你可以在那里体验模拟地震。感觉非常真实。博物馆里充满了不可思议的东西，我学到了很多。你绝对会喜欢这里的。
+- 回头见，
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## An article for teenagers about the benefits of learning a second language
-- 一篇为青少年写的关于学习第二语言好处的文章
+## An article about a traditional celebration in your country
+- 一篇关于你国家传统节日的文章
 
 **正文**：
 
-**Unlock Your World: Learn a New Language!**
+The Spring Festival is the most important celebration in my country. It's a time for family reunion. Before it begins, everyone cleans their homes to sweep away bad luck. On New Year's Eve, families gather to have a big dinner. We often eat dumplings, which represent wealth. Children receive red envelopes with money inside for good luck. People set off firecrackers to scare away evil spirits and welcome the new year. The festival is full of joy and hope for the future, and the celebrations can last for fifteen days.
 
-Have you ever thought about learning another language? It’s more than just a school subject; it’s a superpower! Learning a language like Spanish or Japanese opens up a whole new world of music, films, and books for you to enjoy.
-
-It’s also fantastic for your brain, helping to improve your memory and making you a better problem-solver. Plus, imagine travelling to another country and being able to chat with the local people in their own language! It makes the experience so much more exciting. So why not start your language journey today?
-
-- **解锁你的世界：学习一门新语言！**
-- 
-- 你有没有想过学习另一门语言？它不仅仅是一个学校科目，更是一种超能力！学习一门像西班牙语或日语这样的语言，会为你打开一个全新的世界，让你享受更多的音乐、电影和书籍。
-- 
-- 这对你的大脑也极有好处，有助于提高你的记忆力，让你更擅长解决问题。另外，想象一下去另一个国家旅行，能用当地人的语言和他们交谈！这会让旅行体验变得更加精彩。那么，为什么不从今天就开始你的语言之旅呢？
+- 春节是我国最重要的节日。
+- 这是一个家人团聚的时刻。在春节开始前，家家户户都会打扫房屋，以扫除坏运气。除夕夜，家人们会聚在一起吃一顿丰盛的年夜饭。我们通常会吃饺子，因为它象征着财富。孩子们会收到装有压岁钱的红包，寓意着好运。人们会燃放鞭炮来吓跑邪灵，迎接新的一年。这个节日充满了对未来的喜悦和希望，庆祝活动可以持续十五天。

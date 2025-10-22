@@ -1,59 +1,59 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月20日
-**Update Time**: 22:19 UTC
+**Date**: 2025年10月22日
+**Update Time**: 22:17 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Louvre Museum Hit by Daylight Jewel Heist** / **卢浮宫博物馆遭遇白日珠宝抢劫案**
-- **Time**: 2025-10-20
-- **Content**: Thieves stole crown jewels and necklaces from the Louvre Museum in Paris in a daring four-minute daylight robbery, raising serious concerns about security at the world-renowned institution. The museum remained closed for a full day following the heist to allow for a thorough investigation. / 盗贼在光天化日之下，于短短四分钟内从巴黎卢浮宫博物馆盗走了皇冠珠宝和项链，这起大胆的抢劫案引发了人们对这家世界知名博物馆安保措施的严重担忧。案发后，博物馆关闭了一整天以便进行彻底调查。
-- **Source**: AP News
+### 1. **ICJ Orders Israel to Allow Aid into Gaza** / **国际法院命令以色列允许援助物资进入加沙**
+- **Time**: 2025-10-22
+- **Content**: The International Court of Justice (ICJ) has ordered Israel to take all necessary measures to ensure that basic food supplies can reach the Palestinian population in the Gaza Strip without delay. / 国际法院（ICJ）已命令以色列采取一切必要措施，确保基本食品供应能够毫不拖延地送达加沙地带的巴勒斯坦人民手中。
+- **Source**: Al Jazeera
 
-### 2. **Gaza Ceasefire Holds as Another Hostage's Remains Returned** / **加沙停火持续，又一具人质遗体被送回**
-- **Time**: 2025-10-20
-- **Content**: Palestinian militants in Gaza handed over the remains of another hostage, bringing the total to 13 since the ceasefire began. Meanwhile, Israel has resumed the delivery of humanitarian aid to the region after a temporary halt. / 加沙的巴勒斯坦武装分子交还了另一名人质的遗体，这是自停火开始以来的第13具。与此同时，以色列在短暂停止后，已恢复向该地区运送人道主义援助物资。
-- **Source**: Reuters
-
-### 3. **Rodrigo Paz Becomes Bolivia's First Conservative Leader in Decades** / **罗德里戈·帕斯成为玻利维亚数十年来首位保守派领袖**
-- **Time**: 2025-10-20
-- **Content**: Rodrigo Paz has won the presidential runoff election in Bolivia, marking a significant political shift as he becomes the country's first conservative leader in several decades. / 罗德里戈·帕斯在玻利维亚的总统决选中获胜，标志着该国政治格局的重大转变，他将成为数十年来首位保守派领导人。
-- **Source**: The Guardian
-
-### 4. **Trump Expresses Doubts on Ukraine's Ability to Win War with Russia** / **特朗普对乌克兰赢得与俄罗斯战争的能力表示怀疑**
-- **Time**: 2025-10-20
-- **Content**: Ahead of a meeting with Vladimir Putin, former U.S. President Donald Trump voiced skepticism about Ukraine's chances of winning the war against Russia. He suggested that Ukraine's Donbas region might need to be "cut up" to end the conflict and that land-for-peace might be a necessary compromise. / 在与弗拉基米尔·普京会晤前，美国前总统唐纳德·特朗普对乌克兰在与俄罗斯的战争中获胜的可能性表示怀疑。他暗示，为了结束冲突，可能需要“分割”乌克兰的顿巴斯地区，而以土地换和平或许是必要的妥协。
-- **Source**: The Guardian
-
-### 5. **Russia-Ukraine War: Moscow Reacts to Tomahawk Missile Reports** / **俄乌战争：莫斯科就战斧导弹报道作出反应**
-- **Time**: 2025-10-20
-- **Content**: Moscow has expressed its displeasure over the prospect of Ukraine potentially receiving Tomahawk missiles. In other developments, a Russian gas processing plant was reportedly hit in a new attack, and Russia claims to have taken control of a village in the Donetsk region. / 莫斯科对乌克兰可能接收战斧导弹的前景表示不满。其他方面，据报道，一座俄罗斯天然气加工厂在一次新的袭击中被击中，同时俄罗斯声称已控制顿涅茨克地区的一个村庄。
-- **Source**: Sky News
-
-### 6. **Tropical Storm Fengshen Hits Philippines, Causing Multiple Fatalities** / **热带风暴“风神”袭击菲律宾，造成多人死亡**
-- **Time**: 2025-10-20
-- **Content**: Tropical Storm Fengshen has resulted in seven deaths and forced the evacuation of over 22,000 people in the Philippines, causing widespread disruption. / 热带风暴“风神”在菲律宾已导致7人死亡，并迫使超过22,000人疏散，造成了广泛的混乱。
-- **Source**: The Hindu
-
-### 7. **Prince Andrew Relinquishes Duke of York Title Amid Epstein Allegations** / **在爱泼斯坦相关指控中，安德鲁王子放弃约克公爵头衔**
-- **Time**: 2025-10-20
-- **Content**: As allegations related to his connection with Jeffrey Epstein continue to mount, Prince Andrew has announced that he is relinquishing his title as the Duke of York. / 随着与杰弗里·爱泼斯坦有关的指控不断增多，安德鲁王子宣布他将放弃约克公爵的头衔。
-- **Source**: Fox News
-
-### 8. **Major Amazon Web Services (AWS) Outage Disrupts Global Apps and Websites** / **亚马逊网络服务（AWS）大规模中断，影响全球应用和网站**
-- **Time**: 2025-10-20
-- **Content**: A significant global outage of Amazon Web Services (AWS) caused disruptions for numerous major applications and websites, including the ticketing system for the Toronto Blue Jays. / 亚马逊网络服务（AWS）的一次严重的全球性中断，导致包括多伦多蓝鸟队票务系统在内的许多主要应用程序和网站服务受到影响。
+### 2. **Trump-Putin Talks on Ukraine War Collapse** / **特朗普与普京关于乌克兰战争的会谈破裂**
+- **Time**: 2025-10-22
+- **Content**: Planned talks between former US President Donald Trump and Russian President Vladimir Putin regarding the war in Ukraine have collapsed. Trump confirmed that discussions are currently off the table. / 美国前总统唐纳德·特朗普与俄罗斯总统弗拉基米尔·普京原计划就乌克兰战争举行的会谈已经破裂。特朗普证实，目前双方的讨论已经搁置。
 - **Source**: Global News
 
-### 9. **Iran's Supreme Leader Rejects Trump's Claims of Destroyed Nuclear Sites** / **伊朗最高领袖否认特朗普关于核设施被摧毁的说法**
-- **Time**: 2025-10-20
-- **Content**: Iran's Supreme Leader, Ayatollah Ali Khamenei, has dismissed claims made by former U.S. President Donald Trump that Iranian nuclear sites were destroyed by American strikes in June. / 伊朗最高领袖阿亚图拉·阿里·哈梅内伊驳斥了美国前总统唐纳德·特朗普关于伊朗核设施在6月份被美军袭击摧毁的说法。
-- **Source**: NDTV
+### 3. **Louvre Museum Reopens After Major Jewelry Heist** / **卢浮宫博物馆在重大珠宝盗窃案后重新开放**
+- **Time**: 2025-10-22
+- **Content**: The Louvre Museum in Paris has reopened its doors to the public following the theft of historical royal jewelry estimated to be worth US$102 million. The museum's director has offered her resignation, acknowledging a "terrible failure." / 巴黎卢浮宫博物馆在价值约1.02亿美元的历史皇家珠宝被盗后，已重新向公众开放。博物馆馆长承认存在“严重失误”，并已提出辞职。
+- **Source**: AP News
 
-### 10. **EU Ministers Support Phasing Out Russian Energy Imports** / **欧盟部长支持逐步取消俄罗斯能源进口**
-- **Time**: 2025-10-20
-- **Content**: European Union ministers have backed a strategic plan to phase out the bloc's reliance on Russian gas and oil imports, marking a significant step in energy policy. / 欧盟各国部长已支持一项战略计划，旨在逐步摆脱对俄罗斯天然气和石油进口的依赖，这标志着能源政策迈出了重要一步。
+### 4. **Sanae Takaichi Becomes Japan's First Female Prime Minister** / **高市早苗成为日本首位女首相**
+- **Time**: 2025-10-22
+- **Content**: Sanae Takaichi has been appointed as Japan's first female Prime Minister, a historic moment for the country's politics. / 高市早苗被任命为日本首位女首相，这是该国政治史上的一个历史性时刻。
+- **Source**: The Guardian
+
+### 5. **Former French President Sarkozy Begins Prison Sentence** / **法国前总统萨科齐开始服刑**
+- **Time**: 2025-10-22
+- **Content**: Former French President Nicolas Sarkozy has begun serving a five-year prison sentence for campaign finance conspiracy. / 法国前总统尼古拉·萨科齐因竞选资金丑闻被判五年监禁，并已开始服刑。
+- **Source**: Global News
+
+### 6. **US Missionary Abducted in Niger's Capital** / **美国传教士在尼日尔首都遭绑架**
+- **Time**: 2025-10-22
+- **Content**: A U.S. missionary has been abducted in Niamey, the capital of Niger. The circumstances of the abduction are currently under investigation. / 一名美国传教士在尼日尔首都尼亚美遭到绑架。绑架的具体情况目前正在调查中。
+- **Source**: Al Jazeera
+
+### 7. **Belgium Mandates Indoor Housing for Poultry Amid Bird Flu Outbreak** / **比利时因禽流感爆发强制家禽室内饲养**
+- **Time**: 2025-10-22
+- **Content**: Due to a recent outbreak of bird flu, the Belgian government has mandated that all poultry must be kept indoors to prevent the further spread of the virus. / 由于最近爆发的禽流感，比利时政府已下令所有家禽必须在室内饲养，以防止病毒进一步传播。
+- **Source**: Global News
+
+### 8. **Ukrainian President Zelenskyy to Visit London** / **乌克兰总统泽连斯基将访问伦敦**
+- **Time**: 2025-10-22
+- **Content**: Ukrainian President Volodymyr Zelenskyy is expected to visit London on Friday, following a European summit on Thursday, to discuss further support for Ukraine. / 乌克兰总统弗拉基米尔·泽连斯基预计将于周四参加欧洲峰会后，于周五访问伦敦，讨论对乌克兰的进一步支持。
+- **Source**: Sky News
+
+### 9. **Pakistan Navy Seizes Drugs Worth Nearly $1 Billion** / **巴基斯坦海军缴获价值近10亿美元的毒品**
+- **Time**: 2025-10-22
+- **Content**: The Pakistan navy has seized a large consignment of drugs valued at nearly $1 billion in the Arabian Sea, marking a significant blow to international drug trafficking networks. / 巴基斯坦海军在阿拉伯海缴获了大量毒品，价值近10亿美元，这对国际贩毒网络造成了重大打击。
+- **Source**: Al Jazeera
+
+### 10. **46 Killed in Uganda Bus Collision** / **乌干达公交车相撞事故致46人死亡**
+- **Time**: 2025-10-22
+- **Content**: A tragic collision involving two buses in Uganda has resulted in the deaths of 46 people. The accident is one of the deadliest in the country's recent history. / 乌干达发生一起涉及两辆公交车的悲惨相撞事故，导致46人死亡。这是该国近代史上最致命的交通事故之一。
 - **Source**: Sky News
 
 ---

@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月22日
-**Update Time**: 22:17 UTC
+**Date**: 2025年10月23日
+**Update Time**: 22:19 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **ICJ Orders Israel to Allow Aid into Gaza** / **国际法院命令以色列允许援助物资进入加沙**
-- **Time**: 2025-10-22
-- **Content**: The International Court of Justice (ICJ) has ordered Israel to take all necessary measures to ensure that basic food supplies can reach the Palestinian population in the Gaza Strip without delay. / 国际法院（ICJ）已命令以色列采取一切必要措施，确保基本食品供应能够毫不拖延地送达加沙地带的巴勒斯坦人民手中。
-- **Source**: Al Jazeera
+### 1. **Ukraine Unveils Upgraded Sea Drone** / **乌克兰推出升级版海上无人机**
+- **Time**: 2025-10-23
+- **Content**: Ukraine has developed a new sea drone with an extended range, capable of striking targets anywhere in the Black Sea. / 乌克兰开发了一种新型海上无人机，航程更远，能够打击黑海任何地方的目标。
+- **Source**: Sky News
 
-### 2. **Trump-Putin Talks on Ukraine War Collapse** / **特朗普与普京关于乌克兰战争的会谈破裂**
-- **Time**: 2025-10-22
-- **Content**: Planned talks between former US President Donald Trump and Russian President Vladimir Putin regarding the war in Ukraine have collapsed. Trump confirmed that discussions are currently off the table. / 美国前总统唐纳德·特朗普与俄罗斯总统弗拉基米尔·普京原计划就乌克兰战争举行的会谈已经破裂。特朗普证实，目前双方的讨论已经搁置。
+### 2. **US Imposes New Sanctions on Russia** / **美国对俄罗斯实施新制裁**
+- **Time**: 2025-10-23
+- **Content**: The United States has announced new sanctions targeting Russia's oil sector, aiming to pressure Moscow to end the war in Ukraine. / 美国宣布对俄罗斯石油部门实施新的制裁，旨在向莫斯科施压，以结束乌克兰战争。
+- **Source**: Associated Press
+
+### 3. **Louvre Reopens After Jewel Heist** / **卢浮宫在珠宝盗窃案后重新开放**
+- **Time**: 2025-10-23
+- **Content**: The Louvre Museum in Paris has reopened to the public following a major jewel heist. A manhunt is underway for the thieves who stole an estimated $100 million worth of jewels. / 巴黎卢浮宫博物馆在发生重大珠宝盗窃案后已重新对公众开放。目前警方正在追捕窃贼，他们盗走了价值约1亿美元的珠宝。
 - **Source**: Global News
 
-### 3. **Louvre Museum Reopens After Major Jewelry Heist** / **卢浮宫博物馆在重大珠宝盗窃案后重新开放**
-- **Time**: 2025-10-22
-- **Content**: The Louvre Museum in Paris has reopened its doors to the public following the theft of historical royal jewelry estimated to be worth US$102 million. The museum's director has offered her resignation, acknowledging a "terrible failure." / 巴黎卢浮宫博物馆在价值约1.02亿美元的历史皇家珠宝被盗后，已重新向公众开放。博物馆馆长承认存在“严重失误”，并已提出辞职。
-- **Source**: AP News
-
-### 4. **Sanae Takaichi Becomes Japan's First Female Prime Minister** / **高市早苗成为日本首位女首相**
-- **Time**: 2025-10-22
-- **Content**: Sanae Takaichi has been appointed as Japan's first female Prime Minister, a historic moment for the country's politics. / 高市早苗被任命为日本首位女首相，这是该国政治史上的一个历史性时刻。
-- **Source**: The Guardian
+### 4. **International Court Orders Israel to Allow UN Aid into Gaza** / **国际法院命令以色列允许联合国援助物资进入加沙**
+- **Time**: 2025-10-23
+- **Content**: The International Court of Justice has ordered Israel to facilitate the entry of UN humanitarian aid into the Gaza Strip. / 国际法院已下令以色列为联合国人道主义援助物资进入加沙地带提供便利。
+- **Source**: Global News
 
 ### 5. **Former French President Sarkozy Begins Prison Sentence** / **法国前总统萨科齐开始服刑**
-- **Time**: 2025-10-22
-- **Content**: Former French President Nicolas Sarkozy has begun serving a five-year prison sentence for campaign finance conspiracy. / 法国前总统尼古拉·萨科齐因竞选资金丑闻被判五年监禁，并已开始服刑。
+- **Time**: 2025-10-23
+- **Content**: Nicolas Sarkozy, the former president of France, has started a five-year prison sentence for illegal campaign financing. / 法国前总统尼古拉·萨科齐因非法竞选筹资被判处五年徒刑，并已开始服刑。
 - **Source**: Global News
 
-### 6. **US Missionary Abducted in Niger's Capital** / **美国传教士在尼日尔首都遭绑架**
-- **Time**: 2025-10-22
-- **Content**: A U.S. missionary has been abducted in Niamey, the capital of Niger. The circumstances of the abduction are currently under investigation. / 一名美国传教士在尼日尔首都尼亚美遭到绑架。绑架的具体情况目前正在调查中。
-- **Source**: Al Jazeera
-
-### 7. **Belgium Mandates Indoor Housing for Poultry Amid Bird Flu Outbreak** / **比利时因禽流感爆发强制家禽室内饲养**
-- **Time**: 2025-10-22
-- **Content**: Due to a recent outbreak of bird flu, the Belgian government has mandated that all poultry must be kept indoors to prevent the further spread of the virus. / 由于最近爆发的禽流感，比利时政府已下令所有家禽必须在室内饲养，以防止病毒进一步传播。
+### 6. **Trump Pardons Canadian Crypto Billionaire** / **特朗普赦免加拿大加密货币亿万富翁**
+- **Time**: 2025-10-23
+- **Content**: US President Donald Trump has pardoned Changpeng Zhao, the Canadian founder of the cryptocurrency exchange Binance, who had pleaded guilty to money laundering charges. / 美国总统唐纳德·特朗普赦免了加拿大加密货币交易所币安创始人赵长鹏，他此前已承认洗钱指控。
 - **Source**: Global News
 
-### 8. **Ukrainian President Zelenskyy to Visit London** / **乌克兰总统泽连斯基将访问伦敦**
-- **Time**: 2025-10-22
-- **Content**: Ukrainian President Volodymyr Zelenskyy is expected to visit London on Friday, following a European summit on Thursday, to discuss further support for Ukraine. / 乌克兰总统弗拉基米尔·泽连斯基预计将于周四参加欧洲峰会后，于周五访问伦敦，讨论对乌克兰的进一步支持。
-- **Source**: Sky News
+### 7. **New Zealand Public Sector Workers Hold "Mega Strike"** / **新西兰公共部门工作人员举行“大规模罢工”**
+- **Time**: 2025-10-23
+- **Content**: Around 100,000 public sector workers in New Zealand have gone on strike, demanding better pay and working conditions. / 新西兰约10万名公共部门工作人员举行罢工，要求提高工资和改善工作条件。
+- **Source**: The Guardian
 
-### 9. **Pakistan Navy Seizes Drugs Worth Nearly $1 Billion** / **巴基斯坦海军缴获价值近10亿美元的毒品**
-- **Time**: 2025-10-22
-- **Content**: The Pakistan navy has seized a large consignment of drugs valued at nearly $1 billion in the Arabian Sea, marking a significant blow to international drug trafficking networks. / 巴基斯坦海军在阿拉伯海缴获了大量毒品，价值近10亿美元，这对国际贩毒网络造成了重大打击。
-- **Source**: Al Jazeera
+### 8. **Thailand to Allow Myanmar Refugees to Work** / **泰国将允许缅甸难民工作**
+- **Time**: 2025-10-23
+- **Content**: Thailand's government has announced a plan to allow refugees from Myanmar to legally work in the country, addressing labor shortages and a decline in international aid. / 泰国政府宣布一项计划，允许来自缅甸的难民在该国合法工作，以解决劳动力短缺和国际援助减少的问题。
+- **Source**: The Guardian
 
-### 10. **46 Killed in Uganda Bus Collision** / **乌干达公交车相撞事故致46人死亡**
-- **Time**: 2025-10-22
-- **Content**: A tragic collision involving two buses in Uganda has resulted in the deaths of 46 people. The accident is one of the deadliest in the country's recent history. / 乌干达发生一起涉及两辆公交车的悲惨相撞事故，导致46人死亡。这是该国近代史上最致命的交通事故之一。
-- **Source**: Sky News
+### 9. **Cuba Arrests Alleged Chinese Fentanyl Kingpin** / **古巴逮捕涉嫌芬太尼贩毒的中国籍主犯**
+- **Time**: 2025-10-23
+- **Content**: Cuban authorities have arrested a Chinese national accused of being a major fentanyl trafficker who had escaped from custody in Mexico. / 古巴当局逮捕了一名中国籍男子，他被控为芬太尼主要贩毒者，并曾于墨西哥越狱。
+- **Source**: The Guardian
+
+### 10. **British Woman on Death Row in Bali to be Repatriated** / **在巴厘岛被判死刑的英国女子将被遣返**
+- **Time**: 2025-10-23
+- **Content**: A British woman sentenced to death in Bali for drug smuggling is set to be repatriated to the UK to serve her sentence there. / 一名因贩毒在巴厘岛被判处死刑的英国女子将被遣返回英国服刑。
+- **Source**: The Guardian
 
 ---
 

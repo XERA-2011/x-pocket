@@ -5,24 +5,21 @@
 
 **正文**：
 
-Subject: Directions to my new place!
-
 Hi Alex,
 
-I'm so excited for you to come to my housewarming party this Saturday!
+I'm so excited for you to visit my new house this Saturday! Here are the directions.
 
-It's quite easy to get here. If you take the train, get off at Central Station. From there, take the number 5 bus towards the City Library and get off at the third stop, which is Oak Street. Walk straight ahead for about 200 meters, and you'll see a small bakery on the corner. My house is right opposite the bakery, number 34. It has a red door, so you can't miss it!
+Take the number 15 bus from the city centre and get off at the Oakwood stop, which is right next to a large park. Walk past the park entrance and take the first right onto Maple Avenue. My house is number 23, the one with a bright blue door and some lovely flowers in the front garden. You can't miss it! If you get lost, just give me a call.
 
-Let me know if you have any trouble finding it.
+See you soon!
 
 Best,
 Chris
 
-- 主题：来我新家的路线！
 - 嗨，亚历克斯，
-- 很高兴你这周六能来我的乔迁派对！
-- 到这里很方便。如果你坐火车，就在中央车站下车。从那里，乘坐5路公交车，往城市图书馆方向，在第三站橡树街下车。然后直走大约200米，你会在拐角处看到一家小面包店。我的房子就在面包店正对面，是34号。门是红色的，所以你不会错过的！
-- 如果找不到路，随时告诉我。
+- 很高兴你这周六能来我的新家！这是路线指引。
+- 从市中心乘坐15路公交车，在奥克伍德站下车，车站旁边就是一个大公园。走过公园入口，在第一个路口右转进入枫树大道。我家是23号，门是亮蓝色的，前院里还有一些漂亮的花。你肯定不会错过的！如果迷路了，就给我打电话。
+- 期待很快见到你！
 - 祝好，
 - 克里斯
 
@@ -30,11 +27,14 @@ Chris
 
 # 记叙文/短文
 
-## Write a story ending: That experience taught me never to judge people too quickly.
-- 写一个以下列句子结尾的故事：那次经历教会了我永远不要过早地对人下定论。
+## Write a story beginning: The phone rang at midnight and changed everything.
+- 写一个以下列句子开头的故事：午夜时分，电话铃响了，一切都改变了。
 
 **正文**：
 
-My new neighbor, Mr. Harrison, was a grumpy old man who never smiled. He always wore dark clothes and would shout if our ball went into his yard. I thought he was the meanest person in the world. One afternoon, I heard a soft meowing sound from his garden. I peeked through the fence and saw Mr. Harrison gently feeding a tiny, injured kitten. He had made a small bed for it in a box and was speaking to it in a soft, kind voice. That experience taught me never to judge people too quickly.
+The phone rang at midnight and changed everything. I was half-asleep, but the urgent sound made my heart race. It was my older sister, her voice trembling. "He's gone," she whispered. I didn't need to ask who. Our grandfather, a man who was a mountain of strength for our family, had passed away.
 
-- 我的新邻居哈里森先生是个从不微笑的暴躁老人。他总是穿着深色的衣服，如果我们的球滚进他的院子，他就会大喊大叫。我曾以为他是世界上最刻薄的人。一天下午，我听到从他花园里传来微弱的猫叫声。我从篱笆缝里偷看，竟看到哈里森先生正在温柔地喂养一只受伤的小猫。他用一个箱子为小猫铺了张小床，并用轻柔、和善的语气跟它说话。那次经历教会了我永远不要过早地对人下定论。
+The next few days were a blur of tears and travel. We returned to our childhood home, a place once filled with his laughter. Suddenly, I wasn't a child anymore. I had to be strong for my family, just as he had always been for us.
+
+- 午夜时分，电话铃响了，一切都改变了。我本已半梦半醒，但那急促的铃声让我的心跳加速。是我姐姐打来的，她的声音在颤抖。“他走了，”她低声说。我无需问是谁。我们的祖父，那个曾是我们家力量支柱的男人，去世了。
+- 接下来的几天是在泪水和奔波中度过的，一片模糊。我们回到了童年的家，那个曾经充满他笑声的地方。突然间，我不再是个孩子了。我必须为我的家人坚强起来，就像他一直为我们所做的那样。

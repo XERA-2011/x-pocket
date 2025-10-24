@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月23日
+**Date**: 2025年10月24日
 **Update Time**: 22:19 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Ukraine Unveils Upgraded Sea Drone** / **乌克兰推出升级版海上无人机**
-- **Time**: 2025-10-23
-- **Content**: Ukraine has developed a new sea drone with an extended range, capable of striking targets anywhere in the Black Sea. / 乌克兰开发了一种新型海上无人机，航程更远，能够打击黑海任何地方的目标。
-- **Source**: Sky News
-
-### 2. **US Imposes New Sanctions on Russia** / **美国对俄罗斯实施新制裁**
-- **Time**: 2025-10-23
-- **Content**: The United States has announced new sanctions targeting Russia's oil sector, aiming to pressure Moscow to end the war in Ukraine. / 美国宣布对俄罗斯石油部门实施新的制裁，旨在向莫斯科施压，以结束乌克兰战争。
-- **Source**: Associated Press
-
-### 3. **Louvre Reopens After Jewel Heist** / **卢浮宫在珠宝盗窃案后重新开放**
-- **Time**: 2025-10-23
-- **Content**: The Louvre Museum in Paris has reopened to the public following a major jewel heist. A manhunt is underway for the thieves who stole an estimated $100 million worth of jewels. / 巴黎卢浮宫博物馆在发生重大珠宝盗窃案后已重新对公众开放。目前警方正在追捕窃贼，他们盗走了价值约1亿美元的珠宝。
-- **Source**: Global News
-
-### 4. **International Court Orders Israel to Allow UN Aid into Gaza** / **国际法院命令以色列允许联合国援助物资进入加沙**
-- **Time**: 2025-10-23
-- **Content**: The International Court of Justice has ordered Israel to facilitate the entry of UN humanitarian aid into the Gaza Strip. / 国际法院已下令以色列为联合国人道主义援助物资进入加沙地带提供便利。
-- **Source**: Global News
-
-### 5. **Former French President Sarkozy Begins Prison Sentence** / **法国前总统萨科齐开始服刑**
-- **Time**: 2025-10-23
-- **Content**: Nicolas Sarkozy, the former president of France, has started a five-year prison sentence for illegal campaign financing. / 法国前总统尼古拉·萨科齐因非法竞选筹资被判处五年徒刑，并已开始服刑。
-- **Source**: Global News
-
-### 6. **Trump Pardons Canadian Crypto Billionaire** / **特朗普赦免加拿大加密货币亿万富翁**
-- **Time**: 2025-10-23
-- **Content**: US President Donald Trump has pardoned Changpeng Zhao, the Canadian founder of the cryptocurrency exchange Binance, who had pleaded guilty to money laundering charges. / 美国总统唐纳德·特朗普赦免了加拿大加密货币交易所币安创始人赵长鹏，他此前已承认洗钱指控。
-- **Source**: Global News
-
-### 7. **New Zealand Public Sector Workers Hold "Mega Strike"** / **新西兰公共部门工作人员举行“大规模罢工”**
-- **Time**: 2025-10-23
-- **Content**: Around 100,000 public sector workers in New Zealand have gone on strike, demanding better pay and working conditions. / 新西兰约10万名公共部门工作人员举行罢工，要求提高工资和改善工作条件。
+### 1. **UK Pledges to Cut Off Russian Oil and Gas** / **英国承诺切断俄罗斯石油和天然气**
+- **Time**: 2025-10-24
+- **Content**: UK's Labour leader Keir Starmer announced that a coalition government would aim to eliminate Russian oil and gas from the market, thereby cutting off a major source of funding for the war in Ukraine. / 英国工党领袖基尔·斯塔默宣布，联合政府将致力于将俄罗斯石油和天然气从市场上剔除，从而切断俄罗斯在乌克兰战争的主要资金来源。
 - **Source**: The Guardian
 
-### 8. **Thailand to Allow Myanmar Refugees to Work** / **泰国将允许缅甸难民工作**
-- **Time**: 2025-10-23
-- **Content**: Thailand's government has announced a plan to allow refugees from Myanmar to legally work in the country, addressing labor shortages and a decline in international aid. / 泰国政府宣布一项计划，允许来自缅甸的难民在该国合法工作，以解决劳动力短缺和国际援助减少的问题。
+### 2. **Palestinian Factions Agree on Technocratic Committee for Gaza** / **巴勒斯坦各派同意成立加沙技术官僚委员会**
+- **Time**: 2025-10-24
+- **Content**: Various Palestinian factions have reportedly agreed to the formation of an independent committee of technocrats to manage basic services in Gaza, in cooperation with Arab nations and international institutions. / 据报道，巴勒斯坦各派已同意成立一个独立的技术官僚委员会，与阿拉伯国家和国际机构合作，管理加沙的基本服务。
 - **Source**: The Guardian
 
-### 9. **Cuba Arrests Alleged Chinese Fentanyl Kingpin** / **古巴逮捕涉嫌芬太尼贩毒的中国籍主犯**
-- **Time**: 2025-10-23
-- **Content**: Cuban authorities have arrested a Chinese national accused of being a major fentanyl trafficker who had escaped from custody in Mexico. / 古巴当局逮捕了一名中国籍男子，他被控为芬太尼主要贩毒者，并曾于墨西哥越狱。
+### 3. **Trump Pardons Former Binance CEO Changpeng Zhao** / **特朗普赦免前币安CEO赵长鹏**
+- **Time**: 2025-10-24
+- **Content**: President Trump has issued a pardon for Changpeng Zhao, the former CEO of Binance, who was previously convicted of money laundering charges. / 特朗普总统赦免了前币安首席执行官赵长鹏，他此前因洗钱指控被定罪。
+- **Source**: Al Jazeera
+
+### 4. **Japan Appoints First Female Prime Minister, Sanae Takaichi** / **日本任命首位女首相高市早苗**
+- **Time**: 2025-10-24
+- **Content**: Sanae Takaichi has been appointed as Japan's first female Prime Minister. Her appointment is expected to lead to a rightward shift in the country's political landscape. / 高市早苗被任命为日本首位女首相。预计她的任命将导致该国政治格局向右转。
+- **Source**: Global News
+
+### 5. **French Biathlon Star Julia Simon Convicted of Theft** / **法国冬季两项明星朱莉娅·西蒙被判盗窃罪**
+- **Time**: 2025-10-24
+- **Content**: French biathlon star Julia Simon has been found guilty of theft and credit card fraud, a verdict that has shocked the world of winter sports. / 法国冬季两项明星朱莉娅·西蒙被判犯有盗窃罪和信用卡欺诈罪，这一判决震惊了冬季体育界。
 - **Source**: The Guardian
 
-### 10. **British Woman on Death Row in Bali to be Repatriated** / **在巴厘岛被判死刑的英国女子将被遣返**
-- **Time**: 2025-10-23
-- **Content**: A British woman sentenced to death in Bali for drug smuggling is set to be repatriated to the UK to serve her sentence there. / 一名因贩毒在巴厘岛被判处死刑的英国女子将被遣返回英国服刑。
+### 6. **Delhi Trials Cloud Seeding to Combat Air Pollution** / **德里试行人工降雨以应对空气污染**
+- **Time**: 2025-10-24
+- **Content**: In an effort to combat severe air pollution, the city of Delhi in India has begun trials of cloud seeding technology to induce artificial rain. / 为应对严重的空气污染，印度德里市已开始试行人工增雨技术以进行人工降雨。
 - **Source**: The Guardian
+
+### 7. **US Ends Trade Talks with Canada Over Ad Critical of Tariffs** / **因批评关税的广告，美国终止与加拿大的贸易谈判**
+- **Time**: 2025-10-24
+- **Content**: The Trump administration has reportedly halted trade negotiations with Canada following the airing of an advertisement that criticized US tariffs. / 据报道，在播出批评美国关税的广告后，特朗普政府已停止与加拿大的贸易谈判。
+- **Source**: Global News
+
+### 8. **Mystery of Missing Picasso Painting Solved** / **毕加索失踪画作之谜解开**
+- **Time**: 2025-10-24
+- **Content**: A long-standing mystery in the art world has been resolved with the discovery of a Picasso painting that had been missing for decades. / 随着一幅失踪数十年的毕加索画作的发现，艺术界一个长期存在的谜团得以解开。
+- **Source**: The Guardian
+
+### 9. **New Zealand Public Sector Workers on "Mega Strike"** / **新西兰公共部门工作人员举行“大规模罢工”**
+- **Time**: 2025-10-24
+- **Content**: Public sector workers in New Zealand have launched a "mega strike," demanding improved working conditions and better pay. / 新西兰的公共部门工作人员发起了“大规模罢工”，要求改善工作条件和提高工资。
+- **Source**: The Guardian
+
+### 10. **Jewel Heist at the Louvre Museum** / **卢浮宫博物馆发生珠宝抢劫案**
+- **Time**: 2025-10-24
+- **Content**: Thieves have stolen gold and silver coins in a daring jewel heist at the Louvre Museum in Paris, escaping before they could be apprehended. / 盗贼在巴黎卢浮宫博物馆一次大胆的珠宝抢劫案中偷走了金币和银币，并在被捕前逃脱。
+- **Source**: Global News
 
 ---
 

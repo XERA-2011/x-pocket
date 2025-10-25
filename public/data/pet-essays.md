@@ -1,40 +1,41 @@
 # 应用文
 
-## An email giving directions to your new house
-- 一封指引前往你新家的邮件
+## An email to your headteacher suggesting a new school club
+- 给校长写一封建议成立新学校社团的邮件
 
 **正文**：
 
-Hi Alex,
+Dear Mr. Harrison,
 
-I'm so excited for you to visit my new house this Saturday! Here are the directions.
+My name is Tom White from Class 9B. I am writing to suggest a new school club: a Creative Writing Club.
 
-Take the number 15 bus from the city centre and get off at the Oakwood stop, which is right next to a large park. Walk past the park entrance and take the first right onto Maple Avenue. My house is number 23, the one with a bright blue door and some lovely flowers in the front garden. You can't miss it! If you get lost, just give me a call.
+Many students love writing stories and poems, but we don't have a club for it. This club would be a great place for us to share our work, get feedback, and improve our skills. We could hold weekly meetings to discuss different writing styles and even invite local authors to speak. I believe this would help students express themselves better and build their confidence.
 
-See you soon!
+Thank you for considering my suggestion.
 
-Best,
-Chris
+Yours sincerely,
 
-- 嗨，亚历克斯，
-- 很高兴你这周六能来我的新家！这是路线指引。
-- 从市中心乘坐15路公交车，在奥克伍德站下车，车站旁边就是一个大公园。走过公园入口，在第一个路口右转进入枫树大道。我家是23号，门是亮蓝色的，前院里还有一些漂亮的花。你肯定不会错过的！如果迷路了，就给我打电话。
-- 期待很快见到你！
-- 祝好，
-- 克里斯
+Tom White
+
+- 尊敬的哈里森先生，
+- 我是九年级B班的汤姆·怀特。我写信是为了建议成立一个新的学校社团：创意写作社。
+- 许多学生都喜欢写故事和诗歌，但我们没有一个专门的社团。这个社团将是一个很棒的平台，让我们分享作品、获得反馈并提升技巧。我们可以每周开会讨论不同的写作风格，甚至可以邀请本地作家来做讲座。我相信这能帮助学生更好地表达自我，建立自信。
+- 感谢您考虑我的建议。
+- 此致，
+- 汤姆·怀特
 
 ---
 
 # 记叙文/短文
 
-## Write a story beginning: The phone rang at midnight and changed everything.
-- 写一个以下列句子开头的故事：午夜时分，电话铃响了，一切都改变了。
+## Write a story about a misunderstanding that had a happy ending
+- 写一个关于误会最终皆大欢喜的故事
 
 **正文**：
 
-The phone rang at midnight and changed everything. I was half-asleep, but the urgent sound made my heart race. It was my older sister, her voice trembling. "He's gone," she whispered. I didn't need to ask who. Our grandfather, a man who was a mountain of strength for our family, had passed away.
+Last Saturday, I saw my best friend, Lily, walking on the other side of the street. I waved and shouted her name, but she just looked at me and walked away quickly. I was so hurt and confused. I thought she was angry with me, but I didn't know why. I spent the whole weekend feeling sad.
 
-The next few days were a blur of tears and travel. We returned to our childhood home, a place once filled with his laughter. Suddenly, I wasn't a child anymore. I had to be strong for my family, just as he had always been for us.
+On Monday, Lily ran up to me at school. "I'm so sorry!" she said. "I lost my glasses on Friday and couldn't see anything! My mum just got me a new pair this morning." I started laughing, completely relieved.
 
-- 午夜时分，电话铃响了，一切都改变了。我本已半梦半醒，但那急促的铃声让我的心跳加速。是我姐姐打来的，她的声音在颤抖。“他走了，”她低声说。我无需问是谁。我们的祖父，那个曾是我们家力量支柱的男人，去世了。
-- 接下来的几天是在泪水和奔波中度过的，一片模糊。我们回到了童年的家，那个曾经充满他笑声的地方。突然间，我不再是个孩子了。我必须为我的家人坚强起来，就像他一直为我们所做的那样。
+- 上周六，我看到我最好的朋友莉莉在街对面走。我向她挥手并喊了她的名字，但她只是看了我一眼就匆匆走开了。我感到既伤心又困惑。我以为她生我的气了，却不知道为什么。我整个周末都很难过。
+- 星期一，莉莉在学校里向我跑来。“太对不起了！”她说，“我周五把眼镜弄丢了，什么都看不清！我妈妈今天早上才刚给我配了副新的。”我如释重负，大笑了起来。

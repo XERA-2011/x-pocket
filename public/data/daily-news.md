@@ -1,59 +1,59 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月24日
-**Update Time**: 22:19 UTC
+**Date**: 2025年10月25日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **UK Pledges to Cut Off Russian Oil and Gas** / **英国承诺切断俄罗斯石油和天然气**
-- **Time**: 2025-10-24
-- **Content**: UK's Labour leader Keir Starmer announced that a coalition government would aim to eliminate Russian oil and gas from the market, thereby cutting off a major source of funding for the war in Ukraine. / 英国工党领袖基尔·斯塔默宣布，联合政府将致力于将俄罗斯石油和天然气从市场上剔除，从而切断俄罗斯在乌克兰战争的主要资金来源。
+### 1. **Catherine Connolly Wins Irish Presidential Election** / **凯瑟琳·康诺利赢得爱尔兰总统选举**
+- **Time**: 2025-10-25
+- **Content**: Left-winger Catherine Connolly has won the Irish presidential election by a landslide, securing 63% of the vote. Her victory marks a significant political shift in the country. / 左翼人士凯瑟琳·康诺利以63%的得票率压倒性赢得爱尔兰总统选举。她的胜利标志着该国政治格局的重大转变。
 - **Source**: The Guardian
 
-### 2. **Palestinian Factions Agree on Technocratic Committee for Gaza** / **巴勒斯坦各派同意成立加沙技术官僚委员会**
-- **Time**: 2025-10-24
-- **Content**: Various Palestinian factions have reportedly agreed to the formation of an independent committee of technocrats to manage basic services in Gaza, in cooperation with Arab nations and international institutions. / 据报道，巴勒斯坦各派已同意成立一个独立的技术官僚委员会，与阿拉伯国家和国际机构合作，管理加沙的基本服务。
+### 2. **Argentina Holds Elections Amidst Economic Crisis** / **阿根廷在经济危机中举行选举**
+- **Time**: 2025-10-25
+- **Content**: Argentinians are heading to the polls for a presidential election overshadowed by a severe economic crisis, with high inflation and poverty rates dominating the political discourse. / 阿根廷民众在严重的经济危机下前往投票站参加总统选举，高通货膨胀率和贫困率主导了政治议程。
 - **Source**: The Guardian
 
-### 3. **Trump Pardons Former Binance CEO Changpeng Zhao** / **特朗普赦免前币安CEO赵长鹏**
-- **Time**: 2025-10-24
-- **Content**: President Trump has issued a pardon for Changpeng Zhao, the former CEO of Binance, who was previously convicted of money laundering charges. / 特朗普总统赦免了前币安首席执行官赵长鹏，他此前因洗钱指控被定罪。
+### 3. **Israel-Hamas Conflict Continues with Civilian Casualties** / **以色列与哈马斯冲突持续，平民伤亡不断**
+- **Time**: 2025-10-25
+- **Content**: The conflict in Gaza continues to take a toll on civilians, with reports of twins being wounded by a bomb they mistook for a toy. Settler attacks in the West Bank are also reportedly surging. / 加沙冲突继续对平民造成伤害，有报道称一对双胞胎因误将炸弹当成玩具而受伤。约旦河西岸的定居者袭击事件也据报激增。
+- **Source**: Global News
+
+### 4. **Russian Missile and Drone Attacks Kill Four in Ukraine** / **俄罗斯导弹和无人机袭击在乌克兰造成四人死亡**
+- **Time**: 2025-10-25
+- **Content**: Russian missile and drone strikes have killed at least four people in Ukraine. President Zelenskyy is urging the US to broaden sanctions on Russian oil and is seeking long-range missiles for defense. / 俄罗斯的导弹和无人机袭击在乌克兰造成至少四人死亡。乌克兰总统泽连斯基敦促美国扩大对俄罗斯石油的制裁，并寻求获得远程导弹用于防御。
 - **Source**: Al Jazeera
 
-### 4. **Japan Appoints First Female Prime Minister, Sanae Takaichi** / **日本任命首位女首相高市早苗**
-- **Time**: 2025-10-24
-- **Content**: Sanae Takaichi has been appointed as Japan's first female Prime Minister. Her appointment is expected to lead to a rightward shift in the country's political landscape. / 高市早苗被任命为日本首位女首相。预计她的任命将导致该国政治格局向右转。
+### 5. **Thailand's Queen Mother Sirikit Dies at 93** / **泰国王太后诗丽吉去世，享年93岁**
+- **Time**: 2025-10-25
+- **Content**: Thailand's Queen Mother Sirikit has passed away at the age of 93. She had been out of the public eye for more than a decade due to health reasons. / 泰国王太后诗丽吉去世，享年93岁。由于健康原因，她已淡出公众视野十多年。
+- **Source**: The Guardian
+
+### 6. **Tropical Storm Melissa Intensifies into Hurricane** / **热带风暴梅丽莎加强为飓风**
+- **Time**: 2025-10-25
+- **Content**: Tropical Storm Melissa has strengthened into a hurricane and is threatening to bring catastrophic flooding to the northern Caribbean. / 热带风暴梅丽莎已加强为飓风，并可能给加勒比海北部地区带来灾难性洪水。
 - **Source**: Global News
 
-### 5. **French Biathlon Star Julia Simon Convicted of Theft** / **法国冬季两项明星朱莉娅·西蒙被判盗窃罪**
-- **Time**: 2025-10-24
-- **Content**: French biathlon star Julia Simon has been found guilty of theft and credit card fraud, a verdict that has shocked the world of winter sports. / 法国冬季两项明星朱莉娅·西蒙被判犯有盗窃罪和信用卡欺诈罪，这一判决震惊了冬季体育界。
+### 7. **US President Embarks on High-Stakes Asia Tour** / **美国总统开启高风险亚洲之行**
+- **Time**: 2025-10-25
+- **Content**: The US President has started a tour of Asia, with planned high-stakes trade talks with the Chinese leader and has stated he is open to meeting with the North Korean leader. / 美国总统已开始其亚洲之行，计划与中国领导人举行高风险的贸易谈判，并表示对与朝鲜领导人会晤持开放态度。
 - **Source**: The Guardian
 
-### 6. **Delhi Trials Cloud Seeding to Combat Air Pollution** / **德里试行人工降雨以应对空气污染**
-- **Time**: 2025-10-24
-- **Content**: In an effort to combat severe air pollution, the city of Delhi in India has begun trials of cloud seeding technology to induce artificial rain. / 为应对严重的空气污染，印度德里市已开始试行人工增雨技术以进行人工降雨。
+### 8. **Sudan's Civil War Rages On with Army Battling RSF Advances** / **苏丹内战持续，军队与快速支援部队激战**
+- **Time**: 2025-10-25
+- **Content**: Sudan's civil war continues as the national army battles to halt the advances of the Rapid Support Forces (RSF) in the cities of el-Fasher and Bara. / 苏丹内战仍在继续，国家军队正在法希尔和巴拉市与快速支援部队（RSF）激战，以阻止其推进。
+- **Source**: Al Jazeera
+
+### 9. **Japanese Tourist Dies After Fall from Pantheon in Rome** / **一名日本游客在罗马万神殿坠亡**
+- **Time**: 2025-10-25
+- **Content**: A tourist from Japan has died after falling from the Pantheon in Rome, one of the city's most famous ancient monuments. / 一名来自日本的游客在罗马最著名的古迹之一万神殿坠落身亡。
 - **Source**: The Guardian
 
-### 7. **US Ends Trade Talks with Canada Over Ad Critical of Tariffs** / **因批评关税的广告，美国终止与加拿大的贸易谈判**
-- **Time**: 2025-10-24
-- **Content**: The Trump administration has reportedly halted trade negotiations with Canada following the airing of an advertisement that criticized US tariffs. / 据报道，在播出批评美国关税的广告后，特朗普政府已停止与加拿大的贸易谈判。
-- **Source**: Global News
-
-### 8. **Mystery of Missing Picasso Painting Solved** / **毕加索失踪画作之谜解开**
-- **Time**: 2025-10-24
-- **Content**: A long-standing mystery in the art world has been resolved with the discovery of a Picasso painting that had been missing for decades. / 随着一幅失踪数十年的毕加索画作的发现，艺术界一个长期存在的谜团得以解开。
-- **Source**: The Guardian
-
-### 9. **New Zealand Public Sector Workers on "Mega Strike"** / **新西兰公共部门工作人员举行“大规模罢工”**
-- **Time**: 2025-10-24
-- **Content**: Public sector workers in New Zealand have launched a "mega strike," demanding improved working conditions and better pay. / 新西兰的公共部门工作人员发起了“大规模罢工”，要求改善工作条件和提高工资。
-- **Source**: The Guardian
-
-### 10. **Jewel Heist at the Louvre Museum** / **卢浮宫博物馆发生珠宝抢劫案**
-- **Time**: 2025-10-24
-- **Content**: Thieves have stolen gold and silver coins in a daring jewel heist at the Louvre Museum in Paris, escaping before they could be apprehended. / 盗贼在巴黎卢浮宫博物馆一次大胆的珠宝抢劫案中偷走了金币和银币，并在被捕前逃脱。
+### 10. **French Museum Robbed of Gold and Silver Coins** / **法国一博物馆金银币被盗**
+- **Time**: 2025-10-25
+- **Content**: A museum in France has been robbed of a collection of gold and silver coins, just hours after a separate theft occurred at the Louvre Museum in Paris. / 法国一家博物馆收藏的金银币被盗，而就在几小时前，巴黎卢浮宫也发生了一起盗窃案。
 - **Source**: Global News
 
 ---

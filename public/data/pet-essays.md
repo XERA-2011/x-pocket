@@ -1,41 +1,37 @@
 # 应用文
 
-## An email to your headteacher suggesting a new school club
-- 给校长写一封建议成立新学校社团的邮件
+## An email to a local newspaper giving your opinion on recycling
+- 给当地报社的关于你对回收利用看法的邮件
 
 **正文**：
 
-Dear Mr. Harrison,
+Dear Editor,
 
-My name is Tom White from Class 9B. I am writing to suggest a new school club: a Creative Writing Club.
+I am writing to express my strong support for improving recycling facilities in our town. Recycling is one of the easiest and most effective ways for us to protect the environment. It reduces waste in landfills, saves energy, and conserves natural resources.
 
-Many students love writing stories and poems, but we don't have a club for it. This club would be a great place for us to share our work, get feedback, and improve our skills. We could hold weekly meetings to discuss different writing styles and even invite local authors to speak. I believe this would help students express themselves better and build their confidence.
+Currently, the recycling bins are often full, and the collection service is not frequent enough. I believe the council should invest in more bins and increase collections to twice a week. This would encourage more residents to recycle regularly. Making recycling easier for everyone is a crucial step towards a greener future for our community.
 
-Thank you for considering my suggestion.
+Sincerely,
+Alex Chen
 
-Yours sincerely,
-
-Tom White
-
-- 尊敬的哈里森先生，
-- 我是九年级B班的汤姆·怀特。我写信是为了建议成立一个新的学校社团：创意写作社。
-- 许多学生都喜欢写故事和诗歌，但我们没有一个专门的社团。这个社团将是一个很棒的平台，让我们分享作品、获得反馈并提升技巧。我们可以每周开会讨论不同的写作风格，甚至可以邀请本地作家来做讲座。我相信这能帮助学生更好地表达自我，建立自信。
-- 感谢您考虑我的建议。
+- 尊敬的编辑，
+- 我写信是为了表达我对改善我们城镇回收设施的强烈支持。回收利用是我们保护环境最简单、最有效的方法之一。它能减少垃圾填埋场的废物，节约能源，并保护自然资源。
+- 目前，回收箱常常是满的，而且回收服务也不够频繁。我认为市政会应该投资增设更多的回收箱，并将回收次数增加到每周两次。这将鼓励更多居民定期进行回收。让每个人都能更方便地进行回收，是我们社区迈向更绿色未来的关键一步。
 - 此致，
-- 汤姆·怀特
+- Alex Chen
 
 ---
 
 # 记叙文/短文
 
-## Write a story about a misunderstanding that had a happy ending
-- 写一个关于误会最终皆大欢喜的故事
+## Write a story about an unexpected message you received
+- 写一个关于你收到的意想不到的消息的故事
 
 **正文**：
 
-Last Saturday, I saw my best friend, Lily, walking on the other side of the street. I waved and shouted her name, but she just looked at me and walked away quickly. I was so hurt and confused. I thought she was angry with me, but I didn't know why. I spent the whole weekend feeling sad.
+Last Tuesday, I was studying for my history exam when my phone buzzed. It was a message from an unknown number. "Is this Leo? I found a wallet with your name on it at the park," it read. I checked my pocket and realised my wallet was gone!
 
-On Monday, Lily ran up to me at school. "I'm so sorry!" she said. "I lost my glasses on Friday and couldn't see anything! My mum just got me a new pair this morning." I started laughing, completely relieved.
+I quickly replied, and we arranged to meet. The person who found it was an elderly woman with a kind smile. I was so grateful that I offered her a reward, but she refused, saying that doing the right thing was its own reward. Her kindness restored my faith in people.
 
-- 上周六，我看到我最好的朋友莉莉在街对面走。我向她挥手并喊了她的名字，但她只是看了我一眼就匆匆走开了。我感到既伤心又困惑。我以为她生我的气了，却不知道为什么。我整个周末都很难过。
-- 星期一，莉莉在学校里向我跑来。“太对不起了！”她说，“我周五把眼镜弄丢了，什么都看不清！我妈妈今天早上才刚给我配了副新的。”我如释重负，大笑了起来。
+- 上周二，我正在为历史考试复习时，我的手机响了。那是一条来自未知号码的消息。“请问是Leo吗？我在公园里捡到了一个有你名字的钱包，”消息上写着。我检查了我的口袋，发现我的钱包不见了！
+- 我迅速回复了消息，我们约好了见面。捡到钱包的是一位笑容和蔼的老妇人。我非常感激，想给她一些报酬，但她拒绝了，说做正确的事本身就是回报。她的善举让我重拾了对人性的信心。

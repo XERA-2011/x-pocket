@@ -1,59 +1,59 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月27日
-**Update Time**: 22:19 UTC
+**Date**: 2025年10月28日
+**Update Time**: 22:20 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Hurricane Melissa Intensifies to Category 5, Threatens Jamaica** / **飓风梅丽莎升级为5级，威胁牙买加**
-- **Time**: 2025-10-27
-- **Content**: Hurricane Melissa has strengthened to a Category 5 storm and is bearing down on Jamaica, with forecasters predicting catastrophic flooding, landslides, and widespread damage. / 飓风梅丽莎已增强为5级风暴，正逼近牙买加，预报员预测将带来灾难性的洪水、山体滑坡和广泛的破坏。
-- **Source**: AP News
+### 1. **Hurricane Melissa Batters Jamaica** / **飓风梅丽莎袭击牙买加**
+- **Time**: 2025-10-28
+- **Content**: Category 5 Hurricane Melissa has made landfall in Jamaica, causing catastrophic flooding and winds. The hurricane is now threatening other Caribbean nations, including Haiti and Cuba. / 5级飓风梅丽莎已在牙买加登陆，造成灾难性的洪水和狂风。该飓风目前正威胁着包括海地和古巴在内的其他加勒比国家。
+- **Source**: Associated Press
 
-### 2. **Kyiv Targeted by Drone and Missile Attacks, Russia Tests Nuclear-Powered Missile** / **基辅遭无人机和导弹袭击，俄罗斯测试核动力导弹**
-- **Time**: 2025-10-27
-- **Content**: Kyiv has been targeted by further drone and missile attacks, resulting in civilian casualties. Russia also conducted a test of a nuclear-powered missile, and Ukraine is mourning journalists killed in a recent drone strike. / 基辅再次遭到无人机和导弹袭击，导致平民伤亡。俄罗斯还进行了一次核动力导弹试验，乌克兰正在哀悼在最近一次无人机袭击中丧生的记者。
-- **Source**: CTV News
-
-### 3. **Suspects Arrested in Louvre Crown Jewel Theft** / **卢浮宫皇冠珠宝盗窃案嫌疑人被捕**
-- **Time**: 2025-10-27
-- **Content**: Suspects have been apprehended a week after the theft of crown jewels from the Louvre museum in Paris. / 巴黎卢浮宫博物馆皇冠珠宝被盗一周后，嫌疑人已被逮捕。
-- **Source**: The Guardian
-
-### 4. **Pope Leo XIV to Pray at Site of 2020 Beirut Port Blast** / **教皇利奥十四世将在2020年贝鲁特港口爆炸现场祈祷**
-- **Time**: 2025-10-27
-- **Content**: Pope Leo XIV is scheduled to pray at the site of the 2020 Beirut port blast during his first foreign trip. / 教皇利奥十四世计划在他的首次国外访问期间，在2020年贝鲁特港口爆炸的地点祈祷。
-- **Source**: AP News
-
-### 5. **Turkey Signs Multibillion-Dollar Deal for 20 Eurofighter Jets** / **土耳其签署数十亿美元协议，购买20架欧洲战斗机**
-- **Time**: 2025-10-27
-- **Content**: Turkey has signed a multibillion-dollar agreement with Britain for the acquisition of 20 Eurofighter jets. / 土耳其与英国签署了一项价值数十亿美元的协议，购买20架欧洲战斗机。
+### 2. **Renewed Hostilities in Gaza** / **加沙地带敌对行动再起**
+- **Time**: 2025-10-28
+- **Content**: Reports indicate a resumption of Israeli strikes on Gaza, with conflicting accounts emerging regarding breaches of the agreed ceasefire. A UN human rights investigator has delivered a report on Gaza from South Africa due to US sanctions. / 报道显示，以色列恢复了对加沙的袭击，关于违反停火协议的说法相互矛盾。一名联合国人权调查员因美国制裁，从南非提交了一份关于加沙的报告。
 - **Source**: Al Jazeera
 
-### 6. **Ten Face Trial for Cyberbullying French First Lady Brigitte Macron** / **十人因网络欺凌法国第一夫人布丽吉特·马克龙而面临审判**
-- **Time**: 2025-10-27
-- **Content**: Ten individuals are facing trial, accused of cyberbullying French President Emmanuel Macron's wife, Brigitte Macron. / 十人因涉嫌网络欺凌法国总统埃马纽埃尔·马克龙的妻子布丽吉特·马克龙而面临审判。
+### 3. **Escalation in Sudan** / **苏丹局势升级**
+- **Time**: 2025-10-28
+- **Content**: The Rapid Support Forces (RSF) have reportedly taken over el-Fasher, a development described as a "terrible escalation" amidst concerns of mass killings and a worsening humanitarian crisis. / 据报道，快速支援部队（RSF）已接管法希尔，这一事态发展被描述为“可怕的升级”，同时人们对大规模杀戮和人道主义危机恶化感到担忧。
 - **Source**: The Guardian
 
-### 7. **Sudanese Paramilitary Forces Overrun Army's Last Stronghold in Darfur** / **苏丹准军事部队攻占军队在达尔富尔的最后据点**
-- **Time**: 2025-10-27
-- **Content**: Sudanese paramilitary forces have reportedly overrun the army's last stronghold in the Darfur region. / 据报道，苏丹准军事部队已攻占军队在达尔富尔地区的最后一个据点。
-- **Source**: AP News
+### 4. **Ukraine Targets Russian Oil Capacity** / **乌克兰打击俄罗斯石油产能**
+- **Time**: 2025-10-28
+- **Content**: Ukraine claims its long-range strikes have cut Russia's oil refining capacity by 20%. Meanwhile, Ukraine is mourning two journalists killed by a Russian drone strike, and Russia has conducted a test of a nuclear-powered missile. / 乌克兰声称其远程打击已将俄罗斯的炼油能力削减了20%。与此同时，乌克兰正在哀悼两名被俄罗斯无人机袭击杀害的记者，俄罗斯则进行了一次核动力导弹试验。
+- **Source**: Reuters
 
-### 8. **Pakistan and Afghanistan Hold Third Day of Peace Talks Amid Border Tensions** / **巴基斯坦和阿富汗在边境紧张局势中举行第三天和平会谈**
-- **Time**: 2025-10-27
-- **Content**: Pakistan and Afghanistan are holding a third day of peace talks amidst ongoing border tensions. / 在持续的边境紧张局势中，巴基斯坦和阿富汗正在举行第三天的和平会谈。
-- **Source**: The Hindu
+### 5. **French First Lady's Cyberbullying Trial** / **法国第一夫人网络欺凌案开庭**
+- **Time**: 2025-10-28
+- **Content**: Brigitte Macron's daughter has testified in a trial concerning individuals accused of cyberbullying the French first lady with false claims. / 布丽吉特·马克龙的女儿在一个审判中作证，该审判涉及被指控以虚假声明对法国第一夫人进行网络欺凌的个人。
+- **Source**: The Washington Post
 
-### 9. **Alassane Ouattara Wins Fourth Term as Ivory Coast's President in Landslide Victory** / **阿拉萨内·瓦塔拉以压倒性胜利赢得象牙海岸总统第四任期**
-- **Time**: 2025-10-27
-- **Content**: Alassane Ouattara has secured a landslide victory, winning a fourth term as Ivory Coast's president. / 阿拉萨内·瓦塔拉以压倒性胜利获得连任，第四次担任象牙海岸总统。
-- **Source**: The Guardian
+### 6. **Arrests in Louvre Jewel Heist** / **卢浮宫珠宝盗窃案嫌疑人被捕**
+- **Time**: 2025-10-28
+- **Content**: Suspects have been apprehended in connection with the theft of crown jewels from the Louvre museum in Paris. / 与巴黎卢浮宫博物馆皇冠珠宝被盗案有关的嫌疑人已被逮捕。
+- **Source**: Global News
 
-### 10. **UN Court Orders Israel to Allow Aid to Gaza as Palestinians Bury Their Dead** / **联合国法院命令以色列允许援助进入加沙，巴勒斯坦人埋葬死者**
-- **Time**: 2025-10-27
-- **Content**: Palestinians in Gaza are burying bodies returned by Israel, and the top UN court has mandated that Israel must allow the UN relief agency to supply aid to Gaza. / 加沙的巴勒斯坦人正在埋葬以色列归还的尸体，联合国最高法院已授权，以色列必须允许联合国救济机构向加沙提供援助。
+### 7. **Cameroon President Wins Re-election Amid Protests** / **喀麦隆总统在抗议声中赢得连任**
+- **Time**: 2025-10-28
+- **Content**: Paul Biya, the world's oldest president at 92, has won the Cameroon election, a result that has sparked protests. / 92岁的世界最年长总统保罗·比亚赢得了喀麦隆选举，这一结果引发了抗议活动。
+- **Source**: Al Jazeera
+
+### 8. **US Military Strikes on Alleged Drug Traffickers** / **美军打击涉嫌贩毒者**
+- **Time**: 2025-10-28
+- **Content**: The US military conducted three strikes against alleged drug-smuggling boats in the Pacific Ocean, resulting in 14 fatalities. / 美国军方在太平洋对涉嫌贩毒的船只进行了三次打击，造成14人死亡。
+- **Source**: Time
+
+### 9. **Trump's International Engagements** / **特朗普的国际活动**
+- **Time**: 2025-10-28
+- **Content**: Former President Trump met with Japan's new prime minister and was seen dancing upon his arrival in Malaysia. He has also made comments regarding a potential third term. / 前总统特朗普会见了日本新任首相，并在抵达马来西亚时被看到跳舞。他还就可能的第三个任期发表了评论。
+- **Source**: Associated Press
+
+### 10. **Venezuela Suspends Energy Agreements with Trinidad** / **委内瑞拉暂停与特立尼达的能源协议**
+- **Time**: 2025-10-28
+- **Content**: Venezuela has suspended energy agreements with Trinidad following the arrival of a US warship at the island nation. / 在一艘美国军舰抵达特立尼达后，委内瑞拉暂停了与该岛国的能源协议。
 - **Source**: CTV News
 
 ---

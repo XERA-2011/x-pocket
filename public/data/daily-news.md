@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月28日
+**Date**: 2025年10月29日
 **Update Time**: 22:20 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Hurricane Melissa Batters Jamaica** / **飓风梅丽莎袭击牙买加**
-- **Time**: 2025-10-28
-- **Content**: Category 5 Hurricane Melissa has made landfall in Jamaica, causing catastrophic flooding and winds. The hurricane is now threatening other Caribbean nations, including Haiti and Cuba. / 5级飓风梅丽莎已在牙买加登陆，造成灾难性的洪水和狂风。该飓风目前正威胁着包括海地和古巴在内的其他加勒比国家。
-- **Source**: Associated Press
+### 1. **Cyclone Montha Hits India, Two Fatalities Reported** / **气旋“蒙莎”袭击印度，造成两人死亡**
+- **Time**: 2025-10-29
+- **Content**: Cyclone Montha made landfall in Andhra Pradesh, India, causing widespread damage and leading to at least two deaths. / 气旋“蒙莎”在印度安得拉邦登陆，造成大范围破坏，并导致至少两人死亡。
+- **Source**: The Hindu
 
-### 2. **Renewed Hostilities in Gaza** / **加沙地带敌对行动再起**
-- **Time**: 2025-10-28
-- **Content**: Reports indicate a resumption of Israeli strikes on Gaza, with conflicting accounts emerging regarding breaches of the agreed ceasefire. A UN human rights investigator has delivered a report on Gaza from South Africa due to US sanctions. / 报道显示，以色列恢复了对加沙的袭击，关于违反停火协议的说法相互矛盾。一名联合国人权调查员因美国制裁，从南非提交了一份关于加沙的报告。
-- **Source**: Al Jazeera
+### 2. **Aramco Finalizes $11 Billion Gas Midstream Deal** / **沙特阿美完成110亿美元的天然气中游协议**
+- **Time**: 2025-10-29
+- **Content**: Saudi Aramco has completed a major $11 billion deal to lease and lease back its Jafurah gas processing facilities with a consortium led by Global Infrastructure Partners. / 沙特阿美与以Global Infrastructure Partners为首的财团完成了一项价值110亿美元的重要协议，涉及其Jafurah天然气处理设施的租赁和回租。
+- **Source**: Aramco
 
-### 3. **Escalation in Sudan** / **苏丹局势升级**
-- **Time**: 2025-10-28
-- **Content**: The Rapid Support Forces (RSF) have reportedly taken over el-Fasher, a development described as a "terrible escalation" amidst concerns of mass killings and a worsening humanitarian crisis. / 据报道，快速支援部队（RSF）已接管法希尔，这一事态发展被描述为“可怕的升级”，同时人们对大规模杀戮和人道主义危机恶化感到担忧。
-- **Source**: The Guardian
-
-### 4. **Ukraine Targets Russian Oil Capacity** / **乌克兰打击俄罗斯石油产能**
-- **Time**: 2025-10-28
-- **Content**: Ukraine claims its long-range strikes have cut Russia's oil refining capacity by 20%. Meanwhile, Ukraine is mourning two journalists killed by a Russian drone strike, and Russia has conducted a test of a nuclear-powered missile. / 乌克兰声称其远程打击已将俄罗斯的炼油能力削减了20%。与此同时，乌克兰正在哀悼两名被俄罗斯无人机袭击杀害的记者，俄罗斯则进行了一次核动力导弹试验。
+### 3. **US and India on the Brink of a Major Trade Deal** / **美印即将达成重大贸易协议**
+- **Time**: 2025-10-29
+- **Content**: Former President Donald Trump has indicated that a significant trade deal with India is imminent, praising Prime Minister Narendra Modi's leadership. / 美国前总统唐纳德·特朗普表示，与印度的一项重要贸易协议即将达成，并赞扬了总理纳伦德拉·莫迪的领导。
 - **Source**: Reuters
 
-### 5. **French First Lady's Cyberbullying Trial** / **法国第一夫人网络欺凌案开庭**
-- **Time**: 2025-10-28
-- **Content**: Brigitte Macron's daughter has testified in a trial concerning individuals accused of cyberbullying the French first lady with false claims. / 布丽吉特·马克龙的女儿在一个审判中作证，该审判涉及被指控以虚假声明对法国第一夫人进行网络欺凌的个人。
-- **Source**: The Washington Post
+### 4. **China Resumes Purchasing US Soybeans** / **中国恢复购买美国大豆**
+- **Time**: 2025-10-29
+- **Content**: China's state-owned COFCO has purchased three cargoes of US soybeans, the first major purchase of the US harvest this year, signaling a potential thaw in trade relations. / 中国国有企业中粮集团购买了三批美国大豆，这是今年首次大规模购买美国收成，或预示着贸易关系的缓和。
+- **Source**: Bloomberg
 
-### 6. **Arrests in Louvre Jewel Heist** / **卢浮宫珠宝盗窃案嫌疑人被捕**
-- **Time**: 2025-10-28
-- **Content**: Suspects have been apprehended in connection with the theft of crown jewels from the Louvre museum in Paris. / 与巴黎卢浮宫博物馆皇冠珠宝被盗案有关的嫌疑人已被逮捕。
+### 5. **Stellantis Partners with NVIDIA, Uber, and Foxconn for Robotaxi Fleet** / **Stellantis与NVIDIA、优步和富士康合作开发自动驾驶出租车队**
+- **Time**: 2025-10-29
+- **Content**: Automaker Stellantis has announced a partnership with NVIDIA, Uber, and Foxconn to develop and deploy a global fleet of Level 4 autonomous robotaxis. / 汽车制造商Stellantis宣布与NVIDIA、优步和富士康合作，共同开发和部署一支全球性的4级自动驾驶出租车队。
+- **Source**: Stellantis
+
+### 6. **Saudi Arabia Aims for Global AI Leadership with New Partnership** / **沙特阿拉伯通过新合作旨在成为全球人工智能领导者**
+- **Time**: 2025-10-29
+- **Content**: The Public Investment Fund (PIF) and Aramco are joining forces in the AI sector, with Aramco taking a significant stake in HUMAIN to establish the kingdom as a global AI hub. / 沙特公共投资基金（PIF）和沙特阿美正在人工智能领域展开合作，阿美将持有HUMAIN的大量股份，以将沙特建设成为全球人工智能中心。
+- **Source**: Arab News
+
+### 7. **Alberta Teachers' Strike Ends with Back-to-Work Legislation** / **阿尔伯塔省教师罢工因返工法案而结束**
+- **Time**: 2025-10-29
+- **Content**: The Alberta government has passed back-to-work legislation, ending a four-week strike by 51,000 teachers and allowing students to return to classrooms. / 阿尔伯塔省政府通过了返工法案，结束了51000名教师为期四周的罢工，学生得以重返课堂。
 - **Source**: Global News
 
-### 7. **Cameroon President Wins Re-election Amid Protests** / **喀麦隆总统在抗议声中赢得连任**
-- **Time**: 2025-10-28
-- **Content**: Paul Biya, the world's oldest president at 92, has won the Cameroon election, a result that has sparked protests. / 92岁的世界最年长总统保罗·比亚赢得了喀麦隆选举，这一结果引发了抗议活动。
-- **Source**: Al Jazeera
+### 8. **South Africa Reaffirms Commitment to Global Biosecurity** / **南非重申对全球生物安全的承诺**
+- **Time**: 2025-10-29
+- **Content**: At a global conference, South Africa reiterated its dedication to international biosecurity, animal health, and food security standards. / 在一次全球会议上，南非重申其对国际生物安全、动物健康和食品安全标准的承诺。
+- **Source**: SA News
 
-### 8. **US Military Strikes on Alleged Drug Traffickers** / **美军打击涉嫌贩毒者**
-- **Time**: 2025-10-28
-- **Content**: The US military conducted three strikes against alleged drug-smuggling boats in the Pacific Ocean, resulting in 14 fatalities. / 美国军方在太平洋对涉嫌贩毒的船只进行了三次打击，造成14人死亡。
-- **Source**: Time
-
-### 9. **Trump's International Engagements** / **特朗普的国际活动**
-- **Time**: 2025-10-28
-- **Content**: Former President Trump met with Japan's new prime minister and was seen dancing upon his arrival in Malaysia. He has also made comments regarding a potential third term. / 前总统特朗普会见了日本新任首相，并在抵达马来西亚时被看到跳舞。他还就可能的第三个任期发表了评论。
+### 9. **European Union Announces New Sanctions on Russia** / **欧盟宣布对俄罗斯实施新制裁**
+- **Time**: 2025-10-29
+- **Content**: The European Union has imposed a new round of sanctions on Russia, targeting its energy and financial sectors in response to recent escalations. / 欧盟对俄罗斯实施了新一轮制裁，针对其能源和金融部门，以回应最近的局势升级。
 - **Source**: Associated Press
 
-### 10. **Venezuela Suspends Energy Agreements with Trinidad** / **委内瑞拉暂停与特立尼达的能源协议**
-- **Time**: 2025-10-28
-- **Content**: Venezuela has suspended energy agreements with Trinidad following the arrival of a US warship at the island nation. / 在一艘美国军舰抵达特立尼达后，委内瑞拉暂停了与该岛国的能源协议。
-- **Source**: CTV News
+### 10. **Brazil's Central Bank Raises Interest Rates to Combat Inflation** / **巴西中央银行为抑制通货膨胀而加息**
+- **Time**: 2025-10-29
+- **Content**: Brazil's Central Bank has raised its benchmark interest rate for the fifth consecutive time this year in an effort to curb rising inflation. / 巴西中央银行今年连续第五次上调基准利率，以努力遏制不断上升的通货膨胀。
+- **Source**: Reuters
 
 ---
 

@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月29日
+**Date**: 2025年10月30日
 **Update Time**: 22:20 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Cyclone Montha Hits India, Two Fatalities Reported** / **气旋“蒙莎”袭击印度，造成两人死亡**
-- **Time**: 2025-10-29
-- **Content**: Cyclone Montha made landfall in Andhra Pradesh, India, causing widespread damage and leading to at least two deaths. / 气旋“蒙莎”在印度安得拉邦登陆，造成大范围破坏，并导致至少两人死亡。
-- **Source**: The Hindu
-
-### 2. **Aramco Finalizes $11 Billion Gas Midstream Deal** / **沙特阿美完成110亿美元的天然气中游协议**
-- **Time**: 2025-10-29
-- **Content**: Saudi Aramco has completed a major $11 billion deal to lease and lease back its Jafurah gas processing facilities with a consortium led by Global Infrastructure Partners. / 沙特阿美与以Global Infrastructure Partners为首的财团完成了一项价值110亿美元的重要协议，涉及其Jafurah天然气处理设施的租赁和回租。
-- **Source**: Aramco
-
-### 3. **US and India on the Brink of a Major Trade Deal** / **美印即将达成重大贸易协议**
-- **Time**: 2025-10-29
-- **Content**: Former President Donald Trump has indicated that a significant trade deal with India is imminent, praising Prime Minister Narendra Modi's leadership. / 美国前总统唐纳德·特朗普表示，与印度的一项重要贸易协议即将达成，并赞扬了总理纳伦德拉·莫迪的领导。
-- **Source**: Reuters
-
-### 4. **China Resumes Purchasing US Soybeans** / **中国恢复购买美国大豆**
-- **Time**: 2025-10-29
-- **Content**: China's state-owned COFCO has purchased three cargoes of US soybeans, the first major purchase of the US harvest this year, signaling a potential thaw in trade relations. / 中国国有企业中粮集团购买了三批美国大豆，这是今年首次大规模购买美国收成，或预示着贸易关系的缓和。
-- **Source**: Bloomberg
-
-### 5. **Stellantis Partners with NVIDIA, Uber, and Foxconn for Robotaxi Fleet** / **Stellantis与NVIDIA、优步和富士康合作开发自动驾驶出租车队**
-- **Time**: 2025-10-29
-- **Content**: Automaker Stellantis has announced a partnership with NVIDIA, Uber, and Foxconn to develop and deploy a global fleet of Level 4 autonomous robotaxis. / 汽车制造商Stellantis宣布与NVIDIA、优步和富士康合作，共同开发和部署一支全球性的4级自动驾驶出租车队。
-- **Source**: Stellantis
-
-### 6. **Saudi Arabia Aims for Global AI Leadership with New Partnership** / **沙特阿拉伯通过新合作旨在成为全球人工智能领导者**
-- **Time**: 2025-10-29
-- **Content**: The Public Investment Fund (PIF) and Aramco are joining forces in the AI sector, with Aramco taking a significant stake in HUMAIN to establish the kingdom as a global AI hub. / 沙特公共投资基金（PIF）和沙特阿美正在人工智能领域展开合作，阿美将持有HUMAIN的大量股份，以将沙特建设成为全球人工智能中心。
-- **Source**: Arab News
-
-### 7. **Alberta Teachers' Strike Ends with Back-to-Work Legislation** / **阿尔伯塔省教师罢工因返工法案而结束**
-- **Time**: 2025-10-29
-- **Content**: The Alberta government has passed back-to-work legislation, ending a four-week strike by 51,000 teachers and allowing students to return to classrooms. / 阿尔伯塔省政府通过了返工法案，结束了51000名教师为期四周的罢工，学生得以重返课堂。
-- **Source**: Global News
-
-### 8. **South Africa Reaffirms Commitment to Global Biosecurity** / **南非重申对全球生物安全的承诺**
-- **Time**: 2025-10-29
-- **Content**: At a global conference, South Africa reiterated its dedication to international biosecurity, animal health, and food security standards. / 在一次全球会议上，南非重申其对国际生物安全、动物健康和食品安全标准的承诺。
-- **Source**: SA News
-
-### 9. **European Union Announces New Sanctions on Russia** / **欧盟宣布对俄罗斯实施新制裁**
-- **Time**: 2025-10-29
-- **Content**: The European Union has imposed a new round of sanctions on Russia, targeting its energy and financial sectors in response to recent escalations. / 欧盟对俄罗斯实施了新一轮制裁，针对其能源和金融部门，以回应最近的局势升级。
+### 1. **Hurricane Melissa's Devastation in the Caribbean** / **飓风梅丽莎在加勒比地区造成严重破坏**
+- **Time**: 2025-10-30
+- **Content**: Hurricane Melissa has caused widespread destruction, rising death tolls, and intensified relief efforts across Jamaica, Cuba, and Haiti. / 飓风梅丽莎在牙买加、古巴和海地造成了广泛的破坏，死亡人数不断上升，救援工作也在加紧进行。
 - **Source**: Associated Press
 
-### 10. **Brazil's Central Bank Raises Interest Rates to Combat Inflation** / **巴西中央银行为抑制通货膨胀而加息**
-- **Time**: 2025-10-29
-- **Content**: Brazil's Central Bank has raised its benchmark interest rate for the fifth consecutive time this year in an effort to curb rising inflation. / 巴西中央银行今年连续第五次上调基准利率，以努力遏制不断上升的通货膨胀。
-- **Source**: Reuters
+### 2. **Escalating Conflict and Humanitarian Crisis in Sudan** / **苏丹冲突升级，人道主义危机加剧**
+- **Time**: 2025-10-30
+- **Content**: Reports indicate chaos, brutality, and mass killings in El Fasher, with hundreds reportedly killed at a Sudanese hospital and the UN calling for an end to the siege. / 据报道，法希尔市出现了混乱、暴行和大规模杀戮，据称一家苏丹医院有数百人丧生，联合国呼吁结束围困。
+- **Source**: The Guardian
+
+### 3. **Further Arrests in Louvre Jewel Heist** / **卢浮宫珠宝盗窃案又有新进展，多人被捕**
+- **Time**: 2025-10-30
+- **Content**: Five additional arrests have been made in connection with the $100 million jewel heist at the Louvre Museum. / 与卢浮宫博物馆价值1亿美元的珠宝盗窃案有关的五名嫌疑人已被捕。
+- **Source**: The Hindu
+
+### 4. **US-China Reach Trade Deal** / **中美达成贸易协议**
+- **Time**: 2025-10-30
+- **Content**: President Trump and Chinese leader Xi Jinping have reportedly reached a trade deal, aiming to ease tensions, with discussions including tariffs and rare earths. / 据报道，特朗普总统和中国领导人习近平已达成一项贸易协议，旨在缓解紧张局势，讨论内容包括关税和稀土。
+- **Source**: Al Jazeera
+
+### 5. **Fragile Gaza Ceasefire Amid Hostage Remains Handover** / **加沙停火协议岌岌可危，人质遗骸移交**
+- **Time**: 2025-10-30
+- **Content**: Hamas has handed over the remains of two hostages to the Red Cross, but the ceasefire remains fragile, with Israel resuming attacks following accusations of breaches. / 哈马斯已将两名人质的遗骸移交给红十字会，但停火协议仍然脆弱，以色列在指责对方违反协议后恢复了袭击。
+- **Source**: Associated Press
+
+### 6. **Deadly Police Raids and Protests in Brazil** / **巴西警方突袭行动引发致命冲突和抗议**
+- **Time**: 2025-10-30
+- **Content**: Police raids in Rio de Janeiro favelas have resulted in over 100 deaths, sparking protests and accusations of excessive force. / 里约热内卢贫民窟的警方突袭行动已导致100多人死亡，引发了抗议和对过度使用武力的指控。
+- **Source**: Business Standard
+
+### 7. **Trump Administration Sets New Refugee Limit** / **特朗普政府设定新的难民上限**
+- **Time**: 2025-10-30
+- **Content**: The Trump administration has set an annual refugee limit of 7,500, with a significant portion designated for white South Africans. / 特朗普政府已将年度难民上限设定为7500人，其中很大一部分指定给南非白人。
+- **Source**: The Hindu
+
+### 8. **Pakistani Taliban Deputy Chief Killed** / **巴基斯坦塔利班副领导人被击毙**
+- **Time**: 2025-10-30
+- **Content**: The deputy chief of the Pakistani Taliban was killed during an attempted infiltration in Khyber Pakhtunkhwa. / 巴基斯坦塔利班副领导人在开伯尔-普赫图赫瓦省试图渗透时被击毙。
+- **Source**: The Hindu
+
+### 9. **Deadly Floods in Vietnam** / **越南发生致命洪水**
+- **Time**: 2025-10-30
+- **Content**: Floods in Vietnam have claimed 10 lives, with river levels reaching a 60-year high. / 越南的洪水已造成10人死亡，河流水位达到60年来的最高点。
+- **Source**: The Hindu
+
+### 10. **King Charles Moves to Strip Prince Andrew of Titles** / **查尔斯国王采取行动剥夺安德鲁王子的头衔**
+- **Time**: 2025-10-30
+- **Content**: King Charles has initiated the process to remove his brother, Prince Andrew, of his prince title and royal residence. / 查尔斯国王已启动程序，剥夺其兄弟安德鲁王子的王子头衔和皇家住所。
+- **Source**: Sky News
 
 ---
 

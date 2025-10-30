@@ -1,44 +1,44 @@
 # 应用文
 
-## An email inviting a friend to your birthday celebration
-- 邀请朋友参加你的生日庆祝活动的邮件
+## A postcard describing an interesting museum you visited
+- 描述你参观过的一个有趣的博物馆的明信片
 
 **正文**：
 
-Subject: My Birthday Party!
+Hi Sarah,
 
-Hi [Friend's Name],
+Greetings from London! I visited the British Museum yesterday, and it was absolutely fascinating. The Rosetta Stone was incredible – much bigger than I imagined and truly a key to ancient languages. I also loved the Egyptian mummies; they were a bit spooky but so incredibly well-preserved and interesting. The sheer amount of history under one roof is amazing, covering cultures from all over the world. I spent nearly five hours there and still didn't manage to see everything. It’s a place where you could easily spend days exploring. You would absolutely love it here. Wish you were here to experience it with me!
 
-Hope you're doing well! I'm writing to invite you to my birthday celebration. I'm turning [Age] on [Date], and I'm planning a small get-together at my place on Saturday, [Date of Party], starting at 7 PM.
+See you soon,
+Emily
 
-We'll have some delicious food, music, and of course, a birthday cake! It would be great if you could join us. Please let me know if you can make it by [RSVP Date] so I can finalize the arrangements.
-
-Looking forward to celebrating with you!
-
-Best,
-[Your Name]
-
-- 主题：我的生日派对！
-- 你好，[朋友的名字]，
-- 希望你一切都好！我写这封邮件是想邀请你参加我的生日庆祝活动。我将在[日期]满[年龄]岁，我计划在[派对日期]星期六晚上7点在我家举办一个小聚会。
-- 我们会准备一些美味的食物、音乐，当然还有生日蛋糕！如果你能来参加，那真是太好了。请在[回复日期]前告诉我你是否能来，这样我好做最后的安排。
-- 期待与你一起庆祝！
-- 祝好，
-- [你的名字]
+- 嗨，莎拉，
+- 伦敦问候！我昨天参观了大英博物馆，它真是太迷人了。
+- 罗塞塔石碑令人难以置信——比我想象的要大得多，而且确实是解读古代语言的关键。
+- 我也喜欢埃及木乃伊；它们有点吓人，但保存得非常好，非常有趣。
+- 一个屋檐下汇集了如此多的历史，涵盖了世界各地的文化，真是令人惊叹。
+- 我在那里待了将近五个小时，但仍然没有看完所有东西。这是一个你可以轻松花几天时间探索的地方。
+- 你一定会喜欢这里的。希望你在这里和我一起体验！
+- 回头见，
+- 艾米丽
 
 ---
 
 # 记叙文/短文
 
-## An article about a traditional celebration in your country
-- 关于你国家传统庆祝活动的一篇文章
+## An article about a young person who inspires you
+- 一篇关于一个激励你的年轻人的文章
 
 **正文**：
 
-Title: The Dragon Boat Festival
+An Article About a Young Person Who Inspires Me
 
-One of the most exciting traditional celebrations in my country is the Dragon Boat Festival, or Duanwu Festival. It usually falls in June. This festival commemorates Qu Yuan, an ancient poet. People celebrate by racing dragon boats, which are long, narrow boats decorated with dragon heads and tails. Teams paddle them to the beat of drums. Another important tradition is eating *zongzi*, sticky rice dumplings wrapped in bamboo leaves. Families often make *zongzi* together, and they come with various fillings, both sweet and savoury. It's a vibrant and delicious festival that brings communities together.
+My younger sister, Lily, truly inspires me. She is only sixteen, but her dedication to environmental causes is remarkable. Last year, she started a recycling initiative at her school, which significantly reduced waste. She also volunteers every weekend at a local animal shelter, caring for abandoned pets. Lily is always reading about climate change and finding practical ways to make a difference. Her passion and commitment are infectious. She shows me that even small actions can lead to big changes, and that age is no barrier to making a positive impact on the world. I am incredibly proud of her efforts and her kind heart.
 
-- 标题：端午节
-- 我国最激动人心的传统节日之一是端午节。它通常在六月举行。这个节日是为了纪念古代诗人屈原。人们通过赛龙舟来庆祝，龙舟是装饰有龙头和龙尾的狭长船只。队员们随着鼓点划桨。
-- 另一个重要的传统是吃粽子，这是一种用竹叶包裹的糯米粽。家人经常一起制作粽子，粽子有各种甜咸馅料。这是一个充满活力又美味的节日，它将社区的人们聚集在一起。
+- 一篇关于一个激励我的年轻人的文章
+- 我的妹妹莉莉，真的激励着我。她才十六岁，但她对环保事业的奉献精神令人瞩目。
+- 去年，她在学校发起了一项回收计划，大大减少了浪费。
+- 她每个周末还在当地的动物收容所做志愿者，照顾被遗弃的宠物。
+- 莉莉总是阅读关于气候变化的文章，并寻找实际的方法来做出改变。
+- 她的热情和承诺是具有感染力的。她向我展示了即使是小小的行动也能带来巨大的改变，而且年龄并不是对世界产生积极影响的障碍。
+- 我为她的努力和善良的心感到无比自豪。

@@ -1,43 +1,43 @@
 # 应用文
 
-## An email inviting your cousin to visit you during the holidays
-- 一封邀请表/堂兄弟姐妹在假期期间来你家做客的电子邮件
+## An email apologizing to a friend for missing their party
+- 一封因错过朋友聚会而向其道歉的邮件
 
-**正文**：
+**正文**:
 
-Hi [Cousin's Name],
+Hi Tom,
 
-How are you? I hope everything's great! The holidays are coming up soon, and I was wondering if you'd like to come and stay with me for a few days. We could have so much fun!
+I’m so sorry for not making it to your birthday party last Saturday. I was really looking forward to celebrating with you.
 
-I'm thinking of going to the new amusement park, watching some movies, and maybe even baking cookies. My parents would be thrilled to see you too.
+Unfortunately, my grandmother fell ill, and my parents had to take her to the hospital. I went with them to help out. We were there all night, and I didn't have a chance to message you. I hope you understand.
 
-Let me know if you're free and if you'd like to come. We can pick a date that works for both of us.
-
-Looking forward to hearing from you!
+I heard it was a fantastic party. I’d love to catch up soon and hear all about it. Let's meet for coffee next week – my treat!
 
 Best,
-[Your Name]
+David
 
-- 你好，[表/堂兄弟姐妹的名字]，
-- 你好吗？希望一切都好！假期很快就要到了，我想知道你是否愿意来我家住几天。我们会玩得很开心的！
-- 我打算去新的游乐园，看一些电影，甚至可能一起烤饼干。我的父母也会很高兴见到你。
-- 如果你有空并且想来，请告诉我。我们可以选一个对我们俩都合适的时间。
-- 期待你的回复！
+- 嗨，汤姆，
+- 上周六没能参加你的生日派对，我真的非常抱歉。我本来非常期待和你一起庆祝的。
+- 不幸的是，我的奶奶生病了，我父母不得不带她去医院。我跟着他们去帮忙。我们在那里待了一整晚，我没有机会给你发消息。希望你能理解。
+- 我听说派对非常棒。我很想尽快和你见个面，听你讲讲派对的趣事。我们下周一起喝杯咖啡吧——我请客！
 - 此致，
-- [你的名字]
+- 大卫
 
 ---
 
 # 记叙文/短文
 
-## An article about a young person who inspires you
-- 一篇关于一个激励你的年轻人的文章
+## A story about overcoming a fear
+- 一个关于克服恐惧的故事
 
-**正文**：
+**正文**:
 
-My younger sister, Lily, truly inspires me. She's only fifteen, but her dedication to environmental causes is remarkable. Last year, she started a recycling program at her school, which significantly reduced waste. She also volunteers every weekend at a local animal shelter, showing incredible compassion.
+I used to be terrified of speaking in public. My heart would pound, and my hands would shake just thinking about it. Last month, I had to give a presentation for my English class. I knew I couldn't avoid it.
 
-Lily always researches sustainable living practices and shares them with our family. Her passion isn't just talk; she actively makes a difference. Seeing her commitment makes me want to be more proactive in my own community. She proves that age is no barrier to making a positive impact on the world.
+For a week, I practiced in front of a mirror and with my family. When the day came, I was still nervous, but I took a deep breath and walked to the front of the class. I started speaking, and although my voice trembled at first, I soon found my confidence. I focused on my topic and my classmates' friendly faces.
 
-- 我的妹妹莉莉，真的激励着我。她才十五岁，但她对环保事业的奉献精神令人瞩目。去年，她在学校发起了一项回收计划，大大减少了浪费。她每个周末还在当地的动物收容所做志愿者，展现出令人难以置信的同情心。
-- 莉莉总是研究可持续生活方式，并与我们家人分享。她的热情不仅仅是说说而已；她积极地做出改变。看到她的投入，让我也想在自己的社区中更加积极主动。她证明了年龄并不是对世界产生积极影响的障碍。
+Finishing the presentation felt like a huge victory. It wasn't perfect, but I did it. Now, I feel much more comfortable speaking in front of others.
+
+- 我曾经非常害怕在公共场合讲话。只要一想到这件事，我的心就会狂跳，双手也会发抖。上个月，我必须为我的英语课做一个演示。我知道我无法逃避。
+- 我花了一周的时间，在镜子前和家人面前练习。到了那一天，我仍然很紧张，但我深吸了一口气，走到了教室前面。我开始讲话，虽然起初我的声音有些颤抖，但我很快就找到了自信。我专注于我的主题和同学们友善的面孔。
+- 完成演示感觉就像一次巨大的胜利。虽然不完美，但我做到了。现在，我在别人面前讲话时感觉自在多了。

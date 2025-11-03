@@ -1,43 +1,34 @@
 # 应用文
 
-## An email apologizing to a friend for missing their party
-- 一封因错过朋友聚会而向其道歉的邮件
+## A thank-you email to someone who helped you learn English
+- 一封感谢帮助你学习英语的人的电子邮件
 
-**正文**:
+**正文**：
 
-Hi Tom,
+Subject: A Big Thank You!
 
-I’m so sorry for not making it to your birthday party last Saturday. I was really looking forward to celebrating with you.
+Dear Sarah,
 
-Unfortunately, my grandmother fell ill, and my parents had to take her to the hospital. I went with them to help out. We were there all night, and I didn't have a chance to message you. I hope you understand.
+I hope this email finds you well. I wanted to express my sincere gratitude for all your help with my English studies. Your patience and clear explanations have made a huge difference. I remember struggling with verb tenses, but your lessons made them so much easier to understand. Thanks to you, my confidence in speaking and writing has grown significantly. I truly appreciate your dedication and encouragement. I'm now much more comfortable using English every day.
 
-I heard it was a fantastic party. I’d love to catch up soon and hear all about it. Let's meet for coffee next week – my treat!
+Best regards,
+[Your Name]
 
-Best,
-David
-
-- 嗨，汤姆，
-- 上周六没能参加你的生日派对，我真的非常抱歉。我本来非常期待和你一起庆祝的。
-- 不幸的是，我的奶奶生病了，我父母不得不带她去医院。我跟着他们去帮忙。我们在那里待了一整晚，我没有机会给你发消息。希望你能理解。
-- 我听说派对非常棒。我很想尽快和你见个面，听你讲讲派对的趣事。我们下周一起喝杯咖啡吧——我请客！
+- 主题：非常感谢！
+- 亲爱的莎拉，
+- 希望这封邮件能找到你。我想对你帮助我学习英语表示衷心的感谢。你的耐心和清晰的解释带来了巨大的改变。我记得我曾为动词时态而苦恼，但你的课程让它们变得更容易理解。多亏了你，我在口语和写作方面的信心显著增强。我真诚地感谢你的奉献和鼓励。我现在每天使用英语都感到更加自如了。
 - 此致，
-- 大卫
+- [你的名字]
 
 ---
 
 # 记叙文/短文
 
-## A story about overcoming a fear
-- 一个关于克服恐惧的故事
+## Write a story that begins: When I opened the old box, I found something incredible inside.
+- 写一个以“当我打开那个旧盒子时，我发现里面有不可思议的东西。”开头的故事。
 
-**正文**:
+**正文**：
 
-I used to be terrified of speaking in public. My heart would pound, and my hands would shake just thinking about it. Last month, I had to give a presentation for my English class. I knew I couldn't avoid it.
+When I opened the old box, I found something incredible inside. It wasn't gold or jewels, but a collection of faded photographs and a small, intricately carved wooden bird. The photos showed my grandmother as a young woman, laughing with friends I'd never seen. The bird, however, was truly special. As I held it, a faint, melodious tune began to play, seemingly from within the wood itself. It was a lullaby my grandmother used to sing to me. Tears welled up as I realized this box held not just memories, but a piece of her living spirit.
 
-For a week, I practiced in front of a mirror and with my family. When the day came, I was still nervous, but I took a deep breath and walked to the front of the class. I started speaking, and although my voice trembled at first, I soon found my confidence. I focused on my topic and my classmates' friendly faces.
-
-Finishing the presentation felt like a huge victory. It wasn't perfect, but I did it. Now, I feel much more comfortable speaking in front of others.
-
-- 我曾经非常害怕在公共场合讲话。只要一想到这件事，我的心就会狂跳，双手也会发抖。上个月，我必须为我的英语课做一个演示。我知道我无法逃避。
-- 我花了一周的时间，在镜子前和家人面前练习。到了那一天，我仍然很紧张，但我深吸了一口气，走到了教室前面。我开始讲话，虽然起初我的声音有些颤抖，但我很快就找到了自信。我专注于我的主题和同学们友善的面孔。
-- 完成演示感觉就像一次巨大的胜利。虽然不完美，但我做到了。现在，我在别人面前讲话时感觉自在多了。
+- 当我打开那个旧盒子时，我发现里面有不可思议的东西。那不是金子或珠宝，而是一叠褪色的照片和一只小巧、雕刻精美的木鸟。照片上是我的祖母年轻时的样子，和一些我从未见过的朋友们开心地笑着。然而，那只鸟才是真正特别的。当我握住它时，一段微弱而悠扬的旋律开始响起，仿佛来自木头本身。那是我祖母曾经唱给我听的摇篮曲。泪水涌上我的眼眶，我意识到这个盒子不仅承载着回忆，还承载着她鲜活的灵魂。

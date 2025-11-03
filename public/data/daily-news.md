@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年10月30日
-**Update Time**: 22:20 UTC
+**Date**: 2025年11月03日
+**Update Time**: 22:21 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Hurricane Melissa's Devastation in the Caribbean** / **飓风梅丽莎在加勒比地区造成严重破坏**
-- **Time**: 2025-10-30
-- **Content**: Hurricane Melissa has caused widespread destruction, rising death tolls, and intensified relief efforts across Jamaica, Cuba, and Haiti. / 飓风梅丽莎在牙买加、古巴和海地造成了广泛的破坏，死亡人数不断上升，救援工作也在加紧进行。
-- **Source**: Associated Press
-
-### 2. **Escalating Conflict and Humanitarian Crisis in Sudan** / **苏丹冲突升级，人道主义危机加剧**
-- **Time**: 2025-10-30
-- **Content**: Reports indicate chaos, brutality, and mass killings in El Fasher, with hundreds reportedly killed at a Sudanese hospital and the UN calling for an end to the siege. / 据报道，法希尔市出现了混乱、暴行和大规模杀戮，据称一家苏丹医院有数百人丧生，联合国呼吁结束围困。
-- **Source**: The Guardian
-
-### 3. **Further Arrests in Louvre Jewel Heist** / **卢浮宫珠宝盗窃案又有新进展，多人被捕**
-- **Time**: 2025-10-30
-- **Content**: Five additional arrests have been made in connection with the $100 million jewel heist at the Louvre Museum. / 与卢浮宫博物馆价值1亿美元的珠宝盗窃案有关的五名嫌疑人已被捕。
-- **Source**: The Hindu
-
-### 4. **US-China Reach Trade Deal** / **中美达成贸易协议**
-- **Time**: 2025-10-30
-- **Content**: President Trump and Chinese leader Xi Jinping have reportedly reached a trade deal, aiming to ease tensions, with discussions including tariffs and rare earths. / 据报道，特朗普总统和中国领导人习近平已达成一项贸易协议，旨在缓解紧张局势，讨论内容包括关税和稀土。
+### 1. **Powerful Earthquake Hits Afghanistan, Causing Widespread Damage** / **阿富汗发生强烈地震，造成大范围破坏**
+- **Time**: 2025-11-03
+- **Content**: A powerful 6.3 magnitude earthquake has struck western Afghanistan, killing at least 20 people and injuring hundreds. The death toll is expected to rise as rescue efforts continue in the affected remote villages. / 阿富汗西部发生6.3级强烈地震，已造成至少20人死亡，数百人受伤。随着救援工作的继续，死亡人数预计将进一步上升。
 - **Source**: Al Jazeera
 
-### 5. **Fragile Gaza Ceasefire Amid Hostage Remains Handover** / **加沙停火协议岌岌可危，人质遗骸移交**
-- **Time**: 2025-10-30
-- **Content**: Hamas has handed over the remains of two hostages to the Red Cross, but the ceasefire remains fragile, with Israel resuming attacks following accusations of breaches. / 哈马斯已将两名人质的遗骸移交给红十字会，但停火协议仍然脆弱，以色列在指责对方违反协议后恢复了袭击。
-- **Source**: Associated Press
+### 2. **Jamaica Struggles to Recover from Hurricane Melissa** / **牙买加在飓风“梅丽莎”过后恢复艰难**
+- **Time**: 2025-11-03
+- **Content**: Days after being hit by a devastating Category 5 hurricane, Jamaica is struggling to deliver basic aid to its citizens. Many communities remain cut off by flooding and landslides, complicating relief efforts. / 在遭受毁灭性的5级飓风袭击数天后，牙买加正努力向其公民提供基本援助。许多社区因洪水和山体滑坡而与外界隔绝，给救援工作带来了困难。
+- **Source**: Global News
 
-### 6. **Deadly Police Raids and Protests in Brazil** / **巴西警方突袭行动引发致命冲突和抗议**
-- **Time**: 2025-10-30
-- **Content**: Police raids in Rio de Janeiro favelas have resulted in over 100 deaths, sparking protests and accusations of excessive force. / 里约热内卢贫民窟的警方突袭行动已导致100多人死亡，引发了抗议和对过度使用武力的指控。
-- **Source**: Business Standard
+### 3. **Mexican Mayor Killed During Day of the Dead Festivities** / **墨西哥市长在亡灵节庆祝活动中被枪杀**
+- **Time**: 2025-11-03
+- **Content**: A mayor in the western Mexican state of Michoacán was shot and killed during a Day of the Dead celebration. The attack is believed to be linked to organized crime, which is rampant in the region. / 墨西哥西部米却肯州的一位市长在亡灵节庆祝活动中被枪杀。据信这次袭击与该地区猖獗的有组织犯罪有关。
+- **Source**: The Guardian
 
-### 7. **Trump Administration Sets New Refugee Limit** / **特朗普政府设定新的难民上限**
-- **Time**: 2025-10-30
-- **Content**: The Trump administration has set an annual refugee limit of 7,500, with a significant portion designated for white South Africans. / 特朗普政府已将年度难民上限设定为7500人，其中很大一部分指定给南非白人。
-- **Source**: The Hindu
-
-### 8. **Pakistani Taliban Deputy Chief Killed** / **巴基斯坦塔利班副领导人被击毙**
-- **Time**: 2025-10-30
-- **Content**: The deputy chief of the Pakistani Taliban was killed during an attempted infiltration in Khyber Pakhtunkhwa. / 巴基斯坦塔利班副领导人在开伯尔-普赫图赫瓦省试图渗透时被击毙。
-- **Source**: The Hindu
-
-### 9. **Deadly Floods in Vietnam** / **越南发生致命洪水**
-- **Time**: 2025-10-30
-- **Content**: Floods in Vietnam have claimed 10 lives, with river levels reaching a 60-year high. / 越南的洪水已造成10人死亡，河流水位达到60年来的最高点。
-- **Source**: The Hindu
-
-### 10. **King Charles Moves to Strip Prince Andrew of Titles** / **查尔斯国王采取行动剥夺安德鲁王子的头衔**
-- **Time**: 2025-10-30
-- **Content**: King Charles has initiated the process to remove his brother, Prince Andrew, of his prince title and royal residence. / 查尔斯国王已启动程序，剥夺其兄弟安德鲁王子的王子头衔和皇家住所。
+### 4. **Multiple Injured in UK Train Stabbing Attack** / **英国火车刺伤事件致多人受伤**
+- **Time**: 2025-11-03
+- **Content**: A stabbing attack on a train in the United Kingdom has left 10 people injured. A railway employee is in critical condition after heroically intervening to save lives. Two British nationals have been arrested in connection with the attack. / 英国一列火车上发生持刀伤人事件，造成10人受伤。一名铁路员工因英勇救人而生命垂危。两名英国公民因涉嫌此次袭击而被捕。
 - **Source**: Sky News
+
+### 5. **Israel and Hamas Exchange Bodies as Part of Ceasefire Deal** / **作为停火协议的一部分，以色列和哈马斯交换尸体**
+- **Time**: 2025-11-03
+- **Content**: Israel and Hamas have handed over the bodies of fallen fighters as part of a fragile ceasefire agreement in Gaza. The exchange is seen as a small step towards de-escalating the recent conflict. / 作为加沙地带脆弱停火协议的一部分，以色列和哈马斯已经移交了阵亡士兵的尸体。这次交换被视为缓和近期冲突的一小步。
+- **Source**: The Guardian
+
+### 6. **Trump Threatens Military Action in Nigeria to Defend Christians** / **特朗普威胁在尼日利亚采取军事行动以保护基督徒**
+- **Time**: 2025-11-03
+- **Content**: Former US President Donald Trump has threatened to use US troops or airstrikes in Nigeria to defend Christians, a move that has drawn criticism and concern from international observers. / 美国前总统唐纳德·特朗普威胁要在尼日利亚使用美军或空袭来保护基督徒，此举引起了国际观察员的批评和担忧。
+- **Source**: Global News
+
+### 7. **G7 to Address Renewed Russian Attacks on Ukraine's Energy Grid** / **七国集团将讨论俄罗斯对乌克兰能源网络的新一轮袭击**
+- **Time**: 2025-11-03
+- **Content**: The G7 is set to discuss a coordinated response to Russia's renewed and intensified attacks on Ukraine's energy infrastructure, which have caused widespread power outages as winter approaches. / 七国集团将讨论对俄罗斯再次加强对乌克兰能源基础设施的袭击做出协调一致的回应，这些袭击已导致在冬季来临之际大范围停电。
+- **Source**: Global News
+
+### 8. **Canada and Philippines Sign Defense Pact Amid China Tensions** / **在中菲关系紧张之际，加拿大和菲律宾签署防务协定**
+- **Time**: 2025-11-03
+- **Content**: Canada and the Philippines have signed a new defense cooperation agreement aimed at deterring Chinese aggression in the South China Sea. The pact will allow for joint military exercises and training. / 加拿大和菲律宾签署了一项新的防务合作协议，旨在威慑中国在南中国海的侵略行为。该协议将允许进行联合军事演习和训练。
+- **Source**: Global News
+
+### 9. **OpenAI and Amazon Announce $38 Billion AI Partnership** / **OpenAI与亚马逊宣布达成380亿美元的人工智能合作**
+- **Time**: 2025-11-03
+- **Content**: OpenAI and Amazon have signed a landmark $38 billion deal to collaborate on the development of artificial intelligence technologies. The partnership will see OpenAI leverage Amazon's cloud computing resources to build more advanced AI models. / OpenAI和亚马逊签署了一项具有里程碑意义的380亿美元协议，将合作开发人工智能技术。此次合作将使OpenAI能够利用亚马逊的云计算资源来构建更先进的AI模型。
+- **Source**: Al Jazeera
+
+### 10. **US Government Shutdown Leaves 42 Million Uncertain About Food Aid** / **美国政府关门导致4200万人食品援助不确定**
+- **Time**: 2025-11-03
+- **Content**: A potential US government shutdown is looming, leaving 42 million Americans who rely on food assistance programs in a state of uncertainty. A lapse in funding could disrupt the distribution of vital food aid. / 美国政府可能关门，这让依赖食品援助计划的4200万美国人处于不确定状态。资金中断可能会扰乱重要食品援助的发放。
+- **Source**: Global News
 
 ---
 

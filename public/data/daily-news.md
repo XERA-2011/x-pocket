@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年11月03日
-**Update Time**: 22:21 UTC
+**Date**: 2025年11月05日
+**Update Time**: 22:20 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Powerful Earthquake Hits Afghanistan, Causing Widespread Damage** / **阿富汗发生强烈地震，造成大范围破坏**
-- **Time**: 2025-11-03
-- **Content**: A powerful 6.3 magnitude earthquake has struck western Afghanistan, killing at least 20 people and injuring hundreds. The death toll is expected to rise as rescue efforts continue in the affected remote villages. / 阿富汗西部发生6.3级强烈地震，已造成至少20人死亡，数百人受伤。随着救援工作的继续，死亡人数预计将进一步上升。
-- **Source**: Al Jazeera
+### 1. **Typhoon Kalmaegi Devastates the Philippines** / **台风“海鸥”重创菲律宾**
+- **Time**: 2025-11-05
+- **Content**: Typhoon Kalmaegi has caused significant destruction in the Philippines, leaving at least 66 dead and many survivors trapped by widespread flooding, primarily in a province still recovering from a deadly earthquake. / 台风“海鸥”在菲律宾造成严重破坏，已导致至少66人死亡，许多幸存者被困于大范围洪水中，灾情主要集中在一个仍在从致命地震中恢复的省份。
+- **Source**: Associated Press
 
-### 2. **Jamaica Struggles to Recover from Hurricane Melissa** / **牙买加在飓风“梅丽莎”过后恢复艰难**
-- **Time**: 2025-11-03
-- **Content**: Days after being hit by a devastating Category 5 hurricane, Jamaica is struggling to deliver basic aid to its citizens. Many communities remain cut off by flooding and landslides, complicating relief efforts. / 在遭受毁灭性的5级飓风袭击数天后，牙买加正努力向其公民提供基本援助。许多社区因洪水和山体滑坡而与外界隔绝，给救援工作带来了困难。
-- **Source**: Global News
+### 2. **Israel-Hamas Conflict Developments** / **以色列与哈马斯冲突新进展**
+- **Time**: 2025-11-05
+- **Content**: The Israeli military announced that Hamas handed over remains believed to be of a deceased hostage to the Red Cross in Gaza, amidst ongoing discussions for a UN Security Council resolution to authorize a Gaza stabilization force. / 以色列军方宣布，哈马斯已将据信是已故人质的遗体移交给加沙的红十字会。与此同时，联合国安理会正就授权成立加沙稳定部队的决议进行讨论。
+- **Source**: Associated Press
 
-### 3. **Mexican Mayor Killed During Day of the Dead Festivities** / **墨西哥市长在亡灵节庆祝活动中被枪杀**
-- **Time**: 2025-11-03
-- **Content**: A mayor in the western Mexican state of Michoacán was shot and killed during a Day of the Dead celebration. The attack is believed to be linked to organized crime, which is rampant in the region. / 墨西哥西部米却肯州的一位市长在亡灵节庆祝活动中被枪杀。据信这次袭击与该地区猖獗的有组织犯罪有关。
+### 3. **Russia-Ukraine War Continues** / **俄乌战争持续**
+- **Time**: 2025-11-05
+- **Content**: Ukrainian drones have reportedly reached deep inside Russia as intense fighting continues for a key city. Ukraine also claims to have hit a crucial fuel pipeline near Moscow that supplies Russian forces. / 据报道，乌克兰无人机已深入俄罗斯境内，同时双方仍在为一座关键城市激烈战斗。乌克兰还声称击中了莫斯科附近一条为俄军供应燃料的关键输油管道。
+- **Source**: Associated Press
+
+### 4. **Mexican President Claudia Sheinbaum Groped During Public Address** / **墨西哥总统克劳迪娅·辛鲍姆在公开讲话时遭猥亵**
+- **Time**: 2025-11-05
+- **Content**: Mexican President Claudia Sheinbaum was reportedly groped by a man while addressing citizens in Mexico City streets, leading to his arrest and a complaint filed by the president. / 据报道，墨西哥总统克劳迪娅·辛鲍姆在墨西哥城街头向民众发表讲话时遭到一名男子猥亵，该男子已被逮捕，总统本人也已提出申诉。
+- **Source**: Associated Press
+
+### 5. **Top Israeli Military Lawyer Detained in Political Scandal** / **以色列高级军事律师在政治丑闻中被拘留**
+- **Time**: 2025-11-05
+- **Content**: A top military lawyer in Israel resigned, went missing, was found, and subsequently detained in a developing political scandal. / 以色列一名高级军事律师在辞职、失踪并被找到后，因一场正在发酵的政治丑闻而被拘留。
+- **Source**: Associated Press
+
+### 6. **Fatal Construction Collapse in Rome** / **罗马发生致命建筑坍塌事故**
+- **Time**: 2025-11-05
+- **Content**: A construction worker died after being trapped for 11 hours within a partially collapsed medieval tower in Rome. / 罗马一座部分坍塌的中世纪塔楼内，一名建筑工人在被困11小时后死亡。
+- **Source**: Associated Press
+
+### 7. **Car Ramming in France Wounds 10** / **法国发生汽车冲撞行人事件，致10人受伤**
+- **Time**: 2025-11-05
+- **Content**: A man rammed a car into pedestrians in France, wounding 10 people, according to prosecutors. / 据检察官称，一名男子在法国驾车冲撞行人，导致10人受伤。
+- **Source**: The Hindu
+
+### 8. **Sudan Civil War Escalates with Atrocities Reported** / **苏丹内战升级，据报发生暴行**
+- **Time**: 2025-11-05
+- **Content**: The civil war in Sudan is reportedly spiraling out of control, with the UN Secretary-General highlighting alleged atrocities and a recent attack in Sudan's Kordofan region killing 40 people. / 据报道，苏丹内战正逐渐失控，联合国秘书长强调了据称发生的暴行，以及最近在苏丹科尔多凡地区发生的一起导致40人死亡的袭击事件。
 - **Source**: The Guardian
 
-### 4. **Multiple Injured in UK Train Stabbing Attack** / **英国火车刺伤事件致多人受伤**
-- **Time**: 2025-11-03
-- **Content**: A stabbing attack on a train in the United Kingdom has left 10 people injured. A railway employee is in critical condition after heroically intervening to save lives. Two British nationals have been arrested in connection with the attack. / 英国一列火车上发生持刀伤人事件，造成10人受伤。一名铁路员工因英勇救人而生命垂危。两名英国公民因涉嫌此次袭击而被捕。
-- **Source**: Sky News
+### 9. **Japan Deploys Military to Counter Bear Attacks** / **日本部署军队应对熊袭击事件**
+- **Time**: 2025-11-05
+- **Content**: Japan has deployed its military to counter a surge in bear attacks across the country. / 为应对全国范围内熊袭击事件的激增，日本已部署军队。
+- **Source**: CTV News
 
-### 5. **Israel and Hamas Exchange Bodies as Part of Ceasefire Deal** / **作为停火协议的一部分，以色列和哈马斯交换尸体**
-- **Time**: 2025-11-03
-- **Content**: Israel and Hamas have handed over the bodies of fallen fighters as part of a fragile ceasefire agreement in Gaza. The exchange is seen as a small step towards de-escalating the recent conflict. / 作为加沙地带脆弱停火协议的一部分，以色列和哈马斯已经移交了阵亡士兵的尸体。这次交换被视为缓和近期冲突的一小步。
-- **Source**: The Guardian
-
-### 6. **Trump Threatens Military Action in Nigeria to Defend Christians** / **特朗普威胁在尼日利亚采取军事行动以保护基督徒**
-- **Time**: 2025-11-03
-- **Content**: Former US President Donald Trump has threatened to use US troops or airstrikes in Nigeria to defend Christians, a move that has drawn criticism and concern from international observers. / 美国前总统唐纳德·特朗普威胁要在尼日利亚使用美军或空袭来保护基督徒，此举引起了国际观察员的批评和担忧。
-- **Source**: Global News
-
-### 7. **G7 to Address Renewed Russian Attacks on Ukraine's Energy Grid** / **七国集团将讨论俄罗斯对乌克兰能源网络的新一轮袭击**
-- **Time**: 2025-11-03
-- **Content**: The G7 is set to discuss a coordinated response to Russia's renewed and intensified attacks on Ukraine's energy infrastructure, which have caused widespread power outages as winter approaches. / 七国集团将讨论对俄罗斯再次加强对乌克兰能源基础设施的袭击做出协调一致的回应，这些袭击已导致在冬季来临之际大范围停电。
-- **Source**: Global News
-
-### 8. **Canada and Philippines Sign Defense Pact Amid China Tensions** / **在中菲关系紧张之际，加拿大和菲律宾签署防务协定**
-- **Time**: 2025-11-03
-- **Content**: Canada and the Philippines have signed a new defense cooperation agreement aimed at deterring Chinese aggression in the South China Sea. The pact will allow for joint military exercises and training. / 加拿大和菲律宾签署了一项新的防务合作协议，旨在威慑中国在南中国海的侵略行为。该协议将允许进行联合军事演习和训练。
-- **Source**: Global News
-
-### 9. **OpenAI and Amazon Announce $38 Billion AI Partnership** / **OpenAI与亚马逊宣布达成380亿美元的人工智能合作**
-- **Time**: 2025-11-03
-- **Content**: OpenAI and Amazon have signed a landmark $38 billion deal to collaborate on the development of artificial intelligence technologies. The partnership will see OpenAI leverage Amazon's cloud computing resources to build more advanced AI models. / OpenAI和亚马逊签署了一项具有里程碑意义的380亿美元协议，将合作开发人工智能技术。此次合作将使OpenAI能够利用亚马逊的云计算资源来构建更先进的AI模型。
-- **Source**: Al Jazeera
-
-### 10. **US Government Shutdown Leaves 42 Million Uncertain About Food Aid** / **美国政府关门导致4200万人食品援助不确定**
-- **Time**: 2025-11-03
-- **Content**: A potential US government shutdown is looming, leaving 42 million Americans who rely on food assistance programs in a state of uncertainty. A lapse in funding could disrupt the distribution of vital food aid. / 美国政府可能关门，这让依赖食品援助计划的4200万美国人处于不确定状态。资金中断可能会扰乱重要食品援助的发放。
-- **Source**: Global News
+### 10. **Trump Promotes Economic Agenda After Democratic Election Victories** / **民主党赢得选举后，特朗普推广其经济议程**
+- **Time**: 2025-11-05
+- **Content**: Former President Trump has been promoting his economic agenda following recent Democratic election victories. There are also reports of Democrats sweeping the first major elections of Trump's second term. / 在民主党最近赢得选举后，前总统特朗普一直在宣传他的经济议程。另有报道称，民主党在特朗普第二任期的首次主要选举中大获全胜。
+- **Source**: Associated Press
 
 ---
 

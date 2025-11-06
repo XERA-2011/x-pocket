@@ -14,6 +14,30 @@ export const links: Link[] = [
     offset: 0.3,
   },
   {
+    title: 'Explore',
+    href: '/#explore',
+    id: 'explore',
+    offset: 0.3,
+  },
+  {
+    title: 'Pages',
+    href: '/#pages-showcase',
+    id: 'pages-showcase',
+    offset: 0.3,
+  },
+  {
+    title: 'Games',
+    href: '/#games-showcase',
+    id: 'games-showcase',
+    offset: 0.3,
+  },
+];
+
+/**
+ * 外部页面导航链接（用于 Header 菜单）
+ */
+export const externalLinks: Link[] = [
+  {
     title: 'Games',
     href: '/games',
   },
@@ -38,4 +62,12 @@ export const getHomeSections = () =>
   links
     .filter(link => link.id)
     .map(({ id, offset }) => ({ id: id!, offset: offset || 0.3 }));
+
+/**
+ * 获取所有导航链接（首页锚点 + 外部页面）
+ */
+export const getAllNavLinks = () => [
+  { title: 'Home', href: '/' },
+  ...externalLinks
+];
 

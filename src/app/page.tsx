@@ -10,8 +10,6 @@ import CardSection from '@/components/sections/card';
 import PagesSection from '@/components/sections/pages';
 // 游戏展示区域
 import GamesSection from '@/components/sections/games';
-// 故事展示区域
-import StorySection from '@/components/sections/story';
 // 提供页面平滑滚动行为的组件
 import SmoothScroll from '@/components/SmoothScroll';
 // 处理页面之间导航时的过渡动画组件
@@ -75,10 +73,6 @@ export default function Home() {
 
         <Suspense fallback={<FallbackSection />}>
           <GamesSection />
-        </Suspense>
-
-        <Suspense fallback={<FallbackSection />}>
-          <StorySection />
         </Suspense>
       </PageTransition>
     </SmoothScroll>

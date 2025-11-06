@@ -1,26 +1,74 @@
 "use client";
 
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { motion } from "framer-motion";
-export default function Header() {
+import styles from "./style.module.scss";
+import { background } from "./anim";
+import Nav from "./nav";
+import { cn } from "@/utils/cn";
+
+interface HeaderProps {
+  loader?: boolean;
+}
+
+const Header = ({ loader }: HeaderProps) => {
+  const [isActive, setIsActive] = useState<boolean>(false);
+
   return (
     <motion.header
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-md bg-black/10 py-6"
+      className={cn(
+        styles.header,
+        "transition-colors delay-100 duration-500 ease-in"
+      )}
+      style={{
+        background: isActive ? "rgba(0, 0, 0, 0.8)" : "transparent",
+      }}
+      initial={{
+        y: -80,
+      }}
+      animate={{
+        y: 0,
+      }}
+      transition={{
+        delay: loader ? 3.5 : 0,
+        duration: 0.8,
+      }}
     >
-      <div className="container mx-auto px-4 flex justify-center">
-        <motion.div
-          className="relative group"
-          whileHover={{ scale: 1.05 }}
-          transition={{ type: "spring", stiffness: 400, damping: 30 }}
-        >
-          <Link href="/" className="text-2xl md:text-3xl font-bold text-white no-underline cursor-can-hover">
+      <div className={cn(styles.bar, "flex items-center justify-between")}>
+        <Link href="/" className="flex items-center justify-center cursor-can-hover">
+          <span className="text-base md:text-lg font-bold">
             X-POCKET
-          </Link>
-        </motion.div>
+          </span>
+        </Link>
+
+        <button
+          onClick={() => setIsActive(!isActive)}
+          className={cn(
+            styles.el,
+            "m-0 p-0 h-6 bg-transparent flex items-center justify-center border-none cursor-can-hover"
+          )}
+        >
+          <div
+            className={`${styles.burger} ${
+              isActive ? styles.burgerActive : ""
+            }`}
+          ></div>
+        </button>
       </div>
+
+      <motion.div
+        variants={background}
+        initial="initial"
+        animate={isActive ? "open" : "closed"}
+        className={styles.background}
+      ></motion.div>
+
+      <AnimatePresence mode="wait">
+        {isActive && <Nav setIsActive={setIsActive} />}
+      </AnimatePresence>
     </motion.header>
   );
-}
+};
+
+export default Header;

@@ -26,11 +26,13 @@ async function MarkdownPreviewPage() {
   };
 
   return (
-    <div className="mx-auto p-4 min-h-[75vh] max-w-4xl mt-[100px] mx-[10px] bg-white/10 rounded-[24px]">
-      <div className="prose prose-invert max-w-none">
-        <ReactMarkdown components={components}>
-          {markdownContent}
-        </ReactMarkdown>
+    <div className="min-h-screen pt-20 pb-16 px-4">
+      <div className="mx-auto max-w-4xl bg-white/10 rounded-[24px] p-6 md:p-8">
+        <div className="prose prose-invert max-w-none">
+          <ReactMarkdown components={components}>
+            {markdownContent}
+          </ReactMarkdown>
+        </div>
       </div>
     </div>
   );

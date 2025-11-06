@@ -49,8 +49,8 @@ const gamesData: GlowCardItem[] = [
 
 export default function GamesPage() {
   return (
-    <div className="min-h-screen text-white mt-[100px]">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="min-h-screen text-white pt-20 pb-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}

@@ -146,7 +146,7 @@ export default function CozeApiPage() {
   const callCozeApi = streamCozeReply;
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-2 py-4 transition-colors duration-200 mt-[100px]">
+    <div className="min-h-screen flex flex-col items-center px-2 pt-20 pb-16 transition-colors duration-200">
       <div className="w-full max-w-2xl flex flex-col gap-4">
         <div className="p-6 shadow flex flex-col gap-6">
           <h1 className="text-2xl font-bold text-neutral-100 mb-2">COZE</h1>

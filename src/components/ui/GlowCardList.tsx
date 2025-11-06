@@ -8,6 +8,7 @@ export interface GlowCardItem {
   id: string;
   title: string;
   href: string;
+  tags?: string[];
 }
 
 interface GlowCardListProps {

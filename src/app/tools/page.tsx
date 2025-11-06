@@ -9,15 +9,11 @@ const toolsData: GlowCardItem[] = [
     id: "base64",
     title: "Base64 编码解码",
     href: "/tools/base64",
-    description: "在线Base64编码和解码工具",
-    tags: ['编码', '工具']
   },
   {
     id: "info-create",
     title: "信息生成器",
     href: "/tools/info-create",
-    description: "随机生成中文姓名、手机号、身份证等信息",
-    tags: ['生成器', '随机']
   },
 ];
 

@@ -16,7 +16,7 @@ export default function Base64Page() {
       setError('');
       const encoded = btoa(unescape(encodeURIComponent(input)));
       setOutput(encoded);
-    } catch (err) {
+    } catch {
       setError('编码失败，请检查输入内容');
       setOutput('');
     }
@@ -27,7 +27,7 @@ export default function Base64Page() {
       setError('');
       const decoded = decodeURIComponent(escape(atob(input)));
       setOutput(decoded);
-    } catch (err) {
+    } catch {
       setError('解码失败，请检查Base64格式是否正确');
       setOutput('');
     }
@@ -166,8 +166,8 @@ export default function Base64Page() {
                 <button
                   onClick={handleCopy}
                   className={`text-sm px-3 py-1 rounded-md transition-all ${copied
-                      ? 'bg-green-500/20 text-green-300 border border-green-500/30'
-                      : 'text-white/70 hover:text-white hover:bg-white/10'
+                    ? 'bg-green-500/20 text-green-300 border border-green-500/30'
+                    : 'text-white/70 hover:text-white hover:bg-white/10'
                     }`}
                 >
                   {copied ? '✓ 已复制' : '复制结果'}

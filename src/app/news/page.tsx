@@ -18,22 +18,51 @@ async function NewsPage() {
   }
 
   const components: Components = {
-    h1: ({ ...props }) => <h1 className="text-3xl font-bold mb-6 text-center" {...props} />,
-    h2: ({ ...props }) => <h2 className="text-xl font-semibold mt-6 mb-3" {...props} />,
-    h3: ({ ...props }) => <h3 className="text-lg font-medium mt-4 mb-2" {...props} />,
-    p: ({ ...props }) => <p className="text-base leading-7 mb-2" {...props} />,
-    ul: ({ ...props }) => <ul className="text-white/80 mb-4 list-none p-0" {...props} />,
-    li: ({ ...props }) => <li className="mb-1 pl-0" {...props} />,
-    hr: ({ ...props }) => <hr className="my-6 border-gray-500" {...props} />,
-    a: ({ ...props }) => (
-      <a
-        className="text-blue-400 hover:text-blue-300 underline transition-colors"
-        target="_blank"
-        rel="noopener noreferrer"
-        {...props}
-      />
-    ),
-    strong: ({ ...props }) => <strong className="font-semibold text-white" {...props} />,
+    h1: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <h1 className="text-3xl font-bold mb-6 text-center" {...safeProps}>{children}</h1>;
+    },
+    h2: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <h2 className="text-xl font-semibold mt-6 mb-3" {...safeProps}>{children}</h2>;
+    },
+    h3: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <h3 className="text-lg font-medium mt-4 mb-2" {...safeProps}>{children}</h3>;
+    },
+    p: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <p className="text-base leading-7 mb-2" {...safeProps}>{children}</p>;
+    },
+    ul: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <ul className="text-white/80 mb-4 list-none p-0" {...safeProps}>{children}</ul>;
+    },
+    li: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <li className="mb-1 pl-0" {...safeProps}>{children}</li>;
+    },
+    hr: ({ ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <hr className="my-6 border-gray-500" {...safeProps} />;
+    },
+    a: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return (
+        <a
+          className="text-blue-400 hover:text-blue-300 underline transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+          {...safeProps}
+        >
+          {children}
+        </a>
+      );
+    },
+    strong: ({ children, ...props }) => {
+      const { ref, key, node, ...safeProps } = props as any;
+      return <strong className="font-semibold text-white" {...safeProps}>{children}</strong>;
+    },
   };
 
   return (

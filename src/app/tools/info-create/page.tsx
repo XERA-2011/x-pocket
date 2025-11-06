@@ -2,9 +2,6 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
-
-
 
 const generatePhoneNumber = () => {
   const prefixes = ['130', '131', '132', '133', '134', '135', '136', '137', '138', '139'];
@@ -107,29 +104,9 @@ export default function InfoCreatePage() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         <motion.div
           className="text-center mb-12"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <Link
-            href="/tools"
-            className="inline-flex items-center text-white/75 hover:text-white mb-6 transition-colors duration-300"
-          >
-            ← 返回工具列表
-          </Link>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            信息生成器
-          </h1>
-          <p className="text-lg text-white/75 max-w-2xl mx-auto">
-            随机生成手机号、身份证等测试信息
-          </p>
-        </motion.div>
-
-        <motion.div
-          className="text-center mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8 }}
         >
           <button
             onClick={generateAllInfo}

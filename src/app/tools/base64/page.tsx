@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 export default function Base64Page() {
   const [input, setInput] = useState('');
@@ -68,33 +67,12 @@ export default function Base64Page() {
   return (
     <div className="relative w-full min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-        {/* Header */}
-        <motion.div
-          className="text-center mb-12"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <Link
-            href="/tools"
-            className="inline-flex items-center text-white/70 hover:text-white mb-4 transition-colors"
-          >
-            ← 返回工具列表
-          </Link>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Base64 编码解码
-          </h1>
-          <p className="text-lg text-white/70">
-            在线Base64编码和解码工具，支持中文
-          </p>
-        </motion.div>
-
         {/* Tool Interface */}
         <motion.div
           className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8 }}
         >
           {/* Mode Toggle */}
           <div className="flex justify-center mb-8">
@@ -181,22 +159,6 @@ export default function Base64Page() {
               className="w-full h-32 bg-white/5 border border-white/20 rounded-lg px-4 py-3 text-white placeholder-white/50 resize-none"
             />
           </div>
-        </motion.div>
-
-        {/* Usage Tips */}
-        <motion.div
-          className="mt-8 bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-        >
-          <h3 className="text-white font-medium mb-4">使用说明</h3>
-          <ul className="text-white/70 space-y-2 text-sm">
-            <li>• Base64是一种基于64个可打印字符来表示二进制数据的表示方法</li>
-            <li>• 支持中文字符的编码和解码</li>
-            <li>• 编码：将普通文本转换为Base64格式</li>
-            <li>• 解码：将Base64格式转换回普通文本</li>
-          </ul>
         </motion.div>
       </div>
     </div>

@@ -9,39 +9,21 @@ const gamesData: GlowCardItem[] = [
   {
     id: 'solar-skirmish',
     title: 'Solar Skirmish',
-    description: 'A space shooter game through asteroid fields.',
-    icon: '🚀',
-    tags: ['Shooter', 'Space'],
-    difficulty: 'Medium',
     href: getSmartHref('/pages/solar.html')
   },
   {
     id: 'tetris',
     title: 'Tetris',
-    description: 'Classic block-stacking puzzle game with modern controls.',
-    icon: '🧩',
-    tags: ['Puzzle', 'Classic'],
-    difficulty: 'Easy',
     href: getSmartHref('/pages/tetris.html')
   },
   {
     id: 'coming-soon-1',
     title: 'Stellar Explorer',
-    description: 'Explore galaxies and establish space bases.',
-    icon: '🌌',
-    tags: ['Exploration', 'Strategy'],
-    difficulty: 'Easy',
-    comingSoon: true,
     href: '#'
   },
   {
     id: 'coming-soon-2',
     title: 'Quantum Maze',
-    description: 'Solve puzzles in a quantum world.',
-    icon: '🔬',
-    tags: ['Puzzle', 'Sci-Fi'],
-    difficulty: 'Hard',
-    comingSoon: true,
     href: '#'
   }
 ];

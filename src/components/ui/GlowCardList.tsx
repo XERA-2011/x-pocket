@@ -7,11 +7,6 @@ import GlowCard from './GlowCard';
 export interface GlowCardItem {
   id: string;
   title: string;
-  description: string;
-  icon?: string;
-  tags?: string[];
-  difficulty?: string;
-  comingSoon?: boolean;
   href: string;
 }
 
@@ -79,64 +74,15 @@ function ItemCard({ item, index }: { item: GlowCardItem; index: number }) {
         className="rounded-xl transition duration-300 group h-full overflow-hidden bg-white/5 hover:bg-white/10"
       >
         <div className="relative text-center p-6 h-full flex flex-col">
-          {/* Coming Soon badge */}
-          {item.comingSoon && (
-            <div className="absolute top-3 right-3 z-20">
-              <span className="text-xs px-3 py-1 rounded-full bg-black/40 border border-white/30 text-white/80 backdrop-blur-sm">
-                Coming Soon
-              </span>
-            </div>
-          )}
-
-          {/* Icon */}
-          {item.icon && (
-            <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-              {item.icon}
-            </div>
-          )}
-
-          {/* Title and difficulty */}
           <div className="mb-3">
             <div className="text-xl font-bold mb-2 text-white group-hover:text-white/90 transition-colors duration-300">
               {item.title}
             </div>
-            {item.difficulty && (
-              <span className="text-xs px-2 py-1 rounded-full bg-white/10 border border-white/20 text-white/70">
-                {item.difficulty}
-              </span>
-            )}
           </div>
-
-          {/* Description */}
-          <div className="text-white/60 text-sm mb-4 group-hover:text-white/80 transition-colors duration-300 flex-grow leading-relaxed">
-            {item.description}
-          </div>
-
-          {/* Tags */}
-          {item.tags && item.tags.length > 0 && (
-            <div className="flex flex-wrap gap-2 mb-4 justify-center">
-              {item.tags.map((tag, i) => (
-                <span
-                  key={i}
-                  className="text-xs px-2 py-1 rounded-full border border-white/20 bg-white/5 text-white/60"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-          )}
-
-          {/* Button */}
           <div className="mt-auto">
-            {item.comingSoon ? (
-              <div className="w-full text-center py-2.5 px-4 bg-black/20 border border-white/10 rounded-xl text-white/50 cursor-not-allowed">
-                Coming Soon
-              </div>
-            ) : (
-              <Link href={item.href} className="block w-full text-center py-2.5 px-4 bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/30 rounded-full text-white hover:text-white/90 transition-all duration-300 no-underline cursor-can-hover">
-                View
-              </Link>
-            )}
+            <Link href={item.href} className="block w-full text-center py-2.5 px-4 bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/30 rounded-full text-white hover:text-white/90 transition-all duration-300 no-underline cursor-can-hover">
+              View
+            </Link>
           </div>
         </div>
       </GlowCard>

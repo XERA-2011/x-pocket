@@ -7,49 +7,24 @@ import { getSmartHref } from '@/utils/href-helper';
 
 const pagesData: GlowCardItem[] = [
   {
-    id: "daily-news",
-    title: "Daily News",
-    description: "Global hot news TOP10 from mainstream English media.",
-    href: getSmartHref("/news"),
-    icon: "📰",
-    tags: ['News', 'Global', 'Daily'],
-    difficulty: 'Easy'
-  },
-  {
     id: "black-hole-sim",
     title: "Black Hole Simulation",
-    description: "Interactive physics simulation of a black hole.",
     href: getSmartHref("/pages/black-hole.html"),
-    icon: "🕳️",
-    tags: ['Physics', 'Simulation'],
-    difficulty: 'Medium'
   },
   {
     id: "constellation-map",
     title: "Constellation Map",
-    description: "Dynamic generator for starfield effects.",
     href: getSmartHref("/pages/constellation.html"),
-    icon: "✨",
-    tags: ['Visualization', 'Generator'],
-    difficulty: 'Easy'
   },
   {
     id: "solar-system-explorer",
     title: "Solar System Explorer",
-    description: "Explore a model of our solar system.",
     href: getSmartHref("/pages/solar.html"),
-    icon: "🌞",
-    tags: ['Education', 'Exploration'],
-    difficulty: 'Medium'
   },
   {
     id: "x-logo-design",
     title: "X Logo Design",
-    description: "SVG to PNG export tool with black/white dual versions.",
     href: getSmartHref("/pages/x-logo.html"),
-    icon: "❌",
-    tags: ['Design', 'SVG', 'Export'],
-    difficulty: 'Easy'
   }
 ];
 

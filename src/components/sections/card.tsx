@@ -8,6 +8,7 @@ const cardData: GlowCardItem[] = [
   { id: "daily-news", title: "Daily News", href: "/news", description: "Global hot news TOP10 from mainstream English media", tags: ['News', 'Global'] },
   { id: "essays-md", title: "Essays Markdown", href: "/english/essays-md", description: "Markdown content rendering", tags: ['Content', 'Markdown'] },
   { id: "essays-json", title: "Essays JSON", href: "/english/essays", description: "JSON data format rendering", tags: ['Content', 'JSON'] },
+  { id: "tools", title: "Online Tools", href: "/tools", description: "Practical online tool collection, including Base64 encoding/decoding, information generators, etc.", tags: ['Tools', 'Utilities'] },
   { id: "coze-ai", title: "COZE AI", href: "/ai/coze", description: "AI assistant integration", tags: ['AI', 'Chat'] },
   { id: "google-ai", title: "Google AI", href: "/ai/google", description: "Google AI integration", tags: ['AI', 'Google'] },
   { id: "games", title: "Games", href: "/games", description: "Interactive games", tags: ['Game', 'Interactive'] },

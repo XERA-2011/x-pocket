@@ -114,7 +114,6 @@ textarea,
 select,
 button {
   font-family: inherit;
-  color: var(--color-white);
 }
 
 /* Override any default browser styles that might introduce colors */

@@ -1,8 +1,23 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',                  // 启用静态导出
-  images: { unoptimized: true },     // 关闭 Next.js 默认图片优化
+  // 移除 output: 'export' 以支持 API 路由和服务器端功能
+  images: { 
+    unoptimized: true,     // 关闭 Next.js 默认图片优化
+    localPatterns: [
+      {
+        pathname: '/api/joke',
+        search: '',
+      },
+    ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn.jsdelivr.net',
+        pathname: '/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;

@@ -17,6 +17,11 @@ const toolsData: GlowCardItem[] = [
     href: "/tools/info-create",
   },
   {
+    id: "joke-card",
+    title: "编程笑话卡片",
+    href: "/tools/joke-card",
+  },
+  {
     id: "coze",
     title: "Coze",
     href: "/tools/coze",

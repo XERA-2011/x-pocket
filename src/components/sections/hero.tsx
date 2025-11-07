@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
+import Image from 'next/image';
 import Logo from '@/components/ui/Logo';
 
 interface CurrentTime {
@@ -195,9 +196,12 @@ export default function HeroSection() {
           transition={{ delay: 1.2, duration: 0.6 }}
           className="mt-12"
         >
-          <img
+          <Image
             alt="github-snake"
             src="https://cdn.jsdelivr.net/gh/XERA-2011/XERA-2011/profile-snake-contrib/github-contribution-grid-snake-dark.svg"
+            width={800}
+            height={200}
+            unoptimized
           />
         </motion.div>
       </div>

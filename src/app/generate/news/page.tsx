@@ -2,6 +2,9 @@ import React from 'react';
 import { type Components } from 'react-markdown';
 import { readMarkdownFile } from '@/utils/markdown';
 import { MarkdownPage } from '@/components/MarkdownPage';
+import { createMetadata } from '@/utils/metadata';
+
+export const metadata = createMetadata('新闻');
 
 async function NewsPage() {
   const markdownContent = await readMarkdownFile(

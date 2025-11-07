@@ -2,8 +2,10 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { usePageTitle } from '@/hooks/use-page-title';
 
 export default function Base64Page() {
+  usePageTitle('Base64 编码解码');
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [mode, setMode] = useState<'encode' | 'decode'>('encode');
@@ -115,13 +117,13 @@ export default function Base64Page() {
           <div className="flex gap-4 mb-6">
             <button
               onClick={handleProcess}
-              className="flex-1 bg-white !text-black font-medium py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors shadow-sm"
+              className="flex-1 bg-white !text-black font-medium py-3 px-6 rounded-lg hover:bg-gray-100 transition-colors shadow-sm cursor-can-hover"
             >
               {mode === 'encode' ? '编码' : '解码'}
             </button>
             <button
               onClick={handleClear}
-              className="px-6 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors border border-white/20"
+              className="px-6 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors border border-white/20 cursor-can-hover"
             >
               清空
             </button>
@@ -143,7 +145,7 @@ export default function Base64Page() {
               {output && (
                 <button
                   onClick={handleCopy}
-                  className={`text-sm px-3 py-1 rounded-md transition-all ${copied
+                  className={`text-sm px-3 py-1 rounded-md transition-all cursor-can-hover ${copied
                     ? 'bg-green-500/20 text-green-300 border border-green-500/30'
                     : 'text-white/70 hover:text-white hover:bg-white/10'
                     }`}

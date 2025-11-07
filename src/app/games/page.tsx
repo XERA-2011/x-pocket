@@ -1,9 +1,10 @@
-"use client";
+'use client';
 
 import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 import { getSmartHref } from '@/utils/href-helper';
+import { usePageTitle } from '@/hooks/use-page-title';
 
 const gamesData: GlowCardItem[] = [
   {
@@ -19,6 +20,8 @@ const gamesData: GlowCardItem[] = [
 ];
 
 export default function GamesPage() {
+  usePageTitle('Games');
+
   return (
     <div className="relative w-full min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

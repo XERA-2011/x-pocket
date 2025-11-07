@@ -16,6 +16,7 @@
 //  - Shots ricochet slightly off big rocks; use drift + boost to swing around enemies.
 
 import React, { useEffect, useRef, useState } from "react";
+import { usePageTitle } from '@/hooks/use-page-title';
 
 // ===== Utility =====
 const TAU = Math.PI * 2;
@@ -51,6 +52,8 @@ interface Enemy extends Ent { aim: number; cd: number; aiTimer: number; hp: numb
 
 // ===== Main Page Component =====
 export default function Page() {
+  usePageTitle('Solar Skirmish');
+
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [paused, setPaused] = useState(false);
   const [muted, setMuted] = useState(false);
@@ -165,7 +168,7 @@ export default function Page() {
     const trySfx = (fn: () => void) => {
       if (muted) return;
       if (!acRef.current) {
-        try { 
+        try {
           const AudioContextClass = window.AudioContext || (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
           if (AudioContextClass) {
             acRef.current = new AudioContextClass();
@@ -453,17 +456,17 @@ export default function Page() {
   }, [muted, gameOver, lives, paused, score]);
 
   return (
-    <div style={{height:"100svh", background:"#070a12", color:"#cfe", fontFamily:"ui-monospace, monospace"}}>
-      <div style={{position:"absolute", inset:0, display:"grid", gridTemplateRows:"auto 1fr"}}>
-        <header style={{display:"flex", alignItems:"center", justifyContent:"space-between", padding:"10px 14px", borderBottom:"1px solid #111", background:"linear-gradient(180deg, #0c1222, #0a0f1c)"}}>
-          <div style={{display:"flex", alignItems:"center", gap:8}}>
-            <span style={{fontWeight:700}}>🚀 Solar Skirmish</span>
-            <span style={{opacity:0.7, fontSize:12}}>Asteroids + Dogfights</span>
+    <div style={{ height: "100svh", background: "#070a12", color: "#cfe", fontFamily: "ui-monospace, monospace" }}>
+      <div style={{ position: "absolute", inset: 0, display: "grid", gridTemplateRows: "auto 1fr" }}>
+        <header style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 14px", borderBottom: "1px solid #111", background: "linear-gradient(180deg, #0c1222, #0a0f1c)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <span style={{ fontWeight: 700 }}>🚀 Solar Skirmish</span>
+            <span style={{ opacity: 0.7, fontSize: 12 }}>Asteroids + Dogfights</span>
           </div>
-          <div style={{fontSize:12, opacity:0.8}}>Space: fire • Shift: boost • P: pause • M: mute</div>
+          <div style={{ fontSize: 12, opacity: 0.8 }}>Space: fire • Shift: boost • P: pause • M: mute</div>
         </header>
-        <div style={{position:"relative"}}>
-          <canvas ref={canvasRef} style={{width:"100%", height:"calc(100svh - 44px)", display:"block", cursor:"crosshair"}}/>
+        <div style={{ position: "relative" }}>
+          <canvas ref={canvasRef} style={{ width: "100%", height: "calc(100svh - 44px)", display: "block", cursor: "crosshair" }} />
         </div>
       </div>
     </div>

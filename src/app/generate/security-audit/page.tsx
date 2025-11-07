@@ -1,6 +1,9 @@
 import React from 'react';
 import { readMarkdownFile } from '@/utils/markdown';
 import { MarkdownPage } from '@/components/MarkdownPage';
+import { createMetadata } from '@/utils/metadata';
+
+export const metadata = createMetadata('安全审计报告');
 
 async function SecurityAuditPage() {
   const markdownContent = await readMarkdownFile(

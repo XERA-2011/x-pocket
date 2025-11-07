@@ -1,7 +1,9 @@
 'use client';
 import { useLayoutEffect, useRef, useState } from 'react';
+import { usePageTitle } from '@/hooks/use-page-title';
 
 export default function CozeApiPage() {
+  usePageTitle('COZE API');
   // 状态管理
   const [formData, setFormData] = useState({
     token: '',

@@ -1,6 +1,9 @@
 import React from 'react';
 import { readMarkdownFile } from '@/utils/markdown';
 import { MarkdownPage } from '@/components/MarkdownPage';
+import { createMetadata } from '@/utils/metadata';
+
+export const metadata = createMetadata('PET3作文');
 
 async function MarkdownPreviewPage() {
   const markdownContent = await readMarkdownFile(

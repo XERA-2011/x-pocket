@@ -1,7 +1,7 @@
 "use client";
 
 // React的Suspense组件，用于处理加载状态并在内容加载时显示备用UI
-import { Suspense, useEffect } from 'react';
+import { Suspense } from 'react';
 // 显示主要标题和介绍内容
 import HeroSection from '@/components/sections/hero';
 // 提供页面平滑滚动行为的组件
@@ -12,6 +12,8 @@ import PageTransition from '@/components/PageTransition';
 import { useScrollHash } from '@/hooks/use-scroll-hash';
 // 导航配置
 import { getHomeSections } from '@/components/header/config';
+// 动态设置页面标题
+import { usePageTitle } from '@/hooks/use-page-title';
 
 
 // Fallback components for when animations are loading
@@ -26,29 +28,8 @@ export default function Home() {
   // 使用滚动 hash 更新功能
   useScrollHash(sections);
 
-  // 刷新页面时，清空 url 参数，并初始化滚动条
-  useEffect(() => {
-    // Clear URL parameters (but keep hash)
-    const newUrl = `${window.location.protocol}//${window.location.host}${window.location.pathname}${window.location.hash}`;
-    window.history.replaceState({ path: newUrl }, '', newUrl);
-
-    // 立即重置滚动位置
-    window.scrollTo(0, 0);
-
-    // 使用 requestAnimationFrame 确保在下一帧执行
-    requestAnimationFrame(() => {
-      window.scrollTo(0, 0);
-    });
-
-    // 延迟执行，确保所有组件都已加载
-    const timer = setTimeout(() => {
-      window.scrollTo(0, 0);
-      document.documentElement.scrollTop = 0;
-      document.body.scrollTop = 0;
-    }, 100);
-
-    return () => clearTimeout(timer);
-  }, []);
+  // 设置页面标题
+  usePageTitle('首页');
 
   return (
     <SmoothScroll>

@@ -1,8 +1,10 @@
-"use client";
+'use client';
 
 import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
+import { usePageTitle } from '@/hooks/use-page-title';
+import { title } from 'process';
 
 const toolsData: GlowCardItem[] = [
   {
@@ -15,9 +17,21 @@ const toolsData: GlowCardItem[] = [
     title: "信息生成器",
     href: "/tools/info-create",
   },
+  {
+    id: "coze",
+    title: "Coze",
+    href: "/tools/coze",
+  },
+  {
+    id: "google",
+    title: "Google",
+    href: "/tools/google",
+  },
 ];
 
 export default function ToolsPage() {
+  usePageTitle('在线工具');
+
   return (
     <div className="relative w-full min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

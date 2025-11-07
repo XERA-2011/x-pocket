@@ -1,7 +1,9 @@
 'use client';
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { usePageTitle } from '@/hooks/use-page-title';
 
 export default function Home() {
+  usePageTitle('Gemini API');
   const [apiKey, setApiKey] = useState('');
   const [models, setModels] = useState<Array<{ name: string }>>([]);
   const [loadingModels, setLoadingModels] = useState(false);

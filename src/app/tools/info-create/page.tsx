@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { usePageTitle } from '@/hooks/use-page-title';
 
 const generatePhoneNumber = () => {
   const prefixes = ['130', '131', '132', '133', '134', '135', '136', '137', '138', '139'];
@@ -65,6 +66,8 @@ interface GeneratedInfo {
 }
 
 export default function InfoCreatePage() {
+  usePageTitle('信息生成器');
+
   const [generatedInfo, setGeneratedInfo] = useState<GeneratedInfo | null>(null);
   const [copySuccess, setCopySuccess] = useState<string>('');
 
@@ -110,7 +113,7 @@ export default function InfoCreatePage() {
         >
           <button
             onClick={generateAllInfo}
-            className="bg-white text-black font-medium py-4 px-8 rounded-lg hover:bg-white/90 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="bg-white text-black font-medium py-4 px-8 rounded-full hover:bg-white/90 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 cursor-can-hover"
           >
             生成随机信息
           </button>
@@ -124,11 +127,11 @@ export default function InfoCreatePage() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4">
-              <h2 className="text-xl font-bold text-white">生成的信息</h2>
+              <h2 className="text-xl font-bold text-white cursor-can-hover">生成的信息</h2>
               <div className="relative">
                 <button
                   onClick={copyAllInfo}
-                  className="bg-white text-black hover:bg-white/90 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 w-full sm:w-auto"
+                  className="bg-white text-black hover:bg-white/90 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 w-full sm:w-auto cursor-can-hover"
                 >
                   复制全部
                 </button>
@@ -154,7 +157,7 @@ export default function InfoCreatePage() {
                 <div className="relative">
                   <button
                     onClick={() => copyToClipboard(generatedInfo.phone, '手机号')}
-                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded text-sm transition-all duration-300 w-full sm:w-auto"
+                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded-full text-sm transition-all duration-300 w-full sm:w-auto cursor-can-hover"
                   >
                     复制
                   </button>
@@ -179,7 +182,7 @@ export default function InfoCreatePage() {
                 <div className="relative">
                   <button
                     onClick={() => copyToClipboard(generatedInfo.idCard, '身份证')}
-                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded text-sm transition-all duration-300 w-full sm:w-auto"
+                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded-full text-sm transition-all duration-300 w-full sm:w-auto cursor-can-hover"
                   >
                     复制
                   </button>
@@ -204,7 +207,7 @@ export default function InfoCreatePage() {
                 <div className="relative">
                   <button
                     onClick={() => copyToClipboard(generatedInfo.bankCard, '银行卡')}
-                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded text-sm transition-all duration-300 w-full sm:w-auto"
+                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded-full text-sm transition-all duration-300 w-full sm:w-auto cursor-can-hover"
                   >
                     复制
                   </button>
@@ -229,7 +232,7 @@ export default function InfoCreatePage() {
                 <div className="relative">
                   <button
                     onClick={() => copyToClipboard(generatedInfo.creditCode, '信用代码')}
-                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded text-sm transition-all duration-300 w-full sm:w-auto"
+                    className="bg-white text-black hover:bg-white/90 px-3 py-1 rounded-full text-sm transition-all duration-300 w-full sm:w-auto cursor-can-hover"
                   >
                     复制
                   </button>

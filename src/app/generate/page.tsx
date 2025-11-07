@@ -1,8 +1,9 @@
-"use client";
+'use client';
 
 import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
+import { usePageTitle } from '@/hooks/use-page-title';
 
 const generateData: GlowCardItem[] = [
   {
@@ -23,6 +24,8 @@ const generateData: GlowCardItem[] = [
 ];
 
 export default function GeneratePage() {
+  usePageTitle('生成内容');
+
   return (
     <div className="relative w-full min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +38,7 @@ export default function GeneratePage() {
           viewport={{ once: true }}
         >
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            生成工具
+            生成内容
           </h1>
         </motion.div>
 

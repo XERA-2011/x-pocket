@@ -65,12 +65,10 @@
 }
 
 html {
-  /* background-color: var(--color-black); */
-  color: var(--color-white);
   scroll-behavior: smooth;
 }
 
-body {
+html body {
   background-color: var(--color-black);
   color: var(--color-white);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;

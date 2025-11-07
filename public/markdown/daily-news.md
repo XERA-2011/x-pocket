@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年11月06日
+**Date**: 2025年11月07日
 **Update Time**: 22:20 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Former US Vice President Dick Cheney Dies at 84** / **美国前副总统迪克·切尼去世，享年84岁**
-- **Time**: 2025-11-06
-- **Content**: Former US Vice President Dick Cheney has passed away at the age of 84. He served under President George W. Bush. / 美国前副总统迪克·切尼去世，享年84岁。他曾在乔治·W·布什总统手下任职。
+### 1. **Hamas Returns Body of Captive to Israel** / **哈马斯向以色列归还一名人质的遗体**
+- **Time**: 2025-11-07
+- **Content**: Hamas has returned the body of a captive, identified by Israel as a Tanzanian student who was taken hostage during the October 7th attacks. The transfer was mediated by a third party. / 哈马斯归还了一名被俘人员的遗体，经以色列确认，该人为一名在10月7日袭击中被劫持的坦桑尼亚学生。此次移交由第三方斡旋。
+- **Source**: Al Jazeera
+
+### 2. **Explosions at Indonesian School Mosque Injure Dozens** / **印度尼西亚学校清真寺发生爆炸，数十人受伤**
+- **Time**: 2025-11-07
+- **Content**: A series of explosions at a school mosque in Indonesia has resulted in at least 54 injuries. The cause of the blasts is currently under investigation by local authorities. / 印度尼西亚一所学校的清真寺发生一系列爆炸，导致至少54人受伤。地方当局目前正在调查爆炸原因。
 - **Source**: The Guardian
 
-### 2. **Powerful Earthquake in Afghanistan Kills at Least 20** / **阿富汗发生强烈地震，至少20人死亡**
-- **Time**: 2025-11-06
-- **Content**: A strong earthquake has struck Afghanistan, resulting in at least 20 fatalities and hundreds of injuries. / 阿富汗发生强烈地震，造成至少20人死亡，数百人受伤。
+### 3. **China Lifts Ban on Chip Exports to European Carmakers** / **中国解除对欧洲汽车制造商的芯片出口禁令**
+- **Time**: 2025-11-07
+- **Content**: Following a deal with the United States, China is expected to lift a ban on chip exports to European carmakers, a move that could ease supply chain tensions in the global automotive industry. / 在与美国达成协议后，中国预计将解除对欧洲汽车制造商的芯片出口禁令，此举可能缓解全球汽车行业的供应链紧张局势。
 - **Source**: The Guardian
 
-### 3. **Typhoon Kalmaegi Hits Philippines, Killing 26** / **台风“卡马吉”袭击菲律宾，造成26人死亡**
-- **Time**: 2025-11-06
-- **Content**: Typhoon Kalmaegi has devastated parts of the Philippines, causing at least 26 deaths and trapping many survivors. / 台风“卡马吉”重创菲律宾部分地区，造成至少26人死亡，许多幸存者被困。
+### 4. **Typhoon Kalmaegi Hits Vietnam, Causing Deaths and Damage** / **台风“海鸥”袭击越南，造成人员伤亡和财产损失**
+- **Time**: 2025-11-07
+- **Content**: Typhoon Kalmaegi made landfall in Vietnam, causing at least five deaths and damaging thousands of homes before weakening into a tropical storm. Rescue and recovery efforts are underway. / 台风“海鸥”在越南登陆，已造成至少5人死亡，数千所房屋受损，随后减弱为热带风暴。救援和恢复工作正在进行中。
 - **Source**: AP News
 
-### 4. **Ukrainian Drones Strike Major Russian Oil Refinery** / **乌克兰无人机袭击俄罗斯主要炼油厂**
-- **Time**: 2025-11-06
-- **Content**: Ukrainian drones have successfully targeted and hit a significant Russian oil refinery, escalating the ongoing conflict. / 乌克兰无人机成功袭击并命中了俄罗斯一座重要的炼油厂，使持续的冲突升级。
-- **Source**: Sky News
-
-### 5. **Top Israeli Military Lawyer Arrested for Leaking Abuse Video** / **以色列高级军事律师因泄露虐待视频被捕**
-- **Time**: 2025-11-06
-- **Content**: Israel's chief military lawyer has been arrested after admitting to leaking a video that showed abuse by soldiers. / 以色列首席军事律师在承认泄露一段显示士兵施虐的视频后被捕。
+### 5. **India Experiments with Cloud Seeding to Combat Delhi Air Pollution** / **印度试验人工降雨以应对德里空气污染**
+- **Time**: 2025-11-07
+- **Content**: In an effort to combat severe air pollution in New Delhi, Indian authorities are experimenting with cloud seeding to induce artificial rain and wash away pollutants from the atmosphere. / 为应对新德里严重的空气污染，印度当局正在试验人工增雨技术，以期通过人工降雨冲刷掉大气中的污染物。
 - **Source**: The Guardian
 
-### 6. **Mexican President Presses Charges After Groping Incident** / **墨西哥总统在被骚扰事件后提出指控**
-- **Time**: 2025-11-06
-- **Content**: Mexico's President Claudia Sheinbaum is taking legal action after being groped during a public event. / 墨西哥总统克劳迪娅·谢因鲍姆在一次公共活动中被骚扰后，正在采取法律行动。
-- **Source**: AP News
+### 6. **Hungarian Leader Viktor Orban Meets with US President Donald Trump** / **匈牙利领导人欧尔班与美国总统特朗普会晤**
+- **Time**: 2025-11-07
+- **Content**: Hungarian Prime Minister Viktor Orban met with US President Donald Trump to discuss bilateral relations, security issues, and economic cooperation between the two nations. / 匈牙利总理欧尔班·维克托与美国总统唐纳德·特朗普举行会晤，讨论了两国间的双边关系、安全问题及经济合作。
+- **Source**: Al Jazeera
 
-### 7. **Bolivia's Former Interim President Jeanine Áñez Released from Prison** / **玻利维亚前临时总统珍妮娜·阿涅斯获释**
-- **Time**: 2025-11-06
-- **Content**: Jeanine Áñez, the former interim president of Bolivia, has been freed from prison. / 玻利维亚前临时总统珍妮娜·阿涅斯已获释。
-- **Source**: AP News
+### 7. **US Senate Blocks Effort to Limit Trump's Authority on Venezuela Strikes** / **美国参议院否决限制特朗普对委内瑞拉动武权力的努力**
+- **Time**: 2025-11-07
+- **Content**: The US Senate has blocked a Democratic-led effort to limit President Trump's authority to order military strikes against Venezuela, following a heated debate on executive war powers. / 经过一场关于行政战争权力的激烈辩论，美国参议院否决了由民主党领导的旨在限制特朗普总统下令对委内瑞拉进行军事打击的权力的努力。
+- **Source**: The Guardian
 
-### 8. **Sudan's Paramilitary Agrees to Humanitarian Ceasefire** / **苏丹准军事部队同意人道主义停火**
-- **Time**: 2025-11-06
-- **Content**: Sudan's paramilitary forces have accepted a proposal for a humanitarian ceasefire, brokered by the United States. / 苏丹准军事部队已接受美国斡旋的人道主义停火提议。
-- **Source**: Sky News
+### 8. **EU Plans New Hub to Counter Disinformation from Russia** / **欧盟计划建立新中心以对抗来自俄罗斯的虚假信息**
+- **Time**: 2025-11-07
+- **Content**: The European Union has announced plans to establish a new hub dedicated to countering disinformation, with a particular focus on propaganda campaigns originating from Russia. / 欧盟宣布计划建立一个新的中心，专门用于打击虚假信息，尤其侧重于来自俄罗斯的宣传活动。
+- **Source**: The Guardian
 
-### 9. **Pirates Attack Tanker with RPGs off Somali Coast** / **海盗在索马里海岸用火箭弹袭击油轮**
-- **Time**: 2025-11-06
-- **Content**: A tanker has been attacked by pirates using machine guns and rocket-propelled grenades off the coast of Somalia. / 一艘油轮在索马里海岸遭到海盗使用机枪和火箭弹的袭击。
-- **Source**: Sky News
+### 9. **Former British Soldier Contests Extradition to Kenya Over Alleged Murder** / **前英国士兵因涉嫌谋杀案反对被引渡至肯尼亚**
+- **Time**: 2025-11-07
+- **Content**: A former British soldier is legally challenging his extradition to Kenya, where he is wanted in connection with the alleged murder of a local woman. The case has drawn significant media attention. / 一名前英国士兵正在通过法律途径反对将他引渡到肯尼亚，他因涉嫌谋杀一名当地妇女而在该国被通缉。此案引起了媒体的广泛关注。
+- **Source**: Al Jazeera
 
-### 10. **2025 on Track to Be One of the Hottest Years Ever Recorded** / **2025年有望成为有记录以来最热的年份之一**
-- **Time**: 2025-11-06
-- **Content**: Climate scientists are predicting that the year 2025 will be one of the hottest years in recorded history. / 气候科学家预测，2025年将是有记录以来最热的年份之一。
-- **Source**: Sky News
+### 10. **Brazil's Supreme Court Rejects Appeal Against Jair Bolsonaro's Prison Sentence** / **巴西最高法院驳回对雅伊尔·博索纳罗刑期的上诉**
+- **Time**: 2025-11-07
+- **Content**: A panel of Brazil's Supreme Court has rejected an appeal filed by the defense of former President Jair Bolsonaro against a prison sentence related to abuse of power charges. / 巴西最高法院的一个专门小组驳回了前总统雅伊尔·博索纳罗的辩护方就一项与滥用权力指控相关的监禁判决提起的上诉。
+- **Source**: Al Jazeera
 
 ---
 

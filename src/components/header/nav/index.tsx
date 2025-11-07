@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import styles from "./style.module.scss";
 import { height } from "../anim";
@@ -23,25 +23,44 @@ const Nav: React.FC<IndexProps> = ({ setIsActive }) => {
     index: 0,
   });
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setIsActive(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [setIsActive]);
+
   return (
-    <motion.div
-      variants={height}
-      initial="initial"
-      animate="enter"
-      exit="exit"
+    <div
       className={styles.nav}
+      onClick={(e) => {
+        console.log('Nav clicked', e.target);
+        setIsActive(false);
+      }}
     >
-      <div className={cn(styles.wrapper, 'flex justify-end sm:justify-start')}>
-        <div className={styles.container}>
-          <Body
-            links={links}
-            selectedLink={selectedLink}
-            setSelectedLink={setSelectedLink}
-            setIsActive={setIsActive}
-          />
+      <motion.div
+        variants={height}
+        initial="initial"
+        animate="enter"
+        exit="exit"
+        className={styles.navInner}
+      >
+        <div className={cn(styles.wrapper, 'flex justify-end sm:justify-start')}>
+          <div className={styles.container} onClick={(e) => e.stopPropagation()}>
+            <Body
+              links={links}
+              selectedLink={selectedLink}
+              setSelectedLink={setSelectedLink}
+              setIsActive={setIsActive}
+            />
+          </div>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   );
 };
 

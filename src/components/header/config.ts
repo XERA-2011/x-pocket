@@ -6,6 +6,9 @@ export interface Link {
   offset?: number;   // 滚动触发位置（0-1 之间的百分比）
 }
 
+/**
+ * 主导航链接（用于 Header 菜单）
+ */
 export const links: Link[] = [
   {
     title: 'Home',
@@ -13,30 +16,6 @@ export const links: Link[] = [
     id: 'hero',
     offset: 0.3,
   },
-  {
-    title: 'Explore',
-    href: '/#explore',
-    id: 'explore',
-    offset: 0.3,
-  },
-  {
-    title: 'Pages',
-    href: '/#pages-showcase',
-    id: 'pages-showcase',
-    offset: 0.3,
-  },
-  {
-    title: 'Games',
-    href: '/#games-showcase',
-    id: 'games-showcase',
-    offset: 0.3,
-  },
-];
-
-/**
- * 外部页面导航链接（用于 Header 菜单）
- */
-export const externalLinks: Link[] = [
   {
     title: 'Games',
     href: '/games',
@@ -46,12 +25,8 @@ export const externalLinks: Link[] = [
     href: '/tools',
   },
   {
-    title: 'AI',
-    href: '/ai',
-  },
-  {
-    title: 'News',
-    href: '/news',
+    title: 'Generate',
+    href: '/generate',
   },
 ];
 
@@ -62,12 +37,4 @@ export const getHomeSections = () =>
   links
     .filter(link => link.id)
     .map(({ id, offset }) => ({ id: id!, offset: offset || 0.3 }));
-
-/**
- * 获取所有导航链接（首页锚点 + 外部页面）
- */
-export const getAllNavLinks = () => [
-  { title: 'Home', href: '/' },
-  ...externalLinks
-];
 

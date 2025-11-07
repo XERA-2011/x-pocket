@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Logo from '@/components/ui/Logo';
-import ScrollIndicator from '@/components/ui/ScrollIndicator';
 
 interface CurrentTime {
   year: number;
@@ -58,13 +57,6 @@ export default function HeroSection() {
     return () => clearInterval(timer);
   }, []);
 
-  const scrollToExplore = () => {
-    const exploreElement = document.getElementById('explore');
-    if (exploreElement) {
-      exploreElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   const formatNumber = (num: number) => num.toString().padStart(2, '0');
 
   return (
@@ -77,10 +69,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-white/10 opacity-30" />
 
       {/* Logo Section */}
-      <div
-        onClick={scrollToExplore}
-        className="mb-8 hover:scale-105 transition-transform duration-300 transition-all duration-300 backdrop-blur-md"
-      >
+      <div className="mb-8 hover:scale-105 transition-transform duration-300 transition-all duration-300 backdrop-blur-md">
         <motion.div
           ref={logoRef}
           onHoverStart={() => setIsHovered(true)}
@@ -199,10 +188,6 @@ export default function HeroSection() {
             </div>
           </div>
         </motion.div>
-      </div>
-
-      <div className="mt-12">
-        <ScrollIndicator onClick={scrollToExplore} />
       </div>
     </section>
   );

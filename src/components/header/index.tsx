@@ -50,9 +50,8 @@ const Header = ({ loader }: HeaderProps) => {
           )}
         >
           <div
-            className={`${styles.burger} ${
-              isActive ? styles.burgerActive : ""
-            }`}
+            className={`${styles.burger} ${isActive ? styles.burgerActive : ""
+              }`}
           ></div>
         </button>
       </div>

@@ -1,41 +1,41 @@
 # 应用文
 
-## An email to a friend recommending a new restaurant you tried
-- 一封向朋友推荐你尝试过的新餐厅的邮件
+## An email to a language school asking about English courses and prices
+- 一封给语言学校的邮件，询问英语课程和价格
 
 **正文**：
 
-Hi Alex,
+Dear Sir or Madam,
 
-How are you? I'm writing to tell you about an amazing new Italian restaurant I tried last weekend. It's called "The Pasta House" and it's just opened in the city center, near the main library.
+I am writing to ask for information about the English courses at your school. I am interested in improving my English this summer and would like to know more about your programmes.
 
-The food was absolutely delicious! I had the seafood spaghetti, and it was the best I've ever tasted. The atmosphere was really cozy and the staff were very friendly, too. It wasn't too expensive either, which was a bonus.
+Could you please tell me what kinds of courses you offer? I am looking for an intensive course, but I would also consider evening classes. My current level is intermediate. Could you also provide details about the start dates and the cost of the courses? Finally, I would be grateful if you could let me know if there are any accommodation options available.
 
-We should definitely go there together sometime soon. Let me know when you're free!
+I look forward to hearing from you soon.
 
-Best,
+Yours faithfully,
+Alex Chen
 
-Chris
-
-- 嗨，亚历克斯，
-- 你好吗？我写信是想告诉你，我上周末尝试了一家超棒的新意大利餐厅。它叫“意大利面小屋”，就在市中心，靠近主图书馆。
-- 食物真的非常美味！我点了海鲜意面，那是我吃过的最棒的。餐厅的氛围也很舒适，员工们非常友好。价格也不算太贵，这算是个惊喜。
-- 我们近期一定要一起去一次。告诉我你什么时候有空！
-- 祝好，
-- 克里斯
+- 尊敬的先生或女士：
+- 我写信是为了咨询贵校的英语课程信息。我有兴趣在今年夏天提高我的英语水平，并希望了解更多关于你们课程项目的情况。
+- 请问你们提供哪些类型的课程？我正在寻找强化课程，但也会考虑晚间课程。我目前的水平是中级。您能否也提供关于开课日期和课程费用的详细信息？最后，如果您能告知是否有任何住宿选择，我将不胜感激。
+- 我期待尽快收到您的回复。
+- 此致，
+- Alex Chen
 
 ---
 
 # 记叙文/短文
 
-## An article for teenagers about the benefits of learning a second language
-- 一篇为青少年写的关于学习第二语言好处的文章
+## An article explaining how students can help protect the environment
+- 一篇解释学生如何帮助保护环境的文章
 
 **正文**：
 
-Learning a second language is a fantastic adventure that opens up a whole new world. Firstly, it allows you to communicate with more people. Imagine traveling to another country and being able to chat with the local people in their own language!
+Protecting our environment is a big challenge, but students can make a real difference. There are many simple things we can do every day to help our planet.
 
-Secondly, it helps you understand different cultures and ways of thinking, which makes you more open-minded. Plus, studies show that being bilingual can actually make your brain stronger and improve your memory. It’s a great skill for your future career too. So why not start learning a new language today? It's a rewarding journey!
+First, we can reduce waste by recycling paper, plastic, and glass. Instead of throwing things away, think about whether they can be used again. Secondly, saving energy is very important. We should always turn off lights and computers when we are not using them. Finally, we can try to use less water when we brush our teeth or take a shower. By making these small changes, we can work together to create a cleaner world.
 
-- 学习第二语言是一场奇妙的冒险，它能为你打开一个全新的世界。首先，它让你能与更多的人交流。想象一下，去另一个国家旅行，能用当地的语言与本地人聊天！
-- 其次，它能帮助你理解不同的文化和思维方式，让你变得更加思想开明。此外，研究表明，掌握双语实际上能让你的大脑更强大，并提升记忆力。这对你未来的职业生涯也是一项很棒的技能。那么，为什么不从今天开始学习一门新语言呢？这是一段收获满满的旅程！
+- 保护我们的环境是一项巨大的挑战，但学生们可以真正地有所作为。我们每天都可以做很多简单的事情来帮助我们的星球。
+- 首先，我们可以通过回收纸张、塑料和玻璃来减少浪费。在扔掉东西之前，想一想它们是否可以再次使用。其次，节约能源非常重要。我们应该在不使用电灯和电脑时随手关掉它们。最后，我们可以在刷牙或淋浴时尽量减少用水。
+- 通过做出这些小小的改变，我们可以共同努力，创造一个更清洁的世界。

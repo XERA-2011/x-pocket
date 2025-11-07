@@ -70,23 +70,18 @@ function ItemCard({ item, index }: { item: GlowCardItem; index: number }) {
       viewport={{ once: true }}
       className="h-full"
     >
-      <GlowCard
-        spread={80}
-        className="rounded-xl transition duration-300 group h-full overflow-hidden bg-white/5 hover:bg-white/10"
-      >
-        <div className="relative text-center p-6 h-full flex flex-col">
-          <div className="mb-3">
-            <div className="text-xl font-bold mb-2 text-white group-hover:text-white/90 transition-colors duration-300">
+      <Link href={item.href} className="block h-full no-underline">
+        <GlowCard
+          spread={80}
+          className="rounded-xl transition duration-300 group h-full overflow-hidden bg-white/5 hover:bg-white/10"
+        >
+          <div className="relative text-center p-6 h-full flex items-center justify-center">
+            <div className="text-xl font-bold text-white group-hover:text-white/90 transition-colors duration-300">
               {item.title}
             </div>
           </div>
-          <div className="mt-auto">
-            <Link href={item.href} className="block w-full text-center py-2.5 px-4 bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/30 rounded-full text-white hover:text-white/90 transition-all duration-300 no-underline cursor-can-hover">
-              View
-            </Link>
-          </div>
-        </div>
-      </GlowCard>
+        </GlowCard>
+      </Link>
     </motion.div>
   );
 }

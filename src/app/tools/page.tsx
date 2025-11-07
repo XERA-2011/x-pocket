@@ -32,16 +32,15 @@ export default function ToolsPage() {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
             在线工具
           </h1>
-          <div className="w-24 h-1 bg-white/30 mx-auto rounded-full" />
         </motion.div>
 
         {/* Tools Grid */}
         <ScrollReveal delay={0.3}>
           <GlowCardList
             items={toolsData}
-            columns={2}
+            columns={3}
             gap="lg"
-            className="lg:gap-8 max-w-4xl mx-auto"
+            className="lg:gap-8 max-w-6xl mx-auto"
           />
         </ScrollReveal>
       </div>

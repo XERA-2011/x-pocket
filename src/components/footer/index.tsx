@@ -9,7 +9,7 @@ export default function Footer() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 1, duration: 0.5 }}
-      className="border-t border-neutral-800 py-8 text-center text-sm text-neutral-400"
+      className="py-8 text-center text-sm text-neutral-400"
     >
       <div className="flex flex-col items-center gap-2">
         <Link

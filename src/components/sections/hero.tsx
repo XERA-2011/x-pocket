@@ -188,6 +188,18 @@ export default function HeroSection() {
             </div>
           </div>
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.2, duration: 0.6 }}
+          className="mt-12"
+        >
+          <img
+            alt="github-snake"
+            src="https://cdn.jsdelivr.net/gh/XERA-2011/XERA-2011/profile-snake-contrib/github-contribution-grid-snake-dark.svg"
+          />
+        </motion.div>
       </div>
     </section>
   );

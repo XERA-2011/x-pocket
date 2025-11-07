@@ -1,4 +1,4 @@
-# X-Pocket
+# X-POCKET
 
 A minimalist web application featuring smooth animations and unified design standards.
 

@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 import { usePageTitle } from '@/hooks/use-page-title';
-import { title } from 'process';
 
 const toolsData: GlowCardItem[] = [
   {

@@ -42,7 +42,7 @@ jobs:
           echo "测试 API 连接..."
           echo "Hello" | timeout 30s gemini || echo "API 连接测试失败"
       - name: Create output directory
-        run: mkdir -p public/data
+        run: mkdir -p public/markdown
 
       - name: Check API availability
         run: |
@@ -127,19 +127,19 @@ jobs:
               echo "✅ API 调用成功，处理输出内容..."
               
               # 清理输出并保存到文件
-              echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > public/data/pet-essays.md
+              echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > public/markdown/pet-essays.md
               
               # 验证生成的文件
-              if [ -s "public/data/pet-essays.md" ]; then
-                FILE_SIZE=$(wc -c < public/data/pet-essays.md)
-                LINE_COUNT=$(wc -l < public/data/pet-essays.md)
+              if [ -s "public/markdown/pet-essays.md" ]; then
+                FILE_SIZE=$(wc -c < public/markdown/pet-essays.md)
+                LINE_COUNT=$(wc -l < public/markdown/pet-essays.md)
                 
                 echo "生成文件大小: $FILE_SIZE 字节"
                 echo "生成文件行数: $LINE_COUNT 行"
                 
                 # 检查文件内容是否包含预期的结构
                 if [ $FILE_SIZE -gt 500 ] && [ $LINE_COUNT -gt 10 ]; then
-                  if grep -q "# 应用文" public/data/pet-essays.md && grep -q "# 记叙文" public/data/pet-essays.md; then
+                  if grep -q "# 应用文" public/markdown/pet-essays.md && grep -q "# 记叙文" public/markdown/pet-essays.md; then
                     echo "✅ 内容生成成功，包含预期结构"
                     SUCCESS=true
                     break
@@ -175,7 +175,7 @@ jobs:
             echo "🔄 创建服务状态报告..."
             
             # 创建服务状态报告而不是让工作流失败
-            cat > public/data/pet-essays.md << EOF
+            cat > public/markdown/pet-essays.md << EOF
           # PET 作文生成服务状态报告
 
           **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
@@ -218,12 +218,12 @@ jobs:
           echo "=== Content Change Detection ==="
           
           # 检查是否有现有文件
-          if [ -f "public/data/pet-essays.md" ]; then
+          if [ -f "public/markdown/pet-essays.md" ]; then
             # 保存新生成的文件到临时位置
-            cp public/data/pet-essays.md /tmp/new_pet_essays.md
+            cp public/markdown/pet-essays.md /tmp/new_pet_essays.md
             
             # 获取当前仓库中的文件
-            if git show HEAD:public/data/pet-essays.md > /tmp/current_pet_essays.md 2>/dev/null; then
+            if git show HEAD:public/markdown/pet-essays.md > /tmp/current_pet_essays.md 2>/dev/null; then
               echo "✅ 成功获取当前仓库文件"
             else
               echo "⚠️  无法获取当前仓库文件，可能是新文件"
@@ -265,20 +265,20 @@ jobs:
       - name: Verify file content
         run: |
           echo "=== 文件内容验证 ==="
-          if [ -f "public/data/pet-essays.md" ]; then
-            FILE_SIZE=$(wc -c < public/data/pet-essays.md)
-            LINE_COUNT=$(wc -l < public/data/pet-essays.md)
+          if [ -f "public/markdown/pet-essays.md" ]; then
+            FILE_SIZE=$(wc -c < public/markdown/pet-essays.md)
+            LINE_COUNT=$(wc -l < public/markdown/pet-essays.md)
             echo "文件大小: $FILE_SIZE 字节"
             echo "文件行数: $LINE_COUNT 行"
             echo ""
             echo "文件内容预览 (前20行):"
-            head -20 public/data/pet-essays.md
+            head -20 public/markdown/pet-essays.md
             echo ""
             if [ $LINE_COUNT -gt 20 ]; then
               echo "... (共 $LINE_COUNT 行，显示前20行)"
             fi
           else
-            echo "❌ 文件不存在: public/data/pet-essays.md"
+            echo "❌ 文件不存在: public/markdown/pet-essays.md"
           fi
 
       - name: Show commit status
@@ -294,6 +294,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "AI Generate"
-          file_pattern: "public/data/pet-essays.md"
+          file_pattern: "public/markdown/pet-essays.md"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions-bot@users.noreply.github.com"

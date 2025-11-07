@@ -41,7 +41,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       - name: Create output directory
-        run: mkdir -p public/data
+        run: mkdir -p public/markdown
 
       - name: Check API availability
         run: |
@@ -192,27 +192,27 @@ jobs:
               echo "✅ API 调用成功，处理输出..."
 
               # 清理和验证输出
-              echo "$OUTPUT" | sed 's/^```[a-z]*//g' | sed 's/^```$//g' | sed '/^$/N;/^\n$/d' > public/data/daily-news.md
+              echo "$OUTPUT" | sed 's/^```[a-z]*//g' | sed 's/^```$//g' | sed '/^$/N;/^\n$/d' > public/markdown/daily-news.md
 
-              if [ -s "public/data/daily-news.md" ]; then
-                FILE_SIZE=$(wc -c < public/data/daily-news.md)
-                LINE_COUNT=$(wc -l < public/data/daily-news.md)
+              if [ -s "public/markdown/daily-news.md" ]; then
+                FILE_SIZE=$(wc -c < public/markdown/daily-news.md)
+                LINE_COUNT=$(wc -l < public/markdown/daily-news.md)
 
                 echo "生成文件: $FILE_SIZE 字节, $LINE_COUNT 行"
 
                 # 验证内容结构 - 适应 TOP10 格式
                 if [ $FILE_SIZE -gt 1000 ] && [ $LINE_COUNT -gt 40 ]; then
-                  if grep -q "# Global Breaking News TOP10\|# 全球热点新闻TOP10" public/data/daily-news.md && \
-                      grep -q "### 1\." public/data/daily-news.md && \
-                      grep -q "### 5\." public/data/daily-news.md && \
-                      grep -q "### 10\." public/data/daily-news.md; then
+                  if grep -q "# Global Breaking News TOP10\|# 全球热点新闻TOP10" public/markdown/daily-news.md && \
+                      grep -q "### 1\." public/markdown/daily-news.md && \
+                      grep -q "### 5\." public/markdown/daily-news.md && \
+                      grep -q "### 10\." public/markdown/daily-news.md; then
                     echo "✅ 内容验证通过"
                     SUCCESS=true
                     break
                   else
                     echo "❌ 内容结构不完整"
                     echo "文件预览:"
-                    head -8 public/data/daily-news.md
+                    head -8 public/markdown/daily-news.md
                   fi
                 else
                   echo "❌ 文件太小: $FILE_SIZE 字节, $LINE_COUNT 行"
@@ -240,7 +240,7 @@ jobs:
           if [ "$SUCCESS" = "false" ]; then
             echo "❌ 所有重试失败，创建状态报告"
 
-            cat > public/data/daily-news.md << 'EOF'
+            cat > public/markdown/daily-news.md << 'EOF'
           # 新闻服务状态报告
 
           **生成时间**: PLACEHOLDER_DATE
@@ -273,7 +273,7 @@ jobs:
           EOF
 
             # 替换变量
-            sed -i "s/PLACEHOLDER_DATE/$(date '+%Y-%m-%d %H:%M:%S UTC')/g" public/data/daily-news.md
+            sed -i "s/PLACEHOLDER_DATE/$(date '+%Y-%m-%d %H:%M:%S UTC')/g" public/markdown/daily-news.md
 
             echo "✅ 状态报告已创建"
           else
@@ -286,10 +286,10 @@ jobs:
         run: |
           echo "=== 检查是否需要创建备用内容 ==="
 
-          if [ ! -f "public/data/daily-news.md" ] || [ ! -s "public/data/daily-news.md" ]; then
+          if [ ! -f "public/markdown/daily-news.md" ] || [ ! -s "public/markdown/daily-news.md" ]; then
             echo "⚠️ 主要生成失败，创建备用新闻内容"
 
-            cat > public/data/daily-news.md << 'EOF'
+            cat > public/markdown/daily-news.md << 'EOF'
           # Global Breaking News / 全球热点新闻
 
           **Date**: PLACEHOLDER_DATE_CN
@@ -322,8 +322,8 @@ jobs:
           EOF
 
             # 替换变量
-            sed -i "s/PLACEHOLDER_DATE_CN/$(date '+%Y年%m月%d日')/g" public/data/daily-news.md
-            sed -i "s/PLACEHOLDER_TIME/$(date '+%H:%M UTC')/g" public/data/daily-news.md
+            sed -i "s/PLACEHOLDER_DATE_CN/$(date '+%Y年%m月%d日')/g" public/markdown/daily-news.md
+            sed -i "s/PLACEHOLDER_TIME/$(date '+%H:%M UTC')/g" public/markdown/daily-news.md
 
             echo "✅ 备用内容已创建"
           else
@@ -335,12 +335,12 @@ jobs:
           echo "=== Content Change Detection ==="
 
           # 检查是否有现有文件
-          if [ -f "public/data/daily-news.md" ]; then
+          if [ -f "public/markdown/daily-news.md" ]; then
             # 保存新生成的文件到临时位置
-            cp public/data/daily-news.md /tmp/new_daily_news.md
+            cp public/markdown/daily-news.md /tmp/new_daily_news.md
 
             # 获取当前仓库中的文件
-            if git show HEAD:public/data/daily-news.md > /tmp/current_daily_news.md 2>/dev/null; then
+            if git show HEAD:public/markdown/daily-news.md > /tmp/current_daily_news.md 2>/dev/null; then
               echo "✅ 成功获取当前仓库文件"
             else
               echo "⚠️  无法获取当前仓库文件，可能是新文件"
@@ -382,20 +382,20 @@ jobs:
       - name: Verify file content
         run: |
           echo "=== 文件内容验证 ==="
-          if [ -f "public/data/daily-news.md" ]; then
-            FILE_SIZE=$(wc -c < public/data/daily-news.md)
-            LINE_COUNT=$(wc -l < public/data/daily-news.md)
+          if [ -f "public/markdown/daily-news.md" ]; then
+            FILE_SIZE=$(wc -c < public/markdown/daily-news.md)
+            LINE_COUNT=$(wc -l < public/markdown/daily-news.md)
             echo "文件大小: $FILE_SIZE 字节"
             echo "文件行数: $LINE_COUNT 行"
             echo ""
             echo "文件内容预览 (前20行):"
-            head -20 public/data/daily-news.md
+            head -20 public/markdown/daily-news.md
             echo ""
             if [ $LINE_COUNT -gt 20 ]; then
               echo "... (共 $LINE_COUNT 行，显示前20行)"
             fi
           else
-            echo "❌ 文件不存在: public/data/daily-news.md"
+            echo "❌ 文件不存在: public/markdown/daily-news.md"
           fi
 
       - name: Show commit status
@@ -411,6 +411,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "AI Generate News"
-          file_pattern: "public/data/daily-news.md"
+          file_pattern: "public/markdown/daily-news.md"
           commit_user_name: "GitHub Actions Bot"
           commit_user_email: "github-actions-bot@users.noreply.github.com"

@@ -63,7 +63,7 @@ jobs:
       - name: Create output directories
         run: |
           mkdir -p .audit-reports
-          mkdir -p public/data
+          mkdir -p public/markdown
 
       - name: Run Security Audit
         run: |
@@ -363,11 +363,11 @@ jobs:
             if [ $EXIT_CODE -eq 0 ] && [ ${#OUTPUT} -gt 500 ]; then
               echo "✅ AI 安全审计报告生成成功"
               
-              # 清理输出并保存到 public/data
+              # 清理输出并保存到 public/markdown
               echo "$OUTPUT" | sed '/^```markdown/d' | sed '/^```$/d' | sed '/^```/d' > .audit-reports/ai-audit-report.md
               
               # 添加报告头部信息
-              cat > public/data/security-audit-report.md << EOF
+              cat > public/markdown/security-audit-report.md << EOF
           # 安全审计报告
 
           **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
@@ -379,7 +379,7 @@ jobs:
           ---
 
           EOF
-              cat .audit-reports/ai-audit-report.md >> public/data/security-audit-report.md
+              cat .audit-reports/ai-audit-report.md >> public/markdown/security-audit-report.md
               
               SUCCESS=true
             else
@@ -396,7 +396,7 @@ jobs:
           # 如果 AI 生成失败，创建基础报告
           if [ "$SUCCESS" = "false" ]; then
             echo "⚠️ AI 生成失败，创建基础安全审计报告..."
-            cat > public/data/security-audit-report.md << EOF
+            cat > public/markdown/security-audit-report.md << EOF
           # 安全审计报告
 
           **生成时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')  
@@ -497,7 +497,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const auditReport = fs.readFileSync('public/data/security-audit-report.md', 'utf8');
+            const auditReport = fs.readFileSync('public/markdown/security-audit-report.md', 'utf8');
             const autoFixStatus = process.env.AUTO_FIX_STATUS || 'unknown';
             const securityFixed = process.env.SECURITY_FIXED === 'true';
             
@@ -530,7 +530,7 @@ jobs:
 
             ${auditReport.substring(0, 2000)}...
 
-            [查看完整报告](public/data/security-audit-report.md)
+            [查看完整报告](public/markdown/security-audit-report.md)
 
             ### 建议行动
 
@@ -562,7 +562,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: ${{ env.COMMIT_MESSAGE }}
-          file_pattern: "public/data/security-audit-report.md package.json pnpm-lock.yaml"
+          file_pattern: "public/markdown/security-audit-report.md package.json pnpm-lock.yaml"
           commit_user_name: "Security Audit Bot"
           commit_user_email: "security-audit-bot@users.noreply.github.com"
 
@@ -576,4 +576,4 @@ jobs:
           echo "📊 修复状态: ${AUTO_FIX_STATUS:-unknown}"
           echo "🔒 安全修复: ${SECURITY_FIXED:-false}"
           echo ""
-          echo "🔍 查看详细报告: public/data/security-audit-report.md"
+          echo "🔍 查看详细报告: public/markdown/security-audit-report.md"

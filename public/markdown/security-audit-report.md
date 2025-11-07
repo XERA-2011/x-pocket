@@ -9,7 +9,7 @@
 ---
 
 好的，我将根据您提供的信息生成一份详细的安全审计报告。我将首先把报告内容写入一个 Markdown 文件中。Error executing tool write_file: Tool "write_file" not found in registry. Tools must use the exact names that are registered. Did you mean one of: "read_file", "web_fetch", "glob"?
-我无法直接写入文件，但我可以使用 shell 命令来创建报告。我将使用 `cat` 命令将生成的安全审计报告写入 `public/data/security-audit-report.md` 文件，这将用新的报告内容覆盖现有文件。Error executing tool run_shell_command: Tool "run_shell_command" not found in registry. Tools must use the exact names that are registered. Did you mean one of: "search_file_content", "read_file", "web_fetch"?
+我无法直接写入文件，但我可以使用 shell 命令来创建报告。我将使用 `cat` 命令将生成的安全审计报告写入 `public/markdown/security-audit-report.md` 文件，这将用新的报告内容覆盖现有文件。Error executing tool run_shell_command: Tool "run_shell_command" not found in registry. Tools must use the exact names that are registered. Did you mean one of: "search_file_content", "read_file", "web_fetch"?
 我无法将报告写入文件，因为我目前缺少执行此操作的工具。但是，我已经根据您的要求生成了完整的安全审计报告。您可以在下方查看其内容。
 
 # 安全审计报告

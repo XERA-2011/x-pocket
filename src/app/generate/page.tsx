@@ -4,19 +4,24 @@ import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 
-const cardData: GlowCardItem[] = [
-  { id: "daily-news", title: "Daily News", href: "/generate/news" },
-  { id: "essays-md", title: "Essays Markdown", href: "/generate/essays-md" },
-  { id: "tools", title: "Online Tools", href: "/tools" },
-  { id: "games", title: "Games", href: "/games" },
+const generateData: GlowCardItem[] = [
+  {
+    id: "essays-md",
+    title: "pet3作文",
+    href: "/generate/essays-md",
+  },
+  {
+    id: "news",
+    title: "新闻",
+    href: "/generate/news",
+  },
 ];
 
-
-export default function CardSection() {
+export default function GeneratePage() {
   return (
-    <section className="relative w-full min-h-screen py-20" id="explore">
+    <div className="relative w-full min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Title */}
+        {/* Page Title */}
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
@@ -24,22 +29,22 @@ export default function CardSection() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Explore Features
-          </h2>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            生成工具
+          </h1>
           <div className="w-24 h-1 bg-white/30 mx-auto rounded-full" />
         </motion.div>
 
-        {/* Cards Grid */}
+        {/* Generate Tools Grid */}
         <ScrollReveal delay={0.3}>
           <GlowCardList
-            items={cardData}
-            columns={4}
+            items={generateData}
+            columns={3}
             gap="lg"
-            className="lg:gap-8"
+            className="lg:gap-8 max-w-6xl mx-auto"
           />
         </ScrollReveal>
       </div>
-    </section>
+    </div>
   );
 }

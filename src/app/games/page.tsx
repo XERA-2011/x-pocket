@@ -33,9 +33,6 @@ export default function GamesPage() {
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             Games
           </h1>
-          <p className="text-lg text-white/70 max-w-2xl mx-auto">
-            A collection of interactive games built with React and Canvas.
-          </p>
           <div className="w-24 h-1 bg-white/30 mx-auto rounded-full mt-6" />
         </motion.div>
 

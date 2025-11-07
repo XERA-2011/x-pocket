@@ -6,14 +6,19 @@ import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
 
 const generateData: GlowCardItem[] = [
   {
-    id: "essays-md",
+    id: "pet-essays",
     title: "pet3作文",
-    href: "/generate/essays-md",
+    href: "/generate/pet-essays",
   },
   {
     id: "news",
     title: "新闻",
     href: "/generate/news",
+  },
+  {
+    id: "security-audit",
+    title: "安全审计报告",
+    href: "/generate/security-audit",
   },
 ];
 

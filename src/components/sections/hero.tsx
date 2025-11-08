@@ -201,6 +201,8 @@ export default function HeroSection() {
             src="https://cdn.jsdelivr.net/gh/XERA-2011/XERA-2011/profile-snake-contrib/github-contribution-grid-snake-dark.svg"
             width={800}
             height={200}
+            style={{ width: "auto", height: "auto" }}
+            priority
             unoptimized
           />
         </motion.div>

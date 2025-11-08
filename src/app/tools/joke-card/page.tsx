@@ -20,9 +20,6 @@ export default function JokeCardPage() {
           <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             编程笑话卡片
           </h1>
-          <p className="text-white/70 text-lg">
-            每天一个编程笑话，让代码更有趣 😄
-          </p>
         </motion.div>
 
         {/* Joke Card */}

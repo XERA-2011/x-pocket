@@ -50,12 +50,14 @@ export function MarkdownPage({
       <td className="px-3 py-2 text-sm border border-gray-600" {...props} />
     ),
     // 代码块样式 - 移动端优化
-    code: ({ inline, ...props }: any) =>
-      inline ? (
-        <code className="bg-white/10 px-1.5 py-0.5 rounded text-sm" {...props} />
+    code: (props) => {
+      const { inline, ...rest } = props as { inline?: boolean;[key: string]: unknown };
+      return inline ? (
+        <code className="bg-white/10 px-1.5 py-0.5 rounded text-sm" {...rest} />
       ) : (
-        <code className="block bg-white/5 p-3 rounded-lg overflow-x-auto text-sm" {...props} />
-      ),
+        <code className="block bg-white/5 p-3 rounded-lg overflow-x-auto text-sm" {...rest} />
+      );
+    },
     pre: ({ ...props }) => (
       <pre className="bg-white/5 rounded-lg overflow-x-auto my-4 -mx-2 sm:mx-0" {...props} />
     ),

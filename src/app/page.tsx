@@ -12,9 +12,6 @@ import PageTransition from '@/components/PageTransition';
 import { useScrollHash } from '@/hooks/use-scroll-hash';
 // 导航配置
 import { getHomeSections } from '@/components/header/config';
-// 动态设置页面标题
-import { usePageTitle } from '@/hooks/use-page-title';
-
 
 // Fallback components for when animations are loading
 const FallbackSection = () => (
@@ -27,9 +24,6 @@ export default function Home() {
 
   // 使用滚动 hash 更新功能
   useScrollHash(sections);
-
-  // 设置页面标题
-  usePageTitle('首页');
 
   return (
     <SmoothScroll>

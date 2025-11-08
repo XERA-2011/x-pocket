@@ -34,6 +34,35 @@ export function MarkdownPage({
       />
     ),
     strong: ({ ...props }) => <strong className="font-semibold text-white" {...props} />,
+    // 表格样式 - 移动端优化
+    table: ({ ...props }) => (
+      <div className="overflow-x-auto -mx-2 sm:mx-0 my-4">
+        <table className="min-w-full border-collapse border border-gray-600" {...props} />
+      </div>
+    ),
+    thead: ({ ...props }) => <thead className="bg-white/5" {...props} />,
+    tbody: ({ ...props }) => <tbody {...props} />,
+    tr: ({ ...props }) => <tr className="border-b border-gray-600" {...props} />,
+    th: ({ ...props }) => (
+      <th className="px-3 py-2 text-left text-sm font-semibold border border-gray-600" {...props} />
+    ),
+    td: ({ ...props }) => (
+      <td className="px-3 py-2 text-sm border border-gray-600" {...props} />
+    ),
+    // 代码块样式 - 移动端优化
+    code: ({ inline, ...props }: any) =>
+      inline ? (
+        <code className="bg-white/10 px-1.5 py-0.5 rounded text-sm" {...props} />
+      ) : (
+        <code className="block bg-white/5 p-3 rounded-lg overflow-x-auto text-sm" {...props} />
+      ),
+    pre: ({ ...props }) => (
+      <pre className="bg-white/5 rounded-lg overflow-x-auto my-4 -mx-2 sm:mx-0" {...props} />
+    ),
+    // 块引用样式
+    blockquote: ({ ...props }) => (
+      <blockquote className="border-l-4 border-blue-400 pl-4 my-4 italic text-white/80" {...props} />
+    ),
   };
 
   // 合并自定义组件和默认组件

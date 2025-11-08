@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年11月07日
-**Update Time**: 22:20 UTC
+**Date**: 2025年11月08日
+**Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Hamas Returns Body of Captive to Israel** / **哈马斯向以色列归还一名人质的遗体**
-- **Time**: 2025-11-07
-- **Content**: Hamas has returned the body of a captive, identified by Israel as a Tanzanian student who was taken hostage during the October 7th attacks. The transfer was mediated by a third party. / 哈马斯归还了一名被俘人员的遗体，经以色列确认，该人为一名在10月7日袭击中被劫持的坦桑尼亚学生。此次移交由第三方斡旋。
-- **Source**: Al Jazeera
+### 1. **Powerful Tornado Hits Southern Brazil** / **强龙卷风袭击巴西南部**
+- **Time**: 2025-11-08
+- **Content**: A powerful tornado in Brazil's southern state of Paraná resulted in six deaths, over 400 injuries, and the destruction of dozens of homes. / 巴西南部巴拉那州遭遇强龙卷风袭击，导致6人死亡，400多人受伤，数十栋房屋被毁。
+- **Source**: Global News
 
-### 2. **Explosions at Indonesian School Mosque Injure Dozens** / **印度尼西亚学校清真寺发生爆炸，数十人受伤**
-- **Time**: 2025-11-07
-- **Content**: A series of explosions at a school mosque in Indonesia has resulted in at least 54 injuries. The cause of the blasts is currently under investigation by local authorities. / 印度尼西亚一所学校的清真寺发生一系列爆炸，导致至少54人受伤。地方当局目前正在调查爆炸原因。
-- **Source**: The Guardian
-
-### 3. **China Lifts Ban on Chip Exports to European Carmakers** / **中国解除对欧洲汽车制造商的芯片出口禁令**
-- **Time**: 2025-11-07
-- **Content**: Following a deal with the United States, China is expected to lift a ban on chip exports to European carmakers, a move that could ease supply chain tensions in the global automotive industry. / 在与美国达成协议后，中国预计将解除对欧洲汽车制造商的芯片出口禁令，此举可能缓解全球汽车行业的供应链紧张局势。
-- **Source**: The Guardian
-
-### 4. **Typhoon Kalmaegi Hits Vietnam, Causing Deaths and Damage** / **台风“海鸥”袭击越南，造成人员伤亡和财产损失**
-- **Time**: 2025-11-07
-- **Content**: Typhoon Kalmaegi made landfall in Vietnam, causing at least five deaths and damaging thousands of homes before weakening into a tropical storm. Rescue and recovery efforts are underway. / 台风“海鸥”在越南登陆，已造成至少5人死亡，数千所房屋受损，随后减弱为热带风暴。救援和恢复工作正在进行中。
+### 2. **Russian Strikes Hit Ukraine, Killing Four** / **俄罗斯空袭乌克兰，造成四人死亡**
+- **Time**: 2025-11-08
+- **Content**: Russian strikes on an apartment building and energy sites in Ukraine killed four people. / 俄罗斯对乌克兰一栋公寓楼和能源设施发动袭击，造成4人死亡。
 - **Source**: AP News
 
-### 5. **India Experiments with Cloud Seeding to Combat Delhi Air Pollution** / **印度试验人工降雨以应对德里空气污染**
-- **Time**: 2025-11-07
-- **Content**: In an effort to combat severe air pollution in New Delhi, Indian authorities are experimenting with cloud seeding to induce artificial rain and wash away pollutants from the atmosphere. / 为应对新德里严重的空气污染，印度当局正在试验人工增雨技术，以期通过人工降雨冲刷掉大气中的污染物。
+### 3. **Earthquake in Afghanistan Kills at Least 20** / **阿富汗地震导致至少20人死亡**
+- **Time**: 2025-11-08
+- **Content**: An earthquake in Afghanistan left at least 20 people dead and hundreds injured. / 阿富汗发生地震，造成至少20人死亡，数百人受伤。
 - **Source**: The Guardian
 
-### 6. **Hungarian Leader Viktor Orban Meets with US President Donald Trump** / **匈牙利领导人欧尔班与美国总统特朗普会晤**
-- **Time**: 2025-11-07
-- **Content**: Hungarian Prime Minister Viktor Orban met with US President Donald Trump to discuss bilateral relations, security issues, and economic cooperation between the two nations. / 匈牙利总理欧尔班·维克托与美国总统唐纳德·特朗普举行会晤，讨论了两国间的双边关系、安全问题及经济合作。
-- **Source**: Al Jazeera
+### 4. **Typhoon Kalmaegi Batters Philippines, 40 Dead** / **台风“海鸥”袭击菲律宾，造成40人死亡**
+- **Time**: 2025-11-08
+- **Content**: Typhoon Kalmaegi caused at least 40 deaths in the Philippines, bringing heavy flooding and destructive winds. / 台风“海鸥”在菲律宾造成至少40人死亡，并带来严重洪灾和破坏性大风。
+- **Source**: Global News
 
-### 7. **US Senate Blocks Effort to Limit Trump's Authority on Venezuela Strikes** / **美国参议院否决限制特朗普对委内瑞拉动武权力的努力**
-- **Time**: 2025-11-07
-- **Content**: The US Senate has blocked a Democratic-led effort to limit President Trump's authority to order military strikes against Venezuela, following a heated debate on executive war powers. / 经过一场关于行政战争权力的激烈辩论，美国参议院否决了由民主党领导的旨在限制特朗普总统下令对委内瑞拉进行军事打击的权力的努力。
+### 5. **Gaza Death Toll Exceeds 69,000** / **加沙死亡人数超过69,000人**
+- **Time**: 2025-11-08
+- **Content**: The Gaza death toll has exceeded 69,000 amidst continued exchanges between Israel and militants. / 在以色列和武装分子持续交火的背景下，加沙地带的死亡人数已超过69,000人。
+- **Source**: AP News
+
+### 6. **Thousands Flee as Sudan's Paramilitary Forces Capture el-Fasher** / **苏丹准军事部队占领法希尔，数千人逃离**
+- **Time**: 2025-11-08
+- **Content**: Thousands are fleeing to overcrowded camps after Sudan's paramilitary forces captured el-Fasher. / 苏丹准军事部队占领法希尔后，数千人逃往过度拥挤的难民营。
+- **Source**: AP News
+
+### 7. **Political Turmoil in Guyana Following Arrest of Opposition Leader** / **圭亚那反对派领导人被捕后政局动荡**
+- **Time**: 2025-11-08
+- **Content**: Guyana is experiencing turmoil following the arrest of an opposition leader who faces US extradition. / 圭亚那一名面临美国引渡的反对派领导人被捕后，该国正经历动荡。
 - **Source**: The Guardian
 
-### 8. **EU Plans New Hub to Counter Disinformation from Russia** / **欧盟计划建立新中心以对抗来自俄罗斯的虚假信息**
-- **Time**: 2025-11-07
-- **Content**: The European Union has announced plans to establish a new hub dedicated to countering disinformation, with a particular focus on propaganda campaigns originating from Russia. / 欧盟宣布计划建立一个新的中心，专门用于打击虚假信息，尤其侧重于来自俄罗斯的宣传活动。
+### 8. **Iran Accused of Plotting to Assassinate Israeli Ambassador to Mexico** / **伊朗被指控策划暗杀以色列驻墨西哥大使**
+- **Time**: 2025-11-08
+- **Content**: Iran has been accused of plotting to assassinate the Israeli ambassador to Mexico. / 伊朗被指控策划暗杀以色列驻墨西哥大使。
 - **Source**: The Guardian
 
-### 9. **Former British Soldier Contests Extradition to Kenya Over Alleged Murder** / **前英国士兵因涉嫌谋杀案反对被引渡至肯尼亚**
-- **Time**: 2025-11-07
-- **Content**: A former British soldier is legally challenging his extradition to Kenya, where he is wanted in connection with the alleged murder of a local woman. The case has drawn significant media attention. / 一名前英国士兵正在通过法律途径反对将他引渡到肯尼亚，他因涉嫌谋杀一名当地妇女而在该国被通缉。此案引起了媒体的广泛关注。
-- **Source**: Al Jazeera
+### 9. **Drone Sightings Halt Flights at Major European Cargo Airport** / **无人机出没导致欧洲主要货运机场航班暂停**
+- **Time**: 2025-11-08
+- **Content**: Drone sightings led to the halting of flights at a major European cargo airport in Belgium. / 无人机出没导致比利时一个欧洲主要货运机场的航班暂停。
+- **Source**: AP News
 
-### 10. **Brazil's Supreme Court Rejects Appeal Against Jair Bolsonaro's Prison Sentence** / **巴西最高法院驳回对雅伊尔·博索纳罗刑期的上诉**
-- **Time**: 2025-11-07
-- **Content**: A panel of Brazil's Supreme Court has rejected an appeal filed by the defense of former President Jair Bolsonaro against a prison sentence related to abuse of power charges. / 巴西最高法院的一个专门小组驳回了前总统雅伊尔·博索纳罗的辩护方就一项与滥用权力指控相关的监禁判决提起的上诉。
-- **Source**: Al Jazeera
+### 10. **Australian Man Found Guilty of Murder in Canada** / **澳大利亚男子在加拿大被判谋杀罪名成立**
+- **Time**: 2025-11-08
+- **Content**: An Australian man was found guilty of killing Tatiana Dokhotaru in British Columbia, Canada. / 一名澳大利亚男子在加拿大不列颠哥伦比亚省被裁定杀害塔蒂亚娜·多霍塔鲁罪名成立。
+- **Source**: Global News
 
 ---
 

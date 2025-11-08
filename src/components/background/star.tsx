@@ -229,19 +229,19 @@ export default function Particles({
     const translateX = 0;
     const translateY = 0;
 
-    // 星空大小分布 - 增加小星星的比重到50%
+    // 星空大小分布 - 漫天繁星效果：85%小星星, 12%中星星, 3%大星星
     const sizeDistribution = Math.random();
     let size;
 
-    if (sizeDistribution < 0.70) {
-      // 70% 的星星较小 (0.6-0.8)
-      size = Math.random() * 0.2 + 0.6;
-    } else if (sizeDistribution < 0.98) {
-      // 28% 的星星中等 (0.8-1.0)
-      size = Math.random() * 0.2 + 0.8;
+    if (sizeDistribution < 0.85) {
+      // 85% 的星星较小 (0.5-0.8)
+      size = Math.random() * 0.3 + 0.5;
+    } else if (sizeDistribution < 0.97) {
+      // 12% 的星星中等 (0.8-1.2)
+      size = Math.random() * 0.4 + 0.8;
     } else {
-      // 2% 的星星较大 (1.0-1.2)
-      size = Math.random() * 0.2 + 1.0;
+      // 3% 的星星较大 (1.2-1.8)
+      size = Math.random() * 0.6 + 1.2;
     }
 
     const alpha = 0;

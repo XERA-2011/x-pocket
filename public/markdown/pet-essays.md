@@ -1,41 +1,42 @@
 # 应用文
 
-## An email to a language school asking about English courses and prices
-- 一封给语言学校的邮件，询问英语课程和价格
+## A thank-you email to a host family after staying with them
+- 给寄宿家庭的感谢信
 
 **正文**：
 
-Dear Sir or Madam,
+Dear Mr. and Mrs. Smith,
 
-I am writing to ask for information about the English courses at your school. I am interested in improving my English this summer and would like to know more about your programmes.
+I am writing to express my sincere gratitude for your kindness during my stay. I have safely returned home, but I already miss the wonderful time we spent together. Your warm hospitality made me feel like a true member of your family.
 
-Could you please tell me what kinds of courses you offer? I am looking for an intensive course, but I would also consider evening classes. My current level is intermediate. Could you also provide details about the start dates and the cost of the courses? Finally, I would be grateful if you could let me know if there are any accommodation options available.
+Thank you so much for the delicious meals you prepared and for helping me with my English. I especially enjoyed our weekend trip to the local museum; it was a fantastic experience.
 
-I look forward to hearing from you soon.
+I hope to see you again in the future. Please keep in touch.
 
-Yours faithfully,
-Alex Chen
+Best regards,
 
-- 尊敬的先生或女士：
-- 我写信是为了咨询贵校的英语课程信息。我有兴趣在今年夏天提高我的英语水平，并希望了解更多关于你们课程项目的情况。
-- 请问你们提供哪些类型的课程？我正在寻找强化课程，但也会考虑晚间课程。我目前的水平是中级。您能否也提供关于开课日期和课程费用的详细信息？最后，如果您能告知是否有任何住宿选择，我将不胜感激。
-- 我期待尽快收到您的回复。
+Alex
+
+- 尊敬的史密斯先生和太太：
+- 我写这封信是为了表达我对您在我逗留期间所给予的善意的诚挚感谢。如今我已平安到家，但我已经开始怀念我们共度的美好时光。您们的热情好客让我感觉自己像是这个家庭的一员。
+- 非常感谢您们为我准备的美味餐点以及在英语学习上给我的帮助。我尤其喜欢我们周末去的本地博物馆，那是一次非常棒的经历。
+- 我希望能与您们在未来再次相见。请保持联系。
 - 此致，
-- Alex Chen
+- 敬礼
+- 亚历克斯
 
 ---
 
 # 记叙文/短文
 
-## An article explaining how students can help protect the environment
-- 一篇解释学生如何帮助保护环境的文章
+## A story about overcoming a fear
+- 一个关于克服恐惧的故事
 
 **正文**：
 
-Protecting our environment is a big challenge, but students can make a real difference. There are many simple things we can do every day to help our planet.
+I had always been terrified of heights. The mere thought of standing on a high balcony made my legs tremble. Last summer, my friends invited me to go rock climbing. Initially, I refused, but they encouraged me to just give it a try.
 
-First, we can reduce waste by recycling paper, plastic, and glass. Instead of throwing things away, think about whether they can be used again. Secondly, saving energy is very important. We should always turn off lights and computers when we are not using them. Finally, we can try to use less water when we brush our teeth or take a shower. By making these small changes, we can work together to create a cleaner world.
+At the climbing center, I stared at the tall wall, my heart pounding. With the instructor's guidance and my friends cheering me on, I took the first step. It was difficult, but I kept going, focusing only on the next hold. When I finally reached the top, I felt an incredible sense of achievement. I had faced my fear and won.
 
-- 保护我们的环境是一项巨大的挑战，但学生们可以真正地有所作为。我们每天都可以做很多简单的事情来帮助我们的星球。
-- 首先，我们可以通过回收纸张、塑料和玻璃来减少浪费。在扔掉东西之前，想一想它们是否可以再次使用。其次，节约能源非常重要。我们应该在不使用电灯和电脑时随手关掉它们。最后，我们可以在刷牙或淋浴时尽量减少用水。
-- 通过做出这些小小的改变，我们可以共同努力，创造一个更清洁的世界。
+- 我一直都非常恐高。只要一想到站在高处的阳台上，我的双腿就会发抖。去年夏天，我的朋友们邀请我去攀岩。起初我拒绝了，但他们鼓励我至少去试一试。
+- 在攀岩中心，我盯着高高的墙壁，心跳加速。在教练的指导和朋友们的加油声中，我迈出了第一步。过程很艰难，但我没有放弃，只专注于下一个抓手。当我最终到达顶端时，我感受到了一种不可思议的成就感。我战胜了我的恐惧。

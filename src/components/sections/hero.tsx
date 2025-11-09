@@ -198,7 +198,7 @@ export default function HeroSection() {
         >
           <Image
             alt="github-snake"
-            src="https://cdn.jsdelivr.net/gh/XERA-2011/XERA-2011/profile-snake-contrib/github-contribution-grid-snake-dark.svg"
+            src="/api/github-snake"
             width={800}
             height={200}
             style={{ width: "auto", height: "auto" }}

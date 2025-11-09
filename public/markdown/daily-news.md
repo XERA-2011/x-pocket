@@ -1,59 +1,59 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年11月08日
+**Date**: 2025年11月09日
 **Update Time**: 22:18 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Powerful Tornado Hits Southern Brazil** / **强龙卷风袭击巴西南部**
-- **Time**: 2025-11-08
-- **Content**: A powerful tornado in Brazil's southern state of Paraná resulted in six deaths, over 400 injuries, and the destruction of dozens of homes. / 巴西南部巴拉那州遭遇强龙卷风袭击，导致6人死亡，400多人受伤，数十栋房屋被毁。
+### 1. **Typhoon Fung-wong Hits Philippines, Over 1 Million Evacuated** / **台风“凤凰”袭击菲律宾，超百万人疏散**
+- **Time**: 2025-11-09
+- **Content**: Typhoon Fung-wong made landfall in the Philippines, leading to the evacuation of over 1 million people and causing at least two deaths. The typhoon follows closely on the heels of Typhoon Kalmaegi, which recently caused widespread destruction in the region. / 台风“凤凰”在菲律宾登陆，导致超过100万人疏散，至少两人死亡。此前不久，台风“海鸥”刚刚在该地区造成了广泛的破坏。
+- **Source**: The Guardian
+
+### 2. **Powerful Tornado in Brazil Leaves 6 Dead, Over 400 Injured** / **巴西强龙卷风造成6人死亡，400多人受伤**
+- **Time**: 2025-11-09
+- **Content**: A powerful tornado struck southern Brazil, resulting in at least six fatalities and injuring over 400 people. The tornado caused extensive damage to homes and infrastructure in the affected area. / 一场强龙卷风袭击了巴西南部的部分地区，造成至少6人死亡，400多人受伤。龙卷风对灾区的房屋和基础设施造成了广泛的破坏。
 - **Source**: Global News
 
-### 2. **Russian Strikes Hit Ukraine, Killing Four** / **俄罗斯空袭乌克兰，造成四人死亡**
-- **Time**: 2025-11-08
-- **Content**: Russian strikes on an apartment building and energy sites in Ukraine killed four people. / 俄罗斯对乌克兰一栋公寓楼和能源设施发动袭击，造成4人死亡。
-- **Source**: AP News
-
-### 3. **Earthquake in Afghanistan Kills at Least 20** / **阿富汗地震导致至少20人死亡**
-- **Time**: 2025-11-08
-- **Content**: An earthquake in Afghanistan left at least 20 people dead and hundreds injured. / 阿富汗发生地震，造成至少20人死亡，数百人受伤。
+### 3. **Russian Activist Detained in Poland Admits to Being an FSB Agent** / **在波兰被拘留的俄罗斯活动人士承认其为联邦安全局特工**
+- **Time**: 2025-11-09
+- **Content**: A Russian activist who was detained in Poland has confessed to working as an agent for Russia's Federal Security Service (FSB). This admission has heightened concerns about Russian intelligence activities in Eastern Europe. / 一名在波兰被拘留的俄罗斯活动人士承认，其为俄罗斯联邦安全局（FSB）的特工。这一事件加剧了外界对俄罗斯在东欧情报活动的担忧。
 - **Source**: The Guardian
 
-### 4. **Typhoon Kalmaegi Batters Philippines, 40 Dead** / **台风“海鸥”袭击菲律宾，造成40人死亡**
-- **Time**: 2025-11-08
-- **Content**: Typhoon Kalmaegi caused at least 40 deaths in the Philippines, bringing heavy flooding and destructive winds. / 台风“海鸥”在菲律宾造成至少40人死亡，并带来严重洪灾和破坏性大风。
-- **Source**: Global News
+### 4. **UK Deploys Specialist RAF Team to Belgium to Counter Drone Threat** / **英国向比利时部署皇家空军专业团队以应对无人机威胁**
+- **Time**: 2025-11-09
+- **Content**: The United Kingdom has sent a specialist team from the Royal Air Force (RAF) to Belgium to help defend against rogue drones. The deployment comes after multiple drone sightings caused significant disruptions at a major European cargo airport. / 英国已派遣一支皇家空军（RAF）的专业团队前往比利时，以协助防御“流氓”无人机。此前，一欧洲主要货运机场因多次无人机目击事件而导致航班严重中断。
+- **Source**: Sky News
 
-### 5. **Gaza Death Toll Exceeds 69,000** / **加沙死亡人数超过69,000人**
-- **Time**: 2025-11-08
-- **Content**: The Gaza death toll has exceeded 69,000 amidst continued exchanges between Israel and militants. / 在以色列和武装分子持续交火的背景下，加沙地带的死亡人数已超过69,000人。
+### 5. **Israel Receives Remains of Soldier Killed in 2014 Gaza Conflict** / **以色列接收2014年在加沙冲突中阵亡士兵的遗骸**
+- **Time**: 2025-11-09
+- **Content**: Israel has confirmed the receipt of the remains of a soldier who was killed during the 2014 conflict in Gaza. The return of the soldier's remains was part of a negotiated agreement. / 以色列证实，已收到一名在2014年加沙冲突中阵亡的士兵的遗骸。该士兵遗骸的归还是通过一项谈判协议实现的。
 - **Source**: AP News
 
-### 6. **Thousands Flee as Sudan's Paramilitary Forces Capture el-Fasher** / **苏丹准军事部队占领法希尔，数千人逃离**
-- **Time**: 2025-11-08
-- **Content**: Thousands are fleeing to overcrowded camps after Sudan's paramilitary forces captured el-Fasher. / 苏丹准军事部队占领法希尔后，数千人逃往过度拥挤的难民营。
+### 6. **US Transport Secretary Warns of Thanksgiving Air Travel Disruption Amidst Potential Government Shutdown** / **美国交通部长警告：若政府关门，感恩节期间航空旅行或将中断**
+- **Time**: 2025-11-09
+- **Content**: The U.S. Secretary of Transportation has warned that Thanksgiving air travel could be severely impacted, potentially slowing to a "trickle," if the current government shutdown continues. / 美国交通部长警告称，如果目前的政府停摆持续下去，感恩节期间的航空旅行可能会受到严重影响，甚至可能“陷入停滞”。
 - **Source**: AP News
 
-### 7. **Political Turmoil in Guyana Following Arrest of Opposition Leader** / **圭亚那反对派领导人被捕后政局动荡**
-- **Time**: 2025-11-08
-- **Content**: Guyana is experiencing turmoil following the arrest of an opposition leader who faces US extradition. / 圭亚那一名面临美国引渡的反对派领导人被捕后，该国正经历动荡。
+### 7. **Syria Launches Clampdown on Islamic State Cells, Seizes Explosives** / **叙利亚对“伊斯兰国”基层组织展开镇压，缴获爆炸物**
+- **Time**: 2025-11-09
+- **Content**: Syrian authorities have initiated a significant operation targeting Islamic State (IS) cells within the country. The clampdown has resulted in the seizure of a large cache of explosives and weapons, along with 71 arrests. / 叙利亚当局已在该国境内发起一项针对“伊斯兰国”（IS）基层组织的重要行动。此次镇压行动已缴获大量爆炸物和武器，并逮捕了71人。
+- **Source**: Sky News
+
+### 8. **Explosions at Indonesian School Mosque Injure Dozens** / **印度尼西亚一所学校的清真寺发生爆炸，数十人受伤**
+- **Time**: 2025-11-09
+- **Content**: Multiple explosions at a school mosque in Indonesia have left at least 54 people injured. The cause of the blasts is currently under investigation by local authorities. / 印度尼西亚一所学校的清真寺发生多起爆炸，造成至少54人受伤。地方当局目前正在调查爆炸原因。
 - **Source**: The Guardian
 
-### 8. **Iran Accused of Plotting to Assassinate Israeli Ambassador to Mexico** / **伊朗被指控策划暗杀以色列驻墨西哥大使**
-- **Time**: 2025-11-08
-- **Content**: Iran has been accused of plotting to assassinate the Israeli ambassador to Mexico. / 伊朗被指控策划暗杀以色列驻墨西哥大使。
-- **Source**: The Guardian
-
-### 9. **Drone Sightings Halt Flights at Major European Cargo Airport** / **无人机出没导致欧洲主要货运机场航班暂停**
-- **Time**: 2025-11-08
-- **Content**: Drone sightings led to the halting of flights at a major European cargo airport in Belgium. / 无人机出没导致比利时一个欧洲主要货运机场的航班暂停。
+### 9. **Former French President Sarkozy May Be Released From Prison Early** / **法国前总统萨科齐或将提前出狱**
+- **Time**: 2025-11-09
+- **Content**: Former French President Nicolas Sarkozy, who was recently sentenced to prison, may be released after serving only 20 days of his sentence. The potential early release is subject to judicial review. / 最近被判入狱的法国前总统尼古拉·萨科齐可能在服刑仅20天后获释。这一可能的提前释放还有待司法审查。
 - **Source**: AP News
 
-### 10. **Australian Man Found Guilty of Murder in Canada** / **澳大利亚男子在加拿大被判谋杀罪名成立**
-- **Time**: 2025-11-08
-- **Content**: An Australian man was found guilty of killing Tatiana Dokhotaru in British Columbia, Canada. / 一名澳大利亚男子在加拿大不列颠哥伦比亚省被裁定杀害塔蒂亚娜·多霍塔鲁罪名成立。
+### 10. **Russia Unleashes New Wave of Missile and Drone Attacks Across Ukraine** / **俄罗斯对乌克兰发动新一轮导弹和无人机袭击**
+- **Time**: 2025-11-09
+- **Content**: Russia has launched a fresh wave of missile and drone strikes across various regions of Ukraine. The attacks have reportedly resulted in at least six civilian deaths and caused further damage to the country's infrastructure. / 俄罗斯对乌克兰多个地区发动了新一轮的导弹和无人机袭击。据报道，这些袭击已导致至少6名平民死亡，并对该国的基础设施造成了进一步的破坏。
 - **Source**: Global News
 
 ---

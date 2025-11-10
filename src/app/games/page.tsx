@@ -16,6 +16,11 @@ const gamesData: GlowCardItem[] = [
     title: 'Tetris',
     href: '/pages/tetris.html'
   },
+  {
+    id: 'endless',
+    title: 'Endless',
+    href: '/games/endless'
+  },
 ];
 
 export default function GamesPage() {

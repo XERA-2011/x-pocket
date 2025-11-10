@@ -1,60 +1,60 @@
 # Global Breaking News TOP10
 
-**Date**: 2025年11月09日
-**Update Time**: 22:18 UTC
+**Date**: 2025年11月10日
+**Update Time**: 22:21 UTC
 **AI Model**: Google Gemini / Google Gemini
 
 ---
 
-### 1. **Typhoon Fung-wong Hits Philippines, Over 1 Million Evacuated** / **台风“凤凰”袭击菲律宾，超百万人疏散**
-- **Time**: 2025-11-09
-- **Content**: Typhoon Fung-wong made landfall in the Philippines, leading to the evacuation of over 1 million people and causing at least two deaths. The typhoon follows closely on the heels of Typhoon Kalmaegi, which recently caused widespread destruction in the region. / 台风“凤凰”在菲律宾登陆，导致超过100万人疏散，至少两人死亡。此前不久，台风“海鸥”刚刚在该地区造成了广泛的破坏。
+### 1. **Israel-Hamas War Intensifies** / **以哈战争加剧**
+- **Time**: 2025-11-10
+- **Content**: The conflict continues with the Gaza death toll topping 69,000, an exchange of remains between Israel and militants, and Israeli jets striking southern Lebanon. Global Affairs Canada is exploring a possible postwar role in the Gaza Strip. / 冲突仍在继续，加沙死亡人数已超过69,000人，以色列与武装分子交换了遗体，以色列战机袭击了黎巴嫩南部。加拿大全球事务部正在探讨战后在加沙地带可能扮演的角色。
+- **Source**: CTV News
+
+### 2. **Russia-Ukraine War Developments** / **俄乌战争新动态**
+- **Time**: 2025-11-10
+- **Content**: Ukrainian strikes have disrupted power and heating in two major Russian cities, while Russian strikes hit an apartment block and energy sites in Ukraine, killing four. / 乌克兰的袭击导致俄罗斯两个主要城市的电力和供暖中断，而俄罗斯的袭击则击中了乌克兰的一栋公寓楼和能源设施，造成四人死亡。
+- **Source**: CTV News
+
+### 3. **Typhoon Fung-wong Batters the Philippines** / **台风“凤凰”袭击菲律宾**
+- **Time**: 2025-11-10
+- **Content**: Super Typhoon Fung-wong made landfall, leading to over 1 million evacuations, at least 8 deaths, and 1.4 million displaced. / 超强台风“凤凰”登陆，导致超过100万人疏散，至少8人死亡，140万人流离失所。
+- **Source**: Associated Press
+
+### 4. **Deadly Car Blast in New Delhi** / **新德里发生致命汽车爆炸事件**
+- **Time**: 2025-11-10
+- **Content**: A car explosion near New Delhi's historic Red Fort killed at least eight people, according to Indian police. / 据印度警方称，新德里历史悠久的红堡附近发生汽车爆炸，造成至少八人死亡。
+- **Source**: Associated Press
+
+### 5. **BBC Leadership Crisis Over Trump Speech** / **BBC因特朗普演讲事件引发领导层危机**
+- **Time**: 2025-11-10
+- **Content**: Top BBC bosses have resigned following controversy and criticism over the broadcaster's editing of a speech by Donald Trump, who is now threatening to sue the BBC. / 在BBC编辑唐纳德·特朗普的演讲引发争议和批评后，BBC高层老板已经辞职，而特朗普现在正威胁要起诉BBC。
+- **Source**: Business Standard
+
+### 6. **Former French President Sarkozy Released** / **法国前总统萨科齐获释**
+- **Time**: 2025-11-10
+- **Content**: Nicolas Sarkozy has been released from prison pending an appeal in a conspiracy case. / 尼古拉·萨科齐已从监狱获释，等待共谋案的上诉。
 - **Source**: The Guardian
 
-### 2. **Powerful Tornado in Brazil Leaves 6 Dead, Over 400 Injured** / **巴西强龙卷风造成6人死亡，400多人受伤**
-- **Time**: 2025-11-09
-- **Content**: A powerful tornado struck southern Brazil, resulting in at least six fatalities and injuring over 400 people. The tornado caused extensive damage to homes and infrastructure in the affected area. / 一场强龙卷风袭击了巴西南部的部分地区，造成至少6人死亡，400多人受伤。龙卷风对灾区的房屋和基础设施造成了广泛的破坏。
-- **Source**: Global News
+### 7. **Jihadist Turf War in Nigeria** / **尼日利亚发生圣战组织地盘争夺战**
+- **Time**: 2025-11-10
+- **Content**: Around 200 people have been killed in a jihadist turf war in north-eastern Nigeria. / 尼日利亚东北部发生的一场圣战组织地盘争夺战中，约有200人丧生。
+- **Source**: The Hindu
 
-### 3. **Russian Activist Detained in Poland Admits to Being an FSB Agent** / **在波兰被拘留的俄罗斯活动人士承认其为联邦安全局特工**
-- **Time**: 2025-11-09
-- **Content**: A Russian activist who was detained in Poland has confessed to working as an agent for Russia's Federal Security Service (FSB). This admission has heightened concerns about Russian intelligence activities in Eastern Europe. / 一名在波兰被拘留的俄罗斯活动人士承认，其为俄罗斯联邦安全局（FSB）的特工。这一事件加剧了外界对俄罗斯在东欧情报活动的担忧。
-- **Source**: The Guardian
-
-### 4. **UK Deploys Specialist RAF Team to Belgium to Counter Drone Threat** / **英国向比利时部署皇家空军专业团队以应对无人机威胁**
-- **Time**: 2025-11-09
-- **Content**: The United Kingdom has sent a specialist team from the Royal Air Force (RAF) to Belgium to help defend against rogue drones. The deployment comes after multiple drone sightings caused significant disruptions at a major European cargo airport. / 英国已派遣一支皇家空军（RAF）的专业团队前往比利时，以协助防御“流氓”无人机。此前，一欧洲主要货运机场因多次无人机目击事件而导致航班严重中断。
+### 8. **US Senate Reaches Deal to End Government Shutdown** / **美国参议院达成协议结束政府关门**
+- **Time**: 2025-11-10
+- **Content**: The US Senate has struck a deal aimed at ending a record-long government shutdown. / 美国参议院达成一项协议，旨在结束创纪录的政府关门。
 - **Source**: Sky News
 
-### 5. **Israel Receives Remains of Soldier Killed in 2014 Gaza Conflict** / **以色列接收2014年在加沙冲突中阵亡士兵的遗骸**
-- **Time**: 2025-11-09
-- **Content**: Israel has confirmed the receipt of the remains of a soldier who was killed during the 2014 conflict in Gaza. The return of the soldier's remains was part of a negotiated agreement. / 以色列证实，已收到一名在2014年加沙冲突中阵亡的士兵的遗骸。该士兵遗骸的归还是通过一项谈判协议实现的。
-- **Source**: AP News
+### 9. **India Airlifts Citizens from Myanmar Cybercrime Hub** / **印度从缅甸网络犯罪中心空运公民**
+- **Time**: 2025-11-10
+- **Content**: India has airlifted 197 citizens who were working in a Myanmar cybercrime hub from Thailand. / 印度从泰国空运了197名在缅甸网络犯罪中心工作的公民。
+- **Source**: The Hindu
 
-### 6. **US Transport Secretary Warns of Thanksgiving Air Travel Disruption Amidst Potential Government Shutdown** / **美国交通部长警告：若政府关门，感恩节期间航空旅行或将中断**
-- **Time**: 2025-11-09
-- **Content**: The U.S. Secretary of Transportation has warned that Thanksgiving air travel could be severely impacted, potentially slowing to a "trickle," if the current government shutdown continues. / 美国交通部长警告称，如果目前的政府停摆持续下去，感恩节期间的航空旅行可能会受到严重影响，甚至可能“陷入停滞”。
-- **Source**: AP News
-
-### 7. **Syria Launches Clampdown on Islamic State Cells, Seizes Explosives** / **叙利亚对“伊斯兰国”基层组织展开镇压，缴获爆炸物**
-- **Time**: 2025-11-09
-- **Content**: Syrian authorities have initiated a significant operation targeting Islamic State (IS) cells within the country. The clampdown has resulted in the seizure of a large cache of explosives and weapons, along with 71 arrests. / 叙利亚当局已在该国境内发起一项针对“伊斯兰国”（IS）基层组织的重要行动。此次镇压行动已缴获大量爆炸物和武器，并逮捕了71人。
-- **Source**: Sky News
-
-### 8. **Explosions at Indonesian School Mosque Injure Dozens** / **印度尼西亚一所学校的清真寺发生爆炸，数十人受伤**
-- **Time**: 2025-11-09
-- **Content**: Multiple explosions at a school mosque in Indonesia have left at least 54 people injured. The cause of the blasts is currently under investigation by local authorities. / 印度尼西亚一所学校的清真寺发生多起爆炸，造成至少54人受伤。地方当局目前正在调查爆炸原因。
-- **Source**: The Guardian
-
-### 9. **Former French President Sarkozy May Be Released From Prison Early** / **法国前总统萨科齐或将提前出狱**
-- **Time**: 2025-11-09
-- **Content**: Former French President Nicolas Sarkozy, who was recently sentenced to prison, may be released after serving only 20 days of his sentence. The potential early release is subject to judicial review. / 最近被判入狱的法国前总统尼古拉·萨科齐可能在服刑仅20天后获释。这一可能的提前释放还有待司法审查。
-- **Source**: AP News
-
-### 10. **Russia Unleashes New Wave of Missile and Drone Attacks Across Ukraine** / **俄罗斯对乌克兰发动新一轮导弹和无人机袭击**
-- **Time**: 2025-11-09
-- **Content**: Russia has launched a fresh wave of missile and drone strikes across various regions of Ukraine. The attacks have reportedly resulted in at least six civilian deaths and caused further damage to the country's infrastructure. / 俄罗斯对乌克兰多个地区发动了新一轮的导弹和无人机袭击。据报道，这些袭击已导致至少6名平民死亡，并对该国的基础设施造成了进一步的破坏。
-- **Source**: Global News
+### 10. **EU Moves to Counter Russian Hybrid Attacks** / **欧盟采取措施反击俄罗斯的混合攻击**
+- **Time**: 2025-11-10
+- **Content**: The European Union is taking steps to shield media and elections from Russian "hybrid attacks." / 欧盟正在采取措施，保护媒体和选举免受俄罗斯的“混合攻击”。
+- **Source**: CTV News
 
 ---
 

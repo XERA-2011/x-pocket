@@ -3,19 +3,18 @@
 import { motion } from 'framer-motion';
 import ScrollReveal from '@/components/ScrollReveal';
 import GlowCardList, { GlowCardItem } from '@/components/ui/GlowCardList';
-import { getSmartHref } from '@/utils/href-helper';
 import { usePageTitle } from '@/hooks/use-page-title';
 
 const gamesData: GlowCardItem[] = [
   {
     id: 'solar-skirmish',
     title: 'Solar Skirmish',
-    href: getSmartHref('/pages/solar.html')
+    href: '/pages/solar.html'
   },
   {
     id: 'tetris',
     title: 'Tetris',
-    href: getSmartHref('/pages/tetris.html')
+    href: '/pages/tetris.html'
   },
 ];
 

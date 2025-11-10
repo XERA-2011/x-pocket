@@ -1,42 +1,45 @@
 # 应用文
 
-## A thank-you email to a host family after staying with them
-- 给寄宿家庭的感谢信
+## An email to a friend asking for advice about choosing a university course
+- 给朋友写一封邮件，就选择大学课程征求建议
 
 **正文**：
 
-Dear Mr. and Mrs. Smith,
+Hi Alex,
 
-I am writing to express my sincere gratitude for your kindness during my stay. I have safely returned home, but I already miss the wonderful time we spent together. Your warm hospitality made me feel like a true member of your family.
+How are you? I'm writing to you because I really need your advice. I'm trying to decide what to study at university, and I'm feeling a bit lost.
 
-Thank you so much for the delicious meals you prepared and for helping me with my English. I especially enjoyed our weekend trip to the local museum; it was a fantastic experience.
+I've always been interested in technology and computers, so I was thinking about a computer science course. However, I also enjoy art and design, and I'm wondering if I should choose something more creative, like graphic design. You know me so well and you're already at university. What do you think would be a better fit for me? Any advice would be greatly appreciated.
 
-I hope to see you again in the future. Please keep in touch.
+Hope to hear from you soon.
 
-Best regards,
+Best,
+Chris
 
-Alex
-
-- 尊敬的史密斯先生和太太：
-- 我写这封信是为了表达我对您在我逗留期间所给予的善意的诚挚感谢。如今我已平安到家，但我已经开始怀念我们共度的美好时光。您们的热情好客让我感觉自己像是这个家庭的一员。
-- 非常感谢您们为我准备的美味餐点以及在英语学习上给我的帮助。我尤其喜欢我们周末去的本地博物馆，那是一次非常棒的经历。
-- 我希望能与您们在未来再次相见。请保持联系。
-- 此致，
-- 敬礼
-- 亚历克斯
+- 你好，亚历克斯，
+- 
+- 最近怎么样？我写信给你是因为我真的需要你的建议。我正在努力决定在大学里学什么，感觉有点迷茫。
+- 
+- 我一直对技术和计算机很感兴趣，所以我在考虑读计算机科学课程。然而，我也喜欢艺术和设计，我在想是否应该选择一些更有创意的东西，比如平面设计。你非常了解我，而且你已经上大学了。你觉得哪个更适合我？如果你能给我任何建议，我将不胜感激。
+- 
+- 希望很快能收到你的来信。
+- 
+- 最好的祝愿，
+- 克里斯
 
 ---
 
 # 记叙文/短文
 
-## A story about overcoming a fear
-- 一个关于克服恐惧的故事
+## Write a story about an unexpected message you received
+- 写一个关于你收到的意想不到的消息的故事
 
 **正文**：
 
-I had always been terrified of heights. The mere thought of standing on a high balcony made my legs tremble. Last summer, my friends invited me to go rock climbing. Initially, I refused, but they encouraged me to just give it a try.
+Last Tuesday, I was studying in the library when my phone buzzed. It was a message from an unknown number. "Is this Sarah? I found a wallet with your name inside," it read. I checked my bag and realised my wallet was gone! I felt so panicked.
 
-At the climbing center, I stared at the tall wall, my heart pounding. With the instructor's guidance and my friends cheering me on, I took the first step. It was difficult, but I kept going, focusing only on the next hold. When I finally reached the top, I felt an incredible sense of achievement. I had faced my fear and won.
+I replied immediately, and the person told me they were at a café near the library. I rushed over and met a kind old lady who handed me my wallet. Nothing was missing. I was so relieved and grateful. It was an unexpected message, but it saved my day and restored my faith in strangers.
 
-- 我一直都非常恐高。只要一想到站在高处的阳台上，我的双腿就会发抖。去年夏天，我的朋友们邀请我去攀岩。起初我拒绝了，但他们鼓励我至少去试一试。
-- 在攀岩中心，我盯着高高的墙壁，心跳加速。在教练的指导和朋友们的加油声中，我迈出了第一步。过程很艰难，但我没有放弃，只专注于下一个抓手。当我最终到达顶端时，我感受到了一种不可思议的成就感。我战胜了我的恐惧。
+- 上周二，我正在图书馆学习，这时我的手机响了。是一条来自未知号码的消息。上面写着：“是莎拉吗？我找到了一个里面有你名字的钱包。”我检查了我的包，发现我的钱包不见了！我感到非常恐慌。
+- 
+- 我立刻回复了，那个人告诉我他们在图书馆附近的一家咖啡馆。我赶过去，遇到了一位和蔼的老太太，她把我的钱包递给了我。什么都没少。我感到非常宽慰和感激。这是一条意想不到的消息，但它拯救了我的一天，也让我重新相信了陌生人。

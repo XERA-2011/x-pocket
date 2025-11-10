@@ -22,6 +22,11 @@ const toolsData: GlowCardItem[] = [
     href: "/tools/joke-card",
   },
   {
+    id: "polymarket",
+    title: "Polymarket 预测市场",
+    href: "/tools/polymarket",
+  },
+  {
     id: "coze",
     title: "Coze",
     href: "/tools/coze",

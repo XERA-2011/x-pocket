@@ -7,9 +7,9 @@
 ## 完成的工作
 
 ### 1. 数据文件
-- ✅ `/src/data/jokes-raw.json` - 原始笑话数据（400+ 条编程笑话）
-- ✅ `/src/data/jokes.ts` - TypeScript 笑话数据类型定义和导出
-- ✅ `/src/data/themes.ts` - 主题配置（40+ 种预定义主题）
+- ✅ `/src/data/jokes/jokes-raw.json` - 原始笑话数据（400+ 条编程笑话）
+- ✅ `/src/data/jokes/jokes.ts` - TypeScript 笑话数据类型定义和导出
+- ✅ `/src/data/jokes/themes.ts` - 主题配置（40+ 种预定义主题）
 
 ### 2. API 路由
 - ✅ `/src/app/api/joke/route.ts` - Next.js App Router API 端点

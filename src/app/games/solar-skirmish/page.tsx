@@ -134,8 +134,21 @@ export default function Page() {
 
     resetGame();
 
+    // Initialize AudioContext on first user interaction
+    const initAudio = () => {
+      if (!acRef.current && !muted) {
+        try {
+          const AudioContextClass = window.AudioContext || (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+          if (AudioContextClass) {
+            acRef.current = new AudioContextClass();
+          }
+        } catch { /* ignore */ }
+      }
+    };
+
     // ===== Input =====
     const onKey = (e: KeyboardEvent, down: boolean) => {
+      if (down) initAudio(); // Initialize audio on first keypress
       const k = e.key.toLowerCase();
       if (k === "arrowup" || k === "w") inputs.current.up = down;
       if (k === "arrowleft" || k === "a") inputs.current.left = down;
@@ -154,7 +167,7 @@ export default function Page() {
     // Mouse fire (hold) and steer with mouse when pressed
     let mouseX = 0, mouseY = 0, mouseDown = false;
     canvas.addEventListener("mousemove", (e) => { const rect = canvas.getBoundingClientRect(); mouseX = e.clientX - rect.left; mouseY = e.clientY - rect.top; });
-    canvas.addEventListener("mousedown", () => { mouseDown = true; inputs.current.fire = true; });
+    canvas.addEventListener("mousedown", () => { initAudio(); mouseDown = true; inputs.current.fire = true; }); // Initialize audio on first click
     window.addEventListener("mouseup", () => { mouseDown = false; inputs.current.fire = false; });
 
     // ===== Helpers =====
@@ -166,16 +179,13 @@ export default function Page() {
     };
 
     const trySfx = (fn: () => void) => {
-      if (muted) return;
-      if (!acRef.current) {
-        try {
-          const AudioContextClass = window.AudioContext || (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
-          if (AudioContextClass) {
-            acRef.current = new AudioContextClass();
-          }
-        } catch { /* ignore */ }
+      if (muted || !acRef.current) return;
+      // Ensure AudioContext is running before playing sound
+      if (acRef.current.state === 'suspended') {
+        acRef.current.resume().then(() => fn()).catch(() => { /* ignore */ });
+      } else {
+        fn();
       }
-      if (acRef.current) fn();
     };
 
     // ===== Main Loop =====
@@ -456,17 +466,21 @@ export default function Page() {
   }, [muted, gameOver, lives, paused, score]);
 
   return (
-    <div style={{ height: "100svh", background: "#070a12", color: "#cfe", fontFamily: "ui-monospace, monospace" }}>
-      <div style={{ position: "absolute", inset: 0, display: "grid", gridTemplateRows: "auto 1fr" }}>
-        <header style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 14px", borderBottom: "1px solid #111", background: "linear-gradient(180deg, #0c1222, #0a0f1c)" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <span style={{ fontWeight: 700 }}>🚀 Solar Skirmish</span>
-            <span style={{ opacity: 0.7, fontSize: 12 }}>Asteroids + Dogfights</span>
+    <div className="relative w-full min-h-screen py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-[#070a12] text-[#cfe] font-mono rounded-lg overflow-hidden shadow-2xl">
+          <div className="grid grid-rows-[auto_1fr]">
+            <header className="flex items-center justify-between px-3.5 py-2.5 border-b border-[#111] bg-gradient-to-b from-[#0c1222] to-[#0a0f1c]">
+              <div className="flex items-center gap-2">
+                <span className="font-bold">🚀 Solar Skirmish</span>
+                <span className="opacity-70 text-xs">Asteroids + Dogfights</span>
+              </div>
+              <div className="text-xs opacity-80">Space: fire • Shift: boost • P: pause • M: mute</div>
+            </header>
+            <div className="relative">
+              <canvas ref={canvasRef} className="w-full h-[calc(100vh-200px)] block cursor-crosshair" />
+            </div>
           </div>
-          <div style={{ fontSize: 12, opacity: 0.8 }}>Space: fire • Shift: boost • P: pause • M: mute</div>
-        </header>
-        <div style={{ position: "relative" }}>
-          <canvas ref={canvasRef} style={{ width: "100%", height: "calc(100svh - 44px)", display: "block", cursor: "crosshair" }} />
         </div>
       </div>
     </div>

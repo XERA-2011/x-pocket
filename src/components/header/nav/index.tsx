@@ -37,10 +37,7 @@ const Nav: React.FC<IndexProps> = ({ setIsActive }) => {
   return (
     <div
       className={styles.nav}
-      onClick={(e) => {
-        console.log('Nav clicked', e.target);
-        setIsActive(false);
-      }}
+      onClick={() => setIsActive(false)}
     >
       <motion.div
         variants={height}

@@ -7,14 +7,14 @@ import { usePageTitle } from '@/hooks/use-page-title';
 
 const gamesData: GlowCardItem[] = [
   {
-    id: 'tetris',
-    title: 'Tetris',
-    href: '/pages/tetris.html'
-  },
-  {
     id: 'endless',
     title: 'Endless',
     href: '/games/endless'
+  },
+  {
+    id: 'solar-skirmish',
+    title: 'Solar Skirmish',
+    href: '/games/solar-skirmish'
   },
 ];
 

@@ -10,6 +10,7 @@ interface BattleLog {
   message: string;
   success: boolean;
   enemyName: string;
+  description?: string;
 }
 
 export default function EndlessPage() {
@@ -50,6 +51,7 @@ export default function EndlessPage() {
         message: message,
         success: success,
         enemyName: result.enemyName,
+        description: result.description,
       };
 
       setBattleLogs(prev => [newLog, ...prev]);
@@ -229,8 +231,13 @@ export default function EndlessPage() {
                     <div className="flex items-start gap-2">
                       <div className="flex-1">
                         <div className="text-xs opacity-60 mb-1">
-                          Lv.{log.level}
+                          Lv.{log.level} - {log.enemyName}
                         </div>
+                        {log.description && (
+                          <div className="text-xs opacity-50 mb-1 italic">
+                            {log.description}
+                          </div>
+                        )}
                         <div className="text-sm">
                           {log.message}
                         </div>

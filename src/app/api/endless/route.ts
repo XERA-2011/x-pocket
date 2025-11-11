@@ -1,49 +1,39 @@
 import { NextResponse } from 'next/server';
+import { battleScenes } from '@/data/endless/endless';
 
-// Battle scene type
-interface BattleScene {
+// Battle scene response type
+interface BattleSceneResponse {
   enemyName: string;
   successMessage: string;
   failMessage: string;
-}
-
-// Enemy names list
-const enemies = [
-  'Slime', 'Goblin', 'Skeleton Warrior', 'Wild Wolf', 'Giant Spider',
-  'Ogre', 'Shadow Assassin', 'Fire Elemental', 'Frost Giant', 'Dark Knight',
-  'Demon Lord', 'Ancient Dragon', 'Void Walker', 'Titan Beast', 'Chaos King',
-  'Cerberus', 'Necromancer', 'Vampire Count', 'Thunder God', 'Abyss Demon'
-];
-
-// Battle success messages
-const successMessages = [
-  'You slayed', 'You defeated', 'You conquered', 'You eliminated',
-  'You vanquished', 'You destroyed', 'You crushed', 'You terminated'
-];
-
-// Battle failure messages
-const failMessages = [
-  'You were defeated...', 'You fell in battle...', 'You were overwhelmed...',
-  'You met your match...', 'Your journey ends here...'
-];
-
-/**
- * Get random element from array
- */
-function getRandomElement<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)];
+  description?: string;
 }
 
 export async function GET() {
   try {
-    // Return random battle scene
-    const scene: BattleScene = {
-      enemyName: getRandomElement(enemies),
-      successMessage: getRandomElement(successMessages),
-      failMessage: getRandomElement(failMessages),
+    // Get random battle scene from endless data
+    const sceneKeys = Object.keys(battleScenes);
+    const randomKey = sceneKeys[Math.floor(Math.random() * sceneKeys.length)];
+    const scene = battleScenes[randomKey];
+
+    // Validate scene exists
+    if (!scene) {
+      console.error('Battle scene not found for key:', randomKey);
+      return NextResponse.json(
+        { error: 'Battle scene not found' },
+        { status: 404 }
+      );
+    }
+
+    // Return battle scene
+    const response: BattleSceneResponse = {
+      enemyName: scene.enemyName,
+      successMessage: scene.successMessage,
+      failMessage: scene.failMessage,
+      description: scene.description,
     };
 
-    return NextResponse.json(scene, {
+    return NextResponse.json(response, {
       headers: {
         'Cache-Control': 'no-store',
       },

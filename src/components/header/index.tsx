@@ -35,7 +35,10 @@ const Header = ({ loader }: HeaderProps) => {
         duration: 0.8,
       }}
     >
-      <div className={cn(styles.bar, "flex items-center justify-between")}>
+      <div
+        className={cn(styles.bar, "flex items-center justify-between")}
+        onClick={() => isActive && setIsActive(false)}
+      >
         <Link href="/" className="flex items-center justify-center cursor-can-hover">
           <span className="text-base md:text-lg font-bold">
             X-POCKET
@@ -62,7 +65,10 @@ const Header = ({ loader }: HeaderProps) => {
           </Link>
 
           <button
-            onClick={() => setIsActive(!isActive)}
+            onClick={(e) => {
+              e.stopPropagation();
+              setIsActive(!isActive);
+            }}
             className={cn(
               styles.el,
               "m-0 p-0 h-6 bg-transparent flex items-center justify-center border-none",

@@ -18,6 +18,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // 优化字体加载
+  experimental: {
+    optimizePackageImports: ['next/font/google'],
+  },
 };
 
 export default nextConfig;

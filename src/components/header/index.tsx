@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import styles from "./style.module.scss";
@@ -8,13 +7,14 @@ import { background } from "./anim";
 import Nav from "./nav";
 import { cn } from "@/utils/cn";
 import Breadcrumb from "./Breadcrumb";
+import { useApp } from "@/contexts/AppContext";
 
 interface HeaderProps {
   loader?: boolean;
 }
 
 const Header = ({ loader }: HeaderProps) => {
-  const [isActive, setIsActive] = useState<boolean>(false);
+  const { isMenuActive: isActive, setIsMenuActive: setIsActive } = useApp();
 
   return (
     <motion.header

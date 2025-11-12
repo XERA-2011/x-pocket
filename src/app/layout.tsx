@@ -7,6 +7,7 @@ import Header from "@/components/header";
 import SmoothScroll from "@/components/SmoothScroll";
 import ElasticCursor from "@/components/ui/ElasticCursor";
 import Preloader from "@/components/preloader";
+import { AppProvider } from "@/contexts/AppContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,15 +34,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased theme-scrollbar`}
       >
-        <Preloader>
-          <SmoothScroll>
-            <Background />
-            <Header />
-            {children}
-            {/* <Footer /> */}
-            <ElasticCursor />
-          </SmoothScroll>
-        </Preloader>
+        <AppProvider>
+          <Preloader>
+            <SmoothScroll>
+              <Background />
+              <Header />
+              {children}
+              {/* <Footer /> */}
+              <ElasticCursor />
+            </SmoothScroll>
+          </Preloader>
+        </AppProvider>
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
 import Logo from '@/components/ui/Logo';
+import { useApp } from '@/contexts/AppContext';
 
 interface CurrentTime {
   year: number;
@@ -27,6 +28,7 @@ export default function HeroSection() {
     minutes: 0,
     seconds: 0
   });
+  const { setIsMenuActive } = useApp();
 
   useEffect(() => {
     const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
@@ -75,6 +77,7 @@ export default function HeroSection() {
           ref={logoRef}
           onHoverStart={() => setIsHovered(true)}
           onHoverEnd={() => setIsHovered(false)}
+          onClick={() => setIsMenuActive(true)}
           className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full cursor-pointer"
         >
           {/* Background container */}

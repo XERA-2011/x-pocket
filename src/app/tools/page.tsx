@@ -22,6 +22,11 @@ const toolsData: GlowCardItem[] = [
     href: "/tools/joke-card",
   },
   {
+    id: "asset-allocation",
+    title: "资产配置占比",
+    href: "/tools/asset-allocation",
+  },
+  {
     id: "coze",
     title: "Coze",
     href: "/tools/coze",

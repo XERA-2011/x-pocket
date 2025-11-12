@@ -27,6 +27,11 @@ const toolsData: GlowCardItem[] = [
     href: "/tools/asset-allocation",
   },
   {
+    id: "life-countdown",
+    title: "人生倒计时",
+    href: "/tools/life-countdown",
+  },
+  {
     id: "coze",
     title: "Coze",
     href: "/tools/coze",

@@ -105,11 +105,23 @@ export default function InfoCreatePage() {
   return (
     <div className="relative w-full min-h-screen bg-black py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        {/* Page Title */}
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            信息生成器
+          </h2>
+        </motion.div>
+
         <motion.div
           className="text-center mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
         >
           <button
             onClick={generateAllInfo}
@@ -124,7 +136,7 @@ export default function InfoCreatePage() {
             className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-white/10"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
           >
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4">
               <h2 className="text-xl font-bold text-white cursor-can-hover">生成的信息</h2>
@@ -256,7 +268,7 @@ export default function InfoCreatePage() {
           className="mt-12 bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
         >
           <h3 className="text-white font-medium mb-4 flex items-center gap-2">
             <span className="text-white/75">⚠️</span>

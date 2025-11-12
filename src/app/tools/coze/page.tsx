@@ -1,5 +1,6 @@
 'use client';
 import { useLayoutEffect, useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 import { usePageTitle } from '@/hooks/use-page-title';
 
 export default function CozeApiPage() {
@@ -148,10 +149,21 @@ export default function CozeApiPage() {
   const callCozeApi = streamCozeReply;
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-2 pt-20 pb-16 transition-colors duration-200">
-      <div className="w-full max-w-2xl flex flex-col gap-4">
+    <div className="relative w-full min-h-screen py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+        {/* Page Title */}
+        <motion.div
+          className="text-center mb-8"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            Coze API
+          </h2>
+        </motion.div>
+
         <div className="p-6 shadow flex flex-col gap-6">
-          <h1 className="text-2xl font-bold text-neutral-100 mb-2">COZE</h1>
           <form
             className="flex flex-col gap-4"
             onSubmit={(e) => {

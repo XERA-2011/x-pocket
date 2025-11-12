@@ -17,6 +17,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { usePageTitle } from '@/hooks/use-page-title';
+import { motion } from "framer-motion";
 
 // ===== Utility =====
 const TAU = Math.PI * 2;
@@ -52,7 +53,7 @@ interface Enemy extends Ent { aim: number; cd: number; aiTimer: number; hp: numb
 
 // ===== Main Page Component =====
 export default function Page() {
-  usePageTitle('Solar Skirmish');
+  usePageTitle('太空混战');
 
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [paused, setPaused] = useState(false);
@@ -468,6 +469,18 @@ export default function Page() {
   return (
     <div className="relative w-full min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Page Title */}
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            太空混战
+          </h2>
+        </motion.div>
+
         <div className="bg-[#070a12] text-[#cfe] font-mono rounded-lg overflow-hidden shadow-2xl">
           <div className="grid grid-rows-[auto_1fr]">
             <header className="flex items-center justify-between px-3.5 py-2.5 border-b border-[#111] bg-gradient-to-b from-[#0c1222] to-[#0a0f1c]">

@@ -192,11 +192,23 @@ export default function AssetAllocationPage() {
   return (
     <div className="relative w-full min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
+        {/* Page Title */}
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            资产配置占比
+          </h2>
+        </motion.div>
+
         <motion.div
           className="grid lg:grid-cols-2 gap-8"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
         >
           {/* 左侧：输入区域 */}
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">

@@ -19,7 +19,7 @@ const gamesData: GlowCardItem[] = [
 ];
 
 export default function GamesPage() {
-  usePageTitle('Games');
+  usePageTitle('游戏');
 
   return (
     <div className="relative w-full min-h-screen py-20">
@@ -33,7 +33,7 @@ export default function GamesPage() {
           viewport={{ once: true }}
         >
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Games
+            游戏
           </h1>
         </motion.div>
 

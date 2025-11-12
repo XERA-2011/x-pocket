@@ -71,7 +71,7 @@ export function MarkdownPage({
   const components = { ...defaultComponents, ...customComponents };
 
   return (
-    <div className="min-h-screen pt-20 pb-16 px-4">
+    <div className="min-h-screen pb-16 px-4">
       <div className={`mx-auto ${maxWidth} bg-white/10 rounded-3xl p-6 md:p-8`}>
         <div className="prose prose-invert max-w-none">
           <ReactMarkdown components={components}>

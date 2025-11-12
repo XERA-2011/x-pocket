@@ -7,6 +7,7 @@ import styles from "./style.module.scss";
 import { background } from "./anim";
 import Nav from "./nav";
 import { cn } from "@/utils/cn";
+import Breadcrumb from "./Breadcrumb";
 
 interface HeaderProps {
   loader?: boolean;
@@ -39,11 +40,14 @@ const Header = ({ loader }: HeaderProps) => {
         className={cn(styles.bar, "flex items-center justify-between")}
         onClick={() => isActive && setIsActive(false)}
       >
-        <Link href="/" className="flex items-center justify-center cursor-can-hover">
-          <span className="text-base md:text-lg font-bold">
-            X-POCKET
-          </span>
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link href="/" className="flex items-center justify-center cursor-can-hover">
+            <span className="text-base md:text-lg font-bold">
+              X-POCKET
+            </span>
+          </Link>
+          <Breadcrumb />
+        </div>
 
         <div className="flex items-center gap-4">
           <Link

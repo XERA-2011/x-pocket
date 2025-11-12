@@ -102,7 +102,11 @@ export default function HeroSection() {
             />
           </div>
           {/* X logo */}
-          <div className="absolute inset-0 flex items-center justify-center">
+          <motion.div
+            className="absolute inset-0 flex items-center justify-center"
+            animate={{ scale: isHovered ? 1.6 : 1 }}
+            transition={{ duration: 0.8 }}
+          >
             <Logo
               className={`w-1/2 h-1/2 ${isHovered ? 'text-black' : 'text-white'}`}
               variant={isHovered ? 'black' : 'white'}
@@ -111,7 +115,7 @@ export default function HeroSection() {
               strokeWidth={12}
               isHovered={isHovered}
             />
-          </div>
+          </motion.div>
         </motion.div>
       </div>
 

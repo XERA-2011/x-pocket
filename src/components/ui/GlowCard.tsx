@@ -61,10 +61,10 @@ const GlowCard: React.FC<GlowCardProps> = ({
         if (currentlyIsNearby) {
           const x = clientX - rect.left;
           const y = clientY - rect.top;
-          
+
           // Use the exact same angle calculation as the original HTML
           const angle = (Math.atan2(y - rect.height / 2, x - rect.width / 2) * 180 / Math.PI + 90 + 360) % 360;
-          
+
           cardRef.current.style.setProperty('--start', `${angle}`);
         }
       });

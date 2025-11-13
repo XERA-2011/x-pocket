@@ -58,14 +58,14 @@ function getAngle(diffX: number, diffY: number) {
 }
 
 function getRekt(el: HTMLElement) {
-  if (el.classList.contains("cursor-can-hover"))
-    return el.getBoundingClientRect();
-  else if (el.parentElement?.classList.contains("cursor-can-hover"))
-    return el.parentElement.getBoundingClientRect();
-  else if (
-    el.parentElement?.parentElement?.classList.contains("cursor-can-hover")
-  )
-    return el.parentElement.parentElement.getBoundingClientRect();
+  // 只查找最近的带有 cursor-can-hover 类的父元素
+  let current: HTMLElement | null = el;
+  while (current) {
+    if (current.classList.contains("cursor-can-hover")) {
+      return current.getBoundingClientRect();
+    }
+    current = current.parentElement;
+  }
   return null;
 }
 
@@ -126,25 +126,33 @@ function ElasticCursor() {
         setCursorMoved(true);
       }
       const el = e.target as HTMLElement;
-      const hoverElemRect = getRekt(el);
-      if (hoverElemRect) {
-        const rect = el.getBoundingClientRect();
+      // 找到带有 cursor-can-hover 类的元素
+      let hoverElement: HTMLElement | null = null;
+      let current: HTMLElement | null = el;
+      while (current) {
+        if (current.classList.contains("cursor-can-hover")) {
+          hoverElement = current;
+          break;
+        }
+        current = current.parentElement;
+      }
+
+      if (hoverElement) {
+        const rect = hoverElement.getBoundingClientRect();
         setIsHovering(true);
         gsap.to(jellyRef.current, {
           rotate: 0,
           duration: 0,
         });
         gsap.to(jellyRef.current, {
-          width: el.offsetWidth + 20,
-          height: el.offsetHeight + 20,
+          width: hoverElement.offsetWidth + 20,
+          height: hoverElement.offsetHeight + 20,
           x: rect.left + rect.width / 2,
           y: rect.top + rect.height / 2,
           borderRadius: 10,
           duration: 1.5,
           ease: "elastic.out(1, 0.3)",
         });
-
-        // return;
       } else {
         gsap.to(jellyRef.current, {
           borderRadius: 50,

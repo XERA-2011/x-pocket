@@ -11,11 +11,11 @@
 
   p {
     margin: 0px;
+    margin-right: 30px;
+    margin-top: 10px;
     display: flex;
     overflow: hidden;
     font-size: 32px;
-    padding-right: 30px;
-    padding-top: 10px;
     font-weight: 350;
   }
 }
@@ -27,7 +27,7 @@
 
     p {
       font-size: 5vw;
-      padding-right: 2vw;
+      margin-right: 2vw;
     }
   }
 }

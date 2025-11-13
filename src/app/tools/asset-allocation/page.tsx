@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { usePageTitle } from '@/hooks/use-page-title';
+import PieChart from '@/components/ui/PieChart';
 
 interface Asset {
   id: string;
@@ -18,6 +19,7 @@ export default function AssetAllocationPage() {
   const [assetAmount, setAssetAmount] = useState('');
   const [error, setError] = useState('');
   const [hoveredAsset, setHoveredAsset] = useState<string | null>(null);
+  const [copySuccess, setCopySuccess] = useState(false);
 
   const totalAmount = assets.reduce((sum, asset) => sum + asset.amount, 0);
 
@@ -26,7 +28,7 @@ export default function AssetAllocationPage() {
     if (assets.length === 0) {
       // 第一个颜色随机生成
       const hue = Math.floor(Math.random() * 360);
-      return `hsl(${hue}, 75%, 55%)`;
+      return `hsl(${hue}, 45%, 60%)`;
     }
 
     // 提取现有颜色的色相值
@@ -62,8 +64,8 @@ export default function AssetAllocationPage() {
 
     // 在最佳色相附近添加一些随机性，避免颜色过于规律
     const finalHue = (bestHue + Math.floor(Math.random() * 20 - 10) + 360) % 360;
-    const saturation = 70 + Math.floor(Math.random() * 15); // 70-85%
-    const lightness = 50 + Math.floor(Math.random() * 15); // 50-65%
+    const saturation = 40 + Math.floor(Math.random() * 15); // 40-55% (降低饱和度)
+    const lightness = 55 + Math.floor(Math.random() * 15); // 55-70% (提高亮度)
 
     return `hsl(${finalHue}, ${saturation}%, ${lightness}%)`;
   };
@@ -110,83 +112,26 @@ export default function AssetAllocationPage() {
     return (amount / totalAmount) * 100;
   };
 
-  // 生成饼图的SVG路径
-  const generatePieChart = () => {
-    if (assets.length === 0) return null;
+  const handleCopyData = async () => {
+    if (assets.length === 0) return;
 
-    const size = 300;
-    const center = size / 2;
-    const radius = size / 2 - 10;
-    let currentAngle = -90; // 从顶部开始
+    const copyText = [
+      `总资产：¥${totalAmount.toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`,
+      '',
+      ...assets.map((asset) => {
+        const percentage = getPercentage(asset.amount).toFixed(2);
+        const amount = asset.amount.toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        return `${asset.name}：¥${amount} (${percentage}%)`;
+      }),
+    ].join('\n');
 
-    return assets.map((asset, index) => {
-      const percentage = getPercentage(asset.amount);
-      const angle = (percentage / 100) * 360;
-      const startAngle = currentAngle;
-      const endAngle = currentAngle + angle;
-
-      currentAngle = endAngle;
-
-      // 如果是完整的圆（100%），使用circle元素
-      if (angle >= 359.99) {
-        return (
-          <g key={asset.id}>
-            <motion.circle
-              cx={center}
-              cy={center}
-              r={radius}
-              fill={asset.color}
-              stroke="rgba(255,255,255,0.2)"
-              strokeWidth="2"
-              initial={{ opacity: 0, scale: 0 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="hover:opacity-80 transition-opacity cursor-pointer"
-              onMouseEnter={() => setHoveredAsset(asset.id)}
-              onMouseLeave={() => setHoveredAsset(null)}
-            />
-          </g>
-        );
-      }
-
-      // 转换为弧度
-      const startRad = (startAngle * Math.PI) / 180;
-      const endRad = (endAngle * Math.PI) / 180;
-
-      // 计算路径点
-      const x1 = center + radius * Math.cos(startRad);
-      const y1 = center + radius * Math.sin(startRad);
-      const x2 = center + radius * Math.cos(endRad);
-      const y2 = center + radius * Math.sin(endRad);
-
-      const largeArc = angle > 180 ? 1 : 0;
-
-      const pathData = [
-        `M ${center} ${center}`,
-        `L ${x1} ${y1}`,
-        `A ${radius} ${radius} 0 ${largeArc} 1 ${x2} ${y2}`,
-        'Z'
-      ].join(' ');
-
-      return (
-        <g key={asset.id}>
-          <motion.path
-            d={pathData}
-            fill={asset.color}
-            stroke="rgba(255,255,255,0.2)"
-            strokeWidth="2"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="hover:opacity-80 transition-opacity cursor-pointer"
-            onMouseEnter={() => setHoveredAsset(asset.id)}
-            onMouseLeave={() => setHoveredAsset(null)}
-          />
-        </g>
-      );
-    });
+    try {
+      await navigator.clipboard.writeText(copyText);
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    } catch (err) {
+      console.error('复制失败:', err);
+    }
   };
 
   return (
@@ -265,10 +210,31 @@ export default function AssetAllocationPage() {
                 添加资产
               </button>
               <button
+                onClick={handleCopyData}
+                disabled={assets.length === 0}
+                className="px-6 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors border border-white/20 cursor-can-hover disabled:opacity-50 disabled:cursor-not-allowed relative"
+              >
+                {copySuccess ? (
+                  <span className="flex items-center gap-2">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    已复制
+                  </span>
+                ) : (
+                  <span className="flex items-center gap-2">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                    复制
+                  </span>
+                )}
+              </button>
+              <button
                 onClick={handleClear}
                 className="px-6 py-3 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors border border-white/20 cursor-can-hover"
               >
-                清空全部
+                清空
               </button>
             </div>
 
@@ -343,71 +309,12 @@ export default function AssetAllocationPage() {
             )}
 
             {/* 饼图 */}
-            <div className="flex justify-center items-center relative">
-              {assets.length > 0 ? (
-                <>
-                  <svg width="300" height="300" viewBox="0 0 300 300">
-                    <AnimatePresence>
-                      {generatePieChart()}
-                    </AnimatePresence>
-                  </svg>
-                  {/* 中心悬停提示信息 */}
-                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                    <AnimatePresence mode="wait">
-                      {hoveredAsset ? (
-                        <motion.div
-                          key={hoveredAsset}
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          exit={{ opacity: 0, scale: 0.8 }}
-                          transition={{ duration: 0.2 }}
-                          className="bg-black/80 backdrop-blur-sm rounded-xl p-4 border border-white/30 shadow-2xl max-w-[200px]"
-                        >
-                          {(() => {
-                            const asset = assets.find(a => a.id === hoveredAsset);
-                            if (!asset) return null;
-                            return (
-                              <div className="text-center">
-                                <div className="flex items-center justify-center gap-2 mb-2">
-                                  <div
-                                    className="w-3 h-3 rounded-full"
-                                    style={{ backgroundColor: asset.color }}
-                                  />
-                                  <div className="text-white font-semibold text-base truncate">{asset.name}</div>
-                                </div>
-                                <div className="text-white/70 text-xs mb-1">
-                                  ¥{asset.amount.toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                                </div>
-                                <div className="text-white text-xl font-bold">
-                                  {getPercentage(asset.amount).toFixed(2)}%
-                                </div>
-                              </div>
-                            );
-                          })()}
-                        </motion.div>
-                      ) : (
-                        <motion.div
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          exit={{ opacity: 0 }}
-                          className="text-white/40 text-sm"
-                        >
-                          悬停查看详情
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </div>
-                </>
-              ) : (
-                <div className="text-center text-white/50 py-20">
-                  <svg className="w-24 h-24 mx-auto mb-4 opacity-30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
-                  </svg>
-                  <p>添加资产后将显示饼图</p>
-                </div>
-              )}
-            </div>
+            <PieChart
+              assets={assets}
+              totalAmount={totalAmount}
+              hoveredAsset={hoveredAsset}
+              onAssetHover={setHoveredAsset}
+            />
 
             {/* 图例 */}
             {assets.length > 0 && (
